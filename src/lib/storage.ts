@@ -88,6 +88,7 @@ export interface JobsState {
   reminded: string[]
   deleted?: string[]
   tracked: Record<string, string> // opportunityId -> examId
+  lastVisit?: string
 }
 export const jobsStore = createStore<JobsState>('pd.jobs', { dismissed: [], applied: [], reminded: [], deleted: [], tracked: {} })
 
@@ -95,6 +96,7 @@ export interface ProfileOverride {
   roles?: string[]
   cities?: string[]
   minPayLakh?: number
+  privateMinPayLakh?: number
   southFirst?: boolean
 }
 export const profileStore = createStore<ProfileOverride>('pd.profile', {})

@@ -176,6 +176,9 @@ export interface Profile {
   homeStates: string[]
   cities: string[]
   minPayLakh: number
+  maxExperienceYears?: number
+  privateMinPayLakh?: number
+  privatePayFloorLakh?: number
 }
 
 export type OppTrack = 'marketing' | 'general' | 'agri' | 'state' | 'private'
@@ -206,7 +209,14 @@ export interface Opportunity {
   locations?: string[]
   link: string
   source?: string
-  sourceType: 'official' | 'news' | 'aggregator'
+  sourceType: 'official' | 'news' | 'aggregator' | 'portal'
+  kind?: 'portal'
+  payMinLakh?: number | null
+  payMaxLakh?: number | null
+  experienceText?: string
+  experienceMinYears?: number | null
+  postedAt?: string | null
+  lastSeen?: string
   fit?: number
   fitWhy?: string[]
   status: OppStatus
@@ -221,6 +231,10 @@ export interface OpportunitiesFile {
   curatedAt?: string
   discoveredAt?: string
   discoverBaseline?: boolean
+  portalAt?: string
+  portalBaseline?: boolean
+  portalStatus?: { name: string; ok: boolean; scanned?: number; fetched?: number; errors?: number; error?: string | null }[]
   curated: Opportunity[]
   discovered: Opportunity[]
+  portal?: Opportunity[]
 }

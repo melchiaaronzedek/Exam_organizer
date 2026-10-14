@@ -10,6 +10,7 @@ import { KIND_LABEL, cityOf, isFresh, mapsUrl, nextPhase } from '../lib/data'
 import { StatusChip } from '../components/StatusChip'
 import { dueEvents } from '../lib/notify'
 import { prefsStore, seenStore } from '../lib/storage'
+import { useJobs } from '../lib/useJobs'
 import type { CalEvent } from '../types'
 
 export function Dashboard() {
@@ -22,6 +23,15 @@ export function Dashboard() {
     setTimeout(() => document.getElementById(`exam-${id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80)
   }
   const seen = seenStore.use()
+  const J = useJobs()
+  const topJobs = J.all
+    .filter((o) => o.status === 'open' && !J.hidden(o) && o.expOk && (o.fit ?? 0) >= 45)
+    .sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0) || (b.fit ?? 0) - (a.fit ?? 0) || (a.days ?? 9999) - (b.days ?? 9999))
+    .slice(0, 4)
+  const openJob = (id: string) => {
+    navigate('jobs')
+    setTimeout(() => window.dispatchEvent(new CustomEvent('jt:focus-job', { detail: { id } })), 120)
+  }
   const upcoming = events.filter((e) => e.status !== 'done' && daysUntil(e.date)! >= 0)
   const hero = upcoming.find((e) => e.kind === 'exam') ?? upcoming[0]
   const due = dueEvents(events, prefs.leadDays)
@@ -213,6 +223,35 @@ export function Dashboard() {
           </ul>
         </section>
       </div>
+
+      {topJobs.length ? (
+        <section className="panel">
+          <h2 className="panel__title">
+            <Icon name="list" /> Top matches
+            <button className="btn btn--ghost btn--sm panel__action" onClick={() => navigate('jobs')}>
+              All jobs <Icon name="chevron" size={13} />
+            </button>
+          </h2>
+          <ul className="matches">
+            {topJobs.map((o) => (
+              <li key={o.id}>
+                <button className="match" onClick={() => openJob(o.id)}>
+                  <span className="match__top">
+                    <span className="job__org">{o.isNew ? <span className="dot dot--new" aria-label="New" /> : null}{o.org}</span>
+                    <span className={`fit fit--${(o.fit ?? 0) >= 70 ? 'high' : 'mid'}`}>{o.fit}</span>
+                  </span>
+                  <span className="match__post">{o.post}</span>
+                  <span className="match__meta muted">
+                    {o.pay ? <span className="mono">{o.pay}</span> : null}
+                    {o.applyCloses ? <span>closes {fmtShort(o.applyCloses)} · {relative(o.days)}</span> : o.postedAt ? <span>posted {fmtShort(o.postedAt)}</span> : null}
+                    {o.locations?.length ? <span>{o.locations.slice(0, 2).join(', ')}</span> : null}
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       <section className="panel">
         <h2 className="panel__title">

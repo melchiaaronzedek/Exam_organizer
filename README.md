@@ -1,4 +1,4 @@
-# Jenny Tracker — exam command centre
+# Jenny's Tracker — exam command centre
 
 **Live site:** https://melchiaaronzedek.github.io/Exam_organizer/
 
@@ -38,7 +38,7 @@ Name files `public/documents/<examId>/<type>__<Readable_name>.pdf` where `<examI
 
 ## The mark
 
-`public/icons/logo.svg` is the source of the Jenny Tracker mark: a ring (the countdown) with a notch at twelve (today) and a J whose hook lifts on hover. In the app (`src/components/Logo.tsx`) the ring fills as the next exam approaches, tilts toward the pointer, sweeps on hover, presses on tap and pulses on exam day. Colours: ink `#0b0d12`, bone `#ece6d9`, saffron `#f4a442` (dark) / `#d97f22` (light). Regenerate the PNG icons after editing the SVG with `node scripts/render-icons.mjs` (needs Playwright's Chromium).
+`public/icons/logo.svg` is the source of the Jenny's Tracker mark: a ring (the countdown) with a notch at twelve (today) and a J whose hook lifts on hover. In the app (`src/components/Logo.tsx`) the ring fills as the next exam approaches, tilts toward the pointer, sweeps on hover, presses on tap and pulses on exam day. Colours: ink `#0b0d12`, bone `#ece6d9`, saffron `#f4a442` (dark) / `#d97f22` (light). Regenerate the PNG icons after editing the SVG with `node scripts/render-icons.mjs` (needs Playwright's Chromium).
 
 ## Phone app
 

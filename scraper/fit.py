@@ -10,6 +10,23 @@ from common import load_json
 SOUTH = ["andhra", "telangana", "tamil nadu", "karnataka", "chennai", "hyderabad", "visakhapatnam", "vizag", "bengaluru", "bangalore", "tirupati", "vijayawada", "all india", "pan india", "across india", "anywhere in india"]
 
 
+EXP_RX = re.compile(r"(?:minimum|min\.?|at least|atleast)?\s*(\d+(?:\.\d+)?)\s*(?:-|to)?\s*(\d+(?:\.\d+)?)?\s*\+?\s*(?:yrs?|years?)('?s)?\s*(?:of\s+)?(?:post[- ]qualification\s+|relevant\s+|prior\s+|work\s+)?exp")
+
+
+def experience_min(text: str) -> float | None:
+    """Minimum years of experience a notice asks for, or None when it does not ask. Mirrored in fit.ts."""
+    t = text.lower().replace("–", "-")
+    if re.search(r"\b(fresher|freshers|no experience|experience not required|without experience)\b", t):
+        return 0.0
+    m = EXP_RX.search(t)
+    if m:
+        return float(m.group(1))
+    m = re.search(r"experience\s*(?:of|:)?\s*(?:minimum|min\.?|at least)?\s*(\d+(?:\.\d+)?)\s*\+?\s*(?:yrs?|years?)", t)
+    if m:
+        return float(m.group(1))
+    return None
+
+
 def score(item: dict, profile: dict) -> tuple[int, list[str]]:
     text = " ".join(str(item.get(k, "")) for k in ("org", "post", "eligibility", "sector", "track", "title", "summary")).lower()
     why: list[str] = []
@@ -44,10 +61,10 @@ def score(item: dict, profile: dict) -> tuple[int, list[str]]:
     if excl and not roles:
         s -= 30
         why.append("likely needs " + excl[0].strip())
-    exp = re.search(r"(\d+)\s*(\+)?\s*(yrs?|years?)('?s)?\s*(of\s+)?(post[- ]qualification\s+)?(work\s+)?exp", text)
-    if exp and int(exp.group(1)) >= 2:
-        s -= 35
-        why.append(f"needs {exp.group(1)}+ yrs experience")
+    exp_min = experience_min(text)
+    if exp_min is not None and exp_min > float(profile.get("maxExperienceYears", 0.5)):
+        why.append(f"needs {exp_min:g}+ yrs experience")
+        return 0, why
     if "deputation" in text or "contract" in text and "retired" in text:
         s -= 30
         why.append("deputation / retiree post")

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import { flushSync } from 'react-dom'
 import { AppCtx, type AppState } from './ctx'
 import type { DocumentsFile, Exam, ExamOverride, ExamsFile, OpportunitiesFile, PhaseOverride, Profile, ScrapeStatusFile, UpdatesFile } from './types'
 import { buildEvents, isFresh, loadAll, mergeExam } from './lib/data'
@@ -13,6 +14,8 @@ import { Logo } from './components/Logo'
 import { daysUntil } from './lib/dates'
 import { TabBar } from './components/TabBar'
 import { Sheet } from './components/Sheet'
+import { Command } from './components/Command'
+import { Toasts } from './components/Toasts'
 import { Dashboard } from './views/Dashboard'
 import { Exams } from './views/Exams'
 import { Jobs } from './views/Jobs'
@@ -45,6 +48,8 @@ export function App() {
   const [view, setView] = useState(readHash)
   const [instant, setInstant] = useState(false)
   const [moreOpen, setMoreOpen] = useState(false)
+  const [cmdOpen, setCmdOpen] = useState(false)
+  const [helpOpen, setHelpOpen] = useState(false)
   const [update, setUpdate] = useState<ServiceWorkerRegistration | null>(null)
   const navRef = useRef<HTMLElement>(null)
   const [pillY, setPillY] = useState(0)
@@ -81,18 +86,45 @@ export function App() {
   }, [view, isPhone])
 
   const navigate = useCallback((v: string, viaKeyboard = false) => {
-    setInstant(viaKeyboard)
     setMoreOpen(false)
-    location.hash = `/${v}`
-    setView(v)
-    window.scrollTo({ top: 0, behavior: viaKeyboard ? 'auto' : 'smooth' })
+    setCmdOpen(false)
+    const doc = document as Document & { startViewTransition?: (cb: () => void) => { finished: Promise<void> } }
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const go = () => {
+      location.hash = `/${v}`
+      setView(v)
+    }
+    if (doc.startViewTransition && !reduce && v !== readHash()) {
+      // Cross-fade the whole page; the per-card entrance would double up, so skip it.
+      setInstant(true)
+      window.scrollTo({ top: 0, behavior: 'auto' })
+      doc.startViewTransition(() => flushSync(go))
+    } else {
+      setInstant(viaKeyboard)
+      go()
+      window.scrollTo({ top: 0, behavior: viaKeyboard ? 'auto' : 'smooth' })
+    }
   }, [])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault()
+        setCmdOpen((v) => !v)
+        return
+      }
       const t = e.target as HTMLElement
       if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return
       if (e.metaKey || e.ctrlKey || e.altKey) return
+      if (e.key === '?') {
+        e.preventDefault()
+        setHelpOpen((v) => !v)
+        return
+      }
+      if (e.key === 'Escape') {
+        setHelpOpen(false)
+        return
+      }
       const idx = Number(e.key) - 1
       if (idx >= 0 && idx < NAV.length) navigate(NAV[idx].id, true)
       if (e.key === '/') {
@@ -156,7 +188,7 @@ export function App() {
   const ringProgress = nextDays == null ? 0.08 : Math.max(0.08, 1 - Math.min(nextDays, 30) / 30)
   const examToday = nextDays === 0
   const unread = (data?.updates.updates ?? []).filter((u) => isFresh(u) && !seen.ids.includes(u.id)).length
-  const openJobs = data ? [...data.opportunities.curated, ...data.opportunities.discovered].filter((o) => o.status === 'open' && !jobs.dismissed.includes(o.id)).length : 0
+  const openJobs = data ? [...data.opportunities.curated, ...data.opportunities.discovered, ...(data.opportunities.portal ?? [])].filter((o) => o.status === 'open' && !jobs.dismissed.includes(o.id) && !jobs.applied.includes(o.id) && !(jobs.deleted ?? []).includes(o.id) && (o.fit ?? 0) >= 25).length : 0
   const badge = (id: string) => (id === 'dashboard' ? dueCount : id === 'updates' ? unread : id === 'jobs' ? openJobs : 0)
   const moreActive = (MORE_ITEMS as readonly string[]).includes(view)
 
@@ -170,8 +202,13 @@ export function App() {
           <aside className="rail">
             <a className="brand" href="#/dashboard" onClick={() => navigate('dashboard')}>
               <Logo size={34} interactive progress={ringProgress} pulse={examToday} />
-              <span className="brand__name">Jenny Tracker</span>
+              <span className="brand__name">Jenny's Tracker</span>
             </a>
+            <button className="rail__search" onClick={() => setCmdOpen(true)} aria-label="Search and commands">
+              <Icon name="list" size={15} />
+              <span>Search</span>
+              <kbd>⌘K</kbd>
+            </button>
             <nav className="nav" aria-label="Main" ref={navRef}>
               <span className="nav__pill" style={{ transform: `translateY(${pillY}px)` }} aria-hidden="true" />
               {NAV.map((n) => (
@@ -186,7 +223,7 @@ export function App() {
               <button className="iconbtn" aria-label="Toggle theme" onClick={() => prefsStore.set({ ...prefs, theme: prefs.theme === 'ink' ? 'paper' : 'ink' })}>
                 <Icon name={prefs.theme === 'ink' ? 'sun' : 'moon'} />
               </button>
-              <span className="rail__date mono" title="Shortcuts: 1-7 views · / search · t theme">{format(new Date(), 'EEE d MMM')}</span>
+              <button className="rail__date mono" title="Keyboard shortcuts (?)" onClick={() => setHelpOpen(true)}>{format(new Date(), 'EEE d MMM')}</button>
             </div>
           </aside>
         ) : (
@@ -195,7 +232,9 @@ export function App() {
               <Logo size={28} interactive progress={ringProgress} pulse={examToday} />
             </span>
             <span className="appbar__title">{TITLES[view]}</span>
-            <span className="appbar__date mono">{format(new Date(), 'EEE d MMM')}</span>
+            <button className="iconbtn appbar__search" aria-label="Search" onClick={() => setCmdOpen(true)}>
+              <Icon name="list" size={18} />
+            </button>
           </header>
         )}
         <main className={`main ${instant ? '' : pre}`} key={view}>
@@ -216,8 +255,27 @@ export function App() {
             </Sheet>
           </>
         ) : null}
+        {data ? <Command open={cmdOpen} onClose={() => setCmdOpen(false)} navigate={navigate} /> : null}
+        <Toasts />
+        <Sheet open={helpOpen} onClose={() => setHelpOpen(false)} title="Keyboard shortcuts">
+          <ul className="keys">
+            {[
+              ['1 – 7', 'Desk, Exams, Jobs, Calendar, Updates, Documents, Settings'],
+              ['⌘K / Ctrl K', 'Search pages, exams, openings and actions'],
+              ['/', 'Search exams'],
+              ['t', 'Toggle dark / light'],
+              ['?', 'This list'],
+              ['Esc', 'Close any sheet'],
+            ].map(([k, v]) => (
+              <li key={k}>
+                <kbd>{k}</kbd>
+                <span>{v}</span>
+              </li>
+            ))}
+          </ul>
+        </Sheet>
         {update ? (
-          <div className="toast" role="status">
+          <div className="toast toast--update" role="status">
             <span>New version available.</span>
             <button className="btn btn--accent btn--sm" onClick={() => { update.waiting?.postMessage('SKIP_WAITING'); setTimeout(() => location.reload(), 300) }}>
               Reload

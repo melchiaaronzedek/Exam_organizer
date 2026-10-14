@@ -20,10 +20,10 @@ export function buildICS(events: CalEvent[], leadDays: number[]): string {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Jenny Tracker//Exam Calendar//EN',
+    "PRODID:-//Jenny's Tracker//Exam Calendar//EN",
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-WR-CALNAME:Jenny Tracker — Exams',
+    "X-WR-CALNAME:Jenny's Tracker — Exams",
     'X-WR-TIMEZONE:Asia/Kolkata',
   ]
   for (const e of events) {

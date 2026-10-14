@@ -16,8 +16,8 @@ def main() -> None:
     exams = load_json("exams.json", {"exams": []})["exams"]
     stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lines = [
-        "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Jenny Tracker//Exam Calendar//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-        "X-WR-CALNAME:Jenny Tracker — Exams", "X-WR-TIMEZONE:Asia/Kolkata", "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H",
+        "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Jenny's Tracker//Exam Calendar//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+        "X-WR-CALNAME:Jenny's Tracker — Exams", "X-WR-TIMEZONE:Asia/Kolkata", "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H",
     ]
     for ev in exam_events(exams):
         d = parse_date(ev["date"])
