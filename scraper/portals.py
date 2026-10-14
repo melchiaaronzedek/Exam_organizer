@@ -56,7 +56,10 @@ EXCLUDE_RX = re.compile(
     r"telecall|bpo|voice process|delivery|driver|technician|intern(?:ship)?|freelance|part[- ]time|work from home|wfh)\b",
     re.I,
 )
-SENIOR_RX = re.compile(r"\b(senior|sr\.?|head of|head\b|lead\b|director|vp\b|vice president|principal|chief|avp|agm|dgm|gm\b)\b", re.I)
+SENIOR_RX = re.compile(r"\b(senior|sr\.?|head of|head\b|lead\b|director|vp\b|vice president|principal|chief|avp|agm|dgm|gm\b|specialist|expert|architect|l[2-9]\b|ii\b|iii\b)\b", re.I)
+MANAGER_RX = re.compile(r"\bmanager\b", re.I)
+JUNIOR_RX = re.compile(r"\b(trainee|fresher|graduate|campus|program|programme|associate|junior|entry|intern|apprentice|assistant|deputy|officer|executive|analyst|voyage|leadership)\b", re.I)
+FRESHER_TITLE_RX = re.compile(r"\b(trainee|fresher|graduate|campus|programme|program|junior|entry[- ]level|voyage|leadership|rotational|early career|young)\b", re.I)
 SALES_SPAM_RX = re.compile(r"\b(business development|bde|bda|inside sales|field sales|tele ?sales|tele ?call|cold call|door to door|insurance (?:agent|advisor)|recruiter|talent acquisition|hr executive|collection|loan officer|dsa\b|channel partner)\b", re.I)
 SOUTH_RX = re.compile(r"\b(chennai|hyderabad|bengaluru|bangalore|visakhapatnam|vizag|vijayawada|tirupati|coimbatore|kochi|mysuru|mysore|madurai|andhra|telangana|tamil nadu|karnataka|kerala|pan india|all india|remote|anywhere)\b", re.I)
 
@@ -273,6 +276,8 @@ def foundit(q: str) -> list[dict]:
             lo, hi = num(find_key(j.get("salary"), "min", "from") if isinstance(j.get("salary"), dict) else j.get("salary")), num(find_key(j.get("salary"), "max", "to") if isinstance(j.get("salary"), dict) else j.get("salary"))
         sal = f"{lo:.0f} - {hi:.0f} per annum" if lo and hi and hi > 0 else None
         elo, ehi = num(j.get("minimumExperience")), num(j.get("maximumExperience"))
+        if elo == 0 and (ehi == 0 or ehi is None):
+            elo = ehi = None  # Foundit reports 0-0 when the poster left it blank
         exp = f"{elo:g}-{ehi:g} years" if elo is not None and ehi is not None else (f"{elo:g} years" if elo is not None else None)
         link = j.get("seoJdUrl") or j.get("jdUrl") or ""
         locs = j.get("locations")
@@ -429,6 +434,8 @@ def prefilter(raw: dict) -> str | None:
         return "excluded role"
     if SENIOR_RX.search(title):
         return "senior title"
+    if MANAGER_RX.search(title) and not JUNIOR_RX.search(title):
+        return "manager title"
     if SALES_SPAM_RX.search(title) and not re.search(r"\b(trainee|program|programme|management|leadership|graduate)\b", title, re.I):
         return "sales / BD spam"
     if not ROLE_RX.search(title):
@@ -533,6 +540,9 @@ def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
         if trust != "verified" and (lo >= 30 or (WFH_RX.search(raw.get("location") or "") and lo >= 15)):
             return None, "pay implausible for unknown employer"
     elif trust != "verified":
+        return None, "salary not stated"
+    elif exp_unknown or not FRESHER_TITLE_RX.search(title):
+        # No pay and nothing in the listing that says it is a fresher programme: not worth showing.
         return None, "salary not stated"
     locs = [x.strip() for x in re.split(r"[,/|]", raw.get("location") or "") if x.strip()][:6]
     cand = {"org": company, "post": title, "title": title, "sector": "private", "track": "private", "locations": locs, "payLakh": sal[0] if sal else None, "eligibility": raw.get("experienceText") or ""}
