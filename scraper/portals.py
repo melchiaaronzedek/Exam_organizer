@@ -58,7 +58,7 @@ EXCLUDE_RX = re.compile(
 )
 SENIOR_RX = re.compile(r"\b(senior|sr\.?|head of|head\b|lead\b|director|vp\b|vice president|principal|chief|avp|agm|dgm|gm\b|specialist|expert|architect|l[2-9]\b|ii\b|iii\b)\b", re.I)
 MANAGER_RX = re.compile(r"\bmanager\b", re.I)
-JUNIOR_RX = re.compile(r"\b(trainee|fresher|graduate|campus|program|programme|associate|junior|entry|intern|apprentice|assistant|deputy|officer|executive|analyst|voyage|leadership)\b", re.I)
+JUNIOR_RX = re.compile(r"\b(trainee|fresher|graduate|campus|associate|junior|entry|apprentice|assistant|deputy)\b", re.I)
 FRESHER_TITLE_RX = re.compile(r"\b(trainee|fresher|graduate|campus|programme|program|junior|entry[- ]level|voyage|leadership|rotational|early career|young)\b", re.I)
 SALES_SPAM_RX = re.compile(r"\b(business development|bde|bda|inside sales|field sales|tele ?sales|tele ?call|cold call|door to door|insurance (?:agent|advisor)|recruiter|talent acquisition|hr executive|collection|loan officer|dsa\b|channel partner)\b", re.I)
 SOUTH_RX = re.compile(r"\b(chennai|hyderabad|bengaluru|bangalore|visakhapatnam|vizag|vijayawada|tirupati|coimbatore|kochi|mysuru|mysore|madurai|andhra|telangana|tamil nadu|karnataka|kerala|pan india|all india|remote|anywhere)\b", re.I)
@@ -395,16 +395,19 @@ def clean_company(name: str) -> str:
     return c.strip(" -|·,")
 
 
-def is_known_employer(company: str) -> bool:
+def known_employer(company: str) -> str | None:
+    """The allow-list entry that matches this company name (whole words only), or None."""
     c = " " + re.sub(r"[^a-z0-9&.' ]", " ", company.lower()) + " "
     c = re.sub(r"\s+", " ", c)
     for n in KNOWN:
-        if len(n.strip()) <= 4:
-            if re.search(r"(?<![a-z0-9])" + re.escape(n.strip()) + r"(?![a-z0-9])", c):
-                return True
-        elif n in c:
-            return True
-    return False
+        tok = n.strip()
+        if tok and re.search(r"(?<![a-z0-9])" + re.escape(tok) + r"(?![a-z0-9])", c):
+            return tok
+    return None
+
+
+def is_known_employer(company: str) -> bool:
+    return known_employer(company) is not None
 
 
 def trust_of(company: str, text: str, website: str | None) -> tuple[str, str | None]:
@@ -534,13 +537,15 @@ def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
         lo, hi = sal
         if hi < pay_bar or lo < pay_floor:
             return None, f"pay {fmt_pay(sal)}"
-        if trust != "verified" and (lo >= 30 or (WFH_RX.search(raw.get("location") or "") and lo >= 15)):
+        if trust != "verified" and lo >= 30:
             return None, "pay implausible for unknown employer"
-    elif trust != "verified":
+    elif trust != "verified" or not FRESHER_TITLE_RX.search(title):
+        # No pay: only a known employer's explicitly fresher programme (trainee / graduate / campus / leadership) is worth showing.
         return None, "salary not stated"
-    elif exp_unknown or not FRESHER_TITLE_RX.search(title):
-        # No pay and nothing in the listing that says it is a fresher programme: not worth showing.
-        return None, "salary not stated"
+    if trust != "verified" and exp_unknown:
+        return None, "experience not stated (unknown employer)"
+    if trust != "verified" and WFH_RX.search(raw.get("location") or ""):
+        return None, "work-from-home offer from unknown employer"
     locs = [x.strip() for x in re.split(r"[,/|]", raw.get("location") or "") if x.strip()][:6]
     cand = {"org": company, "post": title, "title": title, "sector": "private", "track": "private", "locations": locs, "payLakh": sal[0] if sal else None, "eligibility": raw.get("experienceText") or ""}
     fit, why = score(cand, profile)
@@ -569,7 +574,7 @@ def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
         "experienceText": "not stated" if exp_unknown else (raw.get("experienceText") or ("fresher" if exp_min == 0 else f"{exp_min:g} yrs")),
         "experienceMinYears": None if exp_unknown else exp_min,
         "pay": fmt_pay(sal), "payLakh": sal[0] if sal else None, "payMinLakh": sal[0] if sal else None, "payMaxLakh": sal[1] if sal else None, "payStated": bool(sal),
-        "trust": trust, "website": raw.get("website"), "checked": bool(raw.get("verified")),
+        "trust": trust, "trustWhy": known_employer(company) if trust == "verified" else None, "website": raw.get("website"), "checked": bool(raw.get("verified")),
         "locations": locs, "link": raw.get("url"), "source": raw.get("source"), "sourceType": "portal",
         "fit": fit, "fitWhy": why, "status": "open", "postedAt": raw.get("postedAt"), "applyCloses": raw.get("applyCloses"),
         "examDate": None, "examDateType": "tba", "curated": False, "kind": "portal",
@@ -645,7 +650,7 @@ def main(argv: list[str]) -> int:
     for d in opp.get("portal", []):
         if (d.get("firstSeen") or "")[:10] < keep_after:
             continue
-        re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": None if d.get("experienceText") == "not stated" else d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source"), "description": d.get("summary") or "", "verified": d.get("checked")}, profile)
+        re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": None if d.get("experienceText") in ("not stated", "0-0 years") else d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source"), "description": d.get("summary") or "", "verified": d.get("checked")}, profile)
         if not re_item:
             continue
         for k in ("org", "locations", "trust", "fit", "fitWhy", "payStated"):
