@@ -43,7 +43,7 @@ export function Settings() {
           <p className="muted">Installed. You're running the app from the home screen.</p>
         ) : (
           <>
-            <p className="muted small">Adds Jenny Tracker to the home screen, full-screen, with offline access to the last loaded data.</p>
+            <p className="muted small">Adds Jenny's Tracker to the home screen, full-screen, with offline access to the last loaded data.</p>
             {installEvt ? (
               <button className="btn btn--accent" onClick={() => (installEvt as unknown as { prompt: () => void }).prompt()}>
                 <Icon name="download" size={14} /> Install app
@@ -69,8 +69,12 @@ export function Settings() {
             <input value={(po.roles ?? profile.roles).join(', ')} onChange={(e) => profileStore.set({ ...po, roles: e.target.value.split(',').map((x) => x.trim().toLowerCase()).filter(Boolean) })} />
           </label>
           <label>
-            Minimum pay (LPA)
+            Minimum pay, govt / PSU (LPA)
             <input type="number" min={0} value={po.minPayLakh ?? profile.minPayLakh} onChange={(e) => profileStore.set({ ...po, minPayLakh: Number(e.target.value) })} />
+          </label>
+          <label>
+            Minimum pay, private (LPA)
+            <input type="number" min={0} value={po.privateMinPayLakh ?? profile.privateMinPayLakh ?? 10} onChange={(e) => profileStore.set({ ...po, privateMinPayLakh: Number(e.target.value) })} />
           </label>
           <label>
             Preferred cities

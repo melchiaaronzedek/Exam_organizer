@@ -109,5 +109,8 @@
     "Bengaluru",
     "Vijayawada"
   ],
-  "minPayLakh": 6
+  "minPayLakh": 6,
+  "maxExperienceYears": 0.5,
+  "privateMinPayLakh": 10,
+  "privatePayFloorLakh": 6
 }

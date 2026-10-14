@@ -12,11 +12,11 @@ interface Props {
 }
 
 /**
- * The Jenny Tracker mark: a ring (the countdown) with a notch at twelve (today)
+ * The Jenny's Tracker mark: a ring (the countdown) with a notch at twelve (today)
  * and a "J" whose hook lifts on hover. The arc fills as the next exam approaches.
  * Interactive: tilts toward the pointer, sweeps on hover, presses down on tap.
  */
-export function Logo({ size = 32, progress = 0, interactive = false, spinning = false, pulse = false, className = '', title = 'Jenny Tracker' }: Props) {
+export function Logo({ size = 32, progress = 0, interactive = false, spinning = false, pulse = false, className = '', title = "Jenny's Tracker" }: Props) {
   const ref = useRef<HTMLSpanElement>(null)
   const r = 42
   const C = 2 * Math.PI * r

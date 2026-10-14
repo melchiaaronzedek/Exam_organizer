@@ -1,4 +1,4 @@
-/* Jenny Tracker service worker: shell cache-first, data stale-while-revalidate. */
+/* Jenny's Tracker service worker: shell cache-first, data stale-while-revalidate. */
 const VERSION = 'jt-v1'
 const SHELL = ['./', './index.html', './manifest.webmanifest']
 

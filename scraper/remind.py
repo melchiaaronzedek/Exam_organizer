@@ -152,12 +152,14 @@ def main(argv: list[str]) -> int:
     opp = load_json("opportunities.json", {"discovered": []})
     cutoff = (today_ist() - timedelta(days=1)).isoformat()
     openings = [] if opp.get("discoverBaseline") else [o for o in opp.get("discovered", []) if (o.get("firstSeen") or "")[:10] >= cutoff and (o.get("fit") or 0) >= 60 and o.get("status") == "open"]
+    if not opp.get("portalBaseline"):
+        openings += [o for o in opp.get("portal", []) if (o.get("firstSeen") or "")[:10] >= cutoff and (o.get("fit") or 0) >= 60 and o.get("status") == "open"]
     if openings:
-        lines = [f"- [{o['org']} — {o['post']}]({o['link']}) · fit {o['fit']}" + (f" · closes {o['applyCloses']}" if o.get("applyCloses") else "") for o in openings[:15]]
+        lines = [f"- [{o['org']} — {o['post']}]({o['link']}) · fit {o['fit']}" + (f" · {o['pay']}" if o.get("pay") else "") + (f" · closes {o['applyCloses']}" if o.get("applyCloses") else "") + (f" · via {o['source']}" if o.get("sourceType") == "portal" else "") for o in openings[:20]]
         github_issue(f"🎯 {len(openings)} new opening(s) that fit — {today_ist().strftime('%d %b')}", "\n".join(lines) + "\n\nReview: https://melchiaaronzedek.github.io/Exam_organizer/#/jobs", ["opening"], dry)
 
     if reminders or fresh or openings:
-        msg = ["*Jenny Tracker — daily brief*"]
+        msg = ["*Jenny's Tracker — daily brief*"]
         for r in reminders:
             msg.append(r["title"])
         if fresh:
