@@ -331,6 +331,25 @@
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=SSC+CGL+2026+tier+2+date+OR+result+OR+answer+key&hl=en-IN&gl=IN&ceid=IN:en",
       "keywords": []
+    },
+    {
+      "examId": "lic-hfl-mt-2026",
+      "name": "LIC HFL news (Google News)",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22LIC+HFL%22+OR+%22LIC+Housing+Finance%22+management+trainee+2026&hl=en-IN&gl=IN&ceid=IN:en",
+      "keywords": []
+    },
+    {
+      "examId": "lic-hfl-mt-2026",
+      "name": "LIC HFL careers",
+      "type": "html",
+      "url": "https://www.lichousing.com/careers",
+      "keywords": [
+        "Management Trainee",
+        "recruitment",
+        "interview",
+        "shortlist"
+      ]
     }
   ]
 }

@@ -738,6 +738,72 @@
           "Photos"
         ]
       }
+    },
+    {
+      "id": "lic-hfl-mt-2026",
+      "org": "LIC Housing Finance Ltd",
+      "short": "LIC HFL MT",
+      "title": "Management Trainee (Marketing & Sales) 2026 – via Internshala",
+      "post": "Management Trainee · Marketing & Sales · 50 posts · 35 cities incl. Chennai, Hyderabad, Bengaluru",
+      "advt": "Internshala listing, Oct 2026",
+      "status": "to-apply",
+      "officialUrl": "https://www.lichousing.com/careers",
+      "notificationUrl": "https://internshala.com/job/detail/fresher-management-trainee--marketing-sales-job-in-multiple-locations-at-lic-housing-finance-limited1788874463",
+      "applyUrl": "https://internshala.com/job/detail/fresher-management-trainee--marketing-sales-job-in-multiple-locations-at-lic-housing-finance-limited1788874463",
+      "application": {
+        "closes": "2026-10-25",
+        "mode": "online",
+        "applied": false,
+        "note": "Apply on Internshala (no fee). MBA mandatory; 0–1 yr sales experience preferred; local-language fluency; must be based in one of the listed cities."
+      },
+      "phases": [
+        {
+          "id": "apply",
+          "name": "Apply on Internshala",
+          "kind": "application",
+          "date": "2026-10-25",
+          "dateType": "confirmed",
+          "status": "upcoming"
+        },
+        {
+          "id": "shortlist",
+          "name": "Shortlisting",
+          "kind": "result",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Shortlist on eligibility; no written test."
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba",
+          "centre": {
+            "preferences": [
+              "Chennai"
+            ],
+            "allotted": null
+          }
+        }
+      ],
+      "facts": {
+        "vacancies": "50",
+        "age": "Fresher / MBA batch",
+        "fee": "Nil",
+        "pattern": "No exam — shortlist → interview",
+        "selection": "Shortlist → Interview",
+        "pay": "Stipend ₹40,000–50,000/month during training · 2-year bond",
+        "carry": [
+          "Updated CV",
+          "MBA certificates",
+          "Photo ID"
+        ]
+      },
+      "notes": [
+        "Listing already shows 1,000+ applicants — apply early.",
+        "Verify details on lichousing.com; the posting is a third-party listing."
+      ]
     }
   ]
 }
