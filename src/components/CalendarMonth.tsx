@@ -58,7 +58,7 @@ export function CalendarMonth({ events }: { events: CalEvent[] }) {
               aria-label={format(d, 'EEEE d MMMM')}
             >
               <span className="cal__num">{format(d, 'd')}</span>
-              <span className="cal__evs">
+              <span className={`cal__evs ${evs.length > 2 ? 'is-dense' : ''}`}>
                 {evs.slice(0, 3).map((e) => {
                   const place = placeOf(e)
                   return (

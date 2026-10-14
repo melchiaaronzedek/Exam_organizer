@@ -138,6 +138,7 @@ export interface Prefs {
   name?: string
   category?: string
   lastNotifyDay?: string
+  trackRange?: 30 | 75 | 120
 }
 
 /** A single dated thing on the calendar: a phase date or an application deadline. */

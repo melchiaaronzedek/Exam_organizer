@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useApp } from '../ctx'
+import { useEntrance } from '../lib/useEntrance'
 import { ExamCard } from '../components/ExamCard'
 import { Icon } from '../components/Icon'
 import type { Exam, ExamStatus } from '../types'
@@ -9,6 +10,7 @@ const FILTERS: (ExamStatus | 'all')[] = ['all', 'to-apply', 'applied', 'written'
 
 export function Exams() {
   const { exams, overrides, docCounts, documents, setOverride, setPhase, addCustomExam, removeCustomExam } = useApp()
+  const pre = useEntrance([])
   const [filter, setFilter] = useState<ExamStatus | 'all'>('all')
   const [q, setQ] = useState('')
   const [adding, setAdding] = useState(false)
@@ -40,9 +42,10 @@ export function Exams() {
         ))}
       </div>
       {adding ? <AddExam onCancel={() => setAdding(false)} onAdd={(ex) => { addCustomExam(ex); setAdding(false) }} /> : null}
-      <div className="cards">
-        {list.map((ex) => (
+      <div className={`cards ${pre}`}>
+        {list.map((ex, i) => (
           <ExamCard
+            style={{ ['--i' as string]: Math.min(i, 10) }}
             key={ex.id}
             exam={ex}
             override={overrides[ex.id]}

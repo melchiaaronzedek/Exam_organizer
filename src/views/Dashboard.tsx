@@ -1,7 +1,9 @@
 import { useApp } from '../ctx'
+import { useEntrance } from '../lib/useEntrance'
 import { Countdown } from '../components/Countdown'
 import { Icon } from '../components/Icon'
 import { PlaceLine } from '../components/CalendarMonth'
+import { Track, type TrackRange } from '../components/Track'
 import { addDays, format } from 'date-fns'
 import { daysUntil, fmtDate, fmtShort, relative, today } from '../lib/dates'
 import { KIND_LABEL, cityOf, isFresh, mapsUrl, nextPhase } from '../lib/data'
@@ -12,7 +14,13 @@ import type { CalEvent } from '../types'
 
 export function Dashboard() {
   const { exams, events, updates, navigate } = useApp()
+  const pre = useEntrance([])
   const prefs = prefsStore.use()
+  const range: TrackRange = prefs.trackRange ?? 75
+  const openExam = (id: string) => {
+    navigate('exams')
+    setTimeout(() => document.getElementById(`exam-${id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80)
+  }
   const seen = seenStore.use()
   const upcoming = events.filter((e) => e.status !== 'done' && daysUntil(e.date)! >= 0)
   const hero = upcoming.find((e) => e.kind === 'exam') ?? upcoming[0]
@@ -34,7 +42,6 @@ export function Dashboard() {
     if (!c || !np) continue
     cities.set(c, [...(cities.get(c) ?? []), { exam: ex, when: np.date, allotted: !!np.centre?.allotted }])
   }
-  const windowEvents = upcoming.filter((e) => daysUntil(e.date)! <= 75)
 
   return (
     <div className="dash">
@@ -110,7 +117,7 @@ export function Dashboard() {
         <Tile n={toApply.length} label="to apply" accent="amber" onClick={() => navigate('exams')} />
         <Tile n={applied.length} label="applied" accent="teal" onClick={() => navigate('exams')} />
         <Tile n={written.length} label="written · awaiting result" accent="violet" onClick={() => navigate('exams')} />
-        <Tile n={next30.length} label="dates in next 30 days" accent="rose" onClick={() => navigate('calendar')} />
+        <Tile n={next30.length} label="dates in next 30 days" accent="rose" onClick={() => navigate('calendar')} bars={[0, 30, 60].map((from) => upcoming.filter((e) => daysUntil(e.date)! >= from && daysUntil(e.date)! < from + 30).length)} />
         <Tile n={unseen.length} label="unread updates" accent="sky" onClick={() => navigate('updates')} />
       </section>
 
@@ -209,21 +216,35 @@ export function Dashboard() {
 
       <section className="panel">
         <h2 className="panel__title">
-          <Icon name="calendar" /> Next 75 days
+          <Icon name="calendar" /> Next {range} days
         </h2>
-        <Timeline events={windowEvents} />
+        <Track events={events} range={range} onRange={(r) => prefsStore.set({ ...prefs, trackRange: r })} onOpen={openExam} />
+        <ul className="tl-list">
+          {upcoming
+            .filter((e) => daysUntil(e.date)! <= range)
+            .map((e) => (
+              <li key={e.id} className={`tl-list__item cal__ev--${e.kind}`}>
+                <span className="mono tl-list__date">{fmtShort(e.date)}</span>
+                <span>
+                  <strong>{e.examShort}</strong> · {e.label}
+                  {e.dateType === 'tentative' ? <span className="tag tag--tentative">tentative</span> : null}
+                  {e.kind !== 'application' && (e.centre || e.centrePrefs?.[0]) ? <span className="muted"> · {e.venue || e.centre || `${e.centrePrefs![0]}?`}</span> : null}
+                </span>
+              </li>
+            ))}
+        </ul>
       </section>
 
       <section className="panel">
         <h2 className="panel__title">
           <Icon name="exams" /> All exams
         </h2>
-        <div className="minigrid">
+        <div className={`minigrid ${pre}`}>
           {exams.map((ex) => {
             const nxt = events.find((e) => e.examId === ex.id && e.status !== 'done' && daysUntil(e.date)! >= 0)
             const city = cityOf(nextPhase(ex))
             return (
-              <button key={ex.id} className="mini" onClick={() => navigate('exams')}>
+              <button key={ex.id} className="mini" style={{ ['--i' as string]: Math.min(exams.indexOf(ex), 10) }} onClick={() => openExam(ex.id)}>
                 <span className="mini__top">
                   <span className="mini__short">{ex.short}</span>
                   <StatusChip status={ex.status} />
@@ -244,11 +265,19 @@ export function Dashboard() {
   )
 }
 
-function Tile({ n, label, accent, onClick }: { n: number; label: string; accent: string; onClick: () => void }) {
+function Tile({ n, label, accent, onClick, bars }: { n: number; label: string; accent: string; onClick: () => void; bars?: number[] }) {
+  const max = bars ? Math.max(1, ...bars) : 1
   return (
     <button className={`tile tile--${accent}`} onClick={onClick}>
       <span className="tile__n">{n}</span>
       <span className="tile__label">{label}</span>
+      {bars ? (
+        <span className="tile__bars" aria-hidden="true" title={`Next 30 / 60 / 90 days: ${bars.join(' · ')}`}>
+          {bars.map((b, i) => (
+            <i key={i} style={{ height: `${Math.max(12, (b / max) * 100)}%` }} />
+          ))}
+        </span>
+      ) : null}
     </button>
   )
 }
@@ -281,52 +310,5 @@ function WeekStrip({ events }: { events: CalEvent[] }) {
         })}
       </div>
     </section>
-  )
-}
-
-function Timeline({ events }: { events: CalEvent[] }) {
-  if (events.length === 0) return <p className="muted">Nothing in this window.</p>
-  const first = 0
-  const last = Math.max(75, daysUntil(events[events.length - 1].date)!)
-  return (
-    <div className="tl-wrap">
-      <div className="tl">
-        <div className="tl__axis">
-          {[0, 15, 30, 45, 60, 75].map((d) => (
-            <span key={d} className="tl__tick" style={{ left: `${((d - first) / (last - first)) * 100}%` }}>
-              {d === 0 ? 'today' : `+${d}d`}
-            </span>
-          ))}
-        </div>
-        <ul className="tl__items">
-          {events.map((e, i) => {
-            const d = daysUntil(e.date)!
-            const left = ((d - first) / (last - first)) * 100
-            const place = e.kind !== 'application' ? e.venue || e.centre || e.centrePrefs?.[0] : null
-            return (
-              <li key={e.id} className={`tl__item cal__ev--${e.kind} ${e.dateType === 'tentative' ? 'is-tentative' : ''}`} style={{ left: `${left}%`, top: `${(i % 4) * 34}px`, animationDelay: `${i * 50}ms` }}>
-                <span className="tl__dot" />
-                <span className="tl__label">
-                  <strong>{e.examShort}</strong> {e.label} <span className="mono">{fmtShort(e.date)}</span>
-                  {place ? <span className="muted"> · {place}</span> : null}
-                </span>
-              </li>
-            )
-          })}
-        </ul>
-      </div>
-      <ul className="tl-list">
-        {events.map((e) => (
-          <li key={e.id} className={`tl-list__item cal__ev--${e.kind}`}>
-            <span className="mono tl-list__date">{fmtShort(e.date)}</span>
-            <span>
-              <strong>{e.examShort}</strong> · {e.label}
-              {e.dateType === 'tentative' ? <span className="tag tag--tentative">tentative</span> : null}
-              {e.kind !== 'application' && (e.centre || e.centrePrefs?.[0]) ? <span className="muted"> · {e.venue || e.centre || `${e.centrePrefs![0]}?`}</span> : null}
-            </span>
-          </li>
-        ))}
-      </ul>
-    </div>
   )
 }

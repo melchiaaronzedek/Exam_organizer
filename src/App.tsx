@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { AppCtx, type AppState } from './ctx'
 import type { DocumentsFile, Exam, ExamOverride, ExamsFile, PhaseOverride, ScrapeStatusFile, UpdatesFile } from './types'
 import { buildEvents, isFresh, loadAll, mergeExam } from './lib/data'
@@ -6,6 +6,8 @@ import { customExamsStore, overridesStore, prefsStore, seenStore } from './lib/s
 import { listDocs } from './lib/vault'
 import { maybeNotify, dueEvents } from './lib/notify'
 import { Icon } from './components/Icon'
+import { DashboardSkeleton } from './components/Skeleton'
+import { useEntrance } from './lib/useEntrance'
 import { Dashboard } from './views/Dashboard'
 import { Exams } from './views/Exams'
 import { Calendar } from './views/Calendar'
@@ -30,6 +32,10 @@ function readHash() {
 
 export function App() {
   const [view, setView] = useState(readHash)
+  const [instant, setInstant] = useState(false)
+  const navRef = useRef<HTMLElement>(null)
+  const [pillY, setPillY] = useState(0)
+  const pre = useEntrance([view])
   const [data, setData] = useState<{ exams: ExamsFile; updates: UpdatesFile; status: ScrapeStatusFile; documents: DocumentsFile } | null>(null)
   const [docCounts, setDocCounts] = useState<Record<string, number>>({})
   const overrides = overridesStore.use()
@@ -46,7 +52,13 @@ export function App() {
 
   useEffect(() => {
     document.documentElement.dataset.theme = prefs.theme
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', prefs.theme === 'ink' ? '#0b0d12' : '#f3eee3')
   }, [prefs.theme])
+
+  useLayoutEffect(() => {
+    const el = navRef.current?.querySelector<HTMLElement>('.nav__item.is-active')
+    if (el) setPillY(el.offsetTop)
+  }, [view])
 
   // Keyboard shortcuts: 1-6 switch views, / focuses search, t toggles theme.
   useEffect(() => {
@@ -55,10 +67,10 @@ export function App() {
       if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return
       if (e.metaKey || e.ctrlKey || e.altKey) return
       const idx = Number(e.key) - 1
-      if (idx >= 0 && idx < NAV.length) navigate(NAV[idx].id)
+      if (idx >= 0 && idx < NAV.length) navigate(NAV[idx].id, true)
       if (e.key === '/') {
         e.preventDefault()
-        navigate('exams')
+        navigate('exams', true)
         setTimeout(() => document.getElementById('exam-search')?.focus(), 50)
       }
       if (e.key === 't') prefsStore.set((p) => ({ ...p, theme: p.theme === 'ink' ? 'paper' : 'ink' }))
@@ -89,10 +101,11 @@ export function App() {
     if (events.length) maybeNotify(events)
   }, [events])
 
-  const navigate = useCallback((v: string) => {
+  const navigate = useCallback((v: string, viaKeyboard = false) => {
+    setInstant(viaKeyboard)
     location.hash = `/${v}`
     setView(v)
-    window.scrollTo({ top: 0, behavior: 'smooth' })
+    window.scrollTo({ top: 0, behavior: viaKeyboard ? 'auto' : 'smooth' })
   }, [])
 
   const state: AppState = {
@@ -130,7 +143,8 @@ export function App() {
               <span className="brand__tag">exam command centre</span>
             </span>
           </a>
-          <nav className="nav" aria-label="Main">
+          <nav className="nav" aria-label="Main" ref={navRef}>
+            <span className="nav__pill" style={{ transform: `translateY(${pillY}px)` }} aria-hidden="true" />
             {NAV.map((n) => (
               <a key={n.id} href={`#/${n.id}`} className={`nav__item ${view === n.id ? 'is-active' : ''}`} onClick={(e) => { e.preventDefault(); navigate(n.id) }}>
                 <Icon name={n.icon} />
@@ -147,13 +161,9 @@ export function App() {
             <span className="rail__date mono" title="Shortcuts: 1-6 views · / search · t theme">{format(new Date(), 'EEE d MMM')}</span>
           </div>
         </aside>
-        <main className="main" key={view}>
+        <main className={`main ${instant ? '' : pre}`} key={view}>
           {!data ? (
-            <div className="loading">
-              <span className="loading__dot" />
-              <span className="loading__dot" />
-              <span className="loading__dot" />
-            </div>
+            <DashboardSkeleton />
           ) : view === 'dashboard' ? (
             <Dashboard />
           ) : view === 'exams' ? (
