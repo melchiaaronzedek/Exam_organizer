@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T00:38:37+05:30",
+  "discoveredAt": "2026-10-15T00:43:50+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4634,7 +4634,44 @@
   "discoverBaseline": false,
   "portal": [
     {
-      "org": "Semnexa Actively hiring",
+      "org": "Agrpujya LLP",
+      "post": "Research & Business Intelligence Analyst",
+      "title": "Research & Business Intelligence Analyst",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "experience not stated",
+      "experienceText": "not stated",
+      "experienceMinYears": null,
+      "pay": "₹12.6 LPA",
+      "payLakh": 12.6,
+      "payMinLakh": 12.6,
+      "payMaxLakh": 12.6,
+      "locations": [
+        "Ajmer",
+        "Noida (Hybrid)"
+      ],
+      "link": "https://internshala.com/internship/detail/research-business-intelligence-analyst-internship-in-multiple-locations-at-agrpujya-llp1790226436",
+      "source": "Internshala",
+      "sourceType": "portal",
+      "fit": 20,
+      "fitWhy": [
+        "private",
+        "pay ≥ 6 LPA",
+        "experience not stated"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "id": "portal-6b3424539b57",
+      "firstSeen": "2026-10-15T00:43:55+05:30",
+      "lastSeen": "2026-10-15T00:43:55+05:30"
+    },
+    {
+      "org": "Semnexa",
       "post": "Junior Marketing Associate",
       "title": "Junior Marketing Associate",
       "sector": "private",
@@ -4668,94 +4705,10 @@
       "kind": "portal",
       "id": "portal-98280d12a38c",
       "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:38:41+05:30"
+      "lastSeen": "2026-10-15T00:43:55+05:30"
     },
     {
-      "org": "GRMAC Pvt. Ltd.",
-      "post": "Senior Business Development Associate",
-      "title": "Senior Business Development Associate",
-      "sector": "private",
-      "track": "private",
-      "eligibility": "",
-      "experienceText": "fresher",
-      "experienceMinYears": 0.0,
-      "pay": "₹8.5–11.4 LPA",
-      "payLakh": 8.5,
-      "payMinLakh": 8.5,
-      "payMaxLakh": 11.4,
-      "locations": [
-        "{'id': 1862984",
-        "'city': 'Bangalore'",
-        "'state': 'Karnataka'",
-        "'country': 'India'",
-        "'addressable_id': 1767902",
-        "'addressable_type': 'App\\\\Model\\\\Opportunity'}"
-      ],
-      "link": "https://unstop.com/jobs/senior-business-development-associate-grmac-pvt-ltd-1767902",
-      "source": "Unstop",
-      "sourceType": "portal",
-      "fit": 45,
-      "fitWhy": [
-        "private",
-        "South / all-India",
-        "pay ≥ 6 LPA",
-        "fresher OK"
-      ],
-      "status": "open",
-      "postedAt": null,
-      "applyCloses": "2026-10-22",
-      "examDate": null,
-      "examDateType": "tba",
-      "curated": false,
-      "kind": "portal",
-      "id": "portal-6b26806c7e71",
-      "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:33:09+05:30"
-    },
-    {
-      "org": "The OmniJobs",
-      "post": "Senior Business Development Associate",
-      "title": "Senior Business Development Associate",
-      "sector": "private",
-      "track": "private",
-      "eligibility": "",
-      "experienceText": "fresher",
-      "experienceMinYears": 0.0,
-      "pay": "₹8–11 LPA",
-      "payLakh": 8.0,
-      "payMinLakh": 8.0,
-      "payMaxLakh": 11.0,
-      "locations": [
-        "{'id': 1863724",
-        "'city': 'Bangalore'",
-        "'state': 'Karnataka'",
-        "'country': 'India'",
-        "'addressable_id': 1768383",
-        "'addressable_type': 'App\\\\Model\\\\Opportunity'}"
-      ],
-      "link": "https://unstop.com/jobs/senior-business-development-associate-the-omnijobs-1768383",
-      "source": "Unstop",
-      "sourceType": "portal",
-      "fit": 45,
-      "fitWhy": [
-        "private",
-        "South / all-India",
-        "pay ≥ 6 LPA",
-        "fresher OK"
-      ],
-      "status": "open",
-      "postedAt": null,
-      "applyCloses": "2026-10-23",
-      "examDate": null,
-      "examDateType": "tba",
-      "curated": false,
-      "kind": "portal",
-      "id": "portal-fd3a0c219abe",
-      "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:33:09+05:30"
-    },
-    {
-      "org": "BNM Business Solutions LLP Actively hiring",
+      "org": "BNM Business Solutions LLP",
       "post": "Sales Management Trainee",
       "title": "Sales Management Trainee",
       "sector": "private",
@@ -4794,10 +4747,10 @@
       "kind": "portal",
       "id": "portal-813ac54defc8",
       "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:38:41+05:30"
+      "lastSeen": "2026-10-15T00:43:55+05:30"
     },
     {
-      "org": "BNM Business Solutions LLP Actively hiring",
+      "org": "BNM Business Solutions LLP",
       "post": "Management Trainee",
       "title": "Management Trainee",
       "sector": "private",
@@ -4838,27 +4791,27 @@
       "kind": "portal",
       "id": "portal-e1a3b54dd780",
       "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:38:41+05:30"
+      "lastSeen": "2026-10-15T00:43:55+05:30"
     }
   ],
-  "portalAt": "2026-10-15T00:38:41+05:30",
+  "portalAt": "2026-10-15T00:43:55+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
       "name": "Naukri",
-      "ok": false,
+      "ok": true,
       "fetched": 0,
-      "errors": 10,
-      "error": "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=40&urlType=search_by_keywo",
+      "errors": 0,
+      "error": null,
       "scanned": 0
     },
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 0,
-      "errors": 9,
-      "error": "'int' object is not subscriptable",
-      "scanned": 0
+      "fetched": 366,
+      "errors": 0,
+      "error": null,
+      "scanned": 366
     },
     {
       "name": "Unstop",
