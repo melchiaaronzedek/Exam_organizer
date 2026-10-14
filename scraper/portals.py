@@ -215,12 +215,9 @@ def naukri(q: str) -> list[dict]:
         except Exception as e:  # noqa: BLE001
             last = e
     if data is None:
-        try:
-            r = requests.get(url, headers={"User-Agent": UA, "appid": "109", "systemid": "Naukri", "Accept": "application/json"}, timeout=TIMEOUT)
-            print(f"[sample] Naukri api {r.status_code}: {r.text[:300]!r}")
-        except Exception:  # noqa: BLE001
-            pass
-        return naukri_reader(q)
+        # Naukri answers "recaptcha required" to datacenter IPs and renders its search page client-side,
+        # so neither the API nor the reader fallback yields cards from GitHub Actions. Report it plainly.
+        raise RuntimeError(f"blocked (recaptcha) — {str(last)[:60]}")
     out = []
     for j in data.get("jobDetails", []) or []:
         ph = {p.get("type"): p.get("label") for p in j.get("placeholders", []) or []}
