@@ -32,6 +32,7 @@ export function Jobs() {
   const [expanded, setExpanded] = useState<string | null>(null)
   const [onlyNew, setOnlyNew] = useState(false)
   const [verifiedOnly, setVerifiedOnly] = useState(false)
+  const [source, setSource] = useState<string>('all')
   const po = profileStore.use()
   const southFirst = po.southFirst ?? true
   const swipe = useRef<{ id: string; x: number; dx: number } | null>(null)
@@ -48,6 +49,7 @@ export function Jobs() {
       setTab(jobs.applied.includes(id) ? 'applied' : jobs.dismissed.includes(id) ? 'dismissed' : o.status === 'expected' ? 'expected' : o.status === 'closed' ? 'closed' : 'open')
       setScope('all')
       setTrack('all')
+      setSource('all')
       setQ('')
       setShowHidden(true)
       setExpanded(id)
@@ -72,6 +74,7 @@ export function Jobs() {
     .filter((o) => track === 'all' || o.track === track)
     .filter((o) => !onlyNew || o.isNew)
     .filter((o) => !verifiedOnly || !o.private || o.trust === 'verified')
+    .filter((o) => source === 'all' || o.source === source)
     .filter(visible)
     .filter(matchesQuery)
     .sort((a, b) => {
@@ -112,7 +115,16 @@ export function Jobs() {
   }, [shown, tab, sort])
 
   const portalStatus = opportunities.portalStatus ?? []
-  const portalOk = portalStatus.filter((s) => s.ok)
+  const portalRan = portalStatus.filter((s) => s.state !== 'off')
+  const portalOk = portalRan.filter((s) => s.ok)
+  const sources = useMemo(() => {
+    const n = new Map<string, number>()
+    for (const o of pool) if (o.sourceType === 'portal' && o.source && !hidden(o) && visible(o)) n.set(o.source, (n.get(o.source) ?? 0) + 1)
+    return [...n.entries()].sort((a, b) => b[1] - a[1])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pool, jobs, showHidden])
+  const statusLabel = (s: (typeof portalStatus)[number]) =>
+    s.state === 'off' ? `${s.name} – off` : s.ok ? `${s.name} ✓ ${s.scanned ?? s.fetched ?? 0}${s.state === 'partial' ? '*' : ''}` : `${s.name} ✗ ${s.reason ?? 'failed'}`
 
   return (
     <div className="view">
@@ -202,6 +214,20 @@ export function Jobs() {
           </select>
         </div>
       </div>
+      {sources.length >= 2 ? (
+        <div className="toolbar">
+          <div className="filters filters--rail" role="group" aria-label="Source">
+            <button className={`filter ${source === 'all' ? 'is-active' : ''}`} onClick={() => setSource('all')}>
+              All sources
+            </button>
+            {sources.map(([name, n]) => (
+              <button key={name} className={`filter ${source === name ? 'is-active' : ''}`} onClick={() => setSource(source === name ? 'all' : name)}>
+                {name} <span className="filter__n">{n}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
 
       {shown.length === 0 ? (
         <div className="empty">
@@ -209,7 +235,9 @@ export function Jobs() {
           <p>
             {q
               ? 'Nothing matches that search.'
-              : tab === 'open'
+              : source !== 'all'
+                ? `No listing from ${source} clears the bar today.`
+                : tab === 'open'
                 ? scope === 'private'
                   ? 'No private listing today clears the fresher and pay bar. The portal scan runs every morning at 08:00 IST.'
                   : 'No open postings match. The daily job adds new ones each morning.'
@@ -252,9 +280,14 @@ export function Jobs() {
           Govt list curated {opportunities.curatedAt ? `on ${fmtShort(opportunities.curatedAt)}` : 'from research'}; news discovery {opportunities.discoveredAt ? `last ran ${fmtShort(opportunities.discoveredAt)}` : 'pending'}.
           {opportunities.portalAt ? ` Portals scanned ${fmtShort(opportunities.portalAt)}: ` : ' Portal scan pending: '}
           {portalStatus.length
-            ? portalStatus.map((s) => `${s.name} ${s.ok ? `✓ ${s.scanned ?? s.fetched ?? 0}` : '✗'}`).join(' · ')
-            : 'Naukri · Foundit · Unstop · LinkedIn · Internshala'}
-          {portalStatus.length && !portalOk.length ? ' (every portal failed; check the Actions log)' : ''}. Fit is a keyword score, not eligibility advice.
+            ? portalStatus.map((s, i) => (
+                <span key={s.name} title={s.error ?? undefined}>
+                  {i ? ' · ' : ''}
+                  {statusLabel(s)}
+                </span>
+              ))
+            : 'Indeed · Glassdoor · Naukri · Foundit · Unstop · LinkedIn · Internshala · iimjobs · TimesJobs · Shine · Freshersworld · Adzuna · Jooble'}
+          {portalRan.length && !portalOk.length ? ' (every portal failed; check the Actions log)' : ''}. Blocked portals refuse GitHub's servers; "– off" needs an API key in the repo secrets (see README). Fit is a keyword score, not eligibility advice.
         </p>
       </div>
     </div>
