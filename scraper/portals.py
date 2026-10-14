@@ -397,10 +397,22 @@ def _zero_sample(name: str, text: str, hint: str = "", link_pat: str | None = No
         pp = (nd.get("props") or {}).get("pageProps") or {}
         print(f"[sample] {name}: __NEXT_DATA__ keys={list(nd)[:8]} pageProps keys={list(pp)[:20] if isinstance(pp, dict) else type(pp).__name__}")
         blob = json.dumps(pp if pp else nd)
-        print(f"[sample] {name}: pageProps head: {blob[:1500]!r}")
-        for hit in re.finditer(r'"(?:api|endpoint|url)[A-Za-z]*"\s*:\s*"(https?://[^"]{10,160})"', blob):
+        print(f"[sample] {name}: pageProps head: {blob[:600]!r}")
+        for k, v in (pp.items() if isinstance(pp, dict) else []):
+            if isinstance(v, (dict, list)) and len(json.dumps(v)) > 800:
+                shape = list(v)[:25] if isinstance(v, dict) else f"list[{len(v)}] first={list(v[0])[:15] if v and isinstance(v[0], dict) else str(v[:1])[:200]}"
+                print(f"[sample] {name}: pageProps.{k} ({len(json.dumps(v))} chars): {shape}")
+                if isinstance(v, dict):
+                    for k2, v2 in v.items():
+                        if isinstance(v2, (dict, list)) and len(json.dumps(v2)) > 600:
+                            print(f"[sample] {name}: pageProps.{k}.{k2} ({len(json.dumps(v2))} chars): {json.dumps(v2)[:400]!r}")
+        for hit in re.finditer(r'"(?:api|endpoint|url|baseUrl|apiHost)[A-Za-z]*"\s*:\s*"((?:https?:)?//[^"]{10,160})"', blob):
             print(f"[sample] {name}: api-ish url: {hit.group(1)}")
             break
+        hit = re.search(r'"(job[A-Za-z_]{2,20})"\s*:', blob)
+        if hit:
+            print(f"[sample] {name}: first job-ish key {hit.group(1)!r} at: {blob[max(0, hit.start() - 150): hit.start() + 350]!r}")
+    print(f"[sample] {name}: 'yrs' mentions={len(re.findall(r'\byrs?\b', text, re.I))} api paths={sorted(set(re.findall(r'(?:https?:)?//[a-z0-9.-]*iimjobs\.com/[a-z0-9_./-]*api[a-z0-9_./-]*', text)))[:6]}")
     for label, hay in (("html", text), ("rsc", rsc)):
         m = re.search(link_pat, hay) if link_pat and hay else None
         if m:
@@ -608,6 +620,7 @@ def parse_generic_md(md: str, link_rx: re.Pattern, name: str = "reader") -> list
             "experienceText": _md_line(chunk, r"((?:\d+\s*(?:-|to)\s*\d+|\d+\+?)\s*(?:yrs?|years?)|fresher)"), "postedAt": None, "description": chunk[:600],
         })
     if not out:
+        _reader_sample(name, md)
         raise RuntimeError("blocked (reader: no job links)")
     return out
 
@@ -1014,6 +1027,7 @@ def parse_glassdoor_md(md: str) -> list[dict]:
     if not out:
         if re.search(r"sign in|create account", md[:6000], re.I):
             raise RuntimeError("blocked (login wall)")
+        _reader_sample("Glassdoor", md)
         raise RuntimeError("blocked (reader: no job links)")
     return out
 

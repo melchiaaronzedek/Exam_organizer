@@ -78,7 +78,14 @@ jobs:
             echo "no changes"
           else
             git commit -m "data: daily scrape $(date -u +%Y-%m-%d)"
-            git push
+            # main may have moved while the scan ran (a merged PR): replay the data commit on top of it, keeping today's data.
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase -X theirs origin/main || { git rebase --abort; exit 1; }
+              git push && break
+              [ "$attempt" = 3 ] && exit 1
+              sleep $((attempt * 5))
+            done
           fi
 
       # Bot commits don't trigger deploy.yml, so redeploy here.
