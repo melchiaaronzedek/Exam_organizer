@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import type { Exam, ExamOverride, PhaseOverride, RepoDoc } from '../types'
 import { StatusChip } from './StatusChip'
 import { PhaseStepper } from './PhaseStepper'
@@ -6,6 +6,7 @@ import { Icon } from './Icon'
 import { cityOf, mapsUrl, nextPhase } from '../lib/data'
 import { daysUntil, fmtShort, isoToday, relative } from '../lib/dates'
 import { DOC_TYPES } from '../lib/vault'
+import { Check } from './Check'
 
 interface Props {
   exam: Exam
@@ -16,11 +17,12 @@ interface Props {
   onPhaseChange: (phaseId: string, patch: PhaseOverride) => void
   onDeleteCustom?: () => void
   defaultOpen?: boolean
+  style?: React.CSSProperties
 }
 
 const base = import.meta.env.BASE_URL
 
-export function ExamCard({ exam, override, docCount = 0, files = [], onOverride, onPhaseChange, onDeleteCustom, defaultOpen = false }: Props) {
+export function ExamCard({ exam, override, docCount = 0, files = [], onOverride, onPhaseChange, onDeleteCustom, defaultOpen = false, style }: Props) {
   const [open, setOpen] = useState(defaultOpen)
   const next = nextPhase(exam)
   const closes = exam.application.closes
@@ -37,7 +39,7 @@ export function ExamCard({ exam, override, docCount = 0, files = [], onOverride,
   const typeLabel = (t: string) => DOC_TYPES.find((x) => x.id === t)?.label ?? t
 
   return (
-    <article className={`card card--${exam.status} ${open ? 'card--open' : ''}`} id={`exam-${exam.id}`}>
+    <article className={`card card--${exam.status} ${open ? 'card--open' : ''}`} id={`exam-${exam.id}`} style={style}>
       <header className="card__head" onClick={() => setOpen(!open)} role="button" tabIndex={0} onKeyDown={(e) => e.key === 'Enter' && setOpen(!open)} aria-expanded={open}>
         <div className="card__id">
           <span className="card__org">{exam.org}</span>
@@ -96,7 +98,8 @@ export function ExamCard({ exam, override, docCount = 0, files = [], onOverride,
         ) : null}
       </div>
 
-      {open ? (
+      <div className={`card__expand ${open ? 'is-open' : ''}`} aria-hidden={!open} {...(!open ? { inert: '' as unknown as boolean } : {})}>
+        <div className="card__expand-inner">
         <div className="card__body">
           <div className="card__actions">
             <a className="btn btn--ghost" href={exam.officialUrl} target="_blank" rel="noreferrer">
@@ -211,10 +214,7 @@ export function ExamCard({ exam, override, docCount = 0, files = [], onOverride,
                   <ul className="checklist">
                     {carry.map((item) => (
                       <li key={item}>
-                        <label className={`check ${checked.has(item) ? 'is-done' : ''}`}>
-                          <input type="checkbox" checked={checked.has(item)} onChange={() => toggle(item)} />
-                          <span>{item}</span>
-                        </label>
+                        <Check checked={checked.has(item)} onChange={() => toggle(item)} label={item} />
                       </li>
                     ))}
                   </ul>
@@ -258,7 +258,8 @@ export function ExamCard({ exam, override, docCount = 0, files = [], onOverride,
             </div>
           </div>
         </div>
-      ) : null}
+        </div>
+      </div>
     </article>
   )
 }

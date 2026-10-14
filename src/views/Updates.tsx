@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { useApp } from '../ctx'
+import { useEntrance } from '../lib/useEntrance'
 import { Icon } from '../components/Icon'
 import { seenStore } from '../lib/storage'
 import { formatDistanceToNow } from 'date-fns'
@@ -7,6 +8,7 @@ import { isFresh } from '../lib/data'
 
 export function Updates() {
   const { updates, status, exams } = useApp()
+  const pre = useEntrance([])
   const seen = seenStore.use()
   const [examFilter, setExamFilter] = useState('all')
   const list = useMemo(
@@ -56,11 +58,11 @@ export function Updates() {
           <p>No updates captured yet. The daily job writes them here; run it manually from GitHub Actions to fetch now.</p>
         </div>
       ) : (
-        <ul className="feed">
+        <ul className={`feed ${pre}`}>
           {list.map((u) => {
             const isNew = isFresh(u) && !seen.ids.includes(u.id)
             return (
-              <li key={u.id} className={`feed__item ${isNew ? 'is-new' : ''}`}>
+              <li key={u.id} className={`feed__item ${isNew ? 'is-new' : ''}`} style={{ ['--i' as string]: Math.min(list.indexOf(u), 10) }}>
                 <div className="feed__meta">
                   <span className="pill">{nameOf(u.examId)}</span>
                   <span className="muted small">{u.source}</span>
