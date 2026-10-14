@@ -383,13 +383,218 @@ def _text(el) -> str:
     return el.get_text(" ", strip=True) if el else ""
 
 
-def _zero_sample(name: str, text: str, hint: str = "") -> None:
-    """Print the head of a page that was fetched fine but yielded no cards, so the selectors can be fixed from the log."""
-    head = re.sub(r"\s+", " ", text[:700])
+def _zero_sample(name: str, text: str, hint: str = "", link_pat: str | None = None) -> None:
+    """Print what a page that was fetched fine but yielded no cards looks like, so the parser can be fixed from the log."""
+    head = re.sub(r"\s+", " ", text[:400])
     print(f"[sample] {name}: {len(text)} chars{(' · ' + hint) if hint else ''}; head: {head!r}")
+    print(f"[sample] {name}: next_data={'__NEXT_DATA__' in text} rsc_pushes={text.count('__next_f.push')} ldjson={text.count('application/ld+json')} "
+          f"links={len(re.findall(link_pat, text)) if link_pat else '-'}")
+    rsc = _rsc_text(text)
+    if rsc:
+        print(f"[sample] {name}: rsc {len(rsc)} chars; head: {re.sub(r'\s+', ' ', rsc[:500])!r}")
+    for label, hay in (("html", text), ("rsc", rsc)):
+        m = re.search(link_pat, hay) if link_pat and hay else None
+        if m:
+            print(f"[sample] {name}: around first link in {label}: {hay[max(0, m.start() - 400): m.start() + 500]!r}")
+            break
     m = re.search(r"<(?:li|div|article)[^>]{0,200}(?:job|card|tuple)[^>]{0,200}>", text, re.I)
     if m:
-        print(f"[sample] {name}: first job-ish tag at {m.start()}: {text[m.start(): m.start() + 500]!r}")
+        print(f"[sample] {name}: first job-ish tag at {m.start()}: {text[m.start(): m.start() + 400]!r}")
+
+
+# ── generic record extraction: JSON-LD, __NEXT_DATA__, Next.js RSC payloads ──
+TITLE_KEYS = ("jJT", "jobTitle", "job_title", "jobtitle", "title", "designation", "roleTitle", "jobName")
+COMPANY_KEYS = ("jCName", "companyName", "company_name", "company", "organisation", "organization", "hiringOrganization", "recruiterName", "employer", "orgName", "employerName")
+URL_KEYS = ("url", "jobUrl", "jobURL", "jSlug", "seo_url", "seoUrl", "slug", "link", "applyUrl", "detailUrl", "jdURL", "jdUrl", "href", "jobLink", "canonicalUrl")
+SALARY_KEYS = ("jSal", "salary", "ctc", "payRange", "baseSalary", "compensation", "salaryRange", "package")
+EXP_KEYS = ("jExp", "experience", "exp", "experienceRequirements", "experienceText", "expRange", "yearsOfExperience")
+DATE_KEYS = ("jPDate", "postedDate", "datePosted", "createdAt", "postedOn", "posted_at", "created", "publishedAt", "jobPostedDate")
+DESC_KEYS = ("jJD", "description", "jd", "snippet", "summary", "jobDescription", "shortDescription")
+RECORD_KEY_RX = re.compile(r'"(?:jJT|jobTitle|job_title|jobtitle|title|designation|roleTitle|jobName)"\s*:\s*"')
+
+
+def _rsc_text(html: str) -> str:
+    """Concatenated, unescaped Next.js app-router payloads (self.__next_f.push([1,"..."]))."""
+    parts = []
+    for m in re.finditer(r'self\.__next_f\.push\(\[\d+,\s*"((?:[^"\\]|\\.)*)"\]\)', html):
+        try:
+            parts.append(json.loads('"' + m.group(1) + '"'))
+        except Exception:  # noqa: BLE001
+            continue
+    return "\n".join(parts)
+
+
+def _balanced_object(text: str, start: int, limit: int = 8000) -> str | None:
+    depth, in_str, esc = 0, False, False
+    for i in range(start, min(len(text), start + limit)):
+        ch = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif ch == "\\":
+                esc = True
+            elif ch == '"':
+                in_str = False
+        elif ch == '"':
+            in_str = True
+        elif ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start: i + 1]
+    return None
+
+
+def _json_records(text: str, max_records: int = 300) -> list[dict]:
+    """Every JSON object in `text` that carries both a title-ish and a company-ish key (smallest enclosing object wins)."""
+    out, seen_starts = [], set()
+    for m in RECORD_KEY_RX.finditer(text):
+        pos = m.start()
+        for _ in range(4):
+            start = text.rfind("{", max(0, pos - 4000), pos)
+            if start < 0 or start in seen_starts:
+                break
+            seen_starts.add(start)
+            raw = _balanced_object(text, start)
+            if raw is None:
+                break
+            try:
+                obj = json.loads(raw)
+            except Exception:  # noqa: BLE001
+                pos = start
+                continue
+            if isinstance(obj, dict) and _pick(obj, *TITLE_KEYS) and _pick(obj, *COMPANY_KEYS):
+                out.append(obj)
+                break
+            pos = start
+        if len(out) >= max_records:
+            break
+    return out
+
+
+def _ldjson_jobs(html: str) -> list[dict]:
+    """schema.org JobPosting objects embedded as JSON-LD."""
+    jobs: list[dict] = []
+
+    def walk(o, depth=0):
+        if depth > 6:
+            return
+        if isinstance(o, dict):
+            t = o.get("@type")
+            if t == "JobPosting" or (isinstance(t, list) and "JobPosting" in t):
+                jobs.append(o)
+            for v in o.values():
+                walk(v, depth + 1)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v, depth + 1)
+
+    for m in re.finditer(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', html, re.S | re.I):
+        try:
+            walk(json.loads(m.group(1).strip()))
+        except Exception:  # noqa: BLE001
+            continue
+    out = []
+    for j in jobs:
+        org = j.get("hiringOrganization") or {}
+        locs = j.get("jobLocation") or []
+        if isinstance(locs, dict):
+            locs = [locs]
+        loc = ", ".join(str(((x.get("address") or {}) if isinstance(x, dict) else {}).get("addressLocality") or "") for x in locs if isinstance(x, dict)).strip(", ")
+        bs = j.get("baseSalary") or {}
+        val = bs.get("value") if isinstance(bs, dict) else None
+        sal = None
+        if isinstance(val, dict) and (val.get("minValue") or val.get("value")):
+            lo, hi = val.get("minValue") or val.get("value"), val.get("maxValue") or val.get("value")
+            unit = (val.get("unitText") or "YEAR").lower()
+            sal = f"{lo} - {hi} per {'month' if 'month' in unit else 'annum'}"
+        exp = j.get("experienceRequirements")
+        if isinstance(exp, dict):
+            exp = f"{exp.get('monthsOfExperience', 0)} months" if exp.get("monthsOfExperience") is not None else None
+        out.append({
+            "title": str(j.get("title") or ""), "company": str(org.get("name") if isinstance(org, dict) else org or ""), "location": loc,
+            "url": str(j.get("url") or ""), "salaryText": sal, "experienceText": str(exp) if exp else None,
+            "postedAt": _date_any(j.get("datePosted")), "description": re.sub(r"<[^>]+>", " ", str(j.get("description") or ""))[:600],
+        })
+    return out
+
+
+def _records_to_raws(records: list[dict], base: str) -> list[dict]:
+    out, seen = [], set()
+    for j in records:
+        title = _pick(j, *TITLE_KEYS)
+        comp = _pick(j, *COMPANY_KEYS)
+        if isinstance(comp, dict):
+            comp = comp.get("name") or comp.get("companyName") or comp.get("title") or ""
+        link = _pick(j, *URL_KEYS) or ""
+        if isinstance(link, dict):
+            link = link.get("url") or link.get("href") or ""
+        link = str(link)
+        if link and not link.startswith("http"):
+            link = base.rstrip("/") + "/" + link.lstrip("/")
+        key = link or (str(title) + "|" + str(comp))
+        if key in seen:
+            continue
+        seen.add(key)
+        sal = _pick(j, *SALARY_KEYS)
+        if isinstance(sal, dict):
+            lo, hi = num(_pick(sal, "min", "from", "minValue")), num(_pick(sal, "max", "to", "maxValue"))
+            sal = f"{lo:.0f} - {hi:.0f} per annum" if lo and hi else None
+        exp = _pick(j, *EXP_KEYS)
+        if exp is None and (j.get("minExp") is not None or j.get("minExperience") is not None):
+            lo, hi = num(j.get("minExp", j.get("minExperience"))), num(j.get("maxExp", j.get("maxExperience")))
+            exp = f"{lo:g}-{hi:g} yrs" if lo is not None and hi is not None else (f"{lo:g} yrs" if lo is not None else None)
+        if isinstance(exp, dict):
+            exp = f"{num(_pick(exp, 'min', 'from')) or 0:g}-{num(_pick(exp, 'max', 'to')) or 0:g} yrs"
+        desc = _pick(j, *DESC_KEYS)
+        out.append({
+            "title": str(title), "company": str(comp or ""), "location": _locs(_pick(j, "jLoc", "location", "locations", "city", "jobLocation", "cities")),
+            "url": link, "salaryText": str(sal) if sal and not isinstance(sal, (dict, list)) else None,
+            "experienceText": str(exp) if exp and not isinstance(exp, (dict, list)) else None,
+            "postedAt": _date_any(_pick(j, *DATE_KEYS)), "description": re.sub(r"<[^>]+>", " ", str(desc or ""))[:600],
+        })
+    return out
+
+
+def _embedded_jobs(html: str, base: str) -> list[dict]:
+    """Job records from JSON-LD, then __NEXT_DATA__, then RSC payloads, then any inline JSON."""
+    items = _ldjson_jobs(html)
+    if items:
+        return items
+    nd = _next_data(html)
+    if nd:
+        items = _records_to_raws(_json_records(json.dumps(nd)), base)
+        if items:
+            return items
+    rsc = _rsc_text(html)
+    if rsc:
+        items = _records_to_raws(_json_records(rsc), base)
+        if items:
+            return items
+    return _records_to_raws(_json_records(html), base)
+
+
+def parse_generic_md(md: str, link_rx: re.Pattern) -> list[dict]:
+    """Job cards out of reader markdown: each matching link is a title; the lines after it carry company / experience / pay / place."""
+    marker = _reader_blocked(md)
+    if marker:
+        raise RuntimeError(f"blocked (cloudflare: {marker})")
+    out, seen = [], set()
+    for title, link, chunk in _md_cards(md, link_rx):
+        key = link.split("?")[0]
+        if key in seen or len(title) < 4:
+            continue
+        seen.add(key)
+        out.append({
+            "title": title, "company": _md_line(chunk, r"\n\s*\**\[?([A-Z][^\n*\]]{2,60}?)\]?\**\s*(?:\(https?://[^)]*\))?\s*\n") or "",
+            "location": _md_line(chunk, CITY_LINE_RX) or "",
+            "url": key, "salaryText": _md_line(chunk, r"((?:rs\.?|₹)\s*[\d.,]+\s*(?:-\s*[\d.,]+)?\s*(?:lacs?|lakhs?|lpa|p\.?a\.?|per annum|/\s*month|a month)[^\n]{0,12}|\d[\d.,]*\s*-\s*\d[\d.,]*\s*(?:lacs?|lakhs?|lpa)[^\n]{0,8})"),
+            "experienceText": _md_line(chunk, r"((?:\d+\s*(?:-|to)\s*\d+|\d+\+?)\s*(?:yrs?|years?)|fresher)"), "postedAt": None, "description": chunk[:600],
+        })
+    if not out:
+        raise RuntimeError("blocked (reader: no job links)")
+    return out
 
 
 BLOCK_MARKERS = ("just a moment", "verify you are human", "additional verification required", "security check", "access denied", "are you a human", "cf-chl", "enable javascript and cookies", "request blocked")
@@ -470,7 +675,17 @@ def parse_iimjobs(html: str) -> list[dict]:
             "salaryText": None, "experienceText": f"{exp.group(1)} yrs" if exp else None, "postedAt": None,
             "description": ctext[:600],
         })
-    return out
+    if out:
+        return out
+    # The current site renders through Next.js RSC payloads: pull the job records out of the embedded JSON instead.
+    items = _embedded_jobs(html, "https://www.iimjobs.com")
+    for it in items:
+        if not it.get("experienceText"):
+            m = re.search(r"\(\s*(\d+\s*-\s*\d+)\s*yrs?\s*\)", it["title"], re.I)
+            if m:
+                it["experienceText"] = f"{m.group(1)} yrs"
+                it["title"] = re.sub(r"\s*\(\s*\d+\s*-\s*\d+\s*yrs?\s*\)\s*$", "", it["title"]).strip()
+    return items
 
 
 def iimjobs(q: str) -> list[dict]:
@@ -480,7 +695,7 @@ def iimjobs(q: str) -> list[dict]:
         raise RuntimeError("blocked (login wall)")
     items = parse_iimjobs(r.text)
     if not items and len(r.text) > 20000:
-        _zero_sample("iimjobs", r.text, url)
+        _zero_sample("iimjobs", r.text, url, r"/j/[a-z0-9-]+-\d+\.html")
         raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
     return items
 
@@ -514,12 +729,21 @@ def parse_timesjobs(html: str) -> list[dict]:
     return out
 
 
+TIMESJOBS_LINK_RX = re.compile(r"\[([^\]]{4,140})\]\((https?://www\.timesjobs\.com/job-detail/[^)\s]+)\)")
+
+
 def timesjobs(q: str) -> list[dict]:
     url = f"https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords={requests.utils.quote(q)}&cboWorkExp1=0"
-    r = get(url)
+    try:
+        r = get(url)
+    except requests.exceptions.ConnectionError:
+        # The site refuses connections from GitHub's address range; the reader fetches it from elsewhere.
+        return parse_generic_md(_reader(url), TIMESJOBS_LINK_RX)
     items = parse_timesjobs(r.text)
+    if not items:
+        items = _embedded_jobs(r.text, "https://www.timesjobs.com")
     if not items and len(r.text) > 20000:
-        _zero_sample("TimesJobs", r.text, url)
+        _zero_sample("TimesJobs", r.text, url, r"timesjobs\.com/job-detail/")
         raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
     return items
 
@@ -580,6 +804,11 @@ def _next_data(html: str) -> dict | None:
 def parse_shine(html: str) -> list[dict]:
     data = _next_data(html)
     out = []
+    if not data:
+        # App-router build: the job list sits in RSC payloads (or JSON-LD), not in __NEXT_DATA__.
+        out = _embedded_jobs(html, "https://www.shine.com")
+        if out:
+            return out
     if data:
         cards = None
         for lst in _walk_lists(data):
@@ -627,8 +856,7 @@ def shine(q: str) -> list[dict]:
     r = get(url)
     items = parse_shine(r.text)
     if not items and len(r.text) > 20000:
-        nd = _next_data(r.text)
-        _zero_sample("Shine", json.dumps(nd)[:4000] if nd else r.text, url)
+        _zero_sample("Shine", r.text, url, r"shine\.com/jobs/[a-z0-9-]+")
         raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
     return items
 
@@ -683,12 +911,23 @@ def parse_freshersworld(html: str) -> list[dict]:
     return out
 
 
+FRESHERSWORLD_LINK_RX = re.compile(r"\[([^\]]{4,140})\]\((https?://www\.freshersworld\.com/jobs/[a-z0-9-]+-\d+[^)\s]*)\)")
+
+
 def freshersworld(q: str) -> list[dict]:
     url = f"https://www.freshersworld.com/jobs/jobsearch/{_slug(q)}-jobs"
-    r = get(url)
+    try:
+        r = get(url)
+    except (requests.exceptions.ConnectionError, requests.HTTPError) as e:
+        if isinstance(e, requests.HTTPError) and e.response is not None and e.response.status_code not in (403, 429, 503):
+            raise
+        # 403 for datacenter IPs; the reader fetches it from elsewhere.
+        return parse_generic_md(_reader(url), FRESHERSWORLD_LINK_RX)
     items = parse_freshersworld(r.text)
+    if not items:
+        items = _embedded_jobs(r.text, "https://www.freshersworld.com")
     if not items and len(r.text) > 20000:
-        _zero_sample("Freshersworld", r.text, url)
+        _zero_sample("Freshersworld", r.text, url, r"freshersworld\.com/jobs/[a-z0-9-]+-\d+")
         raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
     return items
 
@@ -1296,6 +1535,9 @@ def self_test() -> int:
         ("Glassdoor", parse_glassdoor_md, "glassdoor.md", 1, {}),
         ("Adzuna", lambda t: parse_adzuna(json.loads(t)), "adzuna.json", 2, {"salaryText": "600000 - 900000 per annum"}),
         ("Jooble", lambda t: parse_jooble(json.loads(t)), "jooble.json", 1, {}),
+        ("Shine RSC", parse_shine, "shine_rsc.html", 3, {"experienceText": "0 to 2 Yrs", "salaryText": "12 - 15 Lacs P.A."}),
+        ("iimjobs RSC", parse_iimjobs, "iimjobs_rsc.html", 2, {"experienceText": "0-2 yrs", "company": "Hindustan Unilever"}),
+        ("TimesJobs md", lambda t: parse_generic_md(t, TIMESJOBS_LINK_RX), "timesjobs_reader.md", 2, {"experienceText": "0 - 2 yrs", "salaryText": "Rs 12.00 - 15.00 Lacs p.a.", "company": "Hindustan Unilever Limited"}),
     ]
     for name, fn, fname, min_n, expect in parser_cases:
         try:
