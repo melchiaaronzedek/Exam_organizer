@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T03:21:50+05:30",
+  "discoveredAt": "2026-10-15T03:30:37+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4634,6 +4634,96 @@
   "discoverBaseline": false,
   "portal": [
     {
+      "org": "Tata Capital Finance Limited",
+      "post": "Management Trainee in Career Management",
+      "title": "Management Trainee in Career Management",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "0 to 4 Yrs",
+      "experienceText": "0 to 4 Yrs",
+      "experienceMinYears": 0.0,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "tata",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Mumbai City"
+      ],
+      "link": "https://www.shine.com/jobs/management-trainee-in-career-management/tata-capital-finance-limited/19682734",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 70,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-73a27b74edab",
+      "firstSeen": "2026-10-15T03:30:41+05:30",
+      "lastSeen": "2026-10-15T03:30:41+05:30"
+    },
+    {
+      "org": "Kajaria Ceramics Limited",
+      "post": "Sales and Marketing Management Trainee",
+      "title": "Sales and Marketing Management Trainee",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "0 to 4 Yrs",
+      "experienceText": "0 to 4 Yrs",
+      "experienceMinYears": 0.0,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "kajaria",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Nizamabad"
+      ],
+      "link": "https://www.shine.com/jobs/sales-and-marketing-management-trainee/kajaria-ceramics-limited/19627725",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 70,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-3538a835c323",
+      "firstSeen": "2026-10-15T03:30:41+05:30",
+      "lastSeen": "2026-10-15T03:30:41+05:30"
+    },
+    {
       "org": "Wipro Limited",
       "post": "Management Trainee",
       "title": "Management Trainee",
@@ -4677,7 +4767,7 @@
       "summary": "<p><strong>Wipro is hiring for the role of Management Trainee!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <p>1. Accounting &amp; Finance Support</p> <ul> <li> <div> <div> <p>Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T03:21:53+05:30"
+      "lastSeen": "2026-10-15T03:30:41+05:30"
     },
     {
       "org": "Razorpay",
@@ -4722,7 +4812,7 @@
       "summary": "<p><strong>Razorpay is hiring for the role of Junior Analyst!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <ul> <li>Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately.&nbsp;</li> <li>Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T03:21:53+05:30"
+      "lastSeen": "2026-10-15T03:30:41+05:30"
     },
     {
       "org": "Marriott International",
@@ -4766,7 +4856,7 @@
       "summary": "<p><strong>Marriott International is hiring for the role of Sales &amp; Marketing Voyage Program 2027!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <ul> <li>Cultivate customer relationships</li> <li>Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T03:21:53+05:30"
+      "lastSeen": "2026-10-15T03:30:41+05:30"
     },
     {
       "org": "nuvama group",
@@ -4811,11 +4901,11 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-15T03:21:53+05:30",
+      "lastSeen": "2026-10-15T03:30:41+05:30",
       "trustWhy": "nuvama"
     }
   ],
-  "portalAt": "2026-10-15T03:21:53+05:30",
+  "portalAt": "2026-10-15T03:30:41+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -4830,19 +4920,19 @@
     },
     {
       "name": "Glassdoor",
-      "ok": false,
-      "fetched": 0,
-      "errors": 2,
+      "ok": true,
+      "fetched": 30,
+      "errors": 1,
       "error": "blocked (cloudflare: just a moment)",
-      "state": "blocked",
-      "reason": "cloudflare: just a momen",
-      "scanned": 0
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 30
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 6,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -4902,30 +4992,30 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 10,
-      "error": "HTTPSConnectionPool(host='www.timesjobs.com', port=443): Max retries exceeded with url: /candidate/job-search.html?searc",
-      "state": "error",
-      "reason": "HTTPSConnectionPool(host",
+      "errors": 8,
+      "error": "blocked (reader: no job links)",
+      "state": "blocked",
+      "reason": "reader: no job links",
       "scanned": 0
     },
     {
       "name": "Shine",
-      "ok": false,
-      "fetched": 0,
-      "errors": 6,
-      "error": "parse (0 cards in 256686 chars)",
-      "state": "error",
-      "reason": "parse",
-      "scanned": 0
+      "ok": true,
+      "fetched": 120,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 120
     },
     {
       "name": "Freshersworld",
       "ok": false,
       "fetched": 0,
       "errors": 6,
-      "error": "403 Client Error: Forbidden for url: https://www.freshersworld.com/jobs/jobsearch/leadership-program-mba-jobs",
-      "state": "error",
-      "reason": "http 403",
+      "error": "blocked (reader: no job links)",
+      "state": "blocked",
+      "reason": "reader: no job links",
       "scanned": 0
     },
     {
