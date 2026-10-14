@@ -147,6 +147,15 @@ def ms_to_iso(ms) -> str | None:
         return None
 
 
+def _date_any(v) -> str | None:
+    if v is None:
+        return None
+    if isinstance(v, (int, float)):
+        return ms_to_iso(v if v > 10**11 else v * 1000)
+    m = re.search(r"\d{4}-\d{2}-\d{2}", str(v))
+    return m.group(0) if m else None
+
+
 def num(v) -> float | None:
     """A number out of a scalar or a small dict like {"amount": 1200000} / {"min": 10, "max": 12}."""
     if isinstance(v, bool):
@@ -203,7 +212,12 @@ def naukri(q: str) -> list[dict]:
         except Exception as e:  # noqa: BLE001
             last = e
     if data is None:
-        raise last or RuntimeError("naukri failed")
+        try:
+            r = requests.get(url, headers={"User-Agent": UA, "appid": "109", "systemid": "Naukri", "Accept": "application/json"}, timeout=TIMEOUT)
+            print(f"[sample] Naukri api {r.status_code}: {r.text[:300]!r}")
+        except Exception:  # noqa: BLE001
+            pass
+        return naukri_reader(q)
     out = []
     for j in data.get("jobDetails", []) or []:
         ph = {p.get("type"): p.get("label") for p in j.get("placeholders", []) or []}
@@ -213,6 +227,33 @@ def naukri(q: str) -> list[dict]:
             "url": link if link.startswith("http") else "https://www.naukri.com" + link,
             "salaryText": ph.get("salary"), "experienceText": ph.get("experience"),
             "postedAt": ms_to_iso(j.get("createdDate")), "description": (j.get("jobDescription") or "")[:600],
+        })
+    return out
+
+
+NAUKRI_CARD_RX = re.compile(r"\[([^\]]{6,140})\]\((https://www\.naukri\.com/job-listings[^)\s]+)\)")
+
+
+def naukri_reader(q: str) -> list[dict]:
+    """Fallback: the rendered search page through the r.jina.ai reader, parsed from markdown."""
+    slug = re.sub(r"[^a-z0-9]+", "-", q.lower()).strip("-")
+    page = f"https://www.naukri.com/{slug}-jobs?experience=0"
+    r = requests.get(f"https://r.jina.ai/{page}", headers={"User-Agent": UA, "Accept": "text/plain", "X-Return-Format": "markdown"}, timeout=60)
+    r.raise_for_status()
+    md = r.text
+    print(f"[sample] Naukri reader {len(md)} chars: {md[:500]!r}")
+    out = []
+    cards = list(NAUKRI_CARD_RX.finditer(md))
+    for i, m in enumerate(cards):
+        title, link = m.group(1).strip(), m.group(2)
+        chunk = md[m.end(): cards[i + 1].start() if i + 1 < len(cards) else m.end() + 900][:900]
+        comp = re.search(r"\n\s*\[?([A-Z][^\n\]]{2,60}?)\]?\s*(?:\(https://www\.naukri\.com/[^)]*\))?\s*\n", chunk)
+        exp = re.search(r"(\d+\s*-\s*\d+\s*Yrs?|\d+\+?\s*Yrs?|Fresher)", chunk, re.I)
+        sal = re.search(r"(\d[\d.,]*\s*-\s*\d[\d.,]*\s*(?:Lacs|Lakhs?|LPA)\s*P?A?|Not disclosed)", chunk, re.I)
+        loc = re.search(r"\n\s*([A-Z][A-Za-z ,/()]{2,80})\s*\n", chunk[chunk.find(exp.group(0)) if exp else 0:])
+        out.append({
+            "title": title, "company": comp.group(1).strip() if comp else "", "location": loc.group(1).strip() if loc else "",
+            "url": link.split("?")[0], "salaryText": sal.group(0) if sal else None, "experienceText": exp.group(0) if exp else None, "postedAt": None, "description": "",
         })
     return out
 
@@ -241,10 +282,18 @@ def foundit(q: str) -> list[dict]:
         out.append({
             "title": j.get("title") or "", "company": comp or "", "location": locs or ", ".join(j.get("locationsList") or []),
             "url": link if link.startswith("http") else "https://www.foundit.in" + link,
-            "salaryText": sal, "experienceText": exp, "postedAt": (j.get("createdAt") or j.get("postedAt") or "")[:10] or None,
+            "salaryText": sal, "experienceText": exp, "postedAt": _date_any(j.get("createdAt") or j.get("postedAt") or j.get("updatedAt")),
             "description": (j.get("description") or "")[:600],
         })
     return out
+
+
+def _locs(v) -> str:
+    if isinstance(v, list):
+        return ", ".join(str((x.get("city") or x.get("name") or x.get("location") or "")) if isinstance(x, dict) else str(x) for x in v[:5] if x)
+    if isinstance(v, dict):
+        return str(v.get("city") or v.get("name") or "")
+    return str(v or "")
 
 
 def unstop(q: str) -> list[dict]:
@@ -262,7 +311,7 @@ def unstop(q: str) -> list[dict]:
         end = find_key(j, "end_regn_dt", "end_date", "deadline")
         out.append({
             "title": j.get("title") or "", "company": org.get("name") if isinstance(org, dict) else str(org or ""),
-            "location": ", ".join(str(x.get("name", x)) if isinstance(x, dict) else str(x) for x in (j.get("locations") or j.get("jobLocation") or [])[:4]) if isinstance(j.get("locations") or j.get("jobLocation"), list) else str(j.get("locations") or ""),
+            "location": _locs(j.get("locations") or j.get("jobLocation") or j.get("job_locations")),
             "url": link if link.startswith("http") else "https://unstop.com/" + link.lstrip("/"),
             "salaryText": sal, "experienceText": str(exp) if exp else None, "postedAt": None, "applyCloses": str(end)[:10] if end else None,
             "description": (j.get("details") or j.get("description") or "")[:600] if isinstance(j.get("details") or j.get("description"), str) else "",
@@ -346,9 +395,9 @@ def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
     if exp_min is None:
         exp_min = parse_experience(hay)
     max_exp = float(profile.get("maxExperienceYears", 0.5))
-    if exp_min is None:
-        if not re.search(r"\b(trainee|fresher|graduate|campus|entry|associate|junior|program)\b", title, re.I):
-            return None, "experience unknown"
+    exp_unknown = exp_min is None
+    if exp_unknown:
+        # No experience line at all: keep it (the pay bar still applies) but say so, and score it lower.
         exp_min = 0.0
     if exp_min > max_exp:
         return None, f"needs {exp_min:g}+ yrs"
@@ -363,14 +412,18 @@ def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
     fit, why = score(cand, profile)
     fit = min(100, fit + 10)  # stated salary clears the private bar
     why = [w for w in why if not w.startswith("needs")] + ([f"pay {fmt_pay(sal)}"] if f"pay ≥ {profile.get('minPayLakh')} LPA" not in why else [])
-    if exp_min <= max_exp:
+    if exp_unknown:
+        fit = max(0, fit - 15)
+        why.append("experience not stated")
+    else:
         why.append("fresher OK")
     if SOUTH_RX.search(" ".join(locs)):
         pass
     return {
         "org": company[:80], "post": title[:140], "title": title, "sector": "private", "track": "private",
-        "eligibility": raw.get("experienceText") or "", "experienceText": raw.get("experienceText") or ("fresher" if exp_min == 0 else f"{exp_min:g} yrs"),
-        "experienceMinYears": exp_min, "pay": fmt_pay(sal), "payLakh": lo, "payMinLakh": lo, "payMaxLakh": hi,
+        "eligibility": raw.get("experienceText") or ("experience not stated" if exp_unknown else ""),
+        "experienceText": "not stated" if exp_unknown else (raw.get("experienceText") or ("fresher" if exp_min == 0 else f"{exp_min:g} yrs")),
+        "experienceMinYears": None if exp_unknown else exp_min, "pay": fmt_pay(sal), "payLakh": lo, "payMinLakh": lo, "payMaxLakh": hi,
         "locations": locs, "link": raw.get("url"), "source": raw.get("source"), "sourceType": "portal",
         "fit": fit, "fitWhy": why, "status": "open", "postedAt": raw.get("postedAt"), "applyCloses": raw.get("applyCloses"),
         "examDate": None, "examDateType": "tba", "curated": False, "kind": "portal",
@@ -441,16 +494,28 @@ def main(argv: list[str]) -> int:
     today = today_ist()
     stamp = now_ist().isoformat(timespec="seconds")
     keep_after = (today - timedelta(days=KEEP_DAYS)).isoformat()
-    existing = {d["id"]: d for d in opp.get("portal", []) if (d.get("firstSeen") or "")[:10] >= keep_after}
+    existing = {}
+    for d in opp.get("portal", []):
+        if (d.get("firstSeen") or "")[:10] < keep_after:
+            continue
+        re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source")}, profile)
+        if not re_item:
+            continue
+        d["org"], d["locations"] = re_item["org"], re_item["locations"]
+        existing[d["id"]] = d
     baseline = not opp.get("portal")
     seen = {dedupe_key(d["org"], d["post"]) for d in existing.values()}
 
     raws, status = fetch_all(fixture)
     reasons: dict[str, int] = {}
+    samples: dict[str, list[str]] = {}
     new = 0
     for raw in raws:
         item, reason = qualify(raw, profile)
-        reasons[reason] = reasons.get(reason, 0) + 1
+        key = "pay below bar" if reason.startswith("pay ") else reason
+        reasons[key] = reasons.get(key, 0) + 1
+        if len(samples.setdefault(key, [])) < 6:
+            samples[key].append(f"{raw.get('source', '?')}: {(raw.get('title') or '')[:48]} @ {(raw.get('company') or '')[:22]} [{raw.get('experienceText') or '-'} | {raw.get('salaryText') or '-'}]")
         if not item:
             continue
         key = dedupe_key(item["org"], item["post"])
@@ -472,6 +537,11 @@ def main(argv: list[str]) -> int:
             d["status"] = "closed"
     print(f"{len(raws)} listings scanned, {new} new qualifying, {len(merged)} kept")
     print("  " + ", ".join(f"{k}: {v}" for k, v in sorted(reasons.items(), key=lambda kv: -kv[1])))
+    for k, v in samples.items():
+        if k != "ok":
+            print(f"  [{k}]")
+            for line in v:
+                print(f"     {line}")
     if dry:
         print("dry-run: not writing")
         return 0
