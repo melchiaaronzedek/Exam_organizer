@@ -118,7 +118,7 @@ def ensure_labels(dry: bool) -> None:
     token, repo = env("GITHUB_TOKEN"), env("GITHUB_REPOSITORY")
     if not token or not repo or dry:
         return
-    for name, color, desc in [("reminder", "F4A442", "Upcoming exam date / deadline"), ("update", "3EC6B4", "New official notice found by the scraper")]:
+    for name, color, desc in [("reminder", "F4A442", "Upcoming exam date / deadline"), ("update", "3EC6B4", "New official notice found by the scraper"), ("opening", "A195FF", "New job opening that fits the profile")]:
         requests.post(f"https://api.github.com/repos/{repo}/labels", headers=gh_headers(token), json={"name": name, "color": color, "description": desc}, timeout=30)
 
 
@@ -148,12 +148,22 @@ def main(argv: list[str]) -> int:
         title = f"🆕 {len(fresh)} new notice(s) found — {today_ist().strftime('%d %b')}"
         github_issue(title, "\n".join(lines) + "\n\nSee all: https://melchiaaronzedek.github.io/Exam_organizer/#/updates", ["update"], dry)
 
-    if reminders or fresh:
+    # New fitting openings discovered since yesterday
+    opp = load_json("opportunities.json", {"discovered": []})
+    cutoff = (today_ist() - timedelta(days=1)).isoformat()
+    openings = [] if opp.get("discoverBaseline") else [o for o in opp.get("discovered", []) if (o.get("firstSeen") or "")[:10] >= cutoff and (o.get("fit") or 0) >= 60 and o.get("status") == "open"]
+    if openings:
+        lines = [f"- [{o['org']} — {o['post']}]({o['link']}) · fit {o['fit']}" + (f" · closes {o['applyCloses']}" if o.get("applyCloses") else "") for o in openings[:15]]
+        github_issue(f"🎯 {len(openings)} new opening(s) that fit — {today_ist().strftime('%d %b')}", "\n".join(lines) + "\n\nReview: https://melchiaaronzedek.github.io/Exam_organizer/#/jobs", ["opening"], dry)
+
+    if reminders or fresh or openings:
         msg = ["*Pariksha Desk — daily brief*"]
         for r in reminders:
             msg.append(r["title"])
         if fresh:
             msg.append(f"🆕 {len(fresh)} new notices: https://melchiaaronzedek.github.io/Exam_organizer/#/updates")
+        if openings:
+            msg.append(f"🎯 {len(openings)} new openings that fit: https://melchiaaronzedek.github.io/Exam_organizer/#/jobs")
         text = "\n".join(msg)
         telegram(text, dry)
         whatsapp(text, dry)

@@ -61,7 +61,7 @@ function CentreLine({ p, venue }: { p: Phase; venue?: string }) {
       {c?.allotted ? (
         <span>
           <strong>{c.allotted}</strong>
-          {venue ? <span className="muted"> · {venue}</span> : null}
+          {venue || c.venue ? <span className="muted"> · {venue || c.venue}</span> : null}
         </span>
       ) : c?.preferences?.length ? (
         <span>
@@ -84,7 +84,7 @@ function PhaseEditor({ p, po, onChange }: { p: Phase; po?: PhaseOverride; onChan
   const date = po?.date ?? p.date ?? ''
   const dateType = po?.dateType ?? p.dateType
   const allotted = po?.allotted ?? p.centre?.allotted ?? ''
-  const venue = po?.venue ?? ''
+  const venue = po?.venue ?? p.centre?.venue ?? ''
   const status = po?.status ?? p.status
   return (
     <div className="editor">

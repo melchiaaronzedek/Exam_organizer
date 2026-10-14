@@ -1,4 +1,4 @@
-import type { CalEvent, DocumentsFile, Update, Exam, ExamOverride, ExamsFile, Phase, PhaseKind, ScrapeStatusFile, UpdatesFile } from '../types'
+import type { CalEvent, DocumentsFile, OpportunitiesFile, Profile, Update, Exam, ExamOverride, ExamsFile, Phase, PhaseKind, ScrapeStatusFile, UpdatesFile } from '../types'
 import { daysUntil } from './dates'
 
 const base = import.meta.env.BASE_URL
@@ -14,13 +14,15 @@ async function getJSON<T>(path: string, fallback: T): Promise<T> {
 }
 
 export async function loadAll() {
-  const [exams, updates, status, documents] = await Promise.all([
+  const [exams, updates, status, documents, profile, opportunities] = await Promise.all([
     getJSON<ExamsFile>('data/exams.json', { generatedAt: '', exams: [] }),
     getJSON<UpdatesFile>('data/updates.json', { updatedAt: null, updates: [] }),
     getJSON<ScrapeStatusFile>('data/scrape_status.json', { lastRun: null, sources: [] }),
     getJSON<DocumentsFile>('data/documents.json', { count: 0, documents: [] }),
+    getJSON<Profile>('data/profile.json', { headline: '', education: [], ageOn: '', qualifications: [], roles: [], sectors: [], excludeTerms: [], homeStates: [], cities: [], minPayLakh: 0 }),
+    getJSON<OpportunitiesFile>('data/opportunities.json', { curated: [], discovered: [] }),
   ])
-  return { exams, updates, status, documents }
+  return { exams, updates, status, documents, profile, opportunities }
 }
 
 /** Apply browser-stored overrides on top of the public exam data. */
@@ -82,7 +84,7 @@ export function buildEvents(exams: Exam[], overrides: Record<string, ExamOverrid
         dateType: p.dateType,
         centre: p.centre?.allotted ?? null,
         centrePrefs: p.centre?.preferences,
-        venue: po?.venue,
+        venue: po?.venue || p.centre?.venue,
         timeNote: p.timeNote,
         status: p.status,
         examStatus: exam.status,
@@ -159,4 +161,14 @@ export function isFresh(u: Update, now = new Date()): boolean {
   const ms = now.getTime()
   if (u.publishedAt) return ms - new Date(u.publishedAt.slice(0, 10)).getTime() <= 7 * 86_400_000
   return ms - new Date(u.firstSeen).getTime() <= 2 * 86_400_000
+}
+
+/** First centre preferences found on any phase (for cards without a dated next phase). */
+export function anyPreferences(exam: Exam): { prefs: string[]; allotted: string | null; venue?: string; phase: string } | null {
+  for (const p of exam.phases) {
+    if (p.centre && (p.centre.preferences.length || p.centre.allotted)) {
+      return { prefs: p.centre.preferences, allotted: p.centre.allotted ?? null, venue: p.centre.venue, phase: p.name }
+    }
+  }
+  return null
 }

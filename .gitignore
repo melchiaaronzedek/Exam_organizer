@@ -9,3 +9,5 @@ documents/*
 !documents/README.md
 __pycache__/
 *.pyc
+research_notes/
+reports/

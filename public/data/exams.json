@@ -322,7 +322,12 @@
           "Passport photo",
           "Printed application (if asked)"
         ]
-      }
+      },
+      "postingPreferences": [
+        "Andhra Pradesh",
+        "Telangana",
+        "Karnataka"
+      ]
     },
     {
       "id": "pfrda-grade-a-2026",
@@ -362,9 +367,11 @@
               "Visakhapatnam",
               "Hyderabad"
             ],
-            "allotted": null
+            "allotted": "Chennai",
+            "venue": "ION Digital Zone IDZ, Kovilambakkam, Fortune Towers, Thoraipakkam–Pallavaram Radial Road, Eachangadu Signal, Chennai 600117"
           },
-          "note": "Check the admit card for the allotted venue."
+          "note": "Call letter received. Carry the printed call letter with photo affixed + original photo ID + photocopy; the letter is dropped in the box at the end.",
+          "timeNote": "Reporting 01:00 PM (afternoon shift)"
         },
         {
           "id": "phase2",
@@ -423,16 +430,17 @@
           "id": "admit",
           "name": "CBT admit card",
           "kind": "admit-card",
-          "dateType": "tba",
-          "status": "tba",
-          "note": "Usually 10–15 days before the CBT."
+          "dateType": "confirmed",
+          "status": "done",
+          "note": "Downloaded 14 Oct.",
+          "date": "2026-10-14"
         },
         {
           "id": "cbt",
           "name": "Computer Based Test",
           "kind": "exam",
           "date": "2026-10-26",
-          "dateType": "tentative",
+          "dateType": "confirmed",
           "status": "upcoming",
           "centre": {
             "preferences": [
@@ -440,9 +448,11 @@
               "Tirupati",
               "Visakhapatnam"
             ],
-            "allotted": null
+            "allotted": "Chennai",
+            "venue": "ION Digital Zone IDZ, Manimangalam, Dr. VPR Nagar, Kundrathur Taluk, Kancheepuram, Chennai 601301"
           },
-          "note": "AAI announced CBTs on 21 & 26 Oct 2026 depending on post/discipline; Junior Executive posts reported for 26 Oct. Confirm on admit card."
+          "note": "Admit card received. Carry the printed admit card with photo affixed + original photo ID + photocopy of ID.",
+          "timeNote": "Reporting 07:30 AM"
         },
         {
           "id": "dv",

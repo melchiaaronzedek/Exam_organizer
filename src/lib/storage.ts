@@ -81,3 +81,17 @@ export function importLocalState(json: string) {
   if (data.seen) seenStore.set(data.seen)
   if (data.prefs) prefsStore.set(data.prefs)
 }
+
+export interface JobsState {
+  dismissed: string[]
+  tracked: Record<string, string> // opportunityId -> examId
+}
+export const jobsStore = createStore<JobsState>('pd.jobs', { dismissed: [], tracked: {} })
+
+export interface ProfileOverride {
+  roles?: string[]
+  cities?: string[]
+  minPayLakh?: number
+  southFirst?: boolean
+}
+export const profileStore = createStore<ProfileOverride>('pd.profile', {})
