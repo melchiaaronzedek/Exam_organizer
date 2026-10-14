@@ -12,7 +12,7 @@ WhatsApp, and a private document vault for hall tickets and application forms.
 | Page | What it does |
 |---|---|
 | **Desk** | Countdown to the next exam, what needs attention this week, exams still to apply for, exams grouped by centre city, a 75-day timeline. |
-| **Jobs** | Openings that fit the profile (MBA marketing + B.Sc Agriculture, age 26): a curated list from research plus items the daily discovery job finds in news and aggregator feeds. Each shows deadline, pay, locations, a fit score with reasons, and a source badge. *Track* adds it to Exams; *Dismiss* hides it. Expected-soon items carry typical windows from last year's cycle. |
+| **Jobs** | Openings that fit the profile (MBA marketing + B.Sc Agriculture, age 26): a curated list from research plus items the daily discovery job finds in news and aggregator feeds. Each shows deadline, pay, locations, a fit score with reasons, and a source badge. Each row has *Applied*, *Remind*, *Track*, *Don't want* and *Delete*; on a phone swipe right for Applied and left for Don't want. *Remind* adds the opening to Exams and opens a prefilled GitHub issue labelled `track`; submit it and the morning job (`scraper/intake.py`) copies it into `exams.json` so email, Telegram and WhatsApp reminders cover it, then closes the issue. Expected-soon items carry typical windows from last year's cycle. |
 | **Exams** | One card per exam: status, application window, every phase with date / certainty / centre preferences / allotted centre. Click the pencil on a phase to correct a date or enter the venue from your admit card. Add your own exams too. |
 | **Calendar** | Month view of every phase and deadline (dashed = tentative) plus an agenda. Export an `.ics` file. |
 | **Updates** | Notices found by the daily scraper, with a NEW badge until you read them, and a health table showing which official sites answered. |
@@ -35,6 +35,10 @@ Name files `public/documents/<examId>/<type>__<Readable_name>.pdf` where `<examI
 `id` from `exams.json` and `<type>` is one of `application`, `hall-ticket`, `notification`,
 `receipt`, `photo`, `result`, `other`. Commit and push; the build regenerates
 `public/data/documents.json` and the Documents page and each exam card pick them up.
+
+## The mark
+
+`public/icons/logo.svg` is the source of the Pariksha Desk mark: a ring (the countdown) with a notch at twelve (today) and a P whose stem is a bookmark. In the app (`src/components/Logo.tsx`) the ring fills as the next exam approaches, tilts toward the pointer, sweeps on hover, presses on tap and pulses on exam day. Colours: ink `#0b0d12`, bone `#ece6d9`, saffron `#f4a442` (dark) / `#d97f22` (light). Regenerate the PNG icons after editing the SVG with `node scripts/render-icons.mjs` (needs Playwright's Chromium).
 
 ## Phone app
 

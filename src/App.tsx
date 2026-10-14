@@ -9,6 +9,8 @@ import { useEntrance } from './lib/useEntrance'
 import { useIsPhone } from './lib/useIsPhone'
 import { Icon } from './components/Icon'
 import { DashboardSkeleton } from './components/Skeleton'
+import { Logo } from './components/Logo'
+import { daysUntil } from './lib/dates'
 import { TabBar } from './components/TabBar'
 import { Sheet } from './components/Sheet'
 import { Dashboard } from './views/Dashboard'
@@ -149,6 +151,10 @@ export function App() {
   }
 
   const dueCount = dueEvents(events, prefs.leadDays).length
+  const nextExam = events.find((e) => e.kind === 'exam' && e.status !== 'done' && daysUntil(e.date)! >= 0)
+  const nextDays = nextExam ? daysUntil(nextExam.date)! : null
+  const ringProgress = nextDays == null ? 0.08 : Math.max(0.08, 1 - Math.min(nextDays, 30) / 30)
+  const examToday = nextDays === 0
   const unread = (data?.updates.updates ?? []).filter((u) => isFresh(u) && !seen.ids.includes(u.id)).length
   const openJobs = data ? [...data.opportunities.curated, ...data.opportunities.discovered].filter((o) => o.status === 'open' && !jobs.dismissed.includes(o.id)).length : 0
   const badge = (id: string) => (id === 'dashboard' ? dueCount : id === 'updates' ? unread : id === 'jobs' ? openJobs : 0)
@@ -163,7 +169,7 @@ export function App() {
         {!isPhone ? (
           <aside className="rail">
             <a className="brand" href="#/dashboard" onClick={() => navigate('dashboard')}>
-              <span className="brand__mark" aria-hidden="true">Pd</span>
+              <Logo size={34} interactive progress={ringProgress} pulse={examToday} />
               <span className="brand__name">Pariksha Desk</span>
             </a>
             <nav className="nav" aria-label="Main" ref={navRef}>
@@ -185,6 +191,9 @@ export function App() {
           </aside>
         ) : (
           <header className="appbar">
+            <span className="appbar__brand" onClick={() => navigate('dashboard')}>
+              <Logo size={28} interactive progress={ringProgress} pulse={examToday} />
+            </span>
             <span className="appbar__title">{TITLES[view]}</span>
             <span className="appbar__date mono">{format(new Date(), 'EEE d MMM')}</span>
           </header>
