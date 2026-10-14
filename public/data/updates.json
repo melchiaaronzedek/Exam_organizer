@@ -1,7 +1,745 @@
 {
-  "updatedAt": "2026-10-15T03:42:48+05:30",
+  "updatedAt": "2026-10-15T03:50:32+05:30",
   "baseline": false,
   "updates": [
+    {
+      "id": "6f282fa5d20e8e3c",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2024 - List of Candidates Nominated",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=Toz0G9NZfQTzGZvj3jqQ5Af7LACeXqgfMU%2F46Dedua%2B3Kn7GYEx91oUfWsXAZHtT%2B953HPUvjV1HI1xxOblbALodvJ%2FjjZLahqpHjsBmjBvKu791L%2BEj9voinpDooZdKXY3QusLqC0xS5Cf7gL4HbA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "9375dd08ddbe90bc",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2022 - Nomination List",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=hA58Bcr%2Br8mkOFJ4r1nSHD12HSFJYUxcltPjyAAAlXEgQThdW0IknlQihloN6cgLMWVHs6Vw4Om7eDaoLsa9C3UInw21YleCLR87%2FIIvHrHFEG6Sbp1BJKkbUq00xIaeM3LhamlG2CvwupaQhAnc%2Fw%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "8282352795676822",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2023",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=zkS%2F%2BfWjPUPgBXhKVF%2B5qu1sFFXuz%2BVeTvIx0xEuqTKjkCb0yBfxOftTqPpGt%2F7XPiRZnTWtMZo%2FkyPaUkooMgS4xTAyRRIF38qPauq8mnsErZP706PqtBsrbci33wO9jHafCxEGbh6WSiac9VPjDQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "c5b1c0623818c324",
+      "examId": "pci-aso-2026",
+      "title": "Openings",
+      "url": "https://presscouncil.nic.in/Openings.aspx",
+      "source": "Press Council home",
+      "publishedAt": null,
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "8a2f95de60adb61f",
+      "examId": "pci-aso-2026",
+      "title": "Vacancy Circular dated 26.09.2026: Applications are invited from eligible Indian citizens to fill up the vacancies for the posts of Assistant Section Officer (Group B Non-Gazetted) in Press Council of India.",
+      "url": "https://presscouncil.nic.in/ViewPdfContent.aspx?Page=DocumentsOfPCI&Position=Opening&Title=2378",
+      "source": "Press Council home",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "96ee9e241b322ea3",
+      "examId": "pci-aso-2026",
+      "title": "Notice regarding Exam held on 04.05.2025 for the post of Assistant Section Officer (ASO).",
+      "url": "https://presscouncil.nic.in/ViewPdfContent.aspx?Page=DocumentsOfPCI&Title=Notice%20regarding%20Exam%20held%20on%2004.05.2025%20for%20the%20post%20of%20Assistant%20Section%20Officer%20(ASO",
+      "source": "Press Council home",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "dfec616e83662bac",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC DIET Lecturer Recruitment 2026 Out for 160 Posts, Apply Dates, Eligibility - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcjVLLS0tSGY5MlZJX0lhSEQ4VkJLWGxvT3lrVk5rQTVrZjJ0TXhUZGQ2TXJIUEt5eTIwM2dxNWhJaG0wc2g5RTFyS0NKY3VsanRuMVVXaWNPOFdjcXJ4NlBnbFpCX2FpREUwMVcyYjcyc1YyaG40WEZVdTM1YUpLRw?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "7f2252c3e631cd93",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 recruitment 2026: Notification expected soon, check eligibility details here - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSlRnZnNMRW41WmlLZXdwUUhBMHZ6Mi0ycklNWlFQZG93MHJ0NklZUDFTbndYUExKM1hhcTJlMWNGYXA4V1FzdHZXdWlEUVhYaVdDVVNYNm1wY3hhUVpGZkZFbVByU3lhMXJjclp4QXdpWTJzaWtLLVNvOHBZWElYNVBIMDhSODdUY3gxQjYzMndWb0dmWmlYT2MyUnN4WjlUNWREdEJsSkZ4ektLbGFnU2xtYzNuaTdFbjhqMWppWVpQZDFxc1JrUm9oUWkzNmxhTnZIZk8tSVJya0RtaElucWRRWlBFaF9GQ045WkhLTUZ0bnVYN3BGVdIB_gFBVV95cUxOQzNRdjFCeU5seWtmYkJwWmI1WHVvQm9fQ250NldCQzkwcHQ0WGdMU0k3d0tadTlfQmpsY1JRZWV5Tk9VRHYzdVJxdm9NNmZRYVFBZDlfSENUV2xYb1FCQ0p1bHlHMkZ5VE82V0FUSnRnVjZ2U2k0S2VlVmtDVF9kNWhoX3BTSWlna2dMdnI0cHVITkxYQk1UM3cxRFJLLVVSZVViUFc4dWRmM1dfN2xIbFFoamROUV9kLTh1Y3l3NXFtTHhFTW1faFlfdXg3cjhrdnRtU1B1Y1BscW1XTHBZRW9Fd1JyZ295NEdPNkNnX0JXVlBUNTBTeUdxMGNVQQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-02-10",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "89d16de8eea10bc6",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Final Selection List 2026 Released – 87 Candidates Selected - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOT1c5V2RVNkk0TlV5V3d0YUljOGtXRWN2UThDUkVHekhnTnJoYm9GMk44bC1yZDRIWVJKcGthYjh6b3F1R1NCQ201VTBUbHJVaTVHeklTaEo4LXBZdWc3MEVPaDRsMlpidzd6ZXZiWnNkQ2hBanJZVjFCMTdVWEI4SkFCd2MtQ1FpX1ZKS29QSVhRcjRGNktia2I3MkhpekhJbUpWMktqYjhvZUJpUnhjdXAyMTZIWHVLWEtGRGhOQUlGU0JPbEx1bUYxRQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-01-31",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "6c67dd26fb77abad",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Exam Dates 2026 Out For Various Posts, Prelims & Mains Exam Schedule - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5bkZVVHFjRjFka2MyRmlkUk90TDkwa2RqVnF3WEE3Z2RoV0ZJaFJaWHVoQUFadUxJaWFsVFphdXptS1RlWmhWVDM3a1lEbEJEUDJfcEVwSWhlc28td3ItTm9QalM0a19tazEweHZzM2JBMHFkSnc?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-02-02",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "08ffd2a3329258eb",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC group 1 mains exam dates announced, check paper-wise schedule here | Competitive Exams - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQbXB3UHd3S2tWM1FEczdNZ0I2dVhlSXRzeE9aYWpXVWJleHdQdlVHVE83bVUyZVdzUlJEZjdpYUxiYjZtYTAyR2R4RWdvQ0UyZWhScE53dGJxanR5NGlXMF9DcWc1Vm1Jcy1tenA0dWVHME02aFVnNXREdFZmZWJvMS1qQkFTV183bFhyZV92Y1R1cHk4R3pHYVg5QjRlY2RKLXl5OThjUjFDWHhlYkxpOUlzUE94UTRKNHZqRXotaTdQUjBBTi13SE0xUDZpcEdkVU1lNTY0V0YtbTE3MG9TeXVHdk1vZ9IB6wFBVV95cUxONTM5UERzZW10N0lOT2hfdzVzOVVlU01VWGhsaUlCNXI5cVpyUUVMSVVXYWZhWHhybWQ0UTVjQVdCYmhfTDNOSkROWEtXUnprTHVVT3pjVU1rWW5KQ2pmVVMtUUtrSF91MzZCbGI1eWZTVWVrLUJUOXVYU1BoV0FYVmQ1M3I1dlBOSHptNE9BWGQySEo4MjV3T3EtNU9rMFM4eXJvR2xDcDVRcklLX0RGSkZfZ2UzNDZXNm9mbDUwVzlKakQ2T1cycE5Xa0hBLTlOMkt5M19ndTVtM0w1YUt0dnBXanRxSWNnTnJz?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2025-01-22",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "7d7c1491e69ab113",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group-1 Prelims 2022 Exam Date Postponed - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZkh6dDhVM1piTFFDX2gzQTlBNUxIZnQ2UDlIeExvWC1MVE02UUl2WFRBYjBISHVxRk50cFFpUnBseEZ6YlZ4WFY2U0t5UjN2X0wzSmdudjByN19lcDNqcktTWFNxajBlQ3AyQjlGZm5rYkp5UFh0Q1EzRFZCWDhGbE1XVEVqeGx5V2tMNDg1NEQzaExWWmM2T2FlMVVpTXJqdHc?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2022-11-12",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "b1a847a2fce1115a",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Notification 2026 Out For 686 Posts, Apply Online On 10 November - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UcEpkd0hWdE5LcEUwNjZ5Y0FNeURickU3ZkpEM1diVm0yalBjNzdVMlQtaWsteXNEb2Q1dnVyZWVjZDB0S0otWTdrLWJ2UWc0TURxME5kSjh3X1dqb1ZXZlBzNVF4N2lwOTFR?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-03-16",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "77250c47a6560de9",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Final Result 2026 Out For 87 Posts, Download PDF - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRXpBbnlDMnVMcFpWUnppVUxuZkU5dDNoaVVIRUdEZk90Qm0taE1nUDJEcjhRdURZOXZoTXA0WjlENWlWSGNSUkVSSzRITFNSQ0FwU254NVdYRmo3SXctTU8yN3dmZmRfMF80LVNlVFZnbUtScGhhbnRiejQ1blJ3TXFtdw?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-01-31",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "50dc59605460b7d7",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Animal Husbandry Recruitment 2026 Notification Out Soon For 80 Posts, Apply Online - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbURmdmlucmdtOFpHbXNfNFkzcGlZTnRQWFhacU5lbVhNN0VyajBpQ0ZxWFdjX2NYd2w0dUJZYmpkV2tHZnl1Y1FVa0l3NkROUXVPb19hLS03cjV4UzZrTl83dzBmcnlLQzBoNUJidThTV0RTVXRHV29UTGxiMTR4UnlGdXEwcmlOdVE?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-09-14",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "f06c3d9fcaee04a7",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Mains Exam Date 2024 Changed, Check Official Notice - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObHNCclN1T1VSTkdBSGNkSmJnQ015UGZEZVVTTlljVldmb1E0elpMemFGLS1qRWdUSWxGWXViU2RpamdHV3k1NGZJY0t3aFNLR1RlcDlLaVJ2ZHB0U2VKU29uWVVRczFZQnJ2WUI3UGl5NGtjeVRpakpTRTVDb0lubg?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2024-10-30",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "3646f1c662ab8040",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Mains Hall Ticket 2025 Out, Download Link Active - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMklRRE5FOE44R2gwbm1mSU9oODZDOURWblhqRm9oQVlSNXAzLWJ3MG0yZDJvc3FhTzl1SW50NnBQQ0xnTlZ4dHRzY1d5YW1haXVQbVFzNXU0OUxRa1J5ZFBjU1pnTmgtYW02c1VMY192ZmRyUFJtcDhBT0MxaEtERE9ZQl9zOVVVbkE?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2025-05-06",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "0c74374e565a392a",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Mains Answer Key 2025 Out, Last Date To Raise Objections 28 Feb - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWkVULXMxSDVsSXFTQ0tOVG9QeXFqanQtYTVlbjVVWVFXZXNGb2pKTmEzRGNkU09KTjl3OHk4M2dRczByU1RUMS1laWRKb2lNM241UnZ4dVY2YjgyZEM4RWFJXzNwQWowcnRVSDBYZXhqTFlBUU9JTGhjZEtTbDBEenA5NTVGZFFK?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2025-02-27",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "9860e522acb083fe",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Mains Hall Ticket 2025 Out @psc.ap.gov.in, Download Admit Card - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOEtweWs5LTFUeFVtMEpsRVI0LUVrN1h5NXdHTWU5bU1KVWVYUE14a1EtUlBNTzBOTm9GR3g4WThPZmo1U2t5Ymhkb1FLbFU4RF9Ed25oQ09QdmtiXzY5bzFnaTRyMnJIMWJacWVnZHlJS0ZqRWRKQ3lqMFZpajR6SVJheERpVW1iVHc?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2025-02-13",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "21235f5627d6b302",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group-1 Prelims Results 2024 Released: 1:50 Selection Ratio Taken! - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSllxbGx1TURGSzMwMnUzRmR1UnFHaEtJQUpxc3FqN1ZrTVZta3pOOC1LM2pFcVRuUzdkdTlwM0RBbndhNi00SjBfSEpib1ZUZEZ6cjJYOG9KeHB6azh5Y1FHVkpkNUgwdUNkU1pHYnVvd3VLRzlWSERGLTNReEZ1a3hubUZmRW9KWTYyRVcyRmdCU3RuejE3djBvVjViSjdWbFlVT01xaUMydTN4c1ZYc244azQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2024-04-13",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "c3de37ef1c761c0d",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Hall Ticket 2024 Out, Download Prelims Admit Card - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrXzdOTG1yX2pVN21pT1BXOUN6aGJhLWtsckhrQUxzMkc2XzJwRjh3Z2ZRTGlGTGIwV044OGsyR0Z6NEJUZmpJUGp4OEM2cDNlVjU3TUxDOHFhVWFoWjJ6QWRUQlZLeEpKNXdSTA?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2024-03-14",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "7eeb0cbb5838e080",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Mains Result 2025 Out, Interview Schedule Released - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdnhwbFBBTncyaXp4a1JVUXB0V0stYmFmTXZlN2hxeGl1MkkxaW1tRmN1d29Nd29ENHlkazRJbGNfR19CM21MZlFBdlkwRmtlOWtQelRxWFdZNEpXVHJfUklUX3hrWWJydk00SnZkbjRyZldMWUF5d01OVFJmSWVZMWo3Zw?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2025-06-17",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "f86b8a43d13c14a8",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Cut off 2020 (Prelims & Mains) - Check Previous Year Cutoff Here - Careers360",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yMGxCQzdtYUVsMjJfdnNtZHJqbnl1U1FudTU3WS1FcmlsZUJ6YW01TG9aYy1LTEdIN0ozTDMyaEZtUEN0TWtRNXNKRHI5Smlxc1pmUk83ektKamJBMHRvS3ZMWmlDcWFpV3R3d3o5VEtIMU0?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2024-11-07",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "5affef32bf02dc7d",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Exam Analysis 2024, Check Difficulty Level - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5va0c1UXRaUU9IUkNKNUV1elJJV1gwWmM4R3RHTmU3d3NQT2tuOEYxUGtHSVZVWVNhamNPM0Q0UDQ0aTJmTmgzVGZuOFdUOWE3a2p0OXN2UFE4Q0pGdndNVVNDd1hEeGhfVC01dTFUMA?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2024-03-17",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "531a5984c0e67510",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Thanedar Exam Date 2026 Out, Check Exam Schedule & Details - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nVkRKb0J3VHQ2eEgzbG1nZkkySURFSUNVc0ZsOEVFUTM2WjIyX084NXZoWWczSkNRb2RzRXhzeW5KYklYRzYxUmo5czhHRlBRR25IQVQwS2ZVbDBObE5VZDRJN082N20tNG53Qw?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2025-09-09",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "5219753c20a77b10",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Answer Key 2024 Out, Raise Objection Link - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBMcHpnQTJxUlFJS09qYjBVWkc0aURWTEZLSWwyZHZJUXAydDktWE9ZamhOQUQ0dmNQUUpncmpaRkJITHdweWRCWk5XUDdKNjRmLTE5NFFKSTVfR0FFUjl0dVZjSHo?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2024-02-27",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "f581e16045952138",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC New Rules: Single Prelims Exam for Most Recruitments in Andhra Pradesh - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQa1M3SU1HbEdqTjAwQXV5N1luZ1ExQUo0eGYxS0tXaEV3T19uRXhWZ2o4ZUhrcFFaUm52YTBURTBoQXpnS3FySmJaME1INE9ERHBrRkxPWU5XUkRnS3A4aXRyYU14UVdDdjB3aFJoV1dQUmdfZ0pVbXo0M2x0MmVTeFp5LTh5ZUtxQzRxcTg2Q1RWYmFMWG4tTEY0bHlZY05mcHRvSEdJZFdNaUNpb1R0U1AzcWVfbWk1enB0a0RmZHBlOVYyZDk5R0o3SExSUQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2025-08-04",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "ecc2e01028fae409",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Revised Result 2020 out@psc.ap.gov.in. Main exam from December 14 - Shiksha.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQemtVOEQzS0pHam5xWUxUWGFNdmpZVG1NSkRGaUowZTBpOHRDVEhyZTdoUUN3RWtmVWNuQnNVbnNZSU9yc05XVkRwdWMtLWJDZ2FhV0xMNkZkYlk2dUVrV1EtN0x5cGpCa3VpN3lZM1ZieWhMWmZtZlQ5Zmd3Sm5HQTl4UnZpbU5FSlhPX2FrRjJ3TkVKVU54dnBoTkRfSWwybG4yM1ZqU3NlNFpmVVdDbzNxYnlLVmZtZUpHVk1ubXlCSEE?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2022-11-13",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "d318ab04161167bb",
+      "examId": "appsc-group1-2026",
+      "title": "Major Changes Expected in APPSC Group-1 Prelims and Mains Exam Pattern and Syllabus!! - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbTd5dEpXbmZaQ2NZWThpQkt5cVd1VHFIOEJ0aDR2UTltczhXemlUc2Z6OVF4c1dMMU9weWZuRURmVFNEczlIaXhqeVlLOF9XX19ma2FXYlFRVk1ZdlRrX3I4eG5pVG1jeFZEWTZXUF9pSm9HaGZtVkZqZ3gyM25XM3VGZ0NPQ2M1TXU4MWNWRXA1N0lOZ3BlWV9jVy1lalJzMVdVbUNPQ0J5SGw4dkYwbTRB?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2023-09-19",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "609a8f19857b10f9",
+      "examId": "appsc-group1-2026",
+      "title": "87,718 Candidates Appear for APPSC Group-1 Prelims! - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSFkxUDJXVTUwak9wNko0OGtLMVFkM0RsdUlEZS1ISGFzeWFUUUNIYnEweWxHdWZDT2dLSWtQclhjclJUQU9xdW80bUlqNUJZLUphRWg1clJlT2ljWmtWWUFpQWtVbDdGR2VyalpWcGZCRXBWYVk5a3JBNDBEYTNhWC01dlp3dnIwc3NHa014OW41UU41MkpSX1JPa3lFUmxj?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2023-01-09",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "72eb8a48ce9566a1",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group-2 Prelims Selection Ratio: 1:100 Candidates for Mains Exam - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdXhXUjRCb2R1REMtZnlrVzRUMGRnbmFBU0dPTDZfMVRKSWFoeGkzekpUaGxLUlRiWFRvYnlWaHJKZ3RUZUM3cmx4M00yTFJqMnVONWVmNjY4ZDI2NmlTRmE5TGNyeTdZcDZxQ0dzdTZuTlVybnhxa1ZFUURuWTdSNG0xNnpjS0hqY25QdGhlcG1fejJKOFdjaExQd0dqdFk2bTBxZFZDN0RJb3RGOVBEVEo5UW0yVnY4cEFNMnpBTUpRdw?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2024-03-18",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "213af2304c8636eb",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Application Form 2020 - Careers360",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vUTBOZUdhV1NFTFdmZVF0MF91QjNXa1djamduMWVZbDRZQXo1MXlyWHRsWjFacnYtWHlhdlhacUl3bFZTQ3lwcDEtWExDUFBweURJc3dnQVpnNzNQU2QxSmpudDlQXy1odWs2Uk0tX216MHBIZ1lrSnN3SFlVUlk?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2020-05-02",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "225eec07c796fd4b",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC AEE Notification 2026 Out for 503 Assistant Executive Engineer Posts - Career Power",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85Q3JULTlIcUdhRUxORzl1M0hFYkFRb0pBVi1wR0dPRzBBZjVxem1WZWJsb2xKbmk0SlVGWTFsd0NfYUV1T1o1Smh4ay1CekxhVno1dTRXUDNyTHBXS21GREFYVzJmT1Z6VXdB?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "c72c01de482d9ef8",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC School Lecturer Notification 2026 Out for 160 Vacancies, Check Eligibility & Apply Dates - Career Power",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FcjlaRzZkMmdTaGVrZ0FtdnFXbm81TWtOREZ0UHZPUXpjT3RnUTd5Y0pmdjk2LWtLbC1RZEpFcDJ6WUo2Nmo4N056TGZ3XzB5azFUZ1UxbHE4VnVXTEFnb1hGcUlGWHZuaHVpY3M4OUZMbDRwMnp0b0tzWQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "e25bcd4403182df0",
+      "examId": "appsc-group1-2026",
+      "title": "AP Job Calendar 2026 Out, Notification Out for 20 Various Recruitments - Career Power",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yNVRpYWMweGt6SU1qbDNnUkFwNm1LUUxHQUdiOUY1MEhMc2Rpb1NMak5sU1ByN1UwbTg2Y2hCaTVGRElRTjdseU80TDA0ODRyVkVaemJaQ1JqN25tUjlOV3JrWnJjeVk?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-09-16",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "5f96b55cbc7f0507",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC GD Result 2026 Out, Download Constable Merit List and Cut Off PDF - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9WNEZDVGw1WXRrTU5tbGl5anIwZkktajRkM2pqT09LcGs0MFJKb1lMaFl0SUtyUFdVMS1oQTNNajVNc01zUmVQNURPNU1ScWZuTGw4b1BvWmNzRWExZmF6NUlnWjNSWUF5?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "67798eb92e636a23",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Exam Date 2026 Releasing Soon at ssc.gov.in: Tier 1 Exam Schedule to Be Announced Shortly - PW",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fNWg2RmR3ZlRIRm9EYzlpXzc5SG5fYlVHa19FaEJKOWViWFJUeXVOdGlYeS1KZjhqV0FjY1NBY0RlQmNiM05qMWd1QmctMzB1Y1duSFJ6RG0tdFpqOVoxcF9WZUhUcEd1ZG1YZnZwcDlXeWtmTE95V1hWbnFVQTQ?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-08-01",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "d216d14359f98844",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 answer key 2026 expected to be released soon: Check steps to download here - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOcHJNdU1tdHJNTm52Z3lQOUVwSm9sTy1IMlZyUlhTUHA2OTl5LVFaclFfN2dCWWVzcVluRkQ1RGdzVmNBRGRWTElXZmFiemh1SmFPejlXYnlpSC1VWHVxN2hvWFd5bkZvaXV2ZkRteVBQQjRldldfVUYzeUpBV2FKMmR2d1FVMEk0QzlvVkxqaW9uandlSlZWU1RQVVB2MGh6ZkRQWTZuNktfR2paR3FfTVBtTDBhRy13TXJ1TGRUZXJabks0T3NBV1EycmJMeVZEMk0zSUlZVjRKRjRFemo5X0h1WEpxVnR6Ri03aEotVGRYUlV2YmgtedIB_gFBVV95cUxNY1ZaZ3h2dU5NS2NlYlZwdk9Tb0g2cjZPR1FiWGJZRGNXaUZYbnR0QUFFNnJoSUM4ekxjcFBOeTU0R2lqTXVDck9XSVNoT0l5ZW1EenltU05XZXFCY3hoVTNQT2ZxTWhPNWJNcUNYTjZoTklITU83OWRENzhKNUZUYXhHM1pFWFFJOHJRbWRBdVNxUEhOcjNvYXNNSUxYVXJmcTlFSVVOQVVLS1pkSkN5OUc4Z1Bjbk90ZFdjanQtNHFUVTZOSHF6YWRDbEJqQ25fM2VXemhUT3hYZWtJdWNLWGtDWDdrQlVIangtTC00dG45dzJLak5DRmdMR01IQQ?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-01-20",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "18a0ed3a5264c2d7",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC Phase 14 Answer Key 2026 Out, Objection Link Ends Today (Till 4 PM) - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE12c0t4Tm5zdE9NVnFYZ2VnQnE3NDhDTTZtbE5ySWhJQmdrSURaLXp3cWlYVmxvcnFKR2ZnZGRiSmxfV2JNR3FKbzJzN2ZTZUJnUng3ODR3VlgyWHpUdEh6ZXdJYnFfZlhmRi1OaU1hOV8?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-10-12",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "2417560c6a5a73d4",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Exam Date 2026 Out: Tier 1 Exam From 30 September to 30 October - PW",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0blVpd3BvTjRrUVdLQVlLZ1Rjb3p1cEhsdE1sX0o0emQ4SGNsSWdUSFJYZDhSNEY3UTV6ZXBUNmpxWFVzXzJNRUY1ZXItU1RWbG5Hc2FONTdvdE9TNmRJcERn?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-09-09",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "9cc59e2e3e0d2bb5",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 final answer key 2026 and response sheets released at ssc.gov.in: Direct link to download - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQYzJGTUhwYUxiTmhnY0RCVUxYenVEckhmdHh3TGtheEI1MTdJcThjdGpTZ1NtSlZ5ZXZ0RjJLbldSMmtJMF9rRTNBN0tZZ3dnYUlFTzVFNGZuVEp3SnN4Mkxqc3V1WDVkcElDbF9NUjdLN1RhYXZuR214a2RDYWlfaXNCRDVTTHBvOWRhUjJkUXEzVmtLNkhZU3JETnZYWDl5SmtqTHM2RmFWZXVvb3BkczJTSnpVS2JKTmUyZWRSVXZwakNoNGpoTlhaZFJVY1k5UUhzQnF4eEstdnhoRWJZRHpHeEt6UVA3bU9pWGhhS081T0NvSUxhYmdJcWhEYVFGakNRNlE3T3NDb2PSAZACQVVfeXFMUFNfX0lQbW9PRE40QTR6d0dvZVVhSnY2eXJTMEpjNFAzQ2RkNmxuUl9uNjh5QW82ZFlHLTljRVktRWpEZjJ1eGFQRW92Z3dncnlua1plRlUxc1lHSzZZRWpReXdBYWJBSGhJLWtZcEVuNXl6U05hMHNlNmRvQ0FLTGhTbUtybVVwSUNETHRaOFhHQzlKLTNEMmpsb1JXMTJDZFlDTFhKdXduN0ZzM3ZxYjg5Zk0wTkc5S2w3Umw5R3ZiUEZpMEFLajV4Y3VHb1FDMzhoWmRIaFpKNEVKdUhOYThXbHZHVF9jSWVZQmpDZHAxNHNYUnNqeUVFR1RyQi01WmtVd290TDBhanJzRnJDd2Y?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-06-18",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "1cf2087a74f9174e",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 Result 2026 PDF: Final Result Out, Check Merit List & Selection Details - PW",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9tSGJ6QkVpN2pvNHpYQ3lnOHMzelpqc2ROQThIbERIUVRCSEpDbE9qUm5vR001UUI3OGhacEd5cUZrQVhFcUQzMW9ZWXk1M0RtcW9YQTF5V3dDSlJTOWFaZW11N2x1RWl3aHJITw?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-04-08",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "4d41a93b96fde066",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Exam Date 2026 Out, Check Tier 1 Exam Schedule and Shift Timings - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fQWZMb3d5TlVMRWFQdE5nbFZSMEpsSGd5WVdUdVVyeUNtZU54Sm0zNjFDUUE2UzF0bVNzTWtQNG9NUmdEcEt2U25Wa19JRHp2V1VaU1NKbXQtbWdiRzF0RFFCN3hBN1pWSUpuZnBB?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-09-12",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "117052c36722f18b",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC Calendar 2026-27 Out, SSC Recruitment Dates for CGL,CHSL, MTS and GD Exams - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5RNlhWaFB4UWVYWnFwOTlCU0dKczYxZHJHMnFEcXZlR3hYTGlqVlVWYkMxNEhJSG91NmxLbU5FNFFncWE2MkRuNFJJREZqV05qaDFxcW5SX2Zqc0VQZDN1bXBR?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-09-23",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "254cf7092c4275fb",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CPO Exam Date 2026 Out, Check Official Exam Schedule - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9yLWhvY2JEZXZKVHc3OUNyMTBKR1NHMUlVa0xGNnhFVEN6Q1A0VUJuYnNKU0JqTmRQOEtyakJfay1LY3lsRzI0dUJ5Z0htYmlZbmpwaVBtcmhEeVZick1nNVlVNVZ5NUNuamE3UmdxN2Jodw?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-10-05",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "ec2e0c5db580368f",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Notification 2026 Out for 12256 Group B and C Vacancy - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa0RKUzVneFpyM3hyT0lZTHRVZEc3Z1lCLWg2SFZFRThxd3dLbFM0d2ZQdm1kRXZEOWlCN2VMcFg0ZjdBZzQ0MmlUekNPeExRZDRhcXVpeHhjVWJHQ2pQQmZXdU1uZzI5V29ZQW9lREhrMDlXR2I2a1EwYkRlREFPYzRNdUFPU3VvMDVMa2NLclNRekJYemtaN3VR?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-09-12",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "72f61d7533429026",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CHSL Cut Off 2026 out: Check tier 1, 2 category-wise qualifying marks - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVEJEYnRKSkdYQnoxTG81VzQ2VlVXeDJhTWhUYjd0Z3pGVk9EWEM5M2RRNEREMkFDR2Z1dW5hSTJsdzVGS3dXdUxEV05PNHd2TG16X0wtV1RtbjNNQ3BWTGZxOGdoakNFUHRUb29qcThiWWtsNTUxTHpWOFpOR19IMjM1WEk1bXdCUmpjS1I4TmE1dGlBYmRNNDU2bU9SZlFkX2V0LUEzUERuU0VhcFhNT3VQQTlCS3kybmg4LWhkVjF4b2tSNUdQWDU3VGE3ZDNhREJkc0ZUaC12THPSAeABQVVfeXFMT2NoRGhyQzF3LVVRQ1I0S1NjTF8zZ2NlWWYxZjdBVXQ1TzNWUVpQd0p2YU9CdEdnOWlPcVJSUzhzekxfcEFENXBPVHE2UXRmLVV6bHRZTmdzVFpmTWVTNmx1QnZCb2VWRHUxN2VXYlo4ZUVpRXJYdlh3a3RPX1NtU0hidHd5VGxZbmJ6YTdRY0h3eGF5cngwM1Z2UWRCZGxrck1CUlNGaUdRMThBOTMxN3Z3YWJOY1pmamUwMG5Qa2dZbFU4b2xnOS1nLUdsR2FQc0s3cmNlUnZ6SW96cTg3U1c?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "70a52e0d062b1eb7",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026 registration ends today for 12,256 vacancies; how to apply - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZm9aOEJWUHk5azlvNFdmWGtmamlXOEJuQ1Q0d0tZUDNuZThuaXBzYWo1eFF5T2hkOS1PM0xWS2V1REdhOVFjelNnd2otV19FZkRMOWZBYk5MSzZYOTcyMHFsa0FubnV2RzVHOVFjd1dZY2hjZFA4dF8wNGpiVEt3al9nM2pMLUo5QkZIRXZGWUJPVnkwUEh2b0FKZkFWeWdhbWkxSk9hdDc3MEVZRU1tUzQtWi1sU1hXRnhpZzJn0gHDAUFVX3lxTFBmay1CTTFEakFoSnlYMnFkZzhNR0FZb2xLTEpRSVRtT3ZLNy1UTm9HU05veU13THlHcWc3Vi1jV1ZUX3lLMGQtQlJSaE5ieDlwQjJVMURTM1FOSlV2SnVuVjNFdEN3VVdtdFNMbFQyZEpCdHdvallYNHhlWUNIcE9NbXZJalVKQ0FuUm9FS1RSVDBHdHZhZ2ZSbExKX1dOTVhEQjNYV29SNHdhZXB3QUJsLTZScWV2RFdKNzExSEE0bXVfdw?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-06-22",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "6df74c859be492bf",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CHSL Tier 2 Result 2026 Out @ssc.gov.in, Download Final Result PDF - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE55eTFlWndxM2tUVU9yX0NrazBRYTlLWnI0VTBTQzBPbGR6ZGk4X3lraFh0STNpNVJCd2VkelJOUm42X3hlbHFXMHgyeHYxMUQwQm4wV0FxRWRFTkRldTMxWUVYcndrOVpUSUlnLW4wVQ?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-08-18",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "b4738756069d3195",
+      "examId": "ssc-cgl-2026",
+      "title": "When will SSC CGL Tier II exam answer key 2026 be released? - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEg1NTgxT0FfWUg0U1l0blZkQy1Yc0llU1JhOWdCbUJheGtpVTlvZ0E1cDI5c3lkbXpsUjFPcUd4QV9oYTc0am11NXl3dGZERGhhREdfSVdHWTBwbnZ0QjhNUWd6TkpTbnlYS3hjam9zZm1QaTRnTld6dG94ZGUteGZzT0x0V1VRNWtkRWYtd2R1VklaRUtXMWs2QXRBMVYyeHJfRF9HSElCaEpRRGdKVFowTHlTUThRamNxYVRsWVlCNXJoWDRNU0cxV3VidWpG0gHWAUFVX3lxTFBaOGlzZFk0YWdoUzZnTVR5UlFYQ3dLWThqVDgwdFZ2UlY4QUxDU3BhUjFFMlhIRERoVkRQdEhPN1VQY1RUZFVlQ2d5WHp3N2I5eWtPTnVoc2JvbjJ3TjlFa0R4aUZSX1dqRWVQanVmV28xS01GUkFGTGFGYjBVLVFJaUlxajZWV1JkWUZJZlNnNjZmRThaWkFubURIZEo3b29tal9zMDM0eFRMZ0Q4WldIb2tpOE16cURqOWYxckNhRU5aR0lzbDl1WEwzaS15SldNeEJsYnc?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-01-20",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "b7ab9b8cb1f4333e",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Admit Card 2026 Out, Download Tier 1 Hall Ticket for Exam Till 16 Oct - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZYnVVSFcta1hUU0Y2dkRPcThwT2U3M0NtOUwyLVFTSXdBS2E3ZnNJNEdJa1psanowTEhpcHNyUmZRX0d5NTZ4c1p5OGJBZ2hoMml2ZE16QUNDTmNuMHg0TUkzSUJ2QTQxVlE?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-09-27",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "8f381df32629b7e4",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 Final Answer Key Released, Download Response Sheet at ssc.gov.in - Shiksha.com",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObFV4ek1NVTBPMEtNNnV1aU15RWFoUExwZmljajNTX1VaeEpsWllNem9HbndqcjJoV2JxS045SHBFM0p3Si1ueXZXcmlyNVJqUFc5T0Q0TmxwZEpjMXpscHpUVnRYYzB5VTVVd0NEaTF0MG4wbFJjNGs4bVJ0OTNxN1hBdzRRdUM5NmR1N3VxQmtYcHRTekdZNjdSbEQ4MHZTRFdpRUtVV0VjMlpyZnJjeHRMaDZpSjdYZUwzUm1xdVBldUg3WF9qV0d3WGczY3Y4?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-06-19",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "42dd79fba720af0d",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026 notification released for 12,256 vacancies; applications begin - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxORHZMdWlmalRlY0NzZVRoWExIYkN3VHp2cUxOcmY5M2V3UGViSlR3eHpHMW9La0dhbTdaZmZQa0ZGeVlKcU9ZM3JZS3l4R0MwaU10b0k3RUR4WEE2QkUtd1NiT1A4T1g0Y0ROcl9xZGpyY1ZnMkh4R282ZVZQQTQ0eHpjNnFfRkN6OGkxcGdvU0hTNXZfR2M1cFc4OG1mZ190c0U0eEJqRnpHSVdfMGxwTFY0OXQ2QmRTVWt6WnFnaTJDNm94U0VqMWk2UDdtYlFpY3FDZk9JdTF6a29mNlVn0gHkAUFVX3lxTFB5QjhnVVhyZC1jVHNuR1p2Sk5xLTZFVnVyckpSdHNva2NUd29iNGZxRHVKbExvbDE0U3dOc3JHY3RmdVVFUjZpemhYcGxiajhJblJNaDU2a21QQnZ2Y1FES2ROVEZpaW9XVDVIMnBLcUFfSlNvQ2RkNUxoV1ZIaEVOTk1DRFZ5dHVGcXFfZFc1eXdDdUI1TXV3M3czSTRZNHhYMWo0dHY0U3Z0WTFBYzJNZkpGY3NtcmlnWEVWa1c3cUtwYmRZV3J5ZzRVUUZoZUUtRHB2YjhhN3E5TnBhX3FfTHBlWg?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-05-22",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "0d6c5501f0645737",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 1 Admit Card 2026 Released: Download Hall Ticket - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTkI3bkFhdWVieTBUaGlVZE1SdDd6TUtJNUlKcl9JLUl6djBWdnNITmxndDg3a0Izb2dLWjkyWlJDNmkzeUtMNVY5cTFSenNiMG1xcWZRSXVfcmhlay1QbWpSQ2tqcWtuNE9xRjJHcW1laFFKZHFIRDVXVktOWjNDMm9MQjllWVEyMVNjY1dOTkJmblBteTFka1BpRTJrRlRlY09MZlJpZVUxWkVOTGpZSExOeEdFaURveGVuWU9fc1M?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-09-28",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "3bb585a48f8173a0",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026 notification out for 12,256 vacancies; registration begins at for Group B and C posts - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOWWJPN3NVY1lUOEpDNzZqbXZuamJCS01UdHlUajAtcVlXanphbFVybWd0UVJNUnV2cGtSTXRuREp6b2hRWEgyQmxzaTN6SFpyMlVnY09TYUMzN2RlTW9TbmZyOHBzdVJQR09BdW1UTGJZTENMNVpHSmRSZHU3MHF2eGptR1Y5NFVMZVF3Y3FmeTVDOEI0U1dONWhVT3l0ZHZvVTNuR0gxSlBUOXhMYVRIUnIzOFNPcV9WU0VYMkNtenVraFI2bnFFVnpaUlhqQzN6SzctNHBmWGFsMFdpUFBOTXVTRUc4QTZwTmFwRnJuZkxla3dsR0RJQi1UZVJrMWZtdFd0Vm9jbUHSAY4CQVVfeXFMTzRwV01SUlN1dnU3alJCTzR0ajllYUdGc3RmM1Z3RVR6dHJ0bTVfNFU2QUwwVlF6eVZPMDFlMVA2bWU0UVlKWkloVm9nM0FfWU8taWJRa1hlT1lYMGNNZFQ5bG5LR3NQM0NXaHZBT1hfZHNoaElkZW85RzlfUGl6WHU3VXR3VzAtaDJzZ1g4SG95MGdVZXR3TXhQOGs5VG9jWVN4Umkwel95bWhwSFhmTXE3SjlHS2ZlRUIwUDU2cG1vQ0dXNUF4UTVDUWJmU1dqWG9oZXVrSzRCQXV1NFZucDBFMVA1WDhsR2VKUUJUbU1mLUd1cGhlMFA1bDJPY0RQLVVteDh0YkV3VlF2Sk5R?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-05-21",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "30fcf204878d6419",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026: Massive Competition.. 250 Candidates Per Post..! - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdWlHb3M2TXRsaXVEaGxxdHFndFYwNjg3NEc3eGlRV1J4ckNaOXgwdTlESTM4bTFBdEFEYXJ1dGxtT19acGhTUjAxQ05tbWw1OFRua19vaXh0QmN1T0NZY0ZOdlFYTHd0d3h6NW9IcFF1Q043VnNaQUQ4WTFoZGJLQlZYanNNbWFGUXlITFZ2cEg0bEpzN3JnSENhbFM3LU16cjJwTkdkQU5pZEtRRHJzU28zc3JqdWNsaDJvQ1l4MDRtWnJueVpIWEtSTWhBZjZu?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-07-02",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "f567140e5e63ecd2",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026 Notification by March 31? Check Combined Graduate Level Exam Dates & Other Details - Shiksha.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPT0ZQaWIwUTdTOEZGOTg1ZkxkVlRvTkhtWVNzaDY0Mi1fcEtFY2RBOUQxQ1ZrSHFRQklzdE41ZkY0Y1FPMElGeXk0M1Y3a1RTVmxaSy1EOUg1TmRYOGJYWmtlRDZSN3VlNTBQUWdaRmMwX193U0RobTFIc2luc3pZWnNveklWUkZ5Wkd1OENmSlFyX3RXUWd3a1U0aFQ4UkEtYWYyTzIwQnc0ZHluNGIxMjIza0hPRFJiZ0VDOHRJZEEydDBMY2p4SUx1WGJSa3ZicXF1V1hQWF9PRDlNZEJ1eGpxbw?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-03-26",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "f8070ebd469eca5f",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026 Application Window Reopened: Apply by June 25 - PW",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPalZiTG9jdDJMcjFoSl9tS0FLSVQzUU5OUW80RnZMajRhVk1TQjZqOTlIbkxGQUhZaVU4VnV1clBmTEtXc0ZDVEJwU2NVc3hwVVFXdFVjTEVaa0hsUm5CWmtUWW5jMkw3dHJNNzhYYXp6YmcxTnRGZDRNa3FtSWNJOVNWeU1yT1BGaHlMSjI3azZzY3B4MFVjRUxR?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-06-24",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "b36770b876d5b3a1",
+      "examId": "ssc-cgl-2026",
+      "title": "OSSC CGL Mains Answer Key 2026 Out at ossc.gov.in, Download Response Sheet PDF - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ick9NX1E3T1EzVVBCNnRCMzlWWWo3QWFGVE01YThOMF96MkxtOF9lX0FnR01VMUNxNlVFWlBQb1IxS0ZwaTBkLVRwbm4wR1MzSlZKb1RsSEl0bEFRMEY5cXJVb0E5YnpH?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-07-14",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "5734c01f1221e304",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Answer Key 2025 Soon; Know Tier 2 Expected Release Date - Shiksha.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQXM5ZTFUd2dMU29oT0RvVVBMbUtlMmFzUGhWWHRCT1VQTktxR0NNdVY5Vmt5WnV4VmNlc0tLeWUyNGZaRjlQTUxwTnVkSTNFQk4zbG5mdnp1eGwwUEUzTVBBOC1MMkd3dzJIOVM3Y1dldkZxSHNWTU1aSEFubE9ldkpsdkszeFdlcDl6NDVWN3RObjJqeE03YW1mV0hWbjRvX2N5RUxSOEZuV0hRVF84SVZ1d21hZGRyd2Zj?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-01-28",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "13ef999c4f7089e0",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 final answer key released, check response sheet at ssc.gov.in - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeTV1YmRyd3VQMlhkMDRVdmpETERibi1lcFZUZ3ZsVWhYWF9zM3lrMXphRmE1RWJNaTJXN05EdzVOaFdNSGowbHA5REdFNmZTMlNOa2VPQ2RWZ0phWlBhQ1dSRlp5UXc1WVZnVmRBejRWaC1GUGVWT19GYkcxd0xkT0hfS292LVZGYldDVF9mRWdCd2doSWp3NWFfeGN2VS1BYjIzTnY2SnRrNmxBVkpYNzgtYzMtVDF1Q3p5N1BkVUVla0dTNnhVQdIBzwFBVV95cUxOSm5BWUJrX2x0blM2dmV0VUFMVEtxUHVLdC1MNEZKZGdaZnhMY2NPSUp4akp1N1p2YUxBTTYtWDJ1V2Jwa1IxblhwUWt1LTByMVY5Z3FtN1A0TEZ4alI5M040d1VBRGFWV3M0UXFKalZOMFF3cUd6RUt4bGpIbzhieExkaS1RWmh5cElTN1NPcmd5bEFtNGl4YVhCb1JPdlE3cWpTMFM2NU5KYmxPbVhnOGhQQ1h5RWVoOW5rUjc2eTBDLTdmSVNlbEhiWTJ0bGM?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-06-18",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "4a85e7499c05bd08",
+      "examId": "ssc-cgl-2026",
+      "title": "OSSC CGL Mains Exam Date 2026 Revised Notice Out, Check Exam Schedule Details - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wZXYxdFFic1NoNjdqU0doTnFNWFU1TG5KOER3M0ZsNzdXcEN3azVEZHZJOTdvN3BPVzc5ODZFUkV1M21iWEU5UkZiWU1ES2JYa1NUNGRLOGVFa2FmMVBjV1hqYmswWl9Uc0RjSGdRNGU5QQ?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-06-30",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "1f36e859d3d97561",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026 Important Dates After Notification, Check Here - PW",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdmVNN0p3ZlA3cWQ4YzltUjY2UDVFV0sxNlhIOXdZR18yV0pHUzhWZU9CZGxEclQ1OWRCUG9oa0xJM1VoaFVzSHlXanpoUDdUWE5sc3NULTlCazV5WkFHNE1ydk1JbXAxUkZyTVlEY0w4cGNURGFNc3hfQkZqYlctSV9NTQ?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-05-22",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "44be157ae8d46764",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 Answer Key 2026 Out, Objection Link Active Now - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tU0ItSHZZODhWUXZVVXJJdTJKLWs0ZGxVejAwdmVOUGNkSUhFaVBUUkhRa2pGUHpLaDRKVjdqNkZEOWVkYXJLUk1kNWVCMzM5R2FEOXNmRzZXZU55M21nLVByWXV1MFBnRDFhNGFhNE1hRUE?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-01-31",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "52b4a4a19852a840",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 Result for 2025 Session Soon @ssc.gov.in; Check Download Steps - Shiksha.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZ2wyVldtTjRRWmF0UDBSWlJFWlV2cTdTaWd3SUYwdWxlLXU4QlVFTHQyLXlseXJrQWd4b0NZeV81cVhuVXRTZmhHRjF2X2NJVThfNldURFZUOUxtU2EzNnNHNGRXMVEwUHQtVS1DdXFkN0J1SHA5ejFGaEhic1RsTndlTngzT3Uxd29wb0kyQW1TTXBoOU9iT2ZkbEVPX0FUVTE3V05wcFNZQUwycEVxcHFxNExWd2ktRWFTQTlVV0FZN0JQLUhDRHVSWkc?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-03-11",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "910e0b0b8cc55648",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 exam date announced: Over 1.39 lakh candidates to appear, check details here - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNSkE3OXQ1VFlQRUVjWkt2OWFRS01EdXZqbmtrOTEzTTFaZDMxT1MyNl9mY1lhd1Y0a29ydnZuSUlMTTFpUHNMMlZuN0JvT2JpS0dKelZ2aTFTZDYyWmFKRkNoOVlieFNhcXREcjlRR25ZTElobGdZOWJyZGdZSm1ULXptS3dkNDlyakNKRWFoTHI0d2MtQ0VTQkp2RUJTU01nMmhXbGpONFM1ZG9WYUdTMFVsVEcwQVFiWEpYQWliUlR0dWZwUURXT0toaC14djVFOXVYNzJ6ektUYVVRWHNoc0U1QndhN1ZkdWVMb0xzRmlaemZfeVZxdTRn0gH_AUFVX3lxTE81bVF3dm1JWU00UnlhWTFXSjYxTkFFRG9uVllCa3NkNjdGdHBOV2w4SmIwVlBmRXRBZGMtS2pEX2NCUlhjNmkzWE5mbURDZjRtWXlMcl84YnZwYjh2ZTU2dzZjNkRTUGxHUjlvN1pTNWNTVEdDUDlvTkY1QjY0VnNpTzNRWDFQY01Ed2RWTkpGd3BwSmJTb0ZldnlmX3dmNzhzdWZTZE1vcEdKX3dUV1VzdkVFeUxlelFIa3JlWDJXNVVmdWpkZmFEb1o5NGMzbEp4ZzFPUWpGT0xoZmJCREN4Vk1BRkNBSlJPMS1zdGRRZ0p5M3JOQndrbVJaOXNPUQ?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2025-12-20",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "4b3397f56b2e50c4",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Interview Date 2026 Out, Check Complete Schedule - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QbEdvRzRDdG50ejFCaXpqOG5MZGN1aGUwOXBSZ0NndmEyVENDcDdrbXFVU3Fxcm5xNWlsbk1YUzNVRXE3RW1JajBFclQxVktacUhRTjBhYTFpb1Z6RjFrRGRTTzE?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-07-15",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "234b9b659c9ca690",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Junior Assistant admit card 2026 released: Check direct link to download hall ticket here - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPNnZSMzNKT3VlcXYyNWYwZE9aMnVrOHZRQWFxTE1waXJEUXd0LTJKN3hBN2pHd3NCdnhYV2xvd1g1UUYtZG5SZlZzWWw3dHV3eVlRaWRyVzV3T21mT29LbjJFN1p4eE1pY3VBNDJGRTFRU05OMTN4OWUyQjJPTkV3YnhOcjFBVkxFWG00N1FjRE9WWVpnRmY1MEhHY1JrQlQ5bVJQbEFJak5EMGJFTnByVFdsODlvT2k5TGNXMWxwLUs5XzdhbDdNQ3FtVDltX09VUzJaajdnQ1VibjZ3TkxsRlRlcU4zbmRlVEFzVl9rVjZIZmNST2dnck1IMDBaVmZrMWVv0gGIAkFVX3lxTE1fRWgtTTZZY1dTU090U1VObFVjTmtDZjgzdm1zVVJFYjEwMnN3eVJsSE42SXVYNzhJckkxcGpfSGx2ZTQ0aEp2OEJyanhZYkRtZS11ZnZBaHRBbTZnYlBPS21ncWMxdmplbmRLMUw2ZjVYN2R4YnZ3eG5QeS1USzhCb29DM1R0U1BFTl9SajBLcURzRUNzejlGUEZZVXZRN2hwMGhrdUZGbVBQbnR5TXBYQ3N5U256ckc1VDczdU9JRWlrejg1dzJkNzg2S2RfVVI2QjBaVEhpOGZRaHVIem1BTV93eUw0cDhLN2hVcnY2YVRuUGhmSGlWS3NnOGxrdElxYXJScU8xMA?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-05-27",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "ec28db185b35272a",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC Appoints Debakanta Padhi as Additional Executive Director - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQblhjMkpyZjZZQzN4OF9DcE83OTVSU1lsb0U5amQ2ZjJMZldJQzM0VXozYmlSMmlVQkVjU1RmN1UweURRX3IxSjdxZk9PX1NWaG5JUy1EcXJpdFRfWWdGd2NKdFY1Q2t3bnBhYTBGQkZKV0F4UWtYN203emJQM0NwS0NOLXJpNFc2M05EcHVwbFBNN09keUZmanJxdnlxR0s4dDczMTd3WjVQWU9WRlRGTURZTXo2VVNub3c?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-04-17",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "52c642b706373061",
+      "examId": "lic-hfl-mt-2026",
+      "title": "Life Insurance Corporation of India Appoints Varadarajan Muthuvenkataraman as Additional Executive Director (Enterprise Risk Management) - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQYkZhSGNDZ2s3QzBEODB2RGFTRU94enJDQjRqS190aGFzLXBHaHF2VFcyRUx0MXRTWmlueHFQalJ3c3hKS29CYlZoRWNiLTl3VGY3QUhMV0V2eDc1SVUyd2FkVnJmM3Q2REtIV1htckhZbW1ER200RENzMnlxaVRVRDJJY3Z0dENfZ3I1ZkxnTnpScWwwWWlvbnhwQzViZk9LbnQySEM2MW5tYWV6cmIxVkExRHRoTTBqclR0UlowUm9VOVBMdnh3T09GQ0hWZDEwSkExTDBlLWlPQXhpRkI4Y016blM5SHFNX2N5VU5uck5CMlVpd254SkpB?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-04-24",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "e917526df115b6a4",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Result 2025 Out, Here is Official PDF - PW",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Wc1JEM3p2QWl0RVowdWxOcGdiTzZzRFE4MHo1QXFfWHNyZFYwcF9VaVhEU3o1clhkRGNfam1reTJMN2NKVHEwU2pvMl96bmd6dndEbDBXMXg0WjhBRFNyM2lVOUNyNEFaX29KT1JXTG53QQ?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2025-10-11",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "e7ba896301d69f1f",
+      "examId": "lic-hfl-mt-2026",
+      "title": "Guwahati Diary | Zero cases of snakebite death in rural hospital - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMVktejFEMjZsc3l0ZzdtZVUtRmJMdGgwTTVrdW1xM3VOQWczN3BIYlEtQkVVXy10VjhadExybnIwcmNQcHZCM25LQVB5eEg1NDFLdEk5Q2c0TkdCbjA4R0JPS1k3dkJfZXo5OHUwbWJhVVBveXFyNTEtMTM4WWtxbVNaY2FMa1QxWnRpMHVrY1ZiYXgxZ0tPam43bHByX3RpbHdSUVFwLXpPZkU0Umxkc2VaRdIBwAFBVV95cUxPU3pTdHM4cUZDLVh1azFvMXZma3lGRTRrZlVka2gydEtDMngyTEJfYlVXbGJyQUJ6d2prVDJqVDNqeTBVcTJ4YXpyT1ltUmNGeUxESkpEa0QwT1JMdlhtckNkZmlBMDFtVFhualZCQkMteElvanA0LW1PMnRVOE1OWnlvVTQxb1ItX1ZFbGF0TUFwZDVQaGQ2X3Bmdkc4YkxHY3hjWTdYTjhYUkx6bTY4a19CSTdxVWo5ZURXRV8xcjc?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-01-06",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "6155b0524308f520",
+      "examId": "lic-hfl-mt-2026",
+      "title": "Coal India MT Result 2025 OUT, Download Merit list PDF - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxTGE5dFZMTHZLVDZBc2trcHJDRkp4b3lsVTVtUTRRTUJqSkR1YmphNnB1aVV6MUlmT3NvaTZaY3Z2QVJwc3hkUW5oLWZSVUd1NFEzSFJ6S0EtLWV2WWpKeFRUNXN0QQ?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2025-09-11",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "386a519383b466ca",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC Independent Directors Shri Vinod Kumar Verma and Dr. Ranjan Sharma Complete Terms - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdG1RM3RzeVlQYnIzLW9uT09IdnhvM2J4azg5ZHNwMTg2c2tIbUloQjZFdURUbG5nTGRIZlhkaHlWVlg3REpqQjY1R3RIX3hGbzd6MGphbFN0UER5MFdWMEd2cWg5NTNwRTVfdkc3WFJHUEI5TDBDeEQ3aU1uZTdCdkNtOVlsREpzdmhQMFFGbkZ3TlBEUGpNdWY4bUpkQWFFMUlkTFVoSXhBNFRGQUZKZkxTRXNJMUhrajl6cnd4N3lzV3pGeGRuZlRfQU5EcVNhckdmdlBoMTc?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-04-29",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "8b1ae2c5acfa29a3",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Management Trainee Recruitment 2026 Notification Out – Apply Online for 50 Posts - FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWlY4NkEyaHdleTV6b1M2Z0hUSmRNVXlheTdiSkx1aF80QzhRVXZjSDNwYUV0ZFl5TEtfdUJ0XzVodkI0MGJMSVBTMVFiSUtDd2ZadnplREhsY0xoQmJ5Mmk0ZXFKT1QwbVRleTg2eFFhZ0hKLW1UUDNEYXoxaU1qbE84LVFNX1ZxRXlmVVhFWWdCeE94RHlYT1BQODFfTlZzcm42TXB5NGNVaWYtUHpjVVFsVUpRdw?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-10",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "45b1ef9bc46105cc",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Junior Assistant Interview Date 2026 Out, Official Schedule - Career Power",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xZ280ei1wRlVES1l3bnpJZEZ6ZUVsM0p3Y21mcGN1YlZRVXpqcHR3dVIxTmJvWDV4N1JPNGRMN1ZMeGFWYlUxeDg4UWxLSmU5OVRXZDhodnNPb3dtamg4bA?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-07-03",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "7946f5c837a4c7bb",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Exam Date 2026 Out, Check Official Shifts and Schedule - Bankersadda",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84V2JPV3NJaThxQVN4aExoa1RCQjRLVlVGYzRGRW5LVWN4ZTlYZnlObXlRRUMteXc3QUJfRTlOMlozWFJNdkJJYjFXMXRsSmkyemFram9sTDZoZ253cm5hWTlmRQ?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-04-16",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "db31f00bd5a6682b",
+      "examId": "lic-hfl-mt-2026",
+      "title": "CBI Registers Case Against Subhash Chandra Over Alleged ₹1,322 Crore LIC Housing Finance Loan Fraud - Free Press Journal",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSHBNblpsVDNYVkVDWFhTMXVTanZnMXVJLTFqOGd0S2hRRUkxMHE1Y3R6TjJKTkhydGFzaVZySHV3ejItTnl0WjRJZURBZ0Y5dTljX002dlZmUGNUUUlCbWxKMnVYWk9wd1RzUi15aklsU2pha2VyanB6OV9US2ZXY1JOWTl5NnlnVnV2eG15cGlmNE9OVVRWNDBFeE9PeGNYUGg3eXJadERveEhObWhMdkxfckZtNHRqRDZic2pscVZ0QTdhNmFwZHNuczlGWVhlODFUOdIB2gFBVV95cUxNb3JrMU1Ua1pBNUhoRGwxUVBXUmtDQV9lQ0ZVdzBucVlKZjY2MW9SOGFFVnVBRkVNQ0NTWHIyQnQza2FZc2ZVcVlDYnVHTlVDOTdobHVPQ1pjeVBIY1hWdlRtb3VSdmlHV1BWR1A3S29BSnVVWE51cElkRzR3X1JnYkJsbzE0OWRXZjRUd2lacl9CQ3UzS0JnR1JmSVBLTG5sMlJRQ2xubnotUnp5c2RNaUxxYlZDbTlMTUk2STFiOFZPUWtjVzN6NTdQeldYUXd4aEtjNmthcHJ0UQ?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-09-05",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "caf36fec353ff886",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Junior Assistant Interview Date 2026 - Check Schedule Here - FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNmdKN2ZpM1pDN1JhajBRY0VYa2VvWlE3RXkxZzd4QkxiT1N6eXdabnZRY3JWaUNiZmtOTGZFQlFob2pZTWdFN1lwQlRXWVBoYkl3LThxamlVM0dlMWRfcjJtVFlkT2NrR3dfVW11UXRXRjFfblFZV1B4eFd0dUJ4d0FxSFA5RmVTSVBoV2JiSUZRUHla?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-07-04",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "c1d6960c1656f236",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Junior Assistant Recruitment 2026 Notification Out - Apply Online for 180 Posts - FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNEhyQXAzN3doQzgySmRVM2JRMTdyNzk0ZVhNUklfSl9nN0tVd1FOdVhsUUd6a2ZGektlRDJOQWwwbkRVMDR2QTNySnZBQmFDYXBTOTVkbjY5bzBDLURGLUpEQlI4ZTFZNmx5RkFRcHdGSTZPdHljRURYWG5SS3FjQVhLc3ZhQ2cxYmdVYmtBUDIyNWpKZzZweHRzVU5LR3VXSkJ4bmdlR1d4UVhlREwzaWd0ZkM?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-04-20",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "58333c5ad2459fb9",
+      "examId": "lic-hfl-mt-2026",
+      "title": "HAL Management & Design Trainee Recruitment 2026 Notification Out - Apply Online for 120 Posts - FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcGhWenlzLVY1NzhVTGl1Zlh2MnpaLWVfeFExT3hRcG9zRUFMSWYxVGZUWUlJQ0pEbjIzWlJYaGVfdmhxS0M3M3l2QlN1WVhjMEYyUEFDN1lsYmpqTDNtcVNTM21NbmhCbjdCRmZaMUk5OW5GRDNabjY0YjFORUFPc3NqTk90bEhLMFZBTnZ5Q2hMd3JUdG9Xck1Hc1RrUjNqQTlIa0x2Z0FmT0VmQmZxY0dCc2xwbE9OV3NVTWZiWEQ?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-08-04",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
+    {
+      "id": "cf3e34683f3567a3",
+      "examId": "lic-hfl-mt-2026",
+      "title": "Exim Bank Management Trainee Recruitment 2026 Notification Out - Apply Online - FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQUlTY0M2eExJWTMxcjFYZ1ZURWZLYVBwclhadlZGX1hZRnZfZmZ4TkZGbHhXSzF4SjU2OVBOcXk2YUhPYUxGRnJCaVprX09TSjBXNUVPRnRabW9FamtQN2hNTW9EdXF5QzB0bGNFMEQ2cFVHdDg0UjB3a29iWDA0ZjBCNUxTSUlnbWZOQlZIQWdZclgxQnJ3d0NtYkdKUzJDQVhVSkxVa0JzV2ZRUDdobHBmWXVJZEhj?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-06-16",
+      "firstSeen": "2026-10-15T03:50:32+05:30"
+    },
     {
       "id": "deb8e9afc6d1be85",
       "examId": "ssc-cgl-2026",
@@ -3763,744 +4501,6 @@
       "source": "APPSC news (Google News)",
       "publishedAt": "2026-10-13",
       "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "c1327566e178eb14",
-      "examId": "appsc-group1-2026",
-      "title": "Massive Dasara Discount Sale on APPSC Courses.. Sakshi Education Announces Bumper Offers for Aspirants..! - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNREIzMnc0X18zSU1IckZCWlpGWFBPODZ5ZjZ4V2xqTTJpZUdaVldxNTFBOHRqbF81YzZGUUJBaUhVUV9lR3J3dVE4MkZlXzlyNW5JSWZnYTR2TG5LNjV0em92cUdKdnlFWTdadjhtNUpFanFKamVLcnp2UHhiTEJ0SWRqQVRsLUFhWTgwbkNVaFJ4d0g3eEFEdGxqNVh3bENlQjZadThlVHZQakZ0Z04wMWQ5NlQ0TDdGWjE4bXdYVmhfNlJ4X0VISmU4NlNkOGs4bTJiTA?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-13",
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "ba39bb93b366afbe",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 2026: Application form out for 166 Vacancies; apply by October 27 - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYjhvdnZ4TWdGNXB6T2VKQWRLVGp0Qkc2Tld6a1laVEN5cjd2Zi1CaEtaRjhfdXR3b1gwYjhVTng5RlpVRk56cDZiMF9rVkdvejk4VFA2OGxEbVNBTzdYNDFRdFhoSlJsRlhpYnpmVnd3eVhmamJDM1IzX1pwTU9lUUxJeGN6UVA3MlVqaW1YZ3J0bGYydm5sQWdfQWVEeEZNS3R6SjZMWTlsT2pN0gG6AUFVX3lxTE03a09tT2k1TmM0OUZjUUVwR3dsSV9sVEVtZkRUV1hYNXZXdVNkQ21BRFh0UVNrUEp5QlpNMG9hZm91X2h2VDE5LTJkaXE2dTItNXcwMFNiM2ZkQTdEOERzR3hVd1VJamZUNnBtY1pRMk9JZjJ2djJ5Mmxlc0tacTBsSDBlT1BlYVJfOEJ4SjV4d0JOeFZmbnR6TDhsSGVQTTNUdVB3REFQeDA0Vi1nOG9PSHQydzh1bHVUZw?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-06",
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "ac797553593946a8",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Applications Begin Today: Apply Online for 163 Posts Till October 27 - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQa01GWmtUMnhOMUkyRUlYdnpXd1VjMXNKNl9CcGFqb0ZVeXFaVThhUmhsbndjMnNhNnNjMXFhN2lvRkdsN19ldHRCT29JVUtUWUpjY0l0TkVDRFpXWml6REJna29ZdVVDb0tsa0xQQVFpaGdWRWh4NUpKNlNUMFhWSlIzMXBwcG9pWVg3UWlwT1ZfdHhUOVZIQndIQUk2ZnBlc1o3OHhyLTBtUHl0NnBfbUlRdkVBNWVQeDAtMWFsRzdPMHhobDFyQXMxWktvWVR6RzZyTkJ3?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-06",
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "b14bb24e03d80bf5",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC announces 17 Assistant Director vacancies in Economics and Statistical Service - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVlA5N2U1QnFINnp1SGdzZ3d6dEdZSlJZUnBUWTRIakJhbTA4ZlBGdmVhZ280OFZIQ2NueFZUMXI2SWR5NG50aDFNekNoQ1JIYTBCcnF1UHF2S2x6U1ZfYWlsV0R1NFBtb2otWUFWZDdZbWh0a1FlLUlGbHRibzd0VTNMTmY0YzUyOEV0X1ExbVZDWE96b3ZUTkE2MXo1QlRTRlJTWTZiVzQteWhrNWl0alBtR0jSAcIBQVVfeXFMTWFkSmxhWG9tQVp0VTh2cjIyQXQyZGpETkpuRS1VLVZVV21IOVFRV1JySnJMcGtKN21HeUxORmh5R1JxUjJ0U1V2YU45Z2s2WVBwRUdxZkJvZ254R2I4RDBKejNpdnM3NzZhSkJNc25Qa2ktNmVjWnZVZF9QUHVXbE1MN1loUkEyZ3ZvY3Y3UFVoM1g0cTc4Wmt4bzZFalJYd1AyU1VXMTEwWDNscXBrdFBZUENlUW1PeFR3NUp1aFM4RHc?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-13",
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "e049c06e73cc4c0f",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Notification 2026: Major Recruitment Reforms, 95% Local Reservation and Direct DEO Recruitment - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxObEVOMWF2UEdlSFpINTdRMmFHa1VvbUh6RTBsTEV1UFNldGxoQnJLVXVXblVnWFZkTUllUWVZVjItMDhiZlJPQWMwemJLTUtYUzAyLU1fSVJZMlpPaWpvSlM0LUJwbXVKVXFHdUpnV0pocjVpWjVzWF9ic0kwR3JCRDl0MEhMNlFXaVVwdElGWFphR3czNzNqc1BDdTZRMmJ3UEFHTHF5OTcwejI0VmZJbmxTSWFvYWl3TUJhVmJYekhkcjlOWW5nZXluTVhydy1VSXotWVF2NVdDa3BSWUZOaG5PMm45bEdoWTRPOF9PRFQ1M3Fnb2FMQUN4Yw?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "5b68b268b0aa32c1",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC ATWO Recruitment Detailed Notification Out For 17 ASWO Posts, Apply Online Starts - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XbndhRWVmVVpJNW5wZkdSazFjbHpjYU9VQ0Q3SXo1SnFVZDNEZ0pubS1taFk0WjZBUGVOR0U3aW9rS0JtWmRvcXJpYm1ZcXhPV0hXTWcwMVJjVDFGS3BFYWt4Wm9UOGFfc2VZT2haaVZ5S05wZnFVVVZ6dy1QQQ?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-09",
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "8f9c27dece7fda77",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Assistant Professor Recruitment 2026: Exams scheduled from December 1 to 5; Check subject-wise dates - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPejRkQ0kzaVVKbndZNUN5YlN0a0RtRkFTNDhrMy1SUzcyWGMwQVFyV0ppZE1zUTZnUlZoSTNUVmlBMXpXYWxvVlZTVGYxei10WWg1cU1XeHdIM1RHMmRKSlJqdGxmN0UyU1YxeFZiRjE1VDQxbUZWakpLTTlzblZRNmFIVS1BRHc5QkJ0RlNqclFDVUdZNVR4NVVfcElpTVhhVlFPUlZGbVdCN3VsQkx5NkJrakJqMkxsSGRWejNjYjFyZG93Y0NjendOQzM3YmhQ0gHeAUFVX3lxTE1wWjlIQUxDVktTS1RfUlR5VGNmc3lNNU5DTkJCbTJSVGFkX01yNldZV3RtSHNqVEV1eDZjV280U1pDaVBoRk8zYmg4WjhHYkdmNjhYSWFtaWgzVWtvM0VNRHRzT3pIYXJOdHU0c1dhbXZvRDVrX01Wd2tCVTZjUmxIZXRrSnlaNVRsQmhWZmhRTlZqZFRJTllxdHRFNnVaeHhZY1Z6S3BuRWZSNmhSUGlwQW44V0hXNHJQQ1gzQjNGdTg1ZkhseU15eXR0Qk14OU1xRmdJQlROaW91NXM5QQ?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-05",
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "85a96afe694bb16c",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=lfPeQDkCSn1hpKiL4dzNW70p4G8REvnMSvM33t%2Bhazg0KoeBaYJ%2BN2YApYI7qfN8QZKZWfBs1as062mxn52rRn4hioZAOYhyvHuKCHzlJTcw90vZrHVTujJf0CqupV9kBzj7nh9xy4FU0kQPQnqkUg%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "ebf3a44f63f892bc",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=6iQfLMDa9xMdjIXXiN95FhrCPR%2BFqwvXYUVRJUsKq0kZ0tFB6%2FUw0juDyKt7k%2BUyPMuW2swNo8MUs%2FFMsIvHJuFfycCMzipTBAaX%2FSNsXNXXBLKf466jcgl7Cm2ykIloX%2FSeiXYritL7b%2FdfnGGAuA%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "8d4fdea90667f0ea",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=fqd6IfdVcbx9%2BxI%2Bd7JgaAzJn0trhaZLbKraditWbg5rA4e7EIWik%2BTVReLCl4lQoJ%2F2QAyo4JslxMVaBwVUt3mucYVUE0X4Qz44twE35tYP4Iy3ozsoy8INZSi%2FvZTtG6QMIWTzj%2FA1XcJOaSqeug%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:36:54+05:30"
-    },
-    {
-      "id": "8706c9aae997732c",
-      "examId": "aai-je-2026",
-      "title": "AAI ATC Recruitment 2025 Notification Out for 309 ATO Vacancies - PW",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5SQkdkdUZWREdhaTRrODJkRG9YUlhXRjhDajBSbXVzZXlmSldZaGVOU2tGM29GQ3IzUDVMbHlwdEFwZ2kzaXhrbWRhN0JDUQ?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-02-06",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "7d6cf115e2fa4eb2",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Hostel Welfare Officer 2026 Detailed Notification Out For 97 Posts, Apply Online Starts - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMUUtaHNmR2l2Tm5fMzNkRzhwd0FlbVhLaUVmRnBOamhUN0F6OVRKQkJrcjBHbHNfZThhX0dab25tSm55MTBDQnJqeUJINlpuWjFRYzlUUFNsSy1UcEN1b3BXMm96QjZ2a21tNXVGN0JwWk5HeWVOdC10ZHN0djVlNG8xNnEwUHhfalE?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-09",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "1caa8a1663b8145b",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Assistant Environmental Engineer Application Form 2026 Released: Apply for 41 posts - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM05ZUFFrbmtadHlhQ2xUakt3Z2hfVGtiZ2h3eUY5aVZDSlRreWp2UlV5UEZhUFN6Rk5KTGZ5WEN4cVhQRE41TXNna1AwcGM1aUFCdUQ0TzU5QVNWaTRaekdBTjZ4STRvUDZ0cDF2U0l1MWF0NEZNdU5lTUhoZ0h3a0Fsd3RHUTZ1RVFaUXg5a2VkY294WWc5Rl81WUFsZDI3Q0hBRTdnUDlPcGYzSjY4UWlicFRYTDNJbDZv0gHIAUFVX3lxTFB5U2dycjNTa2pfRlVsMTNZUHQyaWlkNkJfcllHZXBfTmJfZ200a2tQRkJLLUdVXzJwdlBOUTdGYlJXSWMxd1g5b21OMkJpUVBkb2toZUZTZ2ZhTVlCT0c0TkRpVkxlVENaUjg3MlBVV2JzUXRqbFhndmVuV0s0TldvQXNXSEZETTVMM0tRUFhwZWRfcExaT3JtXzRlQmZWTEIzMFYyRUJhX25QLUhLVjA2TTRRWEl2b1lnMGFyRGJObHZGMmJFclRv?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-06",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "e075fc4d98acb74f",
-      "examId": "appsc-group1-2026",
-      "title": "AP Job Calendar 2026 Out (G.O.Ms.No.81): Check APPSC Phase-Wise 10,060 Vacancies & Exam Dates - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53dUF4YkxPdEVYUVlCaEY1U1REYnlNcjd2MXQ0WmE4YlNRUnExRU53SmFudUc0eE5DWk90NHNrVHBTcHptZF9lQlp2dnh5ZU1aLWhQbmxBX2xnWDJRTnV4bUZ0a05LeEdOSVREWDdEV0xocmxZbmx6VGFR?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-29",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "a55ab763b3e1815b",
-      "examId": "appsc-group1-2026",
-      "title": "AP Universities Recruitment 2026: APPSC announces Exam Dates for Assistant Professor and RGUKT AP Lecturer - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdWJ4TURCVmtTVFFGTGRkMExzVWJtT08xeUVBcE1XVUIwOUhMcUZnT05Tdk9vOExqVVprLS0wRG5CZk96MC1UOWJRQXNwOHMtNnZzNGxfd0Y1a2ZFWGRtQ2ZuR081WW5ER08xSmQ3SDZZT012Yk9CZnF6VEVpcDEydGU2NHo0Rk5qU3oxU05Pa3B4N1JMRjY0eXVKck1renBHdEMyX1BSWkpEUXRuVUUxS1RFNHNneU0zbkpZd2tscGgzcGZnSVRnMWpDT1F2cDNaOWfSAd8BQVVfeXFMTllsSU4xdmd2bGdiOUpfVk1CR1FDcEN6RWhJb3NZYmJtclVWOUs5S21Id0NOZ2lYZklEcG1LSkwtM2w4WEV4NWxodVJzRng3bzJocXR2N3o1b3Y0cHc0ampubmFseTUtbEw5ak1RQmNwMlh4Y19LTWIzMXVucTdkSVlVTGVVbGpSZGxoY0ZQMk9IWHFDTDFzR24yS3Z3MVFGZDcxRk1XU3dva2x0XzBidnh4bjl0b3FBQVRrM2Y1TlQ2a2JERTJlOEtaSjNzMkNrS1RTOExwR0dRR010UUR2WQ?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-29",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "b97921a073bc01a9",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Assistant Professor Recruitment 2026: Subject-Wise Exam Dates Announced, Tests from December 1 - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQREtMR0xKVDNsRkNLcURmVXBwQ1ZyVk9aUWt2czgtbExMUTNwTENWbUlraUZLTGZVSmdqbUkxVS1yTUNSY3lXc2loNTh5MFJSNGtjbnZXeGJQLWVyMXhBaGJPWXNPWnhNTGRfaU8tXzUyYVlCQ0oxaEVydDNVVFRpel91bEhPSE9nOS1Id1RlNF9QdFUwUnlkaTRvNUtsMVBIZkFja2s0YTZiQUprbUpITkdtdHBYLXV1Xzlzb3NTMy1ZOC00NGE3YUFQdUk5ZkFjTW9oSEdURnB1SjhqQm9BRmVjWHQ2Yldm?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-06",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "be9a35cb4e549d72",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group-1, Group-2 Notification 2026: Recruitment Schedule to Be Announced on September 15 - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNEp2bUg5OWlEeUV6Q1lPT2VfdDVzTWxzQURBd2dDUEhXRmxEbG1uMFVfWnhoQmM0Y2llRXZRbzI4S2o1bDdyVTg5QmMwTzNTMDY1bGZhd1U3YXFSOXRDejIwUmhxMHpKLURtdnlUNTM4aFB2U0dlMFRQOVd0amFwZlZQSzBzMWJFMEZjNzBhNVJtNFVZR0N3NG51Qjlpelg4QVNyODktU0VyNWVsMFQwWDRzMzkyVUk1TWpPNldmM24zclVSWGhaeDFfSnlfLVkyeHVmVG8xc1lKbnViVUJ3?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-12",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "33a4450cc0c94f53",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Recruitment 2026 Detailed Notifications Released for 892 Vacancies Across Group 1, ASO, Executive Officer, Forest, and Other Posts - moschool.in",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tWmlLNlFVeWp6UlZnWm9FSmZvRHctWmpLbTAxbVRtajlaZVI5SlQxQ0FVSEh4LVFvOVM5b3VRYjlPSjJKTUc0QUt3c2t2c214T0prblRZYTBONjVYN1JtRlRnV25hX3hHc242aVA1bEtpS0I3TjNlX0hxbw?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "c9c0f81bbbd931ba",
-      "examId": "appsc-group1-2026",
-      "title": "AP Scientific Assistant Recruitment 2026 Notification Out For 43 Posts, Apply Online, Eligibility - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSGpPUjNtMmlVSW52TW5uZGFyazJOLXgzdE9scEYyT28xc1dsT1d3Z2RtazdESTVPenh2ZVl4RjZYbHpiREdhRGpSTFEtYVU3SUFvQWNlV3ZKM3hINVRHdEhkbVVDazcxVUw4RzllbUpsaFdKcW5jeEl4dEZjQ3BKVXc3ckdJS18tMU1Pc1BaUGZiMFU?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-29",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "37f0addd419e71b9",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Update: Application Dates Announced for 163 Vacancies with Degree Eligibility | Selections Details - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUmUtbmdTN0pINGswODZvVmRZRjZGSFYxZHE3VFBIRHdoWWptaTZSYlRGM2I3aFk2ZHl6eUg3bmdpeDdZb0pOczlmWTZ2enRjaEV0Ry10b2RteE94Tjd0aEduaHBjNzFFbWtWcDZTcXdDSEVFWGZnUE5nSFI4X24xRFlQbHcxOG45R2s1N0QyNTl4RVhrZnRkclRzY3dITmRzaE1KY1NiVFJWVy1hVUZTbkRpbU1rb1VNckI4WEJVb0F0U0szdE5GVUhrLXVBWTV0UWUySnFFMzJmQUNoSDl0Mlpldy1kNzlwOF9DTEVtRjg?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-20",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "1eb50c1970364ed6",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Recruitment 2026: 163 vacancies announced, applications from October 6 - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSnJhSnpVdVFFZGRSdnVUVXdfc2ZrQkFYNDVTNFloOWdhTHNXZEhsN1AwdEdQZldFc08tRmQ0c3U0R09oa0ZNVUhyZ2IyM2hXdm9JS1FQNVdka3dqb1VSNlBIUWpVN0NRbEl1ZmQ5RUlJTEt4S0pybnFxX3pzekpvZ09kY2ticmFuVlFzSHRJbzV1TWllMy1HWC1nXy1yYXNWdTkwdVBCaVA5SGIxRTNPcjFJWdIBwAFBVV95cUxPS0RveFlvX0g3TzFQOTg0QzVLZWxiUS1wcHhMNjY3VDdxSHpESUwtME1OS2VYZmhLcGF2YXlaSFliV2FUVzNPMUlEV0JKMUxmdGtOSkQxOWM4NG5RdzVHMmpLUzRDbWNCazNTN3lDOXBpVXlWRDRmaGQ5RWNiRW5XSnkzbl8tRHcza1dGZ09zWHZqOUVBN1NibElYQ3lVaV9tMHJJcGV0SWk2clpGdGx0RmVJeUNEQnhjQXU3eHdYSGw?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "8acefb1c22d5593d",
-      "examId": "appsc-group1-2026",
-      "title": "Andhra Pradesh Releases Job Calendar-2026: 10,060 Government Posts to Be Filled in Four Phases - AP7AM",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMVd0MUZlV1BZNjd0NW0tUkQyZDFaUVFOVlFpczFkUlVhYU8xZTB1WjRLMHJwa1hJcWQyaGdVdmV5X3VQR2R0dlJlanl1UVAxN280a0pGZXBuVTRsUkJqWjNCMURZLXFvVFRIM3ZtZEN6Mjhnb3l4YkRuQUpOVl8xRURHS1dpa3VMa240YjJVZ3JhM0xhaEJaeGZXY0J5MFdpRVJhMVRha2MtQ2Fpa0UtU2U0b3BCVmlqSGNrUUxzV1Zwdw?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-22",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "f60ab3c15ef49090",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Cut Off 2026, Check Previous Year Cut Off Trends - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8zTDJCcnN5YmlBLTZxZDJPaWpjb0o2Yks5aGtuOHNWVFdBZ2tQZ2FXajhNT0g4aFNmYlUwNTNuRkM0Q1BNNGhOT0thVUFTRFdUdXJLcDJMREdLNGlIMmRQSmk0c3RGdlo1cFFVY21EbnlXeXVBX2c?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-08",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "db5f0624291164bf",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group-1 2018 exam probe finds alleged irregularities in evaluation process - Careers360",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMlZ6Tl8xMVdsTXJwX1JOdjI3b2J0eHh4MGlfa2h4dlFpbFB1UnJhRUF1MFpfbnA2WEhTaHVpYzRfRC1ESmFORDVaT1BnNUxlRGllOGNGZEVBNDZkU0I0Ni1wRXdiS1Ixekhsc2FQX2xyenN6QU9vSmlYMnhSTG9PbWp3NllWUlU3ZUlOYkxxeE1jVW8tVzdObFpDY2JXVDdxaEZrcExnbDhkQVJF0gGyAUFVX3lxTE1ES0FkcTZOdk45ekNsakk4QWZuVjNZVXJtWDdoa0IwOWJZNWpLNUtsVWp6Nkxwd2lNbG5lQ1ozV05EWlNjRE1xWHlsZWRwdUxuQWVIZ2xVemFrSkxIT29JYTJubnF5c3I3dGpDLU9wMHdYcWhJQXhKdGlTbko2aWNBenBkNkJodlpjdVAyWHFrakRzSWpQbGFZZTNCLXJXWlFaOGkzZmxpUWVXU2gxVXZjSEE?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-13",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "b81ee75edea2ab7d",
-      "examId": "appsc-group1-2026",
-      "title": "Andhra Pradesh CM alleges major irregularities in APPSC Group-1 exam - The News Mill",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNR2toenlVU1ZoUlhlMDE2Ui03S3FvdUl5ajhUY3RmeHhGS2dFcXRXVGxoTjZjRFhDYXlGVjVUZGZKVnJOUkxKNUltWnZCNmpnQnUtRk5tb1lVMXdVNlhwSndQRks4Q1JRa0xvaHFJenZYZ24zdjdTXzlCNWctUS1OWVRhakk5ZDFNOUpISHY1enlPeEY1M2dDNm9tWmx0dmZqd2xR?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-19",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "bc07d1fe3926c226",
-      "examId": "appsc-group1-2026",
-      "title": "Arunachal Pradesh PSC Group A & Group B Recruitment 2026: Apply Online for 155 Posts - PW",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNlo4bC1nU1BtVE1XNTRWd1VEaFFXLXBVem1neURWRlZ3MWFlMEdFWU91T1JiMWx3ZldvN2JMVy11eElza2dfNTRyOGVLQlhzX0JIVWduZ3lSVG9vZEk2UDRETTZDbVZ2anhVZHZXZDRRMDlxY0NrcTNBTnZKV3RoLThNall0cXRISGRKZzlUcFhPbVhReHF6bEY1aHo?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-03",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "5decc251210e3e29",
-      "examId": "appsc-group1-2026",
-      "title": "AP Police Constable Notification 2026 Out For 1027 Posts, Apply Online, Eligibility - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84NkppVHliTEtBVVNReXVsWGdmZXNTXzl3NnJQQXkxT0VNYXB4Y0FZRExnN1pDZlF2UTY3SjZVc21ySE16b0xOMkxlUmMzd1NTU0JPTFdaMk1LbFlCbFd3ZFFQdHJidnJqMlUwMkVidHduV0U?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-18",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "5224bc66bc9a1588",
-      "examId": "appsc-group1-2026",
-      "title": "AP Job Calendar 2026 Released: 10,060 Government Jobs Announced - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOV20zUk5nY1VURko2YjhkNFdub2xkY0pjTWR1Qkc0WlI4SFNhZzhfVnJXdXBPNFFMYUQwQVVVcGVkVW0xVl9tc0ZMWFFOLTd2dE9BaUpkUUlXUDBEcUVLUTEtUzFaOERneFlFLUFoUm5uYUZFZE0zVE83OGVKeDUtazRTN2p0YTRsRWN3N0trTDRhRTZ5QkZrV1REVG8wUW1waVNrRVpFN2pOS0lEOHFtMk0yem95V2RTcEVZenVHM1I?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-24",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "b62ed50e196d948c",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=bKWeoRNyOXZZXU8wqngMTIUF%2Fkw3aH0JsM0d6PDH5kM7P5Bb7H885jYBCmmOpvBYPTyItS%2FZu5jH17VJqeCr1r7qoiTVBp%2Fl7oX39QAns9TuYa7XFdLHsRsLvQqwIbAQU37JX2M7nJo7ImbM9%2FBJAw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "20f064d3228180f5",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=oigUrwOewk53B6%2BHlTA9kHP7WqpvDBCwJ7NDm7EUUM5Fq0f5X8%2BGKkkT%2FRCrHXPMlgrPWsuC9z7WZNeNdSB7aE79iec9sFm3PBT33%2BQp6UijkcR5SExNJ3%2FfwN2vCRJGcK0Yl5b1C%2B9Gv3Bq7HC9GA%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "c34487518809137d",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=TXX630galS1gYhYuqOzHfbE%2Bhlwspoi5evd6PdsMnwTqsRF0mwO5BgDdolpDMIXIPS2B3bthYQgdHcKqA5Y2NIEuZuAEp8%2Fm2zpySZ%2BVa2On624mvn1Iu5f9pJNASPojzjFPYROfI6AeZw8IA0sBHQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "4ed963ad4bea1ea6",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Recruitment 2024: Deadline Extended, Preliminary Exam on March 17 - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxON2dWdlNlWFAyUm0td0ZOd0I1MVNoT1ZwWEh6bjhLTUJ4U244RWdwMk1fbUdoSzBkM0h5aDNmTGlNcC1MMFYtV0hlWlNua1Z0UWVSQW5QRVd4WnF2ZndhZWNLV2RSZUxVY29qZ2xjanFuckpQZFVuakxWdHpCTzZiSnhhaGhPaE5lY1NoNjgySXIyWWN6MmxOcVkta2VZTGtfb1R2dGRRNE05VzhEc21HTVdEQ0QtN05NWU9YNWU0VEw4YU1CUGJyUWJWNS1WZmxRckdmMm9lWU5pM0F0RzB1bjZoanhmLVFRVmfSAe8BQVVfeXFMTjRlLWYxYUd2T2hOVVl6ZzFvY3hSVHVEOFUzMWN2VXFFV0NoZnJsRzRpb3J3SWxiZXdfQW05N0Q1MDQySXVOSlJya2huWUl0NmR1U1RPWlJwejladDFIZkVqWGpLbkRWdnRSZFJ2TXJMVk4yTXJsZ0FSRTVrWDJOYTRzekppa0NwbEVCcWN6dURDOGEyemR0Q2dDMERNTkJEM1VoRi1rQUtRSktoQ0o0dEt0eElwR05EUS05ay0yVGR6U3lnQnM2cjBxS0thb2R3bzdyZFNnX0NpXzlkSFZnd2c2a0ZGMk43cUJUcEZNbUk?oc=5",
-      "source": "APPSC exam news (Google News)",
-      "publishedAt": "2024-01-25",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "d12c3ca861be64d2",
-      "examId": "lic-hfl-mt-2026",
-      "title": "DTU Apprentice Recruitment 2026 Notification Out - Apply Offline for 108 Posts - FreeJobAlert.Com",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV0ttaU5qM1daREptcVZLSW5QTUM1SlRCQ19lb2h5bkZLYnIzY2l3VGgtZ3pqYmJnY1JlODlGRUhXei1vbElDb0xnREd3QV9wM2NVVFFTU1ZiempXMi03SVRWdFRWRlB2b1NHc2NHVE5MazhwV29reno3Y1JHbTVDbl9IUjJaXzhjWUJZU2xLLWstUWx6SFFQUkc4a3hlSVpyRGwwcnJ3UVE?oc=5",
-      "source": "LIC HFL news (Google News)",
-      "publishedAt": "2026-07-01",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "2d4f050fe2ec19ac",
-      "examId": "lic-hfl-mt-2026",
-      "title": "BEL Management Industrial Trainees Recruitment 2026 - Walkin - FreeJobAlert.Com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbXBmNVlBOXBtUzR3bmt1bHRhb09wVWpGaVJDRlkwaG5weDhpRnJqUjA5WUk0NEh1WHNuNW1yMGJHbmF3VmFaT010d0x4TU1OVzRfVXRDdk1BMnlIRGxZeHlsZ21HSnNWUW9rQWlvZHgza2dmYjM2VkozR1FxRHpLZ0k4YWxZN0hpQ3U1S2lCdG0wNGpRR2dab18wXzZnWkZzazNmZTBFQQ?oc=5",
-      "source": "LIC HFL news (Google News)",
-      "publishedAt": "2026-04-01",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "ee7cebd7a2d65a20",
-      "examId": "lic-hfl-mt-2026",
-      "title": "Govt Jobs 2024: Application Last Date Ending for Various Posts This Week - Jagran Josh",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM2Rnc29xWEwwTHlQRVFzSDBHQ2NwN3lyZERxWmJoUktWRl90YWwxNmt0ODZPQU4xbzZlWHUyMkV1VE1HUUwwQ1ZNTWlUU1Jqb3BYS3poVnh2OUxwY2x2Z1hMbjNSY0RRNkUtUDBISkgyUnROQjZCTjhOOWIxYXltc0M2ZTRNdHp3ZlJNYlpRdjN0aWVNeFk4LVZ3TXFIckFNbi16WW9XZ2ZWU01XbU9VOFNwRHFyRV91NUUtUQ?oc=5",
-      "source": "LIC HFL news (Google News)",
-      "publishedAt": "2024-08-13",
-      "firstSeen": "2026-10-15T00:31:22+05:30"
-    },
-    {
-      "id": "5578f51384f5a0e8",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "Endowments Department Recruitment 2026: 190 EO Posts to Be Filled in Telangana - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPdmw3b2NKSEE1YVl3endDWnNVd0ZiYUFTNDV3NDBnbnVEZ1lURVZlRFFkRGhiRUFmTHRBUGgwRkVLNHlrT3QzNXlBUEhJSTduUXZzcGY2SmdDcnA4WlFGa3R4eVJEUEhWTWdjOVZ5SE1IbnZGR0M0REx3TUhvdWFEWGVPSEdJeEZoRTIxYTY5dkkxWlpkbFdsZ0VUZlhXbUVJT0dnUTRaeGZuNHVpaDk1T3h2OXdjZ0xPb2ZGQWhTdkFRUXFMWGVSUFhvUFN3WHFZTjJ2UFBmdGdZdWhKRHZOMTVOYWJkaGRqY09vQXhn?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2026-05-03",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "82c18628d713f09a",
-      "examId": "pfrda-grade-a-2026",
-      "title": "পেঞ্চন পুঁজি নিয়ন্ত্ৰণ ত নতুন নিযুক্তি | Assam Govt Jobs | New Assam Govt Job 2026 | Sarkari Jobs - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBFVXA2Z1pINmZuNFV4YzFEak4wZ1o3aGFIbzByeEN1YWxwcnRlb0YxSVI5MjRhaFZ1VGNWZVJ2S3lkcWpqTmQxRzNGWlpwNXJoVTdLQmxiVUtld2hv?oc=5",
-      "source": "PFRDA news (Google News)",
-      "publishedAt": "2026-09-04",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "e1421985ce99ad11",
-      "examId": "pfrda-grade-a-2026",
-      "title": "PFRDA Recruitment 2025 Apply Online Last Date Today, Register Now for 40 Grade A Vacancies - More Details Here - Jagran Josh",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZUVOck1jVzUzdEdJUmlES2hNUjByTmthUjQ5Q1pBbW5ZVnp4enA2X2w2VERqYmdNS240MzdUQmloVFVQZnpsR01HQ0NRdlFhcmY0eUFLWkp0T2JCUnBSLWVkNW15V1VZSDRzY0t4UHFsdnZYT3FER3pMcHRkbHU0WFZxVElzbjhia2xpbGpEa0ZfajhFZ0VpM1JwOU9zOW5QRDdrcENGRlVCdTBlTm9xakNURzZ6U1JzM09QbnRETjFVWWhZVGZ2VnFtcHZRZ2ZLTk9QbW9lQUxLVnY0RTBBaTZnMXp5R2NJZWpKOA?oc=5",
-      "source": "PFRDA news (Google News)",
-      "publishedAt": "2025-08-06",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "846dab89fc4a5e1b",
-      "examId": "aai-je-2026",
-      "title": "BEML Junior Executive Admit Card 2026 Out @ bemlindia.in, Download Hall Ticket Here - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJQkVkZHFrbjZaU0VaTEpIV3ZFTV8yTUVPODFfSXNfcE9Zd29GNXoyWkxyMVhSSFhjZVBFU2xldUZUZzhVQTU5a0hHTUpCd2tHMUxwak1Na1IyRWNJS3gyS0RIQmxYOFh4NkRHTzBlckpoelV4OWUweUFyTEVLQzA?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2026-04-10",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "4713a1f50bb086e8",
-      "examId": "aai-je-2026",
-      "title": "AAI Non-Executive Exam Date 2025 Out for WR, Check Exam Schedule Here - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yc25pWW0zR3VSVEcwMGZkRGhDalU5ekRkQVByRDEtVmJnVmMyT1FnOU5YSF80STMtQkEzRmVORl9BZHlrU2lJVWlEaDEwZlZYcW9NUS1CeXJZOVBFcUxUZWgxZjd1NGFGQW1v?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-02-04",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "d3c881732e6a4ea6",
-      "examId": "aai-je-2026",
-      "title": "AAI ATC Syllabus 2026 For Junior Executive Posts - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OY1FCQUtLTlhJUHdjV1NzYlBPZWhDMlhmb2ZnN0wyN2hjaDJldXZ2MmkwcDhBdUYtX01acjJ0VEJwd3ZFYzFKWWpYRFl3c2FzclNBWlNWdE15R2lwcW5YRnk0QXlELWdLMVE?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2022-05-30",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "d7685c8973c10c19",
-      "examId": "pci-aso-2026",
-      "title": "Delhi Police Seals UNI Office After Court Upholds Land Allotment Cancellation - The Quint",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVmVnX0ZFWElNcFNLLS16ZTVjdDZnMUpxdG1sRktzSHBsQXRiN2x2LXZJMGpqbDlNaW1rTDAtZG9uU3BpalVYSWVRVktYbE5yeW4tX3lDa3h3ak1LQlhsSWxOTklEVmZ2Zm1IcFhMMVNZRmhzRDM4OFdvTmVaVWJraHRES1EzY0ZfbnlTWdIBmgFBVV95cUxNYTU5dWJtVTRuZXY0aC1JN1lXdTJPMC1jWlVtWTlCX3lNVm1tNWZIdmJMNVU2MkVjNVRTMFVaZHNRYTI1S05hVFh2QktSZ1ZkVE91Y3ZLdS1lbEptYlZSUG5hdWFFeGZ4RXR5dF8xRVJlc25MNHBoR2FZWGREZlE5SzVad096VlYtZmR3bVB6NjU0YWNfdlgwMmF3?oc=5",
-      "source": "PCI news (Google News)",
-      "publishedAt": "2026-03-21",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "40655594cf6f9fa4",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Recruitments 2026: Notification Announced for Industrial Promotion Officers | Check Details - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQOU9EWjRlUHR6Z2NlMV9KdjUyaU1GMnZGdU1UQ1ZER1dPbkxIZDQ2czdOTHl6djM2bm5MQUk0bXNONE9mYUpyanJaTk8tYjZEMTUyX2xtdVFwYXVWRFdJOHc4amxPR1lWU2xyUVVMWlVvTDU0aE5XVnZoRXpJTDNxeFJOV3JKQzZZdGdoR0g0RG9FRXdXTkRVOXZGWEEyR0ZkSk15N3ZjV1VQd0ttcy1ZRE9rWXJlQ3EzaTR1V3loOWVUazNSVTJQUkpteXJmUUN6N0xYbzZob2dnMmNuNkgwT2tzXzE?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "619cc6509caf1323",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Forest Section Officer Notification 2026 Out For 26 FSO Posts, Apply Online - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZWNhcmlPSEV1U0JtVDFQWlR6dEtWd0d6dl9MdTN3aFk3TG1YYUxDWm55WEphSlNfYzhmNFV1V3FkaEU0djd2OGZ4MjEyVXV0VVlVTVhvdG5MTTEyTWFOeW9PTzFtUGc3TEhmOTJ4TWZ1d1lubWRQR21QLU9tbWM?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "a4938fd15066e78f",
-      "examId": "appsc-group1-2026",
-      "title": "AP Job Calendar 2026: 10,060 vacancies to be filled in four phases; department-wise vacancies - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONDRVeDM2c2YweUQ2ejBlOHJnZjJKaWROYnFPUl9SdU55ZFc1ZlFsV3Jwdk1xU2ttUHFVQ2RnZVk1VEIxOE5rWFM5NExRQXBMYVVub3pUU0RLc25pZ2RDc0pxVEFrSWpUYllrcTVjOUpZclZGYjJKcjBEdFBIM0w5YkFJckk3TV9EM21CREpldnh4TjVTVllHdmdiWDh5NXppc3VhTjhXd3dCaUdwejlodC14UXVPS2FqOVJ3cdIBygFBVV95cUxNRjZJSkF0ZW5tM1lBYUlXdm1EVWpZbGZ3dFpiTUFxNzFPSlBsMDdRYndTYVp6dDU0V0FsSkVFd3RiWWxEdFI1ME9qRGNKWlM3bi1kT0p5bTA3YUJOSjB5S1JLNVVVUHNrMFNRQTQ3eUZ6ZjlmNm9DVE44dGh4Y2lsYV92V0FBMk1IeWtIWktKcGpTZlVnUFRfdkEwV2hKUndTUFJRekJSRnVJd3NxT0VyVVU2ZVZQY085c3VHYlZQMlhPNmdkNzBzSVRn?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-23",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "017cfe53c3007d3f",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Endowment Officer Notification 2026 Out For 104 EO Posts, Apply Online - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Qc2tvajRxUEZnUFVvVG5BRG8tU2ZVdjlQNE9tcGRKOVJ4Tzc2Z3pDNWNMRHZWMk9FQUVHdmtKYzZLUWVpNjJRVEhsWXlOc2J3MU4wTnE4NzZRQ0FUTW5QTFZQelNZYU9zYWNXQkFqSTRubzNiSkg4SQ?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "dfb0ae111a0be835",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Endowment Officer Syllabus And Exam Pattern 2026 For Prelims & Mains Exam - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc1NxRl9HR0lIWVNnY3lvUGUtV1Z2R1dMYk5JVGxwd2lwU2d2OTlCOFNmUjNLWWk5b1J5d2dPNndnU2h5WF93SnRzcjN2ZU5qNEdsTnQybnJmLU5IS1dYREs2TEZuR3FXb1pBeElKcU9kUEpQT3pGREFhWFQ5WmVHNFF5SGM?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-11",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "6555e1d14cf04d22",
-      "examId": "appsc-group1-2026",
-      "title": "SIT finds lapses in evaluation of Group-I Mains answer scripts - The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdXhDS0JzRkJSV3V6N0tvMEc0Y0gzYzkwNlBKZ0tPWW1KMzM5WHl2enBQTzdmcVZIWWxRdjk1ckw5SHcyakc4VzhKdkRPV2YyVWFMNGx6RTZON1Nkam82U0Y3NGpIbmx2RjU4aklFd3J2d21qSjMtZHNzWjVCLW1OejdaN3EyNEFjVXgxME1Xa2hIendBTWNTZmt0MU9DbmRiaENwN3lGamFwSjJjOXdwRWRPNU5zdFM1WmxkdU5vYjkyRnNUdzQxU9IB1gFBVV95cUxQN0I0ai01TW5ZanRiX3dwYmxHcVJhUnREazBBaXZCckt5NVAwbW4yaFc4NjJlOTVHelRqcEZFREk5QWJfTVRlSDlDeEF0dWhPYWoyVE1qNW1tbXlGeVRhaVZoRUxNMHhpUGM4NDJDY3JxNk1VQk1iRHFRVWZLWXF2THExV0NtRkRTNVh5bUtqYXJibTNQb2E4cjZ6VnY3WjFWX18zeWY5R0FxVHM5LWdJc2YycTE2YWxYZWVCTHlHeUV5T2NrSEltZTMxcGZwOVhUckxxTjRB?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-13",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "f19a5455839c2b99",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=T%2F7KVjkC%2BeV2XX2ppPMSn%2F6RVBLPs3iFzc19sZXuMiUlATj5SkX3l4T6Mwr76rniDKKiBAoyovtajALebXaIgacrDkj7K2FZ5vzM56jj2mSRKHvyIO0ydACL0Fg0yZG3m1sn6niXgLQxbFesttIRdw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "fbcc3c64505130af",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=RXzcWYUOJ5ZEWuf3WbgGvi8723qzIv%2BLxAxCAjkHcbWPzhjl9bpguvKzkYN24V6Mp2sTzVKhTc1l5jU2uG%2FLaWLt2pCnK4BY9%2BdK8MORZB4sfNRSoDdAfhP8MkuW3Bky4VVsSGbmy%2BN%2FjkhqsPxnVg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "310cf2820aa1d3d8",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=muh9nlzajve9ZtotS2%2B3ULXk0hquWe%2B0oo3VgDWphgLYQROAy9um%2FiVG4rx%2BadNtRubU%2FwItAus3AxJVvPh%2BKBWFJCk2QSwKZ%2F7n4JWkRVMrLeJhi3xpM19hyv4Dz2AaJGcppDKFpN7mUYCj2i3H7Q%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "2d2decf2ed262ea6",
-      "examId": "ssc-cgl-2026",
-      "title": "IB MTS Final Result 2026 Out, Download Merit List and Result PDF - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJemtVSXZfZlZleU5TZUNCcGdGLS1WREt2dUgwV2xCMHZ6R0NOS284VTUwcFVOT2hOeGtGV0V2SUs0Y2lqSDZ5RldsRmJKOXlGNE5feDgycjhDZk1NbW1NWXNnbm53czI3?oc=5",
-      "source": "SSC CGL Tier 2 news (Google News)",
-      "publishedAt": "2026-10-05",
-      "firstSeen": "2026-10-15T00:04:05+05:30"
-    },
-    {
-      "id": "669d68ba83f51674",
-      "examId": "ssc-cgl-2026",
-      "title": "Combined Graduate Level Examination, 2024",
-      "url": "https://ssc.gov.in/",
-      "source": "SSC notice board",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "48e8886b0f48128b",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL Admit Card 2026 Released: Download Hall Ticket - Sakshi Education",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ2RmVXFtVE5uV25JRnJIQm1kcjZuOUg2MThrYm5CMzR6T0lrRWZjMjNHbE1BSXZ1T19yVzljRkhXMFJkeHNZR2V0TURWbzBsOUN0V3p1cFpRazh5clh2N3lvWG1ZV1NtNmhUd2R1NzRXV3FrLWxWRnBoUDJqb1RTYkV0S1hwaW9faE91b3R0YkNSQXBKc0R3YWFTR3RWSW44VV9kN0E3TjBONVJBLXdjUktkTlF6aXM1WjhVNVM4U21mVFFDb1E?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "f5e253241dfd3474",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL 2026 EXAM REVIEW !!! - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PMHlacTJRUEpvdnBNNUNldWFmQTU3bml6RFp3b0YtaWkzWnhHLXlUWEp2RFNuR3dlRkJFODFaMVZnXzMtcmpLV2xZX0ItOWY4Uk1fR1lhWHRkZmx1?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-10-08",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "c5da5776da6604fa",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "IOCL Recruitment: Application begins for engineer, technical attendant posts | Hindustan Times - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdXdiczRGekxSSmdvelNoWXl4N0ZSQ1NLRW9ra2ZPMHdITDNFU1BHWVg5Z3RwcW04bUdkUUo0eXRhb29ZZFBHNExFb2V5Q0NIVy1NRDRER3VLTjdjTG1JNnE3YU5kM1RnRDZTcmdzcjlOb2NtcU5uY3RtX1c1NTh2TWlRQXVRc0tvTWNiVWtKWTJrRGxHNHhwTkIwcE9neTlndlhmNTdPWnJzTnQyckNlWmU5eEV1eDJTTFdPMm1PLW5kS1R3V2lubWo2amxDU0pJZi1WcU9jWjV5MEk0d2pOdmVLSdIB6AFBVV95cUxNSDhNR24xb2xWWTA4d2p6NmNKUjNwaThzVFZFc1BYdEpOTGl4bmtiZGtJTjVnVDQ2LXhaYUxReHc1eDYtclYyLVAyaDRCSWQ2QW5CZUs0QXJQdHY0RXQ4a3hHWkozR1pEZ2NkanlWRWxmN2Jad0s0ejZjMlFqSmR4MUM1RHJmRXdYUlZuT3hvbFBHSDJVcnhFUEZoN0diM0tuRE8yYW5oQXo1akdYZVpySWF2VTVyMjdvSktJcWlQZTBoS1ZmRWN2aU5qRE5FQkU0S28zcEw2Z0dWd18wQ2REb0dEZ01LOVgy?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2020-12-25",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "ca16461e6110ac2a",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "IOCL Non Executive Previous Year Papers 2022, Click Here To Download IOCL Previous Year Papers Here - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR09LNmlZQ0JVR1BBT2RwWFBXR0pzUWhrM0ZMa09Xek5Wb25ILVNhY09ubzRVb2hOS3JwVUwxTFNMZk5oQTREd1dGOWFEVk1WRmF1YWpjelp4NENTZHBtTEYyNXRteGdfVEFPLXNRWDlCSmV4OFJkTzRXY043M0JFRGhjWFkxak9r?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2022-07-12",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "3c1a1aea20070e9a",
-      "examId": "uiic-ao-2026",
-      "title": "UIIC AO Admit Card 2026: Download Prelims Exam Hall Ticket PDF at uiic.co.in- Link Active Shortly - Jagran Josh",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2pPdEVUVXpCN3hHTktpc21PWGxJWkgtS0h3VDNHOVpDWjRaQW9qOWk1RURfRWQ1YXVaSlNTYS0yQVh0YTRYMlBLS016cVlLVktOT2UtdFZhbjBzSU84Vy1vc01GaTFIOGUwZEo1a3Z3YWtJWjgza1E0TjRrWHZSUVJGZVljTmlfNEZ3ZzI0aE1jWFVXREVaV0hCdE9lZWFGMWRNcnMtaS1rUV9HMFpmMTdTMW9VV1NVdlFSWmJyZ1Y2UdIByAFBVV95cUxOczFTc1ZVMmViMWRZc3NfTGYyb2ZBOExFaVkxckY0ZWlWOUdiVWU5QUltd0w5ZDViNnI2SWZtUkxwdFlHSmx5LXRPRkxXMGR5UTkzU2RfbGVnYjVFbFZwNDR3MmlhbjJScnFNQ2doRHpFQ2JlVjNHMzNWOG1qTmJlZEpXUUh4SEhpS3pua1lxSVFYODk5MndfNjJXbDVaMFIwT1d0R3ZkenpTeWpNOEpoMF9wVFpwV1dFdW9VYjR4V0UyQzRHODhJTA?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2026-10-14",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "d1b89d2478dc5d7d",
-      "examId": "uiic-ao-2026",
-      "title": "UIIC AO Expected Cut Off 2024, Post-wise Cut Off Marks - PW",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92NHZCSy0zYmZ1VG9TdTg0QVBGOXFqN1FGTndFWndWdE51eTlublNRQTlYc0c4STFkbkJhMVBaSE4zVzZDOURIVHBMOUVsWWVpajF3cy0wV3cwN1BGOFdrMG56dUNUMm9OU0J5bmtVYU4?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2025-02-06",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "40047a737285338d",
-      "examId": "uiic-ao-2026",
-      "title": "NIACL AO PET Call Letter 2025 (Out), Download Link Here - PW",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVZ19yMm9Wd3RCTkFmM3MybGIzRS1IZ2wzeG9VM2xIc21PdVZ5Y2lvQXkzMHJ3NklUeHBOX1FFTHZiX3JaanN0ZThqUjJhZEQ4SjFRWl9MYUh6RElubng1YVZoOTAzdHJMTzNBdmdNUVQ?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2025-09-05",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "3ba34f493b5c6c3f",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "0d0fd0dffced8da9",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "7e7dcec001a1ae8b",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-information-handout-for-phase-i",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "ef8dc7e39b152657",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-form-vi-certificate-of-disability",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "272419a5ffe69818",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Officer Grade A...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-officer-grade-a-assistant-manager-2026-ews-income-and-asset-certificate",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "37ffd54c4a499d91",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-form-v-certificate-of-disability",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "2213d37dc14420bb",
-      "examId": "pfrda-grade-a-2026",
-      "title": "PFRDA Grade A Phase 2 Result 2025 Out, Assistant Manager Mains Result PDF - Career Power",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNTGNuYWN4MHZOM2NZMHFPYnVEMHhEUHNnaXdzYXo0OUdYRXJpN0F1QjBWNGx3NGdXcm5Yc0ZPSDBMMkQ5OW93UHVaSGxPaE5nUkZ6RnhFUnFRNko3YWp2MWNCWWptNldL?oc=5",
-      "source": "PFRDA news (Google News)",
-      "publishedAt": "2025-11-13",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "0c90a301cb57d197",
-      "examId": "aai-je-2026",
-      "title": "AAI Law Officer Admit Card 2026 OUT, Download Call Letter Link Active @aai.aero - PW",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4Yi16TVIxQ2FkSWZKTEZ2b2VZSTJwX1NzenhGQ09zNmtNZl9EeDNlU2lGUGp2ZVdYcjdSVHI5ejBWZXh6Z1RVVHg2Ulg4V1dUdERNNUtnelNYaW5IVFV0eGVPNmpsRVU5TkE0V0U3dUh5VHc5bktCVXZqTQ?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2026-10-14",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "fa5c3923a6762d70",
-      "examId": "aai-je-2026",
-      "title": "500+ Questions Pdf for AAI Junior Executive ATC Exam 2022 - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT2FWbnAtanY0VnB0SjJLbjNCT2lqWW9JaHV5RHN3QlJZdUNaVXhLTnJlUkw0X2x5TFdjemVXWEtpMmpPbXFuV3RicEUzVV8xUnFQYnZ4TFlDTG5hUXVHVmRKNHFmVjVpLXBORnVweEo1cGw3SjkzaVA4UGVBY0o4ajJ4SGJyTkp0WmpIOGRELXgtQ0didGFRNGlTNjBYS0U?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2022-07-26",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "fe7f8e62ff6fee51",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Admit Card 2025 Out for Mains Exam, Download Call Letter - PW",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aYXFoUXhDRUZrMk1TX244ZGpZRzRZT1VyQ0paT2paTU1QdTQ0Y3ZrYW1aSkNla1AwYkF5THhpYkNTOWlVQlZhdkRsa1VSa1NHRFRIYVV3NFFENlJjUU9fcDNEdU1wTFBh?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2025-07-05",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "0ef9e00edc72b6a6",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Prohibition And Excise Constable Notification 2026 Out On 15 October For 400 Posts - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY18yblhTN0sydGpXV1hyVkJ6YjFLa0wtRWN1LURJR3g5eTNVaEszTnNOQjAwMWU3eWZFcEJMTWFhdDBRRFZGREFMbDJ6ZER1Z2hxMGxIdE9xYW9IZndNRXZSR0E4WU9NQThRdGk0V3NhaTR3V3JqX1VRNHM1TElsQ051NGlFMnZ5YV8yZjhEd0ZIYUZiV0VXcjB6NmU4U0FGN1hRTA?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-13",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "29e743472be4d43d",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Age Relaxation Demand, Proposal to Increase Upper Age Limit from 42 to 44 Years - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sUnpyZjlxcXRTeERyTmQ3SXJQZko2Z19xT0ZvdllfY25fbzQ3MWhHOVJBVDlBNnpzc3I2akM5dWRYOFRJUEVFdF9UWm9OWVhLUUEzWjV2TGg1bUZ0TTZZaHJZZEIyZWJYOTBMb2NuMjJPR0U3Q0ZQMExYQXUxQQ?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-04-24",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "2149a9b0884e7647",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Forest Beat Officer Answer Key 2025 Out, Download FBO ABO Key PDF - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0FkRkpzSGZmVWdWVkYwZ3VYbEJDNnFZS0phLVp5Wl93MWxxZ0dPamt0VERtLXJXY2t5Z0h5RXNaQ3h5TDlRSWV0T2wwZ1NrQ0I3VWhwTFJFZ0Zfdmo3d19kM0gyVldDVmhPMjJkMXNQVWdKcTdrbHZ4YmYzaVNZTXg1QjByazVGdktjbXlheDI?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-10",
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "379a0d131dc7a966",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=9Tvbh6HHnsbJiYs6Sey8p2l2p%2FWwEfajr49n0mhYSOkzVC1JRFWgqLVcUn0TIla%2BYOFQz52UaKXxb6TqLP9DcShqr99xmi9SHGYPcoQs%2F8IbJ%2B%2BLRVjSaesQk9xAefiLGPmCMrBg7pcUE3WSi858GA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "5a6d6b233af16a0c",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=NUbURlBQ40xJRdc5TzUXbir6UO8aSeOf1iMipicwEevZfUSVvUfdXTAhyuM4OQMuW3jupFzOLA2u6NfKBOopjxCXtKX3lE5TNESk2v9shFWDLe%2B1xQKaB%2FayBCfyiLBXClWMTIFj4iIpaN2I1Ks2Tg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "77815bea42c792ca",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=e5bhPThKb6kHo8wanDxJvGZNhfMj5eaVY2hghY%2BL5jJ9WlyNEC20LlbTzOnrjrivp3D08brMlu9M39snVl9kD8%2FbplCFsAqY57hUpXT9H%2FKWGg2vSE9wrPoTH7%2BMVzM6j36HC%2BLDWzLKw%2BAeVyOOWw%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "13acfef36570b105",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "City Gas Distribution(CGD)",
-      "url": "https://iocl.com/pages/cgd",
-      "source": "IOCL careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "9326e128a59d1778",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "Chief Vigilance Officer",
-      "url": "https://iocl.com/pages/Vigilance",
-      "source": "IOCL careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "5ad1f4ad86a6e4d0",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "India Energy Week 2026",
-      "url": "https://iocl.com/pages/iew",
-      "source": "IOCL careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "991cce0ff8f1d0c9",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "Application for New CGD Customer connectivity",
-      "url": "https://iocl.com/pages/Application-for-New-CGD-Customer-connectivity",
-      "source": "IOCL careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "e9b205b60e6f9ac8",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "Nodal Officer",
-      "url": "https://iocl.com/nodal-officer",
-      "source": "IOCL careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
-    },
-    {
-      "id": "bf4ea4f555453962",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Advertisement - Recruitment of Officer...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/advertisement-recruitment-of-officer-grade-a-assistant-manager-2026",
-      "source": "PFRDA home",
-      "publishedAt": null,
-      "firstSeen": "2026-10-14T23:48:44+05:30"
     }
   ]
 }
