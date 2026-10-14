@@ -77,7 +77,7 @@ export function Dashboard() {
                 {fmtDate(hero.date, 'EEEE, d MMMM yyyy')}
                 {hero.timeNote ? ` · ${hero.timeNote}` : ''}
               </p>
-              <Countdown iso={hero.date} />
+              <Countdown iso={hero.date} timeNote={hero.timeNote} />
               <div className="hero__facts">
                 <PlaceLine e={hero} />
                 <button className="btn btn--ghost btn--sm" onClick={() => navigate('exams')}>

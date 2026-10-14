@@ -48,11 +48,33 @@ export interface CountdownParts {
   past: boolean
 }
 
-export function countdownTo(iso: string, now = new Date()): CountdownParts {
+/** Clock time named in a phase note ("Reporting 01:00 PM", "10:00–11:00 AM, reporting 8:30 AM"); the reporting time wins. */
+export function timeFromNote(note?: string | null): { h: number; m: number } | null {
+  if (!note) return null
+  const rx = /(\d{1,2})(?::(\d{2}))?\s*(am|pm)?/gi
+  const pick = (text: string) => {
+    for (const m of text.matchAll(rx)) {
+      let h = Number(m[1])
+      const min = Number(m[2] ?? 0)
+      const ap = m[3]?.toLowerCase()
+      if (!m[2] && !ap) continue // a bare number such as "Tier 2" is not a time
+      if (h > 23 || min > 59) continue
+      if (ap === 'pm' && h < 12) h += 12
+      if (ap === 'am' && h === 12) h = 0
+      return { h, m: min }
+    }
+    return null
+  }
+  const rep = /report(?:ing)?\s*(?:time|by|at)?\s*:?\s*([^,;)]*)/i.exec(note)
+  return (rep && pick(rep[1])) || pick(note)
+}
+
+export function countdownTo(iso: string, now = new Date(), timeNote?: string | null): CountdownParts {
   const target = toDate(iso)
   if (!target) return { days: 0, hours: 0, minutes: 0, seconds: 0, past: false }
-  // Exams start in the morning; count to 08:00 local on that day.
-  target.setHours(8, 0, 0, 0)
+  // Count to the reporting time named in the phase note; exams without one are assumed to start at 08:00.
+  const t = timeFromNote(timeNote) ?? { h: 8, m: 0 }
+  target.setHours(t.h, t.m, 0, 0)
   let diff = target.getTime() - now.getTime()
   const past = diff < 0
   diff = Math.abs(diff)
