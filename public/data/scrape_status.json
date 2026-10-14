@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-10-14T21:58:49+05:30",
+  "lastRun": "2026-10-14T23:48:44+05:30",
   "sources": [
     {
       "name": "SSC notice board",
@@ -7,8 +7,9 @@
       "url": "https://ssc.gov.in/home/notice-board",
       "ok": true,
       "error": null,
-      "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "items": 1,
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "SSC news (Google News)",
@@ -17,7 +18,8 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "IOCL latest job openings",
@@ -26,7 +28,8 @@
       "ok": true,
       "error": null,
       "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "IOCL news (Google News)",
@@ -35,16 +38,18 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "CONCOR careers",
       "examId": "concor-mt-2026",
       "url": "https://concorindia.co.in/careers.asp",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='concorindia.co.in', port=443): Max retries exceeded with url: /careers.asp (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERT",
+      "error": "direct: HTTPSConnectionPool(host='concorindia.co.in', port=443): Max retries exceeded with url: /careers.asp",
       "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "CONCOR news (Google News)",
@@ -53,16 +58,18 @@
       "ok": true,
       "error": null,
       "items": 10,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "UIIC recruitment",
       "examId": "uiic-ao-2026",
       "url": "https://uiic.co.in/en/recruitment",
       "ok": false,
-      "error": "403 Client Error: Forbidden for url: https://uiic.co.in/en/recruitment",
+      "error": "direct: 403 Client Error: Forbidden for url: https://uiic.co.in/en/recruitment | reader: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://uiic.co.in/en/recruitment",
       "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": null,
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "UIIC news (Google News)",
@@ -71,16 +78,18 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:44+05:30"
     },
     {
       "name": "PFRDA careers",
       "examId": "pfrda-grade-a-2026",
       "url": "https://www.pfrda.org.in/index1.cshtml?lsid=1255",
-      "ok": false,
-      "error": "404 Client Error: Not Found for url: https://www.pfrda.org.in/index1.cshtml?lsid=1255",
-      "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "ok": true,
+      "error": null,
+      "items": 6,
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:45+05:30"
     },
     {
       "name": "PFRDA news (Google News)",
@@ -89,7 +98,8 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:45+05:30"
     },
     {
       "name": "AAI recruitment",
@@ -97,8 +107,9 @@
       "url": "https://www.aai.aero/en/careers/recruitment",
       "ok": true,
       "error": null,
-      "items": 2,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "items": 1,
+      "via": "direct",
+      "checkedAt": "2026-10-14T23:48:45+05:30"
     },
     {
       "name": "AAI news (Google News)",
@@ -107,16 +118,18 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:45+05:30"
     },
     {
       "name": "UPSC what's new",
       "examId": "upsc-epfo-apfc-2026",
       "url": "https://upsc.gov.in/whats-new",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='upsc.gov.in', port=443): Max retries exceeded with url: /whats-new (Caused by ConnectTimeoutError(<HTTPSConnection(host='upsc.gov.in',",
+      "error": "direct: HTTPSConnectionPool(host='upsc.gov.in', port=443): Max retries exceeded with url: /whats-new (Caused | reader: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://upsc.go",
       "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": null,
+      "checkedAt": "2026-10-14T23:48:45+05:30"
     },
     {
       "name": "UPSC EPFO news (Google News)",
@@ -125,16 +138,18 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:45+05:30"
     },
     {
       "name": "NICL recruitment",
       "examId": "nicl-ao-2026",
       "url": "https://nationalinsurance.nic.co.in/en/recruitment",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='nationalinsurance.nic.co.in', port=443): Max retries exceeded with url: /en/recruitment (Caused by ConnectTimeoutError(<HTTPSConnectio",
+      "error": "direct: HTTPSConnectionPool(host='nationalinsurance.nic.co.in', port=443): Max retries exceeded with url: /e | reader: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://nationa",
       "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": null,
+      "checkedAt": "2026-10-14T23:48:46+05:30"
     },
     {
       "name": "NICL news (Google News)",
@@ -143,16 +158,18 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:46+05:30"
     },
     {
       "name": "Press Council openings",
       "examId": "pci-aso-2026",
       "url": "https://presscouncil.nic.in/Content/Openings.aspx",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='presscouncil.nic.in', port=443): Max retries exceeded with url: /Content/Openings.aspx (Caused by SSLError(SSLCertVerificationError(1,",
+      "error": "direct: HTTPSConnectionPool(host='presscouncil.nic.in', port=443): Max retries exceeded with url: /Content/O",
       "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:46+05:30"
     },
     {
       "name": "PCI news (Google News)",
@@ -161,16 +178,18 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:51+05:30"
     },
     {
       "name": "APPSC notifications",
       "examId": "appsc-group1-2026",
       "url": "https://psc.ap.gov.in/Notifications",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='psc.ap.gov.in', port=443): Max retries exceeded with url: /Notifications (Caused by ConnectTimeoutError(<HTTPSConnection(host='psc.ap.",
+      "error": "direct: HTTPSConnectionPool(host='psc.ap.gov.in', port=443): Max retries exceeded with url: /Notifications ( | reader: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://psc.ap.",
       "items": 0,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": null,
+      "checkedAt": "2026-10-14T23:48:52+05:30"
     },
     {
       "name": "APPSC news (Google News)",
@@ -179,7 +198,148 @@
       "ok": true,
       "error": null,
       "items": 40,
-      "checkedAt": "2026-10-14T21:58:49+05:30"
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:48:52+05:30"
+    },
+    {
+      "name": "SSC home",
+      "examId": "ssc-cgl-2026",
+      "url": "https://ssc.gov.in/",
+      "ok": true,
+      "error": null,
+      "items": 1,
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:52+05:30"
+    },
+    {
+      "name": "SSC Southern Region",
+      "examId": "ssc-cgl-2026",
+      "url": "https://www.sscsr.gov.in/",
+      "ok": true,
+      "error": null,
+      "items": 3,
+      "via": "direct",
+      "checkedAt": "2026-10-14T23:48:52+05:30"
+    },
+    {
+      "name": "IOCL careers",
+      "examId": "iocl-marketing-officer-2026",
+      "url": "https://iocl.com/careers",
+      "ok": true,
+      "error": null,
+      "items": 5,
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:54+05:30"
+    },
+    {
+      "name": "UIIC careers",
+      "examId": "uiic-ao-2026",
+      "url": "https://uiic.co.in/en/career",
+      "ok": false,
+      "error": "direct: 403 Client Error: Forbidden for url: https://uiic.co.in/en/career | reader: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://uiic.co.in/en/career",
+      "items": 0,
+      "via": null,
+      "checkedAt": "2026-10-14T23:48:55+05:30"
+    },
+    {
+      "name": "PFRDA home",
+      "examId": "pfrda-grade-a-2026",
+      "url": "https://www.pfrda.org.in/",
+      "ok": true,
+      "error": null,
+      "items": 7,
+      "via": "direct",
+      "checkedAt": "2026-10-14T23:48:56+05:30"
+    },
+    {
+      "name": "AAI CBT notices",
+      "examId": "aai-je-2026",
+      "url": "https://www.aai.aero/en/careers/current-openings",
+      "ok": true,
+      "error": null,
+      "items": 1,
+      "via": "direct",
+      "checkedAt": "2026-10-14T23:48:57+05:30"
+    },
+    {
+      "name": "UPSC active exams",
+      "examId": "upsc-epfo-apfc-2026",
+      "url": "https://upsc.gov.in/examinations/active-examinations",
+      "ok": false,
+      "error": "direct: HTTPSConnectionPool(host='upsc.gov.in', port=443): Max retries exceeded with url: /examinations/acti | reader: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://upsc.go",
+      "items": 0,
+      "via": null,
+      "checkedAt": "2026-10-14T23:48:58+05:30"
+    },
+    {
+      "name": "NICL home",
+      "examId": "nicl-ao-2026",
+      "url": "https://nationalinsurance.nic.co.in/",
+      "ok": true,
+      "error": null,
+      "items": 1,
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:48:58+05:30"
+    },
+    {
+      "name": "Press Council home",
+      "examId": "pci-aso-2026",
+      "url": "https://presscouncil.nic.in/",
+      "ok": true,
+      "error": null,
+      "items": 3,
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:49:01+05:30"
+    },
+    {
+      "name": "APPSC home",
+      "examId": "appsc-group1-2026",
+      "url": "https://psc.ap.gov.in/",
+      "ok": false,
+      "error": "direct: HTTPSConnectionPool(host='psc.ap.gov.in', port=443): Max retries exceeded with url: / (Caused by Con | reader: 422 Client Error: Unprocessable Entity for url: https://r.jina.ai/https://psc.ap.",
+      "items": 0,
+      "via": null,
+      "checkedAt": "2026-10-14T23:49:02+05:30"
+    },
+    {
+      "name": "APPSC exam news (Google News)",
+      "examId": "appsc-group1-2026",
+      "url": "https://news.google.com/rss/search?q=APPSC+Group-1+prelims+2026+exam+date&hl=en-IN&gl=IN&ceid=IN:en",
+      "ok": true,
+      "error": null,
+      "items": 40,
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:49:05+05:30"
+    },
+    {
+      "name": "SSC CGL Tier 2 news (Google News)",
+      "examId": "ssc-cgl-2026",
+      "url": "https://news.google.com/rss/search?q=SSC+CGL+2026+tier+2+date+OR+result+OR+answer+key&hl=en-IN&gl=IN&ceid=IN:en",
+      "ok": true,
+      "error": null,
+      "items": 40,
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:49:06+05:30"
+    },
+    {
+      "name": "LIC HFL news (Google News)",
+      "examId": "lic-hfl-mt-2026",
+      "url": "https://news.google.com/rss/search?q=%22LIC+HFL%22+OR+%22LIC+Housing+Finance%22+management+trainee+2026&hl=en-IN&gl=IN&ceid=IN:en",
+      "ok": true,
+      "error": null,
+      "items": 40,
+      "via": "rss",
+      "checkedAt": "2026-10-14T23:49:07+05:30"
+    },
+    {
+      "name": "LIC HFL careers",
+      "examId": "lic-hfl-mt-2026",
+      "url": "https://www.lichousing.com/careers",
+      "ok": true,
+      "error": null,
+      "items": 0,
+      "via": "reader",
+      "checkedAt": "2026-10-14T23:49:07+05:30"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": null,
+  "discoveredAt": "2026-10-14T23:50:39+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4027,5 +4027,57 @@
       ]
     }
   ],
-  "discovered": []
+  "discovered": [
+    {
+      "id": "7d33e9922d45fd2d",
+      "org": "LIC HFL Management Trainee",
+      "post": "LIC HFL Management Trainee – 50 - FreeJobAlert.Com",
+      "title": "LIC HFL Management Trainee Recruitment 2026 Notification Out – Apply Online for 50 Posts - FreeJobAlert.Com",
+      "track": "marketing",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWlY4NkEyaHdleTV6b1M2Z0hUSmRNVXlheTdiSkx1aF80QzhRVXZjSDNwYUV0ZFl5TEtfdUJ0XzVodkI0MGJMSVBTMVFiSUtDd2ZadnplREhsY0xoQmJ5Mmk0ZXFKT1QwbVRleTg2eFFhZ0hKLW1UUDNEYXoxaU1qbE84LVFNX1ZxRXlmVVhFWWdCeE94RHlYT1BQODFfTlZzcm42TXB5NGNVaWYtUHpjVVFsVUpRdw?oc=5",
+      "source": "News · management trainee MBA",
+      "sourceType": "news",
+      "fit": 60,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-10",
+      "firstSeen": "2026-10-14T23:50:39+05:30",
+      "curated": false
+    },
+    {
+      "id": "4ec4294acbe735f7",
+      "org": "OPSC AAO",
+      "post": "OPSC AAO | OPSC Assistant Agriculture Officer | Official RTI Reply - YouTube",
+      "title": "OPSC AAO Recruitment 2026 | OPSC Assistant Agriculture Officer Vacancy 2026 | Official RTI Reply - YouTube",
+      "track": "agri",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFA4STRXWkZvWER5LW4yNHhSeFh4bEJCeVJlVFZmRzZWbU1yTG5mb0lEWUpLbHV0QmlGeTZQQU41Um9uQQ?oc=5",
+      "source": "News · NABARD / agriculture officer",
+      "sourceType": "news",
+      "fit": 60,
+      "fitWhy": [
+        "role: officer",
+        "agriculture degree"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-14T23:50:39+05:30",
+      "curated": false
+    }
+  ],
+  "discoverBaseline": true
 }
