@@ -32,6 +32,31 @@ export interface Application {
   note?: string
 }
 
+export interface Facts {
+  vacancies?: string
+  age?: string
+  fee?: string
+  pattern?: string
+  selection?: string
+  pay?: string
+  carry?: string[]
+}
+
+export interface RepoDoc {
+  examId: string
+  type: string
+  name: string
+  file: string
+  url: string
+  size: number
+  ext: string
+}
+
+export interface DocumentsFile {
+  count: number
+  documents: RepoDoc[]
+}
+
 export interface Exam {
   id: string
   org: string
@@ -46,6 +71,7 @@ export interface Exam {
   application: Application
   phases: Phase[]
   notes?: string[]
+  facts?: Facts
   custom?: boolean
 }
 
@@ -77,6 +103,7 @@ export interface SourceStatus {
   ok: boolean
   error?: string | null
   items: number
+  via?: string | null
   checkedAt: string
 }
 
@@ -100,6 +127,7 @@ export interface ExamOverride {
   appliedOn?: string
   notes?: string
   regNo?: string
+  checklist?: string[]
   phases?: Record<string, PhaseOverride>
 }
 

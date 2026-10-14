@@ -1,0 +1,77 @@
+{
+  "count": 8,
+  "documents": [
+    {
+      "examId": "aai-je-2026",
+      "type": "application",
+      "name": "AAI Junior Executive Operations application",
+      "file": "AAI_Junior_Executive_Operations_application.pdf",
+      "url": "documents/aai-je-2026/application__AAI_Junior_Executive_Operations_application.pdf",
+      "size": 226725,
+      "ext": "pdf"
+    },
+    {
+      "examId": "concor-mt-2026",
+      "type": "application",
+      "name": "CONCOR MT application",
+      "file": "CONCOR_MT_application.pdf",
+      "url": "documents/concor-mt-2026/application__CONCOR_MT_application.pdf",
+      "size": 221479,
+      "ext": "pdf"
+    },
+    {
+      "examId": "iocl-marketing-officer-2026",
+      "type": "application",
+      "name": "IOCL Officer MBA Marketing application",
+      "file": "IOCL_Officer_MBA_Marketing_application.pdf",
+      "url": "documents/iocl-marketing-officer-2026/application__IOCL_Officer_MBA_Marketing_application.pdf",
+      "size": 187713,
+      "ext": "pdf"
+    },
+    {
+      "examId": "pfrda-grade-a-2026",
+      "type": "application",
+      "name": "PFRDA Grade A application",
+      "file": "PFRDA_Grade_A_application.pdf",
+      "url": "documents/pfrda-grade-a-2026/application__PFRDA_Grade_A_application.pdf",
+      "size": 230681,
+      "ext": "pdf"
+    },
+    {
+      "examId": "ssc-cgl-2026",
+      "type": "application",
+      "name": "SSC CGL 2026 application form",
+      "file": "SSC_CGL_2026_application_form.pdf",
+      "url": "documents/ssc-cgl-2026/application__SSC_CGL_2026_application_form.pdf",
+      "size": 2853688,
+      "ext": "pdf"
+    },
+    {
+      "examId": "ssc-cgl-2026",
+      "type": "hall-ticket",
+      "name": "SSC CGL 2026 Tier1 admit card",
+      "file": "SSC_CGL_2026_Tier1_admit_card.pdf",
+      "url": "documents/ssc-cgl-2026/hall-ticket__SSC_CGL_2026_Tier1_admit_card.pdf",
+      "size": 1303708,
+      "ext": "pdf"
+    },
+    {
+      "examId": "uiic-ao-2026",
+      "type": "application",
+      "name": "UIIC AO Generalist application",
+      "file": "UIIC_AO_Generalist_application.pdf",
+      "url": "documents/uiic-ao-2026/application__UIIC_AO_Generalist_application.pdf",
+      "size": 239660,
+      "ext": "pdf"
+    },
+    {
+      "examId": "upsc-epfo-apfc-2026",
+      "type": "application",
+      "name": "UPSC EPFO APFC application",
+      "file": "UPSC_EPFO_APFC_application.pdf",
+      "url": "documents/upsc-epfo-apfc-2026/application__UPSC_EPFO_APFC_application.pdf",
+      "size": 613980,
+      "ext": "pdf"
+    }
+  ]
+}

@@ -13,18 +13,88 @@
       "officialUrl": "https://ssc.gov.in",
       "notificationUrl": "https://ssc.gov.in/home/notice-board",
       "applyUrl": "https://ssc.gov.in",
-      "application": { "mode": "online", "applied": true, "note": "Application submitted; Tier 1 admit card received." },
+      "application": {
+        "mode": "online",
+        "applied": true,
+        "note": "Application submitted; Tier 1 admit card received."
+      },
       "phases": [
-        { "id": "tier1", "name": "Tier 1 (CBE)", "kind": "exam", "date": "2026-10-10", "dateType": "confirmed", "timeNote": "Shift I · 10:00–11:00 AM, reporting 8:30 AM", "status": "done",
-          "centre": { "preferences": ["Chennai", "Tirupati", "Visakhapatnam"], "allotted": "Chennai" },
-          "note": "Tier 1 window for all candidates: 30 Sep – 30 Oct 2026." },
-        { "id": "tier1-key", "name": "Tier 1 answer key & challenge", "kind": "result", "dateType": "tba", "status": "tba", "note": "Usually ~1 week after the last Tier 1 date (30 Oct)." },
-        { "id": "tier1-result", "name": "Tier 1 result", "kind": "result", "dateType": "tba", "status": "tba", "note": "Expected Nov–Dec 2026." },
-        { "id": "tier2", "name": "Tier 2 (CBE)", "kind": "exam", "date": "2026-12-15", "dateType": "tentative", "status": "upcoming", "note": "SSC calendar says December 2026 (tentative). Exact dates after Tier 1 result.",
-          "centre": { "preferences": ["Chennai", "Tirupati", "Visakhapatnam"], "allotted": null } },
-        { "id": "dv", "name": "Document verification / skill test", "kind": "other", "dateType": "tba", "status": "tba" }
+        {
+          "id": "tier1",
+          "name": "Tier 1 (CBE)",
+          "kind": "exam",
+          "date": "2026-10-10",
+          "dateType": "confirmed",
+          "timeNote": "Shift I · 10:00–11:00 AM, reporting 8:30 AM",
+          "status": "done",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Tirupati",
+              "Visakhapatnam"
+            ],
+            "allotted": "Chennai"
+          },
+          "note": "Tier 1 window for all candidates: 30 Sep – 30 Oct 2026."
+        },
+        {
+          "id": "tier1-key",
+          "name": "Tier 1 answer key & challenge",
+          "kind": "result",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Usually ~1 week after the last Tier 1 date (30 Oct)."
+        },
+        {
+          "id": "tier1-result",
+          "name": "Tier 1 result",
+          "kind": "result",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Expected Nov–Dec 2026."
+        },
+        {
+          "id": "tier2",
+          "name": "Tier 2 (CBE)",
+          "kind": "exam",
+          "date": "2026-12-15",
+          "dateType": "tentative",
+          "status": "upcoming",
+          "note": "SSC calendar says December 2026 (tentative). Exact dates after Tier 1 result.",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Tirupati",
+              "Visakhapatnam"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "dv",
+          "name": "Document verification / skill test",
+          "kind": "other",
+          "dateType": "tba",
+          "status": "tba"
+        }
       ],
-      "notes": ["Keep the Tier 1 e-Admission Certificate safe; SSC asks for it again at later stages."]
+      "notes": [
+        "Keep the Tier 1 e-Admission Certificate safe; SSC asks for it again at later stages."
+      ],
+      "facts": {
+        "vacancies": "~14,000 (varies by post)",
+        "age": "18–32 (post-wise)",
+        "fee": "₹100 · women / SC / ST exempt",
+        "pattern": "Tier 1: 100 Qs · 200 marks · 60 min · −0.50 per wrong. Tier 2: Paper I (maths, reasoning, English, GA, computer) + optional Papers II/III",
+        "selection": "Tier 1 → Tier 2 → DV / skill test",
+        "pay": "Level 4–8 (₹25,500 – ₹1,51,100)",
+        "carry": [
+          "e-Admission Certificate (printed)",
+          "Original photo ID (Aadhaar/PAN/passport)",
+          "2 passport photos",
+          "Pen (black/blue)"
+        ]
+      }
     },
     {
       "id": "iocl-marketing-officer-2026",
@@ -36,14 +106,68 @@
       "status": "written",
       "officialUrl": "https://iocl.com/latest-job-opening",
       "notificationUrl": "https://iocl.com/latest-job-opening",
-      "application": { "opens": "2026-08-14", "closes": "2026-09-03", "mode": "online", "applied": true },
+      "application": {
+        "opens": "2026-08-14",
+        "closes": "2026-09-03",
+        "mode": "online",
+        "applied": true
+      },
       "phases": [
-        { "id": "cbt", "name": "Computer Based Test", "kind": "exam", "date": "2026-09-24", "dateType": "confirmed", "status": "done",
-          "centre": { "preferences": ["Chennai", "Visakhapatnam", "Hyderabad"], "allotted": null }, "note": "100 Qs · 150 min · CBT weight 85%." },
-        { "id": "cbt-result", "name": "CBT result / GD-GT shortlist", "kind": "result", "dateType": "tba", "status": "tba", "note": "Shortlist by CBT marks in descending order." },
-        { "id": "gdgt", "name": "Group Discussion & Group Task", "kind": "interview", "dateType": "tba", "status": "tba", "note": "Weight 5%, min 40%." },
-        { "id": "pi", "name": "Personal Interview", "kind": "interview", "dateType": "tba", "status": "tba", "note": "Weight 10%, min 40%." }
-      ]
+        {
+          "id": "cbt",
+          "name": "Computer Based Test",
+          "kind": "exam",
+          "date": "2026-09-24",
+          "dateType": "confirmed",
+          "status": "done",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Visakhapatnam",
+              "Hyderabad"
+            ],
+            "allotted": null
+          },
+          "note": "100 Qs · 150 min · CBT weight 85%."
+        },
+        {
+          "id": "cbt-result",
+          "name": "CBT result / GD-GT shortlist",
+          "kind": "result",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Shortlist by CBT marks in descending order."
+        },
+        {
+          "id": "gdgt",
+          "name": "Group Discussion & Group Task",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Weight 5%, min 40%."
+        },
+        {
+          "id": "pi",
+          "name": "Personal Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Weight 10%, min 40%."
+        }
+      ],
+      "facts": {
+        "vacancies": "470 across disciplines",
+        "age": "≤ 26 (UR) · relaxations as per rules",
+        "fee": "₹300 (UR/OBC/EWS) · SC/ST/PwBD exempt",
+        "pattern": "CBT: 100 Qs · 150 min · Section A (aptitude) 60 min + Section B (marketing) 90 min · −0.25",
+        "selection": "CBT 85% → GD/GT 5% → PI 10% (min 40% each)",
+        "pay": "Grade A: ₹50,000 – ₹1,60,000",
+        "carry": [
+          "CBT admit card",
+          "Photo ID",
+          "Passport photo"
+        ]
+      }
     },
     {
       "id": "concor-mt-2026",
@@ -55,15 +179,67 @@
       "status": "applied",
       "officialUrl": "https://concorindia.co.in",
       "notificationUrl": "https://concorindia.co.in/careers.asp",
-      "application": { "opens": "2026-08-31", "closes": "2026-09-30", "mode": "online", "applied": true },
+      "application": {
+        "opens": "2026-08-31",
+        "closes": "2026-09-30",
+        "mode": "online",
+        "applied": true
+      },
       "phases": [
-        { "id": "cbt", "name": "Computer Based Test", "kind": "exam", "dateType": "tba", "status": "tba", "note": "Date to be notified on concorindia.co.in.",
-          "centre": { "preferences": ["Chennai", "Hyderabad", "Bengaluru"], "allotted": null } },
-        { "id": "admit", "name": "Admit card", "kind": "admit-card", "dateType": "tba", "status": "tba" },
-        { "id": "gd-pi", "name": "GD / Interview", "kind": "interview", "dateType": "tba", "status": "tba" },
-        { "id": "dv", "name": "Document verification & medical", "kind": "other", "dateType": "tba", "status": "tba" }
+        {
+          "id": "cbt",
+          "name": "Computer Based Test",
+          "kind": "exam",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Date to be notified on concorindia.co.in.",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Hyderabad",
+              "Bengaluru"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "admit",
+          "name": "Admit card",
+          "kind": "admit-card",
+          "dateType": "tba",
+          "status": "tba"
+        },
+        {
+          "id": "gd-pi",
+          "name": "GD / Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba"
+        },
+        {
+          "id": "dv",
+          "name": "Document verification & medical",
+          "kind": "other",
+          "dateType": "tba",
+          "status": "tba"
+        }
       ],
-      "notes": ["77 vacancies total: 45 MT, 32 Assistant Officer."]
+      "notes": [
+        "77 vacancies total: 45 MT, 32 Assistant Officer."
+      ],
+      "facts": {
+        "vacancies": "77 (45 MT · 32 AO)",
+        "age": "18–28 for MT",
+        "fee": "₹1,000 (UR/OBC/EWS) · SC/ST/PwBD exempt",
+        "pattern": "CBT (objective) → GD → Interview",
+        "selection": "CBT → GD/PI → DV → Medical",
+        "pay": "MT E1: ₹40,000 – ₹1,40,000",
+        "carry": [
+          "Admit card",
+          "Photo ID",
+          "Passport photo"
+        ]
+      }
     },
     {
       "id": "uiic-ao-2026",
@@ -75,16 +251,78 @@
       "status": "applied",
       "officialUrl": "https://uiic.co.in",
       "notificationUrl": "https://uiic.co.in/en/recruitment",
-      "application": { "opens": "2026-09-08", "closes": "2026-09-28", "mode": "online", "applied": true },
+      "application": {
+        "opens": "2026-09-08",
+        "closes": "2026-09-28",
+        "mode": "online",
+        "applied": true
+      },
       "phases": [
-        { "id": "prelims-admit", "name": "Prelims admit card", "kind": "admit-card", "dateType": "tba", "status": "tba", "note": "Usually ~7–10 days before prelims." },
-        { "id": "prelims", "name": "Phase I – Preliminary exam", "kind": "exam", "date": "2026-10-22", "dateType": "tentative", "status": "upcoming",
-          "centre": { "preferences": ["Chennai", "Visakhapatnam", "Tirupati"], "allotted": null } },
-        { "id": "mains", "name": "Phase II – Main exam (+ descriptive)", "kind": "exam", "date": "2026-11-30", "dateType": "tentative", "status": "upcoming",
-          "centre": { "preferences": ["Visakhapatnam", "Kakinada", "Rajahmundry"], "allotted": null } },
-        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
+        {
+          "id": "prelims-admit",
+          "name": "Prelims admit card",
+          "kind": "admit-card",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Usually ~7–10 days before prelims."
+        },
+        {
+          "id": "prelims",
+          "name": "Phase I – Preliminary exam",
+          "kind": "exam",
+          "date": "2026-10-22",
+          "dateType": "tentative",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Visakhapatnam",
+              "Tirupati"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "mains",
+          "name": "Phase II – Main exam (+ descriptive)",
+          "kind": "exam",
+          "date": "2026-11-30",
+          "dateType": "tentative",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [
+              "Visakhapatnam",
+              "Kakinada",
+              "Rajahmundry"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba"
+        }
       ],
-      "notes": ["Posting preferences given: Andhra Pradesh, Telangana, Karnataka."]
+      "notes": [
+        "Posting preferences given: Andhra Pradesh, Telangana, Karnataka."
+      ],
+      "facts": {
+        "vacancies": "225 (200 Generalist · 25 Hindi)",
+        "age": "21–30 (as on 30 Jun 2026)",
+        "fee": "₹1,000 · ₹250 for SC/ST/PwBD",
+        "pattern": "Prelims: English 30 · Reasoning 35 · Quant 35 = 100 marks · 60 min. Mains: 200 marks objective + 30 marks descriptive",
+        "selection": "Prelims → Mains + descriptive → Interview",
+        "pay": "Scale I: ₹50,925 – ₹96,765",
+        "carry": [
+          "Call letter",
+          "Photo ID (same as application)",
+          "Passport photo",
+          "Printed application (if asked)"
+        ]
+      }
     },
     {
       "id": "pfrda-grade-a-2026",
@@ -96,15 +334,73 @@
       "status": "applied",
       "officialUrl": "https://www.pfrda.org.in",
       "notificationUrl": "https://www.pfrda.org.in/index1.cshtml?lsid=1255",
-      "application": { "opens": "2026-09-03", "closes": "2026-09-24", "mode": "online", "applied": true },
+      "application": {
+        "opens": "2026-09-03",
+        "closes": "2026-09-24",
+        "mode": "online",
+        "applied": true
+      },
       "phases": [
-        { "id": "p1-admit", "name": "Phase I admit card", "kind": "admit-card", "date": "2026-10-08", "dateType": "confirmed", "status": "done" },
-        { "id": "phase1", "name": "Phase I – Online exam", "kind": "exam", "date": "2026-10-15", "dateType": "confirmed", "status": "upcoming",
-          "centre": { "preferences": ["Chennai", "Visakhapatnam", "Hyderabad"], "allotted": null }, "note": "Check the admit card for the allotted venue." },
-        { "id": "phase2", "name": "Phase II – Online exam", "kind": "exam", "date": "2026-11-20", "dateType": "confirmed", "status": "upcoming",
-          "centre": { "preferences": ["Chennai"], "allotted": null } },
-        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
-      ]
+        {
+          "id": "p1-admit",
+          "name": "Phase I admit card",
+          "kind": "admit-card",
+          "date": "2026-10-08",
+          "dateType": "confirmed",
+          "status": "done"
+        },
+        {
+          "id": "phase1",
+          "name": "Phase I – Online exam",
+          "kind": "exam",
+          "date": "2026-10-15",
+          "dateType": "confirmed",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Visakhapatnam",
+              "Hyderabad"
+            ],
+            "allotted": null
+          },
+          "note": "Check the admit card for the allotted venue."
+        },
+        {
+          "id": "phase2",
+          "name": "Phase II – Online exam",
+          "kind": "exam",
+          "date": "2026-11-20",
+          "dateType": "confirmed",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [
+              "Chennai"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba"
+        }
+      ],
+      "facts": {
+        "vacancies": "30",
+        "age": "≤ 30 (as on 31 Jul 2026)",
+        "fee": "₹1,000 · ₹100 for SC/ST/PwBD",
+        "pattern": "Phase I: Paper 1 (English, quant, reasoning, GA · 100 marks) + Paper 2 (stream · 100 marks). Phase II: Paper 1 (descriptive English) + Paper 2 (stream)",
+        "selection": "Phase I → Phase II → Interview",
+        "pay": "Grade A: ₹44,500 – ₹89,150 + allowances",
+        "carry": [
+          "Phase I admit card",
+          "Photo ID",
+          "Passport photo"
+        ]
+      }
     },
     {
       "id": "aai-je-2026",
@@ -116,14 +412,59 @@
       "status": "applied",
       "officialUrl": "https://www.aai.aero/en/careers/recruitment",
       "notificationUrl": "https://www.aai.aero/en/careers/recruitment",
-      "application": { "opens": "2026-08-08", "closes": "2026-09-07", "mode": "online", "applied": true },
+      "application": {
+        "opens": "2026-08-08",
+        "closes": "2026-09-07",
+        "mode": "online",
+        "applied": true
+      },
       "phases": [
-        { "id": "admit", "name": "CBT admit card", "kind": "admit-card", "dateType": "tba", "status": "tba", "note": "Usually 10–15 days before the CBT." },
-        { "id": "cbt", "name": "Computer Based Test", "kind": "exam", "date": "2026-10-26", "dateType": "tentative", "status": "upcoming",
-          "centre": { "preferences": ["Chennai", "Tirupati", "Visakhapatnam"], "allotted": null },
-          "note": "AAI announced CBTs on 21 & 26 Oct 2026 depending on post/discipline; Junior Executive posts reported for 26 Oct. Confirm on admit card." },
-        { "id": "dv", "name": "Document verification / medical", "kind": "other", "dateType": "tba", "status": "tba" }
-      ]
+        {
+          "id": "admit",
+          "name": "CBT admit card",
+          "kind": "admit-card",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Usually 10–15 days before the CBT."
+        },
+        {
+          "id": "cbt",
+          "name": "Computer Based Test",
+          "kind": "exam",
+          "date": "2026-10-26",
+          "dateType": "tentative",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Tirupati",
+              "Visakhapatnam"
+            ],
+            "allotted": null
+          },
+          "note": "AAI announced CBTs on 21 & 26 Oct 2026 depending on post/discipline; Junior Executive posts reported for 26 Oct. Confirm on admit card."
+        },
+        {
+          "id": "dv",
+          "name": "Document verification / medical",
+          "kind": "other",
+          "dateType": "tba",
+          "status": "tba"
+        }
+      ],
+      "facts": {
+        "vacancies": "~129 Junior Executive (379 total)",
+        "age": "≤ 27 (as on 7 Sep 2026)",
+        "fee": "₹300 · SC/ST/PwBD/women exempt",
+        "pattern": "CBT: 120 Qs · 2 hours · Part A (general: English, GK, aptitude, reasoning) + Part B (discipline)",
+        "selection": "CBT → DV → Medical (Ops: voice/colour vision checks)",
+        "pay": "E1: ₹40,000 – ₹1,40,000",
+        "carry": [
+          "CBT admit card",
+          "Photo ID",
+          "Passport photo"
+        ]
+      }
     },
     {
       "id": "upsc-epfo-apfc-2026",
@@ -135,14 +476,60 @@
       "status": "applied",
       "officialUrl": "https://upsc.gov.in",
       "notificationUrl": "https://upsc.gov.in/examinations/active-examinations",
-      "application": { "opens": "2026-08-22", "closes": "2026-09-11", "mode": "online", "applied": true },
+      "application": {
+        "opens": "2026-08-22",
+        "closes": "2026-09-11",
+        "mode": "online",
+        "applied": true
+      },
       "phases": [
-        { "id": "admit", "name": "e-Admit card", "kind": "admit-card", "dateType": "tba", "status": "tba", "note": "UPSC releases ~3 weeks before the test." },
-        { "id": "rt", "name": "Recruitment Test (objective)", "kind": "exam", "date": "2026-12-20", "dateType": "tentative", "status": "upcoming",
-          "centre": { "preferences": ["Chennai"], "allotted": null } },
-        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba", "note": "Expected Oct–Nov 2027." }
+        {
+          "id": "admit",
+          "name": "e-Admit card",
+          "kind": "admit-card",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "UPSC releases ~3 weeks before the test."
+        },
+        {
+          "id": "rt",
+          "name": "Recruitment Test (objective)",
+          "kind": "exam",
+          "date": "2026-12-20",
+          "dateType": "tentative",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [
+              "Chennai"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Expected Oct–Nov 2027."
+        }
       ],
-      "notes": ["Syllabus change: 'Labour Laws' replaced by 'Labour Codes'."]
+      "notes": [
+        "Syllabus change: 'Labour Laws' replaced by 'Labour Codes'."
+      ],
+      "facts": {
+        "vacancies": "80",
+        "age": "≤ 35 (relaxable)",
+        "fee": "₹25 · SC/ST/PwBD/women exempt",
+        "pattern": "Recruitment Test: 120 Qs · 300 marks · 2 hours · objective · ⅓ negative",
+        "selection": "RT (75%) → Interview (25%)",
+        "pay": "Level 10 (₹56,100 – ₹1,77,500)",
+        "carry": [
+          "e-Admit card",
+          "Photo ID mentioned in form",
+          "Passport photo"
+        ]
+      }
     },
     {
       "id": "nicl-ao-2026",
@@ -155,14 +542,70 @@
       "officialUrl": "https://nationalinsurance.nic.co.in",
       "notificationUrl": "https://nationalinsurance.nic.co.in/en/recruitment",
       "applyUrl": "https://nationalinsurance.nic.co.in/en/recruitment",
-      "application": { "opens": "2026-10-08", "closes": "2026-10-28", "mode": "online", "applied": false },
+      "application": {
+        "opens": "2026-10-08",
+        "closes": "2026-10-28",
+        "mode": "online",
+        "applied": false
+      },
       "phases": [
-        { "id": "apply", "name": "Application window", "kind": "application", "date": "2026-10-08", "dateEnd": "2026-10-28", "dateType": "confirmed", "status": "upcoming" },
-        { "id": "prelims", "name": "Phase I – Prelims", "kind": "exam", "date": "2026-11-17", "dateType": "tentative", "status": "upcoming", "centre": { "preferences": [], "allotted": null } },
-        { "id": "mains", "name": "Phase II – Mains", "kind": "exam", "date": "2026-12-22", "dateType": "tentative", "status": "upcoming", "centre": { "preferences": [], "allotted": null } },
-        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
+        {
+          "id": "apply",
+          "name": "Application window",
+          "kind": "application",
+          "date": "2026-10-08",
+          "dateEnd": "2026-10-28",
+          "dateType": "confirmed",
+          "status": "upcoming"
+        },
+        {
+          "id": "prelims",
+          "name": "Phase I – Prelims",
+          "kind": "exam",
+          "date": "2026-11-17",
+          "dateType": "tentative",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [],
+            "allotted": null
+          }
+        },
+        {
+          "id": "mains",
+          "name": "Phase II – Mains",
+          "kind": "exam",
+          "date": "2026-12-22",
+          "dateType": "tentative",
+          "status": "upcoming",
+          "centre": {
+            "preferences": [],
+            "allotted": null
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba"
+        }
       ],
-      "notes": ["Age 21–30. Fill centre preferences when applying and record them here."]
+      "notes": [
+        "Age 21–30. Fill centre preferences when applying and record them here."
+      ],
+      "facts": {
+        "vacancies": "321",
+        "age": "21–30 (as on 1 Oct 2026)",
+        "fee": "₹1,000 · ₹250 for SC/ST/PwBD",
+        "pattern": "Prelims: 100 marks · 60 min (English, reasoning, quant). Mains: 200 marks objective + 30 marks descriptive",
+        "selection": "Prelims → Mains → Interview",
+        "pay": "Scale I: ₹50,925 – ₹96,765",
+        "carry": [
+          "Call letter",
+          "Photo ID",
+          "Passport photo"
+        ]
+      }
     },
     {
       "id": "pci-aso-2026",
@@ -174,12 +617,55 @@
       "status": "to-apply",
       "officialUrl": "https://presscouncil.nic.in",
       "notificationUrl": "https://presscouncil.nic.in/Content/Openings.aspx",
-      "application": { "closes": "2026-10-26", "mode": "offline", "applied": false, "note": "Paper form must REACH the PCI office by the last date — post it at least a week early." },
+      "application": {
+        "closes": "2026-10-26",
+        "mode": "offline",
+        "applied": false,
+        "note": "Paper form must REACH the PCI office by the last date — post it at least a week early."
+      },
       "phases": [
-        { "id": "apply", "name": "Offline application deadline", "kind": "application", "date": "2026-10-26", "dateType": "confirmed", "status": "upcoming" },
-        { "id": "test", "name": "Written test / skill test", "kind": "exam", "dateType": "tba", "status": "tba", "centre": { "preferences": ["New Delhi"], "allotted": null } },
-        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
-      ]
+        {
+          "id": "apply",
+          "name": "Offline application deadline",
+          "kind": "application",
+          "date": "2026-10-26",
+          "dateType": "confirmed",
+          "status": "upcoming"
+        },
+        {
+          "id": "test",
+          "name": "Written test / skill test",
+          "kind": "exam",
+          "dateType": "tba",
+          "status": "tba",
+          "centre": {
+            "preferences": [
+              "New Delhi"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba"
+        }
+      ],
+      "facts": {
+        "vacancies": "3 (UR-2, OBC-1)",
+        "age": "≤ 30",
+        "fee": "Nil (check notice)",
+        "pattern": "Written test + skill/typing test (as notified)",
+        "selection": "Application screening → test → interview",
+        "pay": "Level 7 (₹44,900 – ₹1,42,400)",
+        "carry": [
+          "Printed application copy",
+          "Photo ID",
+          "Photos"
+        ]
+      }
     },
     {
       "id": "appsc-group1-2026",
@@ -192,13 +678,66 @@
       "officialUrl": "https://psc.ap.gov.in",
       "notificationUrl": "https://psc.ap.gov.in/Notifications",
       "applyUrl": "https://psc.ap.gov.in",
-      "application": { "opens": "2026-10-06", "closes": "2026-10-27", "mode": "online", "applied": false, "note": "Needs OTPR (One Time Profile Registration) on psc.ap.gov.in first." },
+      "application": {
+        "opens": "2026-10-06",
+        "closes": "2026-10-27",
+        "mode": "online",
+        "applied": false,
+        "note": "Needs OTPR (One Time Profile Registration) on psc.ap.gov.in first."
+      },
       "phases": [
-        { "id": "apply", "name": "Application window", "kind": "application", "date": "2026-10-06", "dateEnd": "2026-10-27", "dateType": "confirmed", "status": "upcoming" },
-        { "id": "prelims", "name": "Preliminary exam (Screening)", "kind": "exam", "dateType": "tba", "status": "tba", "centre": { "preferences": [], "allotted": null } },
-        { "id": "mains", "name": "Main exam", "kind": "exam", "dateType": "tba", "status": "tba", "centre": { "preferences": [], "allotted": null } },
-        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
-      ]
+        {
+          "id": "apply",
+          "name": "Application window",
+          "kind": "application",
+          "date": "2026-10-06",
+          "dateEnd": "2026-10-27",
+          "dateType": "confirmed",
+          "status": "upcoming"
+        },
+        {
+          "id": "prelims",
+          "name": "Preliminary exam (Screening)",
+          "kind": "exam",
+          "dateType": "tba",
+          "status": "tba",
+          "centre": {
+            "preferences": [],
+            "allotted": null
+          }
+        },
+        {
+          "id": "mains",
+          "name": "Main exam",
+          "kind": "exam",
+          "dateType": "tba",
+          "status": "tba",
+          "centre": {
+            "preferences": [],
+            "allotted": null
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba"
+        }
+      ],
+      "facts": {
+        "vacancies": "163",
+        "age": "18–42 (as on 1 Jul 2026)",
+        "fee": "₹120 application + ₹120 exam (exemptions apply)",
+        "pattern": "Prelims: Paper 1 (GS) + Paper 2 (GS & aptitude) · 120 Qs each · 150 min. Mains: 5 descriptive papers · 150 marks each",
+        "selection": "Prelims (screening) → Mains → Interview (75 marks)",
+        "pay": "Group I posts (Dy. Collector, DSP, CTO…)",
+        "carry": [
+          "Hall ticket",
+          "Photo ID",
+          "Photos"
+        ]
+      }
     }
   ]
 }

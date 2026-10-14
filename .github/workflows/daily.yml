@@ -47,8 +47,10 @@ jobs:
           CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
         run: python scraper/remind.py ${{ inputs.dry_run && '--dry-run' || '' }}
 
-      - name: Build calendar feed
-        run: python scraper/build_ics.py
+      - name: Build calendar feed & documents manifest
+        run: |
+          python scraper/build_ics.py
+          python scraper/build_docs_manifest.py
 
       - name: Commit data
         if: ${{ !inputs.dry_run }}
@@ -71,8 +73,6 @@ jobs:
       - run: npm ci
       - run: npm run build
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

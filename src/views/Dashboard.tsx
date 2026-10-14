@@ -1,11 +1,14 @@
 import { useApp } from '../ctx'
 import { Countdown } from '../components/Countdown'
 import { Icon } from '../components/Icon'
-import { daysUntil, fmtDate, fmtShort, relative } from '../lib/dates'
-import { KIND_LABEL, examCity } from '../lib/data'
+import { PlaceLine } from '../components/CalendarMonth'
+import { addDays, format } from 'date-fns'
+import { daysUntil, fmtDate, fmtShort, relative, today } from '../lib/dates'
+import { KIND_LABEL, cityOf, isFresh, mapsUrl, nextPhase } from '../lib/data'
 import { StatusChip } from '../components/StatusChip'
 import { dueEvents } from '../lib/notify'
 import { prefsStore, seenStore } from '../lib/storage'
+import type { CalEvent } from '../types'
 
 export function Dashboard() {
   const { exams, events, updates, navigate } = useApp()
@@ -18,48 +21,90 @@ export function Dashboard() {
   const applied = exams.filter((e) => e.application.applied)
   const written = exams.filter((e) => e.status === 'written' || e.status === 'result-awaited')
   const next30 = upcoming.filter((e) => daysUntil(e.date)! <= 30)
-  const unseen = updates.updates.filter((u) => !seen.ids.includes(u.id))
-  const cities = new Map<string, typeof exams>()
+  const unseen = updates.updates.filter((u) => isFresh(u) && !seen.ids.includes(u.id))
+  const examSoon = upcoming.find((e) => e.kind === 'exam' && daysUntil(e.date)! <= 1)
+  const examSoonExam = examSoon ? exams.find((x) => x.id === examSoon.examId) : undefined
+  const hour = new Date().getHours()
+  const greet = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening'
+
+  const cities = new Map<string, { exam: (typeof exams)[number]; when: string | undefined; allotted: boolean }[]>()
   for (const ex of exams) {
-    const c = examCity(ex)
-    if (!c) continue
-    cities.set(c, [...(cities.get(c) ?? []), ex])
+    const np = nextPhase(ex)
+    const c = cityOf(np)
+    if (!c || !np) continue
+    cities.set(c, [...(cities.get(c) ?? []), { exam: ex, when: np.date, allotted: !!np.centre?.allotted }])
   }
   const windowEvents = upcoming.filter((e) => daysUntil(e.date)! <= 75)
 
   return (
     <div className="dash">
-      <section className="hero">
-        <div className="hero__bg" aria-hidden="true" />
-        {hero ? (
-          <>
-            <p className="eyebrow">
-              <Icon name="clock" size={14} /> Next {hero.kind === 'exam' ? 'exam' : KIND_LABEL[hero.kind].toLowerCase()}
-              {hero.dateType === 'tentative' ? <span className="tag tag--tentative">tentative</span> : null}
+      <p className="greet">
+        {greet}
+        {prefs.name ? `, ${prefs.name.split(' ')[0]}` : ''} · {format(today(), 'EEEE, d MMMM')}
+      </p>
+
+      <div className="dash__top">
+        <section className="hero">
+          <div className="hero__bg" aria-hidden="true" />
+          {hero ? (
+            <>
+              <p className="eyebrow">
+                <Icon name="clock" size={14} /> Next {hero.kind === 'exam' ? 'exam' : KIND_LABEL[hero.kind].toLowerCase()}
+                {hero.dateType === 'tentative' ? <span className="tag tag--tentative">tentative</span> : null}
+              </p>
+              <h1 className="hero__title">
+                {hero.examShort}
+                <span className="hero__phase"> · {hero.label}</span>
+              </h1>
+              <p className="hero__date mono">
+                {fmtDate(hero.date, 'EEEE, d MMMM yyyy')}
+                {hero.timeNote ? ` · ${hero.timeNote}` : ''}
+              </p>
+              <Countdown iso={hero.date} />
+              <div className="hero__facts">
+                <PlaceLine e={hero} />
+                <button className="btn btn--ghost btn--sm" onClick={() => navigate('exams')}>
+                  Open exam <Icon name="chevron" size={14} />
+                </button>
+              </div>
+            </>
+          ) : (
+            <h1 className="hero__title">No upcoming dates</h1>
+          )}
+        </section>
+
+        {examSoon && examSoonExam ? (
+          <section className="panel examday">
+            <h2 className="panel__title">
+              <Icon name="alert" /> Exam day {daysUntil(examSoon.date) === 0 ? 'is today' : 'is tomorrow'}
+            </h2>
+            <p className="examday__what">
+              <strong>{examSoon.examShort}</strong> · {examSoon.label}
+              {examSoon.timeNote ? <span className="muted"> · {examSoon.timeNote}</span> : null}
             </p>
-            <h1 className="hero__title">
-              {hero.examShort}
-              <span className="hero__phase"> · {hero.label}</span>
-            </h1>
-            <p className="hero__date mono">
-              {fmtDate(hero.date, 'EEEE, d MMMM yyyy')}
-              {hero.timeNote ? ` · ${hero.timeNote}` : ''}
-            </p>
-            <Countdown iso={hero.date} />
-            <div className="hero__facts">
-              <span>
-                <Icon name="pin" size={14} />
-                {hero.venue || hero.centre || (hero.centrePrefs?.length ? `Pref: ${hero.centrePrefs.join(' / ')}` : 'Centre TBA')}
-              </span>
-              <button className="btn btn--ghost btn--sm" onClick={() => navigate('exams')}>
-                Open exam <Icon name="chevron" size={14} />
-              </button>
-            </div>
-          </>
+            <PlaceLine e={examSoon} />
+            {examSoon.venue || examSoon.centre ? (
+              <a className="btn btn--accent btn--sm" href={mapsUrl(examSoon.venue || examSoon.centre!)} target="_blank" rel="noreferrer">
+                <Icon name="pin" size={14} /> Directions
+              </a>
+            ) : (
+              <p className="muted small">Allotted centre not entered yet. Open the exam, click the pencil on this phase and paste the venue from the admit card.</p>
+            )}
+            {examSoonExam.facts?.carry?.length ? (
+              <>
+                <h3 className="panel__sub">Carry</h3>
+                <ul className="carry">
+                  {examSoonExam.facts.carry.map((c) => (
+                    <li key={c}>{c}</li>
+                  ))}
+                </ul>
+              </>
+            ) : null}
+          </section>
         ) : (
-          <h1 className="hero__title">No upcoming dates</h1>
+          <WeekStrip events={upcoming} />
         )}
-      </section>
+      </div>
 
       <section className="tiles">
         <Tile n={toApply.length} label="to apply" accent="amber" onClick={() => navigate('exams')} />
@@ -83,7 +128,7 @@ export function Dashboard() {
                   <span className="due__when mono">{relative(daysUntil(e.date))}</span>
                   <span className="due__what">
                     <strong>{e.examShort}</strong> · {e.label}
-                    {e.centre || e.venue ? <span className="muted"> · {e.venue || e.centre}</span> : null}
+                    {e.kind !== 'application' ? <span className="muted"> · {e.venue || e.centre || (e.centrePrefs?.[0] ? `${e.centrePrefs[0]} (pref)` : 'centre TBA')}</span> : null}
                   </span>
                   <span className="due__date mono">{fmtShort(e.date)}</span>
                 </li>
@@ -99,8 +144,13 @@ export function Dashboard() {
                     <span>
                       <strong>{ex.short}</strong> <span className="muted">· {ex.post}</span>
                     </span>
-                    <span className="mono">
-                      {ex.application.closes ? `closes ${fmtShort(ex.application.closes)} · ${relative(daysUntil(ex.application.closes))}` : 'deadline TBA'}
+                    <span className="row">
+                      <span className="mono">{ex.application.closes ? `closes ${fmtShort(ex.application.closes)} · ${relative(daysUntil(ex.application.closes))}` : 'deadline TBA'}</span>
+                      {ex.applyUrl ? (
+                        <a className="btn btn--accent btn--sm" href={ex.applyUrl} target="_blank" rel="noreferrer">
+                          Apply
+                        </a>
+                      ) : null}
                     </span>
                   </li>
                 ))}
@@ -111,7 +161,7 @@ export function Dashboard() {
 
         <section className="panel">
           <h2 className="panel__title">
-            <Icon name="city" /> By centre
+            <Icon name="city" /> Where you'll be
           </h2>
           {cities.size === 0 ? (
             <p className="muted">No centres recorded yet.</p>
@@ -119,11 +169,17 @@ export function Dashboard() {
             <ul className="citylist">
               {[...cities.entries()].map(([city, list]) => (
                 <li key={city}>
-                  <span className="citylist__city">{city}</span>
+                  <span className="citylist__city">
+                    {city}
+                    <a className="placeline__map" href={mapsUrl(city)} target="_blank" rel="noreferrer">
+                      map
+                    </a>
+                  </span>
                   <span className="citylist__exams">
-                    {list.map((ex) => (
-                      <span key={ex.id} className="pill">
-                        {ex.short}
+                    {list.map((x) => (
+                      <span key={x.exam.id} className="pill" title={x.allotted ? 'Allotted centre' : 'First preference, allotment awaited'}>
+                        {x.exam.short} · {fmtShort(x.when)}
+                        {x.allotted ? '' : ' ?'}
                       </span>
                     ))}
                   </span>
@@ -131,7 +187,23 @@ export function Dashboard() {
               ))}
             </ul>
           )}
-          <p className="muted small">City shown is the allotted centre when known, else your first preference.</p>
+          <p className="muted small">? = first preference; the allotted centre comes with the admit card.</p>
+        </section>
+
+        <section className="panel">
+          <h2 className="panel__title">
+            <Icon name="link" /> Official sites
+          </h2>
+          <ul className="linklist">
+            {exams.map((ex) => (
+              <li key={ex.id}>
+                <a href={ex.officialUrl} target="_blank" rel="noreferrer">
+                  <Icon name="external" size={13} /> {ex.short}
+                </a>
+                <span className="muted small">{ex.org}</span>
+              </li>
+            ))}
+          </ul>
         </section>
       </div>
 
@@ -149,6 +221,7 @@ export function Dashboard() {
         <div className="minigrid">
           {exams.map((ex) => {
             const nxt = events.find((e) => e.examId === ex.id && e.status !== 'done' && daysUntil(e.date)! >= 0)
+            const city = cityOf(nextPhase(ex))
             return (
               <button key={ex.id} className="mini" onClick={() => navigate('exams')}>
                 <span className="mini__top">
@@ -157,6 +230,11 @@ export function Dashboard() {
                 </span>
                 <span className="mini__org">{ex.org}</span>
                 <span className="mini__next mono">{nxt ? `${nxt.label} · ${fmtShort(nxt.date)}` : 'next date TBA'}</span>
+                {city ? (
+                  <span className="mini__city">
+                    <Icon name="pin" size={11} /> {city}
+                  </span>
+                ) : null}
               </button>
             )
           })}
@@ -175,34 +253,67 @@ function Tile({ n, label, accent, onClick }: { n: number; label: string; accent:
   )
 }
 
-function Timeline({ events }: { events: ReturnType<typeof useApp>['events'] }) {
+function WeekStrip({ events }: { events: CalEvent[] }) {
+  const days = Array.from({ length: 7 }, (_, i) => addDays(today(), i))
+  return (
+    <section className="panel week">
+      <h2 className="panel__title">
+        <Icon name="calendar" /> This week
+      </h2>
+      <div className="week__grid">
+        {days.map((d) => {
+          const iso = format(d, 'yyyy-MM-dd')
+          const evs = events.filter((e) => e.date === iso || (e.dateEnd && e.kind === 'application' && e.date <= iso && e.dateEnd >= iso && e.dateEnd === iso))
+          return (
+            <div key={iso} className={`week__day ${evs.length ? 'has-ev' : ''}`}>
+              <span className="week__dow">{format(d, 'EEE')}</span>
+              <span className="week__num">{format(d, 'd')}</span>
+              <span className="week__evs">
+                {evs.map((e) => (
+                  <span key={e.id} className={`cal__ev cal__ev--${e.kind} ${e.dateType === 'tentative' ? 'is-tentative' : ''}`}>
+                    <span className="cal__ev-name">{e.examShort}</span>
+                    {e.kind !== 'application' && (e.centre || e.centrePrefs?.[0]) ? <span className="cal__ev-place">{e.centre || `${e.centrePrefs![0]}?`}</span> : null}
+                  </span>
+                ))}
+              </span>
+            </div>
+          )
+        })}
+      </div>
+    </section>
+  )
+}
+
+function Timeline({ events }: { events: CalEvent[] }) {
   if (events.length === 0) return <p className="muted">Nothing in this window.</p>
   const first = 0
   const last = Math.max(75, daysUntil(events[events.length - 1].date)!)
   return (
     <div className="tl-wrap">
       <div className="tl">
-      <div className="tl__axis">
-        {[0, 15, 30, 45, 60, 75].map((d) => (
-          <span key={d} className="tl__tick" style={{ left: `${((d - first) / (last - first)) * 100}%` }}>
-            {d === 0 ? 'today' : `+${d}d`}
-          </span>
-        ))}
-      </div>
-      <ul className="tl__items">
-        {events.map((e, i) => {
-          const d = daysUntil(e.date)!
-          const left = ((d - first) / (last - first)) * 100
-          return (
-            <li key={e.id} className={`tl__item cal__ev--${e.kind} ${e.dateType === 'tentative' ? 'is-tentative' : ''}`} style={{ left: `${left}%`, top: `${(i % 4) * 34}px`, animationDelay: `${i * 50}ms` }}>
-              <span className="tl__dot" />
-              <span className="tl__label">
-                <strong>{e.examShort}</strong> {e.label} <span className="mono">{fmtShort(e.date)}</span>
-              </span>
-            </li>
-          )
-        })}
-      </ul>
+        <div className="tl__axis">
+          {[0, 15, 30, 45, 60, 75].map((d) => (
+            <span key={d} className="tl__tick" style={{ left: `${((d - first) / (last - first)) * 100}%` }}>
+              {d === 0 ? 'today' : `+${d}d`}
+            </span>
+          ))}
+        </div>
+        <ul className="tl__items">
+          {events.map((e, i) => {
+            const d = daysUntil(e.date)!
+            const left = ((d - first) / (last - first)) * 100
+            const place = e.kind !== 'application' ? e.venue || e.centre || e.centrePrefs?.[0] : null
+            return (
+              <li key={e.id} className={`tl__item cal__ev--${e.kind} ${e.dateType === 'tentative' ? 'is-tentative' : ''}`} style={{ left: `${left}%`, top: `${(i % 4) * 34}px`, animationDelay: `${i * 50}ms` }}>
+                <span className="tl__dot" />
+                <span className="tl__label">
+                  <strong>{e.examShort}</strong> {e.label} <span className="mono">{fmtShort(e.date)}</span>
+                  {place ? <span className="muted"> · {place}</span> : null}
+                </span>
+              </li>
+            )
+          })}
+        </ul>
       </div>
       <ul className="tl-list">
         {events.map((e) => (
@@ -211,6 +322,7 @@ function Timeline({ events }: { events: ReturnType<typeof useApp>['events'] }) {
             <span>
               <strong>{e.examShort}</strong> · {e.label}
               {e.dateType === 'tentative' ? <span className="tag tag--tentative">tentative</span> : null}
+              {e.kind !== 'application' && (e.centre || e.centrePrefs?.[0]) ? <span className="muted"> · {e.venue || e.centre || `${e.centrePrefs![0]}?`}</span> : null}
             </span>
           </li>
         ))}

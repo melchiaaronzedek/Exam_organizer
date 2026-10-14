@@ -56,9 +56,16 @@ def build_reminders(lead: list[int]) -> list[dict]:
 
 
 def new_updates_since_yesterday() -> list[dict]:
+    """Items first seen since yesterday that are also recent by their own date (or undated)."""
     data = load_json("updates.json", {"updates": []})
+    if data.get("baseline"):
+        return []
     cutoff = (today_ist() - timedelta(days=1)).isoformat()
-    return [u for u in data.get("updates", []) if u.get("firstSeen", "")[:10] >= cutoff]
+    recent = (today_ist() - timedelta(days=5)).isoformat()
+    return [
+        u for u in data.get("updates", [])
+        if u.get("firstSeen", "")[:10] >= cutoff and (not u.get("publishedAt") or u["publishedAt"][:10] >= recent)
+    ]
 
 
 # ---------- channels ----------
