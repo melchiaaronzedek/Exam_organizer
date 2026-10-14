@@ -716,7 +716,7 @@ def _api_hints(html: str, base: str, host_word: str) -> list[str]:
     return sorted(hints)[:40]
 
 
-IIMJOBS_ROLE_WORD_RX = re.compile(r"\b(?:manager|trainee|analyst|associate|executive|lead|head|officer|specialist|consultant|intern|director|partner|engineer|role|program|marketing|brand|sales|product|research|strategy|growth|category|chief|vp|president|founder|fresher|mba|graduate|management)\b", re.I)
+IIMJOBS_ROLE_WORD_RX = re.compile(r"\b(?:manager|trainee|analyst|associate|executive|lead|head|officer|specialist|consultant|intern|director|partner|engineer|role|program|marketing|brand|sales|product|research|strategy|growth|category|chief|vp|president|founder|fresher|mba|graduate|management|scientist|developer|designer|writer|strategist|leader|modeler|planner|coordinator|recruiter|buyer|merchandiser)\b", re.I)
 IIMJOBS_CARD_RX = re.compile(r"^(?P<head>.*?)\s*\(?\s*(?P<lo>\d{1,2})\s*-\s*(?P<hi>\d{1,2})\s*yrs?\s*\)?\s*(?P<tail>.*)$", re.I | re.S)
 
 
@@ -1499,7 +1499,7 @@ PORTALS: list[Portal] = [
     Portal("LinkedIn", linkedin, detail=linkedin_detail),
     Portal("Internshala", internshala, detail=internshala_detail),
     # Tag pages that exist on the site (from its category nav); free-text searches have no crawler-rendered page.
-    Portal("iimjobs", iimjobs, (IIMJOBS_SEED, "marketing", "market research", "fmcg marketing", "analytics", "consulting general mgmt")),
+    Portal("iimjobs", iimjobs, (IIMJOBS_SEED, "marketing", "market research", "fmcg marketing", "analytics", "marketing communications")),
     Portal("TimesJobs", timesjobs, detail=timesjobs_detail, needs_detail=_missing_fields),
     Portal("Shine", shine, CORE_QUERIES, detail=shine_detail, needs_detail=_missing_fields),
     Portal("Freshersworld", freshersworld, CORE_QUERIES, detail=freshersworld_detail, needs_detail=_missing_fields),
