@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T00:33:04+05:30",
+  "discoveredAt": "2026-10-15T00:38:37+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4668,7 +4668,7 @@
       "kind": "portal",
       "id": "portal-98280d12a38c",
       "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:33:09+05:30"
+      "lastSeen": "2026-10-15T00:38:41+05:30"
     },
     {
       "org": "GRMAC Pvt. Ltd.",
@@ -4794,7 +4794,7 @@
       "kind": "portal",
       "id": "portal-813ac54defc8",
       "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:33:09+05:30"
+      "lastSeen": "2026-10-15T00:38:41+05:30"
     },
     {
       "org": "BNM Business Solutions LLP Actively hiring",
@@ -4838,11 +4838,11 @@
       "kind": "portal",
       "id": "portal-e1a3b54dd780",
       "firstSeen": "2026-10-15T00:33:09+05:30",
-      "lastSeen": "2026-10-15T00:33:09+05:30"
+      "lastSeen": "2026-10-15T00:38:41+05:30"
     }
   ],
-  "portalAt": "2026-10-15T00:33:09+05:30",
-  "portalBaseline": true,
+  "portalAt": "2026-10-15T00:38:41+05:30",
+  "portalBaseline": false,
   "portalStatus": [
     {
       "name": "Naukri",
@@ -4857,7 +4857,7 @@
       "ok": true,
       "fetched": 0,
       "errors": 9,
-      "error": "float() argument must be a string or a real number, not 'dict'",
+      "error": "'int' object is not subscriptable",
       "scanned": 0
     },
     {
