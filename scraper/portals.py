@@ -639,9 +639,12 @@ def _reader(url: str, timeout: int = 45) -> str:
     return r.text
 
 
-def _reader_html(url: str, timeout: int = 60) -> str:
+def _reader_html(url: str, timeout: int = 75, wait_for: str | None = None) -> str:
     """The page rendered by the reader's browser, as HTML (keeps JSON-LD / __NEXT_DATA__ / RSC payloads intact)."""
-    r = requests.get(f"https://r.jina.ai/{url}", headers={"User-Agent": UA, "Accept": "text/html", "X-Return-Format": "html"}, timeout=timeout)
+    headers = {"User-Agent": UA, "Accept": "text/html", "X-Return-Format": "html", "X-No-Cache": "true", "X-Timeout": "30"}
+    if wait_for:
+        headers["X-Wait-For-Selector"] = wait_for
+    r = requests.get(f"https://r.jina.ai/{url}", headers=headers, timeout=timeout)
     if r.status_code >= 400:
         raise RuntimeError(f"blocked (reader http {r.status_code})")
     code = _reader_upstream_error(r.text)
@@ -695,46 +698,69 @@ def post_json(url: str, payload: dict, headers: dict | None = None) -> dict:
 
 
 # ── iimjobs (MBA-focused; listing is public, detail pages need a login) ──
+def _api_hints(html: str, base: str, host_word: str) -> list[str]:
+    """API hosts/paths referenced by the page's JS chunks (for a listing that is fetched client-side)."""
+    hints: set[str] = set()
+    srcs = re.findall(r'<script[^>]+src="([^"]+/_next/static/[^"]+\.js)"', html)
+    picked = [u for u in srcs if re.search(r"pages/|app/|main-|webpack", u)][:4] or srcs[:3]
+    for src in picked:
+        try:
+            js = requests.get(src if src.startswith("http") else base + src, headers={"User-Agent": UA}, timeout=20).text
+        except Exception as e:  # noqa: BLE001
+            print(f"[sample] chunk {src[-60:]}: {str(e)[:80]}")
+            continue
+        for m in re.finditer(r'["\'](https?://[a-z0-9.-]*' + re.escape(host_word) + r'[^"\'\s]{0,80})["\']', js):
+            hints.add(m.group(1))
+        for m in re.finditer(r'["\'](/(?:api|v\d|search|jobs?)[A-Za-z0-9_./-]{3,60})["\']', js):
+            hints.add(m.group(1))
+    return sorted(hints)[:40]
+
+
+IIMJOBS_CARD_RX = re.compile(r"^(?P<head>.*?)\s*\(?\s*(?P<lo>\d{1,2})\s*-\s*(?P<hi>\d{1,2})\s*yrs?\s*\)?\s*(?P<tail>.*)$", re.I | re.S)
+
+
+def _iimjobs_card(text: str, href: str, company: str) -> dict:
+    """One listing from the text of its card: 'Role - Industry (0-2 yrs) [lo-hi LPA] City Posted 2 days ago'."""
+    t = re.sub(r"\s+", " ", text).strip()
+    m = IIMJOBS_CARD_RX.match(t)
+    head, tail = (m.group("head"), m.group("tail")) if m else (t, "")
+    exp = f"{m.group('lo')}-{m.group('hi')} yrs" if m else None
+    sal = re.search(r"(\d{1,3}(?:\.\d)?\s*-\s*\d{1,3}(?:\.\d)?\s*LPA)", tail or t, re.I)
+    posted = re.search(r"posted\s+(\d+)\s*(day|week|month|hour)s?\s*ago", tail or t, re.I)
+    days = {"hour": 0, "day": 1, "week": 7, "month": 30}[posted.group(2).lower()] * int(posted.group(1)) if posted else None
+    loc = re.sub(r"\d{1,3}(?:\.\d)?\s*-\s*\d{1,3}(?:\.\d)?\s*LPA|posted.*$|\d(?:\.\d)?\s*\d+\+?\s*reviews?", "", tail, flags=re.I).strip(" |·-")
+    return {
+        "title": head.strip(" -|·"), "company": company, "location": loc[:80],
+        "url": href if href.startswith("http") else "https://www.iimjobs.com" + href,
+        "salaryText": sal.group(1) if sal else None, "experienceText": exp,
+        "postedAt": (today_ist() - timedelta(days=days)).isoformat() if days is not None else None, "description": t[:600],
+    }
+
+
 def parse_iimjobs(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "lxml")
     out, seen = [], set()
     for a in soup.select("a[href*='/j/']"):
         href = a.get("href") or ""
+        if not re.search(IIMJOBS_LINK_PAT, href) or href in seen:
+            continue
         t = _text(a)
-        if len(t) < 8 or href in seen:
+        if len(t) < 8:
             continue
         seen.add(href)
         card = a
-        for _ in range(4):
-            if card.parent is None:
+        for _ in range(4):  # the link may be just the heading; the card around it carries the company and the rest
+            nxt = card.parent
+            if nxt is None or nxt.name in ("body", "html", "ul", "section") or len(_text(nxt)) > 3 * len(t) + 200:
                 break
-            card = card.parent
-            if re.search(r"\(\s*\d+\s*-\s*\d+\s*yrs?\s*\)", _text(card), re.I) and card.name in ("li", "div", "article"):
-                break
-        ctext = _text(card)
-        exp = re.search(r"\(\s*(\d+\s*-\s*\d+)\s*yrs?\s*\)", t + " " + ctext, re.I)
-        title = re.sub(r"\s*\(\s*\d+\s*-\s*\d+\s*yrs?\s*\)\s*$", "", t).strip()
-        comp_el = card.select_one("[class*='company'], [class*='comp-name'], [class*='recruiter']")
-        company = _text(comp_el)
-        parts = [p.strip() for p in title.split(" - ")]
-        if not company and len(parts) >= 2:
-            company, title = parts[0], " - ".join(parts[1:])
-        elif company and len(parts) >= 2 and parts[0].lower() == company.lower():
-            title = " - ".join(parts[1:])
-        loc_el = card.select_one("[class*='location'], [class*='loc']")
-        loc = _text(loc_el)
-        if not loc:
-            m = re.search(r"yrs?\s*\)\s*([A-Z][A-Za-z .,/&-]{2,60}?)(?:\s{2,}|$|\d)", ctext)
-            loc = m.group(1).strip() if m else ""
-        out.append({
-            "title": title, "company": company, "location": loc,
-            "url": href if href.startswith("http") else "https://www.iimjobs.com" + href,
-            "salaryText": None, "experienceText": f"{exp.group(1)} yrs" if exp else None, "postedAt": None,
-            "description": ctext[:600],
-        })
+            card = nxt
+        comp_el = card.select_one("[class*='company'], [class*='comp-name'], [class*='recruiter'], [class*='postedBy'], [class*='posted-by']")
+        company = re.sub(r"^\s*(?:posted by|recruiter)\s*:?\s*", "", _text(comp_el), flags=re.I)
+        if company and re.search(r"\b(?:yrs?|LPA|posted)\b", company, re.I):
+            company = ""
+        out.append(_iimjobs_card(_text(card), href, company))
     if out:
         return out
-    # The current site renders through Next.js RSC payloads: pull the job records out of the embedded JSON instead.
     items = _embedded_jobs(html, "https://www.iimjobs.com")
     for it in items:
         if not it.get("experienceText"):
@@ -747,46 +773,85 @@ def parse_iimjobs(html: str) -> list[dict]:
 
 GOOGLEBOT_UA = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 IIMJOBS_LINK_PAT = r"/j/[a-z0-9-]+-\d+\.html"
+IIMJOBS_TAG_RX = re.compile(r"\b(?:marketing|brand|market research|product|analytics|consult|strateg|general management|management trainee|leadership|campus|fresher|corporate development)", re.I)
+IIMJOBS_TAG_SKIP_RX = re.compile(r"\b(?:sales|head|director|vp|cxo|senior|engineering|it\b|tech|software)", re.I)
+_IIMJOBS_TAGS: dict[str, list[str]] = {}
 
 
-def _iimjobs_api_hints(html: str) -> list[str]:
-    """API hosts/paths referenced by the page's JS chunks (the listing is fetched client-side)."""
-    hints: set[str] = set()
-    srcs = re.findall(r'<script[^>]+src="([^"]+/_next/static/[^"]+\.js)"', html)
-    picked = [u for u in srcs if re.search(r"pages/(?:k/|_app|index)|main-|webpack", u)][:4] or srcs[:3]
-    for src in picked:
-        try:
-            js = get(src if src.startswith("http") else "https://www.iimjobs.com" + src).text
-        except Exception as e:  # noqa: BLE001
-            print(f"[sample] iimjobs chunk {src[-60:]}: {e}")
-            continue
-        for m in re.finditer(r'["\'](https?://[a-z0-9.-]*iimjobs\.com[^"\'\s]{0,80})["\']', js):
-            hints.add(m.group(1))
-        for m in re.finditer(r'["\'](/(?:api|v\d|jobfeed|search)[A-Za-z0-9_./-]{3,60})["\']', js):
-            hints.add(m.group(1))
-        print(f"[sample] iimjobs chunk {src[-70:]}: {len(js)} chars, {len(hints)} hints so far")
-    return sorted(hints)[:40]
+def _iimjobs_tags(html: str) -> list[str]:
+    """Tag slugs from the page's own category nav (metaData.header.meta.tabsList) that fit marketing / general management."""
+    nd = _next_data(html) or {}
+
+    def find_list(o, depth=8):
+        if depth < 0 or not isinstance(o, (dict, list)):
+            return None
+        if isinstance(o, dict):
+            if isinstance(o.get("tabsList"), list):
+                return o["tabsList"]
+            vals = o.values()
+        else:
+            vals = o[:5]
+        for v in vals:
+            r = find_list(v, depth - 1)
+            if r is not None:
+                return r
+        return None
+
+    tabs = find_list(nd) or []
+    tags: list[str] = []
+    for tab in tabs if isinstance(tabs, list) else []:
+        for item in [tab] + list(tab.get("menu") or []):
+            tag = str(item.get("tag") or "").strip()
+            if tag and IIMJOBS_TAG_RX.search(tag) and not IIMJOBS_TAG_SKIP_RX.search(tag) and tag not in tags:
+                tags.append(tag)
+    return tags
 
 
 def iimjobs(q: str) -> list[dict]:
+    """The listing is rendered server-side only for crawlers, and only on real tag pages (free-text /k/ pages 404)."""
     url = f"https://www.iimjobs.com/k/{_slug(q)}-jobs"
-    r = get(url)
+    try:
+        r = get(url, headers={"User-Agent": GOOGLEBOT_UA})
+    except requests.HTTPError as e:
+        if e.response is not None and e.response.status_code == 404:
+            print(f"[info] iimjobs: no tag page for {q!r}")
+            return []
+        raise
     if "/login" in r.url or re.search(r"(sign in|login) to (view|see)", r.text[:20000], re.I):
         raise RuntimeError("blocked (login wall)")
     items = parse_iimjobs(r.text)
-    if items:
-        return items
-    # The browser build fetches the listing client-side; the server renders it only for crawlers (initialState.app.context.isCrawlerBot).
-    rb = get(url, headers={"User-Agent": GOOGLEBOT_UA})
-    items = parse_iimjobs(rb.text)
-    if items:
-        return items
-    print(f"[sample] iimjobs as crawler: {len(rb.text)} chars, links={len(re.findall(IIMJOBS_LINK_PAT, rb.text))}, isCrawlerBot={'\"isCrawlerBot\":true' in rb.text or '\"isCrawlerBot\": true' in rb.text}")
-    if len(r.text) > 20000:
+    if not _IIMJOBS_TAGS:
+        _IIMJOBS_TAGS["tags"] = _iimjobs_tags(r.text)
+        print(f"[info] iimjobs: tag pages that fit: {_IIMJOBS_TAGS['tags'][:30]}")
+        a = BeautifulSoup(r.text, "lxml").select_one("a[href*='/j/']")
+        if a is not None:
+            card = a
+            for _ in range(3):
+                if card.parent is None or len(str(card)) > 1800:
+                    break
+                card = card.parent
+            print(f"[sample] iimjobs first card html: {re.sub(r'\\s+', ' ', str(card))[:1600]!r}")
+    if not items and len(r.text) > 20000:
         _zero_sample("iimjobs", r.text, url, IIMJOBS_LINK_PAT)
-        print(f"[sample] iimjobs api hints: {_iimjobs_api_hints(r.text)}")
         raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
+    # Sibling tag pages from the nav that match the candidate's field, beyond the configured queries.
+    extra = [t for t in _IIMJOBS_TAGS.get("tags", []) if _slug(t) != _slug(q)]
+    if q == IIMJOBS_SEED and extra:
+        seen = {it["url"] for it in items}
+        for tag in extra[:5]:
+            try:
+                rt = get(f"https://www.iimjobs.com/k/{_slug(tag)}-jobs", headers={"User-Agent": GOOGLEBOT_UA}, attempts=1)
+            except Exception as e:  # noqa: BLE001
+                print(f"[info] iimjobs tag {tag!r}: {str(e)[:80]}")
+                continue
+            got = [it for it in parse_iimjobs(rt.text) if it["url"] not in seen]
+            seen.update(it["url"] for it in got)
+            items += got
+            print(f"[info] iimjobs tag {tag!r}: {len(got)} listings")
     return items
+
+
+IIMJOBS_SEED = "brand management"
 
 
 # ── TimesJobs (classic server-rendered search) ──
@@ -871,15 +936,14 @@ def timesjobs(q: str) -> list[dict]:
         if len(r.text) > 20000:
             _zero_sample("TimesJobs", r.text, url, TIMESJOBS_DETAIL_RX)
             print(f"[sample] TimesJobs direct link shapes: {_link_shapes(r.text, 'timesjobs.com')}")
-    html = _reader_html(url)
+    # The app fetches its listing after the first paint: ask the reader to wait for a job link before returning.
+    html = _reader_html(url, wait_for="a[href*='/job-detail/'], a[href*='/jobs/'], a[href*='/job/']")
     items = _timesjobs_from_html(html)
     if items:
         return items
     _zero_sample("TimesJobs", html, "reader html " + url, TIMESJOBS_DETAIL_RX)
-    print(f"[sample] TimesJobs reader-html link shapes: {_link_shapes(html, 'timesjobs.com')}")
-    md = _reader(url)
-    items = parse_generic_md(md, TIMESJOBS_LINK_RX, "TimesJobs")
-    return items
+    print(f"[sample] TimesJobs reader-html link shapes: {_link_shapes(html, 'timesjobs.com')} api hints: {_api_hints(html, 'https://www.timesjobs.com', 'timesjobs')}")
+    raise RuntimeError("blocked (listing loads client-side)")
 
 
 def parse_timesjobs_detail(html: str) -> dict:
@@ -1438,7 +1502,7 @@ PORTALS: list[Portal] = [
     Portal("Unstop", unstop),
     Portal("LinkedIn", linkedin, detail=linkedin_detail),
     Portal("Internshala", internshala, detail=internshala_detail),
-    Portal("iimjobs", iimjobs, CORE_QUERIES),
+    Portal("iimjobs", iimjobs, (IIMJOBS_SEED, "marketing", "market research", "management trainee")),
     Portal("TimesJobs", timesjobs, detail=timesjobs_detail, needs_detail=_missing_fields),
     Portal("Shine", shine, CORE_QUERIES, detail=shine_detail, needs_detail=_missing_fields),
     Portal("Freshersworld", freshersworld, CORE_QUERIES, detail=freshersworld_detail, needs_detail=_missing_fields),
@@ -1665,7 +1729,7 @@ def self_test() -> int:
         return (FIXTURES / name).read_text(encoding="utf-8")
 
     parser_cases = [
-        ("iimjobs", parse_iimjobs, "iimjobs.html", 2, {"experienceText": "0-2 yrs"}),
+        ("iimjobs", parse_iimjobs, "iimjobs.html", 3, {"experienceText": "0-2 yrs", "salaryText": "12-15 LPA", "company": "Hindustan Unilever", "title": "Management Trainee - Marketing - FMCG"}),
         ("TimesJobs", parse_timesjobs, "timesjobs.html", 2, {"experienceText": "0 - 2 yrs"}),
         ("Shine", parse_shine, "shine.html", 2, {"experienceText": "0 to 2 Yrs"}),
         ("Freshersworld", parse_freshersworld, "freshersworld.html", 2, {}),
