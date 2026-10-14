@@ -1,5 +1,5 @@
-/* Pariksha Desk service worker: shell cache-first, data stale-while-revalidate. */
-const VERSION = 'pd-v1'
+/* Jenny Tracker service worker: shell cache-first, data stale-while-revalidate. */
+const VERSION = 'jt-v1'
 const SHELL = ['./', './index.html', './manifest.webmanifest']
 
 self.addEventListener('install', (e) => {

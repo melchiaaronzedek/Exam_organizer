@@ -120,7 +120,7 @@ export function Documents() {
             <button className="btn btn--ghost btn--sm" onClick={() => zipRef.current?.click()}>
               <Icon name="upload" size={14} /> Import zip
             </button>
-            <button className="btn btn--sm" disabled={!docs.length} onClick={async () => downloadBlob('pariksha-documents.zip', await exportZip())}>
+            <button className="btn btn--sm" disabled={!docs.length} onClick={async () => downloadBlob('jenny-documents.zip', await exportZip())}>
               <Icon name="download" size={14} /> Export zip
             </button>
             <input ref={zipRef} type="file" accept=".zip" hidden onChange={async (e) => { const f = e.target.files?.[0]; if (f) { setBusy(true); await importZip(f, new Set(exams.map((x) => x.id))); await reload(); setBusy(false) } e.target.value = '' }} />

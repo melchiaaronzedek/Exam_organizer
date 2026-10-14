@@ -157,7 +157,7 @@ def main(argv: list[str]) -> int:
         github_issue(f"🎯 {len(openings)} new opening(s) that fit — {today_ist().strftime('%d %b')}", "\n".join(lines) + "\n\nReview: https://melchiaaronzedek.github.io/Exam_organizer/#/jobs", ["opening"], dry)
 
     if reminders or fresh or openings:
-        msg = ["*Pariksha Desk — daily brief*"]
+        msg = ["*Jenny Tracker — daily brief*"]
         for r in reminders:
             msg.append(r["title"])
         if fresh:

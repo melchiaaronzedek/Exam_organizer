@@ -170,7 +170,7 @@ export function App() {
           <aside className="rail">
             <a className="brand" href="#/dashboard" onClick={() => navigate('dashboard')}>
               <Logo size={34} interactive progress={ringProgress} pulse={examToday} />
-              <span className="brand__name">Pariksha Desk</span>
+              <span className="brand__name">Jenny Tracker</span>
             </a>
             <nav className="nav" aria-label="Main" ref={navRef}>
               <span className="nav__pill" style={{ transform: `translateY(${pillY}px)` }} aria-hidden="true" />

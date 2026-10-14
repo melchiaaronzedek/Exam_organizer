@@ -43,7 +43,7 @@ export function Settings() {
           <p className="muted">Installed. You're running the app from the home screen.</p>
         ) : (
           <>
-            <p className="muted small">Adds Pariksha Desk to the home screen, full-screen, with offline access to the last loaded data.</p>
+            <p className="muted small">Adds Jenny Tracker to the home screen, full-screen, with offline access to the last loaded data.</p>
             {installEvt ? (
               <button className="btn btn--accent" onClick={() => (installEvt as unknown as { prompt: () => void }).prompt()}>
                 <Icon name="download" size={14} /> Install app
@@ -196,7 +196,7 @@ export function Settings() {
         </h2>
         <p className="muted small">Your statuses, notes, centres and preferences. Export here, import on another device.</p>
         <div className="row">
-          <button className="btn" onClick={() => downloadText('pariksha-desk-backup.json', exportLocalState(), 'application/json')}>
+          <button className="btn" onClick={() => downloadText('jenny-tracker-backup.json', exportLocalState(), 'application/json')}>
             <Icon name="download" size={14} /> Export settings JSON
           </button>
           <label className="btn btn--ghost">
