@@ -19,7 +19,23 @@ from scrape import UA, date_from_text, fetch, item_id, parse_markdown, parse_rss
 
 DEADLINE_RX = re.compile(r"(last date|apply by|closes? on|till|upto|up to|before)[^0-9]{0,25}(\d{1,2}[./-]\d{1,2}[./-]\d{4}|\d{1,2}\s+\w+\s+\d{4})", re.I)
 ORG_RX = re.compile(r"^([A-Z][A-Za-z&.' ]{2,40}?)\s+(recruitment|notification|vacancy|hiring|jobs?|bharti)", re.I)
-MIN_FIT = 45
+MIN_FIT = 40
+SECTOR_RX = [
+    ("regulator", r"\b(sebi|rbi|nabard|sidbi|irdai|pfrda|nhb|exim|ifsca|reserve bank)\b"),
+    ("insurance", r"\b(lic|niacl|nicl|oicl|uiic|gic|ecgc|aic|insurance|assurance)\b"),
+    ("bank", r"\b(bank|ibps|sbi|pnb|canara|union bank|bob|grameena|gramin|cooperative)\b"),
+    ("state", r"\b(appsc|tspsc|tgpsc|tnpsc|kpsc|psc|state government|govt of)\b"),
+    ("psu", r"\b(psu|limited|ltd|corporation|ntpc|sail|bhel|ongc|gail|hpcl|bpcl|iocl|nhpc|nlc|coal india|power grid|rinl|fci|concor|aai|airports|railtel|ircon|rites|hudco|nsc|nfl|rcfl|iffco|kribhco|cotton corporation)\b"),
+    ("nbfc", r"\b(nbfc|housing finance|finance ltd|capital ltd|hfl)\b"),
+]
+
+
+def guess_sector(title: str) -> str:
+    t = title.lower()
+    for sector, rx in SECTOR_RX:
+        if re.search(rx, t):
+            return sector
+    return "central" if re.search(r"\b(upsc|ssc|ministry|niti|government of india|central)\b", t) else ""
 CAP = 300
 
 
@@ -81,7 +97,8 @@ def main(argv: list[str]) -> int:
             if any(t in title.lower() for t in profile.get("excludeTerms", [])) and not any(r in title.lower() for r in profile.get("roles", [])):
                 continue
             org, post = guess_org_post(title)
-            cand = {"org": org, "post": post, "title": title, "sector": "", "track": src.get("track", "general"), "locations": []}
+            sector = guess_sector(title)
+            cand = {"org": org, "post": post, "title": title, "sector": sector, "track": src.get("track", "general"), "locations": []}
             fit, why = score(cand, profile)
             if fit < MIN_FIT:
                 continue
@@ -97,7 +114,7 @@ def main(argv: list[str]) -> int:
             if pub and pub < stale_cutoff and not deadline:
                 continue
             existing[uid] = {
-                "id": uid, "org": org, "post": post, "title": title, "track": src.get("track", "general"), "sector": "",
+                "id": uid, "org": org, "post": post, "title": title, "track": src.get("track", "general"), "sector": sector,
                 "eligibility": "", "applyCloses": deadline, "examDate": None, "examDateType": "tba", "locations": [],
                 "link": it["url"], "source": src["name"], "sourceType": "aggregator" if "feed" in src["name"].lower() or "reader" in src["name"].lower() else "news",
                 "fit": fit, "fitWhy": why, "status": "open" if (deadline is None or deadline >= today.isoformat()) else "closed",

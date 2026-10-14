@@ -604,11 +604,11 @@
       "status": "open",
       "curated": true,
       "note": null,
-      "fit": 0,
+      "fit": 65,
       "fitWhy": [
+        "role: civil services",
         "state",
-        "South / all-India",
-        "likely needs typist"
+        "South / all-India"
       ]
     },
     {
@@ -714,8 +714,9 @@
       "status": "open",
       "curated": true,
       "note": null,
-      "fit": 40,
+      "fit": 80,
       "fitWhy": [
+        "role: group-i",
         "graduate eligible",
         "state",
         "South / all-India"
@@ -1676,8 +1677,9 @@
       "status": "expected",
       "curated": true,
       "note": null,
-      "fit": 50,
+      "fit": 90,
       "fitWhy": [
+        "role: civil services",
         "graduate eligible",
         "central",
         "South / all-India",
@@ -3069,8 +3071,9 @@
       "status": "expected",
       "curated": true,
       "note": null,
-      "fit": 40,
+      "fit": 80,
       "fitWhy": [
+        "role: group-i",
         "graduate eligible",
         "state",
         "South / all-India"
@@ -3107,8 +3110,9 @@
       "status": "expected",
       "curated": true,
       "note": null,
-      "fit": 40,
+      "fit": 80,
       "fitWhy": [
+        "role: group-i",
         "graduate eligible",
         "state",
         "South / all-India"
@@ -3640,8 +3644,9 @@
       "status": "closed",
       "curated": true,
       "note": null,
-      "fit": 40,
+      "fit": 80,
       "fitWhy": [
+        "role: group 1",
         "graduate eligible",
         "state",
         "South / all-India"
@@ -3794,8 +3799,9 @@
       "status": "closed",
       "curated": true,
       "note": null,
-      "fit": 40,
+      "fit": 80,
       "fitWhy": [
+        "role: gazetted",
         "graduate eligible",
         "state",
         "South / all-India"
@@ -3831,8 +3837,9 @@
       "status": "closed",
       "curated": true,
       "note": null,
-      "fit": 40,
+      "fit": 80,
       "fitWhy": [
+        "role: group 2",
         "graduate eligible",
         "state",
         "South / all-India"
