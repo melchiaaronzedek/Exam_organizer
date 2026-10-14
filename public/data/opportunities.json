@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T00:29:45+05:30",
+  "discoveredAt": "2026-10-15T00:33:04+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4632,5 +4632,257 @@
     }
   ],
   "discoverBaseline": false,
-  "portal": []
+  "portal": [
+    {
+      "org": "Semnexa Actively hiring",
+      "post": "Junior Marketing Associate",
+      "title": "Junior Marketing Associate",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher",
+      "experienceText": "Fresher",
+      "experienceMinYears": 0.0,
+      "pay": "₹12–14.5 LPA",
+      "payLakh": 12.0,
+      "payMinLakh": 12.0,
+      "payMaxLakh": 14.5,
+      "locations": [
+        "Work from home"
+      ],
+      "link": "https://internshala.com/job/detail/fresher-remote-junior-marketing-associate-job-at-semnexa1790328804",
+      "source": "Internshala",
+      "sourceType": "portal",
+      "fit": 75,
+      "fitWhy": [
+        "role: marketing",
+        "private",
+        "pay ≥ 6 LPA",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "id": "portal-98280d12a38c",
+      "firstSeen": "2026-10-15T00:33:09+05:30",
+      "lastSeen": "2026-10-15T00:33:09+05:30"
+    },
+    {
+      "org": "GRMAC Pvt. Ltd.",
+      "post": "Senior Business Development Associate",
+      "title": "Senior Business Development Associate",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "",
+      "experienceText": "fresher",
+      "experienceMinYears": 0.0,
+      "pay": "₹8.5–11.4 LPA",
+      "payLakh": 8.5,
+      "payMinLakh": 8.5,
+      "payMaxLakh": 11.4,
+      "locations": [
+        "{'id': 1862984",
+        "'city': 'Bangalore'",
+        "'state': 'Karnataka'",
+        "'country': 'India'",
+        "'addressable_id': 1767902",
+        "'addressable_type': 'App\\\\Model\\\\Opportunity'}"
+      ],
+      "link": "https://unstop.com/jobs/senior-business-development-associate-grmac-pvt-ltd-1767902",
+      "source": "Unstop",
+      "sourceType": "portal",
+      "fit": 45,
+      "fitWhy": [
+        "private",
+        "South / all-India",
+        "pay ≥ 6 LPA",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": "2026-10-22",
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "id": "portal-6b26806c7e71",
+      "firstSeen": "2026-10-15T00:33:09+05:30",
+      "lastSeen": "2026-10-15T00:33:09+05:30"
+    },
+    {
+      "org": "The OmniJobs",
+      "post": "Senior Business Development Associate",
+      "title": "Senior Business Development Associate",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "",
+      "experienceText": "fresher",
+      "experienceMinYears": 0.0,
+      "pay": "₹8–11 LPA",
+      "payLakh": 8.0,
+      "payMinLakh": 8.0,
+      "payMaxLakh": 11.0,
+      "locations": [
+        "{'id': 1863724",
+        "'city': 'Bangalore'",
+        "'state': 'Karnataka'",
+        "'country': 'India'",
+        "'addressable_id': 1768383",
+        "'addressable_type': 'App\\\\Model\\\\Opportunity'}"
+      ],
+      "link": "https://unstop.com/jobs/senior-business-development-associate-the-omnijobs-1768383",
+      "source": "Unstop",
+      "sourceType": "portal",
+      "fit": 45,
+      "fitWhy": [
+        "private",
+        "South / all-India",
+        "pay ≥ 6 LPA",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": "2026-10-23",
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "id": "portal-fd3a0c219abe",
+      "firstSeen": "2026-10-15T00:33:09+05:30",
+      "lastSeen": "2026-10-15T00:33:09+05:30"
+    },
+    {
+      "org": "BNM Business Solutions LLP Actively hiring",
+      "post": "Sales Management Trainee",
+      "title": "Sales Management Trainee",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher",
+      "experienceText": "Fresher",
+      "experienceMinYears": 0.0,
+      "pay": "₹6.9–11 LPA",
+      "payLakh": 6.9,
+      "payMinLakh": 6.9,
+      "payMaxLakh": 11.0,
+      "locations": [
+        "Thane",
+        "Navi Mumbai",
+        "Mumbai",
+        "Vashi",
+        "Panvel"
+      ],
+      "link": "https://internshala.com/job/detail/fresher-sales-management-trainee-job-in-multiple-locations-at-bnm-business-solutions-llp1791789346",
+      "source": "Internshala",
+      "sourceType": "portal",
+      "fit": 95,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay ≥ 6 LPA",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "id": "portal-813ac54defc8",
+      "firstSeen": "2026-10-15T00:33:09+05:30",
+      "lastSeen": "2026-10-15T00:33:09+05:30"
+    },
+    {
+      "org": "BNM Business Solutions LLP Actively hiring",
+      "post": "Management Trainee",
+      "title": "Management Trainee",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher",
+      "experienceText": "Fresher",
+      "experienceMinYears": 0.0,
+      "pay": "₹6–10 LPA",
+      "payLakh": 6.0,
+      "payMinLakh": 6.0,
+      "payMaxLakh": 10.0,
+      "locations": [
+        "Bangalore",
+        "Hallikhed B",
+        "Korvangla",
+        "Karnataka",
+        "Chennai",
+        "Hyderabad"
+      ],
+      "link": "https://internshala.com/job/detail/fresher-management-trainee-job-in-multiple-locations-at-bnm-business-solutions-llp1790841318",
+      "source": "Internshala",
+      "sourceType": "portal",
+      "fit": 100,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "South / all-India",
+        "pay ≥ 6 LPA",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "id": "portal-e1a3b54dd780",
+      "firstSeen": "2026-10-15T00:33:09+05:30",
+      "lastSeen": "2026-10-15T00:33:09+05:30"
+    }
+  ],
+  "portalAt": "2026-10-15T00:33:09+05:30",
+  "portalBaseline": true,
+  "portalStatus": [
+    {
+      "name": "Naukri",
+      "ok": false,
+      "fetched": 0,
+      "errors": 10,
+      "error": "406 Client Error: Not Acceptable for url: https://www.naukri.com/jobapi/v3/search?noOfResults=40&urlType=search_by_keywo",
+      "scanned": 0
+    },
+    {
+      "name": "Foundit",
+      "ok": true,
+      "fetched": 0,
+      "errors": 9,
+      "error": "float() argument must be a string or a real number, not 'dict'",
+      "scanned": 0
+    },
+    {
+      "name": "Unstop",
+      "ok": true,
+      "fetched": 337,
+      "errors": 0,
+      "error": null,
+      "scanned": 337
+    },
+    {
+      "name": "LinkedIn",
+      "ok": true,
+      "fetched": 100,
+      "errors": 0,
+      "error": null,
+      "scanned": 100
+    },
+    {
+      "name": "Internshala",
+      "ok": true,
+      "fetched": 423,
+      "errors": 0,
+      "error": null,
+      "scanned": 423
+    }
+  ]
 }
