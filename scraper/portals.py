@@ -607,6 +607,9 @@ def parse_generic_md(md: str, link_rx: re.Pattern, name: str = "reader") -> list
     marker = _reader_blocked(md)
     if marker:
         raise RuntimeError(f"blocked (cloudflare: {marker})")
+    code = _reader_upstream_error(md)
+    if code:
+        raise RuntimeError(f"blocked (http {code})")
     out, seen = [], set()
     for title, link, chunk in _md_cards(md, link_rx):
         key = link.split("?")[0]
@@ -634,6 +637,32 @@ def _reader(url: str, timeout: int = 45) -> str:
     if r.status_code >= 400:
         raise RuntimeError(f"blocked (reader http {r.status_code})")
     return r.text
+
+
+def _reader_html(url: str, timeout: int = 60) -> str:
+    """The page rendered by the reader's browser, as HTML (keeps JSON-LD / __NEXT_DATA__ / RSC payloads intact)."""
+    r = requests.get(f"https://r.jina.ai/{url}", headers={"User-Agent": UA, "Accept": "text/html", "X-Return-Format": "html"}, timeout=timeout)
+    if r.status_code >= 400:
+        raise RuntimeError(f"blocked (reader http {r.status_code})")
+    code = _reader_upstream_error(r.text)
+    if code:
+        raise RuntimeError(f"blocked (http {code})")
+    return r.text
+
+
+def _reader_upstream_error(text: str) -> str | None:
+    """The reader relays the target's own error page ("Warning: Target URL returned error 403: Forbidden")."""
+    m = re.search(r"Target URL returned error (\d{3})", text[:1200])
+    return m.group(1) if m else None
+
+
+def _link_shapes(text: str, host: str) -> list[str]:
+    """Distinct first path segments of links to `host` with counts, to spot the job-detail URL pattern from the log."""
+    counts: dict[str, int] = {}
+    for m in re.finditer(r"https?://(?:www\.)?" + re.escape(host) + r"(/[^\s\"'<>)?#]*)", text):
+        seg = "/".join(m.group(1).split("/")[:2])
+        counts[seg] = counts.get(seg, 0) + 1
+    return [f"{k} ×{v}" for k, v in sorted(counts.items(), key=lambda kv: -kv[1])[:15]]
 
 
 def _reader_blocked(md: str) -> str | None:
@@ -716,14 +745,46 @@ def parse_iimjobs(html: str) -> list[dict]:
     return items
 
 
+GOOGLEBOT_UA = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+IIMJOBS_LINK_PAT = r"/j/[a-z0-9-]+-\d+\.html"
+
+
+def _iimjobs_api_hints(html: str) -> list[str]:
+    """API hosts/paths referenced by the page's JS chunks (the listing is fetched client-side)."""
+    hints: set[str] = set()
+    srcs = re.findall(r'<script[^>]+src="([^"]+/_next/static/[^"]+\.js)"', html)
+    picked = [u for u in srcs if re.search(r"pages/(?:k/|_app|index)|main-|webpack", u)][:4] or srcs[:3]
+    for src in picked:
+        try:
+            js = get(src if src.startswith("http") else "https://www.iimjobs.com" + src).text
+        except Exception as e:  # noqa: BLE001
+            print(f"[sample] iimjobs chunk {src[-60:]}: {e}")
+            continue
+        for m in re.finditer(r'["\'](https?://[a-z0-9.-]*iimjobs\.com[^"\'\s]{0,80})["\']', js):
+            hints.add(m.group(1))
+        for m in re.finditer(r'["\'](/(?:api|v\d|jobfeed|search)[A-Za-z0-9_./-]{3,60})["\']', js):
+            hints.add(m.group(1))
+        print(f"[sample] iimjobs chunk {src[-70:]}: {len(js)} chars, {len(hints)} hints so far")
+    return sorted(hints)[:40]
+
+
 def iimjobs(q: str) -> list[dict]:
     url = f"https://www.iimjobs.com/k/{_slug(q)}-jobs"
     r = get(url)
     if "/login" in r.url or re.search(r"(sign in|login) to (view|see)", r.text[:20000], re.I):
         raise RuntimeError("blocked (login wall)")
     items = parse_iimjobs(r.text)
-    if not items and len(r.text) > 20000:
-        _zero_sample("iimjobs", r.text, url, r"/j/[a-z0-9-]+-\d+\.html")
+    if items:
+        return items
+    # The browser build fetches the listing client-side; the server renders it only for crawlers (initialState.app.context.isCrawlerBot).
+    rb = get(url, headers={"User-Agent": GOOGLEBOT_UA})
+    items = parse_iimjobs(rb.text)
+    if items:
+        return items
+    print(f"[sample] iimjobs as crawler: {len(rb.text)} chars, links={len(re.findall(IIMJOBS_LINK_PAT, rb.text))}, isCrawlerBot={'\"isCrawlerBot\":true' in rb.text or '\"isCrawlerBot\": true' in rb.text}")
+    if len(r.text) > 20000:
+        _zero_sample("iimjobs", r.text, url, IIMJOBS_LINK_PAT)
+        print(f"[sample] iimjobs api hints: {_iimjobs_api_hints(r.text)}")
         raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
     return items
 
@@ -757,22 +818,67 @@ def parse_timesjobs(html: str) -> list[dict]:
     return out
 
 
-TIMESJOBS_LINK_RX = re.compile(r"\[([^\]]{4,140})\]\((https?://www\.timesjobs\.com/job-detail/[^)\s]+)\)")
+TIMESJOBS_LINK_RX = re.compile(r"\[([^\]]{4,140})\]\((https?://www\.timesjobs\.com/(?:job-detail|jobs?/[a-z0-9-]+)/[^)\s]+)\)")
+
+
+TIMESJOBS_DETAIL_RX = r"timesjobs\.com/(?:job-detail|jobs?/[a-z0-9-]+)/"
+
+
+def parse_timesjobs_links(html: str) -> list[dict]:
+    """Cards from the rendered Next.js listing: every anchor to a job page, with the text of its enclosing card."""
+    soup = BeautifulSoup(html, "lxml")
+    out, seen = [], set()
+    for a in soup.select("a[href*='/job-detail/'], a[href*='/job/'], a[href*='/jobs/']"):
+        href = a.get("href") or ""
+        if not re.search(r"/(?:job-detail|jobs?)/[a-z0-9-]{6,}", href) or href in seen:
+            continue
+        title = _text(a)
+        if len(title) < 4 or re.search(r"^(?:view|apply|more|see)\b", title, re.I):
+            continue
+        seen.add(href)
+        card = a
+        for _ in range(5):
+            if card.parent is None or len(_text(card)) > 80:
+                break
+            card = card.parent
+        txt = _text(card)
+        exp = re.search(r"((?:\d+\s*(?:-|to)\s*\d+|\d+\+?)\s*(?:yrs?|years?)|fresher)", txt, re.I)
+        sal = re.search(r"((?:rs\.?|₹)\s*[\d.,]+\s*(?:-\s*[\d.,]+)?\s*(?:lacs?|lakhs?|lpa|p\.?a\.?|per annum)[^|•\n]{0,10}|\d[\d.,]*\s*-\s*\d[\d.,]*\s*(?:lacs?|lakhs?|lpa))", txt, re.I)
+        out.append({
+            "title": title, "company": _text(card.select_one("[class*='comp'], [class*='company'], h4, h3 + *")) if card is not a else "",
+            "location": _text(card.select_one("[class*='loc'], [class*='city']")),
+            "url": href if href.startswith("http") else "https://www.timesjobs.com" + href,
+            "salaryText": sal.group(1) if sal else None, "experienceText": exp.group(1) if exp else None, "postedAt": None, "description": txt[:600],
+        })
+    return out
+
+
+def _timesjobs_from_html(html: str) -> list[dict]:
+    return parse_timesjobs(html) or _embedded_jobs(html, "https://www.timesjobs.com") or parse_timesjobs_links(html)
 
 
 def timesjobs(q: str) -> list[dict]:
-    url = f"https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords={requests.utils.quote(q)}&cboWorkExp1=0"
+    # The classic candidate/job-search.html listing now redirects to a Next.js app that renders jobs client-side.
+    url = f"https://www.timesjobs.com/job-search?keywords={requests.utils.quote(q)}&experience=0"
     try:
         r = get(url)
-    except requests.exceptions.ConnectionError:
-        # The site refuses connections from GitHub's address range; the reader fetches it from elsewhere.
-        return parse_generic_md(_reader(url), TIMESJOBS_LINK_RX, "TimesJobs")
-    items = parse_timesjobs(r.text)
-    if not items:
-        items = _embedded_jobs(r.text, "https://www.timesjobs.com")
-    if not items and len(r.text) > 20000:
-        _zero_sample("TimesJobs", r.text, url, r"timesjobs\.com/job-detail/")
-        raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
+    except (requests.exceptions.ConnectionError, requests.HTTPError):
+        r = None  # the site refuses GitHub's address range; the reader renders it from elsewhere
+    if r is not None:
+        items = _timesjobs_from_html(r.text)
+        if items:
+            return items
+        if len(r.text) > 20000:
+            _zero_sample("TimesJobs", r.text, url, TIMESJOBS_DETAIL_RX)
+            print(f"[sample] TimesJobs direct link shapes: {_link_shapes(r.text, 'timesjobs.com')}")
+    html = _reader_html(url)
+    items = _timesjobs_from_html(html)
+    if items:
+        return items
+    _zero_sample("TimesJobs", html, "reader html " + url, TIMESJOBS_DETAIL_RX)
+    print(f"[sample] TimesJobs reader-html link shapes: {_link_shapes(html, 'timesjobs.com')}")
+    md = _reader(url)
+    items = parse_generic_md(md, TIMESJOBS_LINK_RX, "TimesJobs")
     return items
 
 
@@ -949,8 +1055,11 @@ def freshersworld(q: str) -> list[dict]:
     except (requests.exceptions.ConnectionError, requests.HTTPError) as e:
         if isinstance(e, requests.HTTPError) and e.response is not None and e.response.status_code not in (403, 429, 503):
             raise
-        # 403 for datacenter IPs; the reader fetches it from elsewhere.
-        return parse_generic_md(_reader(url), FRESHERSWORLD_LINK_RX, "Freshersworld")
+        # 403 for datacenter IPs (the reader's too); a crawler UA sometimes passes, else give the reader a try.
+        try:
+            r = get(url, headers={"User-Agent": GOOGLEBOT_UA}, attempts=1)
+        except Exception:  # noqa: BLE001
+            return parse_generic_md(_reader(url), FRESHERSWORLD_LINK_RX, "Freshersworld")
     items = parse_freshersworld(r.text)
     if not items:
         items = _embedded_jobs(r.text, "https://www.freshersworld.com")
@@ -1567,6 +1676,7 @@ def self_test() -> int:
         ("Shine RSC", parse_shine, "shine_rsc.html", 3, {"experienceText": "0 to 2 Yrs", "salaryText": "12 - 15 Lacs P.A."}),
         ("iimjobs RSC", parse_iimjobs, "iimjobs_rsc.html", 2, {"experienceText": "0-2 yrs", "company": "Hindustan Unilever"}),
         ("TimesJobs md", lambda t: parse_generic_md(t, TIMESJOBS_LINK_RX), "timesjobs_reader.md", 2, {"experienceText": "0 - 2 yrs", "salaryText": "Rs 12.00 - 15.00 Lacs p.a.", "company": "Hindustan Unilever Limited"}),
+        ("TimesJobs next", parse_timesjobs_links, "timesjobs_next.html", 2, {"experienceText": "0 - 2 yrs", "salaryText": "Rs 12.00 - 15.00 Lacs p.a.", "company": "Hindustan Unilever Limited"}),
     ]
     for name, fn, fname, min_n, expect in parser_cases:
         try:
@@ -1594,6 +1704,14 @@ def self_test() -> int:
         ok = "blocked" in str(e)
         bad += not ok
         print(f"{'ok ' if ok else 'BAD'} parser Indeed blocked page -> {e}")
+    try:
+        parse_generic_md("Title: 403 Forbidden\n\nURL Source: https://www.freshersworld.com/jobs/x\n\nWarning: Target URL returned error 403: Forbidden\n\nMarkdown Content:\n# 403 Forbidden\n", FRESHERSWORLD_LINK_RX, "Freshersworld")
+        bad += 1
+        print("BAD parser reader-relayed 403 did not raise")
+    except RuntimeError as e:
+        ok = str(e) == "blocked (http 403)"
+        bad += not ok
+        print(f"{'ok ' if ok else 'BAD'} parser reader-relayed 403 -> {e}")
     for name, fn, fname in [("TimesJobs", parse_timesjobs_detail, "timesjobs_detail.html"), ("Shine", parse_shine_detail, "shine_detail.html"), ("Freshersworld", parse_freshersworld_detail, "freshersworld_detail.html")]:
         d = fn(fixture(fname))
         ok = bool(d.get("experienceText")) and bool(d.get("salaryText"))

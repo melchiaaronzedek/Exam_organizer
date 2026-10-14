@@ -55,7 +55,8 @@ The site is a PWA. On iPhone use Share → Add to Home Screen; on Android Chrome
 | Portal | How it is read | Notes |
 |---|---|---|
 | Unstop, LinkedIn (guest), Internshala | public search pages / JSON | always on |
-| iimjobs, TimesJobs, Shine, Freshersworld | public server-rendered search pages | always on; iimjobs detail pages need a login, so only the listing line is used |
+| Shine | public search pages (`__NEXT_DATA__`) | always on |
+| iimjobs, TimesJobs, Freshersworld | best effort: iimjobs loads its listing client-side and is retried as a crawler, TimesJobs is rendered through the reader, Freshersworld answers 403 to datacenter addresses | always on; `✗ reason` in the footer says what stopped each one |
 | Foundit | public JSON | always on; sometimes answers 403 for a run |
 | Naukri | JSON API | **usually blocked**: the API asks for a recaptcha from GitHub's servers |
 | Indeed, Glassdoor | rendered through the `r.jina.ai` reader | **best effort**: both sites bot-check datacenter IPs, so the footer normally shows "✗ cloudflare" or "✗ reader: no job links" |
