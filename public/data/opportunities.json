@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T04:00:46+05:30",
+  "discoveredAt": "2026-10-15T04:07:39+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4676,7 +4676,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-15T04:00:49+05:30"
+      "lastSeen": "2026-10-15T04:07:44+05:30"
     },
     {
       "org": "Kajaria Ceramics Limited",
@@ -4721,7 +4721,7 @@
       "summary": null,
       "id": "portal-3538a835c323",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-15T04:00:49+05:30"
+      "lastSeen": "2026-10-15T04:07:44+05:30"
     },
     {
       "org": "Wipro Limited",
@@ -4767,7 +4767,7 @@
       "summary": "<p><strong>Wipro is hiring for the role of Management Trainee!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <p>1. Accounting &amp; Finance Support</p> <ul> <li> <div> <div> <p>Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T04:00:49+05:30"
+      "lastSeen": "2026-10-15T04:07:44+05:30"
     },
     {
       "org": "Razorpay",
@@ -4812,7 +4812,7 @@
       "summary": "<p><strong>Razorpay is hiring for the role of Junior Analyst!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <ul> <li>Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately.&nbsp;</li> <li>Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T04:00:49+05:30"
+      "lastSeen": "2026-10-15T04:07:44+05:30"
     },
     {
       "org": "Marriott International",
@@ -4856,7 +4856,7 @@
       "summary": "<p><strong>Marriott International is hiring for the role of Sales &amp; Marketing Voyage Program 2027!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <ul> <li>Cultivate customer relationships</li> <li>Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T04:00:49+05:30"
+      "lastSeen": "2026-10-15T04:07:44+05:30"
     },
     {
       "org": "nuvama group",
@@ -4901,11 +4901,11 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-15T04:00:49+05:30",
+      "lastSeen": "2026-10-15T04:07:44+05:30",
       "trustWhy": "nuvama"
     }
   ],
-  "portalAt": "2026-10-15T04:00:49+05:30",
+  "portalAt": "2026-10-15T04:07:44+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -4981,18 +4981,18 @@
     {
       "name": "iimjobs",
       "ok": true,
-      "fetched": 297,
+      "fetched": 500,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 297
+      "scanned": 500
     },
     {
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 8,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",

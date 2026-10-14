@@ -1,7 +1,709 @@
 {
-  "updatedAt": "2026-10-15T03:59:13+05:30",
+  "updatedAt": "2026-10-15T04:05:56+05:30",
   "baseline": false,
   "updates": [
+    {
+      "id": "63aeb58e5a322b36",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Exam Date 2026 Out, Check Official Schedule for 470 Engineer & Officer Posts - Career Power",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE02V3d2bVpjSlVpRG5vbnJ6UnViSWU0MXZxb0otNlhaZ1ZPN3h5UndIUzh5MnByUjIwdUR4VVhrbDRSOEpvbVZldzNVSTFXNGV6dFptcEE2ZlBIbjROWVhUUFBRaTZsdXNUaG5XRXZKcjFzUkhBM3JlaFVn?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-09-14",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "847db55de34eeb92",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Notification 2026 Out for 321 Vacancies, Apply Online Started - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ua2lIUUlQMDM1RFJabXh2RkFUdWx0dWhmOWlVODFRMllQWjBtSzNXOEF6WmZuMTVzZXN0TGU3M0t4SEduNlI2VEJWV0xnbDdMRzJfWVREb2FjR0VnSThJNjZ1NHZNdWpsTkdJYXdLVk53T2cy?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "1f91b765a3796b82",
+      "examId": "nicl-ao-2026",
+      "title": "NICL Assistant Cut Off 2026, Check Expected (Prelims) and Last Year Category Wise Marks - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qcXRIMndQRlhnOU9KMWo3cEx0cjFXSFI0MlZlZmJTcjRwXzZpaFNpNVEwYV9xMms2VFZHb0ZNRHUtZkdBVEE2QjJVemF6UlpRa0trT1Brd3FjQVZXUFVpVzFn?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "1190b1fd499afdc8",
+      "examId": "nicl-ao-2026",
+      "title": "NICL Assistant Exam Analysis 2026 Out For Shift 1 and 2, 27th August, Check Prelims Difficulty Level and Attempts - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObFBTMlQwTXRpVGR3RjM1b2t0LWJDS0hLR2JWdU8zdy1OSi04ZWV4bno1TE8waEh6eTVzUWxPb1Y5RmtPb3V3RFNqdW1JeGFEcUFxMmtGNmNIVHIwaklfTTlPZEJuQ0lIRTRqZmtFU00yekR0dTFRR0tBVXppQTFEU3ltQXF6NkU3VGprR1JJaHZEaEVtVDJoZ04xZVU?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-08-27",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "b0c5c704fbff8dc1",
+      "examId": "nicl-ao-2026",
+      "title": "UIIC AO Apply Online 2026, Last Date To Apply Today, 1st October - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rMGxfR3hPbEJwVGc0akpMdDRBOTF4cS1rRDFHSUdRTEVfRGJjV1ZOeGtBbFRZUEIwSHpsbkxOR0lPUzFrWkxFbEpOYkZDc0VLZXA3SVNSVlBZWEg0QmVfd2h6c3pxdw?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-01",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "0131392f40a57593",
+      "examId": "nicl-ao-2026",
+      "title": "NICL Assistant Apply Online 2026 Ends Today (7 Aug), Final Chance to Submit Application Form - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90VTVhbGE1VFJpbzJsajNzeDMycjhNLS1KNVRrblpwNWhQR0NBbm9KUGpEM2ZuQ3dQaEJweG1tWnNoYVdpOC1aXzE5QjN0NnZaVlFWYk0zdmZPX2pJNmhNbXYySkppS0hDYlU1c0VLYw?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-08-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "862a8607610451ba",
+      "examId": "nicl-ao-2026",
+      "title": "NIACL AO Reserve List 2026 Out: Contingency List Released for Pre-Employment Medical Examination - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5vYUd1UHNjY2xpY1RnR1BwREZUMzh0ZFljOUw5XzREa1ZOcnU5ZlQ5dHpDMmd5dEFHSzVHa2hxdDZiQkhIMXZ2RkRsX2h3bURZVm9yZjUtdnNWS0RHdWN3WDg0M05vcWRULXM5Wmp4Tk1obk5YSmc?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-07-23",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "d69ef4e52b95a334",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Final Result 2025-26 Released, Direct Link to Download Here - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcWp5RWh2TVdYZ0gtZDJnRnNyeWpQbFZjOExiOXhFd2tRcVdwWktZaXBKU1VJYVlJaWVibGhoT2dtWnRuRHhjeFB2M18yOGFPQVRVSkhabTBnc1RZN3lXaXRjMW1DN2hnOWxrRk1wQlEyQjl0UTNtemVRTmlJbGg0R1BCMkp1NmRQR011MDhlRnBHeTlFbmd0OThxTzR4Zzgzb3lIMk9aOVRyZ2tlYmhTTFR2MVgwNFR1MzdWdDJESdIBxAFBVV95cUxNcTlaZWMwckozaUFBVk5JYmphMkdQQjZwbTNXN3l6OGE2cTBqYy1Bcm12RzJGRlVxLXFOZHhuTzVRS1FXZDlkd2swRW5OOFYybnljbDAxOWpmbjZKcTkzWm85ajlVbVZ0Y0pzbDF3cjdSSnB1dVlkWXNkUzVHLUNfZGhacWVXOXk3ZEJjVEVaajUxT3loMm9TcmRkZFhWS05oYUxUcXhSMzJaMDlCLVNQRDJBNXU0b3VPU3MyS3VMQlE3WDNL?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-01-06",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "1b47d8559df4c05b",
+      "examId": "nicl-ao-2026",
+      "title": "OICL AO Mains Admit Card 2026 Out, Download Phase 2 Call Letter - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9OQmFXSllwN3FMejk3aEduOXUwTmhsbGdJc0xQaFJBajlEU2VVUlpXY0tNRkd3S2lDakdFNHVvQWR2Q2dySGljclZIclFQUWQwQjdnY00wc3QzdWhlMXRaQ3FTWEJDMW82a0lZX1NvaXVhQQ?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-02-27",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "49d2a75c2c9c7b26",
+      "examId": "nicl-ao-2026",
+      "title": "OICL AO Recruitment 2026 Notification Soon, Check Complete Information - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wRGVkNWZmVGIySzN6VENHTzJtWVlPam1zTzVBb3pwNlpLNThKZXdiSk9yYk04Z2U5RS1tSmxGN21LMVA5NXE0MjRMV1NubWdEX0g0MUNMRWFtUUVJamc?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-08-06",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "d5c4033e4dee9ab1",
+      "examId": "nicl-ao-2026",
+      "title": "OICL AO Interview Dates 2026 Out, Download Centre-wise Schedule PDF - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44QjB5MDlWd2tYMDh1OFRheHcyOWFqc2UtQVVaU0FuVXVNLWRJblAxTlB2em4tNFQ0NlR6bXZZTEVpeHRsdlNBNmpYbmdmUEhOM2Fmak9zay1YWVpra0k2SXV6WFdIZnBsY0ppenVJT0FLb00xVkE?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-05-12",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "a01debf473f83463",
+      "examId": "nicl-ao-2026",
+      "title": "OICL AO Final Result 2026 Out at orientalinsurance.org.in, Download Merit List PDF - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnMkNra2NNRFNzR0lkMGVMN1U3ZmRlSXFPZ3hFalpIZ1dHSzlzb2czS0p3UlUwR2w5NTRKYlRqU1FXaUxJM2ZUck8tSTlaOEFuV2xQQmV5Q2FiaWdkaVhtZTRSenNpTWVjcXM2UA?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-07-09",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "5975e2c1cc627a98",
+      "examId": "nicl-ao-2026",
+      "title": "NICL Assistant Recruitment 2026 registration closes today for 500 posts; check vacancies, exam schedule a - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPQzRGS0pna0N3UWg2aWhiNE1PRFBPc1hFNHA3ZEJpODBaaUxRVXlnTjdwTmZnNXR0WlRmQ2FKOXE3LXNPYWVGNTc3OWFXMXpuTnNQRGJNdFBXU1V5YWxsSXdvelhWRzlDMzZta0JYbnZySUZBZnlUbDNyT2xGZEg5T2NobXctUjF1djZHRVg2V2ljMWdCQ3lESlZZc3VsbVA5Ym4wcURkSXl0cEtndW15cVNzcEFXWGYxN2poVkVKX0NJWExmdXlEQk1BcVNjUXRJXzlhMHF5Vlg1Rlp5eEpVY05wTHpEYXcyNXdGMEkwbENpdTRmOTR0bVdCXzdYODFzME5YSG1oU3UtVGZ6V3o1RnA0U1h3TnZGc2ZfNmVKNNIBpAJBVV95cUxPUzB6Q1hMQkt5M0ZnVFZNUWhBRFRZMHowSG5ZRlNHcHZCZTA0eFZaTVV6akw3ZmhhOXJDb00wZGdvaEVHZHowOG9XRDdTUjVCbHVIS2NnVkZVNmJaQWRXRXR0b1I1d3VyS2FNd0hoM0U5bGhlZGRybHdRWnhkbU54VTF1OXB5NnFJbml0X2dWaDZJZHl1UEF3R0NNRjN6T1NwRnRSUENVellRQjhuOE1yclJCZzJQMFFXcTZFN1J2R0paSVJBMDZpdjBLTEdsSU41S05aOXNJOUYtQlRxVlZ5TWYteVYzMkNFc2c0bEVhX1JSMm8zVXAzdm1NcmtoWFJBQVJCZW9kLTZtb3pUSVgxdjJvRFF1dm5zWjJaTVE3QWJCejgx?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-08-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "9913ae7e4ede697c",
+      "examId": "nicl-ao-2026",
+      "title": "NIACL AO Cut Off 2026, Check Prelims and Mains Previous Year Cut Off Marks - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sdzd6SEMwRGt5dnNyZkNwQXVzN0dUdUFOck5Td1hiYkxuRVVSU1BuRDh3dkdCd2xuLUVrSHpWVG1QajQzZEJUZnVWdDBLTXRkQUpWY2lTSWl4Zw?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-08-13",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "c33761db32afaf09",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Final Result 2025 Out, Download Merit List PDF Here - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lR2Y2ODB0M3NpNzdMNGc5Wl9BcFlKX1N2UHhiYW9aaTFPdm1fNjAxdDVaLVMtVTN0N0J3UlFGcUNhVmRkc3RuOGk3YTJjWnl6eVBuMUxaZw?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-01-05",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "e4cefa5f29b8a688",
+      "examId": "nicl-ao-2026",
+      "title": "OICL AO Cut Off 2026 Out for Prelims and Mains, Check Cut Off Marks - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YV3F6dnc5SW9JS2hUSkpkTlJ5bm5DLVdncWpQWlVVRFhPQUpKWUJSdmpHMHk0UVpBcmlZVUtVWFFXRTlhVklHVkhyREQzTWFLYXBubHh6Y2U?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-09-02",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "3379940c5bfc8654",
+      "examId": "nicl-ao-2026",
+      "title": "UIIC AO Cut Off 2026, Check Category-Wise Previous Years Cut Off Marks - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15bk5fN0NlSGhuVDA4MHpRNTFmb0xNeU9nazN4WHhFZXZKaG9iM3djd0RteW5DRy1ITDZ0YzJiakFiVVpxX2FNU2htbWozemU0UFVRSHRqSTA?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-09-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "7eb8fe51beae0a12",
+      "examId": "nicl-ao-2026",
+      "title": "NIACL Apprentice Recruitment 2026 Out (550 Posts), Today is Last Date to Apply - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9iaGYtTGRhcXpTRXgyYjdjVW8tSjRlYlhWT2lrX095T1F6RHVQOXNtZmtqaGxNNngzRVlHWXk1V1JVbXM1QjN1LTFsdTl0Q3JPZVpBSDZCYmtpbkl6SDZPNU1fdHNod3hNcUdqc0JldWlPU19FMmk5TkxMcTBad2s?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-07-06",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "554ec4578dad1190",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Interview Call Letter 2025 Out, Direct Download Link - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVHZwaEZTbUN2ZWY4alRSODlTNVhXdE1vOFhla1ZzbUxNUWp0MW03d25jUmxHeHRuUDRnMUR0Z1dqRXpXTnUzRGdFTmdxZjBoQUJsUHVkcnl6UGo0OERGYkdGbDdLSF9nc21HYl9nUGlEUS04bEpuOHl6YnVlNU1LcHBpV090dw?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2025-11-13",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "e59f042ad8b15285",
+      "examId": "nicl-ao-2026",
+      "title": "NIACL AO Interview Call Letter 2026 Out, Download Link Active - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aT3ExYUdBMG4xSWNqVmVRa0V6SkdPVnI1SnlObDJkYWs1a0ZnV3hXZkk1Tl9vNm9DV2tBQVk5YzlINEdxaUZPbW9ENElsNU82eXFJNzRPdnB3MUxEaU9IZ1d5aWZYZElLenN5Mjk0cHdJVlE?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-01-20",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "04019bdc6d71727f",
+      "examId": "nicl-ao-2026",
+      "title": "OICL AO Bond Conditions 2025 Latest Udpates, Guarantee Bond, Probation Period - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OczJPYVlROEg0YUZiLUJ5blQzSmI3VXMtd3pEaWxoNVpsTExPaXhCWld6OUFjVWJ3WXp4eVA0Sk11YlhFUmptVy1KSGN5U0M4Rkp0SlpMRXZIWFJEVHlUaWFZSm5ITy12NEJHU2pZTF9ZQQ?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2025-12-04",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "f6e81dedf800743e",
+      "examId": "nicl-ao-2026",
+      "title": "OICL AO Apply Online 2025 Started, Check Application Fee and Link - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HZnFIR0h0clVlX2szeG05YVJvQkVBcm1qOVNNYkFXNlVmbHVvVWtOR1dMZmE3MU1iT2RtUXZjMkRSOHcyblRyQ1ZnVFJ3MVNkbVUxMTRSUlRwa1FoczVWcTlZcU5MNmhSZkNXUVh0M2c5djJp?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2025-12-03",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "82c22efd44538c11",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Mains Admit Card 2025 Out, Download Phase 2 Hall Ticket - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wXzd2ZXQ3eXVPQk1wTGR1TWpLQnhWQUliY1lZOTJjNGk1LU1RekFwVkxvTWZ6RWVXRC1zeUU5aVNxNVV3RzhiVmRFOHpTeHhpZ2dKUUYwdGJrYlFoWnAtcGhzOHFSWk5Iem5DZXFzdGpadnFlemZEakRhSGk2NWM?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2025-08-26",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "0cf938b1715b7b1e",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Apply Online 2025, Online Application Link Active Till 3 July - PW",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WSFkyeXlaV2pSTUlOcXUtOTRSNzNNMzZQQ0Y4MEVEOTFCZ0NfODZQNmd5WG8xcXRJNF9zOS1Ra0J1Z0tHT19mdzNyVHpndXhtYzF6Sm9aVGFxQmNVTldlN19rLWNCUVJzMy1r?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2025-06-12",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "c15123d45f69295c",
+      "examId": "nicl-ao-2026",
+      "title": "NICL Received 100353 AO Application Form Against 266 Posts - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSFpacUpRMHlndzB5d3Bta0FLMW5TM09pbXcweDB1WWg4QklfbHZ1V2ZaVUVxWlRtbkZwc3dzZEItWVhKd2ljSzFacEVSYkV1cHpFVnJaemR5RFdUUjBsZnd1emtnemtZN25pTW5WdEs4emFqRlZJM2FNbVhwMG1aZmVlb2dfRUhrRDJlSVRpM29fdw?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2025-08-05",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "94b64546eaeb1aca",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Mains Exam Date 2024 Out, Check Complete Exam Schedule - PW",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HemZOODNzY3VsYmViZ0xtOXZaWm9SMW4xT0dXUXhON3FPX2RiV0pnMWU2WEtuaVgwTXRVV2tXRGliY0RsUmprT0lYMW04WkU4Rnh0T3Z6djJ1NGtHZmppclR4WEpoVE0?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2025-02-06",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "89978867762e7bd9",
+      "examId": "pci-aso-2026",
+      "title": "Press Council of India reconstituted; 13 members nominated - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLVd6MUVfLXl2a2s0bVpUcEcxd1B1aFptYWhDeVlMWnNWMWl5UUhsTkNINjdMY2hFRDNVR0hNTHpQQ0tkZXMyYk1XTV84R0ttVEMteXpWUGIyZXA5ZG9uanRvM0NXeHlhV1hpTzR2RUo3bjRKSHN1U0p6RVhhLVdDeFg4YjA3YVVTR1hkaVNfRGkxd243RmE4Q2N1X3VTRXBGaGcxa0h6TGhDWWtmcTU1WDZoNno5M2PSAb4BQVVfeXFMTmZjNUlsZ3d3QjRfMS1wbUZVT0RRLVZpS0JjblF5R014OEVvd2pQMHB0VFY5REowZGhybkhlelJKal9KTF9QU1RYbkM5ZVJPbG5DaWNUY2cwLVVhTmJBeExKanJoVVMzeGdwZ2VzTEJXanF2emp4OVV1M01yOXNvSkxXSld4Z2tJTDRtMFdBczFrN1ZpZDQ3ZE1PdU5Remc0UFJLc0NEaGh5NFl0VXRoUEZCaGxYT2t0SU94b1NSUQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "61ffbc288c4433fc",
+      "examId": "pci-aso-2026",
+      "title": "Press Council of India reconstituted; 13 members nominated - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdEFUNVhESDJTbmM2cVk5aXo2U1hQQU9yQWhwbmhLcmFOSnNaenNoelFMaFd3OHZHMDl5cmtQT0ZkbGpQcDdRcnJyUzN5ak9lQk1GNFBYVzJoemdmR1hWYmFwQnlwTEdKWU1BTy1JZU9xUFVmTUkxZzhoMV9IeW40UE5mVDJNY2U0WUJORTVYaDFHWjF4WFhIZ2RaTEdVTFlTSjMzNGFXRXlxX2hXcm5iVXE5bVluc1c5REh6SE82aDhTTmk2cGJGdU9oamQ0X2_SAdQBQVVfeXFMUHZ1Zl92OS1Bd2Q4dzMtSFNPaGlFQUQwb1Qzd2ZzSC1uZUwzTmdKdFl3SlJLY3dMbzN4S3BiQ0VjYlNnSXZ3TnJ2TEFwQWJELUJVM2M2VEpES19XTXBmaFJSa0RLSXRqSVpHWVl3VGszc29wblFkZXA0bmNLbWUtbmdBcGY5RkVFcE1FcFMzY0Q1Tm4yeDlpX2dsaXVQSWY1eUs4a1Q3dGxIMkZlOUwwOGpHSndHYmdmWkJMSTB0eE83aWxWdEVaZVpRYTl3QzZvcWVfcEI?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "78f811d7d4047a6b",
+      "examId": "pci-aso-2026",
+      "title": "A long wait for an inclusive and effective Press Council of India - Counterview",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORTV5a3ZQdThUcnBiZ0Rvc29mME9lekVtM29ObVFjOF9PbFlZTmx4RHNzeUdVQXhZVER3REJiOUw4MmhZU3NjWGJta2dVT0xtTEJmZzJVWkpzNlBsZVlWeUJ4TWpaTkpwekY1NGN6TWlhOXBwMzBORUUyRmlhZXppcnc0NlhUU1E?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-10",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "ba04d162388658c3",
+      "examId": "pci-aso-2026",
+      "title": "Press Council of India, Objectives, Membership, Latest News - Vajiram & Ravi",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWWZGY0FUekstcUtPdGp6OWJHbUt0STJyUFdMQXVtWkpMa1Z3V2ItMTNzNF81dXhQUlhoWG96MnJpZXpONVdhQ0pMWVI2bzdVN3lSM3dJZXdOX1lNaXAxUjdmZDdJZ196NWFiNHNFNEJqU2U4NmluODVtczVfUFZIN2dQcG50UEFuTlE?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "581588daf004d382",
+      "examId": "pci-aso-2026",
+      "title": "Press Council of India is Operating at Half Strength for Nearly a Year Now: Report - TheWire.in",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQODVfNVNLQ0p3M0lNYllVNWVtNkN4WnBlS2VxcEFfeHJQa0hBbHdWbFI4d0tRd1MzT2FoV1BUSkc1bzRlSW9NakZ5bUs5ckhmSGUyT0VuT0s1VGNWbXBVN0J2b1UyeEs5TUMyYUMwd3pGV1BRNmNiZnVaSk43QURjWVg5ZlQ5RTg1SzhadGw0QWwwTVY5SUg4SmJVekl4dDliT0RMbm1TS1JMRHlCM3R6QnpjRXpabTRNaG9PeWJR0gHDAUFVX3lxTFB3UkhtTjNPNFpBUXZ6NnFkNm8wM1EwcHhkYUk0dUt6ZWdJSkZtT3VXclR0M0ZGeUg3TFdqTWYxdVR2LVJKT1F1aUpRQU5SQ2JfbUVkaDRJMWlrTDJSbHJpUndBeDl1NVAxdE03UTZhUVBOYjgzRlluNE1jTDhJaDFNQzcyMTI1bmxuVE15dl9hWl9lTzJGMlJFbVZwaU9sODlaZTVxRlBJb09WTnFTZGc2WXlHZWctMmtDSW5DNlZYYlpaRQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "45693a844f37647f",
+      "examId": "pci-aso-2026",
+      "title": "Press Council of India operating at half strength, without a single working journalist or newspaper editor - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQklFcng1Zm5rMFpMMW5vVkx2OTJHc2l4cnUtT1ZKYUI2RVFMc0pQUFgxVVBpWHRBNldhbHkwNVRaenRFVFhYVGx1aG9kVGk1cEs0N1JWV2RMeTRMRnZBSEdrbFZKeTdZVmFYWkdtc3NqaG9pUTlvUzloNGhJMHlNcEFZVGhTQzVmaDhNR1BkMmY0WDE1T3Y4alc4ZjdsZENQenBWa3hoekFWdXNoX0ZoZDhFY2rSAbsBQVVfeXFMTzJ3cEtQb2NTdFVmX3pDRWJTaml4MDZrM0gwSm5sSjI5NjNGWEhVTlRSSzVQbmFjc1B2MnVBU2swY2ZwckZBODh0X3d0XzJjVVp1dFhkTUdpLVhhdWNjbXZvVXJsWXVnZFl0ckRpcllOZEptWlhvcHAtVmJTQVhrMzJMd0pvQ0JLRC1BRXY4dU51T2kzRGRXY015cFNINURscE9fYmlaUE9aWlFaZjBPZGwtTDgwbjc5YUpHSQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-06",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "ce2362e09cb3e566",
+      "examId": "pci-aso-2026",
+      "title": "Centre nominates 13 media professionals to Press Council of India - India Today NE",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdW1nb0FVM2dUQjI3Y1loQUd5V1dNcVE1UmZJWVY4dDBUeldJWUxLb3NsQ1gwOFNnZ1RyZmJGVnR2YW5lenk3NS1jUnFWclA5cFo2dnIwOFJTU1c0YlZfcWdsOG9EeVNtYzRVbG9EbUFiTmJZT3BXTHlBQjV5bDQtS0w5ZHozSnlLR3dEVHhaZnV0b043YWJqSU0yVC1VWW9vU3VURDVROEh2cWVjWUFZc0RSdDBMTEhFWHNaa1RNQnVfd9IBxwFBVV95cUxQSkZRVk1GQ0J2TktBbTNoRzVQdUlEQTY0dHFhbmhGMkxXdjJqYkVRckRvcGhWbGw0dXJEZUpIdEJGcXpMQXEwbjBtV3lEbGZnc0Z1cmpaN29VSmxlbnZISUNsUkxKQTNyeFJhMlFCUGhDbzM3UEZvNnBlS3hEVmxmcU90aUdnaGpWdHFNOGJCR0xpODRGaTJsTnVJQnRrZjgwd1ZjUWQxUUQ0cEVvZ2g4am5jQnE2Z1A1ci1WT2FNU0ZWTXJlSWpr?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-10",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "ef182f1c185ffe59",
+      "examId": "pci-aso-2026",
+      "title": "MIB nominates 13 working journalists to Press Council of India - Indian Broadcasting World",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkVzFYSU9pRENFRHlYVERXcDlqZ3Y3dGxaN2MzVmZXZWs1dWdnOFp5UFNvakZmT2hoYXNsc3luWTlxVDJkU3ppVzlmbnNTa2RHdnVpSmJzUm53ZW42R2F0TG1tc3BnaGYyemVpRnpQTUloY2FUU2c?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "a92ae6895c05e116",
+      "examId": "pci-aso-2026",
+      "title": "PCI invites news agencies to join Press Council for new term - StoryBoard 18",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPb0hVLVhqcFEzMUVPZjktajMzVktwTDR1Y0lEamtoMEZFbXNpbzRzdmZDOWp1WEVKdE00STM2cVNISW1mYW5maFl2dnBCSFVIU3NxWGVWamlxT2QyM0lXVE5RMjBITkRfQ1hkNmQxOFpTTGVIZk0tTWJZZUxnTG1LOVhmd0p0ZlBLcDQ5MmNJbHBTUUZnaVd4UE82d2g1VXdiVkhTaDhibGN0UXREd2c1RkhaN2g3S1NubGhER1NlSnk5SExLcFh6cnFxMk5PN09JWXFn0gHYAUFVX3lxTFBKampzU2lKLVc2Q0t6Zmp3Wm1tamVaX1ZOelV4MHk4dG1FY0tDaUVyZkpRWV90aHVZTDdqckllSHBVckYzRklHMTVHY250ejY2NXJDSWYySUU3TmJCajNmclM5WktDRW9wbjVqNC12MGU0c2R3QTRZekZnZU1RTHQ1TWJfamlLaFpJeWRsNWtaVURMdUlyZDVNM3ltb3EwWWkyMDVKZTdYVkdSNGJmbVY4VEZreHRpX1VPTDJ6OVNhamloaTQ4aFM2NjQ2QmRuSFUzVUwtcFJTVQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-06-30",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "426055542811e54e",
+      "examId": "pci-aso-2026",
+      "title": "SBI Clerk Salary 2026: In Hand Salary, Pay Scale, Perks and Allowances - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GUlF5THgzM2hoUUMwdFhacjRXVm81OVloMU1BU1c3YlhFMmxjeHg3alEyUGZyR1BKUUhnUzkwQldmcHVJcGRTUzc4Mm51UXFaRXEzOGdtTWFfQQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-09-22",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "1a28a724545c508b",
+      "examId": "pci-aso-2026",
+      "title": "DU reopens inter-college migration window for 2026-27; students can apply till October 9 - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOZi1GNHBwT05kaWVQTm5qX1hVMFpTWmVaNThyYXNwS3AwaC1YaXpGZVJGdWdGOWIwc3JsNE96dHpoU1liUG41Zmk1RVh6RGpDQWFvZVJJZG9GYXppbjFpczItdEZGRU5kMjZTblRvUjFrWms1Ni1DZERHa3hwWGVEVFliQmtPODNCOUhwM2R6UnhRZk1aQXVxZ1Z3ckU0SEl4MHF5LUp4cTVsUzI3eUNfZVlaODF3TlQ3M09YeXFoX0RNcjZXel9nQV9WT25xNExpYjhhNW1pMXQwVE95dTNmLWdvQjZBaENzUzBuLXFRempzZHkyYlNR0gH8AUFVX3lxTE9PaFQ2NHFMbmhWdDVpTXM0SGlCeWcwVDNjOU1xWkhTTHo0aEJpZFZzcjVvbUd2VWs0QjA5dDhYRWs0b2RjUzBnSnlsdm1jX3dWTjBrc2xrRnpnLWtRWEcxRW9UTFBrWmp5ZVg5TlNJWS1EX0ppZldaM2lBYzlSeEI3U3pWTVVJUkNHY0ZrOFVFZ2hKcEVzSWVlTzFzLUx3R0FxVXhLbXI0WlR6cWN1ck4wekNPRERlRVp6NjZOXzJ4akoxQmxsRGU5XzVpSWdWdjRHcFc3dUNGc2dGa1RRR2VjaVdHTHppRFIwUjFUYjBKQzJnSy0tZkVxdWFLaw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "7bef6ad5623370d2",
+      "examId": "pci-aso-2026",
+      "title": "AP LAWCET 2026 Phase 1 seat allotment result today: Check result and reporting details - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaGx4S2ZMWENtUGlTWlNXRkRNQjRwNFBLVHBDS3lrZ0xZNWNEOThmYkZVU1NZdDdwOGphd2FmTTVPSWRfdlFpVmxVOFd1Q19Ob2dVb21WRFdJbWgzUkJobHlaWVhVTENCcC1NbFZqbTIxOEVBSGFLeHl1dDk2N19yQ21sbS1LSi00TmFXRVhUTWg0bDZKc3ZrRlh0ZUJVRjM2SjI3S2dQenJ2dXZzRmVEdzRUdmdiajYwaThwSUx2b1BGVnlhNzNFXzFkaV84VDV4QndOZ2lxLWdxNlVBTmtZaDRnY296SHNpTnBoTHUxYmpXZlRE0gH6AUFVX3lxTE5zcERDaW0xMzFLa1hlUzYwZXRvMTNOZXpKVzBoekF3OEZiUHRfYl9VbXN4WGZwNUNPNlROMEtpWnB1cVM5YTVuRm1Fd3pBZWthbU1Wek9ZWmk1R0pMWHdaY1hLalhQV3RqbkV2TFI3Ym5QOUpGWkdFakRWaE82UTNqdzlxS2xxN3dNaVBjc0V5THBJbVBQNmRybkJtSnkyY3FMbnJlaWxPVFhwSWo5ampIal8wckpKYVc3amdUcXQyOXYwQ2l2TmI3b0FUZmpFTUxGczJQQVdudTkzT2VZLU91ZkRqWC1YV2tidS0zbEZoaEFpTTBvTVFPbkE?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-06",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "2a3915741eba38c3",
+      "examId": "pci-aso-2026",
+      "title": "Former Punjab and Haryana HC Bar secretary fired at near Kurali, escapes unhurt - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY3E3SDJRRXBSd25yaE0zaDhtQkdwM2pXRnphSTkzZGJnNFNhQVJ0QlFfalhoSVJ4TGhBMEFyb1M4bzZNWUZ1cERSSVdNaUgzUEY0U09tc1BvV2JUSUotcVI2Q1pxdUFEVzl4aTl1Nl8ydlVDcmpkRXRSOWVnaHo4NDVHRE12dEh6bG5CQ3BPUzkxeGRJaVhYNWxXVFZLbG91Q29mVlRVc1czaTdFbm5sdy12eHBWSDUzbDdZdTkxeUY0YURTaXfSAcwBQVVfeXFMT1lFR3pXQzEtMldOdFpQb19SRURxOW9FV0JiVk5OVFFqTU56UzVfMlhTR3pxTDV3T2JJblRYbFhKSnJTMkxETktuMlZpUEZObFlsRjNUYjd4anNtd2tXcGZPNGVhNHlOWnN0X204MHpQTm1RUkhtMW1sMVhtUkR0QkNCLW1qbzlObHNUeUlOd3RzZzZFbFh1eFh2Y28zWFVJMk1nSlhwUk1kRUZwcnp0VmtCUGNBckZjNHZHS182UjFzaVBtcVVIYXp6dkxt?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-05-19",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "188ef084c93a70f3",
+      "examId": "pci-aso-2026",
+      "title": "Punjab Police Constable result released at punjabpolice.gov.in: Direct link to download scorecards - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQcWI2WVA5MFhndWFmT2NFcHNBTk9zOFY1YVI3ZUJESElfLUJQNE1TcFNRaWhCRjhOemZramlwSnhjeG54Y0NtQV9rUGhQaHpZYWVmd2hfcnNrVEZGdEVIdU5ZaDdUSGlBcFZsa1JTQktwRFc1akRrNTZlckk1akp3SUF1djNSUXo4cjR4ZzgwQ3hpSF9uZzRJbjRyVElLTHNWeGZIMlBkenRRN0IzZWJ1WTBTRllxa05aZW5pV3lubHdyUGc2WXFyd3I3SERsMnBZWkFGR3Q1dW9VTElVaGtmZDlQejRFQTJub3FUZkh2VmpacklXVjhFRFpkRVg4XzNxLUpsQdIBigJBVV95cUxPUkoyUnZ4Y2RJV3FCSHQzdnhUNTNNaEpqMkwweXlZcEVTVHdtdlY1Wk1TeGd3aGdpYkJ2aThZUWlOenBWS0hTeTlrcThUMU9HWXVzcWIzV0lOT0NwRnZKVk4zTzVjSWlwQVNpcUFYZnBvZ25BU2c4UFIxQ09EQ2ZoX01nT0dET0xjb1NmNHVEUEJGaDJKWVZxQ2Q1MFRndzRWcDdUT2hLYUFsT1dZVmRoQ0hBWFB4NlY5djdhemhvdVB5MnZveWROZGxJTlNSRDVHS2QwX3g0bHl5c3VmSjN2NFN6MnlUQUE1cXFoRTMxNGttR2xROEZGMUlXLUJuYlhWVHJfWjY5ekN5dw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-04",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "92b8934cb91ef468",
+      "examId": "pci-aso-2026",
+      "title": "Media Bodies Seek New Press Council of India Head - Kashmir Observer",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV18xM2ZiS2lWWXJ2ZHgyUk1HZjhQcGFlNklEc0NNa3Rka3gwYjdIT0hfaWhuR0NtVnNCd3lzaUN2V2tncGFNS2ZuYW9rWnRxcEtnaDJtTUY3UG11T0tfVGdjVDhVTVhiM3hVUzRQYm4wVGdtMzdTUFF1SDcyM1lydml3Y3l3RVltZFJtRGs5ME1nWU0?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-01-18",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "0e10149cd6410acd",
+      "examId": "pci-aso-2026",
+      "title": "JKSSB recruitment 2026 notification released for 518 posts; applications begin from September 10 - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQNE8wejAtM1lCZWN6RERFTmhQVEVKLUd0UEZNMHJLYlRGUjVEUHNQcjF5TEJyb0hpYkRGWTVaazJKb2VyeUtMMU9xYmJ4Q01Xd3h5LUFiZkl4SWFCSE5WN1k1MlBZd1B1MDRGMmJTTEo1T29NSzlBRURuOVJDaXEtc2RHV2FpVHZOMFFNMkJ0UENtVjZRR2dpcXZwN1FDc3F3REw5cVM1aGtWYndVWXFxX3ZiSmQ5U0lQSjZ2clhuNjJzRGtVUmRpbldVS084bXdRSFczVlVwanU2aUNaai1pSS1HRGMwbEhCZW1xTmxlRkJuV3hicEdNU3owV1JEbEVyWmfSAYcCQVVfeXFMUGlhMDdHbkFPM2FlYVZBcGo5bEFURmpuVmpaM3BlNmExM0ZJNTFnVEgtSl9kTkk3M0NIcjRGTWljVEFLRV9mdmdFbno1b01IYWpzNmFzTm5vWEQtN1EwTF9rLXNmVXF3X2FUZmtMSTl2c0plTENRSjFScmg2YktUUllKRWt1MkM0dnpaUDNiaUowb1BydnZ4VVBKQ2JXcE90VDFhWUJzejJZZXRpMVYwbzVkUzNfRkpYYWxCRGxHcXdKNm40aXVtcHZXeFUwWGhJU0RWVURUTWsyWVp5ZTVzYVFya0UwMjVqdTh2WTNySkJiU2g1YUZYeG0wd1R4em1xcUt6R3MyZ1E?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-08-05",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "70bb2709c021c785",
+      "examId": "pci-aso-2026",
+      "title": "Press Council of India issues election reporting advisory to media - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORFg5bGFCSUxOemR3VExsVXExd29LcXBNZXRmX3NKV2JrZURJVlJlQ2hhVEtWNURHLUJQLVZNRzRZenVqRmE0Q2NBZU5UVmxOUk8wU29FRzdjMUpTc1BfOUtvTkVOQ21rWlZyYVdWNFhOWjl5a0E3Y01iODlTV1hyRk5DNUppVFpfbEJqNkJCeHhMQW96aENseE02T3UtVVBQalBvY2thcDIyQk1MQjJfMmRyaEh6czBHSWx0R2M2c9IBxgFBVV95cUxQcXBVQmd1dUtCcFM4b2hDbEtoYVVaYjV3VjlNcVNPUFMxVXZXWmw0c1lsV2VVX3U1YmU0a0ZCX3hJSkpKaTlIX0NGU2hVQ3A2enlKc2UxblJPTGRyNlJNZ1JuZkhlUjdOT01QMzZhdWhLbGFoQVRmTmZoblhOQ1FtZG82MVA5aURlSGM4NkFPN1h2RXlsaVpWQVpZUVlHcVppa0xzY0d0b3BpNnlTNEVwdkRyNXhSQjZmTnlqbTNKVVhpVDBITVE?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-03-30",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "b25c32c7a6dfedfb",
+      "examId": "pci-aso-2026",
+      "title": "No bias, no paid news: PCI draws red lines for poll reporting - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNR2cyLUJlbEZaMWdyYVVCOHNDa1VPQWNkNWllS05rVE9DNUFMUjI4b3BnVGpLdHVicjVQRnVLRjZOSXNKNUhRbnhIQ3hJU0xUakZLSkZyWVVnSTFhRThMeVFYcTl1N1BEbzRqSnlKN1BCalRuZUNHcmJWZERZSnpRSjd0WFp4Yk90N1Z4RHRCY3pjcVBnc1JrUnBfdTY3TEpIc2E1ZTVxVUNyRUdmZTBZcjZyYTNwZ3U3RGRXekRmd3Q1VzZNWnfSAcsBQVVfeXFMTmpCYXVBN1YyMHI0cDhsSjVwWGV4bWZjN3g5TE9CM042SVBOMTBaU1lYdWduMnJfb1VNcDdlUzg0aHkwYXFDNlM3TTliX05XY18wWUhTZXNhNXUwRVlRVXNHSnU3MDM1cW9ISGlOeU1FSXRDc2VVUkp3ZmFiYjZzaG9YM0NCUjgwTmtyZ0paalZqaENtV0dpRHo2cjN5enZPWG1uSGZ5UVlzVGRXb24tQVltNEpURXJWTE41WGxwQ2x2V1NWdjZUbll3aDg?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-03-30",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "290abe3e89107555",
+      "examId": "pci-aso-2026",
+      "title": "HC warns digital media to follow code of ethics - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOHdGR3VKdWFRMExtOUhqdy1YU2E1OURXVU1HRUdxZk9JVTduNzdUWTYyX2FwMElYZFBaNE50YW85MnBiTnFqNHB2SGhuanRDUU5paFBpZ2FjZU1GNXBhQ1E4b21aWFJWMEZ6b2dQMlpPREJUbjlZbHV1T2syOE9FdFl4TlZLeGtqZDdkb3hVazBBTnZtd0xKRGczNHZkNU0wazhSbkl0T3liUGcxUFY5RFgzQWxnLWhmWU5nWjBfdErSAcYBQVVfeXFMTkNaMnhFbnNiVUZha1MweEh6dkxHT29DQUllU3JQZ0RJVXhtZ3hFVV9aSUszaVZVTlJucjFLS3BFM0t4dDc4U1lfM0ZMT3dWdzhsOS1QaVY0RkhlUHhlUTdReXo2cC10YTJnTGl2RkNhVzh1anBaY2tqSEc1dmZJVXlrNnBibGlVck1fMFNKaWxxWHQxaUpTRmx2RVc4ZklCbm9xbU9qblg0NlBTSlJDSXhya0wwa055dzFTTGQ2S0ZvTWdmYWR3?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-02-17",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "3d215a35d3aba748",
+      "examId": "pci-aso-2026",
+      "title": "I&B Ministry notifies names of 13 journalists as Press Council members - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUpkOUdoY21BT2p5bS13cFU5TmlMTnQ3b0NtQjRyR2VoclNvRXlzSUV2WFZmNUpPVzdLcWVyWC1zYnRaYjIzcXZ5WWpEdTBBZEtWMzRtX3RYWUtyVXFlNDFzNjdzT1dRWU5MYjBhVzMyb3E4dzVfV2pYY3VJWmhuOGZyZkoxUURTR3ZjMFVzSlBpaTdPU3ZVNmRTSktfdVFCN05B0gGqAUFVX3lxTFB4czVxWGRWalc2OXAyWVVlY0Z3RDVzLTc5QUZLSjZ6czZTWGcyWDRlZWJpbEdpTWtGdUJvYnFiTnhOa0hOT291b0VXZm1EUFlUclMtcFhxRW05ZGpZbWhMR2NPakpqZUt5MjNMTUpzRDZpdWlnSUxrd0F6c25Ua1VISi1fZUNwb0I0OEJ1VkUxUGJsT1B3cXpSYUZUSnZJTGFteUdNOXlMTWlR?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "9997c8206a684eb2",
+      "examId": "pci-aso-2026",
+      "title": "Manipur Journalist Bijoy Kakchingtabam Nominated To Press Council of India - Northeast Today",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcWl5WDI2dnRjekJrMWpyUERMa2VXUzBfWUkwRGk3c3VqeHVBQ2xPODBDZHI5QTEwTDFwMWZzOHpaeGQ1V21JOFdEX2hLOUR6cE1IeU1mN2tnbEtQZmNiQVl1MEtDbktUTVJFb3M2SVpyWkJDajhXeHo1bDFMcW9VQ1pwbmx2bDZJaThSUlQ0WUZNTkdzX1RwMHVHclNJQ0FuamVNLUwzU2lXVExkZTYxUg?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-09",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "5e0993b4c447f050",
+      "examId": "pci-aso-2026",
+      "title": "National Press Day 2025 – November 16 - AffairsCloud",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5tQXFaYllESVQ2eDdLX2VIMFRCeDNyRmw0U184aktwZXppdUFvazVzN2gtOWpsRlVzY05tbWJ3UlVjRWd3Z2tKeWl5ZW1VUFluVWh5ZnIzcEg4Q1BnYVhuMk9SN2FROEotSFJWc3d3?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2025-11-17",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "3a628a493487eee8",
+      "examId": "pci-aso-2026",
+      "title": "Press Council takes Suo Motu against Dainik Bhaskar Delhi | SCC Blog - SCC Online",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcVRTMkh6cy12T3Bua3dqV1ZLQnR3bEJyR0hCYk1BLS1DcFNHV1I1TUYwNlppWEt2WjFpbE50NE9OSUQzZWZvNTctc18wcFlTSjB1RUYxMDFpa3o0VDFvMHJhdHl0RzZ6SlFpUkRjdFlGMlpMLTdHcEt1RGJjSS1jbHA3UUFnMkNJcnhXbDFUTXRlOXViLUxzcFFnOFFncTg0Z2RGaXFmTk4wMHZCUU5keW00VGJhX0N3eTRxRmJKajBIc3M1SzlhOEpB?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2023-07-21",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "d525e230f987a9ec",
+      "examId": "pci-aso-2026",
+      "title": "Crackdown on fake news: Govt to amend Press Council Act to bring influencers, creators under its ambit - Storyboard18",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTnk3SDRmWVVLdEZtbS00OTM5dExqS3g1M2NDdGlSS29lNjhwdl8tT1BKYzAwbVJWZUhfWmtuTExRci1pSjJyUVJxQXh1ZTZDVFA2TXRyTS1PaWx2Z3hkSk9PRUpTbXZvdXhERlRrZjRxN3hBNWViU3lXWVFHcWFDS01uMmhyRmZseXpra05xM0FrS2RVbm9vVTRuLWVKb0RFRXBBdng0YWRvS0dQRVJ5aVNvR0FzdlRsWm8xZDZUS05NemVSUWNrVlJUQzhseDFoYU1ocWNickRJLUZ0VDRoedIB5gFBVV95cUxNSHpESWFPbXI2dWUwZWI4NmhIRThCemtRcE02SlliTW1kT3NiM2tld1ZBYTJyNVdaS3FPQ0NfbFpIeThVaV9nUWlMRjNubUN6VHQ2VWFnTVFoMmF3a2ZDS3BEM2NKRjNNLU5ZanFWcUswbkdFVmQ3UWhKN3Y2cjFUNUJzRS1mZmNxTnRDdjZKX0U0V2xFVDFOYTViLTBxRnBoSVNYTUlYUjNXTmkxMFZFaUZ5dkJQay0yVk1uTTdZWW4xZnJMMXlmU2pEWWxsOU1CZWRKMVQ4U0htUVBOMGd6UjYzYzFodw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2025-11-21",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "e1875669fa5478ff",
+      "examId": "pci-aso-2026",
+      "title": "APSET 2025 notification released by Andhra University; check key dates, eligibility, application process - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUHRZd3dmakktbzZ3bTJDQjQ4OU5JOW1wMWsyZUJ0X2RHS1FseEpwbkVvUmNyZmN3bmlpTGhYQlMzaWlORV9oSG0yS0R1WU0tdzdIMVBDY2ZWbl83UnlHaEVGSTRSV0ZMX2J2ZlVsclJjeHZQUjJpNF9ycWhYWVBFb3phY203OERXalRvN080eVZoY2pIRmwtWFdka2lUZURzeTc3S3R1WjFiaUhmS1dnaUlSMmpzX3plYWFUT3gzR0huaUV2MVdjQ252YktZV1hib2NVQjlYMWoxTzJjS04xeTF2akFmYng1d25rVjEtSEZGeVFlQzN0OERvMmFSLVMxNGdrdU9JbmRkbmJYZkpEN2ZicjNXYmxBLTdz0gGgAkFVX3lxTE8ySkRaNDdwYUtha3ZhdVc0U2NqYV9saFVpSEJwMnpnZzBncXZCYTZkY20zQndwc0laOG5TVENRTFV6MjU5bzZRZkxlaWtTMXp3U0tHRlRzOGZuTVFkQWY5QURtSFhQYzlQSTZWWFh6R3hPWVZ4T2JBSEpFQjhxTmRjUl9lVW10M0xUNmlRMTVYTmkyUERqMWJPZFVWdFdhTXZnQkRrSlItd1NsWDlETzBVYXZFcFlSWURQbWpQdzlQcndjZ29Obk5LX0FBc04yVFA5d3ZuTjMtYmpCbzdNa19OQUlMOVl4SXRSa1hQMXFMNFQzdHVJUy1Ybk1yWERSN1NLUjFSYm54SUQxdWZuM2NwR3VQWGlwQ1hFX3NZaEZBaw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-01-02",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "7a2b2b733fec0073",
+      "examId": "pci-aso-2026",
+      "title": "UPSC Prelims Current Affairs for 7 October 2026 - Vajiram & Ravi",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFNUYXZzY2RZWnRJYWV0ZGhobFR0eXVIcHBYRUp5UWVDRlA2NHQ5SmZROTd6WFdQejBObXVELWlpeXZpMy04R3ZZTmJZcUppX296TC1hRVBjdFVBZkprbVlWSmJqS1RIeW5ReldxN2t0NmthcklUaDJ6cjlMWnJiS0ZiMHVnYzNzWWRz?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "d05f583fc6c122b8",
+      "examId": "pci-aso-2026",
+      "title": "Women journalists allege sexual harassment by cops; Rahul asks HM to answer for Delhi police 'misbehaviour' - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQUFFclNSTUc5VFVfVEFUWUR0STBxeWNRcXpBVUQyUFRIMGk2aERkcHY5dkdCa2JHa1l3Vk1nVmFMaUtEWVFPc2Z0RVBaSVQxbE93MTEtVUx0cG0xc1FEOGZvTEc4RlZkdTE0dU5RdF9NZjU0ZnpxTXVvaXJfbVVvdWVjNGVzZU94Z3BFUGhCdDJNYVN3aDFvdXNGeUgtSktESU9nUzRWOFVrSVpWeW95QTktRG8tTlh0cm5HdlFIWkNMVzM4Vnc2cE1zQnFKakJ0VmY3b2V6Q0ZNekZ5bnBMdHkyclptaS04bVE4LTZuOE45WXh40gGCAkFVX3lxTFBUQ3hJbk91T0ZybzhDYnFBUGRtNGlEdmZjckdpckRMX0d4ZWM2YTF1TGxmSFY3NmFwRVczR1RlVUhSdlhPVlBWZjNoMDkxRjhCLUZPSU5SWW5XSTRkNkdkOU0yZFhqNHlsdjROMVlzdDgwV3NEZkdfb2FUWC0zbjA5RkhQdDNIYkNQcGhuOVM3RFBTTnljeVUtRGJwcjgyWk9YSDVFWmQ1bmJHdl9mb3VSUlNjc0xQVWpGMGVqYXBUSFFWU2xUOVo3VFpsTjZJWHI0TUxPYnFRUnBjLXNZNnVtd2tLOHkzZnYwVUU4VnhMLUYzUEE1MGtqMlNKRlZzczRodw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-04",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "63745614a2157eaa",
+      "examId": "pci-aso-2026",
+      "title": "CHANDIGARH SENIOR JOURNALIST KOHLI NOMINATED TO PRESS COUNCIL OF INDIA FOR THE SECOND TIME - Face2News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTTVOZGR6SzNxUnYzaDRYWXV2NVlOeTlYckdPLVhkU010UVhPU2VFQWYtNmdjSTZRVldjdVlwNW5yT09FdUVnLTRrZ2g2bFA1cmR0dnVUTVlNT0JiOTBnbW81WG90N19oYkMtS2NlVDdXMWZ2aFgzRUFLMFRlUk9BeG1ZVk1MWUxXS3VJZUgwS29zX1hzSW9nQ2lvMzRYTi1Xekx1ZktELTBRX2gtU3JjcHpVZGg5VVBFeVE?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-11",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "6bd2abd21c72c2f7",
+      "examId": "pci-aso-2026",
+      "title": "Madhya Pradesh sets 60-day deadline for UCC draft, plans rollout by Diwali 2026 - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeTREc3dweUN5bFhSdnlXRWhob0NhenRHUnR1X1IzWVU4ZkJpZjJpbUdiLW1Fc2Y1cDFSSlUwaG1wN1RWS0pFa1Q1NldnR2JSaV9UTmhzNGZ0ekpzRXlHTXhNZUk1TDhzbDh2cXZrOVI2ZTk0THlkNVRYc0lmOEp5MDRhYTJuUzNLeUNxVlQwSnBYc3MtQjhTUkhLQVFGdVd1d3hzR2hRZkV4NE13RFNRUGlpbWVLenVPTHBGdkZGSlhOb05iOVFwcTBrSmw5UUlrRURRMGFSLUZkbWRkYnfSAesBQVVfeXFMTXNMeDJCekhzOXpOLU9BWXFYa2Z4ZHlaY0R2NUp1NnpRcDkxc1B1LVAzaG5XRDhzamdKUFpZZHFaQzJvSEowVGR0Z29iM1J2V3JuWHhVaGlCQVN3clpUWGl5cWx4S1p6VWFsWFBFMXFTR0JhUWEzaU5kUTBWT0R3OExod183WkpoUUViSW5UZnNLSUlncnNtTm1ZVTJScGNFRDF5bVZvZGNhbWxPMlhqVFE2b21JOERFYTc0a0wycGV2UHk4TnlBS0FZX1RyV2NhSkpqeUV0RkFUYlcwMGdrbVBOWFBMMkttTGw0TQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-04-28",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "793be515f0e5d2c4",
+      "examId": "pci-aso-2026",
+      "title": "IOAA 2026: India wins 4 gold, 1 silver as all 5 students secure medals in Astronomy Olympiad - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPS1c4VTNOMlUtYlVqZDdWemV6TzNNZ21iNHkxdkRwNjlZU2J1eW5SWm5BZXBzYXR2bWF2MUJZWGl5Q2hRNmd0WDFfd2I3SWNxNk80blhPT3AtdzQwZGtBWXB5Rmhhb29wOVNfZjdEWWM5bzl0anpEQ2pSZzNqdjJBeUNYOEdXTGRkazgtWC02TEZtYXl5bnN3OGF5dVJQcnNsV3hHWDd2Ykk2QjZlNWlqWkZwR0hFMzhQMDR1ejMzOGZKakdwUUZCczFNUm9keWVDT2d5UC05MG5hb3B6QWpuZmoxV2hzamxJeHRaTEo1bURSaGRYeUNVRTI4QdIBgAJBVV95cUxNODdzV29aNjhWaTJNOE5Kc1ZyTWxuMjdJR0UtTWNReWFxTGphQmxoVGN0eU5ieUQzNzRXX1piUDRTTGJpUlJINTQ4bXhlRkpHN0JUX1hyM2JKY2diNnNHRVBZdkl4NFNuYmM5Q0NaNXhzd2FiRU1yT3V5MTM3ZnNEMUVsX08xMTNOQjVYaVNzWTVvcGhvVnl3VlpmU2J6VjVBVXRzZWNrN2VjRXNqUnZVUEQ0U212aVBNVlRCLS1YTVIzT3o2YlM4eW04ZWdkZEcwMlY0YXItdjBGRmUxWjhsRW0wd1V3QnFSYUVJV0duOXREMGhzYV8tUHpsTFEwUFc3?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-05",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "93f2b8525e81948a",
+      "examId": "pci-aso-2026",
+      "title": "UPSC Key: High-Energy Neutrino Discovery, October Revolution and SME Growth Fund - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOd1ZXa19WMWtzV2RURFFyaGc1cXJ5OVVMMzhOOHgxNFU3LUQ3TlQwS2RWZjVkLUVlQUJ4LWpHZ1dIOFRkekc5djh3SkNtS0RDTkNCVzhOR1M0cUFqZG1NUXdERlNJZ1k5Rm5GWkg2ZUdKVlZwTXlTQWRrMGFYMnRMVlZWdlp6cUNhSmxSQjhHWW5Zc2dLVUdTUm9uY3NmQ2haVkRjbzNZNjdpREFtTklVbUg1OHZLdkFwTkdqTGxRYld1OG1Wcm1RZ3FIQmlxdWtaSUstUW00QkJ0NEnSAeIBQVVfeXFMTm9fTXpFMGdBNTNkdlNMbGFTb09oSnM3bFFlb3dWMXNzNDNTRDFDczBQQS1oV3RPaGMwcVhhczRaSFF0bmI3Vno4Y3pQbmpxaW9zOExwSVBpdWlLM0xkbVFNTE5ULXV3Z0FPM0lEa2dsdHN4NmRKY091WmdjNURrLWtlbTZ4S2Nmb2tYZU9EenpKcGUxV2lJZGZUOVV4dTNiYjVOZVBkdzNCTG1DOHdlbl84TVpiai13OThORnVXWThqQUc4Wm5LaFJvQllZa1hsTjB3TGlCWnZuLXhSM2Y4cXFqUQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "bcf78ed4c1f56d15",
+      "examId": "pci-aso-2026",
+      "title": "Freedom of Press in India, Regulation, Legal Framework, History - Vajiram & Ravi",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yRXRwWlRYWF9oQWdZU3V1cXV2eTVCU054NDlpRHp5MkdQQ1BDZTRaTXpLSWpzMnlueW9UMUJEdVEzSS11Y2xBYlBQNGduVFBWMUwyRkY3OUNyT0ZyMHBfWmZmcmp2WGl5NE9TVTgwLUZBbTZWS3Zlaw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2025-11-03",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "c96167caaf8f554b",
+      "examId": "pci-aso-2026",
+      "title": "Rekha Gupta orders more streetlights, CCTV cameras on DU's North Campus - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVW40QWlSTzhqMm5JVWdMd09HaVZLbUNIOXU2OWx2dUItS2NJQTFhM3ZOSmkxZHAyQmd4aXM5TTQ2RnBxV1NuMEhOemtvYlVSbk50ak51R0JPNEUtNVBDZ2hDRE1QUEdrZmVNVXdFR3JUZXRnelVyeDVscE9XZVZOalhEZWpEMEJUZGtyWU1nM3g0WUZGeTNWdFNCZEl0MHJ6QThIeFBjY2Y4NHFlMW8zV0tpZ3kwVktNdUxBQjBiVnR5N1Bocnl5M1dkZXAteEYxZmZCTkdJVy1wdndubTFF0gHkAUFVX3lxTE81a3RXZFpTM3dUVURTUGFNZmJPajJ1dXhpdFpVWlBFVkxhWFZYdW5PdUZVQkJwUmJkX3JUcUxJSGFGMGhjQW5pVzJnZ1otOVllS1NDNXQtT1Z0eVAtLV9MeFVoa3E3bWZJaGg3OXA2eF83bzRVOGduVnBvRmdJS1pHWXpVQUZnQjBOcVA0WUJpUjFTdEJYSlRSQV90QVU0ZWpKQkJ3bktaaWdHbXI0MHhwUU5IN0tDUVZ3VXFOWE5Kb1JxQm85OHBnRWJoelNhS0JiTXp4SUZMb1RaMmxBVEVZb0wtYQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "c48aabf8d8c2fcd4",
+      "examId": "pci-aso-2026",
+      "title": "Gangster angle under scanner in gun attack on former HC bar body secretary - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWTRjRGJ3bzNlR3lELTh3MkxnVnBEMWxUeUs5dDEtYjlRdnB4MVFfSURKdjlMSEJDanpNcEkxaTIzWnl0UkhnOFNsejVCaXBYTGo0bWxNOGZNc1dUMXpaZkJKVTlDMFpjWjhrbDRFaVQtWkVvQkhrMlZRcldhSlhLQzJfY2I0TU9yaWpITW53aGEwSGRrQzEtLXprZU1kMVdNWFhCRjVuZXRTME0tRGlBVlBtTF81T3NTWmNMUkpQMk1EeTlqRkZzcERnX0FrUHo5aF9LZ1I2RjlNcHphTEdHQVhmM1pOeG_SAewBQVVfeXFMUHZ2MkNuUVI0d09ZR2l6VHV1dnF0Rmh3LXFtTU9VZmxTdjI1Nk1YYUUzdkZJcl9hdGN0U0Q4ZVU3QW1QbXZ1a3pmRk9rVzM4UHprc1hXZ3NhUXZGWTVWRTJvSmdLb2RTdVZsM25HN0VWRWFWVlg2cTRaS1lDOXFZY1AyWGxGWjJ5SXhHMVpfdlpRakF3WkhMVXhURUNMbFZvZDlLa1NlbW85MVYydHhVcXVTa28ybzEteXl3eDd3MGVibUdWNklVMG9YTC1KekU3VTRWbkhxVFNjSUhsMDEzWVV5d2lZMERheTY3SDc?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-05-21",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "8a7da83c9499681a",
+      "examId": "pci-aso-2026",
+      "title": "Who are Henri Kagan and Kensō Soai, the scientists awarded the 2026 Nobel Prize in Chemistry? - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNQktpY3ZXSDRxeS1NeExwemNfUFhwaDBOV2lwd2tQRVlpLWhrMEtXM0NqN1BHRmc3aXQ3cC15UUtRZGl1N3JCNmVwT0hUQzZmcUY3TkdwYTN2dkFMa2xtOW54OEl0azVQMTJzakowdnlqRm5FM25jZ0Q2dWp4TzRUZ01KVE5YaVN3R2NvaEZyME5TR0ViNF9MMnRkdW5ick83bkYxTXRyOGgzRWhsanBWanJ5NGRvdVdXUnR4aTY4MmEwdkhRS0JFUGkxaVF4NDQtSUNXYkJQc0ZqMXo3dy1MRlBwZ1IzSzF6U0ZxUkJ5NFdaaHA1WjNkUk5oONIBgAJBVV95cUxNRVdIOVJkZVhJTWtoOTNKcGlqYjFYeFVzUW5PbDJjNGMxN3p2U2p6VFdSbkxoRkd2X0Nqa0NJRHhhRmJNd3pIdERycURSYlRyMTlMRTR4LVByNXNrSERwSzJsTm80RXpzdjcwSC1GeWpZWHZvSThkQVJ1dGtXQ0Z2T1hRR1Nfd1d2dno4cS01dXg1V3FDdi1wa0J1a3dGU1VqQmVqcE5ZdV8wX3hIamxhbkt5cUJIc2ZTVy02V1k1TnFHam9wSkJBNFk5STBsd25QMVQ5MEZHV1Roem5pMmRrZV85YTQ5Q1R2MjI4X3ZJVnNUVmNsSkFXd2pUX21RVk1U?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "f94be24c6ba22171",
+      "examId": "pci-aso-2026",
+      "title": "Why Is Indian Football Still Missing From The World Cup? - indica News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaVNaZzFwQnJyZ0NydllyVEtNYlliRzJpLVFsMjRXaEpsOFJJRkFTTmVUOFluRTBMQjY3dXBuN2lSVFF6cU9xWGR6VXg0RDRzYzdZMFl2YnRWdkJkSm9kUlRicW5sT3V4WjRuVmRYMVRnZGlMQUd2emRvOVl4V3JKcHBMQ2dRdw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-05-29",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "ef56ccf2aeff117f",
+      "examId": "pci-aso-2026",
+      "title": "Ever heard of neutrinos? How these ‘ghost particles’ led to the 2026 Nobel Prize in Physics - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZWlPOFFzRkQ1MmhXQUFpbU42c3B5QnlXUnBBOTJxZnIyczNfRzNjdWdHN2psU21pQ29UNm9OSkFXMGI2Q0VzNzVKdXl5TE1TU1FSMDBPNE9MUVM3RUFuM2kydjJJQUxVXzdBdnc1OFdMVEphU3ZBSTRlUU1zWmE4ZlliNGdBNk5OWmFSYVkxLTlBLTRIa0hEdmtoTGlkcy1PcGJyejh1QVJIWFZudGcxdGNfR0Z6dk9VbnA4WGdHQkRKSHhVbDJzZ0U0Q2NzRWV0ZFpWWUZnTGpLOTQ1QnVLUTN0SmluSnJnSEFocTVyb29PS3ZtRWkwZdIB_gFBVV95cUxPc1FtVjBqeVVCaFBPamhJTmVfU2poTnc0cEcwaHRHN0tGYjE4WGw5SXJKamNKRTMtSWNOcThXTGtPVk0wT2hFcDlselBoX0l2ZkpublRCMENwOFFNS1NubWNYTm13U1ktamw2aVdVLXljd19saUpqYWI3R3AyZC1NVWtnSGNmQUJFVTlxendXM0tfNVZtUFF4a191N29yZFV6aEZxV0M1eVFiY2dpWjVrS2ZJVEMxSE1QYW5LMTFfZ0FtZFdxWVRjQTBpR1NEWElka0RKWmg5dXdBbUlPclRLbjNyRm9OeUxkcGVHTjlSWmMtTkd5UVo1ZW8yRUlTZw?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "8678eb6dcea9ec0a",
+      "examId": "pci-aso-2026",
+      "title": "CBSE Class 10, 12 board exam date sheet 2027: Check expected schedule, where and how to download - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNM0hsUjl5N0YxYTloMUVyNk1Qd3padTJqTmd1X2c3eTRYeElsSzc3bWFWdkIyTmFqSzZJNHRqa2kwWXIxRXRtSW92TlVZSmdvMEtwNGtLRHNWbl96Y0pna25ZTlZjejRTRzZOUVBsYTZBZG1GRjhLQU1MWkkxOENWYW1jYkdZOU5sNWZxSHM1RDNDNlJYVTdiOG9xd3g5Slg3QjIwbVI4S2V1czNwZU8wdXNDOGdidXJjdUNFODA0eEc3SXNncWc1ckdTN1prZjlDTzI0LWZjamM4RUdlMUpIZ0JhZnppNGJvRjlURzlqV2thd0RLTEJtMGJRMHdwYWvSAYQCQVVfeXFMT1ZqYTU5cEdoUHZJZ2xRLVdjY1IyckRFNHdBSFVjdkhyQkRMMHFWd0dCODV6TFJyT2huaEZnUDhzYmVDMWlJdTRUT0FOWXZWMFQ4RVpaOFo4UGZkTWhnQWJfNm5xbThlVExOVkp0UFFnMVpPR2VRRHBjMFE5cVVQb3ItQkluLXRlSE13TUJuZXZtSjVGMGxYMzk5dkJ3RTEtWW1lUy1YUkVnQmZ4cnc0Qm92YlVMNGlXNnB3a3ZzVFZYV3BKeEpmeXJhZTExaVBxYW00NnNfQ1JIMl9mS1pvdEtPZEhaejZRUVFJSnJMZzFSY0w1Wmx1ZG9sYVYyUGNWUl9NZUY?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "58764aabe4793102",
+      "examId": "pci-aso-2026",
+      "title": "Manifesto - inc.in",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOemp2djVQQmVFSjRRWEhCT3VHc1dCRTNKbnk1SGZjXzlVTkFxV2R6U3NJWVYtQk9WR3JObVFCQy1JallkRF9UWFA0SjRZXzJvUGxoeVpZamREaFBFVkszOHh3?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2024-07-10",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "5681e04c615d7461",
+      "examId": "pci-aso-2026",
+      "title": "CUET-UG 2027 may get shorter and simpler: Fewer subjects, shorter papers and new subject groups proposed - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPd3Z4R1d6SGZxR0xVNzJJekRqY0tCdk9UamtBdDl1YXQ5SVYzT3FQT09mbkotTUhJRVNQUjJRSlRGdTh2bC1FVXZZdXlUTXZUcG4teF9FY28zWlItR3hHS1otQUxWNnJYR0xWU3F0aHlnMzlQRUZIX0dZNjNUZGV5aXg1eWd5MGd2S0NqYWZaTFIwS2dhVXRNUWFQcDQyUTAwUVFES1BLMHZ2M3Rrd0J6MlFfbkNta2lydlRtQmxGSHBxbTlKSFJ0LWwyV1lWbkw3S0JFb3I4YlpEdHpjanJQR0pqS1lzSmE0RERNd0pPX3BWV3dRb0Fab2ZoUmV5QlBSM2JnWTZCVTRlZFXSAZACQVVfeXFMUC0zejJBSy1yMEg0Zjl3T2lreWU5UndjMXRLUldLNkRTQ210OWY0c1Jac0VpdUliNnM4X1N0VEJjVU0ybVRhaHoxb1MyMlNScFQwSExTdzBEcDNnU1BBZlQ3anZ6UG1TaVU1NWNRWXV6cmJsc0xGUHVUTnZ0cVd5TTliYlRHNFNkcjVmTzdIbWpmQk5LNTVjMkNIbE9RcHg2V1hFV1BrUmpaT3NKNGJJVVc4OF92a2gzeWZTal9CNjl3VzJRejlIaEFVX1FLRmZKckYySWZRM250WVJlYXdLNzZBSGxlS0oyRkk4b0xCd2Zscl9xNlNCQkRnS3RpV1FMeTJNWjNvbThfZ1hEU0trRzk?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-08",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "bfcc8d631e13d0ad",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC ASO Recruitment 2026 Notification Out For 196 Posts, Apply Online Starts - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9lSkJSbFplN3RGN0c0MzNkT2tTeFNuTW9rNnVJcTgzWFFKTWh4V1p2STNvdUlnOVU5M0Fpa1V3TzhhQ1NpQklGbkJGM2pwZzF3YTdZODBrMFBtSWRMVy1nT20zQXRMQQ?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "1cdd1062b95522fe",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Analyst Grade-II Recruitment 2026: Apply for 18 vacancies at psc.ap.gov.in; check eligibility, salary - EdexLive",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNejMybDJBV2dWQklYcngtMDdUSUV5eDg3cHduYXN0bkN3ZUo1WTFSUXVfaFczTnRIODR0MF9XNkZyVWZUcGIxRVliWkhGVkdpUU9vSm5vSURoMXZ0YmxiTkhZdVpMMzl4OS1YVFo1RFJGWTdiTlJDR25GaHpER2haVjBwOWJRUzdjaE45SHNxNTdfamNvUGdpU1dfSdIBqAFBVV95cUxNcjFJT2ZxeWlRS2MzOF9zNGRyMFE3UzAzTmNsNUZ4enRNbHhRbFNKbzdzaFgzWnoyTW9MemFwNTI4Z1ZFbWFLVXlmOEoyNXFmWE1rbzZ4blpOeXBRYjlxT3dOWFRqT0VFWUJyWUQ3ejQyQlNWVm1OVGRVcF90ZW83TTNTMV8zTUhlLXhaWjd3MFIza2MwWjFtN3BhQTdlN3BpM0xXRWwtODY?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "5f4ae251e636ed61",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Notification 2026 Out For 163 Posts, Exam Date Out & Apply Online Starts - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVF6OEs1SHdvNG9tdXJ2WElvMGh5ZUV2REo3Z1dRcE40QVpXWWxBTVRxLVJnM2JkVERSMGVwQTJ5am56YUxfcndJNUc4bm83Z1BtYkRfVmFvWWxIMjc2bW5xTEI0NWpUNVZSbW1oNG1UdGRKcGFjcVVTb3BKSHlUSWRRTQ?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "3cc324b23c16c4b3",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Announces 1,466 Government Jobs; Group-2 Notification for 686 Posts on November 9 - Sakshi Education",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUHBRck44VjlDdEJFZlpJUFZHYlpmaUhaNHZwTVB2QlpJQnBYc1NZZXdrY2VhR3NJZGs1SjNELWdDMGtpN2hKRDYtVURBeXRrc2VUOVpnbXlyd0ZxVDhnUmtYUVJuSWZRNjdzRFUwYjN6UU1YZUVTZzNMZ1VVem9ZUjNOd1VOTXJOQzhnM1JMWTdJTUdXOXAzNVFabjVQeDlwbW5FRm9WcnJWX2N3SkpxdEs2OTVvVHRlWUpoTmpybG1xMWQ0b0FMazEwZmE3Z0t3N0hrSA?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "afea2b749c0527d7",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 notification 2026 out: 163 posts, apply from October 6 to 27; 729 other vacancies notified too - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZ3pLeUxOOHgxS1A1NjdTNXFCVW1ld3pfRzBYVl9LSWQ1aGxGZFBuamY5T0FvX3l3OHFaT2FZRGRndUFlMlpxLTFYWnZJOUg4Q3lkYXJoTlVuYkVXZzJRUFlKdW5HWnctZERKQy1zMjBmcGFpQzA1SEszS3Q4NklkN19sTnVYYmtjdll0OHNVLTVSWHkwZ2lEYzBhRWRINTJWWXh0U2FDcEpZX29vMmRBX1RNNlo2TGVXZ2ZlU2pfbmlyUW5za3ZFdGlXYWZfNkpfdnZhb0RSbXJ4a2tUMG41TTRMOTl5d3ROWTFrdGlYQld2dkdTdGlDWEdNM084UmJBWGxrQm1PQk1zb1HSAZICQVVfeXFMT2tZa2tlQmowaURhb0NmSkFPd0ZLRG5ad3VHRk5SSjYyNmNXM2o2MmxFR1BGcWJrTVBnajNaN0szcm9LSXZIM0ItUFlGaERGZFZLQWhCMjNMeDR1RmtFcHQ4YkpxMXFVNldPYzZRRUpSWGE2bTk2N2lISkRzUGxVa3V5RXZIbVF4SXJ1cTdzdnljdDFUd3R2bnZmSUFxbmVKSy1VOEFqQ2l2ZEUyVGh4V3VnTWhEQllRWHdPYUJiQVp4THF4WmViQ3NVTm1fNktXSEF6ZlR0TWNKMnBncGZTMm1uUk9ocnhySGZQQVA0MVVWTTE5TmFJLWJXckhlRTRXMWF3cVNNOUZTcGJMNkFKeDB1dw?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-09-15",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "ef418e2b1f50ed37",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Recruitment 2026: 892 Vacancies, Group 1, Dates - PW",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS2Y3elluakxhOWJFYkNYR0pVQ0RGNmhkbmJtSjFCRXZjYjhMZDNvaTVyU211WW9VSE9aTEFIMjFpUU0yWjVEUUNpc3h3cTZCT3hrWkUxaVdJZTlxQ1RIRklyRHctTEM4MC1BOTFSR0FhZGtsSjV4ZW1ma3JYZnRTNXpGRDE5NW9OQUE?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-09-16",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "467fa9e610cde608",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Endowment Officer Recruitment 2026: Applications open October 16 for 104 posts - EdexLive",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWWpXem1mQXBVNXNNbzU1SUU2X2h4U0puVmduSHZYZmZYNjVZT0NQcXd2WnIwcjZQbExKSDB5NFkwRWpSUkpJMXRBRW1oRzROdXd2c2hOaFlERkN4VWZaQlc5TlNzNVdFSklmUkZoblAzcW1LRGdjQmR0blpxelZ5TzdQd2Q2VTlUNnNEcjZ6c0tXTm5mdUNiZ3BB0gGnAUFVX3lxTE0yVERXZGRGbTVabFpCRDhmSm9INS1fVEJleVZDX0FjbzJTbng4dkNGdHhkeG9QQXNiVGdBSFZkaXBHd2FhY2x4T1RYR3FYRkJMb21ZLUI4Tkh3SWFBQTNqUVBNQlhBOHB0M3F2RHJ4YWhoYk9DUnJSZmRpX3paNi16ckM1YkVKaWlGQVN4T1RjbmhNMEhLbVU3VzZRcVVZWWF1d1pINGFn?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-12",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "be2d64fece3e1225",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Analyst Grade 2 Recruitment 2026 Notification Out For 18 Posts, Apply Online Starts - Adda247",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObG41Xzg2YmJNa3BKenhreTZscW1nbnRPOVpDV3ljbldad3NaNW5QWEtURl9TdWRRWDlUWXNzbUZSRHdoaXY0WVZ4dlhpTDRtMXFlVVFodkVvbFpuU0xURkYzc2JlMGhKU1ZhMENhS2lpSlZOY1ZQYzRFLWtfTWNTMF93ZWFVekh1emlUag?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "87d4366091a67bc5",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2024 - List of Candidates Nominated",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=t9cIc3WoiPC0GKkI2lv61lQUWoPslokizqxIXDBfFPgdUJNNyA%2FnMUPwsAMaV5nYHNt85Wa6WT51GGMQXeUE5h%2BtEReRlYJuDAkYT5QFoxQoEsIx0M5KPW6vSIuz2cCOCz9gnA70Tlf8yFHhuCIeiw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "daafb4e47c77192c",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2022 - Nomination List",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=PraJIshAli1nXztRzrCaUAqwMV%2FQXQYO32Iy4xwVCmHd1lrbrB0wULcX3L%2B5%2FoFxQPcknCO%2F2nWNBJS42VypbV2QOJwJuJ0Xrn9mMbP%2FKi9Ef85dvklngHhdG0hH8BfhZfXSNQBKS%2F0Z8rK8%2FFlqWw%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "199694a997a19063",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2023",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=diVkcsL5tYrt2msgFTuq%2F%2Fm4518f7A2riPtH0WA51Z8QJaE%2FykefuYXS6Q5CkK3DcH%2BC7a7oP47db9VJRH6hhRlL75tIZhBv4JppR7HROQPfyEWAbjAtnxoaxIfa4y69fpEXP%2F%2BOs1WAFfgpm3LPfA%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
+    {
+      "id": "6145b4eb1aec270d",
+      "examId": "lic-hfl-mt-2026",
+      "title": "Exim Bank MT Result 2026 – Management Trainee Merit List Released - FreeJobAlert.Com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcTFQT1hyWUtBa1l6TGdVVDdEMkFIcjlILXR5LWQxZGRnNXdUWGtnZEhDaVF2R215NVQ2YVlwNEc2Xy04NmNuZ0tWYTYwT3VzTXUxdFRGOFRKM3QxWDBqVnhlWkJyMnZHVDBFUHFQSkhJejJXMGZNekFPTFFaRS05UjZUNVEybGc?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-06-13",
+      "firstSeen": "2026-10-15T04:05:56+05:30"
+    },
     {
       "id": "669d68ba83f51674",
       "examId": "ssc-cgl-2026",
@@ -3799,708 +4501,6 @@
       "source": "AAI news (Google News)",
       "publishedAt": "2025-06-20",
       "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "0110f606f052d07b",
-      "examId": "aai-je-2026",
-      "title": "AAI Junior Executive Answer Key 2025 Out, Download Response Sheet PDF - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XUUw3MkVvYXY1eUNYV3FBYjhpLXlhRFBjNU5DY1JtaVNldlpNZ0xEcFRCS05LMk9sbDNaNWdIRVBYLUdCNW50RExBSkphT25naENYQkpXU3VYVHpvaGl3YW9XdEhnQndyX0M5aGp0UXJHaTMt?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-05-08",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "88b25dbf41e6bf61",
-      "examId": "aai-je-2026",
-      "title": "AAI Junior Executive Exam Date 2025 Out, Check Schedule - PW",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRdE1uQlUxQkdNQml2TzlrYTJFZnN5TC0xQmliMDZYTU9XOGhWVnRSMEdWbThPMllaMlZhc29HbDZ6V3ZLT3QyU0FtT2R4bUNqN3AxbjFoUWEzdnB3OFh3ZFRFMWt5aU9xREI2Yw?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-03-28",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "0abc971ed7579790",
-      "examId": "aai-je-2026",
-      "title": "AAI Junior Executive 2023 admit card released at aai.aero, here's direct link | Competitive Exams - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWmstRkl4dzJTZGJDSHZTM3VuWFFvZTVvRTZjc0l4TXhjWmZHR1NlNHdNQVpKNC1LV2NneHNGTDA0NldXZjVoR0d1ZHg0UTEtNmpYdVFZQ2drcjVSalh6Q2RHSDAwb2pPSUVnLTdCbWk5Wkpmd3daN0hXaWFSaUxvTFJ4Nlkzbl9MTkViSm85b21JbzVsZ1FVLTR6Q0RZazVqaUoxMDNubVRrZTNYaWloNFY5Q0JwODlwNkt1UHZzWmpybHhlOFpMdkktV1V5SmQ4OEx6OFZrQ3ZpQ05tZnY4cEJ1NENsbEFzUndV0gHwAUFVX3lxTE8yaDdobUJnUUtuTnZDazVrOW9lUlItNE4xdVU4Z28tek81SEU5OXhLdjVnNExKMlhFVWI0bk5aVlZXdHlVWjNjWW81U3lmOFJobDY2anZDS2RuX1B1R2U5NUp3c1VpZGFfU0lxVzdLejhaQmZENEZIMmk0dHlBQnN0UE1TS0VTajZEY21KZ3ZIYnRBaGdhSmk5MnA0bDF4TUNUODhaaHBJNmdadGdvSGV5WDYzQldhZWJoUG1aZ0tWNVBkTjh3UzZTV05Kc0tlOUMtMnhiMmhRUFFzOUVCLVo1MjM0eUFqdWtFSVd4ZEd6cA?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2023-12-19",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "7c1654fb7611ef8b",
-      "examId": "aai-je-2026",
-      "title": "AAI Junior Executive Recruitment 2025 Registration Starts for 976 Posts; Get Direct Link to Apply Here - Shiksha.com",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYnhpejYydkhXbU5SYzFjU0V1dGNNSkJuWW1hT3VOYm84V1F2YVQ4Xy01NGlSVHRYT0p2ajlwcGNRWE10UFpjQy1YTm92M1lLUXlVUVZZRFVtaUZMTkNNTF9PWmhKOTNmVk5qT29mNzFZa09wSWFHd1pEeTFONnZzZjQwaGQwZWxhMHUyUWM5ZmE0ZnJZNEZvSjFqV1o0VlQyLUxaZkY3V3FnQkVIcmFlRG5veVA0czFnVFBDOW5MZ2d0ekxqT3ZlV3BKTTU1YTFVcjVWTFBZeFA0SFNaSzVYT0dmQkY3QWh6S1h1UA?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-08-28",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "1f82a773e753a5a1",
-      "examId": "aai-je-2026",
-      "title": "AAI Cut Off 2025 Out, Check Category-wise Cut Off Marks - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5EQjNYSWJIMmQ5TUJwYWFGNllWb3ljWWpsMkRZeV9QMXlYTFRQWGlWV3IzdXdJWXN4MlRuUmEzZ1RlWmQyczdzVlRHS0JLSUM3VEpV?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-07-09",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "cbae35c07a98ee84",
-      "examId": "aai-je-2026",
-      "title": "AAI Non Executive Result 2025 Out, Download Merit list and Check Marks - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MZE1fNnRZeUoyMHR3Q0FvSmpkRlNuU1VGcVktVmgxVXpvbmZIWnZ1aVV1NkxGeDljdG5XSlVQSF9oaTEwWXBYRUtHN1NPSWNSeXI4Wm5rbUY?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-08-01",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "704e3e92c71bcb24",
-      "examId": "aai-je-2026",
-      "title": "AAI ATC City Intimation 2025 Out, Check Exam City - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0TURkSTIxRElxdUJDY3V3ZXp1QjU1Z0Z1aExOdldjNVRVcVAzUFVFckNxdTJ3anpia0VDdkNaeGYtRHZhQml6SDJMR0x6QlZWUE9vR25kckhjNWRLbjJiWHkyN0tLY1plcnU4ODZjNjA3bnB4R0FXaXhB?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-07-05",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "3fd23f0526b6afa2",
-      "examId": "aai-je-2026",
-      "title": "MAHAGENCO Junior Security Officer Admit Card 2025 Out, Check Exam Schedule, Pattern - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYlVRQS1aSmNidS1iRGJGdXhTSFNrb2xyV25PeVlPRmFXUWFTcWEtNTlvcTFGVjU2MDQ0ZE9CMlRCb3dCWEY5ZXp2NV9ZU0RtNVJQZlFCaWsyZmpOTXB3czhGdUVodnRMTWltSmR4U0g5TDl4LTJQak5LZFV2SnRkVW1heTBjNVg3WUl4QTVBWUozc3RLX3ZF?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-06-30",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "9bd6dabebca3d4af",
-      "examId": "aai-je-2026",
-      "title": "AAI Junior Executive Selection Process 2025, Complete Details Here - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5lMXNsdW51QjBLQVJWTWIyVFAwOFpuUUUzUnJfVzVxblBnSDdUUlRkenZYbk01eWxiMjRNMk9Zb1pvUnhHZmNINHNrNi1DSk80UDlnaEhRVmRxbmhBYm5qQ3FLbGlxN2ZyeDd4RVVHVHFDazdEamM1WjVyVHE?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-04-08",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "c1167c6a9c88c6d7",
-      "examId": "aai-je-2026",
-      "title": "AAI Recruitment 2023: Admit card released for various posts; check details and steps to download - Telegraph India",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRHROb1Y5UlpWVXFONnNpTzRqUVJXdHFKdGhvaTV6NWFkeHZuZXlxX0w1alRzRllZRFJKZ2RFeDY4M0pRTWVXWlBvSmlIei05N1k5NEZDQjFDT1hjS3RtWS03Tnl6Z3hIQlR3S1lGY0lDcW0xZ3lCaWx4SDE1cTBxSnJzMFlQa1Y3QVpWSXVpZUFUR203SG9YSVc1dEZUZUZZbThNcjFEZmVJMGtYc29lTldRMVY0VFJ3ZER0eG5CMC1xSFF1ZTJESWxFTXpMZy15WWJySTJIQnhLWlp0UXY2VFpsOEtEQdIB6wFBVV95cUxQZ2Z2ZlQ5MTNvYzNTYURFQ3lWdWpnQ0JnVGNUQWwyWmswVE1PX0p5Vzc2R19xTm1BbENrS0VYbHZ3MlNZZlBrSC11SDlEU2V0SWJUWjhteGp4S19PdGFPdmUwdUp6cU5HY3dKbG5lQXJ1YkxSNm96cmVUbkc5SHNzLTBYUkJiSUtmd0d3Y0QzbE8zQXYweHhiUkE2V2drcTl3TVN0bzFTdExRbW5GenNfSXowX3YxbWh3ekMtMERMNWgyT01Tb1Vtb3JQWWV3TG1YdXVZQ05kLUZMZXRCVTRpcUtWSVFNaVh6a2Vj?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2023-02-14",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "2785b87b236b687a",
-      "examId": "aai-je-2026",
-      "title": "OIL India Admit Card 2025 Out, Direct Link To Download at oil-india.com - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fVTB1aHhlWi1oT3NKdG80NVFudzJnQVFqWklqMUR2X3dDd1YxVjhXazE1TmxaZTVROFBjX3NXTUhlOU1TWU8xSjU5RHhjcklOS2p2eEtaN3U3MndSQXRHMHBrclJ1aUJPMnEwUDEyVUZKMlFDaWc?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-03-13",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "2a30275d17dd2064",
-      "examId": "aai-je-2026",
-      "title": "AAI JE ATC Memory Based Question Paper, Check Section-Wise Questions - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSlYwdzJ0Vm5JRHdRUjhxVDJqeG4yRHVlTElmZXFSMnZ4dnV0ODBWWllaZ3c5UVRBSmNLWEtyU2ZKb0tBUDFxTEdwb2ZLNktHNXE5Vm5aMTVSLUtsRXJuRFNfVVJ0RGdCZDY2TmpzZkNscGFuU3JUam5vYmNHQ0szVGg1UkZPazg?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2024-10-08",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "5108e36b1558349d",
-      "examId": "aai-je-2026",
-      "title": "AAI Non-Executive Answer Key 2025 Out, Download Response Sheet PDF Here - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rZkNlTVpNUE82Q2U5TnI5cC1jNUhSSTUycTdQblZoTDQ4b2RsU3F2U3pRN1lINGFic0hxMUtYeUNwWEY1RlhZLUVULXRkd2lxRnZkSmRITG9xbElfUlp4RWtESzZxOVVYRFhoVURlT1Y?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-04-24",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "8f45bc79d6b44566",
-      "examId": "aai-je-2026",
-      "title": "AAI ATC Physics Topic Wise Weightage, Important Topics - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1dVcHhqeGRjUlA1MXpUelRoal9WV3RyQU9QTmtVV2dxUWlsZ2ZjQWtiX1N6MWdnOTJqX2dzOGZ5TF9YRngxTC1KMm1WcXhjNXdySHZXMnRpdXV0UE9BaUx4dXpRMlhXeHEyN0FvdkxBbWlnU29PRzA2VnJiZFZ4RzdFQ1Y?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2025-04-14",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "68cfbcb579108c6a",
-      "examId": "aai-je-2026",
-      "title": "200 Important Questions of Reasoning Section for AAI JE ATC 2023 - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZERkRDZpOW04Q0xoR2s0R05KY1ItNi1YVjhIZnRkMlp1Qi13djh3OWhUVU9hNTI1bkh6UGlFcnFRWml3UFF3aFBqUnFuTWJOVWQwdjJrQVpPN1phT2pZeDRraURhNWZpYVdvc1lNUDF0WVptajAxeWllVldkdUpocEY3SVp2TzlOOERwZTR2dmpweWVBbk5KYmZsNlk4aExkSExJUlpMdlZQQQ?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2023-02-16",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "0d8bb136ab13d135",
-      "examId": "aai-je-2026",
-      "title": "Oil India Limited Admit Card 2022, Direct Link To Download Hall Ticket - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB4dlg5RzkzdEUzM1JsUHk5TUppVG04ZUkyQVdLbU95RE9ZUGQtUG1GdkpfSDFoUHZ0WGRLUHpfa3BpQ1FaeG50UnhIelVhMHAyV3ktZWZlTW9CMkd3R3NFU0I3ZzhXU1VTV2JQV0ZJajl3dmpST0ZFRThB?oc=5",
-      "source": "AAI news (Google News)",
-      "publishedAt": "2022-05-04",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "0c66271f1ef331b7",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Exam Date 2026 Out, Check Exam Schedule - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRY2QwOWM5blg2VXpRUlItUk9TT3FyamhGUm5rU05FUFE0ajVFd3JLSWU3ZlE2OW91SVJiRmR4ZFlxa3loa1NSSGtmVUcwY2xnU2Nld0V6ZDRMQU90RXE0SFJWbU5hRlZIUU5hU3BfcGcxQ2JRenVZ?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-10-06",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "b3eb2872aed48514",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Notification 2026 Out: 80 Vacancies, Eligibility, Exam Date, Application Process & Complete Details - Drishti IAS",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16UjFyTldFMDBuZEJka2d5MnZPVVBiS3RLdFRmT1p3bUp5SDZ6cUc5QVFucHBVOUxvbWN5LTlWbUdXSzkzSkRZcmxVOHN3angzWWYwdGpqMU1qMUdrY2U3cXZDQThNeUM5cVNjRkVHT2ZxemZOTzdr?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-25",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "464e1c9a1e1bd5b4",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Notification 2026 OUT for 80 Posts: Get Direct Apply Link - StudyIQ",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsOGdtSXI2azl2NFFhZjRDSnpubTBVbXRwQWtmRjZqVUVab1Fjd19CbTNRMkVBeTVDQ00wLTd0Z1lXT3AzUHJzc2kxazJwdnlPMFU2NTJzc24xZDdEcU1MZGNRV2txTjMyTnVONHEwLTFaMm01?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-17",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "464811a8434898d9",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Recruitment 2026 notification released for 80 posts; registration begins at upsconline.nic - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNV1hLd1V1WEJfTjVVcEJLNjhCRU9FV0UwdHVleEFGYkhDc1l6bUVoTGlmVzAwU1MwSGg2ekdCd1pnYkF0aU1nMWxzVWYyd2hvNVlfQ3ZXbmN4bDZaSXlRaHdTV0hPUDdIdHNHS2JuTzQ5ckJVWlJvZ3B4QXJvYU12eldPZlpFdDc3Y3JiSDlXVzF1SjFYVHpaQTVoUV9tMHdyXzVBQ0F4c2NmTGtmTGR3dl9PN2xPTVZiS1RYVk5HaFk2YUdRVEp5ckp1VE84TG41ck5qMFAwU2Z5Wm9yWHRuUjRnejZsQmVYcTE0S3RuaHB6RjRxWkpSa21HV2ZFdnE2ZU00WXRfWTNadDVHc05CbklB0gGXAkFVX3lxTFA2VHBGbVBxdnpMY1czWkJXRmFUYTZrdFpIUTgwS0Foa1hEMklDUHVzTWc4VzRpb2ZseXMzaWo0UVh5UlVLZXVra2Jqck5YZVY1ME5qLTdYSDI0LTZHV0k2blB5TnV6ME1ObElsUkFzdzRBS0hGdzgteHktcEx4cTdPZ2EtQTFWQVBDX0VjVmxXUVFISmxnS0ZTRjBReVRDeDd0VzNkLWNYckQ1c0gyRWxMLVd5amN3TVg0RVp5Z3hMMlItc3NUcjZhSC12SWVCd3V2QkM1WWxCR0VScEFrb3QwWE1OWlZVeTJoVWhGQ0kyaHcxNTRzRS1pY1g5TlB6UmxzUVdaWXQyYnExaUVab1dfaDhKUGFicw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-22",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "cb5af57c6d083745",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC 2026 Application Form Last Date: Check Closing Date & Time - PW",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVzI0cEZnWU5xeXczeG9MM3NMYzBhTVY0ejJZX3l6ZkdRZTREeTRreUNMelVKYlF5NWtRZ2ZPeHZBUC1yZ29YWVZTYTNWZ0Vab0lNY1FpUndLangtUWJtcy11b0dJVXM5N3BaYWNYcG1aaExNX1pmZWd2VlNrSXRGSVBUaw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-11",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "b67e6d3236028a28",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Recruitment 2026: Application Date, Vacancies and Eligibility Announced! - Telegraph India",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUVZ4Vk96d2RIUTJIZk5Dei1KcDItOHRVWW1makhQQTFBbUNDYzZkNmt1eEM4ekxna2hReXVVdlE0M0xWRjQyUjFDanBWaHNxQVF6eGp2M0QxV0xXa0hSc0FwdjRrNUdxNFV4a0h5TXE2bDNEOFlpYnFoQnNtYTFqUlVyR3hWVU5OdDVIdHIwUlB0dUVIdHZwcElFVkpwLUpKNGdURnlCVjdpd0lJeU9VTzhBcjN0S2ZxdXdYeWQyTVFDUjlxWHNxRHJiZzZlZEFWZnViX2gyRFA1LXVI0gHiAUFVX3lxTE5aOEp4TzJIZ1NGNG85YUs4U2dsV09QWWhEYmlmcWYxS1N2SzY1MEN0TVRFdG5KbWdKaHlPUHpQWE5KZFJqSkVRYUJOWmFKSHl6QmlqY0Q5XzFZbEwzb0VHX0FOTTl3d05kOHBzd3p1OXBvdHhEd0I2YlY4UjdrakwyYlZob0M3RkM4TjU5Z2steDFzaDdoX1JucHJlMm1UbWdmOHVOQlVTZEtfTWFTLTJESnRLZHV4YXhzT0FTT0M0eFpLeWd2bGNQSzJiWWF3YnF2Q2wxaERfbW0wdmdOb2ZSMkE?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "ffbd845735ac17e4",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC Assistant Provident Fund Commissioner Recruitment 2026: Apply Online For 80 Posts - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSEhLV1cwQ0QtdF9FR0ptdFRJUHNKb0VyclNTYTFRR0xUb3FQeWNiRFQ3aEJJeWJINkhNY3dPRUNsMWRGWi03UUgtNGIyTjUxYUJGZ3otVDE2YlZvNWdaZzRsdGhJS3JHVlB3OVBJLWxnVEI1bDBCend1dDk4ckszb0pCTkJwMW9saV9aWWtsOUFuZXZBenNWam1WZ2lOSGF1Y3lYZVZPRVJuQUJjemw1TEgtdU9qQ2hxVGpaUVBvYnZjVlnSAcsBQVVfeXFMT1c5ZXVxc3JvcWNtMDFrMzJFdU1DclZuNUIyOUxWeTFCVVVUdlJqTk53Z0g1ck5OSXR4YnJoNXY2ZkYzRThERWlUN2lrRmJDRWxUdHVEOXVRSl9EY0hicGduSUZUWU1hOFBiM3Q2VFBCNlhqWWtWU18tcTRBdnBCbUhnNDRtUFYzWmpNNG5WSWVhWFR0NDVxSk1GRGVOdEhLUDBDMnozS01MdlVUTUxfOGJWMzFsNk96MWQyWVptTDY0S2cwaURQRTcyM2M?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "ebb5fb78f927677d",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Recruitment 2026: Application Date, Vacancies and Eligibility Announced! - IMTS News",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WZzdlbmtMOUJieUNib09GMjZrNmVLUmhxdHpsN1JxZjVXWER5eElRYUt3Z0t2UU94bS15VTB6S1k1UDVqMk02VU9ubWg4LV9yTC1meFZKWmtISk9XUjBVTjkwX3NhUGw4SkZUalpHT2k?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "477263548c05cc4a",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC recruitment 2026 notification out for 80 positions; online applications from August 22 - Careers360",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQ0RQalRwc3gxX2FGN2NYMFRHRVBQdnF0MmE3bWh0TjVPVUxZeG5Gb0VHc3g3VVc4OXoxRmRQUGRKNHpBVHFRaERoNWUwSjJBVkN4ZmtVU21WSGJ1QmJHbmFWMGVPR1VTRTZiVk41V3U5aDFPalJIVXdDTnlQTWpIY2ltS0ZUYUJZRHZrLTdsQjJKR2pRVHFUNUtQV0RQNXQxV3ZNc3VUamcwNUVnMDNnMWEteG5tZ2pjdTdaVlB4STVMbjdoVk41SkFXSWVWUi1qVGV2UjZDak5NTDlYUlFwVTdqbXVPNjNNVEZpc0xB0gHzAUFVX3lxTE0wZXlRUFJZalh0ZjdQdll2aTVXcndvOVo0SndXWG5EUWN0YW9qdG02bVlSOVE3MWxKdHZ4ZzVrZEtnTUx0TlJtYmp2a0ctNzVZYVRQZjJybEN0WEF3aHdPS0FLaVlSTzkyOExuYXV1U2NHd3UzOXJabnc0OUdnNWVyaWtHQUhoV2FrYnlKM2ZOWDV0ODNQX09hcmFnSV9iUVF1dVpYN0FHbmh3NGtkU2t3T2d4V09WbzNwYUg5X0FWRHlEbnhtRUdKVmdpLWJfQmEzRTRfTkJ1amRoQ1lWVHlqQXprVVpYRGF6dHlOQ21xUnc2Yw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "10ee5b8d52b4bfd4",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Apply Online 2026, Today is Last Date To Apply - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1CcUJzRl9YQW5QVlh3LUFTRnFQREh4NVBQQ1lUTU1wUFJfNmpxd1lPQ09vT1lURmIycEU3MTlWVlVkRDQxTW9lSGxVMWtuc1U1ZVVyQTRMWDEyOERBNzk1NG5yX1hrZlVsTEd2ZFBfNkJGR3pPU3BR?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-14",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "ea2df84d903eda13",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Eligibility Criteria 2026: Age Limit, Qualification and Relaxation Guide - Study IQ",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPUlYzVXlxQ3Y5RVpGWjhLVGxtdjNTNHRxU19UdDRwbW8zWWg5STBlNkNuRTJ0eml3RFhUS29xNkQ0UjhBd19tRVJlYWZOUV8yRzVIbFdIcEVtUS1qcnhPYVM4MlJqT3RFdVZ2U1lVUDU4dw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-17",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "176f2b3ab3397011",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Interview 2026: Marks, Process, Documents & Preparation - PW",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jVllLMUhGT2p5V3JQNkxKeHVfa2JPenJ2NkpBc2RWbnNQdkE3U3VweDVjd0NaYldpajJjelp5eURPTWdfcmhybUd0MXFpZzd4WnlfU3ViRWtNVlU0WmxqUllKams2UQ?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-22",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "ccd12ad46e0bde5c",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC Pratibha Setu Portal: Login, Registration, Complete Guide Here - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vdExsZjItYmVrdjhvdWZ0M3Z3UkpVWElrbDR4UWJ4bTV1VGtDajZNaFo3VWZiN01nVXFmdmZXei1oeW5qSEdWMVRwLVE0ZEVFa0F0Rm5DNFZOakVYODc5bWRZc2JYVjhCblQ5Z3FwMTY3RVpFeGYtSg?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-10-13",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "11c07a92c308b205",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Recruitment 2026: 80 Posts, Apply Online - PW",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWUd6X1RmbWdoM21VbUtZYzI1QjZZQTFuQ1VrVU9MeElHdlgwaUYyTEh0NTh2SFdvend2RjdqYV9CNnFNWTdUOXRGUHpnajhmNE1wLVllb2VCSXFnV01ZY1NTTzdqYkU2clYyMUVMeVFYcFNJbmdHSGZSamRwRUI1R2xsUXI3NXdRdFE?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "172ce1df25584e0c",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Preparation Tips 2026, Check Study Plan and Strategy - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92WjFjMF80MHVWR2VqdkdNRGJiaXctcWdHbVdPdTBvMmxINFluZXdnVlVvcVhPV0NEZWJpdHJBQ2pWbjJPalExTGt2NlBOQTlYbGJObVFXc2ZSc3lYNnAyQXE0MkYyNGhROVJfV1JaNVhFZW5hc2c?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-02",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "ad8a6c127ffe2f55",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Eligibility Criteria 2026: Age Limit, Qualification - PW",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RcEVoRWR3REZDRzdyYW9qT2d1Z3FzVklwSFpIN1ltdk1pT3ZRY2pSN2pyR2l2OC1CcFlxVER1WlFQd3c5NGRCdW1XZEt4NWppMUNPZ2FpSDljbnRDYzdHN1BKaUtLWkNGOWd3dzU2ZTdFaVU?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-26",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "4b7f3091b6b71dca",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "EPFO Notification 2026 – Date, Vacancy, Eligibility, Exam Date, Application Form - PW",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zZnBlanllVjNJQk5FTnF4Z2txUmw0UHNsRGlUbTRYQnFNNkxJdTY2V08xaFVhLVpoVE4xUl8wTFc2bU1INWlmeXNVN1d6N2hoVXBHS295bjNYSVpoSkgzYVZnSQ?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-06-10",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "9bd0b4e9fba8fb9d",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Cut Off 2026 For EO/APFC Posts, Check Previous Year Cut-Off Marks - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zVGNFRm5YRnVJQ1I3N2ZKNEh6Y3dDZWxMYlV3NzlqejZyUnBoRmtZeURDR1NqUVQ0T296bm10VVFJX3J2UE5vU05vdjBwQnJDQWZxcndRY0VLRUdCMDFySWN6TQ?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-19",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "4c3659aa89f6f397",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Recruitment 2026: 80 Posts, Apply From Aug 22 - PW",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTXNTd2dmeEhESVBXcHBmQ3JfN3FxTjFGTkk0MVQ2Z2tieDVxNU9wbFphem1BV2psS2loRGxJdHpiSW9acDR4Umo4MFgzdFpkZnlZOHpydUI3cmtWWjhfRXJqV0pKRmZkWkJXUWpIVEFNT1BrOVRsSDJVRXFQc0w2akt1dWZxWGIzb3NEMzVwRk01cGJQbUJ2OU9oeEJ1WS1iVGoydlBOMmxMMnFjQkM2cFhDLV81QlhxMzlfSUVDRVBjYWc?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "78280b126fdc9aff",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Exam Pattern 2026: Check EO/AO & APFC Pattern - PW",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBjcExDRmV2ZHdKSG9Ldnl1ZVpSNkVzbEpnQVYxSkIzUFlidkl0NHhHeEVXUF9fZk5ySmhKeGR4ZUMySUFfbE9oZUEtUHNKcGFsSWNCT3BQLUFrN0R4a0VObkxVZw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-21",
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "0cca6f977f8771d2",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=RDbALTxLyShC5NgNga8e1J9k5g9XkO7vttVYAgbyLwai1OjxHJl9mDSGWb4oGFsnt6IWnXUZYyzy1kVWCh2U1aWUfdW5tGPnRr6DWAnx4rOZF%2Bg486l0Cm53XzfjLC2s8%2F15mw5LcZZHlkAMmh%2BXBA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "7fc1313dcaf223ca",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=y2Ua%2BK01HwWavAzW0P31UYv6RY9dxQkNWafZGzET4cmb7x6vofTEosHY0EMuLArhAU1wNhyF%2Bv%2FEqZyEPkxmxywmle136F%2FYDVPF9joTnFIaMg2KGJdQ1ICS9%2BQBDHeFp9EkYCnYwWRyQMNhSMHnUw%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "e17c6596d6375804",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=sVgCedVV78Z2pUK90yBSWjDE6YMJFDF8SueOmgEARl0tXwy1xkyU6fFli%2By9ekkC1s9Vseeb7TQcWRclu32s71NnFfirXnm0hxgXh2OzfNO%2FctRhUI4EswrRq3thY12KIMPhzu3ZmdlvHQehdvH0jQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T01:10:50+05:30"
-    },
-    {
-      "id": "2373df087bf36647",
-      "examId": "uiic-ao-2026",
-      "title": "NICL AO Expected Cut Off 2024, Check Category-wise Prelims Cut Off - PW",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11RVVnbTRCZHVzQlR3aFhuOUVRcmRIaXpSbDdHRlUzLUN4QWdOdWJ3VG1uRklBcDd1bHV4RW5iOTRMb1BranFNSEdRME1ucjdGOERHQkxxNVFyMUFQRHZFM2hBSjEzd0h5NjYxd1g3aUU?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2025-02-06",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "2731d3a7eab3079b",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Exam Day Guidelines 2026, OMR Rules, Prohibited Items and More - PW",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pQWlWWkFKT05zOXVrUXhGODVnWk02akkwY1pfTlVuMW5oNjdFSWVkaWNBR2VDaW1xYkVqNHV2ZW5neWVlWHVRQ2VhZEFCbWQzcXg5R2hzaTEtQ1ZXZU5QeDQxcVpSZUlzdFkydENaNXlNbWxIRXVpN1ZR?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-26",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "d06274a1a93253fb",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Syllabus 2026: Complete Subject-Wise Guide for EO/AO and APFC Exam - Study IQ",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nSFIzeXAwVW9ZYXhDTDZUZW9NUHlnblV5cGdiVUVsTVZ0LUdWUndPQWdlMGtkbTRDUERpZUNUV0RlOVFuWWtEUnQ5Z1N4dlpreHNVX3Rod1EwSDhMb1pTOTdB?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-19",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "64d98db47fd818bf",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "APFC 2026: Updated Syllabus | UPSC EPFO APFC Syllabus | APFC Notification 2026 | Anuj Jindal - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5tRDQ4YlhRZ3hnQ1Q4OGN1bWNIN240cjFUVmVWOHRFTnY4SUVwTVlfSTN0OWNacXYxamVFQ19oVlJjdw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-23",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "cdf40e4cfdaafcc6",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC Recruitment 2026: Apply for 80 assistant PF commissioner posts - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQM1hJNFdEdEhod2ltWU01ZndjQm5aelIxMjMyeGF3ZWEzMlA2N0QzaDI2Zm5SckhlYzk4d25reEh2VE1VM1NpejdJbnRWNjVweG5USmQxejlidUVBRDlIdXlUZkFwUDNQUFRuSDFvaXFXYlVfM240UU5rcVRya1AyWF9iUXlEYVJvZUV6RkJ3OG5sempIbVhGR19ETV9hZ3JSUkRObEtjaXR1Q0paSmZZS0RkdmVXb3Z1VUlsMVQ4cW5IZWIxSG9NMFFPbWdVR29HREgtYVVsWnV6M0llOXlCZUxGdllKc1k2TTZXd0hJVHRTSVhlWTVSMjI1Tk7SAYMCQVVfeXFMTlJDUjVYbkZIS1gzZDlSRWJiQTJ0YmJuUVEtNHQyR0dCVTVCRGo1RXZ3SXE5b1k2YWNtOU9DWVVySXlfdDVNbXlfdm56cGJxcGhXai1IY2NCejRJWXBxZ0NtZi04alBOdVFzcUJaRHZRcFl1OWRUdHVjZVI3NnpacjJKZFczRkJFNUF6VFhtS3FLUlFjbUJzYlIwS1dxalV3amdPRF90WXdhc1N3RXh3VjdfRzVDN3lVT3ExTFBTeW82aGFEY2J0TjV5OXUwdE80OEtPMk5VTGJGbEJHMXIyNDJSaVJkd2FIMldMa0hsU1YwaV9US0VVdG1sWndlRU96SF9Taw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-25",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "2271cf0de653aa2b",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Recruitment 2026: Apply Online, Eligibility, Vacancy and Selection Process - Study IQ",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwVDFoMk5hcHVFT2JvNWJ3MFNKclhHbGdHcEoyOE9BNU1YVzh3WEJUc21IVnlCNzNsQl9lYWtHWS1hY2JRUGNxV0Z4T1dJdXhnZUN1T2hiYl9vYVl6MXZDUG1KbDB0R00xSVVDeA?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-06-24",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "44ed83d6a24c4868",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC APFC Recruitment 2026: Apply online for 80 Assistant Provident Fund Commissioner posts, check... - Moneycontrol.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxObUQwTlB0NndKSGQ0MlRESUlzNW03Y1dDZlZDSTE1c3dIZlBXM19zZVZLSTBqX2RRb3FzYnY1X0luc253eHpUcmNhLU8yLTMwLTlLQ0tMRFptcUltZllDSWRRUXRDTFlDVU1KUFZOY0hpTFZ2SS0zdGt1WmttOEFwQVJXLWl4ZkNJX0gzTGE5b21nTHZxUnFyYjh1Y1FJa3p0TkxaWVpDOE9FX1lFVXV1ZnBuMHFZWVFTZGxrY1IzdVExOW03WXpJcjZWa0xqME5SQzBWYTl1ZjNsUl82aUJkc2pKSFhPZF93V1d4NXBydnZJM0w0c3FvbHdpaXg2RDhMNkVpN0VWQ2VqeHfSAZACQVVfeXFMTktGYUdDZFVzVHpCbnc0OGdQMEl4ejBhUVdEeWxINnp1c0x3WUs5QkhJNTRsZnlTVllnQVBEQUN1T1VaN0pJclhfS1lPTERjazN1cDhna243X2x2bFBaSXBnOEJ1ZndjTjRDemJmQmxDQ09rRFZtWXpMcm9Rb3ZtMVZDNnlvTVpBb3c5ZkZ0VUtEWDNUeDlwTDc3ZHViUnpOc1RySDZLVVQxQzEtSmN5dE5qWnBYQjRVNFVnSUNtUEFPX3hKdFlhUUJ1UFBwMUc3WXlXdWVFNm5LQzlhRnlITGtBSGRRYlcyUGs2akg4MWZIdy0xUXhVQ3puTHk1TnhRMGRaNEhNUnBQcHdhRlJzeDk?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "7db4a21c15190ccf",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Jobs 2026: 80 Vacancies Announced, Check Application Date And Eligibility - News18",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQemV0SGgtakR0a0txQTNFTTR5VHhTTmc3SDZkcTVCMEJxSnpVZ0IxcHdQSUxwdE1mQkhoYU1yTFQ4bkh5bnc4UG93RkIzOE43aEZ2UmY0b1BNbUMwV0NDOGFHTXdVWUdRMFBpSWYwR1E1MGZid3NZSkRpM1lKVjduZG9jaTJPVVBxa2drYUpBTHVocDg4anNvMzdDX1RNQkpucVpMQkE5M01oNXpJenBJaHZQMmxDRDVVY3V6VnhGekUtNU9ONS1GdFQyMW90RGc0ZHVGd0JKU1NsRzlNSWo3T0FsRHZnbHMwN2ZUbWRWSdIB9AFBVV95cUxPWmo4eEkyR3ZYYkMxZVJJRkwzMzBpTF8tZGRWY3V5ZHBsaUU5eHp6RkliNlRSaEZzTlRtbG1nZlk1XzV1MTNUZWd5WjFfUlI1VjI1SThJM3o5Y201eEFsS0x5aEQ3d3NGOHQwZXQ5VjVtWm1TTTJwRXpJbEMzSXB2QkJ1RXNnNDFHODlSVFhiX1oxeEl4anhSTE9LaWxYVVczQ0tSU2dKWFZXTHl3dEk2Y0ZJZ3p2SDFBd014Y015bXF2ZDh4N2hmbFhROHAzNHA2Z2RBSUxCbVIxQVpkYTdhMWVJT1JmUzl0LWlJcDRXM2JFeDVl?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-21",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "0b6230867a34fda0",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC APFC 2026 Government Schemes | 40 Must-Know Schemes - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9tSmVMYUp0cVIzSHlZbW1IRG5iYVgzNVZTWjl1Vlp1M3lGaHo3ekI2Zk05R3BGZzZUV083WXdOdFlpZw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "c8f48bb8fc5e3cf6",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC 2026 Preparation Strategy for IAS Aspirants - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1GZmw0VW1OcVRvTHNWbjFEVHRYM2VNZ0VNZmNwYzFZQXFlY2xoeGg2Q1VGYTRKV3MwSnRoV1VFRFhxUQ?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-28",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "7d78cdddc1c00fdb",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "80 EPFO officer jobs at ₹56,100 start — apply by Sept 14 - www.indianpaycalculator.in",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZXVFMDZEYWNrZWNOdEJzd3dPcWRGZUdfT2xfQVR1dnlMUHBTeV80NWZJRDQyRFd2RDBmQnpJRGIwcEZQQXBnSkdPZEwtVlRtQW1XQjJzcEEzbGkzbWY2eWlpbm53d0Y4ZWdDNTRxMWw3LVcxOENTaEVqZlBnMXVqVjQ2bV9qVlRkbE1pWmxMeGdBbndrVUFXb2pEUTBZLWhuanc?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-01",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "a2dc7b817a353835",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC 2026 | Miscellaneous - 10 | Reasoning | Harjeet Ma'am - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9vOHhWcXVFOHpBQ0JoZGpHTU5RcG4zMXFsdldaeUxFNnpGZGVLTllfTTQwc1dXd05KT3FyQVJXWWxKdV85cmdvOHJIRTd5Zk1ZUVJxN2VTMnNLWjh6?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-16",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "10bc3f7d65d12517",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC 2026 Full Notification Out | Total Vacancy, Exam Pattern & Exam Date | Sarrthi IAS - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XUkRtNEJaTGJJS3ZNcUE4cUJFS1BrSk0wMU9MSWxmdVNpT0k0LW9KZFJ2ZW44c3JYQWlDMFZiVkFFeFAxSF9lRmhiUW92TVkyazEwQXI4N1ZYcmRm?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-21",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "42cbaa659c0d151d",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC ESE Notification 2027 Out, Apply Online Last Date Today for 480 Posts - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94cVRvT0ZBLTRvbXNiMzJRWG9TT2NtT1hFaWlIRXl4dExneHlwZ19pU3dzNTI5SzY1S2NZWHdBQ1hveExhckZXbkp0Q3VvU0xkbmlLTjhjUUQta2NMaVNvZ1JSLWdBN3NPYlltV1daRW1FSmVMeXpZ?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-10-06",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "ea192a218df32117",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC Assistant Professor Recruitment 2026 Out for 64 Vacancies, Apply Online Link and Fees - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbXh0bGJmd1dnSDVfWXM4ckthUUl2RmE2cVdMX2lpTGpTNVozaGIwbFNnRzE0d1UxY0JIQ1RZdFRiRkprTlZDU1J1YjdpbGMxTExZMDFla2Y4b1ZrNi1mRFUwa3VSZ3ZxamQwUEhaZ1RoTW54RERYSVBhT0lHU1JWM0dVd0g0QkEweG03VjJnR1JuV3NRaGRFa2NqQS1uTm1LdW95UkNqUDBReDBKdFptbFFTWFBibjFKZ09SNzVXNWZicEszcHc?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-29",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "573ad08f14bbdff4",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC Combined Geo Scientist Recruitment 2026-27 Out for 127 Posts, Check Notification, Dates, Eligibility and More - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTmVpV1phR2xyRXBpaWhOSlZMdThkaDV6bGVYY1dSa2hBUTRUMUxZNXhyNWYxWjdCSGFSeW9EdUJCemlBa1hibHptbm0xQl96R1Q1YnMwNVhKMGl3WllwOHpKVlhUOTBGMEpMRUF0SDd3dnhhNmpuLURzU2lQTExjbFdKVFoybTA?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-17",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "ebd01cf4474c91bf",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC Recruitment 2026 For 400+ Vacancies, Apply Online Before 3rd July @upsconline.nic.in - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9mRUJaRlNGNHpwQThvclcxLVIxSUhOSXdLR0hRTkdVd1NTbGY3VkxHdkxXdTBVWDBVcjFzQk4xQ2F4bWI2S1dPN0h6ZnFZSng5YWM3R1lNelk2RFNYakg2NHZCeVp4bkx5?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-06-17",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "88168df7c04f5ce1",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO Result 2025 Out For APFC & EO/AO - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3Z0JmdFozNVJlSTdVMEVGYXpuLVYyRzh5YV9BNjY3OVFscVlmU0gzemQ5YUprbWNtLTViX1k3Q1ptZTBneUtZS0dVdjA2ZnBKbXdJa0JEdDVSUGE5UVpMMXNB?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2025-12-22",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "ade2f452635a2beb",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "MCD Labour Welfare Superintendent Recruitment 2026 Notification OUT at mcdonline.nic.in - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUXpiRmxEcnFPZ05wUEdnNFI2SUhtZ2lqd1dDUjRpTFc2TTNBUldOTmNISF93OXdrTFdBOU5PNGVCWkJaYlR6REt4N0RRZl82c1hDTUJxeEhQcVRCQ3FaTVJiVFppWkNPQ3JyQjFnY25RSDJYbXRod3RHM1JyUGhKN1lVS1NRdTJ6VkVXWk44R2Q?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-26",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "b8226e05126dcf0d",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC Mains Admit Card 2026 Released, Download Civil Services IAS Mains Hall Ticket - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE53Zk1pdVY0NDhlT05JanlvOXl5UkRwMDF2bkFkMmNsSkZJNFVGWm50M2hMYWpEUTZ6TGdyaGFxaElfM21CaDQ3czNFLWMtYjdMYnd6YmxpanpGRjM0NV9Pd3k1UVNjUkRvTlIxZlAtcw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-14",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "ac32115c723d02b4",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC CSE Mains 2026 Exam Begins Tomorrow - Check Key Instructions Issued by Commission - Telegraph India",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdFZ4T0tZUl92Wl8yUk03MVpMb2VFQnQzcFFfSjhPcEhfZUtLNEQta21CQ1RiU045M3dpMlhVZkFDUHVVQXhyUG1NT3FoVjVlZW5lS0lQRk5wSzg4eVFOY2czZlgtUzc1OXpHdVpSVVFaTDk1eGZKWS1WREtubGJjS1JmT3RCVWEyY1lha203bVI3V0JiSUVNMWlmTXdrUWhNclNLZzFLMjF4VEkxWnJ1Umt0REdhWFZ1YzVYODFGZWpOTjdfTEM5ZlIxd2hycVZ4YS1UV251TzPSAd4BQVVfeXFMTmpZMTBHcnJXdE9KODhveVhOYTJlV0lBcWRlY1VRQWFqVjJ5REJrLURscHpZNDdZd3ZBNWZZNlcwcUFfd21MZ2ZfNDd1Sm9XQXlhdUJtUS0wQU41OEFZTFNiT1lCVXVoclZ5ZEYxZWNxbTRuV1BjVk81a0c3c2M3TUVYYjNPVUFNOHVxWHVsWDJDUTltaTV1OExuWV9fb3ByN0FDRlB5blZMT1NyT3liU1BSdWJialFKcmRuYkxEM3NrZDdDOVQxUXcyY0FWd1BXUlZRZVh5OW9jckpXV213?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-20",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "08bd2478df077050",
-      "examId": "nicl-ao-2026",
-      "title": "NICL Assistant Mains Exam Date 2026 Out, Phase 2 Scheduled for 30 October - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUEpPMG1LOVF1d0xjM1J0NzczSXBVRXVkVEZYalQyQ3RCRV9lRzc2Q2t0dS1ySHdHNzhMUmRZYW1FRlVPSXdYMUdaaFFabzVqbXR5MEM4TTVzajRHeC0xejJTbnFjVWxuaG5Bbm5qdlNGellmX214UjllNVBXcWF1TjF3?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-13",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "549ef65a61c7a73a",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Legal Recruitment 2026, Apply Online for Legal Specialist Posts - PW",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Pa1Y0STBGNk4xemtGcDlqckpPNDVkYVAydTJNOW9JVG1hNHRxV0QzQUI0ekloU0VsbzZUVU40c3FPbUkxSzVlMm5xektza29talRXR3htUlVveHJLVzJqalFmMjllVE5DOGxxT2hxNkQxU3JG?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-10",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "9699e96a5f42f996",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Recruitment 2026: 321 Vacancies, Apply Online, Eligibility, Salary and Last Date - Education Times",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbk9pNVg3WnBmYU9zaGwwRld1U2ZueFZHTWQ4ZVJtUzlqWC1jZmdCWDhJMjVwVmhmZFdWZ2kwVzViNEZ5MjBxWk0tYk50MHdzemJ2aEpFTFJMMEJQYzdYdjFoTEJXeHQtNVJSZmlRbGVhRDBOdElOa1kzWm85NkIzTm9FbVY1TkphSDdacVlSdnB2Z19CaEZTUExGX1ZFT3ZsTlNzTnh2TmxxWG5OTWFyZkVXdW9ySFpyQXpYNUtPTXdoSTN4YnVKZ2JkOGZRQ1g0Ri1NdWFwWUN1OWJmektj?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-09",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "e215ee26a089f972",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO recruitment 2026: Applications open for 321 Administrative Officer posts, check details and direc - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNZVZxcnZXd0c1VVc2eUNLTkZrZVBTY04tNzduSklYWWltaFV6RDF3a2Fwcmx2ajZScnNMWTRVNDdiYnhEUmdZRE95WW92ZTI1R1daLVNYbWU1TVNYcGtCUkwtcko4U0VLaUkzSm1iQWxvUjhBLXJJdFBGS18tS1NJSVI4TVpMdXdKbUNBTlk1SGh6Q3MxY2JSaUZacEp0WFYyRjJXdzlOVHlVSjhzQU02MDctRldfQzN3YTM2Mk1mNEViZnJyX1UxWXVMN3AyenVxa3BmeVVSM0R3cm9WY0hQdWE1MWFSUmM0WGxyQm1kQXZqOExYeFNCeWNOeGdvRWlSaDV5cHhRRjE0VUZ3OWFBVGFWSEI3S0gzQy000gGgAkFVX3lxTE5sd2szdHd6a2NOYS1aM2RiVHZBNWpma0lkVWpUel9Gb01xRkFEaFZiZjExRUQ0NVRESzJuX0NRNnA0VUVKU2pnZUgzYnVySU5NWjdtZVlnTGZNYzdJeW82YWlwRmV1bEZhWkFfTXMzU3M1QnhJTW00ZGRfcjNXaTgxSGZmR3JFMVZoVHNVWmk4ZTZkVzEtempDMXdHYUhSVFdOc2RTNEllT19DWUdXUXhVekExcEZ4Vi1TZ05pZGxsN1RsTk5TT0o5cW0tWnd0a1FPbW11Um14YnRZdWpCWGI5NE1EN0RadGdnSnVnTmllMWQ2aW9Jak1sYlViSVY0VEZIVEpYc1BOT2RwRjJfR0RucmJ5U0U1ZkJKcTktd1pLOQ?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-08",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "3606929c52e077d1",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Recruitment 2026: Apply for 321 posts at nationalinsurance.nic.co.in, direct link to apply here | Hindustan Times - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNTGlwYnpUN0ZaWXc3OVZSdmlrOGVZX1dVUEpXbjRfQkxDZ084aVpzc1pPMDByUG5zeHV2ZUpwNXFLMTlwT2ctd3o4dktmSWxIYVEwLVZyNm9QY0JYTlNTd1BXcG9hbGJ2bUo2T1pYTXdIOGhGcENkdUtVZTJ2UXVuZVZ2YkxJeV85R1MtSFJvNTd1eGsyTjh6Uk1RRF9TTlV6cG5HcUZES1dwZ3MyMzVIUWctSEpjUDFoZkQzWmxIV2NuVXFpTFNvRnVGbUJkUkF4ZklQNkpCbXg2cmc2bGJEOFlRTHdQN1FHZjJOekV6TkdNaS1kVEVmNVY0VHFuNnBNTTVjckk0QTFEcUHSAZACQVVfeXFMUHVZY0dlQ1ZwWll3bjhpMWNFSy0tX3hLMW10VzBRN1NLWWV2XzV0WW1pNEc3blNqWHhaSjdNRE1tNXVNTUJ3NVN6Y0w0TUE0RjZfRnlZZ0VOcVdxYkZJSzhYQ01fdnRnV2JmbjJ2akR0dC1IVE5oLXBwQ0xuREtJV1NWME45VFFwenltZ1A2OFoxX0dJeXVWbUdtdElXR2N1SjhxdW5pVXBjbUdqOG5VY2dOYmhXaXVSc1BXeFY0TmZzYVRlaEtNZWdZdmd5ZFU5cVROT2dCR1VVZjk5WEVYYXRDMEtMMFBBcmQyamRWSmc1R0dVNGtmMVhwYVZvUk15SGZvVmJNQVZnTXE3X01NYVY?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-08",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "03d8a245c14a9b55",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Recruitment 2026: Registration begins for 321 posts at nationalinsurance.nic.co.in - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMExQeGZPZUpwZEdwdWRYQnE0SFljb2dLSGNISjdCWkxpOGVySlhJLWdsM2c5SXA5SDFxSWZPMnFJTVM1cXRUM3dtTUdwcl9jQlRNb0pwT3lValFaZmRuUWQxWFB6VFdOYVQ4TmV6TUVCZnN3NWJvRm9FLXNONi1nZlNSSVRtRl83RUJhbFdnOXd1TFJEV1RqVHBFLVFBeEhvOUdOM056Y0ZVOEtGdEF2WV9aTnBpODDSAcQBQVVfeXFMT0FaazJWemx3aEZQYmpuTXRWRDg3T3U1d3ZGRTlGVkcyb01fbm9iUGJSdkMtTFB4LUtxREZZcHk4RG9jN3hEMDRuZFMwZU41bFFCWk1wYVNkdEpNZ0hJNmRiMnNxZkpycWdYUGhvUDFaeEJwMnBQM0pNNjVBVDRZQXNxcmhpYThRZ19MaWxkSFVSeUtVeFBGMXQ2Q2JSaHFzRGpyOC00S0Y3YVZIdWp3NjFUdzNZdWQ0SGdISXdWaEJ1bUN6dw?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-08",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "c3d9cb46109e25cc",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Recruitment 2026 - 321 Vacant Administrative Officer posts announced online - Careers360",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85TTdLVHNjNkRFR1czOHd4NHkwT3ZKbEpPUVJnX09WRXdaUVlXWDFfejRkb1ZfaThkMjdZOFlqNWx1V18weDBJZ0ZMZUpSWlg3N1ZHSWZvSkZKcTlsYmRDYTFRY2MxMlB1VXJIdzJoN1E?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "3de65520f6263bbe",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Admit Card 2026 Release Date, Check Prelims Hall Ticket Updates, Download Link and Steps - PW",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5sWHc0cXctaGFhcTJZV1JTZlpGb045ODBtUllMVUdBdFFNejN2d1pQQW1aMzJuc2xvc1R1OUgwamI0eUFJa0FQQkJMNFlNYXllbnplTmVueDk5Tm9KSEhuVUxYanoydF85WDJsXzR3?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-09",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "ef7813c27fad2ad5",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Finance 2026 Change in Eligibility & Tentative Syllabus | Competition Explained - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1hRHZsQVZxUzF2bmJKaG5DS2k3dnZ4ZGVJcWh4YTdINFZ4TUxtblBjOVhHSmgzbGh4cm11R2w2U3MzQQ?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-09",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "162dc91d07d91203",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Cut Off 2026, Previous Year Category-wise Cut Off Marks - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tM0JIeXdhY2tlX1JyTUFYanNyWWZjZkNER3pHVVV3dGI1ckhEUzN2UENSZW1NR3RuZ0pQeEJLUHQzUHZHU2hpQlhxaUlRV3RmUEdCUkpiVjZyeVRXUGs5T0MwdVhiTGM?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "66b2d418fb6f31a9",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Recruitment 2026: 321 vacancies announced, registration begins October 8; salary up to Rs 1.14 lakh - EdexLive",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObzdQWWs0YTNaYy1JbXR1dnRJanZOb3FGaDByZW5rMzlwd2VFUnhwbHhDLUk2Y0pBWVFsaVMyTi14U0JGMXpmZmZ3cGFRclNzcDM1YWpvVWpiakI5aVc5MGI0MThZV3VndS1mbHY3aE8tM3VRbm5fdk1ueXNDZS1BOVd5RENCWV9NTndUWWx3dkhJblVrbk5XMTk2SXZMR3lycE9vUGkyVEp2azJqelI4YjRhal84YXJEeGtjOUpwRnc3VFYtTFVvMW02SVUzVUHSAdwBQVVfeXFMUFhDZTk4d1hsQ09fbFF1VG83bDFnU3JybTJXdmVKbGlMYTREeGk1elIxb2tUbEZNZW96OFJqNHY1YXJBcWwydzB3bnBiOUpvOUFoTzE0UDM2aTU5bENxZHBBY3VRdEJ0N0JhbU9ZS0VzQ0MzbERxLWNDWWUwUVZmTjc5N2NhWC15TXBuUVFnMHhpVW14LWRWbmgtNDBJeWFHVFZ5MkZVNUhhc1dVOWRwM2N6ZklPQ1FMeUpuY0ROWXZKX0F1OTdLTTI4YjlVV2wyRm13WHhPbzFkd1A1eA?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "9f0667077cae006c",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Notification 2026 Out For 321 Posts, Check Eligibility & Apply Online - PW",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81Y09PbWhYNUZ0MGk0NjZJX3p4bkZsZkp1OTZILWN3S0Q0Nlh1dmtwNFR4UUo4dzNMYmJhYnNYYjljNHZadEN0bFBGTjZhQUtiN2g1RkpLNXRpV1lNUElGanZIVko0aW84cmxLTFJFRDE?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "27cc03309e63e02f",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Recruitment 2026 Out! 321 Posts | Salary ₹1.14 Lakhs | 4-Year Bond Rules & Complete Details - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE04anF2VnhIUl9FSkx2WHhfNWJHOUVsUGpUNDlXMFZXaE5BeFZHLV9WVHRzeXBqM3RmX3hXOERkdVlWdw?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "eb12c70b7e2a032e",
-      "examId": "nicl-ao-2026",
-      "title": "NICL Assistant Result 2026 Out @nationalinsurance.nic.co.in, Download Prelims Result PDF - Adda247",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OYkZRQ2w2LVVGcjIwQzBuU21hV04tLXJRMHRrMzB4bDZWUEpIdmxvRmpIdUJWel9EU0QzVmFKN2FOT0RCS1EyQWFFSk0zUk41S1U3ek9MSUlSZXBlVldiNQ?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-09",
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "cef6fe7958503aac",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=aL4aLO7hr6ucDV4VazHUM7VbWSgRSrQmCj9o1kjZIYTaeqzXvQ4RQT%2BL%2FhjABg1G6He0qIg3Wi7m3maht7kaelMqVrTYGuRut0mqScrtyxap6eY41Z8ljMkyveP1BvQpAh2wTqr4UsPKxEhFvsTLyw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "a962afb5db191a02",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=EQEBXVl82owQ42M5fBHse4%2B6hjYlKoSrEkP%2BJV5419%2FUW0PKH42gvRIVWbsJ%2BIM%2FdxR09gSaHVOWfSxW%2BMx0xsMqPTsYPptUovtKG5kR3kLkZNJ4l360Kqqb3A%2F5ZwjDD548G8i%2FZNo8UVPTc%2B6FrQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "d198667c1fe3f2d5",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=D5HM2yHYZLHPgqJscrrTUbAB9zgUEO75eDe7%2Bdes0o4FmRUubJTsG1LMNpRxwScYlVAuRpiFF7pqQSAE19d2merloGBuCMWFWMth8bWMZqK8tzcFWSYqjm93zEryEF28N7DyJaGLFRDRri33OU3XoQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-15T01:04:58+05:30"
-    },
-    {
-      "id": "7c63e445eeb298af",
-      "examId": "nicl-ao-2026",
-      "title": "NICL AO Recruitment 2026 Apply Online Link Active, Here's How to Register - PW",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tNDdxWXdXN2xpTFlzOEw5YlNPQXI3bTk4alJycVZ3SHlvWlNoS3NxZ1pDYUJhanZ6b2FtMGFEbGlJWmNMVHF1ZWVFUXNVRXNWek02a2hHbXVxUFlwcmhGNkxyWUpDclJ3NGVMMGNaM3ZCclUyblJuaENlSXR1bXM?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-10-09",
-      "firstSeen": "2026-10-15T00:58:31+05:30"
     }
   ]
 }
