@@ -1,0 +1,17 @@
+{
+  "totalCount": 1,
+  "jobs": [
+    {
+      "title": "Management Trainee",
+      "location": "Bengaluru, Karnataka",
+      "snippet": "Campus hiring for <b>MBA</b> 2026 graduates.",
+      "salary": "₹10 - 12 LPA",
+      "source": "example.com",
+      "type": "Full-time",
+      "link": "https://in.jooble.org/desc/1234567890",
+      "company": "Wipro",
+      "updated": "2026-10-13T00:00:00.0000000",
+      "id": 1234567890
+    }
+  ]
+}

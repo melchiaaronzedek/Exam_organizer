@@ -1,0 +1,29 @@
+{
+  "count": 2,
+  "results": [
+    {
+      "id": "1",
+      "title": "Management Trainee - Marketing",
+      "company": {"display_name": "Hindustan Unilever"},
+      "location": {"display_name": "Mumbai, Maharashtra", "area": ["India", "Maharashtra", "Mumbai"]},
+      "salary_min": 600000.0,
+      "salary_max": 900000.0,
+      "salary_is_predicted": "0",
+      "redirect_url": "https://www.adzuna.in/land/ad/1?se=abc",
+      "created": "2026-10-12T08:00:00Z",
+      "description": "Campus programme for MBA graduates."
+    },
+    {
+      "id": "2",
+      "title": "Business Analyst Fresher",
+      "company": {"display_name": "Infosys"},
+      "location": {"display_name": "Pune, Maharashtra"},
+      "salary_min": 400000.0,
+      "salary_max": 500000.0,
+      "salary_is_predicted": "1",
+      "redirect_url": "https://www.adzuna.in/land/ad/2?se=def",
+      "created": "2026-10-13T08:00:00Z",
+      "description": "Graduate programme."
+    }
+  ]
+}

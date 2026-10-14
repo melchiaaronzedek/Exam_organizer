@@ -48,6 +48,22 @@ The site is a PWA. On iPhone use Share → Add to Home Screen; on Android Chrome
 
 `public/data/profile.json` holds the public-safe profile (education, role keywords, sectors, home states, minimum pay). `scraper/fit.py` (mirrored in `src/lib/fit.ts`) scores each opening: +40 role keyword, +20 MBA / +15 graduate / +20 agriculture match, +15 sector, +10 South or all-India, +10 pay above the floor, −35 if it demands 2+ years' experience, −30 deputation/retiree posts, −30 engineering/CA/law/medical-only posts. `scraper/discover.py` runs daily after the notice scraper, reads `public/data/discovery_sources.json` (news and aggregator feeds), keeps items with fit ≥ 45 in `opportunities.json → discovered[]`, and the reminder job opens a `🎯` issue (plus Telegram/WhatsApp line) for new items with fit ≥ 60. The curated list was seeded by research on 14 Oct 2026; edit `opportunities.json → curated[]` to correct or add entries. Fit is a keyword score, not eligibility advice: always check the official notification.
 
+## Job portals
+
+`scraper/portals.py` runs daily after discovery and scans job portals for fresher-friendly private roles (≤ 6 months' experience; private listings need a stated salary reaching ₹10 LPA, or a known employer's explicit trainee / graduate programme). It opens each LinkedIn, Internshala, TimesJobs, Shine and Freshersworld listing to read the real experience line and pay, and drops agency-style names, scam wording and unknown employers' work-from-home offers.
+
+| Portal | How it is read | Notes |
+|---|---|---|
+| Unstop, LinkedIn (guest), Internshala | public search pages / JSON | always on |
+| iimjobs, TimesJobs, Shine, Freshersworld | public server-rendered search pages | always on; iimjobs detail pages need a login, so only the listing line is used |
+| Foundit | public JSON | always on; sometimes answers 403 for a run |
+| Naukri | JSON API | **usually blocked**: the API asks for a recaptcha from GitHub's servers |
+| Indeed, Glassdoor | rendered through the `r.jina.ai` reader | **best effort**: both sites bot-check datacenter IPs, so the footer normally shows "✗ cloudflare" or "✗ reader: no job links" |
+| Adzuna | official API | off until `ADZUNA_APP_ID` and `ADZUNA_APP_KEY` are added as repo secrets (free at https://developer.adzuna.com → *Add application*) |
+| Jooble | official API | off until `JOOBLE_API_KEY` is added (request one at https://jooble.org/api/about) |
+
+Add keys under *Settings → Secrets and variables → Actions*. The Jobs page footer shows each portal as `✓ n` (listings scanned), `✗ reason` or `– off`, and a Source filter row lets you look at one portal at a time. Locally: `python scraper/portals.py --test` runs every parser against the snippets in `scraper/fixtures/`; `python scraper/portals.py --dry-run --only TimesJobs,Shine` fetches just those portals without writing.
+
 ## Reminders
 
 Three channels, all driven by `.github/workflows/daily.yml` at **08:00 IST** every day.

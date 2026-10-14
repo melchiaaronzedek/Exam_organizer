@@ -7,7 +7,7 @@ Rules (from profile.json):
   * pay: private listings qualify only when the stated range reaches privateMinPayLakh (10 LPA)
     and its floor is at least privatePayFloorLakh (6 LPA); listings without a stated salary are dropped
   * role: the title must contain one of the role keywords and none of the exclusion terms
-Usage: python portals.py [--dry-run] [--fixture path.json] [--test]
+Usage: python portals.py [--dry-run] [--fixture path.json] [--only Name,Name] [--test]
 """
 from __future__ import annotations
 
@@ -18,17 +18,21 @@ import time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Callable, NamedTuple
 
 import requests
 from bs4 import BeautifulSoup
 
-from common import load_json, now_ist, save_json, today_ist
+from common import env, load_json, now_ist, save_json, today_ist
 from fit import score
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 CAP = 200
 KEEP_DAYS = 30
 TIMEOUT = 30
+DETAIL_CAP = 320          # listings opened per run to read the real requirements
+TIME_BUDGET = 420         # seconds of search fetching before the rest is skipped
+FIXTURES = Path(__file__).parent / "fixtures"
 
 QUERIES = [
     "management trainee",
@@ -91,7 +95,7 @@ def parse_salary(text: str | None) -> tuple[float, float] | None:
     t = text.lower().replace("₹", " ").replace("rs.", " ").replace("rs", " ").replace("inr", " ").replace("–", "-")
     if "not disclosed" in t or "undisclosed" in t:
         return None
-    monthly = bool(re.search(r"(/|per)\s*month|p\.?m\.?\b|monthly", t))
+    monthly = bool(re.search(r"(/|per|an?)\s*month|p\.?m\.?\b|monthly", t))
     unit = None
     if re.search(r"\b(lacs?|lakhs?|lpa|l\.p\.a|lac)\b", t) or re.search(r"\d\s*l\b", t):
         unit = "lakh"
@@ -218,6 +222,10 @@ def naukri(q: str) -> list[dict]:
         # Naukri answers "recaptcha required" to datacenter IPs and renders its search page client-side,
         # so neither the API nor the reader fallback yields cards from GitHub Actions. Report it plainly.
         raise RuntimeError(f"blocked (recaptcha) — {str(last)[:60]}")
+    if not isinstance(data, dict) or "jobDetails" not in data:
+        if "captcha" in json.dumps(data)[:400].lower():
+            raise RuntimeError("blocked (recaptcha)")
+        raise RuntimeError(f"parse (no jobDetails: {json.dumps(data)[:80]})")
     out = []
     for j in data.get("jobDetails", []) or []:
         ph = {p.get("type"): p.get("label") for p in j.get("placeholders", []) or []}
@@ -367,16 +375,457 @@ def internshala(q: str) -> list[dict]:
     return out
 
 
+def _slug(q: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", q.lower()).strip("-")
+
+
+def _text(el) -> str:
+    return el.get_text(" ", strip=True) if el else ""
+
+
+def _zero_sample(name: str, text: str, hint: str = "") -> None:
+    """Print the head of a page that was fetched fine but yielded no cards, so the selectors can be fixed from the log."""
+    head = re.sub(r"\s+", " ", text[:700])
+    print(f"[sample] {name}: {len(text)} chars{(' · ' + hint) if hint else ''}; head: {head!r}")
+    m = re.search(r"<(?:li|div|article)[^>]{0,200}(?:job|card|tuple)[^>]{0,200}>", text, re.I)
+    if m:
+        print(f"[sample] {name}: first job-ish tag at {m.start()}: {text[m.start(): m.start() + 500]!r}")
+
+
+BLOCK_MARKERS = ("just a moment", "verify you are human", "additional verification required", "security check", "access denied", "are you a human", "cf-chl", "enable javascript and cookies", "request blocked")
+
+
+def _reader(url: str, timeout: int = 45) -> str:
+    """The rendered page as markdown via the r.jina.ai reader (works for some JS-only sites)."""
+    r = requests.get(f"https://r.jina.ai/{url}", headers={"User-Agent": UA, "Accept": "text/plain", "X-Return-Format": "markdown"}, timeout=timeout)
+    if r.status_code >= 400:
+        raise RuntimeError(f"blocked (reader http {r.status_code})")
+    return r.text
+
+
+def _reader_blocked(md: str) -> str | None:
+    low = md[:4000].lower()
+    for m in BLOCK_MARKERS:
+        if m in low:
+            return m
+    return None
+
+
+def _md_cards(md: str, link_rx: re.Pattern) -> list[tuple[str, str, str]]:
+    """(title, url, chunk-after-link) for every markdown link matching link_rx."""
+    hits = list(link_rx.finditer(md))
+    out = []
+    for i, m in enumerate(hits):
+        end = hits[i + 1].start() if i + 1 < len(hits) else m.end() + 900
+        out.append((m.group(1).strip(), m.group(2), md[m.end(): end][:900]))
+    return out
+
+
+def _md_line(chunk: str, rx: str) -> str | None:
+    m = re.search(rx, chunk, re.I)
+    return m.group(1).strip() if m else None
+
+
+def post_json(url: str, payload: dict, headers: dict | None = None) -> dict:
+    r = requests.post(url, json=payload, headers={"User-Agent": UA, "Accept": "application/json", **(headers or {})}, timeout=TIMEOUT)
+    r.raise_for_status()
+    return r.json()
+
+
+# ── iimjobs (MBA-focused; listing is public, detail pages need a login) ──
+def parse_iimjobs(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, "lxml")
+    out, seen = [], set()
+    for a in soup.select("a[href*='/j/']"):
+        href = a.get("href") or ""
+        t = _text(a)
+        if len(t) < 8 or href in seen:
+            continue
+        seen.add(href)
+        card = a
+        for _ in range(4):
+            if card.parent is None:
+                break
+            card = card.parent
+            if re.search(r"\(\s*\d+\s*-\s*\d+\s*yrs?\s*\)", _text(card), re.I) and card.name in ("li", "div", "article"):
+                break
+        ctext = _text(card)
+        exp = re.search(r"\(\s*(\d+\s*-\s*\d+)\s*yrs?\s*\)", t + " " + ctext, re.I)
+        title = re.sub(r"\s*\(\s*\d+\s*-\s*\d+\s*yrs?\s*\)\s*$", "", t).strip()
+        comp_el = card.select_one("[class*='company'], [class*='comp-name'], [class*='recruiter']")
+        company = _text(comp_el)
+        parts = [p.strip() for p in title.split(" - ")]
+        if not company and len(parts) >= 2:
+            company, title = parts[0], " - ".join(parts[1:])
+        elif company and len(parts) >= 2 and parts[0].lower() == company.lower():
+            title = " - ".join(parts[1:])
+        loc_el = card.select_one("[class*='location'], [class*='loc']")
+        loc = _text(loc_el)
+        if not loc:
+            m = re.search(r"yrs?\s*\)\s*([A-Z][A-Za-z .,/&-]{2,60}?)(?:\s{2,}|$|\d)", ctext)
+            loc = m.group(1).strip() if m else ""
+        out.append({
+            "title": title, "company": company, "location": loc,
+            "url": href if href.startswith("http") else "https://www.iimjobs.com" + href,
+            "salaryText": None, "experienceText": f"{exp.group(1)} yrs" if exp else None, "postedAt": None,
+            "description": ctext[:600],
+        })
+    return out
+
+
+def iimjobs(q: str) -> list[dict]:
+    url = f"https://www.iimjobs.com/k/{_slug(q)}-jobs"
+    r = get(url)
+    if "/login" in r.url or re.search(r"(sign in|login) to (view|see)", r.text[:20000], re.I):
+        raise RuntimeError("blocked (login wall)")
+    items = parse_iimjobs(r.text)
+    if not items and len(r.text) > 20000:
+        _zero_sample("iimjobs", r.text, url)
+        raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
+    return items
+
+
+# ── TimesJobs (classic server-rendered search) ──
+def parse_timesjobs(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, "lxml")
+    out = []
+    for li in soup.select("li.job-bx, li.clearfix.job-bx, [class*='job-bx']"):
+        a = li.select_one("h2 a, h3 a, a[href*='job-detail']")
+        if not a:
+            continue
+        comp = _text(li.select_one("h3.joblist-comp-name, .joblist-comp-name, [class*='comp-name']"))
+        comp = re.sub(r"\(?\s*more jobs\s*\)?", "", comp, flags=re.I).strip()
+        for icon in li.select("i.material-icons, i"):
+            icon.decompose()  # the icon font's ligature text ("card_travel", "Rs") sits inside the li
+        dtl = [_text(x) for x in li.select("ul.top-jd-dtl li, .top-jd-dtl li")]
+        exp = next((d for d in dtl if re.search(r"\byrs?\b|year", d, re.I)), None)
+        sal = next((d for d in dtl if re.search(r"\b(?:lacs?|lakhs?|lpa|rs)\b|₹", d, re.I)), None)
+        loc = dtl[-1] if dtl else _text(li.select_one("[class*='loc']"))
+        posted = _text(li.select_one("span.sim-posted, .sim-posted"))
+        m = re.search(r"(\d+)\s*days?\s*ago", posted, re.I)
+        posted_at = (today_ist() - timedelta(days=int(m.group(1)))).isoformat() if m else (today_ist().isoformat() if re.search(r"today|few", posted, re.I) else None)
+        href = a.get("href") or ""
+        out.append({
+            "title": _text(a), "company": comp, "location": re.sub(r"^\s*location\s*:?", "", loc, flags=re.I).strip() if loc and loc != exp and loc != sal else "",
+            "url": href if href.startswith("http") else "https://www.timesjobs.com" + href,
+            "salaryText": sal, "experienceText": exp, "postedAt": posted_at,
+            "description": _text(li.select_one("ul.list-job-dtl, .list-job-dtl"))[:600],
+        })
+    return out
+
+
+def timesjobs(q: str) -> list[dict]:
+    url = f"https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords={requests.utils.quote(q)}&cboWorkExp1=0"
+    r = get(url)
+    items = parse_timesjobs(r.text)
+    if not items and len(r.text) > 20000:
+        _zero_sample("TimesJobs", r.text, url)
+        raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
+    return items
+
+
+def parse_timesjobs_detail(html: str) -> dict:
+    text = BeautifulSoup(html, "lxml").get_text("\n", strip=True)
+    out: dict = {}
+    m = re.search(r"(\d+\s*-\s*\d+\s*yrs?|fresher)", text, re.I)
+    if m:
+        out["experienceText"] = m.group(1)
+    m = re.search(r"((?:rs\.?|₹)\s*[\d.,]+\s*-\s*[\d.,]+\s*lacs?\s*p\.?a\.?)", text, re.I)
+    if m:
+        out["salaryText"] = m.group(1)
+    m = re.search(r"job description\s*\n(.{40,4000})", text, re.I | re.S)
+    out["description"] = (m.group(1) if m else text)[:4000]
+    return out
+
+
+def timesjobs_detail(url: str) -> dict:
+    return parse_timesjobs_detail(get(url).text)
+
+
+# ── Shine (Next.js: job cards live in the __NEXT_DATA__ JSON) ──
+def _pick(d: dict, *keys):
+    for k in keys:
+        if k in d and d[k] not in (None, "", []):
+            return d[k]
+    for k in keys:
+        for dk, v in d.items():
+            if k.lower() in dk.lower() and v not in (None, "", [], {}):
+                return v
+    return None
+
+
+def _walk_lists(obj, depth: int = 8):
+    if depth < 0:
+        return
+    if isinstance(obj, list):
+        if len(obj) >= 3 and all(isinstance(x, dict) for x in obj[:3]):
+            yield obj
+        for x in obj[:50]:
+            yield from _walk_lists(x, depth - 1)
+    elif isinstance(obj, dict):
+        for v in obj.values():
+            yield from _walk_lists(v, depth - 1)
+
+
+def _next_data(html: str) -> dict | None:
+    m = re.search(r'<script[^>]+id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def parse_shine(html: str) -> list[dict]:
+    data = _next_data(html)
+    out = []
+    if data:
+        cards = None
+        for lst in _walk_lists(data):
+            d0 = lst[0]
+            if _pick(d0, "jJT", "jobTitle", "title") and _pick(d0, "jCName", "companyName", "company"):
+                cards = lst
+                break
+        for j in cards or []:
+            title = _pick(j, "jJT", "jobTitle", "title")
+            comp = _pick(j, "jCName", "companyName", "company")
+            if isinstance(comp, dict):
+                comp = comp.get("name") or ""
+            slug = _pick(j, "jSlug", "jURL", "url", "slug") or ""
+            link = slug if str(slug).startswith("http") else "https://www.shine.com/jobs/" + str(slug).lstrip("/") if slug else ""
+            exp = _pick(j, "jExp", "experience", "exp")
+            sal = _pick(j, "jSal", "salary", "ctc")
+            out.append({
+                "title": str(title), "company": str(comp or ""), "location": _locs(_pick(j, "jLoc", "location", "city")),
+                "url": link, "salaryText": str(sal) if sal and not isinstance(sal, (dict, list)) else None,
+                "experienceText": str(exp) if exp and not isinstance(exp, (dict, list)) else None,
+                "postedAt": _date_any(_pick(j, "jPDate", "postedDate", "posted", "createdAt")),
+                "description": str(_pick(j, "jJD", "description", "desc") or "")[:600],
+            })
+    if not out:
+        soup = BeautifulSoup(html, "lxml")
+        for card in soup.select("[class*='jobCard'], [class*='job-card'], [class*='jobTuple']"):
+            a = card.select_one("a[href*='/jobs/']")
+            h = card.select_one("h2, h3")
+            if not a or not h:
+                continue
+            txt = _text(card)
+            exp = re.search(r"(\d+\s*(?:-|to)\s*\d+\s*yrs?)", txt, re.I)
+            sal = re.search(r"(\d[\d.,]*\s*(?:-|to)\s*\d[\d.,]*\s*(?:lacs?|lakh|lpa)[^\s]*)", txt, re.I)
+            href = a.get("href") or ""
+            out.append({
+                "title": _text(h), "company": _text(card.select_one("[class*='company'], [class*='comp']")), "location": _text(card.select_one("[class*='location'], [class*='loc']")),
+                "url": href if href.startswith("http") else "https://www.shine.com" + href,
+                "salaryText": sal.group(1) if sal else None, "experienceText": exp.group(1) if exp else None, "postedAt": None, "description": txt[:600],
+            })
+    return out
+
+
+def shine(q: str) -> list[dict]:
+    url = f"https://www.shine.com/job-search/{_slug(q)}-jobs"
+    r = get(url)
+    items = parse_shine(r.text)
+    if not items and len(r.text) > 20000:
+        nd = _next_data(r.text)
+        _zero_sample("Shine", json.dumps(nd)[:4000] if nd else r.text, url)
+        raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
+    return items
+
+
+def parse_shine_detail(html: str) -> dict:
+    out: dict = {}
+    nd = _next_data(html)
+    if nd:
+        exp = find_key(nd, "jexp", "experience", depth=8)
+        sal = find_key(nd, "jsal", "salary", "ctc", depth=8)
+        desc = find_key(nd, "jjd", "description", "jobdescription", depth=8)
+        if exp:
+            out["experienceText"] = str(exp)
+        if sal:
+            out["salaryText"] = str(sal)
+        if desc:
+            out["description"] = re.sub(r"<[^>]+>", " ", str(desc))[:4000]
+    if "description" not in out:
+        text = BeautifulSoup(html, "lxml").get_text("\n", strip=True)
+        out["description"] = text[:4000]
+        m = re.search(r"(\d+\s*(?:-|to)\s*\d+\s*yrs?)", text, re.I)
+        if m and "experienceText" not in out:
+            out["experienceText"] = m.group(1)
+    return out
+
+
+def shine_detail(url: str) -> dict:
+    return parse_shine_detail(get(url).text)
+
+
+# ── Freshersworld (fresher-only board) ──
+def parse_freshersworld(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, "lxml")
+    out = []
+    for card in soup.select("[class*='job-container'], [class*='job_container'], [class*='latest-job']"):
+        title = card.get("data-job-display-name") or _text(card.select_one("[class*='wrap-title'], h3 a, h2 a, a[href*='/jobs/']"))
+        a = card.select_one("a[href*='/jobs/'], a[href*='freshersworld.com']")
+        href = card.get("data-url") or (a.get("href") if a else "") or ""
+        if not title or not href:
+            continue
+        txt = _text(card)
+        exp = re.search(r"experience[:\s]*((?:\d+\s*(?:-|to)\s*\d+|\d+)\s*(?:years?|yrs?)|fresher)", txt, re.I)
+        sal = re.search(r"salary[:\s]*([^\n]{3,40}?(?:per annum|lakh|lpa|p\.a\.|lacs?)[^\n]{0,10})", txt, re.I)
+        posted = re.search(r"posted[:\s]*(\d{4}-\d{2}-\d{2})", txt, re.I)
+        out.append({
+            "title": title, "company": card.get("data-company-name") or _text(card.select_one("[class*='company-name'], [class*='company'], [class*='latest-jobs-title']")),
+            "location": card.get("data-job-location") or _text(card.select_one("[class*='job-location'], [class*='location']")),
+            "url": href if href.startswith("http") else "https://www.freshersworld.com" + href,
+            "salaryText": sal.group(1).strip() if sal else None, "experienceText": exp.group(1) if exp else None,
+            "postedAt": posted.group(1) if posted else None, "description": txt[:600],
+        })
+    return out
+
+
+def freshersworld(q: str) -> list[dict]:
+    url = f"https://www.freshersworld.com/jobs/jobsearch/{_slug(q)}-jobs"
+    r = get(url)
+    items = parse_freshersworld(r.text)
+    if not items and len(r.text) > 20000:
+        _zero_sample("Freshersworld", r.text, url)
+        raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
+    return items
+
+
+def parse_freshersworld_detail(html: str) -> dict:
+    text = BeautifulSoup(html, "lxml").get_text("\n", strip=True)
+    out: dict = {"description": text[:4000]}
+    m = re.search(r"experience[:\s]*\n?\s*((?:\d+\s*(?:-|to)\s*\d+|\d+)\s*(?:years?|yrs?)|fresher)", text, re.I)
+    if m:
+        out["experienceText"] = m.group(1)
+    m = re.search(r"salary[:\s]*\n?\s*([^\n]{3,50}?(?:per annum|lakh|lpa|p\.a\.|lacs?|/\s*month)[^\n]{0,10})", text, re.I)
+    if m:
+        out["salaryText"] = m.group(1).strip()
+    return out
+
+
+def freshersworld_detail(url: str) -> dict:
+    return parse_freshersworld_detail(get(url).text)
+
+
+# ── Indeed and Glassdoor (bot-protected; best effort through the reader) ──
+INDEED_LINK_RX = re.compile(r"\[([^\]]{4,140})\]\((https://in\.indeed\.com/(?:viewjob\?jk=|rc/clk|pagead/clk|m/viewjob\?jk=)[^)\s]+)\)")
+GLASSDOOR_LINK_RX = re.compile(r"\[([^\]]{4,140})\]\((https://www\.glassdoor\.co\.in/job-listing/[^)\s]+)\)")
+CITY_LINE_RX = r"\n\s*([A-Z][A-Za-z .]{2,40}(?:,\s*[A-Z][A-Za-z .]{2,30})?(?:\s*\d{6})?)\s*\n"
+
+
+def parse_indeed_md(md: str) -> list[dict]:
+    marker = _reader_blocked(md)
+    if marker:
+        raise RuntimeError(f"blocked (cloudflare: {marker})")
+    out, seen = [], set()
+    for title, link, chunk in _md_cards(md, INDEED_LINK_RX):
+        jk = re.search(r"jk=([0-9a-f]+)", link)
+        key = jk.group(1) if jk else link
+        if key in seen:
+            continue
+        seen.add(key)
+        sal = _md_line(chunk, r"(₹\s*[\d,]+(?:\s*-\s*₹?\s*[\d,]+)?\s*(?:a|per)\s*(?:month|year|annum))")
+        out.append({
+            "title": title, "company": _md_line(chunk, r"\n\s*\**([A-Z][^\n*]{2,60}?)\**\s*\n") or "", "location": _md_line(chunk, CITY_LINE_RX) or "",
+            "url": link.split("&")[0] if "viewjob" in link else link, "salaryText": sal, "experienceText": None, "postedAt": None, "description": chunk[:600],
+        })
+    if not out:
+        raise RuntimeError("blocked (reader: no job links)")
+    return out
+
+
+def indeed(q: str) -> list[dict]:
+    md = _reader(f"https://in.indeed.com/jobs?q={requests.utils.quote(q)}&l=India&fromage=7&explvl=entry_level")
+    links = len(re.findall(r"\]\((https?://[^)\s]+)\)", md))
+    print(f"[sample] Indeed reader {len(md)} chars, {links} links; head: {re.sub(r'\s+', ' ', md[:160])!r}")
+    return parse_indeed_md(md)
+
+
+def parse_glassdoor_md(md: str) -> list[dict]:
+    marker = _reader_blocked(md)
+    if marker:
+        raise RuntimeError(f"blocked (cloudflare: {marker})")
+    out, seen = [], set()
+    for title, link, chunk in _md_cards(md, GLASSDOOR_LINK_RX):
+        if link in seen:
+            continue
+        seen.add(link)
+        sal = _md_line(chunk, r"(₹\s*[\d,.]+[KL]?(?:\s*-\s*₹?\s*[\d,.]+[KL]?)?\s*(?:\(.*?\))?\s*(?:a|per)?\s*(?:month|year|annum)?)")
+        out.append({
+            "title": title, "company": _md_line(chunk, r"\n\s*\**([A-Z][^\n*]{2,60}?)\**\s*\n") or "", "location": _md_line(chunk, CITY_LINE_RX) or "",
+            "url": link.split("?")[0], "salaryText": sal, "experienceText": None, "postedAt": None, "description": chunk[:600],
+        })
+    if not out:
+        if re.search(r"sign in|create account", md[:6000], re.I):
+            raise RuntimeError("blocked (login wall)")
+        raise RuntimeError("blocked (reader: no job links)")
+    return out
+
+
+def glassdoor(q: str) -> list[dict]:
+    slug = _slug(q)
+    url = f"https://www.glassdoor.co.in/Job/india-{slug}-jobs-SRCH_IL.0,5_IN115_KO6,{6 + len(slug)}.htm"
+    md = _reader(url)
+    links = len(re.findall(r"\]\((https?://[^)\s]+)\)", md))
+    print(f"[sample] Glassdoor reader {len(md)} chars, {links} links; head: {re.sub(r'\s+', ' ', md[:160])!r}")
+    return parse_glassdoor_md(md)
+
+
+# ── Adzuna and Jooble (official APIs; run only when the repo secrets are set) ──
+def parse_adzuna(data: dict) -> list[dict]:
+    out = []
+    for j in data.get("results", []) or []:
+        lo, hi = j.get("salary_min"), j.get("salary_max")
+        predicted = str(j.get("salary_is_predicted", "0")) == "1"
+        sal = f"{float(lo):.0f} - {float(hi):.0f} per annum" if lo and hi and not predicted else None
+        out.append({
+            "title": j.get("title") or "", "company": (j.get("company") or {}).get("display_name") or "",
+            "location": (j.get("location") or {}).get("display_name") or "", "url": j.get("redirect_url") or "",
+            "salaryText": sal, "experienceText": None, "postedAt": _date_any(j.get("created")), "description": (j.get("description") or "")[:600],
+        })
+    return out
+
+
+def adzuna(q: str) -> list[dict]:
+    app_id, key = env("ADZUNA_APP_ID"), env("ADZUNA_APP_KEY")
+    url = f"https://api.adzuna.com/v1/api/jobs/in/search/1?app_id={app_id}&app_key={key}&what={requests.utils.quote(q)}&max_days_old=14&results_per_page=50&sort_by=date&content-type=application/json"
+    try:
+        return parse_adzuna(get(url).json())
+    except requests.HTTPError as e:  # never echo the URL: it carries the key
+        raise RuntimeError(f"http {e.response.status_code if e.response is not None else '?'}") from None
+
+
+def parse_jooble(data: dict) -> list[dict]:
+    out = []
+    for j in data.get("jobs", []) or []:
+        out.append({
+            "title": j.get("title") or "", "company": j.get("company") or "", "location": j.get("location") or "",
+            "url": j.get("link") or "", "salaryText": j.get("salary") or None, "experienceText": None,
+            "postedAt": _date_any(j.get("updated")), "description": re.sub(r"<[^>]+>", " ", j.get("snippet") or "")[:600],
+        })
+    return out
+
+
+def jooble(q: str) -> list[dict]:
+    try:
+        return parse_jooble(post_json(f"https://jooble.org/api/{env('JOOBLE_API_KEY')}", {"keywords": q, "location": "India"}))
+    except requests.HTTPError as e:
+        raise RuntimeError(f"http {e.response.status_code if e.response is not None else '?'}") from None
+
+
 def _sample_url(name: str, q: str) -> str:
-    q = requests.utils.quote(q)
+    qq = requests.utils.quote(q)
     return {
-        "Foundit": f"https://www.foundit.in/middleware/jobsearch?sort=1&limit=2&query={q}&experienceRanges=0~1&start=0",
-        "Unstop": f"https://unstop.com/api/public/opportunity/search-result?opportunity=jobs&per_page=2&oppstatus=open&searchTerm={q}",
-        "Naukri": f"https://www.naukri.com/jobapi/v3/search?noOfResults=2&urlType=search_by_keyword&searchType=adv&keyword={q}&experience=0",
+        "Foundit": f"https://www.foundit.in/middleware/jobsearch?sort=1&limit=2&query={qq}&experienceRanges=0~1&start=0",
+        "Unstop": f"https://unstop.com/api/public/opportunity/search-result?opportunity=jobs&per_page=2&oppstatus=open&searchTerm={qq}",
+        "Naukri": f"https://www.naukri.com/jobapi/v3/search?noOfResults=2&urlType=search_by_keyword&searchType=adv&keyword={qq}&experience=0",
+        "iimjobs": f"https://www.iimjobs.com/k/{_slug(q)}-jobs",
+        "TimesJobs": f"https://www.timesjobs.com/candidate/job-search.html?searchType=personalizedSearch&from=submit&txtKeywords={qq}",
+        "Shine": f"https://www.shine.com/job-search/{_slug(q)}-jobs",
+        "Freshersworld": f"https://www.freshersworld.com/jobs/jobsearch/{_slug(q)}-jobs",
     }.get(name, "about:blank")
-
-
-PORTALS = [("Naukri", naukri), ("Foundit", foundit), ("Unstop", unstop), ("LinkedIn", linkedin), ("Internshala", internshala)]
 
 
 # ───────────────────────── pipeline ─────────────────────────
@@ -487,13 +936,8 @@ def internshala_detail(url: str) -> dict:
 def verify(raw: dict) -> dict:
     """Open the listing itself to read experience, pay and the description. Never raises."""
     try:
-        src = raw.get("source")
-        if src == "LinkedIn":
-            d = linkedin_detail(raw.get("url") or "")
-        elif src == "Internshala":
-            d = internshala_detail(raw.get("url") or "")
-        else:
-            d = {}
+        portal = PORTAL_BY_NAME.get(raw.get("source") or "")
+        d = portal.detail(raw.get("url") or "") if portal and portal.detail and raw.get("url") else {}
         for k, v in d.items():
             if v and not raw.get(k):
                 raw[k] = v
@@ -594,47 +1038,140 @@ def item_id(url: str, org: str, post: str) -> str:
     return "portal-" + hashlib.sha1((url or org + post).encode()).hexdigest()[:12]
 
 
-def fetch_all(fixture: str | None) -> tuple[list[dict], list[dict]]:
+# ───────────────────────── registry ─────────────────────────
+class Portal(NamedTuple):
+    name: str
+    fn: Callable[[str], list[dict]]
+    queries: tuple[str, ...] | None = None                 # None → every entry of QUERIES
+    enabled: Callable[[], str | None] = lambda: None       # a reason string when the portal is OFF
+    detail: Callable[[str], dict] | None = None            # opens one listing to read the real requirements
+    needs_detail: Callable[[dict], bool] = lambda r: True
+
+
+CORE_QUERIES = ("management trainee", "marketing trainee", "brand management", "market research analyst", "business analyst fresher", "leadership program MBA")
+_missing_fields = lambda r: not r.get("experienceText") or not r.get("salaryText")  # noqa: E731
+_needs_keys = lambda *names: (lambda: None if all(env(n) for n in names) else f"no key ({' / '.join(names)})")  # noqa: E731
+
+# Slow reader portals go first so they overlap with the fast ones.
+PORTALS: list[Portal] = [
+    Portal("Indeed", indeed, ("management trainee", "marketing trainee", "business analyst fresher")),
+    Portal("Glassdoor", glassdoor, ("management trainee", "marketing trainee")),
+    Portal("Naukri", naukri),
+    Portal("Foundit", foundit),
+    Portal("Unstop", unstop),
+    Portal("LinkedIn", linkedin, detail=linkedin_detail),
+    Portal("Internshala", internshala, detail=internshala_detail),
+    Portal("iimjobs", iimjobs, CORE_QUERIES),
+    Portal("TimesJobs", timesjobs, detail=timesjobs_detail, needs_detail=_missing_fields),
+    Portal("Shine", shine, CORE_QUERIES, detail=shine_detail, needs_detail=_missing_fields),
+    Portal("Freshersworld", freshersworld, CORE_QUERIES, detail=freshersworld_detail, needs_detail=_missing_fields),
+    Portal("Adzuna", adzuna, enabled=_needs_keys("ADZUNA_APP_ID", "ADZUNA_APP_KEY")),
+    Portal("Jooble", jooble, CORE_QUERIES, enabled=_needs_keys("JOOBLE_API_KEY")),
+]
+PORTAL_BY_NAME = {p.name: p for p in PORTALS}
+BLOCKED: set[str] = set()
+
+
+def _status_state(st: dict) -> tuple[str, str | None]:
+    """('ok' | 'partial' | 'empty' | 'blocked' | 'error', short reason for the footer)."""
+    err = st.get("error") or ""
+    if st["fetched"] == 0 and err.startswith("blocked"):
+        m = re.search(r"\((.*?)\)", err)
+        return "blocked", (m.group(1) if m else "blocked")[:24]
+    if st["fetched"] == 0 and st["errors"]:
+        m = re.search(r"\b(\d{3}) client error|\bhttp (\d{3})", err, re.I)
+        if m:
+            return "error", f"http {m.group(1) or m.group(2)}"
+        if "timed out" in err.lower() or "timeout" in err.lower():
+            return "error", "timeout"
+        if err.startswith("parse"):
+            return "error", "parse"
+        return "error", err[:24]
+    if st["fetched"] == 0:
+        return "empty", "no results"
+    if st["errors"]:
+        return "partial", "some queries failed"
+    return "ok", None
+
+
+def fetch_all(fixture: str | None, only: set[str] | None = None) -> tuple[list[dict], list[dict]]:
     """Returns (raw items with source, per-portal status)."""
     if fixture:
         raws = json.loads(Path(fixture).read_text())
-        return raws, [{"name": "fixture", "ok": True, "fetched": len(raws)}]
-    jobs = [(name, fn, q) for name, fn in PORTALS for q in QUERIES]
+        return raws, [{"name": "fixture", "ok": True, "fetched": len(raws), "errors": 0, "error": None, "state": "ok", "reason": None}]
+    portals = [p for p in PORTALS if not only or p.name in only]
+    status: dict[str, dict] = {}
+    jobs = []
+    for p in portals:
+        off = p.enabled()
+        status[p.name] = {"name": p.name, "ok": False, "fetched": 0, "errors": 0, "error": off, "state": "off" if off else None, "reason": "no key" if off else None}
+        if off:
+            print(f"[off ] {p.name:<13} {off}")
+            continue
+        jobs += [(p, q) for q in (p.queries or tuple(QUERIES))]
+    deadline = time.monotonic() + TIME_BUDGET
 
     def run(job):
-        name, fn, q = job
+        p, q = job
+        if p.name in BLOCKED:
+            return p.name, q, [], "skipped (portal blocked)"
+        if time.monotonic() > deadline:
+            return p.name, q, [], "skipped (time budget)"
         try:
-            items = fn(q)
+            items = p.fn(q)
             for it in items:
-                it["source"] = name
-            return name, q, items, None
+                it["source"] = p.name
+            return p.name, q, items, None
         except Exception as e:  # noqa: BLE001
             err = str(e)[:120]
+            if err.startswith("blocked"):
+                BLOCKED.add(p.name)
             # Log a sample of the payload once so the next edit can be based on the real shape.
             try:
-                if "float()" in err or "NoneType" in err or "dict" in err or "KeyError" in err:
-                    r = get(_sample_url(name, q), {"Accept": "application/json"}, attempts=1)
-                    print(f"[sample] {name}: {r.text[:700]!r}")
+                if any(x in err for x in ("float()", "NoneType", "dict", "KeyError", "list index", "subscriptable")):
+                    r = get(_sample_url(p.name, q), {"Accept": "application/json"}, attempts=1)
+                    print(f"[sample] {p.name}: {r.text[:700]!r}")
             except Exception:  # noqa: BLE001
                 pass
-            return name, q, [], err
+            return p.name, q, [], err
 
-    with ThreadPoolExecutor(max_workers=6) as pool:
+    with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(run, jobs))
     raws: list[dict] = []
-    status: dict[str, dict] = {name: {"name": name, "ok": False, "fetched": 0, "errors": 0, "error": None} for name, _ in PORTALS}
     for name, q, items, err in results:
         st = status[name]
+        if err and err.startswith("skipped"):
+            print(f"[skip] {name:<13} {q:<28} {err}")
+            continue
         if err:
             st["errors"] += 1
             st["error"] = err
-            print(f"[fail] {name:<11} {q:<28} {err}")
+            print(f"[fail] {name:<13} {q:<28} {err}")
         else:
             st["ok"] = True
             st["fetched"] += len(items)
-            print(f"[ok  ] {name:<11} {q:<28} {len(items):>3} items")
+            print(f"[ok  ] {name:<13} {q:<28} {len(items):>3} items")
         raws.extend(items)
+    for st in status.values():
+        if st["state"] != "off":
+            st["state"], st["reason"] = _status_state(st)
+            st["ok"] = st["state"] in ("ok", "partial", "empty")
     return raws, list(status.values())
+
+
+def _interleave_by_source(rows: list[dict]) -> list[dict]:
+    """Round-robin across sources so one portal cannot consume the whole detail budget."""
+    by: dict[str, list[dict]] = {}
+    for r in rows:
+        by.setdefault(r.get("source") or "", []).append(r)
+    out: list[dict] = []
+    queues = list(by.values())
+    while queues:
+        for qlist in list(queues):
+            out.append(qlist.pop(0))
+            if not qlist:
+                queues.remove(qlist)
+    return out
 
 
 def main(argv: list[str]) -> int:
@@ -642,6 +1179,10 @@ def main(argv: list[str]) -> int:
         return self_test()
     dry = "--dry-run" in argv
     fixture = argv[argv.index("--fixture") + 1] if "--fixture" in argv else None
+    only = {x.strip() for x in argv[argv.index("--only") + 1].split(",") if x.strip()} if "--only" in argv else None
+    if only and (unknown := only - set(PORTAL_BY_NAME)):
+        print(f"unknown portal(s) {sorted(unknown)}; known: {', '.join(PORTAL_BY_NAME)}")
+        return 2
     profile = load_json("profile.json", {})
     opp = load_json("opportunities.json", {"curated": [], "discovered": [], "portal": []})
     today = today_ist()
@@ -660,11 +1201,11 @@ def main(argv: list[str]) -> int:
     baseline = not opp.get("portal")
     seen = {dedupe_key(d["org"], d["post"]) for d in existing.values()}
 
-    raws, status = fetch_all(fixture)
+    raws, status = fetch_all(fixture, only)
     reasons: dict[str, int] = {}
     samples: dict[str, list[str]] = {}
     new = 0
-    # Stage 1: cheap title checks. Stage 2: open the surviving listings (LinkedIn, Internshala) to read the real requirements.
+    # Stage 1: cheap title checks. Stage 2: open the surviving listings (where the portal allows it) to read the real requirements.
     survivors = []
     for raw in raws:
         reason = prefilter(raw)
@@ -674,7 +1215,9 @@ def main(argv: list[str]) -> int:
                 samples[reason].append(f"{raw.get('source', '?')}: {(raw.get('title') or '')[:48]} @ {(raw.get('company') or '')[:22]}")
         else:
             survivors.append(raw)
-    to_check = [r for r in survivors if r.get("source") in ("LinkedIn", "Internshala") and r.get("url")][:260]
+    cands = [r for r in survivors if (p := PORTAL_BY_NAME.get(r.get("source") or "")) and p.detail and p.needs_detail(r) and r.get("url")]
+    cands = _interleave_by_source([r for r in cands if is_known_employer(r.get("company") or "")]) + _interleave_by_source([r for r in cands if not is_known_employer(r.get("company") or "")])
+    to_check = cands[:DETAIL_CAP]
     if to_check and not fixture:
         with ThreadPoolExecutor(max_workers=6) as pool:
             list(pool.map(verify, to_check))
@@ -726,6 +1269,7 @@ def self_test() -> int:
     cases = [
         ("10-15 Lacs PA", (10.0, 15.0)), ("₹ 12,00,000 - 18,00,000 P.A.", (12.0, 18.0)), ("Not Disclosed", None), ("8 LPA", (8.0, 8.0)),
         ("₹ 90,000 /month", (10.8, 10.8)), ("1000000 - 1500000 per annum", (10.0, 15.0)), ("1.2 Cr", (120.0, 120.0)), ("₹4 - 6 LPA", (4.0, 6.0)),
+        ("₹25,000 a month", (3.0, 3.0)), ("Rs 2.00 - 4.00 Lacs p.a.", (2.0, 4.0)),
     ]
     bad = 0
     for s, want in cases:
@@ -733,11 +1277,57 @@ def self_test() -> int:
         ok = got == want
         bad += not ok
         print(f"{'ok ' if ok else 'BAD'} salary {s!r:<36} -> {got}")
-    for s, want in [("0-2 Yrs", 0.0), ("1-3 years", 1.0), ("Fresher", 0.0), ("2+ years", 2.0), ("entry level", 0.0), ("6 months", 0.5), (None, None)]:
+    for s, want in [("0-2 Yrs", 0.0), ("1-3 years", 1.0), ("Fresher", 0.0), ("2+ years", 2.0), ("entry level", 0.0), ("6 months", 0.5), (None, None), ("0 - 3 yrs", 0.0), ("0 to 2 Yrs", 0.0)]:
         got = parse_experience(s)
         ok = got == want
         bad += not ok
         print(f"{'ok ' if ok else 'BAD'} exp    {s!r:<36} -> {got}")
+
+    # Parser fixtures: tiny hand-written pages per portal, exercised offline.
+    def fixture(name: str) -> str:
+        return (FIXTURES / name).read_text(encoding="utf-8")
+
+    parser_cases = [
+        ("iimjobs", parse_iimjobs, "iimjobs.html", 2, {"experienceText": "0-2 yrs"}),
+        ("TimesJobs", parse_timesjobs, "timesjobs.html", 2, {"experienceText": "0 - 2 yrs"}),
+        ("Shine", parse_shine, "shine.html", 2, {"experienceText": "0 to 2 Yrs"}),
+        ("Freshersworld", parse_freshersworld, "freshersworld.html", 2, {}),
+        ("Indeed", parse_indeed_md, "indeed.md", 2, {}),
+        ("Glassdoor", parse_glassdoor_md, "glassdoor.md", 1, {}),
+        ("Adzuna", lambda t: parse_adzuna(json.loads(t)), "adzuna.json", 2, {"salaryText": "600000 - 900000 per annum"}),
+        ("Jooble", lambda t: parse_jooble(json.loads(t)), "jooble.json", 1, {}),
+    ]
+    for name, fn, fname, min_n, expect in parser_cases:
+        try:
+            items = fn(fixture(fname))
+            problems = []
+            if len(items) < min_n:
+                problems.append(f"only {len(items)} items")
+            for it in items:
+                if not it.get("title") or not it.get("company") or not str(it.get("url", "")).startswith("http"):
+                    problems.append(f"incomplete item {it.get('title')!r} / {it.get('company')!r} / {it.get('url')!r}")
+                    break
+            for k, v in expect.items():
+                if items and items[0].get(k) != v:
+                    problems.append(f"{k}={items[0].get(k)!r}, expected {v!r}")
+            ok = not problems
+        except Exception as e:  # noqa: BLE001
+            ok, problems, items = False, [f"raised {e}"], []
+        bad += not ok
+        print(f"{'ok ' if ok else 'BAD'} parser {name:<13} {len(items):>2} items {'; '.join(problems)}")
+    try:
+        parse_indeed_md(fixture("indeed_blocked.md"))
+        bad += 1
+        print("BAD parser Indeed blocked page did not raise")
+    except RuntimeError as e:
+        ok = "blocked" in str(e)
+        bad += not ok
+        print(f"{'ok ' if ok else 'BAD'} parser Indeed blocked page -> {e}")
+    for name, fn, fname in [("TimesJobs", parse_timesjobs_detail, "timesjobs_detail.html"), ("Shine", parse_shine_detail, "shine_detail.html"), ("Freshersworld", parse_freshersworld_detail, "freshersworld_detail.html")]:
+        d = fn(fixture(fname))
+        ok = bool(d.get("experienceText")) and bool(d.get("salaryText"))
+        bad += not ok
+        print(f"{'ok ' if ok else 'BAD'} detail {name:<13} exp={d.get('experienceText')!r} sal={d.get('salaryText')!r}")
     profile = load_json("profile.json", {})
     raws = [
         {"title": "Management Trainee - Marketing", "company": "Hindustan Unilever", "location": "Mumbai, Chennai", "url": "https://x/1", "salaryText": "12-15 Lacs PA", "experienceText": "0-1 Yrs", "source": "Naukri"},
@@ -749,6 +1339,12 @@ def self_test() -> int:
     for r in raws:
         item, reason = qualify(r, profile)
         print(f"{reason:<20} {r['company']:<20} {r['title']:<32} {(item or {}).get('fit', '')} {(item or {}).get('pay', '')}")
+    tj = parse_timesjobs(fixture("timesjobs.html"))[0]
+    tj["source"] = "TimesJobs"
+    item, reason = qualify(tj, profile)
+    ok = reason == "ok" and (item or {}).get("pay") == "₹12–15 LPA"
+    bad += not ok
+    print(f"{'ok ' if ok else 'BAD'} qualify TimesJobs card -> {reason} {(item or {}).get('pay')}")
     return 1 if bad else 0
 
 

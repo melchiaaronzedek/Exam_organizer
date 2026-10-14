@@ -238,7 +238,7 @@ export interface OpportunitiesFile {
   discoverBaseline?: boolean
   portalAt?: string
   portalBaseline?: boolean
-  portalStatus?: { name: string; ok: boolean; scanned?: number; fetched?: number; errors?: number; error?: string | null }[]
+  portalStatus?: { name: string; ok: boolean; scanned?: number; fetched?: number; errors?: number; error?: string | null; state?: 'ok' | 'partial' | 'empty' | 'blocked' | 'error' | 'off'; reason?: string | null }[]
   curated: Opportunity[]
   discovered: Opportunity[]
   portal?: Opportunity[]
