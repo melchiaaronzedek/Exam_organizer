@@ -31,6 +31,7 @@ export function Jobs() {
   const [showHidden, setShowHidden] = useState(false)
   const [expanded, setExpanded] = useState<string | null>(null)
   const [onlyNew, setOnlyNew] = useState(false)
+  const [verifiedOnly, setVerifiedOnly] = useState(false)
   const po = profileStore.use()
   const southFirst = po.southFirst ?? true
   const swipe = useRef<{ id: string; x: number; dx: number } | null>(null)
@@ -70,6 +71,7 @@ export function Jobs() {
     .filter(inScope)
     .filter((o) => track === 'all' || o.track === track)
     .filter((o) => !onlyNew || o.isNew)
+    .filter((o) => !verifiedOnly || !o.private || o.trust === 'verified')
     .filter(visible)
     .filter(matchesQuery)
     .sort((a, b) => {
@@ -185,6 +187,9 @@ export function Jobs() {
           <span className="filters__sep" />
           <label className="filter filter--toggle">
             <input type="checkbox" checked={southFirst} onChange={(e) => profileStore.set({ ...po, southFirst: e.target.checked })} /> South first
+          </label>
+          <label className="filter filter--toggle">
+            <input type="checkbox" checked={verifiedOnly} onChange={(e) => setVerifiedOnly(e.target.checked)} /> Verified employers only
           </label>
           <label className="filter filter--toggle">
             <input type="checkbox" checked={showHidden} onChange={(e) => setShowHidden(e.target.checked)} /> Show low fit / needs experience
@@ -336,6 +341,8 @@ function JobRow({ o, i, tab, isOpen, onToggle, J, swipe }: { o: JobItem; i: numb
         </span>
         <span className="job__tags">
           {expLabel ? <span className={`src ${o.expOk ? 'src--ok' : 'src--warn'}`}>{expLabel}</span> : null}
+          {o.sourceType === 'portal' ? <span className={`src ${o.trust === 'verified' ? 'src--ok' : ''}`} title={o.trust === 'verified' ? 'Employer is on the known-company list' : 'Employer is not on the known-company list; check the company before applying'}>{o.trust === 'verified' ? '✓ Verified employer' : 'Unverified employer'}</span> : null}
+          {o.sourceType === 'portal' && o.payStated === false ? <span className="src">pay not listed</span> : null}
           <span className={`src src--${o.sourceType}`}>{o.sourceType === 'portal' ? o.source : o.sourceType}</span>
           {applied ? <span className="src src--applied">applied</span> : tracked ? <span className="src src--tracked">tracking</span> : null}
           {jobs.reminded.includes(o.id) ? <span className="src src--tracked">reminder</span> : null}
@@ -354,6 +361,8 @@ function JobRow({ o, i, tab, isOpen, onToggle, J, swipe }: { o: JobItem; i: numb
             {o.examDate ? <Row k="Exam" v={`${fmtShort(o.examDate)}${o.examDateType === 'tentative' ? ' (tentative)' : ''}`} /> : null}
             {o.lastCycle ? <Row k="Last cycle" v={o.lastCycle} /> : null}
             {o.locations?.length ? <Row k="Where" v={o.locations.join(', ')} /> : null}
+            {o.summary ? <Row k="Listing" v={o.summary + '…'} /> : null}
+            {o.website ? <Row k="Company site" v={o.website} /> : null}
             {o.note ? <Row k="Note" v={o.note} /> : null}
             <Row k="Why it fits" v={(o.fitWhy ?? []).join(' · ') || '—'} />
             <Row k="Source" v={`${o.source ?? o.sourceType}${o.sourceType === 'portal' ? ' — apply on the portal; confirm the CTC in the listing' : o.sourceType !== 'official' ? ' — verify on the official site before paying any fee' : ''}`} />
