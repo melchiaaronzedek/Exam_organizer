@@ -399,9 +399,10 @@ def known_employer(company: str) -> str | None:
     """The allow-list entry that matches this company name (whole words only), or None."""
     c = " " + re.sub(r"[^a-z0-9&.' ]", " ", company.lower()) + " "
     c = re.sub(r"\s+", " ", c)
+    head = " ".join(c.split()[:4])  # the brand has to be in the first few words, not a distributor's "(oppo-tamilnadu)" suffix
     for n in KNOWN:
         tok = n.strip()
-        if tok and re.search(r"(?<![a-z0-9])" + re.escape(tok) + r"(?![a-z0-9])", c):
+        if tok and re.search(r"(?<![a-z0-9])" + re.escape(tok) + r"(?![a-z0-9])", " " + head + " "):
             return tok
     return None
 
@@ -653,7 +654,7 @@ def main(argv: list[str]) -> int:
         re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": None if d.get("experienceText") in ("not stated", "0-0 years") else d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source"), "description": d.get("summary") or "", "verified": d.get("checked")}, profile)
         if not re_item:
             continue
-        for k in ("org", "locations", "trust", "fit", "fitWhy", "payStated"):
+        for k in ("org", "locations", "trust", "trustWhy", "fit", "fitWhy", "payStated"):
             d[k] = re_item[k]
         existing[d["id"]] = d
     baseline = not opp.get("portal")
