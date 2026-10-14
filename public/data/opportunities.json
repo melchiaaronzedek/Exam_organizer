@@ -3,43 +3,6 @@
   "discoveredAt": null,
   "curated": [
     {
-      "id": "cur-d67ca362d0",
-      "org": "TNPSC",
-      "post": "Combined Civil Services Exam-I (Group 1) — Notification 05/2026",
-      "sector": "state",
-      "track": "state",
-      "state": "Tamil Nadu",
-      "eligibility": "Bachelor's degree; Tamil eligibility rules apply",
-      "ageMax": "Per notification (not captured)",
-      "vacancies": "26 (+20 addendum = 46, reported)",
-      "pay": null,
-      "payLakh": null,
-      "applyOpens": "2026-06-30",
-      "applyCloses": "2026-07-29",
-      "examDate": "2026-09-27 (prelims, held); Mains TBA",
-      "examDateType": "confirmed",
-      "typicalWindow": null,
-      "expectedMonth": null,
-      "lastCycle": null,
-      "mbaRelevance": null,
-      "agriRelevance": null,
-      "locations": [
-        "Tamil Nadu"
-      ],
-      "link": "https://www.tnpsc.gov.in/",
-      "source": "https://testbook.com/news/tnpsc-group-1-notification-2026/",
-      "sourceType": "news",
-      "status": "open",
-      "curated": true,
-      "note": null,
-      "fit": 40,
-      "fitWhy": [
-        "graduate eligible",
-        "state",
-        "South / all-India"
-      ]
-    },
-    {
       "id": "cur-5cc3693d3d",
       "org": "IFFCO",
       "post": "Agriculture Graduate Trainee (AGT) 2026",
@@ -77,7 +40,7 @@
       ]
     },
     {
-      "id": "cur-b1b3ac53d3",
+      "id": "cur-0cdc861239",
       "org": "Export-Import Bank of India",
       "post": "Business Development Officer (contract, 3 yrs + 2)",
       "sector": "bank",
@@ -127,7 +90,7 @@
       ]
     },
     {
-      "id": "cur-2114eb79da",
+      "id": "cur-a7e7fee012",
       "org": "Union Public Service Commission",
       "post": "Direct recruitment Advt 12/2026 – 13 technical/legal/medical posts (Asst Legislative Counsel ×8 etc.)",
       "sector": "central",
@@ -163,7 +126,7 @@
       ]
     },
     {
-      "id": "cur-117dc86bf8",
+      "id": "cur-3769918280",
       "org": "National Housing Bank",
       "post": "GM (IT), DGM (HR), DGM (Company Secretary), AGM (Accounts), Manager (HR), Manager (Legal) 2026",
       "sector": "regulator",
@@ -199,7 +162,7 @@
       ]
     },
     {
-      "id": "cur-5be3ac7d37",
+      "id": "cur-a9db754b2e",
       "org": "State Bank of India",
       "post": "Specialist Cadre Officer (contract) – Wealth Management & Premier Banking (5 roles), Advt CRPD/SCO/2026-27/25",
       "sector": "bank",
@@ -237,7 +200,7 @@
       ]
     },
     {
-      "id": "cur-a51d6aaa1a",
+      "id": "cur-88f885f2ba",
       "org": "HPPSC",
       "post": "Agriculture Development Officer (Himachal Pradesh; domicile rules may apply)",
       "sector": "state",
@@ -274,7 +237,7 @@
       ]
     },
     {
-      "id": "cur-5ec9bd8829",
+      "id": "cur-a09e92f40f",
       "org": "IRCON International (listed as IRCTC by aggregator)",
       "post": "Manager – 1 post (offline application)",
       "sector": "psu",
@@ -346,7 +309,7 @@
       ]
     },
     {
-      "id": "cur-b5bdd00056",
+      "id": "cur-3bffb52a13",
       "org": "LIC Housing Finance",
       "post": "Management Trainee – Marketing & Sales (OPEN)",
       "sector": "nbfc",
@@ -384,7 +347,7 @@
       "trackedExamId": "lic-hfl-mt-2026"
     },
     {
-      "id": "cur-f2aa97b655",
+      "id": "cur-fbbb343285",
       "org": "BGCL (expansion unverified)",
       "post": "Unspecified post accepting MBA – listed closing 2026-10-27",
       "sector": "psu",
@@ -418,7 +381,7 @@
       ]
     },
     {
-      "id": "cur-b70dca0fe5",
+      "id": "cur-6913870f1b",
       "org": "APPSC",
       "post": "Horticulture Officer, A.P. Horticulture Service — Notification 19/2026",
       "sector": "state",
@@ -457,7 +420,7 @@
       ]
     },
     {
-      "id": "cur-d5bfb3cb4a",
+      "id": "cur-6bb61cba19",
       "org": "National Insurance (NICL)",
       "post": "Administrative Officer Scale I (Generalist)",
       "sector": "insurance",
@@ -497,7 +460,7 @@
       "trackedExamId": "nicl-ao-2026"
     },
     {
-      "id": "cur-5293e0568b",
+      "id": "cur-5da3e51f79",
       "org": "APPSC",
       "post": "Assistant Statistical Officer, A.P. Economics & Statistical Subordinate Service — Notification 20/2026",
       "sector": "state",
@@ -535,7 +498,7 @@
       ]
     },
     {
-      "id": "cur-4509576dc9",
+      "id": "cur-76bc64cb35",
       "org": "APPSC",
       "post": "Industrial Promotion Officer, Industries Subordinate Service — Notification 24/2026 (qualification to be published in detailed notification)",
       "sector": "state",
@@ -574,7 +537,7 @@
       ]
     },
     {
-      "id": "cur-3df1b4820f",
+      "id": "cur-06d767aeaa",
       "org": "APPSC",
       "post": "Forest Range Officer / Forest Beat Officer / Supervisor Gr-I (WD&CW, women-only, Home Science/BSW/Sociology) and other posts in the 299-post cluster",
       "sector": "state",
@@ -612,7 +575,44 @@
       ]
     },
     {
-      "id": "cur-7efaea1cb6",
+      "id": "cur-6d5ed2258d",
+      "org": "TNPSC",
+      "post": "Combined Civil Services Exam-IV (Group 4: VAO, Junior Assistant, Typist etc.) — Notification 11/2026",
+      "sector": "state",
+      "track": "state",
+      "state": "Tamil Nadu",
+      "eligibility": "SSLC/10th and above (post-wise); Tamil language rules; eligibility details not captured",
+      "ageMax": "Per notification (not captured)",
+      "vacancies": "6,574",
+      "pay": null,
+      "payLakh": null,
+      "applyOpens": "2026-10-06",
+      "applyCloses": "2026-11-05",
+      "examDate": "2027-01-10",
+      "examDateType": "tentative",
+      "typicalWindow": null,
+      "expectedMonth": null,
+      "lastCycle": null,
+      "mbaRelevance": null,
+      "agriRelevance": null,
+      "locations": [
+        "Tamil Nadu"
+      ],
+      "link": "https://www.tnpsc.gov.in/",
+      "source": "https://officersiasacademy.com/tnpsc-group-4-2026-last-date-to-apply/",
+      "sourceType": "news",
+      "status": "open",
+      "curated": true,
+      "note": null,
+      "fit": 0,
+      "fitWhy": [
+        "state",
+        "South / all-India",
+        "likely needs typist"
+      ]
+    },
+    {
+      "id": "cur-f3ec4429ed",
       "org": "Railway Recruitment Boards",
       "post": "NTPC Graduate-level (CEN 06/2026: GTM, CCTS, JAA, Sr Clerk)",
       "sector": "central",
@@ -649,7 +649,7 @@
       ]
     },
     {
-      "id": "cur-5914303505",
+      "id": "cur-941da55465",
       "org": "RITES Limited",
       "post": "Manager (Railway Design & Operation) – deputation",
       "sector": "psu",
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "id": "cur-0fee466323",
+      "id": "cur-b4d8c9abe2",
       "org": "APPSC",
       "post": "Group-II Services (Deputy Tahsildar, ACTO, ASO, Sr Accountant, Jr Assistant, Sub-Registrar Gr-II etc.) — Advt 37/2026",
       "sector": "state",
@@ -722,7 +722,7 @@
       ]
     },
     {
-      "id": "cur-39fb821cbe",
+      "id": "cur-e5f6c2948b",
       "org": "Coromandel International",
       "post": "Development Officer (Tanuku, AP) — requires 1–2 years agri-input sales experience; freshers with internships considered",
       "sector": "psu",
@@ -761,7 +761,7 @@
       ]
     },
     {
-      "id": "cur-e6c4b1c7f3",
+      "id": "cur-c444c82020",
       "org": "AP Government (G.O.Ms.No.81, 2026-08-22) — APPSC phases III/IV",
       "post": "Remaining calendar posts incl. power utilities, irrigation, excise; Agriculture & Cooperation row exists but AO/AEO posts not confirmed",
       "sector": "state",
@@ -799,7 +799,7 @@
       ]
     },
     {
-      "id": "cur-500c9349fa",
+      "id": "cur-fbc8874e70",
       "org": "NABARD",
       "post": "Grade A Assistant Manager (RDBS General; Agriculture stream when offered)",
       "sector": "regulator",
@@ -953,7 +953,7 @@
       ]
     },
     {
-      "id": "cur-ea8049b203",
+      "id": "cur-8c2bcfff88",
       "org": "NHPC",
       "post": "Trainee Officer – HR (via UGC-NET June 2026)",
       "sector": "psu",
@@ -992,7 +992,7 @@
       ]
     },
     {
-      "id": "cur-76f4f78487",
+      "id": "cur-860f44bec7",
       "org": "Indian Air Force / Army / Navy",
       "post": "AFCAT-1 2027 Ground Duty (non-tech); CDS-OTA; Navy SSC",
       "sector": "central",
@@ -1030,7 +1030,7 @@
       ]
     },
     {
-      "id": "cur-cb538c856b",
+      "id": "cur-345457e905",
       "org": "NITI Aayog",
       "post": "Young Professional (Work for Viksit Bharat pool)",
       "sector": "central",
@@ -1068,7 +1068,7 @@
       ]
     },
     {
-      "id": "cur-d6767b2e23",
+      "id": "cur-0f0fe958a3",
       "org": "Invest India / MyGov",
       "post": "Associate / Specialist / Content & Research roles",
       "sector": "central",
@@ -1105,7 +1105,7 @@
       ]
     },
     {
-      "id": "cur-27dd10fc11",
+      "id": "cur-05067e46dc",
       "org": "HDFC Bank / Axis Bank / ICICI Bank",
       "post": "Future Bankers / Young Bankers / PO programme (fee-based, rolling)",
       "sector": "private",
@@ -1141,7 +1141,7 @@
       ]
     },
     {
-      "id": "cur-80752364d2",
+      "id": "cur-c3f3ec074a",
       "org": "State Bank of India",
       "post": "Specialist Cadre Officer (various, ad hoc)",
       "sector": "bank",
@@ -1260,7 +1260,7 @@
       ]
     },
     {
-      "id": "cur-71e5af405c",
+      "id": "cur-31305fa4dd",
       "org": "Oriental Insurance (OICL)",
       "post": "Administrative Officer Scale I (Generalist)",
       "sector": "insurance",
@@ -1299,7 +1299,7 @@
       ]
     },
     {
-      "id": "cur-97f76819a1",
+      "id": "cur-17a057c9ae",
       "org": "GIC Re",
       "post": "Assistant Manager Scale I (General & specialist streams)",
       "sector": "insurance",
@@ -1337,7 +1337,7 @@
       ]
     },
     {
-      "id": "cur-fff36b3ea8",
+      "id": "cur-c572e08158",
       "org": "Power Grid Corp (POWERGRID)",
       "post": "Officer Trainee – HR (via UGC-NET)",
       "sector": "psu",
@@ -1376,7 +1376,7 @@
       ]
     },
     {
-      "id": "cur-20d2bf36f7",
+      "id": "cur-6e03beb16d",
       "org": "EXIM Bank",
       "post": "Management Trainee (Banking Operations / HR&Admin) & Deputy Manager",
       "sector": "bank",
@@ -1532,7 +1532,7 @@
       ]
     },
     {
-      "id": "cur-d8801b962c",
+      "id": "cur-a8f5c55313",
       "org": "Coal India Ltd",
       "post": "Management Trainee – Marketing & Sales / Personnel-HR (MBA streams)",
       "sector": "psu",
@@ -1570,7 +1570,7 @@
       ]
     },
     {
-      "id": "cur-b2bb3e7f5c",
+      "id": "cur-c9f9881a66",
       "org": "SAIL",
       "post": "Management Trainee (Administration: HR/Finance/Marketing/Materials)",
       "sector": "psu",
@@ -1608,7 +1608,7 @@
       ]
     },
     {
-      "id": "cur-99a1ce5854",
+      "id": "cur-53319031b4",
       "org": "Food Corporation of India",
       "post": "Manager (Category II) – General/Depot/Movement/Technical",
       "sector": "psu",
@@ -1647,7 +1647,7 @@
       ]
     },
     {
-      "id": "cur-662a0068cb",
+      "id": "cur-ccac98b952",
       "org": "UPSC",
       "post": "Civil Services Examination 2027 (IAS/IPS/IFS etc.)",
       "sector": "central",
@@ -1685,7 +1685,7 @@
       ]
     },
     {
-      "id": "cur-20980c281e",
+      "id": "cur-6114caf595",
       "org": "Shriram Finance / Tata Capital / Bajaj Finance / TVS Credit / L&T Finance / Mahindra Finance",
       "post": "Management Trainee / Assistant Manager (off-campus & campus)",
       "sector": "nbfc",
@@ -1722,7 +1722,7 @@
       ]
     },
     {
-      "id": "cur-8300edbe26",
+      "id": "cur-cd44dc6ee2",
       "org": "Agriculture Insurance Company of India (AIC)",
       "post": "Management Trainee (Generalist) — 2026 not yet announced; 2025 cycle Jan–Feb",
       "sector": "psu",
@@ -1799,7 +1799,7 @@
       ]
     },
     {
-      "id": "cur-03bdb1dd05",
+      "id": "cur-a93810a262",
       "org": "HPCL",
       "post": "Officer – HR (and periodic officer drives)",
       "sector": "psu",
@@ -1838,7 +1838,7 @@
       ]
     },
     {
-      "id": "cur-ed0eb245e1",
+      "id": "cur-99a85fb681",
       "org": "SSC",
       "post": "Combined Graduate Level (Group B/C posts)",
       "sector": "central",
@@ -1915,7 +1915,7 @@
       ]
     },
     {
-      "id": "cur-cb8628f128",
+      "id": "cur-c51ec88fa1",
       "org": "IFFCO / KRIBHCO / NDDB",
       "post": "Graduate Engineer Trainee (IFFCO, KRIBHCO); Deputy Manager (NDDB)",
       "sector": "psu",
@@ -2030,7 +2030,7 @@
       ]
     },
     {
-      "id": "cur-455f1eaa65",
+      "id": "cur-7426ddff13",
       "org": "National Seeds Corporation (NSC)",
       "post": "Trainee (Marketing) / Trainee (Agriculture) / Asst Manager",
       "sector": "psu",
@@ -2070,7 +2070,7 @@
       ]
     },
     {
-      "id": "cur-48fce2bd06",
+      "id": "cur-0fe4efa590",
       "org": "IBPS",
       "post": "PO/MT-XVII (CRP PO/MT)",
       "sector": "bank",
@@ -2108,7 +2108,7 @@
       ]
     },
     {
-      "id": "cur-26cc8d65b6",
+      "id": "cur-1ce41445dd",
       "org": "IBPS",
       "post": "SO – Marketing Officer Scale I (CRP SPL)",
       "sector": "bank",
@@ -2147,7 +2147,7 @@
       ]
     },
     {
-      "id": "cur-f7df11e462",
+      "id": "cur-cd120c328e",
       "org": "IBPS",
       "post": "SO – Agricultural Field Officer Scale I (CRP SPL)",
       "sector": "bank",
@@ -2187,7 +2187,7 @@
       ]
     },
     {
-      "id": "cur-45b62fb65c",
+      "id": "cur-ad1af76327",
       "org": "IBPS",
       "post": "RRB Officer Scale I (CRP RRBs)",
       "sector": "bank",
@@ -2225,7 +2225,7 @@
       ]
     },
     {
-      "id": "cur-2f5692d3cb",
+      "id": "cur-88f6ae9379",
       "org": "IBPS",
       "post": "RRB Officer Scale II – Agricultural Officer",
       "sector": "bank",
@@ -2264,7 +2264,7 @@
       ]
     },
     {
-      "id": "cur-269ebd91f6",
+      "id": "cur-a1f6d16d34",
       "org": "New India Assurance (NIACL)",
       "post": "Administrative Officer Scale I (Generalist)",
       "sector": "insurance",
@@ -2292,7 +2292,7 @@
       "sourceType": "news",
       "status": "expected",
       "curated": true,
-      "note": "Administrative Officer Scale-I (Generalist/Specialist) 2026 – EXPECTED, not notified as of early Oct 2026",
+      "note": null,
       "fit": 90,
       "fitWhy": [
         "role: administrative officer",
@@ -2303,7 +2303,7 @@
       ]
     },
     {
-      "id": "cur-a958ce8079",
+      "id": "cur-c423ef7452",
       "org": "NTPC Ltd",
       "post": "Executive Trainee – HR (also Finance)",
       "sector": "psu",
@@ -2342,7 +2342,7 @@
       ]
     },
     {
-      "id": "cur-a18442e937",
+      "id": "cur-abbdf43b25",
       "org": "IOCL",
       "post": "Executive Grade A – Marketing (CBT route)",
       "sector": "psu",
@@ -2421,7 +2421,7 @@
       ]
     },
     {
-      "id": "cur-49a40b8f9f",
+      "id": "cur-2b1ca6a32b",
       "org": "UPSC",
       "post": "EPFO Enforcement Officer/Accounts Officer & APFC",
       "sector": "central",
@@ -2500,7 +2500,7 @@
       "trackedExamId": "pfrda-grade-a-2026"
     },
     {
-      "id": "cur-d71ed72059",
+      "id": "cur-eddc489372",
       "org": "National Housing Bank",
       "post": "Assistant Manager (Generalist) – when offered",
       "sector": "regulator",
@@ -2538,7 +2538,7 @@
       ]
     },
     {
-      "id": "cur-1b1f756fce",
+      "id": "cur-3f84011c10",
       "org": "United India Insurance (UIIC)",
       "post": "Administrative Officer Scale I (Generalist)",
       "sector": "insurance",
@@ -2614,7 +2614,7 @@
       ]
     },
     {
-      "id": "cur-f3c196631b",
+      "id": "cur-17c3b77707",
       "org": "NHPC Limited",
       "post": "Trainee Officer (HR) & Trainee Officer (PR) through UGC-NET June 2026",
       "sector": "psu",
@@ -2652,7 +2652,7 @@
       ]
     },
     {
-      "id": "cur-202152e141",
+      "id": "cur-8134ff64f9",
       "org": "NITI Aayog",
       "post": "Young Professional / Consultant Gr-I – Work for Viksit Bharat (rolling pool; last round 23 posts closed 2026-09-28)",
       "sector": "central",
@@ -2690,7 +2690,7 @@
       ]
     },
     {
-      "id": "cur-d1eb1cf47f",
+      "id": "cur-190f1457fd",
       "org": "SEBI",
       "post": "Officer Grade A (Assistant Manager) 2026 – EXPECTED (Oct–Nov 2026 or Q1 2027), not notified",
       "sector": "regulator",
@@ -2768,7 +2768,123 @@
       ]
     },
     {
-      "id": "cur-38593cb774",
+      "id": "cur-f1d8ad5a64",
+      "org": "New India Assurance (NIACL)",
+      "post": "Administrative Officer Scale-I (Generalist/Specialist) 2026",
+      "sector": "insurance",
+      "track": "general",
+      "state": null,
+      "eligibility": "Graduate; age 21–30 (+5 SC) per past cycles",
+      "ageMax": 30,
+      "vacancies": null,
+      "pay": "~₹50,925 basic (past cycle, unverified)",
+      "payLakh": 10,
+      "applyOpens": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "typicalWindow": null,
+      "expectedMonth": null,
+      "lastCycle": null,
+      "mbaRelevance": null,
+      "agriRelevance": null,
+      "locations": [
+        "All India"
+      ],
+      "link": "https://www.newindia.co.in/portal/readMore/Recruitment",
+      "source": "taiyarho.in / oliveboard.in",
+      "sourceType": "news",
+      "status": "expected",
+      "curated": true,
+      "note": "Administrative Officer Scale-I (Generalist/Specialist) 2026 – EXPECTED, not notified as of early Oct 2026",
+      "fit": 90,
+      "fitWhy": [
+        "role: administrative officer",
+        "graduate eligible",
+        "insurance",
+        "South / all-India",
+        "pay ≥ 6 LPA"
+      ]
+    },
+    {
+      "id": "cur-aa8e439a75",
+      "org": "Oriental Insurance (OICL)",
+      "post": "Administrative Officer Scale-I 2026-27 – EXPECTED Nov–Dec 2026 (pattern-based)",
+      "sector": "insurance",
+      "track": "general",
+      "state": null,
+      "eligibility": "Graduate; age 21–30 (+5 SC) per past cycles",
+      "ageMax": 30,
+      "vacancies": null,
+      "pay": "~₹50,925 basic (past cycle, unverified)",
+      "payLakh": 10,
+      "applyOpens": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "typicalWindow": null,
+      "expectedMonth": null,
+      "lastCycle": null,
+      "mbaRelevance": null,
+      "agriRelevance": null,
+      "locations": [
+        "All India"
+      ],
+      "link": "https://orientalinsurance.org.in/web/guest/recruitment",
+      "source": "oliveboard.in / practicemock.com",
+      "sourceType": "news",
+      "status": "expected",
+      "curated": true,
+      "note": null,
+      "fit": 90,
+      "fitWhy": [
+        "role: administrative officer",
+        "graduate eligible",
+        "insurance",
+        "South / all-India",
+        "pay ≥ 6 LPA"
+      ]
+    },
+    {
+      "id": "cur-83c6d81eca",
+      "org": "GIC Re",
+      "post": "Assistant Manager Scale-I 2026 – EXPECTED (last cycle advertised 2024-12-04, 110 posts)",
+      "sector": "insurance",
+      "track": "general",
+      "state": null,
+      "eligibility": "Graduate/PG per stream (General stream any graduate); age 21–30 (+5 SC) per past cycle",
+      "ageMax": 30,
+      "vacancies": null,
+      "pay": "Scale-I officer pay (past cycle ~₹50,925 basic, unverified)",
+      "payLakh": 10,
+      "applyOpens": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "typicalWindow": null,
+      "expectedMonth": null,
+      "lastCycle": null,
+      "mbaRelevance": null,
+      "agriRelevance": null,
+      "locations": [
+        "Mumbai"
+      ],
+      "link": "https://www.gicre.in/en/people-resources/career-en",
+      "source": "gicre.in / pw.live",
+      "sourceType": "news",
+      "status": "expected",
+      "curated": true,
+      "note": null,
+      "fit": 80,
+      "fitWhy": [
+        "role: assistant manager",
+        "graduate eligible",
+        "insurance",
+        "pay ≥ 6 LPA"
+      ]
+    },
+    {
+      "id": "cur-462f74c1dc",
       "org": "ECGC Ltd",
       "post": "Probationary Officer 2026-27 – EXPECTED (last cycle 30 posts, registration 2025-11-11 to 2025-12-02)",
       "sector": "insurance",
@@ -2807,7 +2923,7 @@
       ]
     },
     {
-      "id": "cur-412b9a8f31",
+      "id": "cur-c839f88850",
       "org": "IRDAI",
       "post": "Assistant Manager (Generalist etc.) 2026 – EXPECTED (40/yr planned 2025–27), not notified",
       "sector": "regulator",
@@ -2886,7 +3002,7 @@
       ]
     },
     {
-      "id": "cur-2b34e6cfca",
+      "id": "cur-4a7ab99314",
       "org": "Steel Authority of India",
       "post": "Management Trainee (Administration – HR/Marketing/Materials) 2026 – NOT NOTIFIED (latest SAIL advt 2025-11-12 is 124 MT-Technical)",
       "sector": "psu",
@@ -2924,7 +3040,7 @@
       ]
     },
     {
-      "id": "cur-f68ee6737c",
+      "id": "cur-3fe1e7ccae",
       "org": "TGPSC",
       "post": "Group-I Services (563 posts reported; release status contradictory)",
       "sector": "state",
@@ -2999,7 +3115,7 @@
       ]
     },
     {
-      "id": "cur-11e52817b8",
+      "id": "cur-2bd1507c57",
       "org": "TGPSC",
       "post": "Agricultural Extension Officer Gr-II / Agriculture Officer — no 2026 notification found (last: 27/2022 AO, AEO 2025 reported 311 posts)",
       "sector": "state",
@@ -3037,7 +3153,7 @@
       ]
     },
     {
-      "id": "cur-d7e249d823",
+      "id": "cur-7db787035a",
       "org": "KPSC",
       "post": "Group C — First Division Assistant / SDA (next cycle reported 2027-28)",
       "sector": "state",
@@ -3074,7 +3190,7 @@
       ]
     },
     {
-      "id": "cur-8fd9daac31",
+      "id": "cur-1c2f705f0b",
       "org": "National Seeds Corporation",
       "post": "Trainee (Agriculture / Marketing / Agri Stores) — no 2026 advert found; last cycle RECTT/2/NSC/2024",
       "sector": "psu",
@@ -3112,7 +3228,7 @@
       ]
     },
     {
-      "id": "cur-e43fc44e56",
+      "id": "cur-6e29fa01f1",
       "org": "ASRB / ICAR",
       "post": "ARS / NET / SMS / STO 2026 — no official notification found; Master's degree required",
       "sector": "central",
@@ -3150,7 +3266,7 @@
       ]
     },
     {
-      "id": "cur-e7dac8323c",
+      "id": "cur-9c2ef5e45b",
       "org": "Central Warehousing Corporation",
       "post": "Management Trainee (General — MBA Marketing eligible) — no 2026 drive; last Advt CWC/I-Manpower/DR/Rectt/2025/01 (Oct 2025); 2026 YP posts closed 2026-07-22",
       "sector": "psu",
@@ -3188,7 +3304,7 @@
       ]
     },
     {
-      "id": "cur-0f6b0e78c2",
+      "id": "cur-58d2a2cf53",
       "org": "Karnataka Examinations Authority (KEA) / Dept of Agriculture",
       "post": "Agriculture Officer & Assistant Agriculture Officer 2026 — EDI/KEA/08/RPC/2026 & EDI/KEA/09/KK/2026",
       "sector": "state",
@@ -3226,7 +3342,7 @@
       ]
     },
     {
-      "id": "cur-7391835044",
+      "id": "cur-3e16d79542",
       "org": "TNPSC",
       "post": "Combined Technical Services (non-interview) 2026 incl. Agricultural Officer (Extension) ~12 posts — Notification 04/2026",
       "sector": "state",
@@ -3264,7 +3380,7 @@
       ]
     },
     {
-      "id": "cur-5bbdbb44d2",
+      "id": "cur-eab838d30f",
       "org": "National Fertilizers Ltd (NFL)",
       "post": "Management Trainee 2026 (Marketing 13 of 21) — closed",
       "sector": "psu",
@@ -3302,7 +3418,7 @@
       ]
     },
     {
-      "id": "cur-227a21304a",
+      "id": "cur-da3639bffe",
       "org": "APEDA",
       "post": "Assistant Manager / AM (Agriculture) — Advt 1/2026 closed; Oct 2026 notice is deputation-only senior posts",
       "sector": "central",
@@ -3340,7 +3456,7 @@
       ]
     },
     {
-      "id": "cur-ccee1a3fde",
+      "id": "cur-31cc01f2dd",
       "org": "TGPSC",
       "post": "Group-II Services (incl. Extension Officer (Agriculture) 85) — status contradictory: one aggregator says notified 2026-04-23, closed 2026-06-30; others say not yet released",
       "sector": "state",
@@ -3379,7 +3495,7 @@
       ]
     },
     {
-      "id": "cur-9eabfe551b",
+      "id": "cur-903dc4fc4e",
       "org": "Cotton Corporation of India",
       "post": "Management Trainee / Asst Manager / Jr Commercial Executive / Jr Assistant – Advt DR/CCI/2026 (148 posts)",
       "sector": "psu",
@@ -3418,7 +3534,7 @@
       ]
     },
     {
-      "id": "cur-346348df4d",
+      "id": "cur-07003c6ea5",
       "org": "IBPS (CRP SPL-XVI)",
       "post": "Agricultural Field Officer (Scale-I) — Bank of Baroda 100, Bank of Maharashtra 90",
       "sector": "bank",
@@ -3457,7 +3573,7 @@
       ]
     },
     {
-      "id": "cur-9169d8383a",
+      "id": "cur-521dcc397a",
       "org": "IBPS (CRP PO/MT-XVI)",
       "post": "Probationary Officer / Management Trainee in 11 PSBs",
       "sector": "bank",
@@ -3495,7 +3611,44 @@
       ]
     },
     {
-      "id": "cur-68de0890ed",
+      "id": "cur-19b29c9f3b",
+      "org": "TNPSC",
+      "post": "Combined Civil Services Exam-I (Group 1) — Notification 05/2026",
+      "sector": "state",
+      "track": "state",
+      "state": "Tamil Nadu",
+      "eligibility": "Bachelor's degree; Tamil eligibility rules apply",
+      "ageMax": "Per notification (not captured)",
+      "vacancies": "26 (+20 addendum = 46, reported)",
+      "pay": null,
+      "payLakh": null,
+      "applyOpens": "2026-06-30",
+      "applyCloses": "2026-07-29",
+      "examDate": "2026-09-27 (prelims, held); Mains TBA",
+      "examDateType": "confirmed",
+      "typicalWindow": null,
+      "expectedMonth": null,
+      "lastCycle": null,
+      "mbaRelevance": null,
+      "agriRelevance": null,
+      "locations": [
+        "Tamil Nadu"
+      ],
+      "link": "https://www.tnpsc.gov.in/",
+      "source": "https://testbook.com/news/tnpsc-group-1-notification-2026/",
+      "sourceType": "news",
+      "status": "closed",
+      "curated": true,
+      "note": null,
+      "fit": 40,
+      "fitWhy": [
+        "graduate eligible",
+        "state",
+        "South / all-India"
+      ]
+    },
+    {
+      "id": "cur-31808d4976",
       "org": "APCOB (AP State Cooperative Bank)",
       "post": "Assistant Manager Scale-I (43) and Staff Assistant (295)",
       "sector": "cooperative",
@@ -3536,7 +3689,7 @@
       ]
     },
     {
-      "id": "cur-5cd9d64c5f",
+      "id": "cur-7df13b94af",
       "org": "TGPSC",
       "post": "Seed Certification Officer — 03/OG/SD/2026 (M.Sc required; closed)",
       "sector": "state",
@@ -3573,7 +3726,7 @@
       ]
     },
     {
-      "id": "cur-87cd70ab99",
+      "id": "cur-a94e218e28",
       "org": "TNPSC",
       "post": "Assistant Agricultural Officer / Assistant Horticultural Officer — Notification 06/2026 (TN AAO needs 2-year Diploma in Agriculture)",
       "sector": "state",
@@ -3612,7 +3765,7 @@
       ]
     },
     {
-      "id": "cur-1921b30f74",
+      "id": "cur-2c0b9f0457",
       "org": "KPSC",
       "post": "Gazetted Probationers (KAS) Group A & B 2026-27 — Notification KPSCKA/EXA1/EXMF/9/2026-EXAM-1/I/251710/2026",
       "sector": "state",
@@ -3649,7 +3802,44 @@
       ]
     },
     {
-      "id": "cur-221cfd94ea",
+      "id": "cur-b05bc67ffe",
+      "org": "TNPSC",
+      "post": "Combined Civil Services Exam-II (Group 2 & 2A) — Notification 07/2026 (Advt 740) + Addendum 7A/2026",
+      "sector": "state",
+      "track": "state",
+      "state": "Tamil Nadu",
+      "eligibility": "Bachelor's degree; Tamil eligibility rules apply",
+      "ageMax": "Per notification (not captured)",
+      "vacancies": "821 + 25 = 846",
+      "pay": null,
+      "payLakh": null,
+      "applyOpens": "2026-08-11",
+      "applyCloses": "2026-09-09",
+      "examDate": "2026-11-01 (prelims); Mains TBA",
+      "examDateType": "confirmed",
+      "typicalWindow": null,
+      "expectedMonth": null,
+      "lastCycle": null,
+      "mbaRelevance": null,
+      "agriRelevance": null,
+      "locations": [
+        "Tamil Nadu"
+      ],
+      "link": "https://www.tnpsc.gov.in/",
+      "source": "https://verandarace.com/blog/tnpsc-group-2-notification-2026-out",
+      "sourceType": "news",
+      "status": "closed",
+      "curated": true,
+      "note": null,
+      "fit": 40,
+      "fitWhy": [
+        "graduate eligible",
+        "state",
+        "South / all-India"
+      ]
+    },
+    {
+      "id": "cur-985b33caa9",
       "org": "Rashtriya Chemicals & Fertilizers",
       "post": "Management Trainee (incl. Marketing ×10), Advt 16022026",
       "sector": "psu",
@@ -3688,7 +3878,7 @@
       ]
     },
     {
-      "id": "cur-7f8a64b84c",
+      "id": "cur-4855b6efba",
       "org": "IBPS (CRP RRBs-XV) — Andhra Pradesh Grameena Bank, Telangana Grameena Bank, Tamil Nadu Grama Bank",
       "post": "Officer Scale-I (PO) and Office Assistant",
       "sector": "bank",
@@ -3728,7 +3918,7 @@
       ]
     },
     {
-      "id": "cur-bd03934bba",
+      "id": "cur-b319a37b82",
       "org": "Export-Import Bank of India",
       "post": "Deputy Manager (Banking Operations, JM-I) ×6 & Manager (Internal Audit, MM-II) ×2 – Special Recruitment Drive, Advt HRM/DM & M/SRD/2026-27/04",
       "sector": "bank",
@@ -3763,7 +3953,7 @@
       ]
     },
     {
-      "id": "cur-c69f6e5d4b",
+      "id": "cur-7486e591e1",
       "org": "ANGRAU",
       "post": "Teaching Assistant (B.Sc Ag) / Teaching Associate (M.Sc/Ph.D) — walk-ins Aug–Oct 2026 (passed)",
       "sector": "state",
@@ -3801,7 +3991,7 @@
       ]
     },
     {
-      "id": "cur-e09aaef3a8",
+      "id": "cur-b8525ca0b1",
       "org": "TGCAB (Telangana State Cooperative Apex Bank)",
       "post": "Cooperative Intern (notice dated 2026-08-12); no officer recruitment",
       "sector": "cooperative",
