@@ -392,6 +392,15 @@ def _zero_sample(name: str, text: str, hint: str = "", link_pat: str | None = No
     rsc = _rsc_text(text)
     if rsc:
         print(f"[sample] {name}: rsc {len(rsc)} chars; head: {re.sub(r'\s+', ' ', rsc[:500])!r}")
+    nd = _next_data(text)
+    if nd:
+        pp = (nd.get("props") or {}).get("pageProps") or {}
+        print(f"[sample] {name}: __NEXT_DATA__ keys={list(nd)[:8]} pageProps keys={list(pp)[:20] if isinstance(pp, dict) else type(pp).__name__}")
+        blob = json.dumps(pp if pp else nd)
+        print(f"[sample] {name}: pageProps head: {blob[:1500]!r}")
+        for hit in re.finditer(r'"(?:api|endpoint|url)[A-Za-z]*"\s*:\s*"(https?://[^"]{10,160})"', blob):
+            print(f"[sample] {name}: api-ish url: {hit.group(1)}")
+            break
     for label, hay in (("html", text), ("rsc", rsc)):
         m = re.search(link_pat, hay) if link_pat and hay else None
         if m:
@@ -575,7 +584,13 @@ def _embedded_jobs(html: str, base: str) -> list[dict]:
     return _records_to_raws(_json_records(html), base)
 
 
-def parse_generic_md(md: str, link_rx: re.Pattern) -> list[dict]:
+def _reader_sample(name: str, md: str) -> None:
+    links = re.findall(r"\]\((https?://[^)\s]+)\)", md)
+    print(f"[sample] {name} reader {len(md)} chars, {len(links)} links; head: {re.sub(r'\s+', ' ', md[:500])!r}")
+    print(f"[sample] {name} reader links: {[l[:90] for l in links[:12]]}")
+
+
+def parse_generic_md(md: str, link_rx: re.Pattern, name: str = "reader") -> list[dict]:
     """Job cards out of reader markdown: each matching link is a title; the lines after it carry company / experience / pay / place."""
     marker = _reader_blocked(md)
     if marker:
@@ -738,7 +753,7 @@ def timesjobs(q: str) -> list[dict]:
         r = get(url)
     except requests.exceptions.ConnectionError:
         # The site refuses connections from GitHub's address range; the reader fetches it from elsewhere.
-        return parse_generic_md(_reader(url), TIMESJOBS_LINK_RX)
+        return parse_generic_md(_reader(url), TIMESJOBS_LINK_RX, "TimesJobs")
     items = parse_timesjobs(r.text)
     if not items:
         items = _embedded_jobs(r.text, "https://www.timesjobs.com")
@@ -922,7 +937,7 @@ def freshersworld(q: str) -> list[dict]:
         if isinstance(e, requests.HTTPError) and e.response is not None and e.response.status_code not in (403, 429, 503):
             raise
         # 403 for datacenter IPs; the reader fetches it from elsewhere.
-        return parse_generic_md(_reader(url), FRESHERSWORLD_LINK_RX)
+        return parse_generic_md(_reader(url), FRESHERSWORLD_LINK_RX, "Freshersworld")
     items = parse_freshersworld(r.text)
     if not items:
         items = _embedded_jobs(r.text, "https://www.freshersworld.com")
