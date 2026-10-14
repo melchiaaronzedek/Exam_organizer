@@ -118,7 +118,7 @@ def ensure_labels(dry: bool) -> None:
     token, repo = env("GITHUB_TOKEN"), env("GITHUB_REPOSITORY")
     if not token or not repo or dry:
         return
-    for name, color, desc in [("reminder", "F4A442", "Upcoming exam date / deadline"), ("update", "3EC6B4", "New official notice found by the scraper"), ("opening", "A195FF", "New job opening that fits the profile")]:
+    for name, color, desc in [("reminder", "F4A442", "Upcoming exam date / deadline"), ("update", "3EC6B4", "New official notice found by the scraper"), ("opening", "A195FF", "New job opening that fits the profile"), ("track", "63B4FF", "Request from the Jobs page to track an opening")]:
         requests.post(f"https://api.github.com/repos/{repo}/labels", headers=gh_headers(token), json={"name": name, "color": color, "description": desc}, timeout=30)
 
 

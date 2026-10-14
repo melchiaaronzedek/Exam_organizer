@@ -1,9 +1,10 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { useApp } from '../ctx'
 import { Icon } from '../components/Icon'
 import { useEntrance } from '../lib/useEntrance'
 import { fitScore, isSouth } from '../lib/fit'
 import { jobsStore, profileStore } from '../lib/storage'
+import { isoToday } from '../lib/dates'
 import { daysUntil, fmtShort, relative } from '../lib/dates'
 import type { Exam, Opportunity, OppTrack } from '../types'
 
@@ -22,7 +23,8 @@ export function Jobs() {
   const po = profileStore.use()
   const pre = useEntrance([])
   const [track, setTrack] = useState<OppTrack | 'all'>('all')
-  const [tab, setTab] = useState<'open' | 'expected' | 'closed' | 'dismissed'>('open')
+  const [tab, setTab] = useState<'open' | 'expected' | 'applied' | 'closed' | 'dismissed'>('open')
+  const swipe = useRef<{ id: string; x: number; dx: number } | null>(null)
   const [sort, setSort] = useState<'deadline' | 'fit' | 'pay'>('deadline')
   const [showLow, setShowLow] = useState(false)
   const [expanded, setExpanded] = useState<string | null>(null)
@@ -42,7 +44,8 @@ export function Jobs() {
   }, [opportunities, prof])
 
   const shown = all
-    .filter((o) => (tab === 'dismissed' ? jobs.dismissed.includes(o.id) : !jobs.dismissed.includes(o.id) && o.status === tab))
+    .filter((o) => !(jobs.deleted ?? []).includes(o.id))
+    .filter((o) => (tab === 'dismissed' ? jobs.dismissed.includes(o.id) : tab === 'applied' ? jobs.applied.includes(o.id) : !jobs.dismissed.includes(o.id) && !jobs.applied.includes(o.id) && o.status === tab))
     .filter((o) => track === 'all' || o.track === track)
     .filter((o) => showLow || (o.fit ?? 0) >= 25)
     .sort((a, b) => {
@@ -55,40 +58,55 @@ export function Jobs() {
       return ad - bd
     })
 
+  const hidden = (o: Opportunity) => jobs.dismissed.includes(o.id) || jobs.applied.includes(o.id) || (jobs.deleted ?? []).includes(o.id)
   const counts = {
-    open: all.filter((o) => o.status === 'open' && !jobs.dismissed.includes(o.id)).length,
-    expected: all.filter((o) => o.status === 'expected' && !jobs.dismissed.includes(o.id)).length,
-    closed: all.filter((o) => o.status === 'closed' && !jobs.dismissed.includes(o.id)).length,
+    open: all.filter((o) => o.status === 'open' && !hidden(o)).length,
+    expected: all.filter((o) => o.status === 'expected' && !hidden(o)).length,
+    applied: jobs.applied.length,
+    closed: all.filter((o) => o.status === 'closed' && !hidden(o)).length,
     dismissed: jobs.dismissed.length,
   }
 
-  const track_ = (o: Opportunity) => {
-    const id = `custom-${o.id}`
-    if (!exams.some((e) => e.id === id)) {
-      const ex: Exam = {
-        id,
-        org: o.org,
-        short: o.org.length > 14 ? o.org.split(' ').map((w) => w[0]).join('').toUpperCase().slice(0, 8) : o.org,
-        title: `${o.org} — ${o.post}`,
-        post: o.post,
-        status: 'to-apply',
-        officialUrl: o.link,
-        applyUrl: o.link,
-        application: { opens: o.applyOpens ?? undefined, closes: o.applyCloses ?? undefined, applied: false, note: o.eligibility || undefined },
-        phases: [
-          ...(o.applyCloses ? [{ id: 'apply', name: 'Application window', kind: 'application' as const, date: o.applyOpens ?? o.applyCloses, dateEnd: o.applyCloses, dateType: 'confirmed' as const, status: 'upcoming' as const }] : []),
-          { id: 'exam', name: 'Exam / selection', kind: 'exam' as const, date: o.examDate ?? undefined, dateType: o.examDate ? o.examDateType ?? 'tentative' : 'tba', status: o.examDate ? 'upcoming' : 'tba', centre: { preferences: [], allotted: null } },
-          { id: 'interview', name: 'Interview', kind: 'interview' as const, dateType: 'tba' as const, status: 'tba' as const },
-        ],
-        facts: { vacancies: o.vacancies ? String(o.vacancies) : undefined, age: o.ageMax ? `≤ ${o.ageMax}` : undefined, pay: o.pay ?? undefined },
-        notes: [o.source ? `Source: ${o.source} (${o.sourceType})` : ''].filter(Boolean),
-        custom: true,
-      }
-      addCustomExam(ex)
-    }
-    jobsStore.set((s) => ({ ...s, tracked: { ...s.tracked, [o.id]: id } }))
+  const toExam = (o: Opportunity, status: Exam['status']): Exam => ({
+    id: `custom-${o.id}`,
+    org: o.org,
+    short: o.org.length > 14 ? o.org.split(' ').map((w) => w[0]).join('').toUpperCase().slice(0, 8) : o.org,
+    title: `${o.org} — ${o.post}`,
+    post: o.post,
+    status,
+    officialUrl: o.link,
+    applyUrl: o.link,
+    application: { opens: o.applyOpens ?? undefined, closes: o.applyCloses ?? undefined, applied: status !== 'to-apply', appliedOn: status === 'applied' ? isoToday() : undefined, note: o.eligibility || undefined },
+    phases: [
+      ...(o.applyCloses ? [{ id: 'apply', name: 'Application window', kind: 'application' as const, date: o.applyOpens ?? o.applyCloses, dateEnd: o.applyCloses, dateType: 'confirmed' as const, status: (status === 'to-apply' ? 'upcoming' : 'done') as 'upcoming' | 'done' }] : []),
+      { id: 'exam', name: 'Exam / selection', kind: 'exam' as const, date: o.examDate ?? undefined, dateType: o.examDate ? o.examDateType ?? 'tentative' : 'tba', status: o.examDate ? 'upcoming' : 'tba', centre: { preferences: [], allotted: null } },
+      { id: 'interview', name: 'Interview', kind: 'interview' as const, dateType: 'tba' as const, status: 'tba' as const },
+    ],
+    facts: { vacancies: o.vacancies ? String(o.vacancies) : undefined, age: o.ageMax ? `≤ ${o.ageMax}` : undefined, pay: o.pay ?? undefined },
+    notes: [o.source ? `Source: ${o.source} (${o.sourceType})` : ''].filter(Boolean),
+    custom: true,
+  })
+  const ensureTracked = (o: Opportunity, status: Exam['status']) => {
+    const ex = toExam(o, status)
+    if (!exams.some((e) => e.id === ex.id)) addCustomExam(ex)
+    jobsStore.set((s) => ({ ...s, tracked: { ...s.tracked, [o.id]: ex.id } }))
+    return ex
   }
-  const dismiss = (o: Opportunity) => jobsStore.set((s) => ({ ...s, dismissed: s.dismissed.includes(o.id) ? s.dismissed.filter((x) => x !== o.id) : [...s.dismissed, o.id] }))
+  const track_ = (o: Opportunity) => ensureTracked(o, 'to-apply')
+  const markApplied = (o: Opportunity) => {
+    ensureTracked(o, 'applied')
+    jobsStore.set((s) => ({ ...s, applied: s.applied.includes(o.id) ? s.applied : [...s.applied, o.id], dismissed: s.dismissed.filter((x) => x !== o.id) }))
+  }
+  const dontWant = (o: Opportunity) => jobsStore.set((s) => ({ ...s, dismissed: s.dismissed.includes(o.id) ? s.dismissed : [...s.dismissed, o.id], applied: s.applied.filter((x) => x !== o.id) }))
+  const del = (o: Opportunity) => jobsStore.set((s) => ({ ...s, deleted: [...(s.deleted ?? []), o.id], dismissed: s.dismissed.filter((x) => x !== o.id), applied: s.applied.filter((x) => x !== o.id) }))
+  const remind = (o: Opportunity) => {
+    const ex = ensureTracked(o, 'to-apply')
+    jobsStore.set((s) => ({ ...s, reminded: s.reminded.includes(o.id) ? s.reminded : [...s.reminded, o.id] }))
+    const body = `Track this opening so email / Telegram / WhatsApp reminders cover it. The daily job reads the JSON below, adds it to exams.json and closes this issue.\n\n\`\`\`json\n${JSON.stringify(ex, null, 2)}\n\`\`\``
+    const url = `https://github.com/melchiaaronzedek/Exam_organizer/issues/new?labels=track&title=${encodeURIComponent(`Track: ${o.org} — ${o.post}`.slice(0, 200))}&body=${encodeURIComponent(body)}`
+    window.open(url, '_blank', 'noopener')
+  }
+  const restore = (o: Opportunity) => jobsStore.set((s) => ({ ...s, dismissed: s.dismissed.filter((x) => x !== o.id), applied: s.applied.filter((x) => x !== o.id) }))
 
   return (
     <div className="view">
@@ -104,7 +122,7 @@ export function Jobs() {
 
       <div className="toolbar">
         <div className="seg">
-          {(['open', 'expected', 'closed', 'dismissed'] as const).map((t) => (
+          {(['open', 'expected', 'applied', 'closed', 'dismissed'] as const).map((t) => (
             <button key={t} className={`seg__btn ${tab === t ? 'is-active' : ''}`} onClick={() => setTab(t)}>
               {t[0].toUpperCase() + t.slice(1)} <span className="seg__n">{counts[t]}</span>
             </button>
@@ -144,7 +162,32 @@ export function Jobs() {
             const tracked = jobs.tracked[o.id] ?? (o.trackedExamId && exams.some((e) => e.id === o.trackedExamId) ? o.trackedExamId : undefined)
             const isOpen = expanded === o.id
             return (
-              <li key={o.id} className={`job ${isOpen ? 'is-open' : ''}`} style={{ ['--i' as string]: Math.min(i, 10) }}>
+              <li
+                key={o.id}
+                className={`job ${isOpen ? 'is-open' : ''} ${jobs.applied.includes(o.id) ? 'is-applied' : ''}`}
+                style={{ ['--i' as string]: Math.min(i, 10) }}
+                onTouchStart={(e) => { swipe.current = { id: o.id, x: e.touches[0].clientX, dx: 0 } }}
+                onTouchMove={(e) => {
+                  if (!swipe.current || swipe.current.id !== o.id) return
+                  swipe.current.dx = e.touches[0].clientX - swipe.current.x
+                  const el = e.currentTarget as HTMLElement
+                  el.style.transform = `translateX(${Math.max(-140, Math.min(140, swipe.current.dx))}px)`
+                  el.style.transition = 'none'
+                  el.dataset.swipe = swipe.current.dx > 40 ? 'right' : swipe.current.dx < -40 ? 'left' : ''
+                }}
+                onTouchEnd={(e) => {
+                  const el = e.currentTarget as HTMLElement
+                  const dx = swipe.current?.dx ?? 0
+                  el.style.transition = ''
+                  el.style.transform = ''
+                  el.dataset.swipe = ''
+                  swipe.current = null
+                  if (dx > 110) markApplied(o)
+                  else if (dx < -110) dontWant(o)
+                }}
+              >
+                <span className="job__hint job__hint--right" aria-hidden="true">Applied</span>
+                <span className="job__hint job__hint--left" aria-hidden="true">Don't want</span>
                 <button className="job__main" onClick={() => setExpanded(isOpen ? null : o.id)} aria-expanded={isOpen}>
                   <span className="job__top">
                     <span className="job__org">{o.org}</span>
@@ -179,7 +222,8 @@ export function Jobs() {
                   </span>
                   <span className="job__tags">
                     <span className={`src src--${o.sourceType}`}>{o.sourceType}</span>
-                    {tracked ? <span className="src src--tracked">tracking</span> : null}
+                    {jobs.applied.includes(o.id) ? <span className="src src--applied">applied</span> : tracked ? <span className="src src--tracked">tracking</span> : null}
+                    {jobs.reminded.includes(o.id) ? <span className="src src--tracked">reminder</span> : null}
                     {o.track ? <span className="src">{TRACKS.find((t) => t.id === o.track)?.label ?? o.track}</span> : null}
                   </span>
                 </button>
@@ -196,21 +240,39 @@ export function Jobs() {
                       <Row k="Why it fits" v={(o.fitWhy ?? []).join(' · ') || '—'} />
                       <Row k="Source" v={`${o.source ?? o.sourceType}${o.sourceType !== 'official' ? ' — verify on the official site before paying any fee' : ''}`} />
                     </dl>
-                    <div className="row">
+                    <div className="job__actions">
                       <a className="btn btn--accent btn--sm" href={o.link} target="_blank" rel="noreferrer">
                         <Icon name="external" size={14} /> {o.status === 'expected' ? 'Official site' : 'Open listing'}
                       </a>
+                      {tab === 'dismissed' || tab === 'applied' ? (
+                        <button className="btn btn--sm" onClick={() => restore(o)}>
+                          <Icon name="refresh" size={14} /> Restore
+                        </button>
+                      ) : null}
+                      {!jobs.applied.includes(o.id) ? (
+                        <button className="btn btn--sm" onClick={() => markApplied(o)}>
+                          <Icon name="check" size={14} /> Applied
+                        </button>
+                      ) : null}
+                      <button className="btn btn--sm" onClick={() => remind(o)} title="Adds it to Exams and opens a GitHub issue so email / Telegram / WhatsApp reminders cover it">
+                        <Icon name="bell" size={14} /> {jobs.reminded.includes(o.id) ? 'Remind again' : 'Remind'}
+                      </button>
                       {tracked ? (
-                        <button className="btn btn--sm" onClick={() => { navigate('exams'); setTimeout(() => document.getElementById(`exam-${tracked}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80) }}>
-                          <Icon name="check" size={14} /> In Exams
+                        <button className="btn btn--ghost btn--sm" onClick={() => { navigate('exams'); setTimeout(() => document.getElementById(`exam-${tracked}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80) }}>
+                          <Icon name="exams" size={14} /> In Exams
                         </button>
                       ) : (
-                        <button className="btn btn--sm" onClick={() => track_(o)}>
+                        <button className="btn btn--ghost btn--sm" onClick={() => track_(o)}>
                           <Icon name="plus" size={14} /> Track
                         </button>
                       )}
-                      <button className="btn btn--ghost btn--sm" onClick={() => dismiss(o)}>
-                        <Icon name={jobs.dismissed.includes(o.id) ? 'refresh' : 'x'} size={14} /> {jobs.dismissed.includes(o.id) ? 'Restore' : 'Dismiss'}
+                      {!jobs.dismissed.includes(o.id) ? (
+                        <button className="btn btn--ghost btn--sm" onClick={() => dontWant(o)}>
+                          <Icon name="x" size={14} /> Don't want
+                        </button>
+                      ) : null}
+                      <button className="btn btn--ghost btn--sm btn--danger" onClick={() => del(o)}>
+                        <Icon name="trash" size={14} /> Delete
                       </button>
                     </div>
                   </div>
@@ -221,6 +283,7 @@ export function Jobs() {
         </ul>
       )}
       <p className="muted small">
+        On a phone, swipe a row right to mark it applied or left to say you don't want it. Remind adds the opening to Exams and opens a prefilled GitHub issue; submit it and the morning job adds it to the shared data so email, Telegram and WhatsApp reminders cover it.
         Curated {opportunities.curatedAt ? `on ${fmtShort(opportunities.curatedAt)}` : 'from research'}; discovered items refresh daily
         {opportunities.discoveredAt ? ` (last ${fmtShort(opportunities.discoveredAt)})` : ''}. Fit is a keyword score, not eligibility advice.
       </p>

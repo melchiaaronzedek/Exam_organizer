@@ -84,9 +84,12 @@ export function importLocalState(json: string) {
 
 export interface JobsState {
   dismissed: string[]
+  applied: string[]
+  reminded: string[]
+  deleted?: string[]
   tracked: Record<string, string> // opportunityId -> examId
 }
-export const jobsStore = createStore<JobsState>('pd.jobs', { dismissed: [], tracked: {} })
+export const jobsStore = createStore<JobsState>('pd.jobs', { dismissed: [], applied: [], reminded: [], deleted: [], tracked: {} })
 
 export interface ProfileOverride {
   roles?: string[]

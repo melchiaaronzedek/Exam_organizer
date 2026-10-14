@@ -553,3 +553,38 @@ textarea { resize: vertical; }
   body { background: #fff; color: #000; }
   .panel, .cal { border-color: #ccc; break-inside: avoid; }
 }
+
+/* ───────────────────────── logo ───────────────────────── */
+.logo { display: inline-grid; place-items: center; flex: none; transform-style: preserve-3d; transform: perspective(300px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)); transition: transform 220ms var(--ease-out); }
+.logo svg { display: block; overflow: visible; }
+.logo__track { stroke: var(--line-strong); }
+.logo__arc { stroke: var(--accent); transition: stroke-dasharray 600ms var(--ease-out); }
+.logo__notch { fill: var(--accent); }
+.logo__glyph { stroke: var(--text); }
+.logo__flag { stroke: var(--accent); opacity: 0; transition: opacity var(--dur) ease; }
+.logo--interactive { cursor: pointer; }
+@media (hover: hover) and (pointer: fine) {
+  .logo--interactive:hover .logo__arc { stroke-dasharray: 264 264; }
+  .logo--interactive:hover .logo__flag { opacity: 1; }
+}
+.logo--interactive:active { transform: perspective(300px) scale(0.92); transition-duration: var(--dur-fast); }
+.logo--spin svg { animation: logo-spin 1.1s linear infinite; }
+@keyframes logo-spin { to { transform: rotate(360deg); } }
+.logo--pulse .logo__notch { animation: notch-pulse 1.6s ease-in-out infinite; transform-origin: 50px 8px; }
+@keyframes notch-pulse { 50% { transform: scale(1.6); opacity: 0.6; } }
+.brand .logo { margin-right: 2px; }
+.appbar__brand { display: inline-flex; margin-right: 10px; }
+.appbar { justify-content: flex-start; }
+.appbar__date { margin-left: auto; }
+.sk-logo { display: grid; place-items: center; padding: 8px 0; }
+
+/* job actions & swipe */
+.job { position: relative; touch-action: pan-y; }
+.job__hint { position: absolute; top: 0; bottom: 0; display: flex; align-items: center; padding: 0 16px; font-weight: 800; font-size: 13px; opacity: 0; transition: opacity var(--dur) ease; pointer-events: none; }
+.job__hint--right { left: -140px; width: 140px; justify-content: flex-end; color: var(--green); }
+.job__hint--left { right: -140px; width: 140px; color: var(--rose); }
+.job[data-swipe='right'] .job__hint--right, .job[data-swipe='left'] .job__hint--left { opacity: 1; }
+.job.is-applied { border-color: color-mix(in srgb, var(--green) 45%, transparent); }
+.job__actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.src--applied { color: var(--green); border-color: color-mix(in srgb, var(--green) 40%, transparent); }
+.jobs { overflow-x: clip; }
