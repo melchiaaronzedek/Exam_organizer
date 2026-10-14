@@ -8,10 +8,12 @@ import { STATUS_LABEL } from '../lib/data'
 const FILTERS: (ExamStatus | 'all')[] = ['all', 'to-apply', 'applied', 'written', 'result-awaited', 'closed']
 
 export function Exams() {
-  const { exams, overrides, docCounts, setOverride, setPhase, addCustomExam, removeCustomExam } = useApp()
+  const { exams, overrides, docCounts, documents, setOverride, setPhase, addCustomExam, removeCustomExam } = useApp()
   const [filter, setFilter] = useState<ExamStatus | 'all'>('all')
+  const [q, setQ] = useState('')
   const [adding, setAdding] = useState(false)
-  const list = exams.filter((e) => filter === 'all' || e.status === filter)
+  const needle = q.trim().toLowerCase()
+  const list = exams.filter((e) => (filter === 'all' || e.status === filter) && (!needle || `${e.short} ${e.org} ${e.title} ${e.post} ${e.phases.map((p) => p.centre?.preferences.join(' ') ?? '').join(' ')}`.toLowerCase().includes(needle)))
   return (
     <div className="view">
       <header className="view__head">
@@ -19,9 +21,15 @@ export function Exams() {
           <h1 className="view__title">Exams</h1>
           <p className="muted">Every phase, date and centre. Click a card to expand; edits stay in this browser.</p>
         </div>
-        <button className="btn btn--accent" onClick={() => setAdding(true)}>
-          <Icon name="plus" size={14} /> Add exam
-        </button>
+        <div className="row">
+          <label className="search">
+            <Icon name="list" size={14} />
+            <input id="exam-search" type="search" placeholder="Search exam, org, city…  ( / )" value={q} onChange={(e) => setQ(e.target.value)} />
+          </label>
+          <button className="btn btn--accent" onClick={() => setAdding(true)}>
+            <Icon name="plus" size={14} /> Add exam
+          </button>
+        </div>
       </header>
       <div className="filters">
         {FILTERS.map((f) => (
@@ -39,6 +47,7 @@ export function Exams() {
             exam={ex}
             override={overrides[ex.id]}
             docCount={docCounts[ex.id] ?? 0}
+            files={documents.filter((d) => d.examId === ex.id)}
             onOverride={(p) => setOverride(ex.id, p)}
             onPhaseChange={(pid, p) => setPhase(ex.id, pid, p)}
             onDeleteCustom={ex.custom ? () => removeCustomExam(ex.id) : undefined}

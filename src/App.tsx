@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { AppCtx, type AppState } from './ctx'
-import type { Exam, ExamOverride, ExamsFile, PhaseOverride, ScrapeStatusFile, UpdatesFile } from './types'
-import { buildEvents, loadAll, mergeExam } from './lib/data'
+import type { DocumentsFile, Exam, ExamOverride, ExamsFile, PhaseOverride, ScrapeStatusFile, UpdatesFile } from './types'
+import { buildEvents, isFresh, loadAll, mergeExam } from './lib/data'
 import { customExamsStore, overridesStore, prefsStore, seenStore } from './lib/storage'
 import { listDocs } from './lib/vault'
 import { maybeNotify, dueEvents } from './lib/notify'
@@ -30,7 +30,7 @@ function readHash() {
 
 export function App() {
   const [view, setView] = useState(readHash)
-  const [data, setData] = useState<{ exams: ExamsFile; updates: UpdatesFile; status: ScrapeStatusFile } | null>(null)
+  const [data, setData] = useState<{ exams: ExamsFile; updates: UpdatesFile; status: ScrapeStatusFile; documents: DocumentsFile } | null>(null)
   const [docCounts, setDocCounts] = useState<Record<string, number>>({})
   const overrides = overridesStore.use()
   const custom = customExamsStore.use()
@@ -47,6 +47,25 @@ export function App() {
   useEffect(() => {
     document.documentElement.dataset.theme = prefs.theme
   }, [prefs.theme])
+
+  // Keyboard shortcuts: 1-6 switch views, / focuses search, t toggles theme.
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const t = e.target as HTMLElement
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const idx = Number(e.key) - 1
+      if (idx >= 0 && idx < NAV.length) navigate(NAV[idx].id)
+      if (e.key === '/') {
+        e.preventDefault()
+        navigate('exams')
+        setTimeout(() => document.getElementById('exam-search')?.focus(), 50)
+      }
+      if (e.key === 't') prefsStore.set((p) => ({ ...p, theme: p.theme === 'ink' ? 'paper' : 'ink' }))
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
 
   const refreshDocCounts = useCallback(() => {
     listDocs().then((docs) => {
@@ -81,6 +100,7 @@ export function App() {
     events,
     updates: data?.updates ?? { updatedAt: null, updates: [] },
     status: data?.status ?? { lastRun: null, sources: [] },
+    documents: data?.documents.documents ?? [],
     overrides,
     generatedAt: data?.exams.generatedAt ?? '',
     docCounts,
@@ -97,7 +117,7 @@ export function App() {
   }
 
   const dueCount = dueEvents(events, prefs.leadDays).length
-  const unread = (data?.updates.updates ?? []).filter((u) => !seen.ids.includes(u.id)).length
+  const unread = (data?.updates.updates ?? []).filter((u) => isFresh(u) && !seen.ids.includes(u.id)).length
 
   return (
     <AppCtx.Provider value={state}>
@@ -124,7 +144,7 @@ export function App() {
             <button className="iconbtn" aria-label="Toggle theme" onClick={() => prefsStore.set({ ...prefs, theme: prefs.theme === 'ink' ? 'paper' : 'ink' })}>
               <Icon name={prefs.theme === 'ink' ? 'sun' : 'moon'} />
             </button>
-            <span className="rail__date mono">{format(new Date(), 'EEE d MMM')}</span>
+            <span className="rail__date mono" title="Shortcuts: 1-6 views · / search · t theme">{format(new Date(), 'EEE d MMM')}</span>
           </div>
         </aside>
         <main className="main" key={view}>

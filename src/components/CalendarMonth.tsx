@@ -3,7 +3,11 @@ import { addMonths, eachDayOfInterval, endOfMonth, endOfWeek, format, isSameDay,
 import type { CalEvent } from '../types'
 import { toDate, today, fmtDate, daysUntil, relative } from '../lib/dates'
 import { Icon } from './Icon'
-import { KIND_LABEL } from '../lib/data'
+import { KIND_LABEL, mapsUrl } from '../lib/data'
+
+export function placeOf(e: CalEvent): string | null {
+  return e.venue || e.centre || e.centrePrefs?.[0] || null
+}
 
 export function CalendarMonth({ events }: { events: CalEvent[] }) {
   const [cursor, setCursor] = useState(() => startOfMonth(today()))
@@ -11,15 +15,15 @@ export function CalendarMonth({ events }: { events: CalEvent[] }) {
   const start = startOfWeek(startOfMonth(cursor), { weekStartsOn: 1 })
   const end = endOfWeek(endOfMonth(cursor), { weekStartsOn: 1 })
   const days = eachDayOfInterval({ start, end })
-  const byDay = (d: Date) => events.filter((e) => {
-    const s = toDate(e.date)!
-    if (e.dateEnd && e.kind === 'application') {
-      const s0 = toDate(e.date)!
-      const e0 = toDate(e.dateEnd)!
-      return d >= s0 && d <= e0
-    }
-    return isSameDay(s, d)
-  })
+  const byDay = (d: Date) =>
+    events.filter((e) => {
+      if (e.dateEnd && e.kind === 'application') {
+        const s0 = toDate(e.date)!
+        const e0 = toDate(e.dateEnd)!
+        return d >= s0 && d <= e0
+      }
+      return isSameDay(toDate(e.date)!, d)
+    })
   const sel = selected ? byDay(selected) : []
 
   return (
@@ -49,17 +53,21 @@ export function CalendarMonth({ events }: { events: CalEvent[] }) {
           return (
             <button
               key={d.toISOString()}
-              className={`cal__day ${out ? 'is-out' : ''} ${isToday ? 'is-today' : ''} ${selected && isSameDay(d, selected) ? 'is-selected' : ''}`}
+              className={`cal__day ${out ? 'is-out' : ''} ${isToday ? 'is-today' : ''} ${selected && isSameDay(d, selected) ? 'is-selected' : ''} ${evs.length ? 'has-ev' : ''}`}
               onClick={() => setSelected(d)}
               aria-label={format(d, 'EEEE d MMMM')}
             >
               <span className="cal__num">{format(d, 'd')}</span>
               <span className="cal__evs">
-                {evs.slice(0, 3).map((e) => (
-                  <span key={e.id} className={`cal__ev cal__ev--${e.kind} ${e.dateType === 'tentative' ? 'is-tentative' : ''}`} title={`${e.examShort}: ${e.label}`}>
-                    {e.examShort}
-                  </span>
-                ))}
+                {evs.slice(0, 3).map((e) => {
+                  const place = placeOf(e)
+                  return (
+                    <span key={e.id} className={`cal__ev cal__ev--${e.kind} ${e.dateType === 'tentative' ? 'is-tentative' : ''}`} title={`${e.examShort}: ${e.label}${place ? ` · ${place}` : ''}`}>
+                      <span className="cal__ev-name">{e.examShort}</span>
+                      {place && e.kind !== 'application' ? <span className="cal__ev-place">{e.centre ? place : `${place}?`}</span> : null}
+                    </span>
+                  )
+                })}
                 {evs.length > 3 ? <span className="cal__more">+{evs.length - 3}</span> : null}
               </span>
             </button>
@@ -75,6 +83,7 @@ export function CalendarMonth({ events }: { events: CalEvent[] }) {
         <span className="legend">
           <i className="legend__dot is-tentative" /> dashed = tentative
         </span>
+        <span className="legend muted">city with ? = first preference, not yet allotted</span>
       </div>
       {selected ? (
         <div className="cal__detail">
@@ -92,14 +101,40 @@ export function CalendarMonth({ events }: { events: CalEvent[] }) {
                   <div className="muted">
                     {relative(daysUntil(e.date))}
                     {e.timeNote ? ` · ${e.timeNote}` : ''}
-                    {e.venue || e.centre ? ` · ${e.venue || e.centre}` : e.centrePrefs?.length ? ` · pref: ${e.centrePrefs.join(' / ')}` : ''}
                   </div>
+                  <PlaceLine e={e} />
                 </li>
               ))}
             </ul>
           )}
         </div>
       ) : null}
+    </div>
+  )
+}
+
+export function PlaceLine({ e }: { e: CalEvent }) {
+  if (e.kind === 'application') return null
+  const place = e.venue || e.centre
+  return (
+    <div className="placeline">
+      <Icon name="pin" size={13} />
+      {place ? (
+        <>
+          <strong>{place}</strong>
+          <a href={mapsUrl(place)} target="_blank" rel="noreferrer" className="placeline__map">
+            map
+          </a>
+        </>
+      ) : e.centrePrefs?.length ? (
+        <span>
+          <span className="muted">Pref: </span>
+          {e.centrePrefs.join(' / ')}
+          <span className="muted"> · allotment awaited</span>
+        </span>
+      ) : (
+        <span className="muted">Centre not chosen yet</span>
+      )}
     </div>
   )
 }

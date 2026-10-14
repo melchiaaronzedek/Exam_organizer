@@ -15,11 +15,25 @@ WhatsApp, and a private document vault for hall tickets and application forms.
 | **Exams** | One card per exam: status, application window, every phase with date / certainty / centre preferences / allotted centre. Click the pencil on a phase to correct a date or enter the venue from your admit card. Add your own exams too. |
 | **Calendar** | Month view of every phase and deadline (dashed = tentative) plus an agenda. Export an `.ics` file. |
 | **Updates** | Notices found by the daily scraper, with a NEW badge until you read them, and a health table showing which official sites answered. |
-| **Documents** | Drag in hall tickets and forms. They are stored in your browser only (IndexedDB) — nothing is uploaded or committed. Export / import a zip to move devices. |
+| **Documents** | Two layers. **Repository files**: everything under `public/documents/<examId>/` is listed per exam and downloadable from any device. **Private vault**: drag in anything you do not want on GitHub; it stays in your browser (IndexedDB), with zip export / import to move devices. |
 | **Settings** | Theme, reminder lead days, browser notifications, calendar-subscription URL, backup / restore of your local edits. |
 
-Everything personal (statuses you change, notes, roll numbers, venues, documents) stays in
-your browser. The repository only holds public exam facts in `public/data/exams.json`.
+Statuses you change, notes, roll numbers, venues and vault documents stay in your browser.
+The repository holds the exam facts in `public/data/exams.json` and the application forms /
+hall tickets you chose to commit under `public/documents/`.
+
+> **Privacy note.** This repository is public, so every file under `public/documents/` is
+> readable by anyone with the link (they contain registration numbers, date of birth,
+> contact details and photos). To keep them while hiding them, make the repository private
+> (GitHub Pages on a private repo needs GitHub Pro) or move the files into the private
+> vault instead and delete them from the folder.
+
+## Adding documents
+
+Name files `public/documents/<examId>/<type>__<Readable_name>.pdf` where `<examId>` is the
+`id` from `exams.json` and `<type>` is one of `application`, `hall-ticket`, `notification`,
+`receipt`, `photo`, `result`, `other`. Commit and push; the build regenerates
+`public/data/documents.json` and the Documents page and each exam card pick them up.
 
 ## Reminders
 
@@ -48,11 +62,19 @@ in Google Calendar (*Other calendars → From URL*) or on your phone; it carries
 
 ## Daily scraper
 
-`scraper/scrape.py` reads `public/data/sources.json` (an official page and a Google News
-feed per exam), keeps anything new in `public/data/updates.json`, and records per-source
-health in `public/data/scrape_status.json`. Government sites that block bots or need
-JavaScript show up as *Failed* in the Updates page rather than breaking the run; the news
-feed for that exam still works. Adjust keywords or URLs in `sources.json` any time.
+`scraper/scrape.py` reads `public/data/sources.json` (two or three official pages plus
+Google News feeds per exam, fetched concurrently), keeps anything new in
+`public/data/updates.json`, and records per-source health in
+`public/data/scrape_status.json`. A page is fetched directly first; if the site blocks bots
+or needs JavaScript (most SSC / UPSC / state PSC portals), it is retried through the
+public rendering proxy `r.jina.ai`, shown as *reader* in the Updates page. The very first
+run is a baseline and does not raise an "update" issue; later runs alert only on items
+first seen since yesterday that are also dated within the last five days. Adjust keywords
+or URLs in `sources.json` any time.
+
+## Keyboard shortcuts
+
+`1`–`6` switch pages · `/` jumps to exam search · `t` toggles the theme.
 
 ## Editing exam data
 

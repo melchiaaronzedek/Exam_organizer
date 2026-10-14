@@ -3,16 +3,20 @@ import { useApp } from '../ctx'
 import { Icon } from '../components/Icon'
 import { seenStore } from '../lib/storage'
 import { formatDistanceToNow } from 'date-fns'
+import { isFresh } from '../lib/data'
 
 export function Updates() {
   const { updates, status, exams } = useApp()
   const seen = seenStore.use()
   const [examFilter, setExamFilter] = useState('all')
   const list = useMemo(
-    () => updates.updates.filter((u) => examFilter === 'all' || u.examId === examFilter).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen)),
+    () =>
+      updates.updates
+        .filter((u) => examFilter === 'all' || u.examId === examFilter)
+        .sort((a, b) => (b.publishedAt ?? b.firstSeen).localeCompare(a.publishedAt ?? a.firstSeen)),
     [updates, examFilter],
   )
-  const unseen = list.filter((u) => !seen.ids.includes(u.id))
+  const unseen = list.filter((u) => isFresh(u) && !seen.ids.includes(u.id))
   const nameOf = (id: string) => exams.find((e) => e.id === id)?.short ?? id
   const markAll = () => seenStore.set({ ids: Array.from(new Set([...seen.ids, ...updates.updates.map((u) => u.id)])) })
 
@@ -54,7 +58,7 @@ export function Updates() {
       ) : (
         <ul className="feed">
           {list.map((u) => {
-            const isNew = !seen.ids.includes(u.id)
+            const isNew = isFresh(u) && !seen.ids.includes(u.id)
             return (
               <li key={u.id} className={`feed__item ${isNew ? 'is-new' : ''}`}>
                 <div className="feed__meta">
@@ -75,6 +79,7 @@ export function Updates() {
         <h2 className="panel__title">
           <Icon name="refresh" /> Source health
         </h2>
+        <p className="muted small">Direct fetch first; if a government site blocks bots or needs JavaScript, the job retries through a rendering proxy (shown as "reader"). News feeds catch what the sites hide.</p>
         {status.sources.length === 0 ? (
           <p className="muted">No scrape run recorded yet.</p>
         ) : (
@@ -85,6 +90,7 @@ export function Updates() {
                 <th>Source</th>
                 <th>Status</th>
                 <th>Items</th>
+                <th>Via</th>
               </tr>
             </thead>
             <tbody>
@@ -98,6 +104,7 @@ export function Updates() {
                   </td>
                   <td>{s.ok ? 'OK' : `Failed · ${s.error ?? 'unreachable'}`}</td>
                   <td className="mono">{s.items}</td>
+                  <td className="muted small">{s.via ?? '—'}</td>
                 </tr>
               ))}
             </tbody>

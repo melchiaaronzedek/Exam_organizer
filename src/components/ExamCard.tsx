@@ -1,31 +1,43 @@
 import { useState } from 'react'
-import type { Exam, ExamOverride, PhaseOverride } from '../types'
+import type { Exam, ExamOverride, PhaseOverride, RepoDoc } from '../types'
 import { StatusChip } from './StatusChip'
 import { PhaseStepper } from './PhaseStepper'
 import { Icon } from './Icon'
-import { normalizePhase } from '../lib/data'
+import { cityOf, mapsUrl, nextPhase } from '../lib/data'
 import { daysUntil, fmtShort, isoToday, relative } from '../lib/dates'
+import { DOC_TYPES } from '../lib/vault'
 
 interface Props {
   exam: Exam
   override?: ExamOverride
   docCount?: number
+  files?: RepoDoc[]
   onOverride: (patch: Partial<ExamOverride>) => void
   onPhaseChange: (phaseId: string, patch: PhaseOverride) => void
   onDeleteCustom?: () => void
   defaultOpen?: boolean
 }
 
-export function ExamCard({ exam, override, docCount = 0, onOverride, onPhaseChange, onDeleteCustom, defaultOpen = false }: Props) {
+const base = import.meta.env.BASE_URL
+
+export function ExamCard({ exam, override, docCount = 0, files = [], onOverride, onPhaseChange, onDeleteCustom, defaultOpen = false }: Props) {
   const [open, setOpen] = useState(defaultOpen)
-  const next = exam.phases.map(normalizePhase).find((p) => p.status === 'upcoming' && p.date && daysUntil(p.date)! >= 0)
+  const next = nextPhase(exam)
   const closes = exam.application.closes
   const closeDays = daysUntil(closes)
   const applyOpen = !exam.application.applied && closes && closeDays != null && closeDays >= 0
-  const nextCity = next?.centre?.allotted || next?.centre?.preferences?.[0]
+  const nextCity = cityOf(next)
+  const carry = exam.facts?.carry ?? []
+  const checked = new Set(override?.checklist ?? [])
+  const toggle = (item: string) => {
+    const s = new Set(checked)
+    s.has(item) ? s.delete(item) : s.add(item)
+    onOverride({ checklist: [...s] })
+  }
+  const typeLabel = (t: string) => DOC_TYPES.find((x) => x.id === t)?.label ?? t
 
   return (
-    <article className={`card card--${exam.status} ${open ? 'card--open' : ''}`}>
+    <article className={`card card--${exam.status} ${open ? 'card--open' : ''}`} id={`exam-${exam.id}`}>
       <header className="card__head" onClick={() => setOpen(!open)} role="button" tabIndex={0} onKeyDown={(e) => e.key === 'Enter' && setOpen(!open)} aria-expanded={open}>
         <div className="card__id">
           <span className="card__org">{exam.org}</span>
@@ -70,10 +82,16 @@ export function ExamCard({ exam, override, docCount = 0, onOverride, onPhaseChan
             <span>{next?.centre?.allotted ? nextCity : `${nextCity} (pref. 1)`}</span>
           </div>
         ) : null}
+        {files.length ? (
+          <div className="glance muted">
+            <Icon name="file" size={14} />
+            <span>{files.length} file{files.length > 1 ? 's' : ''}</span>
+          </div>
+        ) : null}
         {docCount ? (
           <div className="glance muted">
             <Icon name="documents" size={14} />
-            <span>{docCount} doc{docCount > 1 ? 's' : ''} in vault</span>
+            <span>{docCount} in vault</span>
           </div>
         ) : null}
       </div>
@@ -87,6 +105,11 @@ export function ExamCard({ exam, override, docCount = 0, onOverride, onPhaseChan
             {exam.notificationUrl ? (
               <a className="btn btn--ghost" href={exam.notificationUrl} target="_blank" rel="noreferrer">
                 <Icon name="file" size={14} /> Notices
+              </a>
+            ) : null}
+            {nextCity ? (
+              <a className="btn btn--ghost" href={mapsUrl(override?.phases?.[next!.id]?.venue || nextCity)} target="_blank" rel="noreferrer">
+                <Icon name="pin" size={14} /> Map
               </a>
             ) : null}
             {!exam.application.applied ? (
@@ -122,44 +145,102 @@ export function ExamCard({ exam, override, docCount = 0, onOverride, onPhaseChan
             ) : null}
           </div>
 
-          <dl className="facts">
-            <div>
-              <dt>Title</dt>
-              <dd>{exam.title}</dd>
+          <div className="card__cols">
+            <div className="card__main">
+              <dl className="facts">
+                <div>
+                  <dt>Title</dt>
+                  <dd>{exam.title}</dd>
+                </div>
+                {exam.advt ? (
+                  <div>
+                    <dt>Advertisement</dt>
+                    <dd>{exam.advt}</dd>
+                  </div>
+                ) : null}
+                {exam.application.opens || exam.application.closes ? (
+                  <div>
+                    <dt>Application window</dt>
+                    <dd className="mono">
+                      {exam.application.opens ? fmtShort(exam.application.opens) : '—'} → {exam.application.closes ? fmtShort(exam.application.closes) : '—'}
+                      {exam.application.mode ? ` · ${exam.application.mode}` : ''}
+                    </dd>
+                  </div>
+                ) : null}
+                {exam.application.note ? (
+                  <div>
+                    <dt>Application note</dt>
+                    <dd>{exam.application.note}</dd>
+                  </div>
+                ) : null}
+              </dl>
+
+              <h4 className="card__h4">Phases & centres</h4>
+              <PhaseStepper exam={exam} override={override} onPhaseChange={onPhaseChange} />
+
+              {exam.notes?.length ? (
+                <ul className="notes">
+                  {exam.notes.map((n) => (
+                    <li key={n}>{n}</li>
+                  ))}
+                </ul>
+              ) : null}
             </div>
-            {exam.advt ? (
-              <div>
-                <dt>Advertisement</dt>
-                <dd>{exam.advt}</dd>
-              </div>
-            ) : null}
-            {exam.application.opens || exam.application.closes ? (
-              <div>
-                <dt>Application window</dt>
-                <dd className="mono">
-                  {exam.application.opens ? fmtShort(exam.application.opens) : '—'} → {exam.application.closes ? fmtShort(exam.application.closes) : '—'}
-                  {exam.application.mode ? ` · ${exam.application.mode}` : ''}
-                </dd>
-              </div>
-            ) : null}
-            {exam.application.note ? (
-              <div>
-                <dt>Application note</dt>
-                <dd>{exam.application.note}</dd>
-              </div>
-            ) : null}
-          </dl>
 
-          <h4 className="card__h4">Phases</h4>
-          <PhaseStepper exam={exam} override={override} onPhaseChange={onPhaseChange} />
+            <aside className="card__side">
+              {exam.facts ? (
+                <div className="sidebox">
+                  <h4 className="card__h4">Quick facts</h4>
+                  <dl className="qf">
+                    {exam.facts.vacancies ? <Row k="Vacancies" v={exam.facts.vacancies} /> : null}
+                    {exam.facts.age ? <Row k="Age" v={exam.facts.age} /> : null}
+                    {exam.facts.fee ? <Row k="Fee" v={exam.facts.fee} /> : null}
+                    {exam.facts.pay ? <Row k="Pay" v={exam.facts.pay} /> : null}
+                    {exam.facts.selection ? <Row k="Selection" v={exam.facts.selection} /> : null}
+                    {exam.facts.pattern ? <Row k="Pattern" v={exam.facts.pattern} /> : null}
+                  </dl>
+                  <p className="muted small">As per notification / public sources. Verify on the official notice.</p>
+                </div>
+              ) : null}
 
-          {exam.notes?.length ? (
-            <ul className="notes">
-              {exam.notes.map((n) => (
-                <li key={n}>{n}</li>
-              ))}
-            </ul>
-          ) : null}
+              {carry.length ? (
+                <div className="sidebox">
+                  <h4 className="card__h4">
+                    Exam-day checklist <span className="muted">{checked.size}/{carry.length}</span>
+                  </h4>
+                  <ul className="checklist">
+                    {carry.map((item) => (
+                      <li key={item}>
+                        <label className={`check ${checked.has(item) ? 'is-done' : ''}`}>
+                          <input type="checkbox" checked={checked.has(item)} onChange={() => toggle(item)} />
+                          <span>{item}</span>
+                        </label>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+
+              {files.length ? (
+                <div className="sidebox">
+                  <h4 className="card__h4">Files</h4>
+                  <ul className="filelist">
+                    {files.map((f) => (
+                      <li key={f.url}>
+                        <a href={`${base}${f.url}`} target="_blank" rel="noreferrer" className="filelist__name">
+                          <Icon name="file" size={14} /> {f.name}
+                        </a>
+                        <span className="muted small">{typeLabel(f.type)}</span>
+                        <a href={`${base}${f.url}`} download={f.file} className="iconbtn iconbtn--ghost" aria-label="Download">
+                          <Icon name="download" size={14} />
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+            </aside>
+          </div>
 
           <div className="private">
             <h4 className="card__h4">
@@ -179,5 +260,14 @@ export function ExamCard({ exam, override, docCount = 0, onOverride, onPhaseChan
         </div>
       ) : null}
     </article>
+  )
+}
+
+function Row({ k, v }: { k: string; v: string }) {
+  return (
+    <div>
+      <dt>{k}</dt>
+      <dd>{v}</dd>
+    </div>
   )
 }

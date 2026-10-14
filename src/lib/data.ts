@@ -1,4 +1,4 @@
-import type { CalEvent, Exam, ExamOverride, ExamsFile, Phase, PhaseKind, ScrapeStatusFile, UpdatesFile } from '../types'
+import type { CalEvent, DocumentsFile, Update, Exam, ExamOverride, ExamsFile, Phase, PhaseKind, ScrapeStatusFile, UpdatesFile } from '../types'
 import { daysUntil } from './dates'
 
 const base = import.meta.env.BASE_URL
@@ -14,12 +14,13 @@ async function getJSON<T>(path: string, fallback: T): Promise<T> {
 }
 
 export async function loadAll() {
-  const [exams, updates, status] = await Promise.all([
+  const [exams, updates, status, documents] = await Promise.all([
     getJSON<ExamsFile>('data/exams.json', { generatedAt: '', exams: [] }),
     getJSON<UpdatesFile>('data/updates.json', { updatedAt: null, updates: [] }),
     getJSON<ScrapeStatusFile>('data/scrape_status.json', { lastRun: null, sources: [] }),
+    getJSON<DocumentsFile>('data/documents.json', { count: 0, documents: [] }),
   ])
-  return { exams, updates, status }
+  return { exams, updates, status, documents }
 }
 
 /** Apply browser-stored overrides on top of the public exam data. */
@@ -130,4 +131,32 @@ export function examCity(exam: Exam): string | null {
   const c = next?.centre
   if (!c) return null
   return c.allotted || c.preferences[0] || null
+}
+
+/** City to show for a phase: allotted centre, else first preference. */
+export function cityOf(p?: Phase | null): string | null {
+  if (!p?.centre) return null
+  return p.centre.allotted || p.centre.preferences[0] || null
+}
+
+export function mapsUrl(q: string) {
+  return `https://www.google.com/maps/search/${encodeURIComponent(q)}`
+}
+
+export function nextPhase(exam: Exam): Phase | undefined {
+  return exam.phases.map(normalizePhase).find((p) => p.status === 'upcoming' && p.date && daysUntil(p.date)! >= 0)
+}
+
+export function toCSV(events: CalEvent[]): string {
+  const esc = (v: unknown) => `"${String(v ?? '').replace(/"/g, '""')}"`
+  const rows = [['Date', 'Exam', 'Phase', 'Type', 'Certainty', 'Centre', 'Preferences', 'Time', 'Status']]
+  for (const e of events) rows.push([e.date, e.examShort, e.label, e.kind, e.dateType, e.venue || e.centre || '', (e.centrePrefs ?? []).join(' / '), e.timeNote ?? '', e.status])
+  return rows.map((r) => r.map(esc).join(',')).join('\n')
+}
+
+/** An update counts as fresh when dated within 7 days, or undated and first seen within 2 days. */
+export function isFresh(u: Update, now = new Date()): boolean {
+  const ms = now.getTime()
+  if (u.publishedAt) return ms - new Date(u.publishedAt.slice(0, 10)).getTime() <= 7 * 86_400_000
+  return ms - new Date(u.firstSeen).getTime() <= 2 * 86_400_000
 }

@@ -1,11 +1,12 @@
 import { createContext, useContext } from 'react'
-import type { CalEvent, Exam, ExamOverride, PhaseOverride, ScrapeStatusFile, UpdatesFile } from './types'
+import type { CalEvent, Exam, ExamOverride, PhaseOverride, RepoDoc, ScrapeStatusFile, UpdatesFile } from './types'
 
 export interface AppState {
   exams: Exam[]
   events: CalEvent[]
   updates: UpdatesFile
   status: ScrapeStatusFile
+  documents: RepoDoc[]
   overrides: Record<string, ExamOverride>
   generatedAt: string
   docCounts: Record<string, number>
