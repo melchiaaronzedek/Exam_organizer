@@ -94,10 +94,10 @@ export function Settings() {
         </h2>
         <div className="row">
           <button className={`btn ${prefs.theme === 'ink' ? 'btn--accent' : 'btn--ghost'}`} onClick={() => prefsStore.set({ ...prefs, theme: 'ink' })}>
-            <Icon name="moon" size={14} /> Ink (dark)
+            <Icon name="moon" size={14} /> Dark
           </button>
           <button className={`btn ${prefs.theme === 'paper' ? 'btn--accent' : 'btn--ghost'}`} onClick={() => prefsStore.set({ ...prefs, theme: 'paper' })}>
-            <Icon name="sun" size={14} /> Paper (light)
+            <Icon name="sun" size={14} /> Light
           </button>
         </div>
       </section>

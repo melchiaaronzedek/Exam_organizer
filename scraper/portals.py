@@ -231,7 +231,7 @@ def naukri(q: str) -> list[dict]:
     return out
 
 
-NAUKRI_CARD_RX = re.compile(r"\[([^\]]{6,140})\]\((https://www\.naukri\.com/job-listings[^)\s]+)\)")
+NAUKRI_CARD_RX = re.compile(r"\[([^\]]{6,140})\]\((https://www\.naukri\.com/job[^)\s]+)\)")
 
 
 def naukri_reader(q: str) -> list[dict]:
@@ -241,7 +241,9 @@ def naukri_reader(q: str) -> list[dict]:
     r = requests.get(f"https://r.jina.ai/{page}", headers={"User-Agent": UA, "Accept": "text/plain", "X-Return-Format": "markdown"}, timeout=60)
     r.raise_for_status()
     md = r.text
-    print(f"[sample] Naukri reader {len(md)} chars: {md[:500]!r}")
+    links = re.findall(r"\[([^\]]{3,80})\]\((https?://[^)\s]+)\)", md)
+    jl = [l for l in links if "naukri.com/job" in l[1] or "job-listings" in l[1]]
+    print(f"[sample] Naukri reader {len(md)} chars, {len(links)} links, {len(jl)} job links; first: {links[8:14]!r}")
     out = []
     cards = list(NAUKRI_CARD_RX.finditer(md))
     for i, m in enumerate(cards):
@@ -376,57 +378,195 @@ PORTALS = [("Naukri", naukri), ("Foundit", foundit), ("Unstop", unstop), ("Linke
 
 
 # ───────────────────────── pipeline ─────────────────────────
-def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
+EMPLOYERS = json.loads((Path(__file__).parent / "employers.json").read_text(encoding="utf-8"))
+KNOWN = [n.lower() for n in EMPLOYERS["names"]]
+SUSPICIOUS_RX = re.compile(r"\b(" + "|".join(re.escape(t) for t in EMPLOYERS["suspiciousCompanyTerms"]) + r")\b", re.I)
+SCAM_RX = re.compile("|".join(re.escape(t) for t in EMPLOYERS["scamTerms"]), re.I)
+SHADY_DOMAINS = EMPLOYERS["shadyDomains"]
+WFH_RX = re.compile(r"\b(work from home|wfh|remote)\b", re.I)
+
+
+def clean_company(name: str) -> str:
+    c = re.sub(r"\s*(actively hiring|hiring now|urgent(ly)? hiring).*$", "", name or "", flags=re.I)
+    c = re.sub(r"\s+", " ", c)
+    c = re.sub(r"\s+[A-Z]$", "", c)
+    return c.strip(" -|·,")
+
+
+def is_known_employer(company: str) -> bool:
+    c = " " + re.sub(r"[^a-z0-9&.' ]", " ", company.lower()) + " "
+    c = re.sub(r"\s+", " ", c)
+    for n in KNOWN:
+        if len(n.strip()) <= 4:
+            if re.search(r"(?<![a-z0-9])" + re.escape(n.strip()) + r"(?![a-z0-9])", c):
+                return True
+        elif n in c:
+            return True
+    return False
+
+
+def trust_of(company: str, text: str, website: str | None) -> tuple[str, str | None]:
+    """('verified' | 'unverified' | 'reject', reason)."""
+    if SCAM_RX.search(text):
+        return "reject", "scam wording"
+    if website and any(d in website.lower() for d in SHADY_DOMAINS):
+        return "reject", "shady website"
+    if is_known_employer(company):
+        return "verified", None
+    if SUSPICIOUS_RX.search(company):
+        return "reject", "agency / shady company name"
+    return "unverified", None
+
+
+def prefilter(raw: dict) -> str | None:
+    """Cheap title-level checks before any detail fetch. Returns a rejection reason or None."""
     title = re.sub(r"\s+", " ", (raw.get("title") or "")).strip(" -|·")
-    company = re.sub(r"\s*(actively hiring|hiring now|urgent(ly)? hiring).*$", "", (raw.get("company") or ""), flags=re.I)
-    company = re.sub(r"\s+[A-Z]$", "", re.sub(r"\s+", " ", company)).strip(" -|·,")
+    company = clean_company(raw.get("company") or "")
+    raw["title"], raw["company"] = title, company
     if not title or not company:
-        return None, "incomplete"
-    hay = f"{title} {raw.get('description', '')}"
+        return "incomplete"
     if EXCLUDE_RX.search(title):
-        return None, "excluded role"
+        return "excluded role"
     if SENIOR_RX.search(title):
-        return None, "senior title"
+        return "senior title"
     if SALES_SPAM_RX.search(title) and not re.search(r"\b(trainee|program|programme|management|leadership|graduate)\b", title, re.I):
-        return None, "sales / BD spam"
+        return "sales / BD spam"
     if not ROLE_RX.search(title):
-        return None, "role mismatch"
+        return "role mismatch"
+    return None
+
+
+# ───────────────────────── detail verification ─────────────────────────
+def linkedin_detail(url: str) -> dict:
+    m = re.search(r"-(\d{6,})/?(?:\?|$)", url) or re.search(r"/view/(\d{6,})", url)
+    if not m:
+        return {}
+    soup = BeautifulSoup(get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{m.group(1)}").text, "lxml")
+    desc = soup.select_one(".show-more-less-html__markup, .description__text")
+    crit = {}
+    for li in soup.select(".description__job-criteria-item"):
+        h = li.select_one("h3")
+        v = li.select_one("span")
+        if h and v:
+            crit[h.get_text(" ", strip=True).lower()] = v.get_text(" ", strip=True)
+    sal = soup.select_one(".salary, .compensation__salary")
+    out = {"description": desc.get_text(" ", strip=True)[:4000] if desc else "", "seniority": crit.get("seniority level"), "employment": crit.get("employment type")}
+    if sal:
+        out["salaryText"] = sal.get_text(" ", strip=True)
+    return out
+
+
+def internshala_detail(url: str) -> dict:
+    soup = BeautifulSoup(get(url).text, "lxml")
+    text = soup.get_text("\n", strip=True)
+    out: dict = {"description": text[:4000]}
+    m = re.search(r"Experience\s*\n?\s*(\d+(?:\.\d+)?\s*(?:-|–|to)?\s*\d*(?:\.\d+)?\s*years?|fresher)", text, re.I)
+    if m:
+        out["experienceText"] = m.group(1)
+    m = re.search(r"(?:CTC|Salary|Compensation)\s*\n?\s*(₹[^\n]{3,60})", text, re.I)
+    if m:
+        out["salaryText"] = m.group(1)
+    for a in soup.select("a[href^='http']"):
+        href = a.get("href", "")
+        host = re.sub(r"^https?://(www\.)?", "", href).split("/")[0].lower()
+        if host and not any(x in host for x in ("internshala", "google", "apple.com", "play.google", "twitter", "x.com", "youtube", "linkedin.com/company/internshala")):
+            if re.search(r"website|visit|\.com|\.in|\.io|\.org", a.get_text(" ", strip=True) + href, re.I) and "linkedin.com" not in host and "instagram" not in host and "facebook" not in host:
+                out["website"] = host
+                break
+    return out
+
+
+def verify(raw: dict) -> dict:
+    """Open the listing itself to read experience, pay and the description. Never raises."""
+    try:
+        src = raw.get("source")
+        if src == "LinkedIn":
+            d = linkedin_detail(raw.get("url") or "")
+        elif src == "Internshala":
+            d = internshala_detail(raw.get("url") or "")
+        else:
+            d = {}
+        for k, v in d.items():
+            if v and not raw.get(k):
+                raw[k] = v
+        if d:
+            raw["verified"] = True
+    except Exception as e:  # noqa: BLE001
+        raw["verifyError"] = str(e)[:80]
+    return raw
+
+
+def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
+    pre = prefilter(raw)
+    if pre:
+        return None, pre
+    title, company = raw["title"], raw["company"]
+    desc = raw.get("description") or ""
+    hay = f"{title} {desc}"
+    trust, treason = trust_of(company, f"{title} {company} {desc}", raw.get("website"))
+    if trust == "reject":
+        return None, treason or "untrusted"
+    # Experience: the listing's own field first, then the description text.
     exp_min = parse_experience(raw.get("experienceText"))
     if exp_min is None:
         exp_min = parse_experience(hay)
+    if exp_min is None and (raw.get("seniority") or "").lower() in ("entry level", "internship"):
+        exp_min = 0.0
     max_exp = float(profile.get("maxExperienceYears", 0.5))
     exp_unknown = exp_min is None
     if exp_unknown:
-        # No experience line at all: keep it (the pay bar still applies) but say so, and score it lower.
         exp_min = 0.0
     if exp_min > max_exp:
         return None, f"needs {exp_min:g}+ yrs"
-    sal = parse_salary(raw.get("salaryText")) or parse_salary(hay if "lpa" in hay.lower() or "lakh" in hay.lower() or "lac" in hay.lower() else None)
-    if not sal:
+    if re.search(r"\b(\d+)\s*\+?\s*(?:-|to)?\s*\d*\s*(?:yrs?|years?)\s+(?:of\s+)?(?:relevant\s+|prior\s+|work\s+)?experience\s+(?:is\s+)?(?:required|mandatory|must)", hay, re.I):
+        m = re.search(r"\b(\d+)\s*\+?\s*(?:-|to)?\s*\d*\s*(?:yrs?|years?)\s+(?:of\s+)?(?:relevant\s+|prior\s+|work\s+)?experience\s+(?:is\s+)?(?:required|mandatory|must)", hay, re.I)
+        if m and float(m.group(1)) > max_exp:
+            return None, f"needs {m.group(1)}+ yrs"
+    # Pay
+    sal = parse_salary(raw.get("salaryText")) or parse_salary(hay if re.search(r"\b(lpa|lakh|lacs?|ctc|per annum|p\.a\.)\b", hay, re.I) else None)
+    pay_floor = float(profile.get("privatePayFloorLakh", 6))
+    pay_bar = float(profile.get("privateMinPayLakh", 10))
+    if sal:
+        lo, hi = sal
+        if hi < pay_bar or lo < pay_floor:
+            return None, f"pay {fmt_pay(sal)}"
+        if trust != "verified" and (lo >= 30 or (WFH_RX.search(raw.get("location") or "") and lo >= 15)):
+            return None, "pay implausible for unknown employer"
+    elif trust != "verified":
         return None, "salary not stated"
-    lo, hi = sal
-    if hi < float(profile.get("privateMinPayLakh", 10)) or lo < float(profile.get("privatePayFloorLakh", 6)):
-        return None, f"pay {fmt_pay(sal)}"
     locs = [x.strip() for x in re.split(r"[,/|]", raw.get("location") or "") if x.strip()][:6]
-    cand = {"org": company, "post": title, "title": title, "sector": "private", "track": "private", "locations": locs, "payLakh": lo, "eligibility": raw.get("experienceText") or ""}
+    cand = {"org": company, "post": title, "title": title, "sector": "private", "track": "private", "locations": locs, "payLakh": sal[0] if sal else None, "eligibility": raw.get("experienceText") or ""}
     fit, why = score(cand, profile)
-    fit = min(100, fit + 10)  # stated salary clears the private bar
-    why = [w for w in why if not w.startswith("needs")] + ([f"pay {fmt_pay(sal)}"] if f"pay ≥ {profile.get('minPayLakh')} LPA" not in why else [])
+    why = [w for w in why if not w.startswith("needs") and not w.startswith("pay")]
+    if sal:
+        fit = min(100, fit + 10)
+        why.append(f"pay {fmt_pay(sal)}")
+    else:
+        fit = max(0, fit - 10)
+        why.append("pay not listed")
+    if trust == "verified":
+        fit = min(100, fit + 5)
+        why.append("verified employer")
+    else:
+        why.append("employer not in the known list")
     if exp_unknown:
         fit = max(0, fit - 15)
         why.append("experience not stated")
     else:
         why.append("fresher OK")
-    if SOUTH_RX.search(" ".join(locs)):
-        pass
+    if raw.get("verified"):
+        why.append("listing opened and checked")
     return {
         "org": company[:80], "post": title[:140], "title": title, "sector": "private", "track": "private",
         "eligibility": raw.get("experienceText") or ("experience not stated" if exp_unknown else ""),
         "experienceText": "not stated" if exp_unknown else (raw.get("experienceText") or ("fresher" if exp_min == 0 else f"{exp_min:g} yrs")),
-        "experienceMinYears": None if exp_unknown else exp_min, "pay": fmt_pay(sal), "payLakh": lo, "payMinLakh": lo, "payMaxLakh": hi,
+        "experienceMinYears": None if exp_unknown else exp_min,
+        "pay": fmt_pay(sal), "payLakh": sal[0] if sal else None, "payMinLakh": sal[0] if sal else None, "payMaxLakh": sal[1] if sal else None, "payStated": bool(sal),
+        "trust": trust, "website": raw.get("website"), "checked": bool(raw.get("verified")),
         "locations": locs, "link": raw.get("url"), "source": raw.get("source"), "sourceType": "portal",
         "fit": fit, "fitWhy": why, "status": "open", "postedAt": raw.get("postedAt"), "applyCloses": raw.get("applyCloses"),
         "examDate": None, "examDateType": "tba", "curated": False, "kind": "portal",
+        "summary": re.sub(r"\s+", " ", desc)[:280] if desc else None,
     }, "ok"
 
 
@@ -498,10 +638,11 @@ def main(argv: list[str]) -> int:
     for d in opp.get("portal", []):
         if (d.get("firstSeen") or "")[:10] < keep_after:
             continue
-        re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source")}, profile)
+        re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": None if d.get("experienceText") == "not stated" else d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source"), "description": d.get("summary") or "", "verified": d.get("checked")}, profile)
         if not re_item:
             continue
-        d["org"], d["locations"] = re_item["org"], re_item["locations"]
+        for k in ("org", "locations", "trust", "fit", "fitWhy", "payStated"):
+            d[k] = re_item[k]
         existing[d["id"]] = d
     baseline = not opp.get("portal")
     seen = {dedupe_key(d["org"], d["post"]) for d in existing.values()}
@@ -510,7 +651,22 @@ def main(argv: list[str]) -> int:
     reasons: dict[str, int] = {}
     samples: dict[str, list[str]] = {}
     new = 0
+    # Stage 1: cheap title checks. Stage 2: open the surviving listings (LinkedIn, Internshala) to read the real requirements.
+    survivors = []
     for raw in raws:
+        reason = prefilter(raw)
+        if reason:
+            reasons[reason] = reasons.get(reason, 0) + 1
+            if len(samples.setdefault(reason, [])) < 6:
+                samples[reason].append(f"{raw.get('source', '?')}: {(raw.get('title') or '')[:48]} @ {(raw.get('company') or '')[:22]}")
+        else:
+            survivors.append(raw)
+    to_check = [r for r in survivors if r.get("source") in ("LinkedIn", "Internshala") and r.get("url")][:260]
+    if to_check and not fixture:
+        with ThreadPoolExecutor(max_workers=6) as pool:
+            list(pool.map(verify, to_check))
+        print(f"opened {sum(1 for r in to_check if r.get('verified'))}/{len(to_check)} listings to check requirements")
+    for raw in survivors:
         item, reason = qualify(raw, profile)
         key = "pay below bar" if reason.startswith("pay ") else reason
         reasons[key] = reasons.get(key, 0) + 1

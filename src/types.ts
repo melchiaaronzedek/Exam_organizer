@@ -217,6 +217,11 @@ export interface Opportunity {
   experienceMinYears?: number | null
   postedAt?: string | null
   lastSeen?: string
+  trust?: 'verified' | 'unverified'
+  payStated?: boolean
+  checked?: boolean
+  website?: string | null
+  summary?: string | null
   fit?: number
   fitWhy?: string[]
   status: OppStatus
