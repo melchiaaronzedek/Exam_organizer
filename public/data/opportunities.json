@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T01:18:20+05:30",
+  "discoveredAt": "2026-10-15T03:21:50+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4677,7 +4677,7 @@
       "summary": "<p><strong>Wipro is hiring for the role of Management Trainee!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <p>1. Accounting &amp; Finance Support</p> <ul> <li> <div> <div> <p>Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T01:18:25+05:30"
+      "lastSeen": "2026-10-15T03:21:53+05:30"
     },
     {
       "org": "Razorpay",
@@ -4722,7 +4722,7 @@
       "summary": "<p><strong>Razorpay is hiring for the role of Junior Analyst!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <ul> <li>Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately.&nbsp;</li> <li>Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T01:18:25+05:30"
+      "lastSeen": "2026-10-15T03:21:53+05:30"
     },
     {
       "org": "Marriott International",
@@ -4766,7 +4766,7 @@
       "summary": "<p><strong>Marriott International is hiring for the role of Sales &amp; Marketing Voyage Program 2027!</strong></p> <p><strong>Responsibilities of the Candidate:</strong></p> <ul> <li>Cultivate customer relationships</li> <li>Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T01:18:25+05:30"
+      "lastSeen": "2026-10-15T03:21:53+05:30"
     },
     {
       "org": "nuvama group",
@@ -4811,28 +4811,52 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-15T01:12:36+05:30",
+      "lastSeen": "2026-10-15T03:21:53+05:30",
       "trustWhy": "nuvama"
     }
   ],
-  "portalAt": "2026-10-15T01:18:25+05:30",
+  "portalAt": "2026-10-15T03:21:53+05:30",
   "portalBaseline": false,
   "portalStatus": [
+    {
+      "name": "Indeed",
+      "ok": false,
+      "fetched": 0,
+      "errors": 3,
+      "error": "blocked (cloudflare: just a moment)",
+      "state": "blocked",
+      "reason": "cloudflare: just a momen",
+      "scanned": 0
+    },
+    {
+      "name": "Glassdoor",
+      "ok": false,
+      "fetched": 0,
+      "errors": 2,
+      "error": "blocked (cloudflare: just a moment)",
+      "state": "blocked",
+      "reason": "cloudflare: just a momen",
+      "scanned": 0
+    },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 10,
+      "errors": 8,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
+      "state": "blocked",
+      "reason": "recaptcha",
       "scanned": 0
     },
     {
       "name": "Foundit",
-      "ok": false,
-      "fetched": 0,
-      "errors": 10,
-      "error": "403 Client Error: Forbidden for url: https://www.foundit.in/middleware/jobsearch?sort=1&limit=40&query=growth%20associat",
-      "scanned": 0
+      "ok": true,
+      "fetched": 359,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 359
     },
     {
       "name": "Unstop",
@@ -4840,6 +4864,8 @@
       "fetched": 337,
       "errors": 0,
       "error": null,
+      "state": "ok",
+      "reason": null,
       "scanned": 337
     },
     {
@@ -4848,6 +4874,8 @@
       "fetched": 100,
       "errors": 0,
       "error": null,
+      "state": "ok",
+      "reason": null,
       "scanned": 100
     },
     {
@@ -4856,7 +4884,69 @@
       "fetched": 423,
       "errors": 0,
       "error": null,
+      "state": "ok",
+      "reason": null,
       "scanned": 423
+    },
+    {
+      "name": "iimjobs",
+      "ok": false,
+      "fetched": 0,
+      "errors": 6,
+      "error": "parse (0 cards in 203799 chars)",
+      "state": "error",
+      "reason": "parse",
+      "scanned": 0
+    },
+    {
+      "name": "TimesJobs",
+      "ok": false,
+      "fetched": 0,
+      "errors": 10,
+      "error": "HTTPSConnectionPool(host='www.timesjobs.com', port=443): Max retries exceeded with url: /candidate/job-search.html?searc",
+      "state": "error",
+      "reason": "HTTPSConnectionPool(host",
+      "scanned": 0
+    },
+    {
+      "name": "Shine",
+      "ok": false,
+      "fetched": 0,
+      "errors": 6,
+      "error": "parse (0 cards in 256686 chars)",
+      "state": "error",
+      "reason": "parse",
+      "scanned": 0
+    },
+    {
+      "name": "Freshersworld",
+      "ok": false,
+      "fetched": 0,
+      "errors": 6,
+      "error": "403 Client Error: Forbidden for url: https://www.freshersworld.com/jobs/jobsearch/leadership-program-mba-jobs",
+      "state": "error",
+      "reason": "http 403",
+      "scanned": 0
+    },
+    {
+      "name": "Adzuna",
+      "ok": false,
+      "fetched": 0,
+      "errors": 0,
+      "error": "no key (ADZUNA_APP_ID / ADZUNA_APP_KEY)",
+      "state": "off",
+      "reason": "no key",
+      "scanned": 0
+    },
+    {
+      "name": "Jooble",
+      "ok": false,
+      "fetched": 0,
+      "errors": 0,
+      "error": "no key (JOOBLE_API_KEY)",
+      "state": "off",
+      "reason": "no key",
+      "scanned": 0
     }
   ]
 }
