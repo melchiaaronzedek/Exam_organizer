@@ -716,6 +716,7 @@ def _api_hints(html: str, base: str, host_word: str) -> list[str]:
     return sorted(hints)[:40]
 
 
+IIMJOBS_ROLE_WORD_RX = re.compile(r"\b(?:manager|trainee|analyst|associate|executive|lead|head|officer|specialist|consultant|intern|director|partner|engineer|role|program|marketing|brand|sales|product|research|strategy|growth|category|chief|vp|president|founder|fresher|mba|graduate|management)\b", re.I)
 IIMJOBS_CARD_RX = re.compile(r"^(?P<head>.*?)\s*\(?\s*(?P<lo>\d{1,2})\s*-\s*(?P<hi>\d{1,2})\s*yrs?\s*\)?\s*(?P<tail>.*)$", re.I | re.S)
 
 
@@ -729,8 +730,14 @@ def _iimjobs_card(text: str, href: str, company: str) -> dict:
     posted = re.search(r"posted\s+(\d+)\s*(day|week|month|hour)s?\s*ago", tail or t, re.I)
     days = {"hour": 0, "day": 1, "week": 7, "month": 30}[posted.group(2).lower()] * int(posted.group(1)) if posted else None
     loc = re.sub(r"\d{1,3}(?:\.\d)?\s*-\s*\d{1,3}(?:\.\d)?\s*LPA|posted.*$|\d(?:\.\d)?\s*\d+\+?\s*reviews?", "", tail, flags=re.I).strip(" |·-")
+    title = head.strip(" -|·")
+    if not company:
+        # Disclosed employers lead the heading ("Rebel Foods - General Manager - Brands"); confidential ones start with the role.
+        parts = [x.strip() for x in title.split(" - ") if x.strip()]
+        if len(parts) >= 2 and len(parts[0].split()) <= 4 and not IIMJOBS_ROLE_WORD_RX.search(parts[0]):
+            company, title = parts[0], " - ".join(parts[1:])
     return {
-        "title": head.strip(" -|·"), "company": company, "location": loc[:80],
+        "title": title, "company": company, "location": loc[:80],
         "url": href if href.startswith("http") else "https://www.iimjobs.com" + href,
         "salaryText": sal.group(1) if sal else None, "experienceText": exp,
         "postedAt": (today_ist() - timedelta(days=days)).isoformat() if days is not None else None, "description": t[:600],
@@ -741,7 +748,7 @@ def parse_iimjobs(html: str) -> list[dict]:
     soup = BeautifulSoup(html, "lxml")
     out, seen = [], set()
     for a in soup.select("a[href*='/j/']"):
-        href = a.get("href") or ""
+        href = (a.get("href") or "").split("?")[0]
         if not re.search(IIMJOBS_LINK_PAT, href) or href in seen:
             continue
         t = _text(a)
@@ -754,11 +761,16 @@ def parse_iimjobs(html: str) -> list[dict]:
             if nxt is None or nxt.name in ("body", "html", "ul", "section") or len(_text(nxt)) > 3 * len(t) + 200:
                 break
             card = nxt
-        comp_el = card.select_one("[class*='company'], [class*='comp-name'], [class*='recruiter'], [class*='postedBy'], [class*='posted-by']")
+        comp_el = card.select_one("[data-testid*='company'], [data-testid*='recruiter'], [class*='company'], [class*='comp-name'], [class*='recruiter'], [class*='postedBy'], [class*='posted-by']")
         company = re.sub(r"^\s*(?:posted by|recruiter)\s*:?\s*", "", _text(comp_el), flags=re.I)
         if company and re.search(r"\b(?:yrs?|LPA|posted)\b", company, re.I):
             company = ""
-        out.append(_iimjobs_card(_text(card), href, company))
+        item = _iimjobs_card(_text(card), href, company)
+        heading = card.select_one("[data-testid='job_title'], [class*='joblist__title']")
+        if heading is not None and len(_text(heading)) >= 6:
+            fixed = _iimjobs_card(_text(heading) + " " + re.sub(re.escape(_text(heading)), " ", _text(card), count=1), href, company)
+            item.update({k: fixed[k] for k in ("title", "company") if fixed.get(k)})
+        out.append(item)
     if out:
         return out
     items = _embedded_jobs(html, "https://www.iimjobs.com")
@@ -772,7 +784,7 @@ def parse_iimjobs(html: str) -> list[dict]:
 
 
 GOOGLEBOT_UA = "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
-IIMJOBS_LINK_PAT = r"/j/[a-z0-9-]+-\d+\.html"
+IIMJOBS_LINK_PAT = r"/j/[a-z0-9-]+-\d{4,}(?:\.html)?(?=[?#\"'\s]|$)"
 IIMJOBS_TAG_RX = re.compile(r"\b(?:marketing|brand|market research|product|analytics|consult|strateg|general management|management trainee|leadership|campus|fresher|corporate development)", re.I)
 IIMJOBS_TAG_SKIP_RX = re.compile(r"\b(?:sales|head|director|vp|cxo|senior|engineering|it\b|tech|software)", re.I)
 _IIMJOBS_TAGS: dict[str, list[str]] = {}
@@ -825,29 +837,13 @@ def iimjobs(q: str) -> list[dict]:
         print(f"[info] iimjobs: tag pages that fit: {_IIMJOBS_TAGS['tags'][:30]}")
         a = BeautifulSoup(r.text, "lxml").select_one("a[href*='/j/']")
         if a is not None:
-            card = a
-            for _ in range(3):
-                if card.parent is None or len(str(card)) > 1800:
-                    break
-                card = card.parent
-            print(f"[sample] iimjobs first card html: {re.sub(r'\\s+', ' ', str(card))[:1600]!r}")
+            card = a.parent if a.parent is not None and a.parent.name not in ("body", "html") else a
+            ids = [t.get("data-testid") for t in card.select("[data-testid]")]
+            print(f"[sample] iimjobs first card: ids={ids[:20]} text={_text(card)[:400]!r}")
+            print(f"[sample] iimjobs first card parsed: {items[0] if items else None}")
     if not items and len(r.text) > 20000:
         _zero_sample("iimjobs", r.text, url, IIMJOBS_LINK_PAT)
         raise RuntimeError(f"parse (0 cards in {len(r.text)} chars)")
-    # Sibling tag pages from the nav that match the candidate's field, beyond the configured queries.
-    extra = [t for t in _IIMJOBS_TAGS.get("tags", []) if _slug(t) != _slug(q)]
-    if q == IIMJOBS_SEED and extra:
-        seen = {it["url"] for it in items}
-        for tag in extra[:5]:
-            try:
-                rt = get(f"https://www.iimjobs.com/k/{_slug(tag)}-jobs", headers={"User-Agent": GOOGLEBOT_UA}, attempts=1)
-            except Exception as e:  # noqa: BLE001
-                print(f"[info] iimjobs tag {tag!r}: {str(e)[:80]}")
-                continue
-            got = [it for it in parse_iimjobs(rt.text) if it["url"] not in seen]
-            seen.update(it["url"] for it in got)
-            items += got
-            print(f"[info] iimjobs tag {tag!r}: {len(got)} listings")
     return items
 
 
@@ -1502,7 +1498,8 @@ PORTALS: list[Portal] = [
     Portal("Unstop", unstop),
     Portal("LinkedIn", linkedin, detail=linkedin_detail),
     Portal("Internshala", internshala, detail=internshala_detail),
-    Portal("iimjobs", iimjobs, (IIMJOBS_SEED, "marketing", "market research", "management trainee")),
+    # Tag pages that exist on the site (from its category nav); free-text searches have no crawler-rendered page.
+    Portal("iimjobs", iimjobs, (IIMJOBS_SEED, "marketing", "market research", "fmcg marketing", "analytics", "consulting general mgmt")),
     Portal("TimesJobs", timesjobs, detail=timesjobs_detail, needs_detail=_missing_fields),
     Portal("Shine", shine, CORE_QUERIES, detail=shine_detail, needs_detail=_missing_fields),
     Portal("Freshersworld", freshersworld, CORE_QUERIES, detail=freshersworld_detail, needs_detail=_missing_fields),
