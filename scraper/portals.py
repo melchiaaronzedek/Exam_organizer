@@ -56,6 +56,8 @@ EXCLUDE_RX = re.compile(
     r"telecall|bpo|voice process|delivery|driver|technician|intern(?:ship)?|freelance|part[- ]time|work from home|wfh)\b",
     re.I,
 )
+SENIOR_RX = re.compile(r"\b(senior|sr\.?|head of|head\b|lead\b|director|vp\b|vice president|principal|chief|avp|agm|dgm|gm\b)\b", re.I)
+SALES_SPAM_RX = re.compile(r"\b(business development|bde|bda|inside sales|field sales|tele ?sales|tele ?call|cold call|door to door|insurance (?:agent|advisor)|recruiter|talent acquisition|hr executive|collection|loan officer|dsa\b|channel partner)\b", re.I)
 SOUTH_RX = re.compile(r"\b(chennai|hyderabad|bengaluru|bangalore|visakhapatnam|vizag|vijayawada|tirupati|coimbatore|kochi|mysuru|mysore|madurai|andhra|telangana|tamil nadu|karnataka|kerala|pan india|all india|remote|anywhere)\b", re.I)
 
 
@@ -145,6 +147,26 @@ def ms_to_iso(ms) -> str | None:
         return None
 
 
+def num(v) -> float | None:
+    """A number out of a scalar or a small dict like {"amount": 1200000} / {"min": 10, "max": 12}."""
+    if isinstance(v, bool):
+        return None
+    if isinstance(v, (int, float)):
+        return float(v)
+    if isinstance(v, str):
+        m = re.search(r"\d[\d,]*(?:\.\d+)?", v)
+        return float(m.group(0).replace(",", "")) if m else None
+    if isinstance(v, dict):
+        for k in ("amount", "value", "min", "minimum", "from", "max", "maximum", "to"):
+            if k in v:
+                return num(v[k])
+        for x in v.values():
+            r = num(x)
+            if r is not None:
+                return r
+    return None
+
+
 def find_key(obj, *names, depth: int = 4):
     """Depth-limited search for the first key whose lowercase name contains any of `names`."""
     if depth < 0 or not isinstance(obj, (dict, list)):
@@ -168,7 +190,20 @@ def find_key(obj, *names, depth: int = 4):
 # ───────────────────────── portals ─────────────────────────
 def naukri(q: str) -> list[dict]:
     url = f"https://www.naukri.com/jobapi/v3/search?noOfResults=40&urlType=search_by_keyword&searchType=adv&keyword={requests.utils.quote(q)}&experience=0&k={requests.utils.quote(q)}&src=jobsearchDesk&latLong="
-    data = get(url, {"appid": "109", "systemid": "Naukri", "gid": "LOCATION,INDUSTRY,EDUCATION,FAREA_ROLE", "Referer": "https://www.naukri.com/"}).json()
+    variants = [
+        {"appid": "109", "systemid": "Naukri", "Accept": "application/json", "gid": "LOCATION,INDUSTRY,EDUCATION,FAREA_ROLE", "Referer": "https://www.naukri.com/", "Content-Type": "application/json"},
+        {"appid": "109", "systemid": "109", "Accept": "application/json", "Referer": "https://www.naukri.com/"},
+    ]
+    data = None
+    last = None
+    for h in variants:
+        try:
+            data = get(url, h, attempts=1).json()
+            break
+        except Exception as e:  # noqa: BLE001
+            last = e
+    if data is None:
+        raise last or RuntimeError("naukri failed")
     out = []
     for j in data.get("jobDetails", []) or []:
         ph = {p.get("type"): p.get("label") for p in j.get("placeholders", []) or []}
@@ -186,15 +221,25 @@ def foundit(q: str) -> list[dict]:
     url = f"https://www.foundit.in/middleware/jobsearch?sort=1&limit=40&query={requests.utils.quote(q)}&experienceRanges=0~1&start=0"
     data = get(url, {"Referer": "https://www.foundit.in/"}).json()
     jobs = (data.get("jobSearchResponse") or {}).get("data") or data.get("data") or []
+    if not isinstance(jobs, list):
+        jobs = []
     out = []
     for j in jobs:
-        lo, hi = j.get("minimumSalary"), j.get("maximumSalary")
-        sal = f"{lo} - {hi} per annum" if lo and hi and float(hi) > 0 else None
-        elo, ehi = j.get("minimumExperience"), j.get("maximumExperience")
-        exp = f"{elo}-{ehi} years" if elo is not None else None
+        lo, hi = num(j.get("minimumSalary")), num(j.get("maximumSalary"))
+        if (lo is None or hi is None) and isinstance(j.get("salary"), (dict, str)):
+            lo, hi = num(find_key(j.get("salary"), "min", "from") if isinstance(j.get("salary"), dict) else j.get("salary")), num(find_key(j.get("salary"), "max", "to") if isinstance(j.get("salary"), dict) else j.get("salary"))
+        sal = f"{lo:.0f} - {hi:.0f} per annum" if lo and hi and hi > 0 else None
+        elo, ehi = num(j.get("minimumExperience")), num(j.get("maximumExperience"))
+        exp = f"{elo:g}-{ehi:g} years" if elo is not None and ehi is not None else (f"{elo:g} years" if elo is not None else None)
         link = j.get("seoJdUrl") or j.get("jdUrl") or ""
+        locs = j.get("locations")
+        if isinstance(locs, list):
+            locs = ", ".join(str(x.get("name", x)) if isinstance(x, dict) else str(x) for x in locs[:5])
+        comp = j.get("companyName")
+        if isinstance(comp, dict):
+            comp = comp.get("name") or ""
         out.append({
-            "title": j.get("title") or "", "company": j.get("companyName") or "", "location": j.get("locations") or ", ".join(j.get("locationsList") or []),
+            "title": j.get("title") or "", "company": comp or "", "location": locs or ", ".join(j.get("locationsList") or []),
             "url": link if link.startswith("http") else "https://www.foundit.in" + link,
             "salaryText": sal, "experienceText": exp, "postedAt": (j.get("createdAt") or j.get("postedAt") or "")[:10] or None,
             "description": (j.get("description") or "")[:600],
@@ -269,18 +314,32 @@ def internshala(q: str) -> list[dict]:
     return out
 
 
+def _sample_url(name: str, q: str) -> str:
+    q = requests.utils.quote(q)
+    return {
+        "Foundit": f"https://www.foundit.in/middleware/jobsearch?sort=1&limit=2&query={q}&experienceRanges=0~1&start=0",
+        "Unstop": f"https://unstop.com/api/public/opportunity/search-result?opportunity=jobs&per_page=2&oppstatus=open&searchTerm={q}",
+        "Naukri": f"https://www.naukri.com/jobapi/v3/search?noOfResults=2&urlType=search_by_keyword&searchType=adv&keyword={q}&experience=0",
+    }.get(name, "about:blank")
+
+
 PORTALS = [("Naukri", naukri), ("Foundit", foundit), ("Unstop", unstop), ("LinkedIn", linkedin), ("Internshala", internshala)]
 
 
 # ───────────────────────── pipeline ─────────────────────────
 def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
-    title = (raw.get("title") or "").strip()
-    company = (raw.get("company") or "").strip()
+    title = re.sub(r"\s+", " ", (raw.get("title") or "")).strip(" -|·")
+    company = re.sub(r"\s*(actively hiring|hiring now|urgent(ly)? hiring).*$", "", (raw.get("company") or ""), flags=re.I)
+    company = re.sub(r"\s+[A-Z]$", "", re.sub(r"\s+", " ", company)).strip(" -|·,")
     if not title or not company:
         return None, "incomplete"
     hay = f"{title} {raw.get('description', '')}"
     if EXCLUDE_RX.search(title):
         return None, "excluded role"
+    if SENIOR_RX.search(title):
+        return None, "senior title"
+    if SALES_SPAM_RX.search(title) and not re.search(r"\b(trainee|program|programme|management|leadership|graduate)\b", title, re.I):
+        return None, "sales / BD spam"
     if not ROLE_RX.search(title):
         return None, "role mismatch"
     exp_min = parse_experience(raw.get("experienceText"))
@@ -344,7 +403,15 @@ def fetch_all(fixture: str | None) -> tuple[list[dict], list[dict]]:
                 it["source"] = name
             return name, q, items, None
         except Exception as e:  # noqa: BLE001
-            return name, q, [], str(e)[:120]
+            err = str(e)[:120]
+            # Log a sample of the payload once so the next edit can be based on the real shape.
+            try:
+                if "float()" in err or "NoneType" in err or "dict" in err or "KeyError" in err:
+                    r = get(_sample_url(name, q), {"Accept": "application/json"}, attempts=1)
+                    print(f"[sample] {name}: {r.text[:700]!r}")
+            except Exception:  # noqa: BLE001
+                pass
+            return name, q, [], err
 
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = list(pool.map(run, jobs))
