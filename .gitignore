@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.*
+# Personal documents stay local; only the README is tracked
+documents/*
+!documents/README.md
+__pycache__/
+*.pyc

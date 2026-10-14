@@ -1,0 +1,24 @@
+{
+  "sources": [
+    { "examId": "ssc-cgl-2026", "name": "SSC notice board", "type": "html", "url": "https://ssc.gov.in/home/notice-board", "keywords": ["CGL", "Combined Graduate Level", "Tier"] },
+    { "examId": "ssc-cgl-2026", "name": "SSC news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=%22SSC+CGL%22+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "iocl-marketing-officer-2026", "name": "IOCL latest job openings", "type": "html", "url": "https://iocl.com/latest-job-opening", "keywords": ["Executive", "Officer", "RECTT/2026", "result", "GD", "interview"] },
+    { "examId": "iocl-marketing-officer-2026", "name": "IOCL news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=IOCL+recruitment+executives+2026+result&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "concor-mt-2026", "name": "CONCOR careers", "type": "html", "url": "https://concorindia.co.in/careers.asp", "keywords": ["Management Trainee", "05/2026", "Assistant Officer", "admit", "CBT"] },
+    { "examId": "concor-mt-2026", "name": "CONCOR news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=CONCOR+management+trainee+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "uiic-ao-2026", "name": "UIIC recruitment", "type": "html", "url": "https://uiic.co.in/en/recruitment", "keywords": ["Administrative Officer", "AO", "Scale I", "admit", "call letter", "result"] },
+    { "examId": "uiic-ao-2026", "name": "UIIC news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=UIIC+AO+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "pfrda-grade-a-2026", "name": "PFRDA careers", "type": "html", "url": "https://www.pfrda.org.in/index1.cshtml?lsid=1255", "keywords": ["Grade A", "Assistant Manager", "Phase", "admit", "result"] },
+    { "examId": "pfrda-grade-a-2026", "name": "PFRDA news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=PFRDA+grade+A+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "aai-je-2026", "name": "AAI recruitment", "type": "html", "url": "https://www.aai.aero/en/careers/recruitment", "keywords": ["Junior Executive", "12/2026", "CBT", "admit", "result"] },
+    { "examId": "aai-je-2026", "name": "AAI news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=AAI+junior+executive+2026+admit+card&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "upsc-epfo-apfc-2026", "name": "UPSC what's new", "type": "html", "url": "https://upsc.gov.in/whats-new", "keywords": ["EPFO", "Provident Fund", "APFC", "Recruitment Test"] },
+    { "examId": "upsc-epfo-apfc-2026", "name": "UPSC EPFO news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=UPSC+EPFO+APFC+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "nicl-ao-2026", "name": "NICL recruitment", "type": "html", "url": "https://nationalinsurance.nic.co.in/en/recruitment", "keywords": ["Administrative Officer", "AO", "2026", "corrigendum", "admit"] },
+    { "examId": "nicl-ao-2026", "name": "NICL news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=NICL+AO+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "pci-aso-2026", "name": "Press Council openings", "type": "html", "url": "https://presscouncil.nic.in/Content/Openings.aspx", "keywords": ["Assistant Section Officer", "ASO", "recruitment", "vacancy"] },
+    { "examId": "pci-aso-2026", "name": "PCI news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=%22Press+Council+of+India%22+recruitment+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] },
+    { "examId": "appsc-group1-2026", "name": "APPSC notifications", "type": "html", "url": "https://psc.ap.gov.in/Notifications", "keywords": ["Group-I", "Group 1", "07/2026", "Screening", "hall ticket"] },
+    { "examId": "appsc-group1-2026", "name": "APPSC news (Google News)", "type": "rss", "url": "https://news.google.com/rss/search?q=APPSC+Group+1+2026&hl=en-IN&gl=IN&ceid=IN:en", "keywords": [] }
+  ]
+}

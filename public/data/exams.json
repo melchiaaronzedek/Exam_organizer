@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-10-14",
+  "candidateRegion": "South (Chennai / Andhra Pradesh)",
+  "exams": [
+    {
+      "id": "ssc-cgl-2026",
+      "org": "Staff Selection Commission",
+      "short": "SSC CGL",
+      "title": "Combined Graduate Level Examination 2026",
+      "post": "Group B / C posts (Tier-wise selection)",
+      "advt": "CGLE 2026",
+      "status": "written",
+      "officialUrl": "https://ssc.gov.in",
+      "notificationUrl": "https://ssc.gov.in/home/notice-board",
+      "applyUrl": "https://ssc.gov.in",
+      "application": { "mode": "online", "applied": true, "note": "Application submitted; Tier 1 admit card received." },
+      "phases": [
+        { "id": "tier1", "name": "Tier 1 (CBE)", "kind": "exam", "date": "2026-10-10", "dateType": "confirmed", "timeNote": "Shift I · 10:00–11:00 AM, reporting 8:30 AM", "status": "done",
+          "centre": { "preferences": ["Chennai", "Tirupati", "Visakhapatnam"], "allotted": "Chennai" },
+          "note": "Tier 1 window for all candidates: 30 Sep – 30 Oct 2026." },
+        { "id": "tier1-key", "name": "Tier 1 answer key & challenge", "kind": "result", "dateType": "tba", "status": "tba", "note": "Usually ~1 week after the last Tier 1 date (30 Oct)." },
+        { "id": "tier1-result", "name": "Tier 1 result", "kind": "result", "dateType": "tba", "status": "tba", "note": "Expected Nov–Dec 2026." },
+        { "id": "tier2", "name": "Tier 2 (CBE)", "kind": "exam", "date": "2026-12-15", "dateType": "tentative", "status": "upcoming", "note": "SSC calendar says December 2026 (tentative). Exact dates after Tier 1 result.",
+          "centre": { "preferences": ["Chennai", "Tirupati", "Visakhapatnam"], "allotted": null } },
+        { "id": "dv", "name": "Document verification / skill test", "kind": "other", "dateType": "tba", "status": "tba" }
+      ],
+      "notes": ["Keep the Tier 1 e-Admission Certificate safe; SSC asks for it again at later stages."]
+    },
+    {
+      "id": "iocl-marketing-officer-2026",
+      "org": "Indian Oil Corporation Ltd",
+      "short": "IOCL Officer",
+      "title": "Recruitment of Executives 2026 – Officer Grade A (MBA – Marketing)",
+      "post": "Officer / Engineer Grade A · Discipline: MBA (Marketing)",
+      "advt": "IOCL/CO-HR/RECTT/2026/01",
+      "status": "written",
+      "officialUrl": "https://iocl.com/latest-job-opening",
+      "notificationUrl": "https://iocl.com/latest-job-opening",
+      "application": { "opens": "2026-08-14", "closes": "2026-09-03", "mode": "online", "applied": true },
+      "phases": [
+        { "id": "cbt", "name": "Computer Based Test", "kind": "exam", "date": "2026-09-24", "dateType": "confirmed", "status": "done",
+          "centre": { "preferences": ["Chennai", "Visakhapatnam", "Hyderabad"], "allotted": null }, "note": "100 Qs · 150 min · CBT weight 85%." },
+        { "id": "cbt-result", "name": "CBT result / GD-GT shortlist", "kind": "result", "dateType": "tba", "status": "tba", "note": "Shortlist by CBT marks in descending order." },
+        { "id": "gdgt", "name": "Group Discussion & Group Task", "kind": "interview", "dateType": "tba", "status": "tba", "note": "Weight 5%, min 40%." },
+        { "id": "pi", "name": "Personal Interview", "kind": "interview", "dateType": "tba", "status": "tba", "note": "Weight 10%, min 40%." }
+      ]
+    },
+    {
+      "id": "concor-mt-2026",
+      "org": "Container Corporation of India",
+      "short": "CONCOR MT",
+      "title": "Management Trainee (Commercial & Operations) 2026",
+      "post": "Management Trainee · MT/CO",
+      "advt": "Employment Notification No. 05/2026",
+      "status": "applied",
+      "officialUrl": "https://concorindia.co.in",
+      "notificationUrl": "https://concorindia.co.in/careers.asp",
+      "application": { "opens": "2026-08-31", "closes": "2026-09-30", "mode": "online", "applied": true },
+      "phases": [
+        { "id": "cbt", "name": "Computer Based Test", "kind": "exam", "dateType": "tba", "status": "tba", "note": "Date to be notified on concorindia.co.in.",
+          "centre": { "preferences": ["Chennai", "Hyderabad", "Bengaluru"], "allotted": null } },
+        { "id": "admit", "name": "Admit card", "kind": "admit-card", "dateType": "tba", "status": "tba" },
+        { "id": "gd-pi", "name": "GD / Interview", "kind": "interview", "dateType": "tba", "status": "tba" },
+        { "id": "dv", "name": "Document verification & medical", "kind": "other", "dateType": "tba", "status": "tba" }
+      ],
+      "notes": ["77 vacancies total: 45 MT, 32 Assistant Officer."]
+    },
+    {
+      "id": "uiic-ao-2026",
+      "org": "United India Insurance Co. Ltd",
+      "short": "UIIC AO",
+      "title": "Administrative Officer (Scale I) – Generalist 2026",
+      "post": "Administrative Officer Scale I · Generalist",
+      "advt": "Notification dated 07 Sep 2026 · 225 posts",
+      "status": "applied",
+      "officialUrl": "https://uiic.co.in",
+      "notificationUrl": "https://uiic.co.in/en/recruitment",
+      "application": { "opens": "2026-09-08", "closes": "2026-09-28", "mode": "online", "applied": true },
+      "phases": [
+        { "id": "prelims-admit", "name": "Prelims admit card", "kind": "admit-card", "dateType": "tba", "status": "tba", "note": "Usually ~7–10 days before prelims." },
+        { "id": "prelims", "name": "Phase I – Preliminary exam", "kind": "exam", "date": "2026-10-22", "dateType": "tentative", "status": "upcoming",
+          "centre": { "preferences": ["Chennai", "Visakhapatnam", "Tirupati"], "allotted": null } },
+        { "id": "mains", "name": "Phase II – Main exam (+ descriptive)", "kind": "exam", "date": "2026-11-30", "dateType": "tentative", "status": "upcoming",
+          "centre": { "preferences": ["Visakhapatnam", "Kakinada", "Rajahmundry"], "allotted": null } },
+        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
+      ],
+      "notes": ["Posting preferences given: Andhra Pradesh, Telangana, Karnataka."]
+    },
+    {
+      "id": "pfrda-grade-a-2026",
+      "org": "Pension Fund Regulatory & Development Authority",
+      "short": "PFRDA Grade A",
+      "title": "Officer Grade A (Assistant Manager) 2026 – General stream",
+      "post": "Assistant Manager · General",
+      "advt": "Advt. No. 03/2026 · 30 posts",
+      "status": "applied",
+      "officialUrl": "https://www.pfrda.org.in",
+      "notificationUrl": "https://www.pfrda.org.in/index1.cshtml?lsid=1255",
+      "application": { "opens": "2026-09-03", "closes": "2026-09-24", "mode": "online", "applied": true },
+      "phases": [
+        { "id": "p1-admit", "name": "Phase I admit card", "kind": "admit-card", "date": "2026-10-08", "dateType": "confirmed", "status": "done" },
+        { "id": "phase1", "name": "Phase I – Online exam", "kind": "exam", "date": "2026-10-15", "dateType": "confirmed", "status": "upcoming",
+          "centre": { "preferences": ["Chennai", "Visakhapatnam", "Hyderabad"], "allotted": null }, "note": "Check the admit card for the allotted venue." },
+        { "id": "phase2", "name": "Phase II – Online exam", "kind": "exam", "date": "2026-11-20", "dateType": "confirmed", "status": "upcoming",
+          "centre": { "preferences": ["Chennai"], "allotted": null } },
+        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
+      ]
+    },
+    {
+      "id": "aai-je-2026",
+      "org": "Airports Authority of India",
+      "short": "AAI JE",
+      "title": "Junior Executive (Operations) 2026",
+      "post": "Junior Executive · Operations · Post code 14",
+      "advt": "Advt. No. 12/2026/CHQ/DR-CBT",
+      "status": "applied",
+      "officialUrl": "https://www.aai.aero/en/careers/recruitment",
+      "notificationUrl": "https://www.aai.aero/en/careers/recruitment",
+      "application": { "opens": "2026-08-08", "closes": "2026-09-07", "mode": "online", "applied": true },
+      "phases": [
+        { "id": "admit", "name": "CBT admit card", "kind": "admit-card", "dateType": "tba", "status": "tba", "note": "Usually 10–15 days before the CBT." },
+        { "id": "cbt", "name": "Computer Based Test", "kind": "exam", "date": "2026-10-26", "dateType": "tentative", "status": "upcoming",
+          "centre": { "preferences": ["Chennai", "Tirupati", "Visakhapatnam"], "allotted": null },
+          "note": "AAI announced CBTs on 21 & 26 Oct 2026 depending on post/discipline; Junior Executive posts reported for 26 Oct. Confirm on admit card." },
+        { "id": "dv", "name": "Document verification / medical", "kind": "other", "dateType": "tba", "status": "tba" }
+      ]
+    },
+    {
+      "id": "upsc-epfo-apfc-2026",
+      "org": "UPSC · EPFO",
+      "short": "UPSC APFC",
+      "title": "Assistant Provident Fund Commissioner (EPFO) 2026",
+      "post": "Assistant Provident Fund Commissioner · 80 posts",
+      "advt": "UPSC notification 21 Aug 2026",
+      "status": "applied",
+      "officialUrl": "https://upsc.gov.in",
+      "notificationUrl": "https://upsc.gov.in/examinations/active-examinations",
+      "application": { "opens": "2026-08-22", "closes": "2026-09-11", "mode": "online", "applied": true },
+      "phases": [
+        { "id": "admit", "name": "e-Admit card", "kind": "admit-card", "dateType": "tba", "status": "tba", "note": "UPSC releases ~3 weeks before the test." },
+        { "id": "rt", "name": "Recruitment Test (objective)", "kind": "exam", "date": "2026-12-20", "dateType": "tentative", "status": "upcoming",
+          "centre": { "preferences": ["Chennai"], "allotted": null } },
+        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba", "note": "Expected Oct–Nov 2027." }
+      ],
+      "notes": ["Syllabus change: 'Labour Laws' replaced by 'Labour Codes'."]
+    },
+    {
+      "id": "nicl-ao-2026",
+      "org": "National Insurance Co. Ltd",
+      "short": "NICL AO",
+      "title": "Administrative Officer (Scale I) 2026",
+      "post": "Administrative Officer · Generalist / Specialist · 321 posts",
+      "advt": "Notification 07 Oct 2026",
+      "status": "to-apply",
+      "officialUrl": "https://nationalinsurance.nic.co.in",
+      "notificationUrl": "https://nationalinsurance.nic.co.in/en/recruitment",
+      "applyUrl": "https://nationalinsurance.nic.co.in/en/recruitment",
+      "application": { "opens": "2026-10-08", "closes": "2026-10-28", "mode": "online", "applied": false },
+      "phases": [
+        { "id": "apply", "name": "Application window", "kind": "application", "date": "2026-10-08", "dateEnd": "2026-10-28", "dateType": "confirmed", "status": "upcoming" },
+        { "id": "prelims", "name": "Phase I – Prelims", "kind": "exam", "date": "2026-11-17", "dateType": "tentative", "status": "upcoming", "centre": { "preferences": [], "allotted": null } },
+        { "id": "mains", "name": "Phase II – Mains", "kind": "exam", "date": "2026-12-22", "dateType": "tentative", "status": "upcoming", "centre": { "preferences": [], "allotted": null } },
+        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
+      ],
+      "notes": ["Age 21–30. Fill centre preferences when applying and record them here."]
+    },
+    {
+      "id": "pci-aso-2026",
+      "org": "Press Council of India",
+      "short": "PCI ASO",
+      "title": "Assistant Section Officer 2026 (offline application)",
+      "post": "Assistant Section Officer · 3 posts (UR-2, OBC-1)",
+      "advt": "Notification dated 26 Sep 2026 (Employment News 26 Sep – 2 Oct)",
+      "status": "to-apply",
+      "officialUrl": "https://presscouncil.nic.in",
+      "notificationUrl": "https://presscouncil.nic.in/Content/Openings.aspx",
+      "application": { "closes": "2026-10-26", "mode": "offline", "applied": false, "note": "Paper form must REACH the PCI office by the last date — post it at least a week early." },
+      "phases": [
+        { "id": "apply", "name": "Offline application deadline", "kind": "application", "date": "2026-10-26", "dateType": "confirmed", "status": "upcoming" },
+        { "id": "test", "name": "Written test / skill test", "kind": "exam", "dateType": "tba", "status": "tba", "centre": { "preferences": ["New Delhi"], "allotted": null } },
+        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
+      ]
+    },
+    {
+      "id": "appsc-group1-2026",
+      "org": "Andhra Pradesh Public Service Commission",
+      "short": "APPSC Group 1",
+      "title": "Group 1 Services 2026",
+      "post": "Group 1 · 163 posts",
+      "advt": "Advt. No. 07/2026 (released 15 Sep 2026)",
+      "status": "to-apply",
+      "officialUrl": "https://psc.ap.gov.in",
+      "notificationUrl": "https://psc.ap.gov.in/Notifications",
+      "applyUrl": "https://psc.ap.gov.in",
+      "application": { "opens": "2026-10-06", "closes": "2026-10-27", "mode": "online", "applied": false, "note": "Needs OTPR (One Time Profile Registration) on psc.ap.gov.in first." },
+      "phases": [
+        { "id": "apply", "name": "Application window", "kind": "application", "date": "2026-10-06", "dateEnd": "2026-10-27", "dateType": "confirmed", "status": "upcoming" },
+        { "id": "prelims", "name": "Preliminary exam (Screening)", "kind": "exam", "dateType": "tba", "status": "tba", "centre": { "preferences": [], "allotted": null } },
+        { "id": "mains", "name": "Main exam", "kind": "exam", "dateType": "tba", "status": "tba", "centre": { "preferences": [], "allotted": null } },
+        { "id": "interview", "name": "Interview", "kind": "interview", "dateType": "tba", "status": "tba" }
+      ]
+    }
+  ]
+}
