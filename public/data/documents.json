@@ -1,5 +1,5 @@
 {
-  "count": 8,
+  "count": 10,
   "documents": [
     {
       "examId": "aai-je-2026",
@@ -8,6 +8,15 @@
       "file": "AAI_Junior_Executive_Operations_application.pdf",
       "url": "documents/aai-je-2026/application__AAI_Junior_Executive_Operations_application.pdf",
       "size": 226725,
+      "ext": "pdf"
+    },
+    {
+      "examId": "aai-je-2026",
+      "type": "hall-ticket",
+      "name": "AAI JE Operations admit card",
+      "file": "AAI_JE_Operations_admit_card.pdf",
+      "url": "documents/aai-je-2026/hall-ticket__AAI_JE_Operations_admit_card.pdf",
+      "size": 119893,
       "ext": "pdf"
     },
     {
@@ -35,6 +44,15 @@
       "file": "PFRDA_Grade_A_application.pdf",
       "url": "documents/pfrda-grade-a-2026/application__PFRDA_Grade_A_application.pdf",
       "size": 230681,
+      "ext": "pdf"
+    },
+    {
+      "examId": "pfrda-grade-a-2026",
+      "type": "hall-ticket",
+      "name": "PFRDA Grade A Phase1 call letter",
+      "file": "PFRDA_Grade_A_Phase1_call_letter.pdf",
+      "url": "documents/pfrda-grade-a-2026/hall-ticket__PFRDA_Grade_A_Phase1_call_letter.pdf",
+      "size": 115378,
       "ext": "pdf"
     },
     {

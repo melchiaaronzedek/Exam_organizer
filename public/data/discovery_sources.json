@@ -1,0 +1,21 @@
+{
+  "sources": [
+    { "name": "News · management trainee MBA", "type": "rss", "track": "marketing", "url": "https://news.google.com/rss/search?q=%22management+trainee%22+recruitment+2026+MBA&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · administrative officer", "type": "rss", "track": "general", "url": "https://news.google.com/rss/search?q=%22administrative+officer%22+recruitment+2026+notification&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · marketing officer PSU", "type": "rss", "track": "marketing", "url": "https://news.google.com/rss/search?q=%22marketing+officer%22+OR+%22marketing+executive%22+recruitment+2026+PSU+OR+bank&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · probationary officer", "type": "rss", "track": "general", "url": "https://news.google.com/rss/search?q=%22probationary+officer%22+2026+notification&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · specialist officer marketing", "type": "rss", "track": "marketing", "url": "https://news.google.com/rss/search?q=%22specialist+officer%22+marketing+2026+bank&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · grade A regulator", "type": "rss", "track": "general", "url": "https://news.google.com/rss/search?q=%22grade+A%22+%22assistant+manager%22+recruitment+2026+SEBI+OR+RBI+OR+NABARD+OR+IRDAI+OR+SIDBI&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · executive trainee MBA PSU", "type": "rss", "track": "marketing", "url": "https://news.google.com/rss/search?q=%22executive+trainee%22+OR+%22management+trainee%22+PSU+2026+HR+OR+marketing+OR+finance&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · NABARD / agriculture officer", "type": "rss", "track": "agri", "url": "https://news.google.com/rss/search?q=NABARD+OR+%22agricultural+field+officer%22+OR+%22agriculture+officer%22+recruitment+2026&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · insurance AO", "type": "rss", "track": "general", "url": "https://news.google.com/rss/search?q=LIC+OR+NIACL+OR+OICL+OR+GIC+OR+ECGC+officer+recruitment+2026&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · APPSC", "type": "rss", "track": "state", "url": "https://news.google.com/rss/search?q=APPSC+notification+2026&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · TSPSC", "type": "rss", "track": "state", "url": "https://news.google.com/rss/search?q=TSPSC+OR+TGPSC+notification+2026&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · TNPSC", "type": "rss", "track": "state", "url": "https://news.google.com/rss/search?q=TNPSC+notification+2026+group&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · KPSC", "type": "rss", "track": "state", "url": "https://news.google.com/rss/search?q=KPSC+notification+2026+KAS+OR+gazetted&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · UPSC / SSC recruitment", "type": "rss", "track": "general", "url": "https://news.google.com/rss/search?q=UPSC+OR+SSC+recruitment+2026+notification+graduate&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "News · NBFC / private MT", "type": "rss", "track": "private", "url": "https://news.google.com/rss/search?q=%22management+trainee%22+2026+hiring+NBFC+OR+bank+OR+%22housing+finance%22&hl=en-IN&gl=IN&ceid=IN:en" },
+    { "name": "FreeJobAlert feed", "type": "rss", "track": "general", "url": "https://www.freejobalert.com/feed/" },
+    { "name": "Employment News (reader)", "type": "html", "track": "general", "url": "https://www.employmentnews.gov.in/newemp/MoreContentNew.aspx?n=Jobs" }
+  ]
+}

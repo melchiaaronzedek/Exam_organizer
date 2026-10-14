@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react'
-import type { CalEvent, Exam, ExamOverride, PhaseOverride, RepoDoc, ScrapeStatusFile, UpdatesFile } from './types'
+import type { CalEvent, Exam, ExamOverride, OpportunitiesFile, PhaseOverride, Profile, RepoDoc, ScrapeStatusFile, UpdatesFile } from './types'
 
 export interface AppState {
   exams: Exam[]
@@ -7,6 +7,9 @@ export interface AppState {
   updates: UpdatesFile
   status: ScrapeStatusFile
   documents: RepoDoc[]
+  profile: Profile
+  opportunities: OpportunitiesFile
+  isPhone: boolean
   overrides: Record<string, ExamOverride>
   generatedAt: string
   docCounts: Record<string, number>

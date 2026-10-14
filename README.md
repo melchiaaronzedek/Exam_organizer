@@ -12,6 +12,7 @@ WhatsApp, and a private document vault for hall tickets and application forms.
 | Page | What it does |
 |---|---|
 | **Desk** | Countdown to the next exam, what needs attention this week, exams still to apply for, exams grouped by centre city, a 75-day timeline. |
+| **Jobs** | Openings that fit the profile (MBA marketing + B.Sc Agriculture, age 26): a curated list from research plus items the daily discovery job finds in news and aggregator feeds. Each shows deadline, pay, locations, a fit score with reasons, and a source badge. *Track* adds it to Exams; *Dismiss* hides it. Expected-soon items carry typical windows from last year's cycle. |
 | **Exams** | One card per exam: status, application window, every phase with date / certainty / centre preferences / allotted centre. Click the pencil on a phase to correct a date or enter the venue from your admit card. Add your own exams too. |
 | **Calendar** | Month view of every phase and deadline (dashed = tentative) plus an agenda. Export an `.ics` file. |
 | **Updates** | Notices found by the daily scraper, with a NEW badge until you read them, and a health table showing which official sites answered. |
@@ -34,6 +35,14 @@ Name files `public/documents/<examId>/<type>__<Readable_name>.pdf` where `<examI
 `id` from `exams.json` and `<type>` is one of `application`, `hall-ticket`, `notification`,
 `receipt`, `photo`, `result`, `other`. Commit and push; the build regenerates
 `public/data/documents.json` and the Documents page and each exam card pick them up.
+
+## Phone app
+
+The site is a PWA. On iPhone use Share → Add to Home Screen; on Android Chrome use menu → Install app. It opens full-screen with a bottom tab bar (Desk · Exams · Jobs · Calendar · More) and keeps the last loaded data available offline.
+
+## Job matching
+
+`public/data/profile.json` holds the public-safe profile (education, role keywords, sectors, home states, minimum pay). `scraper/fit.py` (mirrored in `src/lib/fit.ts`) scores each opening: +40 role keyword, +20 MBA / +15 graduate / +20 agriculture match, +15 sector, +10 South or all-India, +10 pay above the floor, −35 if it demands 2+ years' experience, −30 deputation/retiree posts, −30 engineering/CA/law/medical-only posts. `scraper/discover.py` runs daily after the notice scraper, reads `public/data/discovery_sources.json` (news and aggregator feeds), keeps items with fit ≥ 45 in `opportunities.json → discovered[]`, and the reminder job opens a `🎯` issue (plus Telegram/WhatsApp line) for new items with fit ≥ 60. The curated list was seeded by research on 14 Oct 2026; edit `opportunities.json → curated[]` to correct or add entries. Fit is a keyword score, not eligibility advice: always check the official notification.
 
 ## Reminders
 

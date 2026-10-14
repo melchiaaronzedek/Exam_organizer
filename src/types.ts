@@ -6,6 +6,7 @@ export type ExamStatus = 'to-apply' | 'applied' | 'written' | 'result-awaited' |
 export interface Centre {
   preferences: string[]
   allotted?: string | null
+  venue?: string
 }
 
 export interface Phase {
@@ -72,6 +73,7 @@ export interface Exam {
   phases: Phase[]
   notes?: string[]
   facts?: Facts
+  postingPreferences?: string[]
   custom?: boolean
 }
 
@@ -159,4 +161,66 @@ export interface CalEvent {
   timeNote?: string
   status: PhaseStatus
   examStatus: ExamStatus
+}
+
+export interface Profile {
+  name?: string
+  headline: string
+  education: string[]
+  experience?: string[]
+  ageOn: string
+  qualifications: string[]
+  roles: string[]
+  sectors: string[]
+  excludeTerms: string[]
+  homeStates: string[]
+  cities: string[]
+  minPayLakh: number
+}
+
+export type OppTrack = 'marketing' | 'general' | 'agri' | 'state' | 'private'
+export type OppStatus = 'open' | 'expected' | 'closed'
+
+export interface Opportunity {
+  id: string
+  org: string
+  post: string
+  title?: string
+  sector: string
+  track: OppTrack
+  state?: string
+  eligibility?: string
+  ageMax?: number | null
+  vacancies?: string | number | null
+  pay?: string | null
+  payLakh?: number | null
+  applyOpens?: string | null
+  applyCloses?: string | null
+  examDate?: string | null
+  examDateType?: DateType
+  typicalWindow?: string
+  expectedMonth?: string | null
+  lastCycle?: string
+  mbaRelevance?: string
+  agriRelevance?: string
+  locations?: string[]
+  link: string
+  source?: string
+  sourceType: 'official' | 'news' | 'aggregator'
+  fit?: number
+  fitWhy?: string[]
+  status: OppStatus
+  publishedAt?: string | null
+  firstSeen?: string
+  curated?: boolean
+  trackedExamId?: string
+  note?: string
+}
+
+export interface OpportunitiesFile {
+  curatedAt?: string
+  discoveredAt?: string
+  discoverBaseline?: boolean
+  curated: Opportunity[]
+  discovered: Opportunity[]
 }

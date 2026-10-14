@@ -95,7 +95,7 @@ export function Dashboard() {
                 <Icon name="pin" size={14} /> Directions
               </a>
             ) : (
-              <p className="muted small">Allotted centre not entered yet. Open the exam, click the pencil on this phase and paste the venue from the admit card.</p>
+              <p className="muted small">Allotted centre not entered. Open the exam, tap the pencil on this phase and paste the venue from the admit card.</p>
             )}
             {examSoonExam.facts?.carry?.length ? (
               <>
@@ -124,7 +124,7 @@ export function Dashboard() {
       <div className="dash__cols">
         <section className="panel">
           <h2 className="panel__title">
-            <Icon name="alert" /> Needs attention
+            <Icon name="alert" /> Due soon
           </h2>
           {due.length === 0 ? (
             <p className="muted">Nothing due within {Math.max(...prefs.leadDays)} days.</p>
@@ -168,10 +168,10 @@ export function Dashboard() {
 
         <section className="panel">
           <h2 className="panel__title">
-            <Icon name="city" /> Where you'll be
+            <Icon name="city" /> Centres
           </h2>
           {cities.size === 0 ? (
-            <p className="muted">No centres recorded yet.</p>
+            <p className="muted">No centres recorded.</p>
           ) : (
             <ul className="citylist">
               {[...cities.entries()].map(([city, list]) => (
@@ -194,12 +194,12 @@ export function Dashboard() {
               ))}
             </ul>
           )}
-          <p className="muted small">? = first preference; the allotted centre comes with the admit card.</p>
+          <p className="muted small">? means first preference; the allotted centre comes with the admit card.</p>
         </section>
 
         <section className="panel">
           <h2 className="panel__title">
-            <Icon name="link" /> Official sites
+            <Icon name="link" /> Links
           </h2>
           <ul className="linklist">
             {exams.map((ex) => (

@@ -1,0 +1,16 @@
+{
+  "name": "Pariksha Desk",
+  "short_name": "Pariksha",
+  "description": "Every exam, date, centre and opening in one place.",
+  "start_url": "/Exam_organizer/",
+  "scope": "/Exam_organizer/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

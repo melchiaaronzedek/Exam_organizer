@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useApp } from '../ctx'
 import { Icon } from '../components/Icon'
-import { exportLocalState, importLocalState, overridesStore, prefsStore } from '../lib/storage'
+import { exportLocalState, importLocalState, overridesStore, prefsStore, profileStore } from '../lib/storage'
 import { notificationsSupported, requestPermission } from '../lib/notify'
 import { downloadText } from '../lib/ics'
 import { clearVault } from '../lib/vault'
@@ -10,8 +10,16 @@ const REPO = 'https://github.com/melchiaaronzedek/Exam_organizer'
 const ICS_URL = `${location.origin}${import.meta.env.BASE_URL}calendar.ics`
 
 export function Settings() {
-  const { generatedAt, refreshDocCounts } = useApp()
+  const { generatedAt, refreshDocCounts, profile } = useApp()
   const prefs = prefsStore.use()
+  const po = profileStore.use()
+  const [installEvt, setInstallEvt] = useState<Event | null>(null)
+  useEffect(() => {
+    const on = (e: Event) => { e.preventDefault(); setInstallEvt(e) }
+    window.addEventListener('beforeinstallprompt', on)
+    return () => window.removeEventListener('beforeinstallprompt', on)
+  }, [])
+  const standalone = typeof window !== 'undefined' && (window.matchMedia('(display-mode: standalone)').matches || (navigator as unknown as { standalone?: boolean }).standalone === true)
   const [copied, setCopied] = useState(false)
   const toggleLead = (d: number) => {
     const set = new Set(prefs.leadDays)
@@ -26,6 +34,55 @@ export function Settings() {
           <p className="muted">Exam data version {generatedAt || '—'}. Everything on this page is stored only in this browser.</p>
         </div>
       </header>
+
+      <section className="panel">
+        <h2 className="panel__title">
+          <Icon name="download" /> Install on your phone
+        </h2>
+        {standalone ? (
+          <p className="muted">Installed. You're running the app from the home screen.</p>
+        ) : (
+          <>
+            <p className="muted small">Adds Pariksha Desk to the home screen, full-screen, with offline access to the last loaded data.</p>
+            {installEvt ? (
+              <button className="btn btn--accent" onClick={() => (installEvt as unknown as { prompt: () => void }).prompt()}>
+                <Icon name="download" size={14} /> Install app
+              </button>
+            ) : (
+              <ul className="notes">
+                <li>iPhone: Share → Add to Home Screen.</li>
+                <li>Android (Chrome): menu ⋮ → Add to Home screen / Install app.</li>
+              </ul>
+            )}
+          </>
+        )}
+      </section>
+
+      <section className="panel">
+        <h2 className="panel__title">
+          <Icon name="list" /> Job matching
+        </h2>
+        <p className="muted small">{profile.headline}</p>
+        <div className="private__grid">
+          <label className="editor__wide">
+            Roles to match (comma separated)
+            <input value={(po.roles ?? profile.roles).join(', ')} onChange={(e) => profileStore.set({ ...po, roles: e.target.value.split(',').map((x) => x.trim().toLowerCase()).filter(Boolean) })} />
+          </label>
+          <label>
+            Minimum pay (LPA)
+            <input type="number" min={0} value={po.minPayLakh ?? profile.minPayLakh} onChange={(e) => profileStore.set({ ...po, minPayLakh: Number(e.target.value) })} />
+          </label>
+          <label>
+            Preferred cities
+            <input value={(po.cities ?? profile.cities).join(', ')} onChange={(e) => profileStore.set({ ...po, cities: e.target.value.split(',').map((x) => x.trim()).filter(Boolean) })} />
+          </label>
+        </div>
+        <div className="row">
+          <button className="btn btn--ghost btn--sm" onClick={() => profileStore.set({})}>
+            <Icon name="refresh" size={14} /> Reset to CV defaults
+          </button>
+        </div>
+      </section>
 
       <section className="panel">
         <h2 className="panel__title">

@@ -58,6 +58,11 @@ export function CalendarMonth({ events }: { events: CalEvent[] }) {
               aria-label={format(d, 'EEEE d MMMM')}
             >
               <span className="cal__num">{format(d, 'd')}</span>
+              <span className="cal__dots" aria-hidden="true">
+                {evs.slice(0, 4).map((e) => (
+                  <i key={e.id} className={`cal__dot cal__ev--${e.kind} ${e.dateType === 'tentative' ? 'is-tentative' : ''}`} />
+                ))}
+              </span>
               <span className={`cal__evs ${evs.length > 2 ? 'is-dense' : ''}`}>
                 {evs.slice(0, 3).map((e) => {
                   const place = placeOf(e)

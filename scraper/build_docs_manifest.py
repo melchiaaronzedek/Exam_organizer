@@ -22,7 +22,20 @@ def main() -> None:
             name = f.name
             typ, _, rest = name.partition("__")
             if typ not in TYPES:
-                typ, rest = "other", name
+                low = name.lower()
+                if any(k in low for k in ("hall", "admit", "call_letter", "call letter", "calllet")):
+                    typ = "hall-ticket"
+                elif "applic" in low:
+                    typ = "application"
+                elif any(k in low for k in ("receipt", "payment", "fee")):
+                    typ = "receipt"
+                elif any(k in low for k in ("result", "score", "marks")):
+                    typ = "result"
+                elif any(k in low for k in ("notif", "advert", "advt")):
+                    typ = "notification"
+                else:
+                    typ = "other"
+                rest = name
             out.append(
                 {
                     "examId": exam_id,

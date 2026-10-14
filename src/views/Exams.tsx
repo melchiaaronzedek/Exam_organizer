@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import { useApp } from '../ctx'
 import { useEntrance } from '../lib/useEntrance'
-import { ExamCard } from '../components/ExamCard'
+import { ExamBody, ExamCard, ExamGlance } from '../components/ExamCard'
+import { Sheet } from '../components/Sheet'
+import { StatusChip } from '../components/StatusChip'
 import { Icon } from '../components/Icon'
 import type { Exam, ExamStatus } from '../types'
 import { STATUS_LABEL } from '../lib/data'
@@ -9,7 +11,9 @@ import { STATUS_LABEL } from '../lib/data'
 const FILTERS: (ExamStatus | 'all')[] = ['all', 'to-apply', 'applied', 'written', 'result-awaited', 'closed']
 
 export function Exams() {
-  const { exams, overrides, docCounts, documents, setOverride, setPhase, addCustomExam, removeCustomExam } = useApp()
+  const { exams, overrides, docCounts, documents, isPhone, setOverride, setPhase, addCustomExam, removeCustomExam } = useApp()
+  const [sheetId, setSheetId] = useState<string | null>(null)
+  const sheetExam = exams.find((e) => e.id === sheetId)
   const pre = useEntrance([])
   const [filter, setFilter] = useState<ExamStatus | 'all'>('all')
   const [q, setQ] = useState('')
@@ -54,10 +58,34 @@ export function Exams() {
             onOverride={(p) => setOverride(ex.id, p)}
             onPhaseChange={(pid, p) => setPhase(ex.id, pid, p)}
             onDeleteCustom={ex.custom ? () => removeCustomExam(ex.id) : undefined}
+            onOpen={isPhone ? () => setSheetId(ex.id) : undefined}
           />
         ))}
         {list.length === 0 ? <p className="muted">No exams in this filter.</p> : null}
       </div>
+      {isPhone ? (
+        <Sheet
+          open={!!sheetExam}
+          onClose={() => setSheetId(null)}
+          full
+          title={sheetExam ? <span className="sheet__exam"><span className="card__org">{sheetExam.org}</span><span>{sheetExam.short} · {sheetExam.post}</span></span> : ''}
+          action={sheetExam ? <StatusChip status={sheetExam.status} /> : null}
+        >
+          {sheetExam ? (
+            <>
+              <ExamGlance exam={sheetExam} files={documents.filter((d) => d.examId === sheetExam.id)} docCount={docCounts[sheetExam.id] ?? 0} />
+              <ExamBody
+                exam={sheetExam}
+                override={overrides[sheetExam.id]}
+                files={documents.filter((d) => d.examId === sheetExam.id)}
+                onOverride={(p) => setOverride(sheetExam.id, p)}
+                onPhaseChange={(pid, p) => setPhase(sheetExam.id, pid, p)}
+                onDeleteCustom={sheetExam.custom ? () => { removeCustomExam(sheetExam.id); setSheetId(null) } : undefined}
+              />
+            </>
+          ) : null}
+        </Sheet>
+      ) : null}
     </div>
   )
 }
