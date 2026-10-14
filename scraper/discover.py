@@ -20,6 +20,17 @@ from scrape import UA, date_from_text, fetch, item_id, parse_markdown, parse_rss
 DEADLINE_RX = re.compile(r"(last date|apply by|closes? on|till|upto|up to|before)[^0-9]{0,25}(\d{1,2}[./-]\d{1,2}[./-]\d{4}|\d{1,2}\s+\w+\s+\d{4})", re.I)
 ORG_RX = re.compile(r"^([A-Z][A-Za-z&.' ]{2,40}?)\s+(recruitment|notification|vacancy|hiring|jobs?|bharti)", re.I)
 MIN_FIT = 40
+# Titles that are about an exam already in progress, not a new opening.
+NOISE_RX = re.compile(r"\b(answer key|cut ?off|hall ticket|admit card|call letter|result|score ?card|merit list|previous year|question papers?|syllabus|exam pattern|exam analysis|expected questions|mock test|preparation|study plan|salary structure|walk-?in|interview schedule|document verification|dv schedule|final select)\b", re.I)
+
+
+def is_noise(title: str) -> bool:
+    return bool(NOISE_RX.search(title))
+
+
+def dedupe_key(org: str, post: str) -> str:
+    words = re.findall(r"[a-z0-9]+", post.lower())
+    return re.sub(r"[^a-z0-9]", "", org.lower())[:18] + "|" + " ".join(words[:2])
 SECTOR_RX = [
     ("regulator", r"\b(sebi|rbi|nabard|sidbi|irdai|pfrda|nhb|exim|ifsca|reserve bank)\b"),
     ("insurance", r"\b(lic|niacl|nicl|oicl|uiic|gic|ecgc|aic|insurance|assurance)\b"),
@@ -79,7 +90,7 @@ def main(argv: list[str]) -> int:
     profile = load_json("profile.json", {})
     sources = load_json("discovery_sources.json", {"sources": []})["sources"]
     opp = load_json("opportunities.json", {"curated": [], "discovered": []})
-    existing = {d["id"]: d for d in opp.get("discovered", [])}
+    existing = {d["id"]: d for d in opp.get("discovered", []) if not is_noise(d.get("title", ""))}
     baseline = len(existing) == 0
     stamp = now_ist().isoformat(timespec="seconds")
     today = today_ist()
@@ -89,11 +100,13 @@ def main(argv: list[str]) -> int:
     with ThreadPoolExecutor(max_workers=8) as pool:
         results = list(pool.map(scrape_source, sources))
 
-    seen_keys: set[str] = {re.sub(r"[^a-z0-9]", "", (d.get("org", "") + d.get("post", "")).lower())[:40] for d in existing.values()}
+    seen_keys: set[str] = {dedupe_key(d.get("org", ""), d.get("post", "")) for d in existing.values()}
     for src, items in zip(sources, results):
         kept = 0
         for it in items:
             title = it["title"]
+            if is_noise(title):
+                continue
             if any(t in title.lower() for t in profile.get("excludeTerms", [])) and not any(r in title.lower() for r in profile.get("roles", [])):
                 continue
             org, post = guess_org_post(title)
@@ -105,7 +118,7 @@ def main(argv: list[str]) -> int:
             uid = item_id("discover", it["url"], title)
             if uid in existing:
                 continue
-            key = re.sub(r"[^a-z0-9]", "", (org + post).lower())[:40]
+            key = dedupe_key(org, post)
             if key in seen_keys:
                 continue
             seen_keys.add(key)

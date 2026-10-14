@@ -1,6 +1,6 @@
 {
-  "name": "Pariksha Desk",
-  "short_name": "Pariksha",
+  "name": "Jenny Tracker",
+  "short_name": "Jenny",
   "description": "Every exam, date, centre and opening in one place.",
   "start_url": "/Exam_organizer/",
   "scope": "/Exam_organizer/",

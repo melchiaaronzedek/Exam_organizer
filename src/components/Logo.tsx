@@ -12,11 +12,11 @@ interface Props {
 }
 
 /**
- * The Pariksha Desk mark: a ring (the countdown) with a notch at twelve (today)
- * and a "P" whose stem is a bookmark. The arc fills as the next exam approaches.
+ * The Jenny Tracker mark: a ring (the countdown) with a notch at twelve (today)
+ * and a "J" whose hook lifts on hover. The arc fills as the next exam approaches.
  * Interactive: tilts toward the pointer, sweeps on hover, presses down on tap.
  */
-export function Logo({ size = 32, progress = 0, interactive = false, spinning = false, pulse = false, className = '', title = 'Pariksha Desk' }: Props) {
+export function Logo({ size = 32, progress = 0, interactive = false, spinning = false, pulse = false, className = '', title = 'Jenny Tracker' }: Props) {
   const ref = useRef<HTMLSpanElement>(null)
   const r = 42
   const C = 2 * Math.PI * r
@@ -60,9 +60,9 @@ export function Logo({ size = 32, progress = 0, interactive = false, spinning = 
           transform="rotate(-90 50 50)"
         />
         <circle className="logo__notch" cx="50" cy="8" r="5" />
-        {/* P: stem is a bookmark, bowl is open */}
-        <path className="logo__glyph" d="M38 72 V30 h14 a11 11 0 0 1 0 22 H38" fill="none" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round" />
-        <path className="logo__flag" d="M38 72 l5 -5 l5 5" fill="none" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round" />
+        {/* J: top bar, stem, hook */}
+        <path className="logo__glyph" d="M36 30 H66 M54 30 V60 a11 11 0 0 1 -22 0" fill="none" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round" />
+        <path className="logo__flag" d="M32 60 v-6" fill="none" strokeWidth="8" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     </span>
   )

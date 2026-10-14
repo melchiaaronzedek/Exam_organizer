@@ -36,7 +36,7 @@ export function maybeNotify(events: CalEvent[]) {
     .map((e) => `${e.examShort} · ${e.label} ${relative(daysUntil(e.date))}${e.centre ? ` · ${e.centre}` : ''}`)
     .join('\n')
   try {
-    new Notification(`Pariksha Desk — ${due.length} upcoming`, { body, tag: 'pariksha-daily' })
+    new Notification(`Jenny Tracker — ${due.length} upcoming`, { body, tag: 'jenny-daily' })
     prefsStore.set({ ...prefs, lastNotifyDay: todayIso })
   } catch {
     /* ignore */

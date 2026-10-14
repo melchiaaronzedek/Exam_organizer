@@ -20,10 +20,10 @@ export function buildICS(events: CalEvent[], leadDays: number[]): string {
   const lines = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Pariksha Desk//Exam Calendar//EN',
+    'PRODID:-//Jenny Tracker//Exam Calendar//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-WR-CALNAME:Pariksha Desk — Exams',
+    'X-WR-CALNAME:Jenny Tracker — Exams',
     'X-WR-TIMEZONE:Asia/Kolkata',
   ]
   for (const e of events) {
@@ -32,7 +32,7 @@ export function buildICS(events: CalEvent[], leadDays: number[]): string {
     const desc = [e.examTitle, e.timeNote, where ? `Centre: ${where}` : '', `Status: ${e.status}`].filter(Boolean).join('\n')
     lines.push(
       'BEGIN:VEVENT',
-      `UID:${e.id}@pariksha-desk`,
+      `UID:${e.id}@jenny-tracker`,
       `DTSTAMP:${stamp}`,
       `DTSTART;VALUE=DATE:${ymd(e.date)}`,
       `DTEND;VALUE=DATE:${ymd(nextDay(e.dateEnd && e.kind !== 'application' ? e.dateEnd : e.date))}`,

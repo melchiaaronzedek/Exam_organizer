@@ -3,5 +3,5 @@
   <circle cx="50" cy="50" r="40" fill="none" stroke="#2a2f3b" stroke-width="7"/>
   <circle cx="50" cy="50" r="40" fill="none" stroke="#f4a442" stroke-width="7" stroke-linecap="round" stroke-dasharray="188 252" transform="rotate(-90 50 50)"/>
   <circle cx="50" cy="10" r="5" fill="#f4a442"/>
-  <path d="M39 71 V31 h13 a10 10 0 0 1 0 20 H39" fill="none" stroke="#ece6d9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 31 H65 M53 31 V59 a10 10 0 0 1 -20 0" fill="none" stroke="#ece6d9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
