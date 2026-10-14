@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react'
 import { countdownTo } from '../lib/dates'
 
-export function Countdown({ iso, compact = false }: { iso: string; compact?: boolean }) {
-  const [parts, setParts] = useState(() => countdownTo(iso))
+export function Countdown({ iso, timeNote, compact = false }: { iso: string; timeNote?: string | null; compact?: boolean }) {
+  const [parts, setParts] = useState(() => countdownTo(iso, new Date(), timeNote))
   useEffect(() => {
-    const t = setInterval(() => setParts(countdownTo(iso)), 1000)
+    setParts(countdownTo(iso, new Date(), timeNote))
+    const t = setInterval(() => setParts(countdownTo(iso, new Date(), timeNote)), 1000)
     return () => clearInterval(t)
-  }, [iso])
+  }, [iso, timeNote])
   const cells = [
     ['days', parts.days],
     ['hrs', parts.hours],
