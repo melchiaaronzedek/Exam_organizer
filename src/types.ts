@@ -83,6 +83,8 @@ export interface ExamsFile {
   exams: Exam[]
 }
 
+export type UpdateKind = 'admit-card' | 'result' | 'notification' | 'exam-date' | 'answer-key' | 'cut-off' | 'interview' | 'other'
+
 export interface Update {
   id: string
   examId: string
@@ -91,6 +93,12 @@ export interface Update {
   source: string
   publishedAt?: string | null
   firstSeen: string
+  /** What the headline is about (set by the scraper; older rows are classified in the browser). */
+  kind?: UpdateKind
+  /** Outlet that carried it (news items). */
+  publisher?: string | null
+  /** How many outlets carried the same story. */
+  alsoIn?: number
 }
 
 export interface UpdatesFile {

@@ -4,7 +4,8 @@ import { Icon } from '../components/Icon'
 import { DOC_TYPES, addDoc, exportZip, fmtSize, getBlob, importZip, listDocs, removeDoc, updateDoc, type DocType, type VaultDoc } from '../lib/vault'
 import { downloadBlob } from '../lib/ics'
 
-const base = import.meta.env.BASE_URL
+import { openDoc } from '../lib/docs'
+import { toast } from '../lib/toast'
 const REPO_TREE = 'https://github.com/melchiaaronzedek/Exam_organizer/tree/main/public/documents'
 
 export function Documents() {
@@ -95,12 +96,12 @@ export function Documents() {
                         </div>
                       </div>
                       <div className="doc__actions">
-                        <a className="iconbtn" href={`${base}${d.url}`} target="_blank" rel="noreferrer" aria-label="Open">
+                        <button className="iconbtn" onClick={() => openDoc(d.url, d.file, 'open').catch(() => toast('Could not open the file'))} aria-label="Open">
                           <Icon name="eye" />
-                        </a>
-                        <a className="iconbtn" href={`${base}${d.url}`} download={d.file} aria-label="Download">
+                        </button>
+                        <button className="iconbtn" onClick={() => openDoc(d.url, d.file, 'download').catch(() => toast('Could not download the file'))} aria-label="Download">
                           <Icon name="download" />
-                        </a>
+                        </button>
                       </div>
                     </li>
                   ))}

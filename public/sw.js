@@ -1,5 +1,5 @@
 /* Jenny's Tracker service worker: shell cache-first, data stale-while-revalidate. */
-const VERSION = 'jt-v1'
+const VERSION = 'jt-v2'
 const SHELL = ['./', './index.html', './manifest.webmanifest']
 
 self.addEventListener('install', (e) => {
@@ -21,7 +21,7 @@ self.addEventListener('fetch', (e) => {
   if (req.method !== 'GET') return
   const url = new URL(req.url)
   if (url.origin !== location.origin) return
-  const isData = url.pathname.includes('/data/') || url.pathname.endsWith('.ics') || url.pathname.includes('/documents/')
+  const isData = url.pathname.includes('/data/') || url.pathname.endsWith('.ics') || url.pathname.includes('/documents/') || url.pathname.endsWith('/lock.json')
   if (isData) {
     e.respondWith(
       caches.open(VERSION).then(async (c) => {

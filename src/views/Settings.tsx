@@ -5,6 +5,7 @@ import { exportLocalState, importLocalState, overridesStore, prefsStore, profile
 import { notificationsSupported, requestPermission } from '../lib/notify'
 import { downloadText } from '../lib/ics'
 import { clearVault } from '../lib/vault'
+import { isLocked, lock } from '../lib/lock'
 
 const REPO = 'https://github.com/melchiaaronzedek/Exam_organizer'
 const ICS_URL = `${location.origin}${import.meta.env.BASE_URL}calendar.ics`
@@ -100,6 +101,32 @@ export function Settings() {
             <Icon name="sun" size={14} /> Light
           </button>
         </div>
+      </section>
+
+      <section className="panel">
+        <h2 className="panel__title">
+          <Icon name="shield" /> Privacy
+        </h2>
+        {isLocked() ? (
+          <>
+            <p className="muted small">
+              This site is locked with a passphrase: the published data and documents are encrypted, and only people who type the passphrase can read them. To share the tracker, send the address and the passphrase. To change it, update the <code>SITE_PASSPHRASE</code> secret in the GitHub repository; the next deploy re-locks everyone.
+            </p>
+            <div className="row">
+              <button
+                className="btn"
+                onClick={() => {
+                  lock()
+                  location.reload()
+                }}
+              >
+                <Icon name="lock" size={14} /> Lock this device
+              </button>
+            </div>
+          </>
+        ) : (
+          <p className="muted small">This build is not locked (no passphrase was set when it was built). Published builds are locked with the <code>SITE_PASSPHRASE</code> secret.</p>
+        )}
       </section>
 
       <section className="panel">

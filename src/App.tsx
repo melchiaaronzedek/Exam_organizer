@@ -3,6 +3,8 @@ import { flushSync } from 'react-dom'
 import { AppCtx, type AppState } from './ctx'
 import type { DocumentsFile, Exam, ExamOverride, ExamsFile, OpportunitiesFile, PhaseOverride, Profile, ScrapeStatusFile, UpdatesFile } from './types'
 import { buildEvents, isFresh, loadAll, mergeExam } from './lib/data'
+import { restoreKey } from './lib/lock'
+import { Lock } from './components/Lock'
 import { customExamsStore, jobsStore, overridesStore, prefsStore, seenStore } from './lib/storage'
 import { listDocs } from './lib/vault'
 import { maybeNotify, dueEvents } from './lib/notify'
@@ -57,6 +59,7 @@ export function App() {
   const isPhone = useIsPhone()
   const [data, setData] = useState<{ exams: ExamsFile; updates: UpdatesFile; status: ScrapeStatusFile; documents: DocumentsFile; profile: Profile; opportunities: OpportunitiesFile } | null>(null)
   const [docCounts, setDocCounts] = useState<Record<string, number>>({})
+  const [locked, setLocked] = useState<boolean | null>(null) // null = checking the build's lock
   const overrides = overridesStore.use()
   const custom = customExamsStore.use()
   const prefs = prefsStore.use()
@@ -64,7 +67,10 @@ export function App() {
   const jobs = jobsStore.use()
 
   useEffect(() => {
-    loadAll().then(setData)
+    restoreKey().then((open) => {
+      setLocked(!open)
+      if (open) loadAll().then(setData)
+    })
     const onHash = () => setView(readHash())
     window.addEventListener('hashchange', onHash)
     const onUpdate = (e: Event) => setUpdate((e as CustomEvent<ServiceWorkerRegistration>).detail)
@@ -194,6 +200,17 @@ export function App() {
 
   const page =
     !data ? <DashboardSkeleton /> : view === 'dashboard' ? <Dashboard /> : view === 'exams' ? <Exams /> : view === 'jobs' ? <Jobs /> : view === 'calendar' ? <Calendar /> : view === 'updates' ? <Updates /> : view === 'documents' ? <Documents /> : <Settings />
+
+  if (locked !== false) {
+    return locked ? (
+      <Lock
+        onUnlocked={() => {
+          setLocked(false)
+          loadAll().then(setData)
+        }}
+      />
+    ) : null
+  }
 
   return (
     <AppCtx.Provider value={state}>

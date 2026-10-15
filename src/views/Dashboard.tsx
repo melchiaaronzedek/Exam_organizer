@@ -12,6 +12,7 @@ import { dueEvents } from '../lib/notify'
 import { prefsStore, seenStore } from '../lib/storage'
 import { useJobs } from '../lib/useJobs'
 import { experienceLabel } from '../lib/fit'
+import { isRelevant } from '../lib/updates'
 import type { CalEvent } from '../types'
 
 export function Dashboard() {
@@ -40,7 +41,7 @@ export function Dashboard() {
   const applied = exams.filter((e) => e.application.applied)
   const written = exams.filter((e) => e.status === 'written' || e.status === 'result-awaited')
   const next30 = upcoming.filter((e) => daysUntil(e.date)! <= 30)
-  const unseen = updates.updates.filter((u) => isFresh(u) && !seen.ids.includes(u.id))
+  const unseen = updates.updates.filter((u) => isRelevant(u) && isFresh(u) && !seen.ids.includes(u.id))
   const examSoon = upcoming.find((e) => e.kind === 'exam' && daysUntil(e.date)! <= 1)
   const examSoonExam = examSoon ? exams.find((x) => x.id === examSoon.examId) : undefined
   const hour = new Date().getHours()

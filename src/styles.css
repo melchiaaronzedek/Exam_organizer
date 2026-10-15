@@ -456,7 +456,7 @@ textarea { resize: vertical; }
 .check.is-done .check__label { text-decoration: line-through; color: var(--muted); }
 .filelist { display: flex; flex-direction: column; gap: 2px; }
 .filelist li { display: grid; grid-template-columns: 1fr auto auto; gap: 8px; align-items: center; padding: 6px 8px; border-radius: 8px; }
-.filelist__name { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; text-decoration: none; font-size: 13.5px; min-width: 0; }
+.filelist__name { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; text-decoration: none; font-size: 13.5px; min-width: 0; background: none; border: 0; padding: 0; color: var(--text); font-family: inherit; cursor: pointer; text-align: left; }
 
 /* ───────────────────────── jobs ───────────────────────── */
 .jobs { display: flex; flex-direction: column; gap: 8px; }
@@ -723,3 +723,39 @@ kbd { font-family: var(--font-body); font-size: 11px; font-weight: 600; padding:
 .tile--amber { --tile: var(--accent); }
 .hero__date { color: var(--text-2); font-size: 13.5px; }
 .track__todaypill { border-radius: 999px; }
+
+/* ── Passphrase lock ── */
+.lock { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 24px 16px; background: var(--bg); }
+.lock__card { width: min(100%, 380px); display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 32px 26px 26px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-sm, none); text-align: center; animation: lock-in 420ms var(--ease-out) both; }
+.lock__card[data-shake] { animation: lock-shake 420ms ease-out both; }
+.lock__title { font-size: 22px; font-weight: 800; letter-spacing: -0.02em; margin-top: 6px; }
+.lock__sub { color: var(--text-2); font-size: 14px; line-height: 1.45; margin-bottom: 8px; }
+.lock__field { display: flex; flex-direction: column; align-items: stretch; gap: 6px; width: 100%; text-align: left; font-size: 12.5px; font-weight: 600; color: var(--text-2); }
+.lock__field input { width: 100%; font-size: 16px; }
+.lock__field input[aria-invalid='true'] { border-color: var(--rose); box-shadow: 0 0 0 3px color-mix(in srgb, var(--rose) 20%, transparent); }
+.lock__remember { display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 8px; width: 100%; font-size: 13.5px; color: var(--text-2); }
+.lock__remember input { width: 16px; height: 16px; accent-color: var(--accent); }
+.lock__error { color: var(--rose); font-size: 13px; line-height: 1.4; }
+.lock__btn { width: 100%; justify-content: center; margin-top: 6px; }
+@keyframes lock-in { from { opacity: 0; transform: translateY(10px) scale(0.98); } }
+@keyframes lock-shake { 10%, 90% { transform: translateX(-2px); } 20%, 80% { transform: translateX(4px); } 30%, 50%, 70% { transform: translateX(-6px); } 40%, 60% { transform: translateX(6px); } }
+@media (prefers-reduced-motion: reduce) { .lock__card, .lock__card[data-shake] { animation: none; } }
+
+/* ── Updates feed: day groups and kind pills ── */
+.feed__group { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.feed__day { position: sticky; top: calc(var(--appbar-h, 56px) + 4px); z-index: 2; align-self: flex-start; font-size: 11.5px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-2); padding: 4px 10px; border-radius: 999px; background: var(--material, var(--surface-2)); backdrop-filter: blur(12px); margin: 6px 0 2px; }
+.feed__rows { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+.feed__item.is-general { opacity: 0.72; }
+.pill--kind { color: var(--text-2); }
+.pill--admit-card { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent-2, var(--accent)); }
+.pill--result { background: color-mix(in srgb, var(--green) 16%, transparent); color: var(--green); }
+.pill--exam-date { background: color-mix(in srgb, var(--sky) 16%, transparent); color: var(--sky); }
+.pill--notification { background: color-mix(in srgb, var(--violet) 16%, transparent); color: var(--violet); }
+.pill--answer-key, .pill--cut-off, .pill--interview { background: color-mix(in srgb, var(--text-2) 14%, transparent); color: var(--text); }
+.kdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--text-2); margin-right: 2px; vertical-align: 1px; }
+.kdot--admit-card { background: var(--accent); }
+.kdot--result { background: var(--green); }
+.kdot--exam-date { background: var(--sky); }
+.kdot--notification { background: var(--violet); }
+.toggle--inline { display: inline-flex; flex-direction: row; align-items: center; gap: 6px; margin-left: auto; font-size: 13px; color: var(--text-2); white-space: nowrap; }
+.toggle--inline input { width: 15px; height: 15px; accent-color: var(--accent); }
