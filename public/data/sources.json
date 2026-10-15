@@ -16,7 +16,9 @@
       "name": "SSC news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=%22SSC+CGL%22+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "CGL"
+      ]
     },
     {
       "examId": "iocl-marketing-officer-2026",
@@ -37,7 +39,10 @@
       "name": "IOCL news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=IOCL+recruitment+executives+2026+result&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "IOCL",
+        "Indian Oil"
+      ]
     },
     {
       "examId": "concor-mt-2026",
@@ -57,7 +62,9 @@
       "name": "CONCOR news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=CONCOR+management+trainee+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "CONCOR"
+      ]
     },
     {
       "examId": "uiic-ao-2026",
@@ -78,7 +85,10 @@
       "name": "UIIC news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=UIIC+AO+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "UIIC",
+        "United India"
+      ]
     },
     {
       "examId": "pfrda-grade-a-2026",
@@ -98,7 +108,9 @@
       "name": "PFRDA news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=PFRDA+grade+A+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "PFRDA"
+      ]
     },
     {
       "examId": "aai-je-2026",
@@ -118,7 +130,10 @@
       "name": "AAI news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=AAI+junior+executive+2026+admit+card&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "AAI",
+        "Airports Authority"
+      ]
     },
     {
       "examId": "upsc-epfo-apfc-2026",
@@ -137,7 +152,10 @@
       "name": "UPSC EPFO news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=UPSC+EPFO+APFC+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "EPFO",
+        "APFC"
+      ]
     },
     {
       "examId": "nicl-ao-2026",
@@ -157,7 +175,10 @@
       "name": "NICL news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=NICL+AO+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "NICL",
+        "National Insurance"
+      ]
     },
     {
       "examId": "pci-aso-2026",
@@ -176,7 +197,9 @@
       "name": "PCI news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=%22Press+Council+of+India%22+recruitment+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "Press Council"
+      ]
     },
     {
       "examId": "appsc-group1-2026",
@@ -196,7 +219,13 @@
       "name": "APPSC news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=APPSC+Group+1+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "APPSC",
+        "Group-1",
+        "Group 1",
+        "Group-I",
+        "Group I"
+      ]
     },
     {
       "examId": "ssc-cgl-2026",
@@ -323,21 +352,32 @@
       "name": "APPSC exam news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=APPSC+Group-1+prelims+2026+exam+date&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "APPSC",
+        "Group-1",
+        "Group 1",
+        "Group-I",
+        "Group I"
+      ]
     },
     {
       "examId": "ssc-cgl-2026",
       "name": "SSC CGL Tier 2 news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=SSC+CGL+2026+tier+2+date+OR+result+OR+answer+key&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "CGL"
+      ]
     },
     {
       "examId": "lic-hfl-mt-2026",
       "name": "LIC HFL news (Google News)",
       "type": "rss",
       "url": "https://news.google.com/rss/search?q=%22LIC+HFL%22+OR+%22LIC+Housing+Finance%22+management+trainee+2026&hl=en-IN&gl=IN&ceid=IN:en",
-      "keywords": []
+      "keywords": [
+        "LIC HFL",
+        "LIC Housing"
+      ]
     },
     {
       "examId": "lic-hfl-mt-2026",

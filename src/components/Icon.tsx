@@ -8,6 +8,8 @@ const paths: Record<string, string> = {
   external: 'M14 4h6v6M20 4l-9 9M19 14v6H4V5h6',
   pin: 'M12 21s-6-6-6-11a6 6 0 0 1 12 0c0 5-6 11-6 11zM12 12a2 2 0 1 0 0-4 2 2 0 0 0 0 4z',
   clock: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2',
+  lock: 'M6 11V8a6 6 0 0 1 12 0v3M5 11h14v10H5z',
+  shield: 'M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z',
   check: 'M5 12l5 5L20 7',
   plus: 'M12 5v14M5 12h14',
   trash: 'M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v6M14 11v6',

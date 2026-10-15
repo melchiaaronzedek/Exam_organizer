@@ -1,13 +1,10 @@
 import type { CalEvent, DocumentsFile, OpportunitiesFile, Profile, Update, Exam, ExamOverride, ExamsFile, Phase, PhaseKind, ScrapeStatusFile, UpdatesFile } from '../types'
 import { daysUntil } from './dates'
-
-const base = import.meta.env.BASE_URL
+import { fetchJSONData } from './lock'
 
 async function getJSON<T>(path: string, fallback: T): Promise<T> {
   try {
-    const res = await fetch(`${base}${path}?t=${Date.now()}`, { cache: 'no-store' })
-    if (!res.ok) throw new Error(String(res.status))
-    return (await res.json()) as T
+    return await fetchJSONData<T>(path)
   } catch {
     return fallback
   }

@@ -48,6 +48,21 @@ The site is a PWA. On iPhone use Share → Add to Home Screen; on Android Chrome
 
 `public/data/profile.json` holds the public-safe profile (education, role keywords, sectors, home states, minimum pay). `scraper/fit.py` (mirrored in `src/lib/fit.ts`) scores each opening: +40 role keyword, +20 MBA / +15 graduate / +20 agriculture match, +15 sector, +10 South or all-India, +10 pay above the floor, −35 if it demands 2+ years' experience, −30 deputation/retiree posts, −30 engineering/CA/law/medical-only posts. `scraper/discover.py` runs daily after the notice scraper, reads `public/data/discovery_sources.json` (news and aggregator feeds), keeps items with fit ≥ 45 in `opportunities.json → discovered[]`, and the reminder job opens a `🎯` issue (plus Telegram/WhatsApp line) for new items with fit ≥ 60. The curated list was seeded by research on 14 Oct 2026; edit `opportunities.json → curated[]` to correct or add entries. Fit is a keyword score, not eligibility advice: always check the official notification.
 
+## Privacy: the passphrase lock
+
+The published site is locked. At build time `scripts/lock.mjs` encrypts everything under `data/` and `documents/` with AES-256-GCM (key derived from the passphrase with PBKDF2-SHA256, 310,000 rounds) and deletes the plain copies, so the site on GitHub Pages carries only ciphertext plus a `lock.json` check value. The app asks for the passphrase once, derives the key in the browser, and keeps it in memory (or on the device when "Remember on this device" is ticked). Search engines are told not to index the site.
+
+- **Set it up once:** GitHub → Settings → Secrets and variables → Actions → *New repository secret* → name `SITE_PASSPHRASE`, value = the passphrase you want to share. The deploy workflow refuses to publish an unlocked site, so until the secret exists the deploy job fails and the last published version stays up.
+- **Share:** send the address and the passphrase. Nothing else to configure.
+- **Change or revoke:** update the secret and run *Deploy site* (or wait for the next push / daily run). Everyone has to type the new passphrase; devices that remembered the old one are locked out.
+- **Lock a device:** Settings → Privacy → *Lock this device*.
+- **What stays visible:** the repository itself is public, so the raw JSON and the PDFs under `public/documents/` are readable on GitHub, and `calendar.ics` stays unencrypted so calendar apps can subscribe to it. The lock protects the website, not the repo. Making the repo private would stop GitHub Pages on a free plan.
+- Local builds without `SITE_PASSPHRASE` stay unlocked for development; `SITE_PASSPHRASE=x npm run build` produces a locked `dist/`.
+
+## Updates feed
+
+`scraper/scrape.py` reads the official notice boards and Google News searches for every tracked exam. Every headline is classified (admit card, result, notification, exam date, answer key, cut-off, interview, or general); news items that are "general" (prep tips, best books, expected cut-off guesses, explainers) are dropped, items older than 60 days (30 days when undated) are dropped, and outlets carrying the same story collapse into one row (`+n more outlets`). The Updates page opens on **Relevant** (actionable, last 30 days) with exam and type filters; **Everything** shows what remains. `python scraper/scrape.py --test` checks the classifier.
+
 ## Job portals
 
 `scraper/portals.py` runs daily after discovery and scans job portals for fresher-friendly private roles (≤ 6 months' experience; private listings need a stated salary reaching ₹10 LPA, or a known employer's explicit trainee / graduate programme). It opens each LinkedIn, Internshala, TimesJobs, Shine and Freshersworld listing to read the real experience line and pay, and drops agency-style names, scam wording and unknown employers' work-from-home offers.

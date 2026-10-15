@@ -33,6 +33,9 @@ jobs:
           python scraper/build_docs_manifest.py
       - run: npm ci
       - run: npm run build
+        env:
+          CI: true
+          SITE_PASSPHRASE: ${{ secrets.SITE_PASSPHRASE }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

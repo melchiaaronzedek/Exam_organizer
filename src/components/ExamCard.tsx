@@ -8,7 +8,7 @@ import { anyPreferences, cityOf, mapsUrl, nextPhase } from '../lib/data'
 import { daysUntil, fmtShort, isoToday, relative } from '../lib/dates'
 import { DOC_TYPES } from '../lib/vault'
 
-const base = import.meta.env.BASE_URL
+import { openDoc } from '../lib/docs'
 
 export interface ExamCardProps {
   exam: Exam
@@ -246,13 +246,13 @@ export function ExamBody({ exam, override, files = [], onOverride, onPhaseChange
               <ul className="filelist">
                 {files.map((f) => (
                   <li key={f.url}>
-                    <a href={`${base}${f.url}`} target="_blank" rel="noreferrer" className="filelist__name">
+                    <button type="button" onClick={() => void openDoc(f.url, f.file, 'open').catch(() => undefined)} className="filelist__name">
                       <Icon name="file" size={14} /> {f.name}
-                    </a>
+                    </button>
                     <span className="muted small">{typeLabel(f.type)}</span>
-                    <a href={`${base}${f.url}`} download={f.file} className="iconbtn iconbtn--ghost" aria-label="Download">
+                    <button type="button" onClick={() => void openDoc(f.url, f.file, 'download').catch(() => undefined)} className="iconbtn iconbtn--ghost" aria-label="Download">
                       <Icon name="download" size={14} />
-                    </a>
+                    </button>
                   </li>
                 ))}
               </ul>
