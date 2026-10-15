@@ -11,6 +11,7 @@ import { StatusChip } from '../components/StatusChip'
 import { dueEvents } from '../lib/notify'
 import { prefsStore, seenStore } from '../lib/storage'
 import { useJobs } from '../lib/useJobs'
+import { experienceLabel } from '../lib/fit'
 import type { CalEvent } from '../types'
 
 export function Dashboard() {
@@ -243,6 +244,7 @@ export function Dashboard() {
                   <span className="match__post">{o.post}</span>
                   <span className="match__meta muted">
                     {o.pay ? <span className="mono">{o.pay}</span> : null}
+                    <span title={experienceLabel(o, J.prof).long}>{experienceLabel(o, J.prof).text}</span>
                     {o.applyCloses ? <span>closes {fmtShort(o.applyCloses)} · {relative(o.days)}</span> : o.postedAt ? <span>posted {fmtShort(o.postedAt)}</span> : null}
                     {o.locations?.length ? <span>{o.locations.slice(0, 2).join(', ')}</span> : null}
                   </span>

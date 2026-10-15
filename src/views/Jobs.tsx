@@ -5,6 +5,8 @@ import { useEntrance } from '../lib/useEntrance'
 import { markJobsVisited, useJobs, type JobItem } from '../lib/useJobs'
 import { profileStore } from '../lib/storage'
 import { fmtShort, relative } from '../lib/dates'
+import { experienceLabel } from '../lib/fit'
+import { plainText } from '../lib/text'
 import type { OppTrack } from '../types'
 
 const TRACKS: { id: OppTrack | 'all'; label: string }[] = [
@@ -300,7 +302,8 @@ function JobRow({ o, i, tab, isOpen, onToggle, J, swipe }: { o: JobItem; i: numb
   const applied = jobs.applied.includes(o.id)
   const payMin = o.payMinLakh ?? o.payLakh ?? null
   const payGood = payMin != null && payMin >= (J.prof.privateMinPayLakh ?? 10)
-  const expLabel = o.expOk ? (o.experienceMinYears === 0 || /fresher/i.test(o.experienceText ?? '') ? 'Fresher OK' : o.experienceText ? `${o.experienceText}` : null) : `needs ${o.experienceMinYears ?? ''}+ yrs`
+  const exp = experienceLabel(o, J.prof)
+  const checked = o.checkedVia === 'exa' ? 'listing page read via Exa' : o.checked ? 'listing page opened and read' : o.sourceType === 'portal' ? 'only the portal summary was readable' : null
   const posted = o.postedAt ?? o.firstSeen?.slice(0, 10)
   const grade = (o.fit ?? 0) >= 70 ? 'high' : (o.fit ?? 0) >= 45 ? 'mid' : 'low'
   return (
@@ -373,7 +376,7 @@ function JobRow({ o, i, tab, isOpen, onToggle, J, swipe }: { o: JobItem; i: numb
           {o.vacancies ? <span className="muted">· {o.vacancies} posts</span> : null}
         </span>
         <span className="job__tags">
-          {expLabel ? <span className={`src ${o.expOk ? 'src--ok' : 'src--warn'}`}>{expLabel}</span> : null}
+          <span className={`src ${exp.tone === 'ok' ? 'src--ok' : exp.tone === 'warn' ? 'src--warn' : 'src--muted'}`} title={exp.long}>{exp.text}</span>
           {o.sourceType === 'portal' ? <span className={`src ${o.trust === 'verified' ? 'src--ok' : ''}`} title={o.trust === 'verified' ? 'Employer is on the known-company list' : 'Employer is not on the known-company list; check the company before applying'}>{o.trust === 'verified' ? '✓ Verified employer' : 'Unverified employer'}</span> : null}
           {o.sourceType === 'portal' && o.payStated === false ? <span className="src">pay not listed</span> : null}
           <span className={`src src--${o.sourceType}`}>{o.sourceType === 'portal' ? o.source : o.sourceType}</span>
@@ -386,7 +389,8 @@ function JobRow({ o, i, tab, isOpen, onToggle, J, swipe }: { o: JobItem; i: numb
       <div className={`job__expand ${isOpen ? 'is-open' : ''}`}>
         <div className="job__expand-inner">
           <dl className="qf">
-            {o.eligibility ? <Row k={o.sourceType === 'portal' ? 'Experience' : 'Eligibility'} v={o.eligibility} /> : null}
+            <Row k="Experience" v={`${exp.long}${checked ? ` · ${checked}` : ''}`} />
+            {o.sourceType !== 'portal' && o.eligibility ? <Row k="Eligibility" v={o.eligibility} /> : null}
             {o.ageMax ? <Row k="Age" v={`≤ ${o.ageMax} (SC relaxation usually +5)`} /> : null}
             {o.vacancies ? <Row k="Vacancies" v={String(o.vacancies)} /> : null}
             {o.pay ? <Row k="Pay" v={o.pay} /> : null}
@@ -394,7 +398,7 @@ function JobRow({ o, i, tab, isOpen, onToggle, J, swipe }: { o: JobItem; i: numb
             {o.examDate ? <Row k="Exam" v={`${fmtShort(o.examDate)}${o.examDateType === 'tentative' ? ' (tentative)' : ''}`} /> : null}
             {o.lastCycle ? <Row k="Last cycle" v={o.lastCycle} /> : null}
             {o.locations?.length ? <Row k="Where" v={o.locations.join(', ')} /> : null}
-            {o.summary ? <Row k="Listing" v={o.summary + '…'} /> : null}
+            {o.summary ? <Row k="Listing" v={plainText(o.summary) + '…'} /> : null}
             {o.website ? <Row k="Company site" v={o.website} /> : null}
             {o.note ? <Row k="Note" v={o.note} /> : null}
             <Row k="Why it fits" v={(o.fitWhy ?? []).join(' · ') || '—'} />

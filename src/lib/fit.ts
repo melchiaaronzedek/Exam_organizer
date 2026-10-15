@@ -27,6 +27,35 @@ export function needsExperience(o: Opportunity, p: Profile): boolean {
   return m != null && m > max
 }
 
+export interface ExperienceLabel {
+  text: string
+  tone: 'ok' | 'warn' | 'muted'
+  /** One sentence for the detail row and the chip's hover text. */
+  long: string
+}
+
+/** The one experience verdict every row shows: needed, not needed, or not mentioned, and where that came from. */
+export function experienceLabel(o: Opportunity, p: Profile): ExperienceLabel {
+  const max = p.maxExperienceYears ?? 0.5
+  const months = Math.round(max * 12)
+  if (needsExperience(o, p)) {
+    const m = typeof o.experienceMinYears === 'number' ? o.experienceMinYears : experienceMin(textOf(o))
+    return { text: `needs ${m ?? ''}+ yrs`, tone: 'warn', long: o.experienceNote || `Asks for ${m}+ years of experience — above the ${months}-month limit` }
+  }
+  if (o.sourceType === 'portal') {
+    const src = o.experienceSource ?? (o.experienceText && o.experienceText !== 'not stated' ? 'listing' : 'none')
+    const note = o.experienceNote || ''
+    if (src === 'title') return { text: 'Fresher programme', tone: 'ok', long: note || 'Fresher programme by its title — years of experience not stated in the listing' }
+    if (src === 'none') return { text: 'Experience not mentioned', tone: 'muted', long: note || 'Experience not mentioned in the listing' }
+    const min = typeof o.experienceMinYears === 'number' ? o.experienceMinYears : experienceMin(o.experienceText ?? '')
+    if (min != null && min > 0) return { text: `≤ ${o.experienceText ?? `${min} yrs`}`, tone: 'ok', long: note || `Fresher OK — the listing asks ${o.experienceText ?? `${min} yrs`}` }
+    return { text: 'Fresher OK', tone: 'ok', long: note || `Fresher OK — ${o.experienceText && o.experienceText !== 'not stated' ? `the listing says ${o.experienceText}` : 'no experience asked'}` }
+  }
+  const m = experienceMin(textOf(o))
+  if (m === 0) return { text: 'Freshers eligible', tone: 'ok', long: 'The notice says freshers are eligible' }
+  return { text: 'Freshers eligible', tone: 'ok', long: 'No work experience asked — the notice is open on qualification and age' }
+}
+
 /** Mirror of scraper/fit.py. */
 export function fitScore(o: Opportunity, p: Profile): { score: number; why: string[] } {
   const text = textOf(o)

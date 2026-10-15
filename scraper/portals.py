@@ -11,6 +11,7 @@ Usage: python portals.py [--dry-run] [--fixture path.json] [--only Name,Name] [-
 """
 from __future__ import annotations
 
+import html as html_lib
 import json
 import re
 import sys
@@ -23,7 +24,10 @@ from typing import Callable, NamedTuple
 import requests
 from bs4 import BeautifulSoup
 
+from urllib.parse import urlparse
+
 from common import env, load_json, now_ist, save_json, today_ist
+from exa import exa_contents, exa_search
 from fit import score
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
@@ -31,6 +35,7 @@ CAP = 200
 KEEP_DAYS = 30
 TIMEOUT = 30
 DETAIL_CAP = 320          # listings opened per run to read the real requirements
+EXA_DETAIL_CAP = 150      # listing pages read through Exa per run (sites that block us, or no detail parser)
 TIME_BUDGET = 420         # seconds of search fetching before the rest is skipped
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -86,6 +91,43 @@ def parse_experience(text: str | None) -> float | None:
     if m:
         return int(m.group(1)) / 12
     return None
+
+
+def clean_text(s: str | None) -> str:
+    """Plain text out of a portal description: entities decoded, tags and zero-width characters dropped, whitespace collapsed."""
+    if not s:
+        return ""
+    t = html_lib.unescape(str(s))
+    t = re.sub(r"<\s*(?:br|/p|/li|/div|/h\d|/tr)\s*/?>", " ", t, flags=re.I)
+    t = re.sub(r"<[^>]+>", " ", t)
+    t = html_lib.unescape(t).replace("\xa0", " ").replace("\u200b", "").replace("\ufeff", "")
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def experience_in_text(text: str | None) -> float | None:
+    """Minimum years asked for in a long page text: only year figures that sit next to the word experience count."""
+    if not text:
+        return None
+    t = text.lower().replace("–", "-")
+    if re.search(r"\b(freshers?|no (?:prior |work )?experience|experience not required|experience:?\s*0\s*(?:-|to)\s*\d|0\s*(?:-|to)\s*\d\s*(?:yrs?|years?))\b", t):
+        return 0.0
+    best = None
+    for m in re.finditer(r"(\d+(?:\.\d+)?)\s*(?:(?:-|to)\s*(\d+(?:\.\d+)?))?\s*\+?\s*(?:yrs?|years?)", t):
+        ctx = t[max(0, m.start() - 90): m.end() + 60]
+        if re.search(r"experience|\bexp\b|background in|worked in|track record", ctx):
+            v = float(m.group(1))
+            best = v if best is None else min(best, v)
+    return best
+
+
+def summarize(desc: str, limit: int = 320) -> str | None:
+    """The first `limit` characters of a description, cut at a word boundary."""
+    if not desc:
+        return None
+    if len(desc) <= limit:
+        return desc
+    cut = desc[:limit]
+    return cut[: cut.rfind(" ")] if " " in cut[limit // 2:] else cut
 
 
 def parse_salary(text: str | None) -> tuple[float, float] | None:
@@ -1390,20 +1432,24 @@ def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
     if pre:
         return None, pre
     title, company = raw["title"], raw["company"]
-    desc = raw.get("description") or ""
+    desc = clean_text(raw.get("description"))
     hay = f"{title} {desc}"
     trust, treason = trust_of(company, f"{title} {company} {desc}", raw.get("website"))
     if trust == "reject":
         return None, treason or "untrusted"
-    # Experience: the listing's own field first, then the description text.
-    exp_min = parse_experience(raw.get("experienceText"))
+    # Experience: the listing's own field, then the description / page text, then the title; remember where it came from.
+    via = raw.get("verifiedVia") or ("page" if raw.get("verified") else None)
+    exp_min, exp_src = parse_experience(raw.get("experienceText")), "listing"
     if exp_min is None:
-        exp_min = parse_experience(hay)
+        exp_min = experience_in_text(hay) if len(desc) > 600 else parse_experience(hay)
+        exp_src = {"exa": "exa", "page": "page"}.get(via or "", "description") if exp_min is not None else None
     if exp_min is None and (raw.get("seniority") or "").lower() in ("entry level", "internship"):
-        exp_min = 0.0
+        exp_min, exp_src = 0.0, "listing"
+    if exp_min is None and FRESHER_TITLE_RX.search(title):
+        exp_min, exp_src = 0.0, "title"
     max_exp = float(profile.get("maxExperienceYears", 0.5))
-    exp_unknown = exp_min is None
-    if exp_unknown:
+    exp_unknown = exp_src in (None, "title")  # a trainee-sounding title is a hint, not a stated requirement
+    if exp_min is None:
         exp_min = 0.0
     if exp_min > max_exp:
         return None, f"needs {exp_min:g}+ yrs"
@@ -1443,24 +1489,36 @@ def qualify(raw: dict, profile: dict) -> tuple[dict | None, str]:
         why.append("verified employer")
     else:
         why.append("employer not in the known list")
-    if exp_unknown:
+    where = {"listing": "the listing", "description": "the description", "page": "the listing page", "exa": "the page (read via Exa)"}.get(exp_src or "", "")
+    stated = (raw.get("experienceText") or "").strip()
+    if exp_src == "title":
+        fit = max(0, fit - 10)
+        why.append("fresher programme by title")
+        note = "Fresher programme by its title — years of experience not stated in the listing"
+    elif exp_src is None:
         fit = max(0, fit - 15)
-        why.append("experience not stated")
+        why.append("experience not mentioned")
+        note = "Experience not mentioned in the listing" + (" (the full page was read)" if via else " (only the summary was readable)")
+    elif exp_min == 0:
+        why.append("fresher OK")
+        note = f"Fresher OK — {where} says {stated or 'freshers / 0 years'}"
     else:
         why.append("fresher OK")
+        note = f"Fresher OK — {where} asks {stated or f'{exp_min:g} yrs'} (within {max_exp:g} yr{'s' if max_exp != 1 else ''})"
     if raw.get("verified"):
-        why.append("listing opened and checked")
+        why.append("listing opened and checked" + (" via Exa" if via == "exa" else ""))
     return {
         "org": company[:80], "post": title[:140], "title": title, "sector": "private", "track": "private",
-        "eligibility": raw.get("experienceText") or ("experience not stated" if exp_unknown else ""),
-        "experienceText": "not stated" if exp_unknown else (raw.get("experienceText") or ("fresher" if exp_min == 0 else f"{exp_min:g} yrs")),
-        "experienceMinYears": None if exp_unknown else exp_min,
+        "eligibility": note,
+        "experienceText": stated or ("not stated" if exp_src in (None, "title") else ("fresher" if exp_min == 0 else f"{exp_min:g} yrs")),
+        "experienceMinYears": None if exp_src is None else exp_min,
+        "experienceSource": exp_src or "none", "experienceNote": note, "checkedVia": via,
         "pay": fmt_pay(sal), "payLakh": sal[0] if sal else None, "payMinLakh": sal[0] if sal else None, "payMaxLakh": sal[1] if sal else None, "payStated": bool(sal),
         "trust": trust, "trustWhy": known_employer(company) if trust == "verified" else None, "website": raw.get("website"), "checked": bool(raw.get("verified")),
         "locations": locs, "link": raw.get("url"), "source": raw.get("source"), "sourceType": "portal",
         "fit": fit, "fitWhy": why, "status": "open", "postedAt": raw.get("postedAt"), "applyCloses": raw.get("applyCloses"),
         "examDate": None, "examDateType": "tba", "curated": False, "kind": "portal",
-        "summary": re.sub(r"\s+", " ", desc)[:280] if desc else None,
+        "summary": summarize(desc),
     }, "ok"
 
 
@@ -1473,6 +1531,55 @@ def item_id(url: str, org: str, post: str) -> str:
     import hashlib
 
     return "portal-" + hashlib.sha1((url or org + post).encode()).hexdigest()[:12]
+
+
+# ── Exa (neural web search; finds campus / trainee programmes on company sites and reads pages other portals block) ──
+EXA_QUERIES = (
+    "management trainee programme 2026 MBA freshers India apply",
+    "marketing trainee MBA 2026 batch India careers",
+    "leadership program MBA graduates 2026 India apply now",
+    "brand management associate fresher MBA India job",
+    "market research analyst fresher MBA India 2026 opening",
+    "graduate management programme India 2026 applications open",
+)
+SALARY_PHRASE_RX = re.compile(r"((?:₹|rs\.?|inr)\s*[\d.,]+\s*(?:-|to)\s*[\d.,]+\s*(?:lpa|lakhs?|lacs?|l\b|per annum|p\.a\.?)|\b\d+(?:\.\d+)?\s*(?:-|to)\s*\d+(?:\.\d+)?\s*(?:lpa|lakhs?|lacs?)(?:\s*(?:p\.?a\.?|per annum))?)", re.I)
+CITY_RX = re.compile(r"\b(mumbai|navi mumbai|delhi|new delhi|gurgaon|gurugram|noida|bengaluru|bangalore|chennai|hyderabad|pune|kolkata|ahmedabad|visakhapatnam|vizag|vijayawada|coimbatore|kochi|jaipur|indore|lucknow|chandigarh|remote|pan india|across india)\b", re.I)
+
+
+def _host_company(url: str) -> str:
+    host = (urlparse(url).hostname or "").lower()
+    host = re.sub(r"^(www|careers?|jobs?|apply|recruit(?:ment)?|hr|people)\.", "", host)
+    label = host.split(".")[0] if host else ""
+    return label.replace("-", " ").title() if label and label not in ("linkedin", "naukri", "indeed", "glassdoor", "unstop", "internshala", "iimjobs", "shine", "foundit") else ""
+
+
+def parse_exa_result(r: dict) -> dict:
+    """One Exa result → the standard raw listing dict (company from the allow-list match in the title, else the site's name)."""
+    full = clean_text(r.get("title"))
+    segs = [x.strip() for x in re.split(r"\s+(?:\||[-–—]|::|·)\s+", full) if x.strip()]
+    title, company = (segs[0] if segs else full), ""
+    for seg in reversed(segs[1:]):  # "Careers at Hindustan Unilever", "Asian Paints" usually trail the role
+        if known_employer(seg):
+            company = re.sub(r"^(?:careers?|jobs?|openings?|work(?:ing)?)\s+(?:at|with)\s+|\s+(?:careers?|jobs?)$", "", seg, flags=re.I).strip()
+            break
+    text = clean_text(r.get("text"))
+    if not company:
+        hit = known_employer(full + " " + text[:200])
+        company = hit.title() if hit else _host_company(r.get("url") or "")
+    exp = experience_in_text(text)
+    sal = SALARY_PHRASE_RX.search(text)
+    city = CITY_RX.search(text)
+    return {
+        "title": title, "company": company, "location": city.group(1).title() if city else "",
+        "url": r.get("url") or "", "salaryText": sal.group(1) if sal else None,
+        "experienceText": ("fresher" if exp == 0 else f"{exp:g}+ yrs") if exp is not None else None,
+        "postedAt": (r.get("publishedDate") or "")[:10] or None, "description": text[:1500],
+        "website": (urlparse(r.get("url") or "").hostname or "").lower() or None,
+    }
+
+
+def exa_portal(q: str) -> list[dict]:
+    return [parse_exa_result(r) for r in exa_search(q, num=25, days=21, exclude=SHADY_DOMAINS)]
 
 
 # ───────────────────────── registry ─────────────────────────
@@ -1505,6 +1612,7 @@ PORTALS: list[Portal] = [
     Portal("Freshersworld", freshersworld, CORE_QUERIES, detail=freshersworld_detail, needs_detail=_missing_fields),
     Portal("Adzuna", adzuna, enabled=_needs_keys("ADZUNA_APP_ID", "ADZUNA_APP_KEY")),
     Portal("Jooble", jooble, CORE_QUERIES, enabled=_needs_keys("JOOBLE_API_KEY")),
+    Portal("Exa", exa_portal, EXA_QUERIES, enabled=_needs_keys("EXA_API_KEY")),
 ]
 PORTAL_BY_NAME = {p.name: p for p in PORTALS}
 BLOCKED: set[str] = set()
@@ -1630,10 +1738,10 @@ def main(argv: list[str]) -> int:
     for d in opp.get("portal", []):
         if (d.get("firstSeen") or "")[:10] < keep_after:
             continue
-        re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": None if d.get("experienceText") in ("not stated", "0-0 years") else d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source"), "description": d.get("summary") or "", "verified": d.get("checked")}, profile)
+        re_item, _ = qualify({**d, "company": d.get("org"), "title": d.get("post"), "url": d.get("link"), "salaryText": d.get("pay"), "experienceText": None if d.get("experienceText") in ("not stated", "0-0 years") else d.get("experienceText"), "location": ", ".join(d.get("locations") or []), "source": d.get("source"), "description": d.get("summary") or "", "verified": d.get("checked"), "verifiedVia": d.get("checkedVia")}, profile)
         if not re_item:
             continue
-        for k in ("org", "locations", "trust", "trustWhy", "fit", "fitWhy", "payStated"):
+        for k in ("org", "locations", "trust", "trustWhy", "fit", "fitWhy", "payStated", "eligibility", "experienceNote", "experienceSource", "checkedVia", "summary"):
             d[k] = re_item[k]
         existing[d["id"]] = d
     baseline = not opp.get("portal")
@@ -1660,6 +1768,23 @@ def main(argv: list[str]) -> int:
         with ThreadPoolExecutor(max_workers=6) as pool:
             list(pool.map(verify, to_check))
         print(f"opened {sum(1 for r in to_check if r.get('verified'))}/{len(to_check)} listings to check requirements")
+    # Listings we could not open ourselves (blocked sites, no detail parser, or still no experience line): read them through Exa.
+    if not fixture and not dry and env("EXA_API_KEY"):
+        exa_cands = [r for r in survivors if r.get("url") and r.get("source") != "Exa" and (not r.get("verified") or not r.get("experienceText"))]
+        exa_cands = _interleave_by_source([r for r in exa_cands if is_known_employer(r.get("company") or "")]) + _interleave_by_source([r for r in exa_cands if not is_known_employer(r.get("company") or "")])
+        exa_cands = exa_cands[:EXA_DETAIL_CAP]
+        if exa_cands:
+            try:
+                texts = exa_contents([r["url"] for r in exa_cands])
+            except Exception as e:  # noqa: BLE001
+                texts = {}
+                print(f"[fail] Exa page reads: {str(e)[:100]}")
+            for r in exa_cands:
+                text = texts.get(r["url"])
+                if text and len(text) > 200:
+                    r["description"] = text[:6000]
+                    r["verified"], r["verifiedVia"] = True, "exa"
+            print(f"exa read {sum(1 for r in exa_cands if r.get('verifiedVia') == 'exa')}/{len(exa_cands)} listing pages")
     for raw in survivors:
         item, reason = qualify(raw, profile)
         key = "pay below bar" if reason.startswith("pay ") else reason
@@ -1725,6 +1850,20 @@ def self_test() -> int:
     def fixture(name: str) -> str:
         return (FIXTURES / name).read_text(encoding="utf-8")
 
+    razorpay = "<p><strong>Razorpay is hiring for the role of Junior Analyst!</strong></p> <ul> <li>Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately.&nbsp;</li> <li>Handle transaction queries i&hellip;"
+    ct = clean_text(razorpay)
+    ok = "<" not in ct and "&nbsp;" not in ct and ct.startswith("Razorpay is hiring for the role of Junior Analyst! Monitor")
+    bad += not ok
+    print(f"{'ok ' if ok else 'BAD'} clean_text -> {ct[:70]!r}")
+    for text, want in [("Minimum 3 years of experience in risk operations.", 3.0), ("Freshers welcome. Founded 25 years ago.", 0.0), ("Founded 25 years ago; great culture.", None), ("Experience: 0-2 years", 0.0), ("4+ yrs of relevant experience required", 4.0)]:
+        got = experience_in_text(text)
+        ok = got == want
+        bad += not ok
+        print(f"{'ok ' if ok else 'BAD'} exp-in-text {text[:40]!r:<42} -> {got}")
+    exa_rows = [parse_exa_result(r) for r in json.loads((FIXTURES / "exa_search.json").read_text(encoding="utf-8"))["results"]]
+    ok = len(exa_rows) == 2 and exa_rows[0]["company"] == "Hindustan Unilever" and exa_rows[0]["experienceText"] == "fresher" and exa_rows[0]["salaryText"] and exa_rows[0]["url"].startswith("http") and exa_rows[1]["experienceText"] == "3+ yrs" and exa_rows[1]["company"] == "Asian Paints"
+    bad += not ok
+    print(f"{'ok ' if ok else 'BAD'} parser Exa            {[(r['company'], r['experienceText'], r['salaryText']) for r in exa_rows]}")
     parser_cases = [
         ("iimjobs", parse_iimjobs, "iimjobs.html", 3, {"experienceText": "0-2 yrs", "salaryText": "12-15 LPA", "company": "Hindustan Unilever", "title": "Management Trainee - Marketing - FMCG"}),
         ("TimesJobs", parse_timesjobs, "timesjobs.html", 2, {"experienceText": "0 - 2 yrs"}),
@@ -1795,6 +1934,17 @@ def self_test() -> int:
     ok = reason == "ok" and (item or {}).get("pay") == "₹12–15 LPA"
     bad += not ok
     print(f"{'ok ' if ok else 'BAD'} qualify TimesJobs card -> {reason} {(item or {}).get('pay')}")
+    note_cases = [
+        ("listing", raws[0], "ok", "listing", "Fresher OK — the listing says 0-1 Yrs"),
+        ("title", {"title": "Management Trainee", "company": "Wipro Limited", "location": "Bengaluru", "url": "https://x/6", "description": "Join our programme.", "source": "Unstop"}, "ok", "title", "Fresher programme by its title"),
+        ("none", {"title": "Marketing Associate", "company": "Hindustan Unilever", "location": "Mumbai", "url": "https://x/7", "salaryText": "12-15 Lacs PA", "description": "<p>Great role&nbsp;at HUL.</p>", "source": "Unstop"}, "ok", "none", "Experience not mentioned in the listing (only the summary was readable)"),
+        ("exa page", {"title": "Junior Analyst - Risk Management", "company": "Razorpay", "location": "Bangalore", "url": "https://x/8", "description": json.loads((FIXTURES / "exa_contents.json").read_text(encoding="utf-8"))["results"][0]["text"] * 8, "verified": True, "verifiedVia": "exa", "source": "Unstop"}, "needs 3+ yrs", None, None),
+    ]
+    for label, r, want_reason, want_src, want_note in note_cases:
+        item, reason = qualify(dict(r), profile)
+        ok = reason == want_reason and (want_src is None or (item or {}).get("experienceSource") == want_src) and (want_note is None or (item or {}).get("experienceNote", "").startswith(want_note))
+        bad += not ok
+        print(f"{'ok ' if ok else 'BAD'} note {label:<9} -> {reason} | {(item or {}).get('experienceSource')} | {(item or {}).get('experienceNote')} | {((item or {}).get('summary') or '')[:40]!r}")
     return 1 if bad else 0
 
 
