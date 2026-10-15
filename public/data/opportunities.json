@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T12:02:07+05:30",
+  "discoveredAt": "2026-10-15T13:14:02+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4776,7 +4776,7 @@
       "summary": null,
       "id": "portal-bd518d0de87f",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30"
+      "lastSeen": "2026-10-15T13:14:07+05:30"
     },
     {
       "org": "Marriott International",
@@ -4826,7 +4826,7 @@
       "summary": "Additional Information Job Number 26129379 Job Category Management Development Programs/Interns Location 303A-304 Fulcrum B Wing Hiranandani Business Park, Sahar Road Andheri East, Mumbai Mahar 400099, India VIEW ON MAP Schedule Full Time Located Remotely? N Position Type Management Job Summary The Voyage Global",
       "id": "portal-79c17d627215",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30"
+      "lastSeen": "2026-10-15T13:14:07+05:30"
     },
     {
       "org": "Tata Capital Finance Limited",
@@ -4871,7 +4871,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30",
+      "lastSeen": "2026-10-15T13:14:07+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -4919,7 +4919,7 @@
       "summary": null,
       "id": "portal-3538a835c323",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30",
+      "lastSeen": "2026-10-15T13:14:07+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -4968,7 +4968,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30",
+      "lastSeen": "2026-10-15T13:14:07+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5016,7 +5016,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30",
+      "lastSeen": "2026-10-15T13:14:07+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5063,7 +5063,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30",
+      "lastSeen": "2026-10-15T13:14:07+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5111,14 +5111,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-15T12:02:13+05:30",
+      "lastSeen": "2026-10-15T13:14:07+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-15T12:02:13+05:30",
+  "portalAt": "2026-10-15T13:14:07+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -5133,19 +5133,19 @@
     },
     {
       "name": "Glassdoor",
-      "ok": true,
-      "fetched": 30,
-      "errors": 1,
+      "ok": false,
+      "fetched": 0,
+      "errors": 2,
       "error": "blocked (cloudflare: just a moment)",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 30
+      "state": "blocked",
+      "reason": "cloudflare: just a momen",
+      "scanned": 0
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 8,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -5164,12 +5164,12 @@
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 337,
+      "fetched": 340,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 337
+      "scanned": 340
     },
     {
       "name": "LinkedIn",
@@ -5184,12 +5184,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 424,
+      "fetched": 426,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 424
+      "scanned": 426
     },
     {
       "name": "iimjobs",
