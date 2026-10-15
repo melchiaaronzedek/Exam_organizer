@@ -215,6 +215,10 @@ export interface Opportunity {
   payMaxLakh?: number | null
   experienceText?: string
   experienceMinYears?: number | null
+  /** Where the experience verdict came from: the listing's own field, its description, the opened page, Exa's page read, only the title, or nothing. */
+  experienceSource?: 'listing' | 'description' | 'page' | 'exa' | 'title' | 'none'
+  experienceNote?: string | null
+  checkedVia?: 'page' | 'exa' | null
   postedAt?: string | null
   lastSeen?: string
   trust?: 'verified' | 'unverified'

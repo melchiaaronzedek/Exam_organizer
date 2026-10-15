@@ -62,6 +62,9 @@ The site is a PWA. On iPhone use Share → Add to Home Screen; on Android Chrome
 | Indeed, Glassdoor | rendered through the `r.jina.ai` reader | **best effort**: both sites bot-check datacenter IPs, so the footer normally shows "✗ cloudflare" or "✗ reader: no job links" |
 | Adzuna | official API | off until `ADZUNA_APP_ID` and `ADZUNA_APP_KEY` are added as repo secrets (free at https://developer.adzuna.com → *Add application*) |
 | Jooble | official API | off until `JOOBLE_API_KEY` is added (request one at https://jooble.org/api/about) |
+| Exa | neural web search (api.exa.ai) | off until `EXA_API_KEY` is added (https://dashboard.exa.ai → API keys; new accounts get trial credit). Used two ways: six searches a day for trainee / campus programmes on company career sites, and reading up to 150 listing pages a day that the portals block (Naukri, Indeed, Glassdoor, Freshersworld, Foundit detail pages) so the experience line and pay come from the real page. Roughly $5 per 1,000 searches and $1 per 1,000 page reads, about $0.20 a day at these caps |
+
+Every job row carries one experience verdict — *Fresher OK*, *≤ 0-2 yrs*, *Fresher programme* (only the title says so), *Experience not mentioned*, or *needs N+ yrs* — and the row's detail panel says where it came from (the listing's own field, its description, the opened page, or Exa's page read).
 
 Add keys under *Settings → Secrets and variables → Actions*. The Jobs page footer shows each portal as `✓ n` (listings scanned), `✗ reason` or `– off`, and a Source filter row lets you look at one portal at a time. Locally: `python scraper/portals.py --test` runs every parser against the snippets in `scraper/fixtures/`; `python scraper/portals.py --dry-run --only TimesJobs,Shine` fetches just those portals without writing.
 
