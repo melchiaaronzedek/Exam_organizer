@@ -262,16 +262,17 @@
           "id": "prelims-admit",
           "name": "Prelims admit card",
           "kind": "admit-card",
-          "dateType": "tba",
-          "status": "tba",
-          "note": "Usually ~7–10 days before prelims."
+          "dateType": "confirmed",
+          "status": "done",
+          "note": "Call letter downloaded.",
+          "date": "2026-10-14"
         },
         {
           "id": "prelims",
           "name": "Phase I – Preliminary exam",
           "kind": "exam",
           "date": "2026-10-22",
-          "dateType": "tentative",
+          "dateType": "confirmed",
           "status": "upcoming",
           "centre": {
             "preferences": [
@@ -279,8 +280,11 @@
               "Visakhapatnam",
               "Tirupati"
             ],
-            "allotted": null
-          }
+            "allotted": "Chennai",
+            "venue": "ION Digital Zone IDZ, Kovilambakkam, Fortune Towers, Thoraipakkam–Pallavaram Radial Road, Eachangadu Signal, Chennai 600117"
+          },
+          "timeNote": "Reporting 08:00 AM (be there by 07:45)",
+          "note": "Call letter received. Same centre as PFRDA Phase I. Carry the printed call letter with a recent photo affixed and a photocopy of the photo ID stapled to it, the same ID in original, and a ball-point pen; thumb impression and signature are done in front of the invigilator. Biometric capture at entry: hands clean, no mehendi or ink. Dress: light clothes, half sleeves, slippers or sandals, no shoes."
         },
         {
           "id": "mains",
@@ -317,10 +321,11 @@
         "selection": "Prelims → Mains + descriptive → Interview",
         "pay": "Scale I: ₹50,925 – ₹96,765",
         "carry": [
-          "Call letter",
-          "Photo ID (same as application)",
-          "Passport photo",
-          "Printed application (if asked)"
+          "Printed call letter with recent photo affixed",
+          "Photocopy of photo ID stapled to the call letter",
+          "Same photo ID in original",
+          "Ball-point pen",
+          "Ink stamp pad (optional, for the thumb impression)"
         ]
       },
       "postingPreferences": [

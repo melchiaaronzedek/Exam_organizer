@@ -1,5 +1,5 @@
 {
-  "count": 10,
+  "count": 11,
   "documents": [
     {
       "examId": "aai-je-2026",
@@ -80,6 +80,15 @@
       "file": "UIIC_AO_Generalist_application.pdf",
       "url": "documents/uiic-ao-2026/application__UIIC_AO_Generalist_application.pdf",
       "size": 239660,
+      "ext": "pdf"
+    },
+    {
+      "examId": "uiic-ao-2026",
+      "type": "hall-ticket",
+      "name": "UIIC AO Phase1 call letter",
+      "file": "UIIC_AO_Phase1_call_letter.pdf",
+      "url": "documents/uiic-ao-2026/hall-ticket__UIIC_AO_Phase1_call_letter.pdf",
+      "size": 308503,
       "ext": "pdf"
     },
     {
