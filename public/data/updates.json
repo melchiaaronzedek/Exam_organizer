@@ -1,50 +1,392 @@
 {
-  "updatedAt": "2026-10-15T13:12:05+05:30",
+  "updatedAt": "2026-10-16T12:58:53+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "0d0fd0dffced8da9",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
-      "source": "PFRDA careers",
+      "id": "13acfef36570b105",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "City Gas Distribution(CGD)",
+      "url": "https://iocl.com/pages/cgd",
+      "source": "IOCL latest job openings",
       "publishedAt": null,
-      "firstSeen": "2026-10-15T13:12:05+05:30",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
       "kind": "other",
-      "alsoIn": 5
+      "alsoIn": 1
     },
     {
-      "id": "a6f69ea970b9db41",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=yqAYefVlpk5cCi7qeAjFmg1HBHEYae4F8%2B8FNDHmuO6Gc7Vfv2dURe89Qobo0ASXIJkl%2FDtlSn%2FYsubOumViTwyoxJ4Pc6tZS%2BPKsghgM0DXM8vCIAhBqmCZWjMQrS41m7rinAAIJXO5f4RpY%2BNO0w%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
+      "id": "9326e128a59d1778",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Chief Vigilance Officer",
+      "url": "https://iocl.com/pages/Vigilance",
+      "source": "IOCL latest job openings",
       "publishedAt": null,
-      "firstSeen": "2026-10-15T13:12:05+05:30",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "991cce0ff8f1d0c9",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Application for New CGD Customer connectivity",
+      "url": "https://iocl.com/pages/Application-for-New-CGD-Customer-connectivity",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "e9b205b60e6f9ac8",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Nodal Officer",
+      "url": "https://iocl.com/nodal-officer",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "35413e2c6c9a4764",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Executives in Indian Oil Corporation Limited through Computer Based Test (CBT) - 2026**",
+      "url": "https://iocl.com/latest-job-opening",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "3ee2b8f43d85526a",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Click here to view Result of GD/GT & PI(Available for download between 15/Sep/2025 to 25/Sep/2025",
+      "url": "https://www.digialm.com//EForms/configuredHtml/1258/92914/login.html",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "201c94fbaffc41ef",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Click here to know the Final results for the Post of Junior Operator (Aviation) Grade I",
+      "url": "https://ioclsrmd.onlinereg.in/skandhaofl22/ApplicantLogin.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "b531809221f0399a",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Click here to check your result",
+      "url": "https://www.iocrefrecruit.in/iocrefrecruit/print-result",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "dd3349bc12ca4656",
+      "id": "43eb31ff23cd581e",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Requirement of Experienced Non-Executive Personnel at Bongaigaon Refinery**",
+      "url": "https://www.iocrefrecruit.in/iocrefrecruit/index",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "f45d2cb9fe8850bd",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Quality Control Officers, 2017 - Call-letters for Personal Interview**",
+      "url": "http://180.179.13.165/IOCLDELHICLTR17live/login.aspx#no-back-button",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 2
+    },
+    {
+      "id": "7e0d1b2bb65c812f",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Medical Officers, 2017 - Call-letters for Personal Interview**",
+      "url": "http://180.179.13.165/IOCLDELHICLTR17live/MLogin.aspx#no-back-button",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "c6b02b7683965510",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Officer/ Engineer/ Asst Officer (Quality Control Dept of Marketing Division) through GATE- 2018: Apply On-line**",
+      "url": "http://180.179.13.165/ioclgate2018live/Home.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "427ba7a99ef21941",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Assistant Hindi Officers, 2017 - Call-letters for GD/GT & Personal Interview**",
+      "url": "http://180.179.13.165/iocldelhicalletterhindilive/LoginHindi.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "3e627e8f74e02e67",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Result of posts advertised in the area of Chemistry & Chemical at R&D Centre: Check Your final result status for post codes \"CHY-01\" & \"CHE-01\"**",
+      "url": "http://180.179.13.165/ioclrdproempchcyLive2018/HomeFinalCHCY.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "5506fe01b6c099fa",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Check Your Short-listing Status for Final Interview for Post Code IBT-01 (Industrial Biotechnology Discipline)",
+      "url": "http://180.179.13.165/ioclrdibtfinal18/Home2IBT.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 3
+    },
+    {
+      "id": "a19107c7900d262c",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Human Resource Officers, 2017 - Call-letters for GD/GT & Personal Interview**",
+      "url": "http://180.179.13.165/iocldelhicallletterhr2018live/LoginHR.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "5cb43347dabcf5a6",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Boiler Operation Engineers, 2017 - Call-letters for Personal Interview**",
+      "url": "http://180.179.13.165/IOCLDCBOE18Live/LoginBOE.aspx#no-back-button",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "9accd56b1c132795",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Check Your Short-listing Status for Interview for Post Code ECH-01",
+      "url": "http://180.179.13.165/ioclrdechlive/HomeECH.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 2
+    },
+    {
+      "id": "c6a9be1391041ba7",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Fire & Safety Officers, 2017 - Call-letters for Personal Interview**",
+      "url": "http://180.179.13.165/ioclfsointcallive/loginFSO.aspx#no-back-button",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "a93b2eaad6495175",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Experienced Non-executive Personnel at IndianOil’s Refineries Division**",
+      "url": "https://www.iocrefrecruit.in/iocrefrecruit/recruit_error.aspx?aspxerrorpath=/iocrefrecruit/main_special_stg2.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "aacab6e2259bc94b",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Check Your final result status for Post code IBT-01",
+      "url": "http://180.179.13.165/ioclrdibtproemplive18/HomeFinalIBT.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "a383a749fc562c9a",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Officers / Engineers in Specialized Disciplines 2017 - Declaration of Result- Quality Control Officer**",
+      "url": "https://www.iocrefrecruit.in/iocrefrecruit/admin_login.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "c88062a295c1bd0b",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Recruitment of Officers/ Engineers/ Asst Officers / GAEs through GATE-2018: Candidates to Check/ Modify their GATE-2018 Registration No/ Category Information**",
+      "url": "http://180.179.13.165/ioclgateregnocatchanmod18live/HomeGCC.aspx#no-back-button",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "36c0fa59b8957243",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Announcement of Short-listing staus: Recruitment of Officers/ Engineers/ GAEs/ Asst Quality Control Officers through GATE-2018**",
+      "url": "http://180.179.13.165/ioclgateint18live/Home.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "8381a1bd21eb0bfc",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Selection of Officers/ Engineers from Computer Sc & Information Technology through GATE-2018: Check Your Empanelment Status**",
+      "url": "http://180.179.13.165/ioclcsintsiksmlive18/HomeCS.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "ac62f3db49c120fd",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Check Your final result status for Post code MCH-01",
+      "url": "http://180.179.13.165/ioclrdfinalmchlive18/HomeFinalMCH.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "dea382c8460f25f2",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "**Requirement of experienced Executives (Regular Cadre) in various disciplines in Hindustan Urvarak & Rasayan Limited (HURL)**",
+      "url": "https://www.hurl.net.in/",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "efaf55fb14bd31a5",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Applications for Engineers/Officers/Research Officers/ Assistant Officers (Quality Control) through GATE-2019 - click here to apply online",
+      "url": "http://180.179.13.165/ioclgatelive19/Home.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "70970a279e77f74f",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Check Your Short-listing Status for Personal Interview & Group Discussion",
+      "url": "http://180.179.13.165/ioclgateRDcalllet19/Home.aspx",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "30322a254fc8ccd7",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "Click here for Status of Shortlisting to appear for GD, GT and PI",
+      "url": "https://ioclapply.com/",
+      "source": "IOCL latest job openings",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "3ba34f493b5c6c3f",
+      "examId": "pfrda-grade-a-2026",
+      "title": "Recruitment of Grade A (Assistant...",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "source": "PFRDA careers",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "other",
+      "alsoIn": 5
+    },
+    {
+      "id": "ecb93dc1c213e090",
       "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=jsnAJJW1Iq2id54tEV5FMOJ1%2BaQpRgM%2BoWPiZS7lDO9fAimybIRI7ZCdH1jMQOlUz9F%2FQhI9oD9ZkDf%2FOCy4ldaOTjLBR%2B6J5510WsErW%2FZt3Q0D9jWNNQjQodZNxRXpA967FgqWlksrQ%2FEOPcdwPQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "title": "CGL Examination 2024 - List of Candidates Nominated",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=SqChx%2F4selgSDDG8dIkkxy9FOmY8cnuFAB00vUEo5jlm9OCD%2BDxKCdvVGLvCyEV4iviP5MsTmgicMxJ8pXKnMuKv3PsAg0viEwp7nat9FeaiqIDz16PSUN4dVh2T41b552JnipP4y0KaUPLU9%2FbG7A%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-15T13:12:05+05:30",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "kind": "result",
+      "alsoIn": 2
+    },
+    {
+      "id": "70b59d4156185dc6",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2022 - Nomination List",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=wNxpb4VabQ3Qco44gBKICg4IWuhaG3DOWwSC%2BROYPSwy1iVawklqS08ZxiOQSKKu0J9i7n%2F6%2FXFsS7dkx4uTmOORnVSPLnKxLxR4sR9LinTsx76dXZtzB%2BbsEubjBQgDcDAmm1X5YzW5DW58pI1qPA%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-16T12:58:53+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "ff66d51d35d88a70",
+      "id": "060917f9a38f53b9",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=4yvhgVe0n73%2Fp%2FhqZn69xaeMYW%2FBhCweQewqMKZBNpNDYmefu7B%2B0bvMesEbFcvoQomk6KrMmdKQ97bx51KRH5QTSigxP3AlSGI6HCbh1Ir%2B%2FFOdWmGlOtW%2FQ4uySkJbfNhOzzMQhDvM11eYoQlIQg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=Q5ea7LA6SRu56BItGmYoWOIVy6d2QpLLUtEpH6aMVBNWArkDgBcWhyQimUxu%2BszADRcmq%2FyfnJNpTFln7WKZ8CRSuHuQQLKjxeFKH1JHNBb80s%2FVqxduSBGzFnM6JK5Jv1Z%2F54PdkEzn0JVgEiTKdA%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-15T13:12:05+05:30",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "12acf56956c3291d",
+      "examId": "uiic-ao-2026",
+      "title": "UIICL Exam Date 2026: Check UIIC AO Prelims Schedule and Admit Card Updates Here",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYklqOUs0dGh3S0JZc19wVnRTWGFkcV9PYy1YV21TSlFwd1RRdFlpTkl0YWU0QTAwWDhiWkJrcjNtbDFZalIwWTg1NE5Hbk5NbE9LMmpaZGFqc1JKN2Z3cFE0Q2daeTdoQ1FHN1FIU1RrcWY0WjVvUG5wWUFib1NrZzhQQzVGUnAwVEFnODR2LV9VMk51MEc4bE9WZ0k1UQ?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "KollegeApply News",
+      "kind": "admit-card",
+      "alsoIn": 1
     },
     {
       "id": "ec384d053fceffa5",
@@ -137,6 +479,18 @@
       "alsoIn": 1
     },
     {
+      "id": "fa014e344ccb2116",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Admit Card 2026 Released for Phase 1 Exam; Here's how to recover forgotten login details",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQU0xMdGlYb1hPVzBtSVJITUMybXlqS3o4dHAxRjBuRkdoQ1VUZXpUdzdObzFUazhYU3NQY0N4MTVkUUVYTjFCRVR4RGV5NGlSWUxJTHdBWGZjblAwMmlGUS1SZ0doNVR4UW9WTFpIZXhqeXN4Njc0V3Z5T1U3dHhleVVWX2llQW1CcXB6RNIBmgFBVV95cUxOSHJuV3V6MnpRdmdRUEs2Y1ZHN010U1FWaExfWGlYV2dNVmJ1QlRybXFvajJ6TnFXU3FOX1pxeWt5THlieGI3ZnFPZ0M5dFl4anZid19nUF9jZy1YaUF3VFlXMVJ3cnRtTmlpaHdhWEEzcmYtZHUtazFkX1k3VFI0TjliamZBNm1mQ2ZlUnFXbkNUUGFYM1l0bm9R?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-10-15",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "EdexLive",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
       "id": "a12c8c03d6e37cfd",
       "examId": "ssc-cgl-2026",
       "title": "Income Tax Delhi Sports Quota Recruitment 2026: Apply Online for 119 Vacancies",
@@ -182,7 +536,7 @@
       "firstSeen": "2026-10-15T03:59:13+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 5
     },
     {
       "id": "0c90a301cb57d197",
@@ -254,7 +608,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "ccd12ad46e0bde5c",
@@ -361,6 +715,18 @@
       "publishedAt": "2026-10-13",
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Singrauli Mirror",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "859e98539d4e78e9",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC English And Telugu Reporter Recruitment 2026 Notification Out For 11 Posts, Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPXzVLUlI1OHZpYThmcWZ6YzkzNjFwdUMydy0xTDZMU0QxNEpmM3JNZU8tLWNWSUJ6TG1UOF92TXBRMmwwQVlwNHduSXdOeGlpaVE1TmIwTFkzMGs4VlZkNUxKN3JWeWhQZWxvcnNpQmxITXJ5ek1MYWtiU3BLY2gxU29YcVZWaWFVbU1BdlY0Znlzd3RaSlRuVktuRDY?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "Adda247",
       "kind": "notification",
       "alsoIn": 1
     },
@@ -828,7 +1194,7 @@
       "firstSeen": "2026-10-15T13:12:05+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "0c66271f1ef331b7",
@@ -911,6 +1277,18 @@
       "publishedAt": "2026-10-06",
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Business Standard",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "5d37c53402037c97",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Exam Date 2026 Out - Check Tier I & Tier II Exam Schedule",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCWGdZaFVjbERNUlVEYlVCaTFCU2xWLWZXcy1xV0E3bUtOWW8zUERsZnFXaWNsUkVEOWhJTmZSSVd5NWZ1N2EwT0M1OGNnSHd5MGJNcHEyeE5VM1IyWjVDSE5mNnptWGdHTU1KUDBuNm1MVEl2ZFY0?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-10-06",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "FreeJobAlert.Com",
       "kind": "exam-date",
       "alsoIn": 1
     },
@@ -1119,6 +1497,18 @@
       "alsoIn": 1
     },
     {
+      "id": "6381f9bcee3383c7",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Recruitment 2026 Notification Out for 225 Posts, Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOVNqRGlISUVMc1l3Qy1PVXloUWtXZk5HSi1UT3dqLXZaUTdEUnp1Q0g0czQ1V3VKSDhmdndvZHl6Mk9sQklsRHBIYjlMbmdqOFZpdWhac3VjaTlITWQ1azg3emVQWnJpaW4zVGpGeXpEeXFaeGlSdmE3U3lmZ0oyU2duUzcydzQwQ1ZQRWszQkRJZ0pBWGpVQ2w4dVAzSUtk?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-09-29",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "KollegeApply News",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "d382f4545a999014",
       "examId": "pci-aso-2026",
       "title": "PCI Vacancy 2026: भारतीय प्रेस परिषद में ASO पदों पर आवेदन स्टार्ट, ग्रेजुएट-पोस्टग्रेजुएट युवा आवेद",
@@ -1140,7 +1530,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "89754b960ef511f6",
@@ -1392,7 +1782,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha.com",
       "kind": "admit-card",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "9cf101b112d1b099",
@@ -1740,7 +2130,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "ec2e0c5db580368f",
@@ -1752,7 +2142,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "cb5af57c6d083745",
@@ -1872,6 +2262,18 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "EdexLive",
       "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "1f3d463610c54ffa",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "APFC: Form-Filling Mistakes to Avoid | APFC Form Filling 2026 | APFC Notification 2026 |Anuj Jindal",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBaVllVb3lkekd3aGZBTFdhVVRQVEhqODhsYWtJbk01Sm44emI4RVNISDNKUk1RYXBDY0RDUG9RTjlXQQ?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-09-05",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "YouTube",
+      "kind": "notification",
       "alsoIn": 1
     },
     {
@@ -2043,6 +2445,18 @@
       "alsoIn": 1
     },
     {
+      "id": "b194c2362e1caccb",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Executive Recruitment 2026 Notification Out - Apply Online for 470 Engineers, Officers and More Posts",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOYy15V3VHZ0NoNlpTTWRMYzRzaDlwZnZvbXBPdmtlME9YY3JtOTFzdzJsS0g2ME84RllnME0wemVLUkw4YVZldVI0VEQwaTcxbDZtUVdkb1VwNlBBRHZZcElFS0NwcThMcFhYTVdiVDBrMDBTSm1nY0p3WFQ3elFtWUhpekJBQ2ZHVmMyaFMwX0ZWUkRycXhaTHZzZGhqalFQVWNwRTh4T011ekxDQUVYYmhNRjJKYVVUSFdNT0hDRnZXVWgzLWV0RG1PQlNVOWZheENtTWdiVFJTYzA?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-08-28",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "FreeJobAlert.Com",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "853fe6a816b85318",
       "examId": "concor-mt-2026",
       "title": "Container Corporation of India MT Recruitment 2026: 77 Vacancies, Apply Online, Dates, Posts & More",
@@ -2079,18 +2493,6 @@
       "alsoIn": 1
     },
     {
-      "id": "64d98db47fd818bf",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "APFC 2026: Updated Syllabus | UPSC EPFO APFC Syllabus | APFC Notification 2026",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5tRDQ4YlhRZ3hnQ1Q4OGN1bWNIN240cjFUVmVWOHRFTnY4SUVwTVlfSTN0OWNacXYxamVFQ19oVlJjdw?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-23",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
-      "publisher": "YouTube",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
       "id": "a4938fd15066e78f",
       "examId": "appsc-group1-2026",
       "title": "AP Job Calendar 2026: 10,060 vacancies to be filled in four phases; department-wise vacancies",
@@ -2099,6 +2501,30 @@
       "publishedAt": "2026-08-23",
       "firstSeen": "2026-10-15T03:59:13+05:30",
       "publisher": "EdexLive",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "f5b91feae35b650e",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "UPSC EPFO APFC Recruitment 2026 Notification Out for 80 Posts, Apply Till September 11",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBvYTlieWF3V1otSXJ2eFYtdWhoVUNEc1JiVnNoU3pFUW9Wa1YtQTU0TFp0U3FnbmdvVGpiTjZNNlpaZUhGRFAyOXRwRlR1VEg2ODFZWFBuaHlsVVB3OWFZeTlR?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-08-23",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "moschool.in",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "64d98db47fd818bf",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "APFC 2026: Updated Syllabus | UPSC EPFO APFC Syllabus | APFC Notification 2026 | Anuj Jindal",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5tRDQ4YlhRZ3hnQ1Q4OGN1bWNIN240cjFUVmVWOHRFTnY4SUVwTVlfSTN0OWNacXYxamVFQ19oVlJjdw?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-08-23",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "YouTube",
       "kind": "notification",
       "alsoIn": 1
     },
@@ -2184,7 +2610,7 @@
       "firstSeen": "2026-10-15T08:13:17+05:30",
       "publisher": "Telegraph India",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "ffbd845735ac17e4",
@@ -2331,14 +2757,14 @@
       "alsoIn": 1
     },
     {
-      "id": "0c42dca60d119e15",
+      "id": "e8cf848568b95527",
       "examId": "iocl-marketing-officer-2026",
-      "title": "IOCL Recruitment 2026: Apply Online for Executive Posts, Check Dates",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTkc1RlltM2VjdkxtRktTZjVkejJjeE1rYnRmb2lvUDljT1Q1OURadFlEMTVPQjhNYXYxNGltOFRtRzJ1TDdNUHA4eU1JZXM4aUtRUnlLSW5FSGg5d19iMXVzUEJtVHdYUWZVd0VBU3Ayc1J3RkxVeHBBZER4TVNPbUczUDBtanI2aVBENno3eVEyZ0hm?oc=5",
+      "title": "IOCL Recruitment 2026: Apply Online For 470 Executive Posts, Check Eligibility And Selection Process",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSVZmYk5QNmJKNlFqM1A1NTQySDRHTS1xQkNtaHVxQWFyNzNiNFRaMlBpT1lRNW1oUmNPeXNqVmRXMFcxMGZ5U3BwNDNkNm9USkNLUnVTYVdoSEFQVGhGN0NLclpEYk04dFRXX3ktcFJVeGMtNEV1MmtZZlpJSi1nejhTcDdlM2pEcVBVejhxT0ZsN2h5Tk91MjVrTkFLMWktekczbFpPbzZXY3RsWXg3eklycUNFTzNFOGNScXY0aDhXSUJFUUNkNzd6Umdfb2Fnd25XTkJIQlZPa2I0Nm81UE9Wa1lrT2I5UzEtbzNXbDl3cVHSAfoBQVVfeXFMTTVQTF9kdmZPTGNpWnJ4bUh5LWdKd25YaHZQdm5ULTlvakszdm5sejBJZU5uNjVreE9wekdPVEdkYkYyR1hRU25fVnJHTnJMLW9VVUdya2QtUVU5Slo3UHdST0c4TEhKNVo5YVlKemlQVVFyYU0wS0pKcVdHNFpSV2tTcXpBS0NoWHpuYnRIbDlBNUlHT1EzbHlodmwtTWFzRUxYcEFBMXBQMVF3SGFHdFlfU3R5R205aERGckVuTDBJVGJqTHpfMmtVYmtJRmpqMVF4MmtKaFFMZVFxaDgzRzJlTG1qb18zRGFaU0ZSdEpRNlVIWk92WF9Udw?oc=5",
       "source": "IOCL news (Google News)",
-      "publishedAt": "2026-08-16",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "PW",
+      "publishedAt": "2026-08-17",
+      "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "Jagran Josh",
       "kind": "notification",
       "alsoIn": 1
     }

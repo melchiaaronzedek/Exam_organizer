@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-15T13:14:02+05:30",
+  "discoveredAt": "2026-10-16T13:00:51+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,105 @@
   ],
   "discovered": [
     {
+      "id": "55efe5daf8ba36e0",
+      "org": "NABARD",
+      "post": "NABARD Grade A Soon, Exam Date, Eligibility and Application Form - Adda247",
+      "title": "NABARD Grade A 2026 Notification Soon, Exam Date, Eligibility and Application Form - Adda247",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9HU0NzS0RJX2tlNzRld3puZ0hMZ2xEdnFUQUFOSVUwTkNISVJVV3RsQ0Z0cTNiQ1BvNmRGNnF5YjYwM2Y2bjRPY05DaW9mcWdFaWZDS3djY0lGOXlYSWY0aGtlYUZiM3NR?oc=5",
+      "source": "News · grade A regulator",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: grade a",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-16T13:00:51+05:30",
+      "curated": false
+    },
+    {
+      "id": "882b443ab3b4270c",
+      "org": "SEBI Grade A",
+      "post": "SEBI Grade A : Eligibility rules changed, check who can apply - Education Times",
+      "title": "SEBI Grade A recruitment 2026: Eligibility rules changed, check who can apply - Education Times",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNHk2OGdHbEcwZVdIZnF5b2pudWZHcXRoVU9GS0loLVpsamJyMTRZWlhteG5ySnd1bE11dTFOMmh0N1FURnNwbjZfYTJnVVNHZDI1Ty1lZXZ6eUJ3anZ4d3o2a1d6RVJYTnpBU1ZxcDZmV0ZSOHhIQ3hlQXFoYU5LWl91T2p4MWNBVFh5YUp2cF9rUFNvUmVsVmtOZndKZ3FKTFBZMzI2UVRJbFVpMW54MVBQWi1jSW5iWDR2MkhiSlNsY0lfVXdrNlpjbmhmNUJOd3hJ?oc=5",
+      "source": "News · grade A regulator",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: grade a",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-15",
+      "firstSeen": "2026-10-16T13:00:51+05:30",
+      "curated": false
+    },
+    {
+      "id": "f9e9e81210bbb001",
+      "org": "ONGC Assam Asset",
+      "post": "ONGC Assam Asset – 20 Associate Consultant, Junior Consultant",
+      "title": "ONGC Assam Asset Recruitment 2026 – Apply Online for 20 Associate Consultant, Junior Consultant Posts",
+      "track": "general",
+      "sector": "psu",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ongc-recruitment-2026-apply-online-for-20-associate-consultant-junior-consultant-posts-3074111",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: consultant",
+        "psu"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-16T13:00:51+05:30",
+      "curated": false
+    },
+    {
+      "id": "7fefb6e6c9c2eb18",
+      "org": "ANIIDCO Consultant",
+      "post": "ANIIDCO Consultant",
+      "title": "ANIIDCO Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/aniidco-consultant-recruitment-2026-apply-online-3074096",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-16T13:00:51+05:30",
+      "curated": false
+    },
+    {
       "id": "82e86bfc4cad77da",
       "org": "HPSC Food Safety Officer FSO",
       "post": "HPSC Food Safety Officer FSO - 45",
@@ -4731,6 +4830,103 @@
   "discoverBaseline": false,
   "portal": [
     {
+      "org": "Acura Solutions.",
+      "post": "Business Analyst",
+      "title": "Business Analyst",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says 0 Yrs",
+      "experienceText": "0 Yrs",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says 0 Yrs",
+      "checkedVia": null,
+      "pay": "₹10–16 LPA",
+      "payLakh": 10.0,
+      "payMinLakh": 10.0,
+      "payMaxLakh": 16.0,
+      "payStated": true,
+      "trust": "unverified",
+      "trustWhy": null,
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Mumbai City",
+        "Thane",
+        "Navi Mumbai"
+      ],
+      "link": "https://www.shine.com/jobs/business-analyst/acura-solutions/19823279",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 75,
+      "fitWhy": [
+        "role: business analyst",
+        "private",
+        "pay ₹10–16 LPA",
+        "employer not in the known list",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-a005dab6866d",
+      "firstSeen": "2026-10-16T13:00:55+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30"
+    },
+    {
+      "org": "Abbott Vascular",
+      "post": "Junior IT Business Analyst",
+      "title": "Junior IT Business Analyst",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher programme by its title — years of experience not stated in the listing",
+      "experienceText": "not stated",
+      "experienceMinYears": 0.0,
+      "experienceSource": "title",
+      "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
+      "checkedVia": null,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "abbott",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Mumbai",
+        "India"
+      ],
+      "link": "https://www.foundit.in/job/junior-it-business-analyst-abbott-vascular-mumbai-india-69488189",
+      "source": "Foundit",
+      "sourceType": "portal",
+      "fit": 40,
+      "fitWhy": [
+        "role: business analyst",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher programme by title"
+      ],
+      "status": "open",
+      "postedAt": "2026-10-15",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-49336a9a935b",
+      "firstSeen": "2026-10-16T13:00:55+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30"
+    },
+    {
       "org": "Abbott Healthcare",
       "post": "Junior IT Business Analyst",
       "title": "Junior IT Business Analyst",
@@ -4776,7 +4972,7 @@
       "summary": null,
       "id": "portal-bd518d0de87f",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30"
+      "lastSeen": "2026-10-16T13:00:55+05:30"
     },
     {
       "org": "Marriott International",
@@ -4871,7 +5067,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -4919,7 +5115,7 @@
       "summary": null,
       "id": "portal-3538a835c323",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -4968,7 +5164,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5016,7 +5212,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5063,7 +5259,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5111,14 +5307,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30",
+      "lastSeen": "2026-10-16T13:00:55+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-15T13:14:07+05:30",
+  "portalAt": "2026-10-16T13:00:55+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -5133,19 +5329,19 @@
     },
     {
       "name": "Glassdoor",
-      "ok": false,
-      "fetched": 0,
-      "errors": 2,
-      "error": "blocked (cloudflare: just a moment)",
-      "state": "blocked",
-      "reason": "cloudflare: just a momen",
-      "scanned": 0
+      "ok": true,
+      "fetched": 30,
+      "errors": 1,
+      "error": "blocked (reader: no job links)",
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 30
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 7,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -5154,42 +5350,42 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 361,
+      "fetched": 349,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 361
+      "scanned": 349
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 340,
+      "fetched": 335,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 340
+      "scanned": 335
     },
     {
       "name": "LinkedIn",
       "ok": true,
-      "fetched": 100,
-      "errors": 0,
-      "error": null,
-      "state": "ok",
-      "reason": null,
-      "scanned": 100
+      "fetched": 90,
+      "errors": 1,
+      "error": "429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keyw",
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 90
     },
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 426,
+      "fetched": 427,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 426
+      "scanned": 427
     },
     {
       "name": "iimjobs",
