@@ -819,6 +819,86 @@
         "Listing already shows 1,000+ applicants — apply early.",
         "Verify details on lichousing.com; the posting is a third-party listing."
       ]
+    },
+    {
+      "id": "cwc-am-general-2026",
+      "org": "Central Warehousing Corporation",
+      "short": "CWC AM",
+      "title": "Assistant Manager (General) 2026",
+      "post": "Assistant Manager (General)",
+      "advt": "Advt. CWC/I-Manpower/DR/Rectt/2026/01 · 327 posts (70 AM General)",
+      "status": "to-apply",
+      "officialUrl": "https://cewacor.nic.in",
+      "notificationUrl": "https://cewacor.nic.in/index.php?page=career",
+      "applyUrl": "https://cewacor.nic.in",
+      "application": {
+        "opens": "2026-10-17",
+        "closes": "2026-11-15",
+        "mode": "online",
+        "applied": false,
+        "note": "Apply online by 15 Nov 2026, 11:59 PM; fee ₹500 (SC / women)."
+      },
+      "phases": [
+        {
+          "id": "apply",
+          "name": "Application window",
+          "kind": "application",
+          "date": "2026-10-17",
+          "dateType": "confirmed",
+          "status": "upcoming",
+          "note": "Closes 15 Nov 2026, 11:59 PM.",
+          "dateEnd": "2026-11-15"
+        },
+        {
+          "id": "admit",
+          "name": "Admit card",
+          "kind": "admit-card",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Usually about 3 weeks before the online exam."
+        },
+        {
+          "id": "online-exam",
+          "name": "Online examination",
+          "kind": "exam",
+          "dateType": "tba",
+          "status": "tba",
+          "note": "Date to be announced on cewacor.nic.in.",
+          "centre": {
+            "preferences": [
+              "Chennai",
+              "Visakhapatnam",
+              "Hyderabad"
+            ],
+            "allotted": null
+          }
+        },
+        {
+          "id": "interview",
+          "name": "Document verification & interview",
+          "kind": "interview",
+          "dateType": "tba",
+          "status": "tba"
+        }
+      ],
+      "notes": [
+        "Qualification: Two-year postgraduate degree or PG diploma (MBA / PGDM).",
+        "Eligible: SC age limit 33 (18–28 + 5) as on 15 Nov 2026; MBA meets the two-year PG requirement.",
+        "Details are from news reports of the notification; confirm the qualification wording and centres in the official PDF before paying the fee."
+      ],
+      "facts": {
+        "vacancies": "70 Assistant Manager (General): UR 28 · OBC 23 · SC 9 · ST 3 · EWS 7",
+        "age": "18–28 as on 15 Nov 2026 · SC +5 (up to 33)",
+        "fee": "₹1,350 · ₹500 for SC / ST / PwBD / ex-servicemen / women",
+        "selection": "Online exam → document verification → interview",
+        "pay": "₹40,000 – ₹1,40,000 (E-1, IDA)",
+        "carry": [
+          "Admit card (printed)",
+          "Original photo ID",
+          "Passport photos"
+        ],
+        "pattern": "Online exam (pattern in the notification) · then document verification and interview"
+      }
     }
   ]
 }

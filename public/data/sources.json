@@ -390,6 +390,31 @@
         "interview",
         "shortlist"
       ]
+    },
+    {
+      "examId": "cwc-am-general-2026",
+      "name": "CWC careers",
+      "type": "html",
+      "url": "https://cewacor.nic.in/index.php?page=career",
+      "keywords": [
+        "Assistant Manager",
+        "2026/01",
+        "Rectt",
+        "admit",
+        "call letter",
+        "result",
+        "interview"
+      ]
+    },
+    {
+      "examId": "cwc-am-general-2026",
+      "name": "CWC news (Google News)",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=%22Central+Warehousing+Corporation%22+OR+%22CWC%22+assistant+manager+2026&hl=en-IN&gl=IN&ceid=IN:en",
+      "keywords": [
+        "CWC",
+        "Central Warehousing"
+      ]
     }
   ]
 }
