@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-17T12:41:37+05:30",
+  "discoveredAt": "2026-10-18T12:56:28+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,178 @@
   ],
   "discovered": [
     {
+      "id": "251679ae06be080a",
+      "org": "IBPS",
+      "post": "IBPS SO Mains Exam Date (1043 ), Check Mains Exam Schedule - Adda247",
+      "title": "IBPS SO 2026 Mains Exam Date Out (1043 Vacancies), Check Mains Exam Schedule - Adda247",
+      "track": "marketing",
+      "sector": "bank",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zTWpuQWZrNHdVeEo0VXBmUGZPRFZRc0NYWk42WmVMeURVT19ZZjd6Wmd0TGh0OTRUc2VEdW9uZ2R5R0k4Mzd1TXpVUkFrQ01FUXhWdA?oc=5",
+      "source": "News · marketing officer PSU",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: marketing",
+        "bank"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-15",
+      "firstSeen": "2026-10-18T12:56:28+05:30",
+      "curated": false
+    },
+    {
+      "id": "f322c1a24ee09f81",
+      "org": "IBPS SO",
+      "post": "IBPS SO , Last Date to Extended 1,035 IT Officer, Agricultural Field Officer - Bankersadda",
+      "title": "IBPS SO Recruitment 2026, Last Date to Extended for 1,035 IT Officer, Agricultural Field Officer Posts - Bankersadda",
+      "track": "marketing",
+      "sector": "bank",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UZExuYS1hTk9aVlRoNWZHdG1lcGV6dWl2Y2l4YU5NcXZUMGhEYzY2ZUhUeWJGcFY5VDR6cGxqMTFnOGViUWF5MzdyampJb2xEcWtjcFRZakN3a01Feko1YTJvUUxfQ0RoYUE?oc=5",
+      "source": "News · marketing officer PSU",
+      "sourceType": "news",
+      "fit": 75,
+      "fitWhy": [
+        "role: marketing",
+        "agriculture degree",
+        "bank"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-15",
+      "firstSeen": "2026-10-18T12:56:28+05:30",
+      "curated": false
+    },
+    {
+      "id": "509aeee2a61e8b72",
+      "org": "SEBI",
+      "post": "SEBI Grade A : , Details, EIigibility and Exam Date - Adda247",
+      "title": "SEBI Grade A 2026: Notification, Vacancy Details, EIigibility and Exam Date - Adda247",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIQXE2RUVuM1FPWUp0c3pBSXZ5MVFubjRTel93SDJrVllZT3dHM1Q5aWRXcGNJYlJCM3FfZW43TXNqck81N3V2TXNsNU40b0N3WGV6SFVaY2lUUDA?oc=5",
+      "source": "News · grade A regulator",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: grade a",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-15",
+      "firstSeen": "2026-10-18T12:56:28+05:30",
+      "curated": false
+    },
+    {
+      "id": "b2d392e5f7a4785f",
+      "org": "JMI Consultant",
+      "post": "JMI Consultant",
+      "title": "JMI Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/jmi-consultant-recruitment-2026-apply-online-3074369",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-17",
+      "firstSeen": "2026-10-18T12:56:28+05:30",
+      "curated": false
+    },
+    {
+      "id": "655e71f89a249ef3",
+      "org": "UIDAI Assistant Account Officer",
+      "post": "UIDAI Assistant Account Officer",
+      "title": "UIDAI Assistant Account Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/uidai-assistant-account-officer-recruitment-2026-apply-online-3074351",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-17",
+      "firstSeen": "2026-10-18T12:56:28+05:30",
+      "curated": false
+    },
+    {
+      "id": "f32c1bdbfd6cbbed",
+      "org": "Hanumakonda District",
+      "post": "Hanumakonda District – Apply Offline 8 Multi Purpose Worker, Ayush Medical Officer and More",
+      "title": "Hanumakonda District Recruitment 2026 – Apply Offline for 8 Multi Purpose Worker, Ayush Medical Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/hanumakonda-district-recruitment-2026-apply-offline-for-8-multi-purpose-worker-ayush-medical-officer-and-more-posts-3074349",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-17",
+      "firstSeen": "2026-10-18T12:56:28+05:30",
+      "curated": false
+    },
+    {
+      "id": "63e82a390bcedcf0",
+      "org": "Department",
+      "post": "Department of Financial Service Presiding Officer – Apply Offline 20",
+      "title": "Department of Financial Service Presiding Officer Recruitment 2026 – Apply Offline for 20 Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/department-of-financial-service-presiding-officer-recruitment-2026-apply-offline-for-20-posts-3074324",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-17",
+      "firstSeen": "2026-10-18T12:56:28+05:30",
+      "curated": false
+    },
+    {
       "id": "5cc8275289657fe7",
       "org": "UIIC",
       "post": "UIIC AO Exam Date 225 Generalists & Hindi Officers - Bankersadda",
@@ -5047,7 +5219,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30"
+      "lastSeen": "2026-10-18T12:56:32+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -5095,7 +5267,7 @@
       "summary": null,
       "id": "portal-de49827c7681",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30"
+      "lastSeen": "2026-10-18T12:56:32+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -5144,7 +5316,7 @@
       "summary": null,
       "id": "portal-9cf16e1d4ab4",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30"
+      "lastSeen": "2026-10-18T12:56:32+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5191,7 +5363,7 @@
       "summary": null,
       "id": "portal-e85a676e1b94",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30"
+      "lastSeen": "2026-10-18T12:56:32+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5238,7 +5410,7 @@
       "summary": null,
       "id": "portal-5178de1b5799",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30"
+      "lastSeen": "2026-10-18T12:56:32+05:30"
     },
     {
       "org": "Abbott Vascular",
@@ -5286,7 +5458,7 @@
       "summary": null,
       "id": "portal-49336a9a935b",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30"
+      "lastSeen": "2026-10-18T12:56:32+05:30"
     },
     {
       "org": "Abbott Healthcare",
@@ -5334,7 +5506,7 @@
       "summary": null,
       "id": "portal-bd518d0de87f",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30"
+      "lastSeen": "2026-10-18T12:56:32+05:30"
     },
     {
       "org": "Marriott International",
@@ -5429,7 +5601,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30",
+      "lastSeen": "2026-10-18T12:56:32+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -5526,7 +5698,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30",
+      "lastSeen": "2026-10-18T12:56:32+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5574,7 +5746,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30",
+      "lastSeen": "2026-10-18T12:56:32+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5621,7 +5793,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30",
+      "lastSeen": "2026-10-18T12:56:32+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5669,14 +5841,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-17T12:41:41+05:30",
+      "lastSeen": "2026-10-18T12:56:32+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-17T12:41:41+05:30",
+  "portalAt": "2026-10-18T12:56:32+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -5722,12 +5894,12 @@
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 335,
+      "fetched": 333,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 335
+      "scanned": 333
     },
     {
       "name": "LinkedIn",
@@ -5742,12 +5914,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 424,
+      "fetched": 415,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 424
+      "scanned": 415
     },
     {
       "name": "iimjobs",
