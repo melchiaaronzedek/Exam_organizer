@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-18T12:56:28+05:30",
+  "discoveredAt": "2026-10-19T13:34:44+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,129 @@
   ],
   "discovered": [
     {
+      "id": "8b94049a51032799",
+      "org": "APPSC Forest Range Officer",
+      "post": "APPSC Forest Range Officer 04 FRO , Starts - Adda247",
+      "title": "APPSC Forest Range Officer Notification 2026 Out For 04 FRO Posts, Apply Online Starts - Adda247",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT1FTQjR2VlZOVkxpVkhIMDJQNEFmRVZpVDdZZ1ZJeVBlNmd1bXlXYkJPTW1sNS11T1ljUEVNd1dQQk5tcElwLVhremlmdk9mb01zNjZzekhDWUZfZFR6aGNtVm5MNlo0Rl8xSnhBYTRFZ1VmQktUeTljSU9pVHlmbi1kTF9saHM4YkdOSQ?oc=5",
+      "source": "News · APPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:34:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "e7ff5b17d2df59b9",
+      "org": "APPSC Forest Section Officer",
+      "post": "APPSC Forest Section Officer 26 FSO , Starts - Adda247",
+      "title": "APPSC Forest Section Officer Notification 2026 Out For 26 FSO Posts, Apply Online Starts - Adda247",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZWNhcmlPSEV1U0JtVDFQWlR6dEtWd0d6dl9MdTN3aFk3TG1YYUxDWm55WEphSlNfYzhmNFV1V3FkaEU0djd2OGZ4MjEyVXV0VVlVTVhvdG5MTTEyTWFOeW9PTzFtUGc3TEhmOTJ4TWZ1d1lubWRQR21QLU9tbWM?oc=5",
+      "source": "News · APPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:34:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "587cbd59ca0c8dd6",
+      "org": "EIL",
+      "post": "EIL – 109 Associate Engineer, Associate Officer",
+      "title": "EIL Recruitment 2026 – Apply Online for 109 Associate Engineer, Associate Officer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/eil-recruitment-2026-associate-engineer-and-associate-officer-3074393",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-19",
+      "firstSeen": "2026-10-19T13:34:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "cbc091f7b2b90957",
+      "org": "I4IC",
+      "post": "I4IC Accounts Officer – Apply Offline",
+      "title": "I4IC Accounts Officer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/i4ic-accounts-officer-recruitment-2026-3074386",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-18",
+      "firstSeen": "2026-10-19T13:34:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "8fdeff5adf6fad9d",
+      "org": "SBI",
+      "post": "SBI – 6 GM & Chief AI Officer, DGM and More",
+      "title": "SBI Recruitment 2026 – Apply Online for 6 GM & Chief AI Officer, DGM and More Posts",
+      "track": "general",
+      "sector": "bank",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/sbi-recruitment-2026-gm-chief-ai-officer-dgm-3074384",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "bank"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-18",
+      "firstSeen": "2026-10-19T13:34:44+05:30",
+      "curated": false
+    },
+    {
       "id": "251679ae06be080a",
       "org": "IBPS",
       "post": "IBPS SO Mains Exam Date (1043 ), Check Mains Exam Schedule - Adda247",
@@ -5219,7 +5342,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30"
+      "lastSeen": "2026-10-19T13:34:48+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -5267,7 +5390,7 @@
       "summary": null,
       "id": "portal-de49827c7681",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30"
+      "lastSeen": "2026-10-19T13:34:48+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -5316,7 +5439,7 @@
       "summary": null,
       "id": "portal-9cf16e1d4ab4",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30"
+      "lastSeen": "2026-10-19T13:34:48+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5363,7 +5486,7 @@
       "summary": null,
       "id": "portal-e85a676e1b94",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30"
+      "lastSeen": "2026-10-19T13:34:48+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5506,7 +5629,7 @@
       "summary": null,
       "id": "portal-bd518d0de87f",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30"
+      "lastSeen": "2026-10-19T13:34:48+05:30"
     },
     {
       "org": "Marriott International",
@@ -5601,7 +5724,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30",
+      "lastSeen": "2026-10-19T13:34:48+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -5698,7 +5821,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30",
+      "lastSeen": "2026-10-19T13:34:48+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5746,7 +5869,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30",
+      "lastSeen": "2026-10-19T13:34:48+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5793,7 +5916,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30",
+      "lastSeen": "2026-10-19T13:34:48+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5841,14 +5964,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30",
+      "lastSeen": "2026-10-19T13:34:48+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-18T12:56:32+05:30",
+  "portalAt": "2026-10-19T13:34:48+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -5884,22 +6007,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 348,
+      "fetched": 346,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 348
+      "scanned": 346
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 333,
+      "fetched": 331,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 333
+      "scanned": 331
     },
     {
       "name": "LinkedIn",
@@ -5914,12 +6037,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 415,
+      "fetched": 414,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 415
+      "scanned": 414
     },
     {
       "name": "iimjobs",

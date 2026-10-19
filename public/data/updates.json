@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-10-18T12:54:04+05:30",
+  "updatedAt": "2026-10-19T13:32:48+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "3ba34f493b5c6c3f",
+      "id": "0d0fd0dffced8da9",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-10-18T12:54:04+05:30",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
       "kind": "other",
       "alsoIn": 4
     },
     {
-      "id": "09b8f71414298483",
+      "id": "cefa9069388bbb1e",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=XtYEox1HlnRwqymkkbt6gViTpNWDECMy%2Byka8fGFjMWEl1AUOW0Kbs%2Fjc3UN5aADo32auWHHU4FOanwRPlpycELix715H5imYAvDIorUFWNq8KNsFPQcpmKqE0pLLn03PYY3%2FApigD3c83vJUhvBwQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=d8VosRUY24Qq7k89bV8Ae31TxZjZJjZXL5crHy67LOh73hqsVZb8Bwak9UON6MQwdWbi1ahsIvE17%2FdXUxrWhKjm85lshNcRteAhMSGAQlKUx6ldjvtOd3LFs4SbuVHvinGYs6BiMV%2BPxUpSjEBf3Q%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-18T12:54:04+05:30",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "f52538eebf9ff46a",
+      "id": "9af6a53583c06050",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=CE0T3H25GPVqj2B2PCRJidz%2FfV6hhEpLiQeqIUWvYij%2Fumjl1wORKNXNjaREZ3AUi9OSfEtYABNzw%2BG6uvMyI0vJYk5c9WKpzq8jhi3hsAhgCe7eTTY39W%2B9nsNc4%2FgYgaw75hLcE%2BsezSIO1Csk%2FQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=1e7gKniHfMo1%2FMlGa9pvsLFlVS8MBCDwfkGaGau6T2%2Fn4Gi4K5R%2B2pRsoL36QYHkN3CM2TjJ1YwQpKwNC7cN%2BRgrYpdNXugRuwm0mi9m2Fbwrh1mQjqMqSn1YVxEChbvACOt0uDkSfbrhvMJD4Q%2BWA%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-18T12:54:04+05:30",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "7729d0f505f38e88",
+      "id": "d1c04744f57d722a",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=jEw%2FOslsT96KQg4N7C4steMG8vAZVx6SoJMmAHhkAfmdM0K%2FOJWGZS0oLXWackvA%2Btz6T9fC1nDSSz4Z1R6eg%2BcuzeuDeI5JdB%2F4jFiLnOHIpQx8NeyBUW4h21XI2JvoOSGJOhLo4mR2s15SnVNH3A%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=jBOO0WeRLfr3lqjwzR92JH%2BX4lv13bVT%2Bx3ExjAjct0pZepWFJG4%2FGcOB%2BvcalGjc594ntDp9PDU%2FUL%2F5sJUxJ%2FEcryPWDoWBOvFeebBr7ainnMGkgTX65OsCnNkgBmt%2B0SzWK6NIUpIV861DhGVHg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-18T12:54:04+05:30",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
       "kind": "other",
       "alsoIn": 2
     },
@@ -114,7 +114,7 @@
       "firstSeen": "2026-10-17T12:39:43+05:30",
       "publisher": "Bankersadda",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "f43fe910d5efa2a1",
@@ -138,12 +138,12 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "307f72dfb095c2e4",
       "examId": "cwc-am-general-2026",
-      "title": "CWC Recruitment 2026: Online applications open for 327 posts; Last date November 15 | Check details",
+      "title": "CWC Recruitment 2026: Online applications open for 327 posts; Last date November 15",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPR3pUc3lVeWNPaC1rbjZtdFVCbDVZR3c3djdRbk12YWczX3ZwdEZ3R000c3JjMHlEZzFfelFJWWIwekNja1d4emRycGgwcE4ySFRFZW45QTI5N1M1Y0ZTRWx3SDU5eTV0VGJ0RVZ2MTRwM1o2NERTMUpnb1ZfcnlHLTJaSXBaUklUYnQ4T2V0T2U3UnJDdGhmaFpFS1dmcDE0ZDVNUHloRmhBNjctYkdkM2lzYVNCRndrZXNrdlRlUDU2ODR4T0t0UW1JcURfc3ItU1prY29PNNIB1wFBVV95cUxPR3pUc3lVeWNPaC1rbjZtdFVCbDVZR3c3djdRbk12YWczX3ZwdEZ3R000c3JjMHlEZzFfelFJWWIwekNja1d4emRycGgwcE4ySFRFZW45QTI5N1M1Y0ZTRWx3SDU5eTV0VGJ0RVZ2MTRwM1o2NERTMUpnb1ZfcnlHLTJaSXBaUklUYnQ4T2V0T2U3UnJDdGhmaFpFS1dmcDE0ZDVNUHloRmhBNjctYkdkM2lzYVNCRndrZXNrdlRlUDU2ODR4T0t0UW1JcURfc3ItU1prY29PNA?oc=5",
       "source": "CWC news (Google News)",
       "publishedAt": "2026-10-17",
@@ -163,6 +163,18 @@
       "publisher": "Udaipur Kiran",
       "kind": "notification",
       "alsoIn": 1
+    },
+    {
+      "id": "3b85cc217e5a465a",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Forest Beat Officer Notification 2026 Out For 23 Posts, Apply Online Starts",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdWgySWxBYWJ2aVF3QWNDN24xZWxlY2FoQndvbUJJcVN1bUZkMkFzOWQzUHhucVhueXd2SzJHbFRNRTZJRzdFN2cyWkpTVjVNRjJQYUVwZEh2RWVwNXJNUE56bGFVdkxhN1hTNmJQaDVrQWZ2QldhaURFNA?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-17",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 2
     },
     {
       "id": "13acfef36570b105",
@@ -543,6 +555,78 @@
       "alsoIn": 1
     },
     {
+      "id": "f6553882705988f5",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC Recruitment 2026 - Dates, Application form, Vacancies, Syllabus, Pattern, Eligibility",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Na3RrMzJqYjVoRU9CYUVsVUJEN3NnbHRTX0t0cHBwYWdwXy1USm5pSC1PSHEtbDVIenBxX19zRnI4bU41SGV5dE9abjJ5bDdGSnZOaXJTZGdmQjRIOHU4a3Z4ZWotU3Y2Qk9VYg?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
+      "publisher": "Careers360",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "b1a847a2fce1115a",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Notification 2026 Out For 686 Posts, Apply Online On 10 November",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UcEpkd0hWdE5LcEUwNjZ5Y0FNeURickU3ZkpEM1diVm0yalBjNzdVMlQtaWsteXNEb2Q1dnVyZWVjZDB0S0otWTdrLWJ2UWc0TURxME5kSjh3X1dqb1ZXZlBzNVF4N2lwOTFR?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "0483079b3e0cd084",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Forest Section Officer Notification 2026 Out For 26 FSO Posts, Apply Online Starts",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZWNhcmlPSEV1U0JtVDFQWlR6dEtWd0d6dl9MdTN3aFk3TG1YYUxDWm55WEphSlNfYzhmNFV1V3FkaEU0djd2OGZ4MjEyVXV0VVlVTVhvdG5MTTEyTWFOeW9PTzFtUGc3TEhmOTJ4TWZ1d1lubWRQR21QLU9tbWM?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 2
+    },
+    {
+      "id": "84ed808f87c3b27b",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Endowment Officer Recruitment 2026 Notification Out For 104 EO Grade III Posts, Apply Online Starts",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Qc2tvajRxUEZnUFVvVG5BRG8tU2ZVdjlQNE9tcGRKOVJ4Tzc2Z3pDNWNMRHZWMk9FQUVHdmtKYzZLUWVpNjJRVEhsWXlOc2J3MU4wTnE4NzZRQ0FUTW5QTFZQelNZYU9zYWNXQkFqSTRubzNiSkg4SQ?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "94358fd898fc6a06",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC District Probation Officer Notification 2026 Out For 15 IPO Posts, Apply Online Starts",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVhLOFVKdzFxX3BsTjRmM3VQT01hT3NvTjltTkNaNXFrVW80NXlMNnpMRTQtTk1WNTh5OHpRQjRhUGVZOXBGbGZKcGpXa0JUbWt5WGFDYmxBUXdXblVNc1I5bmVKNzVnMDRubWQtNW1ic01Ja0l1NFg0dWxnczd2QWJwbW4zOVNzei16Q1lHTWt6RDJXSjFkNTdXM1A?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 2
+    },
+    {
+      "id": "b6d40609f91f3212",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Forest Range Officer Notification 2026 Out For 04 FRO Posts, Apply Online Starts",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT1FTQjR2VlZOVkxpVkhIMDJQNEFmRVZpVDdZZ1ZJeVBlNmd1bXlXYkJPTW1sNS11T1ljUEVNd1dQQk5tcElwLVhremlmdk9mb01zNjZzekhDWUZfZFR6aGNtVm5MNlo0Rl8xSnhBYTRFZ1VmQktUeTljSU9pVHlmbi1kTF9saHM4YkdOSQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-10-16",
+      "firstSeen": "2026-10-19T13:32:48+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 2
+    },
+    {
       "id": "ec384d053fceffa5",
       "examId": "aai-je-2026",
       "title": "Traffic Survey Result",
@@ -774,7 +858,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 7
+      "alsoIn": 9
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -916,18 +1000,6 @@
       "source": "APPSC news (Google News)",
       "publishedAt": "2026-10-13",
       "firstSeen": "2026-10-16T12:58:53+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "a3775c2433b1b4cd",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Forest Beat Officer Notification 2026 Out For 23 Posts, Apply Online",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5IdWgySWxBYWJ2aVF3QWNDN24xZWxlY2FoQndvbUJJcVN1bUZkMkFzOWQzUHhucVhueXd2SzJHbFRNRTZJRzdFN2cyWkpTVjVNRjJQYUVwZEh2RWVwNXJNUE56bGFVdkxhN1hTNmJQaDVrQWZ2QldhaURFNA?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-12",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
       "publisher": "Adda247",
       "kind": "notification",
       "alsoIn": 1
@@ -1216,7 +1288,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "Shiksha.com",
       "kind": "notification",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "66b2d418fb6f31a9",
@@ -1384,7 +1456,7 @@
       "firstSeen": "2026-10-15T13:12:05+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "ddc09021fce03401",
@@ -2008,7 +2080,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha.com",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "9cf101b112d1b099",
@@ -2215,47 +2287,11 @@
       "alsoIn": 1
     },
     {
-      "id": "619cc6509caf1323",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Forest Section Officer Notification 2026 Out For 26 FSO Posts, Apply Online",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZWNhcmlPSEV1U0JtVDFQWlR6dEtWd0d6dl9MdTN3aFk3TG1YYUxDWm55WEphSlNfYzhmNFV1V3FkaEU0djd2OGZ4MjEyVXV0VVlVTVhvdG5MTTEyTWFOeW9PTzFtUGc3TEhmOTJ4TWZ1d1lubWRQR21QLU9tbWM?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T03:59:13+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
       "id": "017cfe53c3007d3f",
       "examId": "appsc-group1-2026",
       "title": "APPSC Endowment Officer Notification 2026 Out For 104 EO Posts, Apply Online",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Qc2tvajRxUEZnUFVvVG5BRG8tU2ZVdjlQNE9tcGRKOVJ4Tzc2Z3pDNWNMRHZWMk9FQUVHdmtKYzZLUWVpNjJRVEhsWXlOc2J3MU4wTnE4NzZRQ0FUTW5QTFZQelNZYU9zYWNXQkFqSTRubzNiSkg4SQ?oc=5",
       "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T03:59:13+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "ee36234f8536f634",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC District Probation Officer Notification 2026 Out For 15 IPO Posts, Apply Online, Eligibility, Salary",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUVhLOFVKdzFxX3BsTjRmM3VQT01hT3NvTjltTkNaNXFrVW80NXlMNnpMRTQtTk1WNTh5OHpRQjRhUGVZOXBGbGZKcGpXa0JUbWt5WGFDYmxBUXdXblVNc1I5bmVKNzVnMDRubWQtNW1ic01Ja0l1NFg0dWxnczd2QWJwbW4zOVNzei16Q1lHTWt6RDJXSjFkNTdXM1A?oc=5",
-      "source": "APPSC exam news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T03:59:13+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "70fb525fd7008154",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Forest Range Officer Notification 2026 Out For 04 FRO Posts, Apply Online",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT1FTQjR2VlZOVkxpVkhIMDJQNEFmRVZpVDdZZ1ZJeVBlNmd1bXlXYkJPTW1sNS11T1ljUEVNd1dQQk5tcElwLVhremlmdk9mb01zNjZzekhDWUZfZFR6aGNtVm5MNlo0Rl8xSnhBYTRFZ1VmQktUeTljSU9pVHlmbi1kTF9saHM4YkdOSQ?oc=5",
-      "source": "APPSC exam news (Google News)",
       "publishedAt": "2026-09-15",
       "firstSeen": "2026-10-15T03:59:13+05:30",
       "publisher": "Adda247",
@@ -2320,7 +2356,7 @@
       "firstSeen": "2026-10-15T03:28:40+05:30",
       "publisher": "Shiksha.com",
       "kind": "exam-date",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "e6dcfa60d18582de",
@@ -2380,7 +2416,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "ec2e0c5db580368f",
@@ -2392,7 +2428,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "cb5af57c6d083745",
@@ -2769,7 +2805,7 @@
     {
       "id": "64d98db47fd818bf",
       "examId": "upsc-epfo-apfc-2026",
-      "title": "APFC 2026: Updated Syllabus | UPSC EPFO APFC Syllabus | APFC Notification 2026 | Anuj Jindal",
+      "title": "APFC 2026: Updated Syllabus | UPSC EPFO APFC Syllabus | APFC Notification 2026",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5tRDQ4YlhRZ3hnQ1Q4OGN1bWNIN240cjFUVmVWOHRFTnY4SUVwTVlfSTN0OWNacXYxamVFQ19oVlJjdw?oc=5",
       "source": "UPSC EPFO news (Google News)",
       "publishedAt": "2026-08-23",
@@ -2848,7 +2884,7 @@
       "firstSeen": "2026-10-15T03:28:40+05:30",
       "publisher": "News18",
       "kind": "notification",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "b67e6d3236028a28",
@@ -2860,7 +2896,7 @@
       "firstSeen": "2026-10-15T08:13:17+05:30",
       "publisher": "Telegraph India",
       "kind": "notification",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "ffbd845735ac17e4",
@@ -2944,18 +2980,6 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "YouTube",
       "kind": "result",
-      "alsoIn": 1
-    },
-    {
-      "id": "8d22337b5150e5bb",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Notification 2026 Out: Vacancies, Eligibility & Apply Online",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aeHg3aThNZENBTWJEQ19yVFJncFV4cmZfdENLazNidjU1ZGxHNmc3MDZHQWtSOFZGVkt5SkExMFNjcTFDc3VfZmhtbUN1VDNMaEVRUnNLTlpRLU55NmtJTk1MbWtJMVhDOFlFbkVJOHA?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-19",
-      "firstSeen": "2026-10-17T12:39:43+05:30",
-      "publisher": "PW",
-      "kind": "notification",
       "alsoIn": 1
     }
   ]
