@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-19T13:34:44+05:30",
+  "discoveredAt": "2026-10-20T13:25:13+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,102 @@
   ],
   "discovered": [
     {
+      "id": "89f38e9e99c7c0ac",
+      "org": "PGIMER",
+      "post": "PGIMER – 162 Senior Resident, Senior Medical Officer and More",
+      "title": "PGIMER Recruitment 2026 – Apply Online for 162 Senior Resident, Senior Medical Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/pgimer-recruitment-2026-apply-online-for-162-senior-resident-senior-medical-officer-and-more-posts-3074458",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-20",
+      "firstSeen": "2026-10-20T13:25:13+05:30",
+      "curated": false
+    },
+    {
+      "id": "fc6489f6fb3286fd",
+      "org": "PGIMER",
+      "post": "PGIMER Chandigarh Nursing Officer Exam Date - Check Revised Exam Schedule at pgimer.edu.in",
+      "title": "PGIMER Chandigarh Nursing Officer Exam Date 2026 Out - Check Revised Exam Schedule at pgimer.edu.in",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/pgimer-chandigarh-nursing-officer-exam-date-2026-3070944",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-20",
+      "firstSeen": "2026-10-20T13:25:13+05:30",
+      "curated": false
+    },
+    {
+      "id": "8758416949ce2b67",
+      "org": "AUD Delhi Non Teaching",
+      "post": "AUD Delhi Non Teaching - 56 Staff Nurse, Section Officer and More",
+      "title": "AUD Delhi Non Teaching Recruitment 2026 - Apply Online for 56 Staff Nurse, Section Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/aud-delhi-non-teaching-recruitment-2026-apply-online-for-56-staff-nurse-section-officer-and-more-posts-3070261",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-20",
+      "firstSeen": "2026-10-20T13:25:13+05:30",
+      "curated": false
+    },
+    {
+      "id": "abf0b5682aea953f",
+      "org": "IPR",
+      "post": "IPR – 58 Project Scientific Assistant, Project Scientific Officer and More",
+      "title": "IPR Recruitment 2026 – Apply Online for 58 Project Scientific Assistant, Project Scientific Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ipr-recruitment-2026-apply-online-for-58-project-scientific-assistant-project-scientific-officer-and-more-posts-3074444",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-20",
+      "firstSeen": "2026-10-20T13:25:13+05:30",
+      "curated": false
+    },
+    {
       "id": "8b94049a51032799",
       "org": "APPSC Forest Range Officer",
       "post": "APPSC Forest Range Officer 04 FRO , Starts - Adda247",
@@ -5342,7 +5438,104 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30"
+      "lastSeen": "2026-10-20T13:25:17+05:30"
+    },
+    {
+      "org": "Maruti Suzuki",
+      "post": "Management Trainee 2027-28",
+      "title": "Management Trainee 2027-28",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher programme by its title — years of experience not stated in the listing",
+      "experienceText": "not stated",
+      "experienceMinYears": 0.0,
+      "experienceSource": "title",
+      "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
+      "checkedVia": null,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "maruti",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Gurugram",
+        "Gurugram"
+      ],
+      "link": "https://www.foundit.in/job/management-trainee-2027-28-maruti-suzuki-gurugram-gurgaon-gurugram-69505235",
+      "source": "Foundit",
+      "sourceType": "portal",
+      "fit": 60,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher programme by title"
+      ],
+      "status": "open",
+      "postedAt": "2026-10-19",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-3eee7cc87c4e",
+      "firstSeen": "2026-10-20T13:25:17+05:30",
+      "lastSeen": "2026-10-20T13:25:17+05:30"
+    },
+    {
+      "org": "Kotak Securities",
+      "post": "Management Trainee-Digital Banking-Net & Mobile Banking HO Team",
+      "title": "Management Trainee-Digital Banking-Net & Mobile Banking HO Team",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher programme by its title — years of experience not stated in the listing",
+      "experienceText": "not stated",
+      "experienceMinYears": 0.0,
+      "experienceSource": "title",
+      "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
+      "checkedVia": null,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "kotak",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "India"
+      ],
+      "link": "https://www.foundit.in/job/management-trainee-digital-banking-net-mobile-banking-ho-team-kotak-securities-india-69106189",
+      "source": "Foundit",
+      "sourceType": "portal",
+      "fit": 60,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher programme by title"
+      ],
+      "status": "open",
+      "postedAt": "2026-09-29",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-ff31c8e8a5e7",
+      "firstSeen": "2026-10-20T13:25:17+05:30",
+      "lastSeen": "2026-10-20T13:25:17+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -5390,7 +5583,7 @@
       "summary": null,
       "id": "portal-de49827c7681",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30"
+      "lastSeen": "2026-10-20T13:25:17+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -5486,7 +5679,7 @@
       "summary": null,
       "id": "portal-e85a676e1b94",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30"
+      "lastSeen": "2026-10-20T13:25:17+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5533,7 +5726,7 @@
       "summary": null,
       "id": "portal-5178de1b5799",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30"
+      "lastSeen": "2026-10-20T13:25:17+05:30"
     },
     {
       "org": "Abbott Vascular",
@@ -5629,7 +5822,7 @@
       "summary": null,
       "id": "portal-bd518d0de87f",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30"
+      "lastSeen": "2026-10-20T13:25:17+05:30"
     },
     {
       "org": "Marriott International",
@@ -5724,7 +5917,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30",
+      "lastSeen": "2026-10-20T13:25:17+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -5821,7 +6014,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30",
+      "lastSeen": "2026-10-20T13:25:17+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5869,7 +6062,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30",
+      "lastSeen": "2026-10-20T13:25:17+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5916,7 +6109,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30",
+      "lastSeen": "2026-10-20T13:25:17+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -5964,14 +6157,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30",
+      "lastSeen": "2026-10-20T13:25:17+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-19T13:34:48+05:30",
+  "portalAt": "2026-10-20T13:25:17+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6007,22 +6200,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 346,
+      "fetched": 352,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 346
+      "scanned": 352
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 331,
+      "fetched": 325,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 331
+      "scanned": 325
     },
     {
       "name": "LinkedIn",
@@ -6037,12 +6230,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 414,
+      "fetched": 410,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 414
+      "scanned": 410
     },
     {
       "name": "iimjobs",
