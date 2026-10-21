@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-20T13:25:13+05:30",
+  "discoveredAt": "2026-10-21T13:29:06+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,30 @@
   ],
   "discovered": [
     {
+      "id": "9755ba9fe567ad11",
+      "org": "ICAR CIFE Young Professional II",
+      "post": "ICAR CIFE Young Professional II",
+      "title": "ICAR CIFE Young Professional II Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/icar-cife-young-professional-ii-recruitment-2026-apply-online-3074636",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-10-21T13:29:06+05:30",
+      "curated": false
+    },
+    {
       "id": "89f38e9e99c7c0ac",
       "org": "PGIMER",
       "post": "PGIMER – 162 Senior Resident, Senior Medical Officer and More",
@@ -5438,7 +5462,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -5487,7 +5511,7 @@
       "summary": null,
       "id": "portal-3eee7cc87c4e",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Kotak Securities",
@@ -5535,7 +5559,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -5583,7 +5607,7 @@
       "summary": null,
       "id": "portal-de49827c7681",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -5679,7 +5703,7 @@
       "summary": null,
       "id": "portal-e85a676e1b94",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5726,7 +5750,7 @@
       "summary": null,
       "id": "portal-5178de1b5799",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Abbott Vascular",
@@ -5774,7 +5798,7 @@
       "summary": null,
       "id": "portal-49336a9a935b",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-18T12:56:32+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Abbott Healthcare",
@@ -5822,7 +5846,7 @@
       "summary": null,
       "id": "portal-bd518d0de87f",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30"
+      "lastSeen": "2026-10-21T13:29:10+05:30"
     },
     {
       "org": "Marriott International",
@@ -5917,7 +5941,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30",
+      "lastSeen": "2026-10-21T13:29:10+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -6014,7 +6038,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30",
+      "lastSeen": "2026-10-21T13:29:10+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6062,7 +6086,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30",
+      "lastSeen": "2026-10-21T13:29:10+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6109,7 +6133,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30",
+      "lastSeen": "2026-10-21T13:29:10+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6157,14 +6181,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-20T13:25:17+05:30",
+      "lastSeen": "2026-10-21T13:29:10+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-20T13:25:17+05:30",
+  "portalAt": "2026-10-21T13:29:10+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6210,12 +6234,12 @@
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 325,
+      "fetched": 322,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 325
+      "scanned": 322
     },
     {
       "name": "LinkedIn",
@@ -6230,12 +6254,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 410,
+      "fetched": 412,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 410
+      "scanned": 412
     },
     {
       "name": "iimjobs",

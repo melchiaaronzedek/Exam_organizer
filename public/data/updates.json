@@ -1,50 +1,98 @@
 {
-  "updatedAt": "2026-10-20T13:23:14+05:30",
+  "updatedAt": "2026-10-21T13:27:14+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "3ba34f493b5c6c3f",
+      "id": "0d0fd0dffced8da9",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-10-20T13:23:14+05:30",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
       "kind": "other",
       "alsoIn": 4
     },
     {
-      "id": "1f90973edebc263d",
+      "id": "8a65a56dab5b574c",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=shYMKxSYDj7DSvaS2iSLJ4fj%2BLXOizfx%2Fx91IL6Q0eoEsA9vr64dNSyxLPU4WSjr7CTju2eIZDXIuwedKv1SWkecV7%2Fi1x1r9MdENIT5qLbW6G0ubJDB8Wt3ukAKPoPGW2ODrQeR3RdTMXJgS3odbg%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=YT6sZjwXRF9QIbBYLfXh0LGL%2BGrtskMnuARbkbXePtQnqU0HGIMvS9nK6IjDaRjVY2PUv6NPnSYQ4Mrxhntua5xEz6Q7Jhnl6zFnRpkfx1veNrRsgHG8kMSBJ537m9VQVDFFdZkGWK8fkmCC5gZMJw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-20T13:23:14+05:30",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "88449250cb42af3b",
+      "id": "ffabf0c052ab9531",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=CNFpXHPMr7zTyfvDUsXBh0MkyQT3a2wlM1fJIE%2FwuAzhKd8ynMtaA8xANFVARzG3Yb6zeZcmoOGAHStfAo5S8BFMqWyUxSdEbNP9otTCIndpU1fCaIKQcJcEbb%2B3RnnjaEtbmvsWMqGWmKBB4i0ucg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=P%2FtqYWkHnXqBiSPSP5ST4DlJWx75jHBFVGCIDOCVDFwtBte%2BNzD49Sc94iMrNlAJkXh2NjeMjZnnC73MaVFvqv1X2uJf7C0K7d2Gok6acevgTj2xlreIyEhleeIvwUh1x9zwpzJ%2BEQxLZ2jEHnXNHw%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-20T13:23:14+05:30",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "356e379c9399f472",
+      "id": "e8f0363fdaebec8e",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=feM7Z7fwKA%2BbZ0Nil1GcF0IWMpjc2GWj%2Fg9pK7PC1FMbd8X5uDhEAKGRkNZPlyIhCyGu4ZrvGeu4HhPVtvplo3QtQnalZIbJ6suBf%2Bf5oevxBypC1v5DYNl7y%2BddMjfQVVyt4Zhl0WSCcAbSYk1hmg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=rpaS%2Fe2VOaeK2l1pjdCf1q5Uqugg6X8pilYEdN1ZwZeLobYOFXy7up2NlWYVnmf9u1E5f3r5%2BjUL8jwhnQ9iglbNh8%2F1UA%2FRJy00v99y8%2BzNlKAlKL7eIUroqbdu%2BwhDhFZvcPd%2FPwAVnNVZvDeQbw%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-20T13:23:14+05:30",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "4e77dd474e784a93",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Recruitment 2026 Notification Out for 232, Apply Online Started",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONEhYRnNyMGdXWE9VUm9nclVESmhOMEVyYVhabUZ5dWZlQTJNWWVla3NEeDRkX3pfZmxQanNIX0MxYW9FajNqTFR3cjFKOEU4UG1WQ19vR2RlR1BoNUNzVlE5NTdWaUktNWxVVGlKODFndVZWdEo1YnNSd0VvMk1JVF9n?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "7aa47ae0352c32d5",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Recruitment 2026 – Apply Online for 232 Posts",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNemtITnJ0a2pmeHZQNlBFaEF1RDU0SFlScXozTXp3MU1xNVh4c3hwQi1hR2htcWdTNjliNHY5UmZqNm5Pd1RiOWxnZzRHeVB3Wm9SeFRBUldoTXZ6a0FnTlZNT25wLUVSQkRhRzNxa0FOSzFFeW5XSFJ6cWlDYzR6Uk82LXRMRlJD?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
+      "publisher": "FreeJobAlert.Com",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "fb5eeec42598e7f1",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Recruitment 2026 Notification OUT: Apply Online For 232 Apprentice Posts; Check Eligibility & Direct Link",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMW8zNDE3LTN4RHhCN1FDTUlBcGh3NUpVejBTMTM2S2FOR0lkcGduZ3ljeVRJN1Y2b1diZ0hhdVFCUUdoUWRELXA5cExpTEhuUktqejlKR3pBR1ozSG1UV3c1MGR4bF8ySjV0ODctZ212TktaLWN3T0tjb2pMTXhZWF9GUXk2bURTR05TbllFV2F1TDZWd29UR3N3dlNFRy1weHA0Q1hsWU9BQzgxbTNxSWZYcFV3Y3hvTnFoMkFiODd3QmJhRE83dVdocjQ0N0ZoeTVMTDZNMENiVG90cGswUVdKSjQwTDQ5TXZycFZfaE9yR0xv0gH7AUFVX3lxTE44eFBBZEQ1NVhLSUNpamRKV2tncEVCOVh4NjBoMmtDYXNQd0FtUVk3akFVa21xbXpMRVJEUnEtLWYyYW9CUmVxMEtmZFBrNVYzTUVxQlZBMjlES0U5RXpjejJ4RVRRNEt3Z1BqVWhaR2s2RkFHQmZBWXFkLUZsWW82LS1jMVlvcHZlZFNwOVkyLTA0TW5xTTRUV1RzWWFHR2k2enE5MjdmWkE2OFB1RmsxMllTcHdQQ3p0ZmdXeThRYkttMVV2bUhJU2ZnT2ZsN2NfbGV0MlhTa3VMSVNMR2VKQzlNeVFkNnJ6Ums3dmhHR1E0VW5USW9IM1lZ?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "cef7d06b629c95e2",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Recruitment 2026 Notification Out for 232 Vacancies",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10cXJLTng1ODMzMUk4TE45enNVd0ZkenY5dW9tOHFHWmM2a1BDcEQwc2lKMTVhUXF4M0I4TFFLeWVaUVBrSHBtU01XYnZmdUVXbUpPQVp6NmlCbWhGend4U0dzSHR6LThiSDdTdk1xcHMzN2c1Ync?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
+      "publisher": "Career Power",
+      "kind": "notification",
+      "alsoIn": 1
     },
     {
       "id": "0f1102ee07eedafc",
@@ -882,7 +930,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 11
+      "alsoIn": 13
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1024,6 +1072,18 @@
       "source": "APPSC news (Google News)",
       "publishedAt": "2026-10-13",
       "firstSeen": "2026-10-16T12:58:53+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "7136ed46c8d7896d",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Technical Assistant Notification Out For 36 Posts, Apply Online On 06 Nov",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQT3d4azR5Nmk0ZG5RM2l5RVdOSGpxOVlhUll3ZE5wWVR2VUQ2TVZQSTI1V1B4UnhKTVhuOXdWYjlyVExPZjVQNElzaDJjR2pwVXRRZTE2TmtZZmxvamlXT0NwOWFESlBSdlVMZXZxYlpVZGZPQ29tSE4zMllydjFZaW9PZGNqODdVTjlUU0RaTE5rdXc?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-21T13:27:14+05:30",
       "publisher": "Adda247",
       "kind": "notification",
       "alsoIn": 1
@@ -1312,7 +1372,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "Shiksha.com",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "66b2d418fb6f31a9",
@@ -2488,7 +2548,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
-      "alsoIn": 8
+      "alsoIn": 9
     },
     {
       "id": "ec2e0c5db580368f",
@@ -2500,7 +2560,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "52301332dd2dc9dd",
@@ -2889,7 +2949,7 @@
     {
       "id": "64d98db47fd818bf",
       "examId": "upsc-epfo-apfc-2026",
-      "title": "APFC 2026: Updated Syllabus | UPSC EPFO APFC Syllabus | APFC Notification 2026 | Anuj Jindal",
+      "title": "APFC 2026: Updated Syllabus | UPSC EPFO APFC Syllabus | APFC Notification 2026",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5tRDQ4YlhRZ3hnQ1Q4OGN1bWNIN240cjFUVmVWOHRFTnY4SUVwTVlfSTN0OWNacXYxamVFQ19oVlJjdw?oc=5",
       "source": "UPSC EPFO news (Google News)",
       "publishedAt": "2026-08-23",
@@ -2921,54 +2981,6 @@
       "publisher": "The Times of India",
       "kind": "notification",
       "alsoIn": 1
-    },
-    {
-      "id": "10bc3f7d65d12517",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC 2026 Full Notification Out | Total Vacancy, Exam Pattern & Exam Date",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XUkRtNEJaTGJJS3ZNcUE4cUJFS1BrSk0wMU9MSWxmdVNpT0k0LW9KZFJ2ZW44c3JYQWlDMFZiVkFFeFAxSF9lRmhiUW92TVkyazEwQXI4N1ZYcmRm?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-21",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
-      "publisher": "YouTube",
-      "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "bc44d224d45db75b",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC Phase 14 Exam Date 2026 Out @ssc.gov.in, Check CBT Official Schedule",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZEw0cXZvUk5mZ2pmUzE1enNOeVdjeE42aFdvS21HckFWVFY5LVNwWldueUhoWV9HMTJyaks0cXVZQnFndVpjVmZ0aGZkbXd1YUNNbWFqVVBITXlmaE94REh5YmNRRmdmV3VFRjdlMWgzbTZWa01Va3VLeXB6cDYweDg0N2tLT043?oc=5",
-      "source": "SSC CGL Tier 2 news (Google News)",
-      "publishedAt": "2026-08-21",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
-      "publisher": "Adda247",
-      "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "4068c7247138c224",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "IOCL Law Officer Recruitment 2026: Notification, Vacancies, Apply Online",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xbnIwSTlibjdNOVVkQ1RfbllESkduMHhCWEViclJXMHFVemtpWDUwT0xxaXYxQldVRkpYUnk0cjdzdGJaeEtLTnVIWUc5elZtOThrR3NUYUlfeGx6a3ZqOVB6WUExU2lvWk1qaDZ3UlBCS0hlYVp2eQ?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2026-08-21",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "PW",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "fd2ee3a27023c700",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Jobs 2026: 80 Vacancies Announced, Check Application Date And Eligibility",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQemV0SGgtakR0a0txQTNFTTR5VHhTTmc3SDZkcTVCMEJxSnpVZ0IxcHdQSUxwdE1mQkhoYU1yTFQ4bkh5bnc4UG93RkIzOE43aEZ2UmY0b1BNbUMwV0NDOGFHTXdVWUdRMFBpSWYwR1E1MGZid3NZSkRpM1lKVjduZG9jaTJPVVBxa2drYUpBTHVocDg4anNvMzdDX1RNQkpucVpMQkE5M01oNXpJenBJaHZQMmxDRDVVY3V6VnhGekUtNU9ONS1GdFQyMW90RGc0ZHVGd0JKU1NsRzlNSWo3T0FsRHZnbHMwN2ZUbWRWSQ?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-21",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "News18",
-      "kind": "notification",
-      "alsoIn": 3
     }
   ]
 }
