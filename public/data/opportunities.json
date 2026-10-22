@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-21T13:29:06+05:30",
+  "discoveredAt": "2026-10-22T13:25:58+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,126 @@
   ],
   "discovered": [
     {
+      "id": "470c06e3c33cddac",
+      "org": "CWC",
+      "post": "CWC – 327 Assistant Manager, Junior Executive",
+      "title": "CWC Recruitment 2026 – Apply Online for 327 Assistant Manager, Junior Executive Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/cwc-recruitment-2026-apply-online-for-327-assistant-manager-junior-executive-posts-3074247",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: assistant manager"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-22",
+      "firstSeen": "2026-10-22T13:25:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "5e848668870cdc1d",
+      "org": "ORGI",
+      "post": "ORGI – Apply Offline 26 Assistant Registrar General, Research Officer and More",
+      "title": "ORGI Recruitment 2026 – Apply Offline for 26 Assistant Registrar General, Research Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/orgi-recruitment-2026-apply-offline-for-26-assistant-registrar-general-research-officer-and-more-posts-3074962",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-22",
+      "firstSeen": "2026-10-22T13:25:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "84280ca3345ba879",
+      "org": "HBCH MPMMCC Visiting Consultant",
+      "post": "HBCH MPMMCC Visiting Consultant",
+      "title": "HBCH MPMMCC Visiting Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/hbch-mpmmcc-visiting-consultant-recruitment-2026-apply-online-3074953",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-22",
+      "firstSeen": "2026-10-22T13:25:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "ddbc8ff765b46889",
+      "org": "TMC",
+      "post": "TMC MPMMCC Ad-hoc Medical Officer",
+      "title": "TMC MPMMCC Ad-hoc Medical Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/tmc-mpmmcc-ad-hoc-medical-officer-recruitment-2026-apply-online-3074948",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-22",
+      "firstSeen": "2026-10-22T13:25:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "0cbaf76f5ba0229b",
+      "org": "GSL Consultant",
+      "post": "GSL Consultant – Apply Offline",
+      "title": "GSL Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/gsl-consultant-recruitment-2026-apply-offline-3074944",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-22",
+      "firstSeen": "2026-10-22T13:25:58+05:30",
+      "curated": false
+    },
+    {
       "id": "9755ba9fe567ad11",
       "org": "ICAR CIFE Young Professional II",
       "post": "ICAR CIFE Young Professional II",
@@ -5462,7 +5582,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30"
+      "lastSeen": "2026-10-22T13:26:02+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -5607,7 +5727,7 @@
       "summary": null,
       "id": "portal-de49827c7681",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30"
+      "lastSeen": "2026-10-22T13:26:02+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -5703,7 +5823,7 @@
       "summary": null,
       "id": "portal-e85a676e1b94",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30"
+      "lastSeen": "2026-10-22T13:26:02+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5750,7 +5870,7 @@
       "summary": null,
       "id": "portal-5178de1b5799",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30"
+      "lastSeen": "2026-10-22T13:26:02+05:30"
     },
     {
       "org": "Abbott Vascular",
@@ -5941,7 +6061,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30",
+      "lastSeen": "2026-10-22T13:26:02+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -6038,7 +6158,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30",
+      "lastSeen": "2026-10-22T13:26:02+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6086,7 +6206,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30",
+      "lastSeen": "2026-10-22T13:26:02+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6133,7 +6253,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30",
+      "lastSeen": "2026-10-22T13:26:02+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6188,7 +6308,7 @@
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-21T13:29:10+05:30",
+  "portalAt": "2026-10-22T13:26:02+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6223,23 +6343,23 @@
     },
     {
       "name": "Foundit",
-      "ok": true,
-      "fetched": 352,
-      "errors": 0,
-      "error": null,
-      "state": "ok",
-      "reason": null,
-      "scanned": 352
+      "ok": false,
+      "fetched": 0,
+      "errors": 10,
+      "error": "403 Client Error: Forbidden for url: https://www.foundit.in/middleware/jobsearch?sort=1&limit=40&query=growth%20associat",
+      "state": "error",
+      "reason": "http 403",
+      "scanned": 0
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 322,
+      "fetched": 328,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 322
+      "scanned": 328
     },
     {
       "name": "LinkedIn",
@@ -6254,12 +6374,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 412,
+      "fetched": 423,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 412
+      "scanned": 423
     },
     {
       "name": "iimjobs",
