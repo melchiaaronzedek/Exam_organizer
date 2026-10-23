@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-22T13:25:58+05:30",
+  "discoveredAt": "2026-10-23T13:24:58+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,80 @@
   ],
   "discovered": [
     {
+      "id": "558ea474484f6155",
+      "org": "RBI",
+      "post": "RBI Calendar , Grade B In February & Grade A In July - Bankersadda",
+      "title": "RBI Calendar 2027 Out, Grade B Notification In February & Grade A In July - Bankersadda",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXQU1CcjU0T0thaTN4Um9MR3RXUlE0LUdMbUh2bERCWWpkcEVERml2S2QzT2dLMGR1MXY5SmNFS3RiNWx5R1drNjB0WWlrMWxPM1JFb1hqRTBKdw?oc=5",
+      "source": "News · grade A regulator",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: grade a",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-10-23T13:24:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "621e15170b5a238f",
+      "org": "Rajanna Sircilla District",
+      "post": "Rajanna Sircilla District – Apply Offline 6 Dietician, Ayush Medical Officer and More",
+      "title": "Rajanna Sircilla District Recruitment 2026 – Apply Offline for 6 Dietician, Ayush Medical Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/rajanna-sircilla-district-recruitment-2026-apply-offline-for-6-dietician-ayush-medical-officer-and-more-posts-3075326",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-10-23T13:24:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "91f5e44fe428cee9",
+      "org": "RBI",
+      "post": "RBI Exam Calendar Released - Check Grade A & Grade B Exam Schedule at rbi.org.in",
+      "title": "RBI Exam Calendar 2027 Released - Check Grade A & Grade B Exam Schedule at rbi.org.in",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/rbi-exam-calendar-2027-3075321",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: grade a",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-10-23T13:24:58+05:30",
+      "curated": false
+    },
+    {
       "id": "470c06e3c33cddac",
       "org": "CWC",
       "post": "CWC – 327 Assistant Manager, Junior Executive",
@@ -5582,7 +5656,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30"
+      "lastSeen": "2026-10-23T13:25:02+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -5727,7 +5801,7 @@
       "summary": null,
       "id": "portal-de49827c7681",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30"
+      "lastSeen": "2026-10-23T13:25:02+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -5823,7 +5897,7 @@
       "summary": null,
       "id": "portal-e85a676e1b94",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30"
+      "lastSeen": "2026-10-23T13:25:02+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -5870,7 +5944,7 @@
       "summary": null,
       "id": "portal-5178de1b5799",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30"
+      "lastSeen": "2026-10-23T13:25:02+05:30"
     },
     {
       "org": "Abbott Vascular",
@@ -6061,7 +6135,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30",
+      "lastSeen": "2026-10-23T13:25:02+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -6158,7 +6232,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30",
+      "lastSeen": "2026-10-23T13:25:02+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6206,7 +6280,7 @@
       "summary": "Razorpay is hiring for the role of Junior Analyst! Responsibilities of the Candidate: Monitor transactions/ merchants to identify risk/fraud and take necessary action immediately. Handle transaction queries i",
       "id": "portal-8881c2b3d155",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30",
+      "lastSeen": "2026-10-23T13:25:02+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6253,7 +6327,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-22T13:26:02+05:30",
+      "lastSeen": "2026-10-23T13:25:02+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6308,7 +6382,7 @@
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-22T13:26:02+05:30",
+  "portalAt": "2026-10-23T13:25:02+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6326,16 +6400,16 @@
       "ok": false,
       "fetched": 0,
       "errors": 2,
-      "error": "blocked (reader: no job links)",
+      "error": "blocked (cloudflare: just a moment)",
       "state": "blocked",
-      "reason": "reader: no job links",
+      "reason": "cloudflare: just a momen",
       "scanned": 0
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 7,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -6354,12 +6428,12 @@
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 328,
+      "fetched": 326,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 328
+      "scanned": 326
     },
     {
       "name": "LinkedIn",
@@ -6374,12 +6448,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 423,
+      "fetched": 422,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 423
+      "scanned": 422
     },
     {
       "name": "iimjobs",
