@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-23T13:24:58+05:30",
+  "discoveredAt": "2026-10-24T13:05:52+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,55 @@
   ],
   "discovered": [
     {
+      "id": "823c78039870db44",
+      "org": "AAI SSCO Consultant",
+      "post": "AAI SSCO Consultant - 39",
+      "title": "AAI SSCO Consultant Recruitment 2026 Notification Out - Apply Online for 39 Posts",
+      "track": "general",
+      "sector": "psu",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/aai-consultant-recruitment-2026-apply-online-for-39-posts-3067900",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: consultant",
+        "psu"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-24",
+      "firstSeen": "2026-10-24T13:05:52+05:30",
+      "curated": false
+    },
+    {
+      "id": "8020968834538591",
+      "org": "NCDC",
+      "post": "NCDC – Apply Offline 30 Public Health Specialist, Technical Officer and More",
+      "title": "NCDC Recruitment 2026 Notification Out – Apply Offline for 30 Public Health Specialist, Technical Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ncdc-recruitment-2026-30-contractual-posts-3075560",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-24",
+      "firstSeen": "2026-10-24T13:05:52+05:30",
+      "curated": false
+    },
+    {
       "id": "558ea474484f6155",
       "org": "RBI",
       "post": "RBI Calendar , Grade B In February & Grade A In July - Bankersadda",
@@ -5656,7 +5705,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-23T13:25:02+05:30"
+      "lastSeen": "2026-10-24T13:05:56+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -5753,7 +5802,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30"
+      "lastSeen": "2026-10-24T13:05:56+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -6232,7 +6281,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: 1. Accounting & Finance Support Perform day-to-day accounting activities for client entities under establishe",
       "id": "portal-55b1c115284e",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-23T13:25:02+05:30",
+      "lastSeen": "2026-10-24T13:05:56+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6327,7 +6376,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-23T13:25:02+05:30",
+      "lastSeen": "2026-10-24T13:05:56+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6375,14 +6424,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30",
+      "lastSeen": "2026-10-24T13:05:56+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-23T13:25:02+05:30",
+  "portalAt": "2026-10-24T13:05:56+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6409,7 +6458,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 8,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -6417,16 +6466,6 @@
     },
     {
       "name": "Foundit",
-      "ok": false,
-      "fetched": 0,
-      "errors": 10,
-      "error": "403 Client Error: Forbidden for url: https://www.foundit.in/middleware/jobsearch?sort=1&limit=40&query=growth%20associat",
-      "state": "error",
-      "reason": "http 403",
-      "scanned": 0
-    },
-    {
-      "name": "Unstop",
       "ok": true,
       "fetched": 326,
       "errors": 0,
@@ -6436,14 +6475,24 @@
       "scanned": 326
     },
     {
-      "name": "LinkedIn",
+      "name": "Unstop",
       "ok": true,
-      "fetched": 100,
+      "fetched": 327,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 100
+      "scanned": 327
+    },
+    {
+      "name": "LinkedIn",
+      "ok": true,
+      "fetched": 90,
+      "errors": 1,
+      "error": "429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keyw",
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 90
     },
     {
       "name": "Internshala",

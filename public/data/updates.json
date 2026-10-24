@@ -1,7 +1,18 @@
 {
-  "updatedAt": "2026-10-23T13:22:59+05:30",
+  "updatedAt": "2026-10-24T13:03:51+05:30",
   "baseline": false,
   "updates": [
+    {
+      "id": "3ba34f493b5c6c3f",
+      "examId": "pfrda-grade-a-2026",
+      "title": "Recruitment of Grade A (Assistant...",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "source": "PFRDA careers",
+      "publishedAt": null,
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "kind": "other",
+      "alsoIn": 4
+    },
     {
       "id": "926b95d02f4c9297",
       "examId": "iocl-marketing-officer-2026",
@@ -45,17 +56,6 @@
       "firstSeen": "2026-10-23T13:22:59+05:30",
       "kind": "interview",
       "alsoIn": 2
-    },
-    {
-      "id": "0d0fd0dffced8da9",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-23T13:22:59+05:30",
-      "kind": "other",
-      "alsoIn": 4
     },
     {
       "id": "55c408637c3f7006",
@@ -126,6 +126,18 @@
       "alsoIn": 1
     },
     {
+      "id": "ef1f0b051a8c8b0f",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Notification 2026 Out for 321 Administrative Officer Post, Apply Online Now",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WR2dZNndHQTQ5LU5ISkJCVkF6cHB5QlVQbGRWcmFXZVBodkZUQUwyeGM1YTliMEVmMEJqazVBSUc0eWUzWEU0X0M4czc5eXNrZW4ydGQ3NVMxdVgtblhDLWVJMA?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-22",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Bankersadda",
+      "kind": "notification",
+      "alsoIn": 2
+    },
+    {
       "id": "4e77dd474e784a93",
       "examId": "lic-hfl-mt-2026",
       "title": "LIC HFL Apprentice Recruitment 2026 Notification Out for 232, Apply Online Started",
@@ -147,7 +159,7 @@
       "firstSeen": "2026-10-21T13:27:14+05:30",
       "publisher": "FreeJobAlert.Com",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "fb5eeec42598e7f1",
@@ -194,6 +206,30 @@
       "publishedAt": "2026-10-21",
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "PW",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "27f3ff8a99395568",
+      "examId": "aai-je-2026",
+      "title": "AAI Exam Date 2026 Out for Junior Executive & Manager, Check official Notice",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02NjlqekY3MDItM1hPSFEtY0hxcGxwV3N1ZG9leXhmYjV5LTFZV2tPY2dIdmxwOHRtdEJBTndJS2RRNGlxa1BsUVBHb2EwOG1KMXQtckloNDIwdUxKY2M2RGVTOFd1bWpDc0dwRmJoeG1KRXNi?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Adda247",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "318b04483502ecad",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Notification 2026 Out for 342 Vacancies, Apply Online Starts",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10cXJLTng1ODMzMUk4TE45enNVd0ZkenY5dW9tOHFHWmM2a1BDcEQwc2lKMTVhUXF4M0I4TFFLeWVaUVBrSHBtU01XYnZmdUVXbUpPQVp6NmlCbWhGend4U0dzSHR6LThiSDdTdk1xcHMzN2c1Ync?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Career Power",
       "kind": "notification",
       "alsoIn": 1
     },
@@ -349,7 +385,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "307f72dfb095c2e4",
@@ -361,7 +397,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1037,7 +1073,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 17
+      "alsoIn": 19
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1698,16 +1734,28 @@
       "alsoIn": 1
     },
     {
-      "id": "16359f61f97f3974",
+      "id": "6d03952cc61b9d85",
       "examId": "nicl-ao-2026",
-      "title": "NICL AO Notification 2026 Out for 321 Administrative Officer Post, Apply Online Start on 8 October",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9WR2dZNndHQTQ5LU5ISkJCVkF6cHB5QlVQbGRWcmFXZVBodkZUQUwyeGM1YTliMEVmMEJqazVBSUc0eWUzWEU0X0M4czc5eXNrZW4ydGQ3NVMxdVgtblhDLWVJMA?oc=5",
+      "title": "NICL AO Recruitment 2026 Out, Apply Online Starts, Check Last Date and Application Fee",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ua2lIUUlQMDM1RFJabXh2RkFUdWx0dWhmOWlVODFRMllQWjBtSzNXOEF6WmZuMTVzZXN0TGU3M0t4SEduNlI2VEJWV0xnbDdMRzJfWVREb2FjR0VnSThJNjZ1NHZNdWpsTkdJYXdLVk53T2cy?oc=5",
       "source": "NICL news (Google News)",
       "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-20T13:23:14+05:30",
-      "publisher": "Bankersadda",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 2
+      "alsoIn": 1
+    },
+    {
+      "id": "ac813025b31b1330",
+      "examId": "pci-aso-2026",
+      "title": "MIB nominates 13 working journalists to Press Council of India in updated gazette notification",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaGJDVkFZTVJQYWxsRURIMldqNTJscFR6RFZlVFhNYWtTcWNOQTRIOFRScktqbVZYWXdrOVVBTmVjU0sxcFBscWl2UmxNTkNtbVFLc0hYal96emdtMWR3QnBOOGNpSE1UZnhfbzN0LUJ1ZU02NnFrTl81eHBBRGRxXzU3OEozemNhYXBsM2RRMU1fa2lCZzhibXlhdV9sby1ndVFKclhGXzl6cUtRR1lwS3VoLUxyWmIyNV9fblNFenBJWjhUd1p4NA?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Adgully",
+      "kind": "notification",
+      "alsoIn": 1
     },
     {
       "id": "0c66271f1ef331b7",
@@ -1995,7 +2043,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "4920e65d1edc6a00",
@@ -2043,7 +2091,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "89754b960ef511f6",
@@ -2346,6 +2394,18 @@
       "alsoIn": 1
     },
     {
+      "id": "a015acc6e0a5307c",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Admit Card 2026 Out, Download Call Letter for 24 Sept",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9tOHdrU2hTQjVMbERvSXFtaTB4T1pjalV2MHRTM1RjeW92M1loTzk4Y3A5THE2NXVTbXZSekVvUmRwWmY3dERvTk5CY09vOHhVMWpVb2dUUEdzVFNSMVQ4eDNn?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-09-23",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Career Power",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
       "id": "176f2b3ab3397011",
       "examId": "upsc-epfo-apfc-2026",
       "title": "UPSC EPFO APFC Interview 2026: Marks, Process, Documents & Preparation",
@@ -2414,6 +2474,18 @@
       "publishedAt": "2026-09-22",
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "NDTV",
+      "kind": "admit-card",
+      "alsoIn": 2
+    },
+    {
+      "id": "2940ac5422e03aab",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL City Intimation Slip 2026 released today, check tier 1 exam dates",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1NaMWNjbm1pLWRVOFYtMHpwMFRXaUhBY0JsUEpzOXBjdTBsMm8yN1NzTEJ3dW9CWjBoOXhFMHFTSXZYTG5iVkg0enZwLWtFLVhYNmhQVzhSTnNFQ1pvR0RMLWZ1VldlemxTLVB6RVBKTG43QzJEclBZRkRnQW11d0dUd1hhcElvb0Q2TTkzdFl4S0FSbmZjQUJmWVE3Z0ZUQ2ZIRTQ2VHJMX0xfYnpFR0lzTmtSTVFHMTRBTTdWMDJyMkRiX3kzRTltRnowMndjN1VwMHMzVnRRM3Fi0gHiAUFVX3lxTE9hWlFLTWdmdXVUazR1d0dHMXlnMUcwM1JWb1pGcHFuR2hkMXVrWGpLNjlCVGFWQzBhZm9McldNMDVfcEVKazhkdmprYnQ4NHQ3aVVINEJZV1lHWWl5SEF6b1VOZ1hMTzFobXNJU3lVWDNFV0s2LU9peldGaU50d3ZUelpLa2lUUk5ZX1NWcjRKemFCWlV0cUJyY2VCZHdFOXRVTUlybFd6Wkp3ZnlEcUVDMVRzc053WU5ab0ItMDJ0eW1jcmVXNHBfdFZkX0NIN0VnUGJjWFJiaHlRUnZNdjRjNFE?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-09-22",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Business Standard",
       "kind": "admit-card",
       "alsoIn": 1
     },
@@ -2966,6 +3038,18 @@
       "publishedAt": "2026-09-03",
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "FreeJobAlert.Com",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "d94e4b69ad354cac",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Recruitment 2026 Last Date Today: Apply for 470 Executive Posts, Check Eligibility & Other Details - Direct Link Here",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZEhRSmxyck93V0dpNzVCaGczaUZGR2NWQmM3VzlzZ1ZpazRrT1R2dmJCVFp2X2NtQXZOak9vR2g0ZzB4M0xyN0FWU0RzWkhmS0YzRFFJUkh4c21BT1g5OWF5elhwTHM4amF6RWJXaFMwbkZLTmVvcnBTNWl0STg4NW5lU29hZ0FSUmtIT3BnWGplbmpocHBtd3czalBKR2tNOVl3cnhMdlJhMkl0dEhFNzg1M2xpQmZFRzNJbThXQS1sTDM1QldNVGJ5THdrVDFpeWktbzNweUJHWmV4UmZ2MVlzejNzRVU5bW9MQmMzNkVZUGszckHSAfwBQVVfeXFMTWExa2lkRWRPVUJ2aTRVZFdocW13NXZLeHlyVS1qLTZCVXZUdzBYeDVJRVp4MDZ0bHhLdnFTUGlZakUtaUJMZlQ2Nzl5Z2IzbVlQX0IxYWYwRTQwRkltMTZCemxJT2piS0c1X09kWVVRUXNYWDBBM0RWaU9RbEtHUnh3bDVSNDRiZWh2ZEpRTzk1T1FVRjNyVExfZnh2UGczSGx6NE1PNl9sTVptQldsSkw4Q3k4dVJiVVVCSjVvakZHQkw0LTBpQ0NPSldUQ0dRRXU3ekwxSURVc1NiZUpwS2g5U2g0VUIwTU1GYlZ0TDJwVVd4UTB3RmdnUFR0?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-09-03",
+      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "publisher": "Jagran Josh",
       "kind": "notification",
       "alsoIn": 1
     },
