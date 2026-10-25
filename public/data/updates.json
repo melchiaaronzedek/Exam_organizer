@@ -1,17 +1,50 @@
 {
-  "updatedAt": "2026-10-24T13:03:51+05:30",
+  "updatedAt": "2026-10-25T13:16:56+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "3ba34f493b5c6c3f",
+      "id": "0d0fd0dffced8da9",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-10-24T13:03:51+05:30",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
       "kind": "other",
       "alsoIn": 4
+    },
+    {
+      "id": "0db741243e31579b",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2024 - List of Candidates Nominated",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=9HKd5gSR%2FbA3Joy8SJVYfqy6To8kgL5rykQpk9Jhd2KQmMxKpzfZ3NgtmHX6HMbFPAkq8NftoJysgxJ9UhaF6JWiLDq%2FWyDJ5IPgUZj2f1BTSvBE7dWxJM9iCLWZLI6KcP5aD9EHoHvnI3h6OJpsiA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "kind": "result",
+      "alsoIn": 2
+    },
+    {
+      "id": "7c3defc5a9882959",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2022 - Nomination List",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=jpgSIA91C13w0HJ%2BglaJiWNTpXgMGgMJmoFn0FaTlcQcLTs%2FVwsHaUtnQQOewVsGKWo9KxA7Li8LvN%2BIM109sv4iRMZ9sT9%2B%2BhbB2o%2BLeu1kcxmBIkA6Tt02UpcHQN8An%2B1c0w5LdPoRHAzjripU2A%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "2c6730bd3587b7ff",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2023",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=Qu6wGSV53OKAf1XnD6Ocypfcc9E5r3WeQI%2B7DqB7rwIY6D%2F6dPUuC51xvRRu5z3WYxLyoEm6CuYF%2Fj3ROScJApdWVG4qY8SJzgGlGK5lArVhdGSk6kwe%2FBnnwnDk751uivvYj%2F%2FL7sBEzM20CN4JRQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "kind": "other",
+      "alsoIn": 2
     },
     {
       "id": "926b95d02f4c9297",
@@ -55,39 +88,6 @@
       "publishedAt": null,
       "firstSeen": "2026-10-23T13:22:59+05:30",
       "kind": "interview",
-      "alsoIn": 2
-    },
-    {
-      "id": "55c408637c3f7006",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=Lx7l4P9c7PJlrAi%2BS3mzkMriy%2FKyMDF56H1m0gqJ1Ok4D%2BHDWJVu3rnb088RFBHiEAX%2F0xwAWTPbGmKwFboedqEtYQ55zcX122uAy2kZM8Noz3FC4Oe7oWRgsA%2FTMzLBm%2F%2BM1O5cOUax44vk4Wt0lw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-23T13:22:59+05:30",
-      "kind": "result",
-      "alsoIn": 2
-    },
-    {
-      "id": "7b9051c47c635bea",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=yHNnYLWinPEHW%2BzZwW9s1HDl51oorqgwt2UlVWJAghFzFHAy6k9woQ9XlVx0uiS%2FELN7Ebn5yIQrgnJMVWXou54sJFK%2Ft2iO3%2F91h264C6n%2FS0WmKzCpmE7ALHZ%2FfeneuOpDpdoQsEOgDaObjanTDg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-23T13:22:59+05:30",
-      "kind": "other",
-      "alsoIn": 2
-    },
-    {
-      "id": "1b0f06f5b87ea3f3",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=QJUpQkvzKqofq1cdDwxbzBF5HouZVqcCpFZ6V5bi3lQD9o82Yl8G4TuDueO2aP6RsIiJJrCQOMNun5sA1j8F8h88XjBsdAveuxrC%2B3Is2ONF9%2FK7V0mBTedmYiRQxATO0AL5VnAHLsqlvLvg0zSKIw%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-23T13:22:59+05:30",
-      "kind": "other",
       "alsoIn": 2
     },
     {
@@ -159,7 +159,7 @@
       "firstSeen": "2026-10-21T13:27:14+05:30",
       "publisher": "FreeJobAlert.Com",
       "kind": "notification",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "fb5eeec42598e7f1",
@@ -397,7 +397,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -433,6 +433,18 @@
       "firstSeen": "2026-10-23T13:22:59+05:30",
       "publisher": "Career Power",
       "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "743dc529373e5048",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Executive Admit Card 2026 Released - Check CBT Scorecard at iocl.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlMzcjF1SHBXQzBaUVo5djN3dGdCLUV5dS14eUhldENRRjJ4OXUwS0I1UWhibXhYdnNGVDlUQ296b0ZBanNYbEFIZ2l0bl82RUdrNFpfTXo5UU5wVGNhSE1NVFpVMm9SZ1h3RXNaNlJTQVBTOVIyQ2xqMTZxaWNaaS1mQ0V4dTAzS3laek5jcDM?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-10-17",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "FreeJobAlert.Com",
+      "kind": "admit-card",
       "alsoIn": 1
     },
     {
@@ -956,6 +968,30 @@
       "alsoIn": 1
     },
     {
+      "id": "c6820ae175325c8d",
+      "examId": "aai-je-2026",
+      "title": "AAI Junior Executive Admit Card 2026 Out - Download CBT Hall Ticket at aai.aero",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdHlVRWVMdktzc1VIeGpUVjNWY3NnNW9xckRRUUJHYW04Y1AzNzdVVnYzcl8zT3c2Vm9mS3gtc2Y5ZVBSQVRzTjRZM2JKZ0NNSWUtV0dsdjNId2JwSDR4aDQwQVhiMWtZU1BTMDF6bWdxQTdTaUxpb1ZxNmxQdVNqYncyY0N3ektfNFloS2dtcmg1Zk81ZHdPMjlB?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-10-15",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "FreeJobAlert.Com",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
+      "id": "ac2a952aa5da4780",
+      "examId": "aai-je-2026",
+      "title": "AAI Admit Card 2026 Out for Junior Executive and Manager Posts",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOa21JQmNRVS11anF1WExHOG8wWlZLX0kwM2k3eGFPaHJQTEZpTU9JUmZLQy04NU1MU1o5V2k5YWktWGU3TExZRWZZZTVUM05FZFNzVTJLRFNBMzVYRlJvSkJ6WG9BWjNxUE1ELU9rM1hUUXBMVU51ZmJiQVZBRm5yR3BOaw?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-10-15",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "KollegeApply News",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
       "id": "a12c8c03d6e37cfd",
       "examId": "ssc-cgl-2026",
       "title": "Income Tax Delhi Sports Quota Recruitment 2026: Apply Online for 119 Vacancies",
@@ -1073,7 +1109,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 19
+      "alsoIn": 21
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1097,6 +1133,30 @@
       "firstSeen": "2026-10-17T12:39:43+05:30",
       "publisher": "Bankersadda",
       "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "94b9934d4b2333c0",
+      "examId": "aai-je-2026",
+      "title": "AAI Junior Executive Admit Card 2026 OUT: Download Manager Hall Ticket Here",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaDB2cVh3a0U3LVduRmFONUZCTEZNeWdMeWYtanMzQ3R4bkZ4Smp5MVBBMjhURWdWN2FMenpEeGFLeWg5UnRTNWdTOVdsMUhEc0tYcXA1U2tnN2p0cnZ3Ni1iQVljQ1RzWFdPd0YtazZrOUJYbUl1SzZMbXFRVU9SSmFHZm1CVmxrWjRObi1Ybm1DQmZYamg0?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "KollegeApply News",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
+      "id": "e0b7feb36d98737f",
+      "examId": "aai-je-2026",
+      "title": "AAI JE Admit Card 2026 OUT: Download Manager & Junior Executive CBT Hall Ticket at aai.aero- Get Direct Link",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVlhranZtUjUtUDd3NTAwamVESW04U042MkU1QlZmalp2cjZla2xYRjBGMXN2ZUpqSkdmQmV0NFBvU1FUUmh4OVVFTFVUY01JSWVLYk1KOHZQa3NfRzFzRU9iUnVlWC0wdEpoX0stT0VMTXJmSGlUdlMwQm4tTXQ2Z3dCZGpFNmN1RjhQTTBqNWdCQlIwcmZIcW1ydG5ITWNSQkRUeUd5WF9mN1YyT0dRWUJqb1RhWTg5cTM5ZnlCNG44NGR6VWZocXhPZXBmM0NYQ01QZm5zMFZMQzNVb2NuMVk0OXdQZDkx0gHvAUFVX3lxTE02WUE5REpfakc3OTFoWm1lQmY1ZktfVGRaZkxxcGNYbjRaTGpCNzhGYjk1Slk1THduaEtCNFROUzUtMHlFeEhYUTNHYl9rVVZ6UUx6SzQ5N1FNb2hEbTB3N1J0aWloa2JibVFnYkEtSkVvcGVfSEVSMWlieGhBNVU5OFRRZnQwVno4MWJEVjJsSTEyWTZ3WGFVQkJ4MnBCV1lVN3V5ZU1sWXlob2pzUm1XYURzY3hkTTdqNFQ4a1BmcG8xcVlWSnJiMGN1MDJUak9EOXpTYkFqZldiSUJTMEZNT2FzeW0xZXhRMTFKZDRv?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "admit-card",
       "alsoIn": 1
     },
     {
@@ -1265,6 +1325,18 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "Bankersadda",
       "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "4c247acc57a8e334",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Assistant Director Notification 2026 Out For 26 Posts, Eligibility, Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQlNncXZueHd5N0JSeHhLaFBfcWJGNGZYNDd3NVZsXzRRZElLZ3h6VFk2NUNab0lvdkVHOE1kblBHSFRyWG9HcV9zRF9SVTB4d3NBZXFYQm9rcWVqRmNsRkR3anJKa0ZiRXRiOWJ4NG9JeG5OZzFsbFljMzU3a2thcE56RjNwX1Rtd2dFeTN4dm12Zw?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-12",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
       "alsoIn": 1
     },
     {
@@ -2043,7 +2115,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "4920e65d1edc6a00",
@@ -2091,7 +2163,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "89754b960ef511f6",
@@ -2103,7 +2175,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Careers360",
       "kind": "admit-card",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "256503e505eefb32",
@@ -2475,7 +2547,7 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "NDTV",
       "kind": "admit-card",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "2940ac5422e03aab",
@@ -2559,6 +2631,18 @@
       "firstSeen": "2026-10-15T08:13:17+05:30",
       "publisher": "Adda247",
       "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "a4d7a29cf8a1d70b",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Admit Card 2026 (OUT): Download Engineer, Officers and Other Posts Hall Ticket PDF at iocl.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaHp6MHZYVFV5X3U4UDl2QVRXRDJNNTRCVFZQeHFqNzdMMnpRVkFVVUc0bkRnWFFmblFDU2FaejhsMGZSQU5YOEF5S1F2Y0JrU2RhbklfQmZiOUZGM1ZyZjdSTl9VVjZZM1BPdXdTdldsczQyajdTNUxPZ0ZCa19lYUwyb19SLWR6ZFhRTDlwSzBjODgyWGI0WVY4VW9ManJWZDA4NWFWb3VvNy1BNVFLTmpUbEptYUpVNnRGTXFqX0tjQUxpWnRBWTZlOUFVNnJ0RHZJ0gHaAUFVX3lxTE5BLWNZRVBCSWNKVDZqNDZLdVBfd2U2RW55bC14czc2Nl9pN25jOGE1Y1Q1eGp2MHpEbUw0b1NLcGRaZlhJb2tPWDd1VmtUb2F5UjdMSnFYUHJyWlNjS0xxUUZXc2V2dmRRQWFYTVhfRXE2aExsRk40aDRaNGZRY2dzb1dHUzRWNzBUNDBESG1yUTVnVzItVEFESnZGZjRFVkVPd2hLMnRtWTZPOHE0OEx3N2NvT1BGZXprU2JwVmpCMGVJTzBrOWdsQWZ2T3pBaGdvcG1ldmwtUk5R?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-09-17",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "admit-card",
       "alsoIn": 1
     },
     {
@@ -2691,6 +2775,18 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "The Indian Express",
       "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "2eb2a8456cc6bb7d",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Admit Card 2026 Releasing Today: Download Hall Ticket",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9ITzNYYW9lVk04UlFFYUZtUHhkTzhjZksxeHZYanlBRk12S1REV2R2TENwWGJKdEphR1ZyYXpueWstc2pSWW0zaGs3UEpwX0FXYkFFNUQxeFg0eUx0RzRRMzJjQlhWNW1yemJSQ25QTVJZZDFLLVgwOE9Waw?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-09-15",
+      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "publisher": "KollegeApply News",
+      "kind": "admit-card",
       "alsoIn": 1
     },
     {
@@ -3044,7 +3140,7 @@
     {
       "id": "d94e4b69ad354cac",
       "examId": "iocl-marketing-officer-2026",
-      "title": "IOCL Recruitment 2026 Last Date Today: Apply for 470 Executive Posts, Check Eligibility & Other Details - Direct Link Here",
+      "title": "IOCL Recruitment 2026 Last Date Today: Apply for 470 Executive Posts, Check Eligibility & Other Details",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOZEhRSmxyck93V0dpNzVCaGczaUZGR2NWQmM3VzlzZ1ZpazRrT1R2dmJCVFp2X2NtQXZOak9vR2g0ZzB4M0xyN0FWU0RzWkhmS0YzRFFJUkh4c21BT1g5OWF5elhwTHM4amF6RWJXaFMwbkZLTmVvcnBTNWl0STg4NW5lU29hZ0FSUmtIT3BnWGplbmpocHBtd3czalBKR2tNOVl3cnhMdlJhMkl0dEhFNzg1M2xpQmZFRzNJbThXQS1sTDM1QldNVGJ5THdrVDFpeWktbzNweUJHWmV4UmZ2MVlzejNzRVU5bW9MQmMzNkVZUGszckHSAfwBQVVfeXFMTWExa2lkRWRPVUJ2aTRVZFdocW13NXZLeHlyVS1qLTZCVXZUdzBYeDVJRVp4MDZ0bHhLdnFTUGlZakUtaUJMZlQ2Nzl5Z2IzbVlQX0IxYWYwRTQwRkltMTZCemxJT2piS0c1X09kWVVRUXNYWDBBM0RWaU9RbEtHUnh3bDVSNDRiZWh2ZEpRTzk1T1FVRjNyVExfZnh2UGczSGx6NE1PNl9sTVptQldsSkw4Q3k4dVJiVVVCSjVvakZHQkw0LTBpQ0NPSldUQ0dRRXU3ekwxSURVc1NiZUpwS2g5U2g0VUIwTU1GYlZ0TDJwVVd4UTB3RmdnUFR0?oc=5",
       "source": "IOCL news (Google News)",
       "publishedAt": "2026-09-03",
@@ -3171,30 +3267,6 @@
       "firstSeen": "2026-10-15T03:28:40+05:30",
       "publisher": "PW",
       "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "b3eb2872aed48514",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "UPSC EPFO APFC Notification 2026 Out: 80 Vacancies, Eligibility, Exam Date, Application Process & Complete Details",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16UjFyTldFMDBuZEJka2d5MnZPVVBiS3RLdFRmT1p3bUp5SDZ6cUc5QVFucHBVOUxvbWN5LTlWbUdXSzkzSkRZcmxVOHN3angzWWYwdGpqMU1qMUdrY2U3cXZDQThNeUM5cVNjRkVHT2ZxemZOTzdr?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-08-25",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
-      "publisher": "Drishti IAS",
-      "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "aa2cd12c293f2d7e",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "ICSI CS June Result 2026 for executive program declared at icsi.edu, direct link and toppers list here",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPSzcwV1loZHFfRzZZNzRuOXVhZ051X2daUEhVUVlpaW9XalA4RUl2VWZLVk5UdGpJUkMtNGRPbmk1SGE2TW9rdjFzUkNhcEFQT0FRSXhWSkM3QldFNEZaQklhSDZENlJYSHhheEs1RFE4OUE2QzgzWFJlYlhWQllSc3lzak9NRGN4X050NVJrT0FyVTR2UE9oaGVBVkc5MmRobTZkMXk4cTV6RHZXbG91b1hLVHd5VmxsWmRpNjk0SUhRNURNVVAtWlZUd29uVnhCcUlQQnhzY1BEdkZ6d3BBMl80Yi1BWUZWUFpsdGNFbmxTaU1rb3BCa0pSa3h0V2w4YkREUEtxY9IBjAJBVV95cUxOQXh1YkZ3MGtiLVozRFRzVW4tWUJoTFVtTmhYOWZDRWgzM0NwUTRKY1Y1a1FoUkliQ0thazAwZF83dmp1MmdnaEFSVUdUYjk2ZHFoVVk2ZjVhNDZ2dzM2U0I4OHdZcGs3cUZXVU81aUsxNEVpOGpKYkpyRmVSMThycjQwTk5UcnMtaEFLRzQ0LU14UEl3ZjJKQ2hub0VJbU9ET2xRWmNCeENpVUZZODFBLU5hekM1V2VTajZ4UndCWVZIZFIyajVRaWVkb1JEajhfdU93Z05iMXo0bFpHeUI5VklGeGdEc0lDdUxkbFNkcEVtcXhGeGhnSmVYamhZSGoyVEVlRm9Kank2Zl9v?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2026-08-25",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "Hindustan Times",
-      "kind": "result",
       "alsoIn": 1
     }
   ]

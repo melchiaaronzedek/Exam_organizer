@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-24T13:05:52+05:30",
+  "discoveredAt": "2026-10-25T13:18:52+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,127 @@
   ],
   "discovered": [
     {
+      "id": "94605b7a7c935862",
+      "org": "RBI",
+      "post": "RBI Grade A : , Eligibility, Salary, and Selection Process - Adda247",
+      "title": "RBI Grade A 2027: Notification, Eligibility, Salary, and Selection Process - Adda247",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzdGFXZml2T0lpNmJlUjByWVUtcFhXbHFCYUJIa1lhclB4ZlNzdmY4MGxoMW1lVWU5WG9lYlpWWGtMVFhkbW1CYmV1Uy1ER0ZFUGR6cHMxNTlZNGM?oc=5",
+      "source": "News · grade A regulator",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: grade a",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-10-25T13:18:52+05:30",
+      "curated": false
+    },
+    {
+      "id": "b62c7520a5f49e49",
+      "org": "EPI",
+      "post": "EPI Consultant/ Expert – Apply Offline",
+      "title": "EPI Consultant/ Expert Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/epi-consultant-expert-recruitment-2026-apply-offline-3075655",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-24",
+      "firstSeen": "2026-10-25T13:18:52+05:30",
+      "curated": false
+    },
+    {
+      "id": "422d591add811458",
+      "org": "TISS",
+      "post": "TISS – Senior Research Officer, Senior Documentation and Communication Officer",
+      "title": "TISS Recruitment 2026 – Apply Online for Senior Research Officer, Senior Documentation and Communication Officer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/tiss-recruitment-2026-apply-online-for-senior-research-officer-senior-documentation-and-communication-officer-posts-3075653",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-24",
+      "firstSeen": "2026-10-25T13:18:52+05:30",
+      "curated": false
+    },
+    {
+      "id": "f566c6c7a43a9b30",
+      "org": "KSRTC",
+      "post": "KSRTC – Public Relations Officer, Executive Engineer",
+      "title": "KSRTC Recruitment 2026 – Apply Online for Public Relations Officer, Executive Engineer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ksrtc-recruitment-2026-apply-online-for-public-relations-officer-executive-engineer-posts-3075649",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-24",
+      "firstSeen": "2026-10-25T13:18:52+05:30",
+      "curated": false
+    },
+    {
+      "id": "cbba990135389720",
+      "org": "ILBS Consultant Grade IV",
+      "post": "ILBS Consultant Grade IV",
+      "title": "ILBS Consultant Grade IV Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ilbs-consultant-grade-iv-recruitment-2026-apply-online-3075621",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-24",
+      "firstSeen": "2026-10-25T13:18:52+05:30",
+      "curated": false
+    },
+    {
       "id": "823c78039870db44",
       "org": "AAI SSCO Consultant",
       "post": "AAI SSCO Consultant - 39",
@@ -5705,7 +5826,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-24T13:05:56+05:30"
+      "lastSeen": "2026-10-25T13:19:11+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -5802,7 +5923,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-24T13:05:56+05:30"
+      "lastSeen": "2026-10-25T13:19:11+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -5899,7 +6020,7 @@
       "summary": null,
       "id": "portal-9cf16e1d4ab4",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-19T13:34:48+05:30"
+      "lastSeen": "2026-10-25T13:19:11+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -6232,7 +6353,7 @@
       "summary": null,
       "id": "portal-3538a835c323",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-16T13:00:55+05:30",
+      "lastSeen": "2026-10-25T13:19:11+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -6319,7 +6440,7 @@
         "verified employer",
         "fresher programme by title"
       ],
-      "status": "open",
+      "status": "closed",
       "postedAt": null,
       "applyCloses": "2026-10-24",
       "examDate": null,
@@ -6376,7 +6497,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-24T13:05:56+05:30",
+      "lastSeen": "2026-10-25T13:19:11+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6424,14 +6545,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-24T13:05:56+05:30",
+      "lastSeen": "2026-10-25T13:19:11+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-24T13:05:56+05:30",
+  "portalAt": "2026-10-25T13:19:11+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6446,19 +6567,19 @@
     },
     {
       "name": "Glassdoor",
-      "ok": false,
-      "fetched": 0,
-      "errors": 2,
+      "ok": true,
+      "fetched": 30,
+      "errors": 1,
       "error": "blocked (cloudflare: just a moment)",
-      "state": "blocked",
-      "reason": "cloudflare: just a momen",
-      "scanned": 0
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 30
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 6,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -6467,42 +6588,42 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 326,
+      "fetched": 322,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 326
+      "scanned": 322
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 327,
+      "fetched": 320,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 327
+      "scanned": 320
     },
     {
       "name": "LinkedIn",
       "ok": true,
-      "fetched": 90,
-      "errors": 1,
-      "error": "429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keyw",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 90
-    },
-    {
-      "name": "Internshala",
-      "ok": true,
-      "fetched": 422,
+      "fetched": 100,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 422
+      "scanned": 100
+    },
+    {
+      "name": "Internshala",
+      "ok": true,
+      "fetched": 409,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 409
     },
     {
       "name": "iimjobs",
