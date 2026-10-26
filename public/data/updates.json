@@ -1,50 +1,74 @@
 {
-  "updatedAt": "2026-10-25T13:16:56+05:30",
+  "updatedAt": "2026-10-26T13:33:59+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "0d0fd0dffced8da9",
+      "id": "3ba34f493b5c6c3f",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
       "kind": "other",
       "alsoIn": 4
     },
     {
-      "id": "0db741243e31579b",
+      "id": "0540291929e843b6",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=9HKd5gSR%2FbA3Joy8SJVYfqy6To8kgL5rykQpk9Jhd2KQmMxKpzfZ3NgtmHX6HMbFPAkq8NftoJysgxJ9UhaF6JWiLDq%2FWyDJ5IPgUZj2f1BTSvBE7dWxJM9iCLWZLI6KcP5aD9EHoHvnI3h6OJpsiA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=d1bQx68vR3k5kt3Q2T%2FaLANecFajhjtjBzOruapy6AqHyZc2OrjRskDcCYePpEHxYGDjsDi91LVuZdVzufZqzbodHA2YfyKSsP99BEH9JlGM3RR5NX6fTyY8RGOQVDZNW4AjOZ%2FHIQTMdY%2BsY04efA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "7c3defc5a9882959",
+      "id": "fb755fef26eec1f0",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=jpgSIA91C13w0HJ%2BglaJiWNTpXgMGgMJmoFn0FaTlcQcLTs%2FVwsHaUtnQQOewVsGKWo9KxA7Li8LvN%2BIM109sv4iRMZ9sT9%2B%2BhbB2o%2BLeu1kcxmBIkA6Tt02UpcHQN8An%2B1c0w5LdPoRHAzjripU2A%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=NLgSdWgITzII4X5M8pJx9YnuhTYwQTJzvSW7EVdtZ5VKpNYOKQOV14EfJo9XskmYPlHyPNyyORKWKw%2FIaXTCsig0brCC9EXe24BTlRLErWN3GxEtzT5pVlaGtfh2GGiMHwgFQl%2BPHB3PzCAylYepWA%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "2c6730bd3587b7ff",
+      "id": "a9be95cf6c2d92e2",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=Qu6wGSV53OKAf1XnD6Ocypfcc9E5r3WeQI%2B7DqB7rwIY6D%2F6dPUuC51xvRRu5z3WYxLyoEm6CuYF%2Fj3ROScJApdWVG4qY8SJzgGlGK5lArVhdGSk6kwe%2FBnnwnDk751uivvYj%2F%2FL7sBEzM20CN4JRQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=%2FeGuhvDixNQY2CJ20lasJSBXF6rNORxwxE3OBUOHiwtmUl3cPQ3ke1GA%2FT4eSZcVZVeydUNFqJj0gfhub5kRSewEUfQc0gsX59uPNZF%2BP7nTWNnzpSKZ13s2yNOxVBxwxaqlF22CfIyZ0gJiTCVRnQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-25T13:16:56+05:30",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "f926974d1137fbe3",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Recruitment 2026: Registration closes October 27 for 166 vacancies",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPX1hNcjVxcjFuU1VRa0Z3YlpkM1RxQzJxYWhBRFlKX2JObXJrQ0NDTndzTEdpOUZtakpKemllaGhCMm5xMW9KOVpPcWFwVVpYS1RiaU4wclJ3ZUZ0UWVhOHlnT3RVbWZTdF9LTlA1ckhUeXQ1QWh0WDRTR2t2cDN3ZGFoOTRvX3RxVDV1UEs4SEVwVVpRcWk4ZHdtUHZPNjhwemQtYm40LXZyUjVHR3NxR2NySlQ3ZmVnQUtaNtIBvAFBVV95cUxPX1hNcjVxcjFuU1VRa0Z3YlpkM1RxQzJxYWhBRFlKX2JObXJrQ0NDTndzTEdpOUZtakpKemllaGhCMm5xMW9KOVpPcWFwVVpYS1RiaU4wclJ3ZUZ0UWVhOHlnT3RVbWZTdF9LTlA1ckhUeXQ1QWh0WDRTR2t2cDN3ZGFoOTRvX3RxVDV1UEs4SEVwVVpRcWk4ZHdtUHZPNjhwemQtYm40LXZyUjVHR3NxR2NySlQ3ZmVnQUtaNg?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
+      "publisher": "EdexLive",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "f62f853bdd70d771",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Mains Admit Card 2026 for Phase 2 Exam (30 November), Call Letter Download Link",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ncVBWYXRpY0gzeDVkWnBvYlpLOGR3Vi1LbUNSQzlIR0VoYmh4NzdLX3RmeDlocE01TnBwSFdZNUlKY3ozbGF6eFBvaXpwLUlteHVNMHhWbmJUMHhucEhYR3JubmhBSlF1X0Q4ZEV1UlJFQQ?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-10-25",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
+      "publisher": "Adda247",
+      "kind": "admit-card",
+      "alsoIn": 1
     },
     {
       "id": "926b95d02f4c9297",
@@ -89,6 +113,18 @@
       "firstSeen": "2026-10-23T13:22:59+05:30",
       "kind": "interview",
       "alsoIn": 2
+    },
+    {
+      "id": "3031664320614f57",
+      "examId": "nicl-ao-2026",
+      "title": "NICL Assistant Mains Admit Card 2026 Out, Check Download Link, Shift, Reporting Time and Schedule",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11V043dHhRU2lPbHhNc2dYTThuTHlMNHQ5M0ZTSkdsTEhIOTVHV1BxWHhTSEI4bFpoYTZ1U2NtV1lKaG9XQVRwalJUTmMxeXlFOHM2N0NUNDJoYnlLRHpteW9VbENjZw?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
+      "publisher": "Adda247",
+      "kind": "admit-card",
+      "alsoIn": 1
     },
     {
       "id": "5ad1f4ad86a6e4d0",
@@ -159,7 +195,7 @@
       "firstSeen": "2026-10-21T13:27:14+05:30",
       "publisher": "FreeJobAlert.Com",
       "kind": "notification",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "fb5eeec42598e7f1",
@@ -397,7 +433,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1109,7 +1145,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 21
+      "alsoIn": 23
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -2115,7 +2151,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "4920e65d1edc6a00",
@@ -2163,7 +2199,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 8
+      "alsoIn": 9
     },
     {
       "id": "89754b960ef511f6",
@@ -2547,7 +2583,7 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "NDTV",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "2940ac5422e03aab",
@@ -2874,6 +2910,18 @@
       "alsoIn": 1
     },
     {
+      "id": "a8c6d4d32ab369e5",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 1 exams from September 30 to October 30; Check schedule and admit card details, vacancies",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNcGJ5WnJUZG1sRzNXM05vNWZyTmtaZGtGeUNiX3FhaUx6Z2tNVGlucUZybDJqSFFIMGZWa3V5UmlMNmVpZ0pvdkM3MnBJd1RDNXY4ZWl2M0ZTaWIweEYtT1FnWHZWekJLRFBOUkdUNXJENzhJQU5QaW1ZVkxMOUJUdkxpdmVWSkdlMVY1MWpfclhBTGV2T3RXTlY2T0JKVkFucGlHVGV3SzhRSENleE1ZMVdrV1A3eHlDWklpLTgxRFRSOFZTcFBZODVIaWdtYjJiQVNUUWUzc0FGdF91U0c5ZGxZcllIMUnSAewBQVVfeXFMUFR1YU9ZakRPR2dfYV9SZkdObGNTTm1wSTdneE1YZ3BscHEwVnBiamo3Mm5BaVNsc2JzdnNUT2laSmQ4LXlUSXlVQk9BcXdBaVdienBGc0tSQUhvUWFPYVdxUXF6WlJUT2l2aFJxNlcydkRmMnp3YnFmdF9VeTdISHVIVDRpYmwwWUlraWtGU0dQWjEzWkJ0VmlLdTZxTE81bmR5ajRrY1JxSjdMNEotWGRiSVZBV08wMkFXLTAtSTZXWXd3RFpGZ29SSjdlZTVSbGxNWWdjRm00N0RxRTRJbGtMSXRuTG1TNlhWRE4?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-09-14",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
+      "publisher": "Organiser",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
       "id": "be9a35cb4e549d72",
       "examId": "appsc-group1-2026",
       "title": "APPSC Group-1, Group-2 Notification 2026: Recruitment Schedule to Be Announced on September 15",
@@ -3066,6 +3114,18 @@
       "alsoIn": 1
     },
     {
+      "id": "b2b20dd26feb8d97",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Experienced Professionals Recruitment 2026 - Apply Online for Production Manager, Senior Production Manager & Senior Manager Posts",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWXdRRV9Qcy1wNk9hRlBXTXp2TG9TWjZjUWl5V2c2dHM1LW9oTVBQUW53U08xWTF2eDhRSXFMNUJjbGlDMDFkaXhUUUFtZWxxekxweUlTSExyWi1qZ3FiSzRzcC1waTBtZzdfY0F5akRkdHhHTFZ6aU5TbXllaDc4eEF1TVplNnVSbmh6dU9JbWZCZ2lWa1lrcngwb3JncTdKWVVQdmFsdHZwNk1WRGplalNEU1diXzN6c2paN0NhYXpNcFQySm0zbnVGVTBlVGJ5emxHelcxdlZMNVliM0lxVkF0N09mb1U2Nmc?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-09-04",
+      "firstSeen": "2026-10-26T13:33:59+05:30",
+      "publisher": "FreeJobAlert.Com",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "bc07d1fe3926c226",
       "examId": "appsc-group1-2026",
       "title": "Arunachal Pradesh PSC Group A & Group B Recruitment 2026: Apply Online for 155 Posts",
@@ -3254,18 +3314,6 @@
       "publishedAt": "2026-08-28",
       "firstSeen": "2026-10-16T12:58:53+05:30",
       "publisher": "FreeJobAlert.Com",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "853fe6a816b85318",
-      "examId": "concor-mt-2026",
-      "title": "Container Corporation of India MT Recruitment 2026: 77 Vacancies, Apply Online, Dates, Posts & More",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkxqWmFwRXFCSHh6bktSMFdudlZ3dzFkMEQyZXg1UGswMk1yMjEyNzV0T2duM1JHLUdITHo0V3o5Q1ZNLTV2STd0VUNEU1RQWjdCQWNacExVbGNnTDZoYW5DdjE2N3ZzemdMb1BPQlFaYW5JU3NsamNSa1VGd3g3M3ZkRnc?oc=5",
-      "source": "CONCOR news (Google News)",
-      "publishedAt": "2026-08-26",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "PW",
       "kind": "notification",
       "alsoIn": 1
     }

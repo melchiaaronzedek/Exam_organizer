@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-25T13:18:52+05:30",
+  "discoveredAt": "2026-10-26T13:35:58+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,153 @@
   ],
   "discovered": [
     {
+      "id": "a47d26826caed5b5",
+      "org": "NABCONS",
+      "post": "NABCONS : 2 Associate Project Consultant , Salary Up to Rs 75,000 Per Month; Apply by October 25 - Sakshi Education",
+      "title": "NABCONS Recruitment 2026: 2 Associate Project Consultant Vacancies, Salary Up to Rs 75,000 Per Month; Apply by October 25 - Sakshi Education",
+      "track": "agri",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQV1BzMjllbUtVT1pkNUZPT0hTRHFsMXluVEpYODhaajdfNGlfZzhLNmZxYjljNW9sVFFXdzBNOXJNd2NWdU8ydzk2X0FMRlRqMVVfT2NFOUdkV0ZTVk1ZMXV2bmtxVV95bXBFbGo0S1k2WWx5VXhDOUVfd0I5RHdnYjQ0UnlhNzE4YWNqamd6OFdvcC1ja1hqRnhVNjNmdG1rdENxbmd4bVJTcUxLSTgtam9RRE9aTGhYdjl3a0tLdzlpUkxVS1Z5S0Q2alB6SW8?oc=5",
+      "source": "News · NABARD / agriculture officer",
+      "sourceType": "news",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-24",
+      "firstSeen": "2026-10-26T13:35:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "b74df391be1bceb1",
+      "org": "NITI Aayog Protocol Officer",
+      "post": "NITI Aayog Protocol Officer – Apply Offline",
+      "title": "NITI Aayog Protocol Officer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "central",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/niti-aayog-protocol-officer-recruitment-2026-apply-offline-3075707",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "central"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-26T13:35:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "a67cc4ce4739072e",
+      "org": "NITI Aayog Assistant Welfare Officer",
+      "post": "NITI Aayog Assistant Welfare Officer – Apply Offline",
+      "title": "NITI Aayog Assistant Welfare Officer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "central",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/niti-aayog-assistant-welfare-officer-recruitment-2026-apply-offline-3075705",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "central"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-26T13:35:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "bd4a63a377ebafcd",
+      "org": "RailTel Consultant Engineer",
+      "post": "RailTel Consultant Engineer – Apply Offline",
+      "title": "RailTel Consultant Engineer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "psu",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/railtel-consultant-engineer-recruitment-2026-apply-offline-3075698",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: consultant",
+        "psu"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-26T13:35:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "7ea1879a9d21c9d1",
+      "org": "Pawan Hans",
+      "post": "Pawan Hans – Head, Senior Consultant and More",
+      "title": "Pawan Hans Recruitment 2026 – Apply Online for Head, Senior Consultant and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/pawan-hans-recruitment-2026-apply-online-for-head-senior-consultant-and-more-posts-3075695",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-26T13:35:58+05:30",
+      "curated": false
+    },
+    {
+      "id": "12e9dca5af7b7e0a",
+      "org": "NCRTC",
+      "post": "NCRTC – General Manager, Assistant Manager and More",
+      "title": "NCRTC Recruitment 2026 – Apply Online for General Manager, Assistant Manager and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ncrtc-various-manager-recruitment-2026-3075693",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: assistant manager"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-26T13:35:58+05:30",
+      "curated": false
+    },
+    {
       "id": "94605b7a7c935862",
       "org": "RBI",
       "post": "RBI Grade A : , Eligibility, Salary, and Selection Process - Adda247",
@@ -5923,7 +6070,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-25T13:19:11+05:30"
+      "lastSeen": "2026-10-26T13:36:17+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -5971,7 +6118,7 @@
       "summary": null,
       "id": "portal-de49827c7681",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-23T13:25:02+05:30"
+      "lastSeen": "2026-10-26T13:36:17+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -6020,7 +6167,7 @@
       "summary": null,
       "id": "portal-9cf16e1d4ab4",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-25T13:19:11+05:30"
+      "lastSeen": "2026-10-26T13:36:17+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -6305,7 +6452,7 @@
       "summary": null,
       "id": "portal-73a27b74edab",
       "firstSeen": "2026-10-15T03:30:41+05:30",
-      "lastSeen": "2026-10-23T13:25:02+05:30",
+      "lastSeen": "2026-10-26T13:36:17+05:30",
       "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
       "experienceSource": "listing",
       "checkedVia": null
@@ -6392,7 +6539,7 @@
         "verified employer",
         "fresher programme by title"
       ],
-      "status": "open",
+      "status": "closed",
       "postedAt": null,
       "applyCloses": "2026-10-25",
       "examDate": null,
@@ -6497,7 +6644,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-25T13:19:11+05:30",
+      "lastSeen": "2026-10-26T13:36:17+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6545,14 +6692,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-25T13:19:11+05:30",
+      "lastSeen": "2026-10-26T13:36:17+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-25T13:19:11+05:30",
+  "portalAt": "2026-10-26T13:36:17+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6570,7 +6717,7 @@
       "ok": true,
       "fetched": 30,
       "errors": 1,
-      "error": "blocked (cloudflare: just a moment)",
+      "error": "blocked (reader: no job links)",
       "state": "partial",
       "reason": "some queries failed",
       "scanned": 30
@@ -6579,7 +6726,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 6,
+      "errors": 5,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -6588,22 +6735,22 @@
     {
       "name": "Foundit",
       "ok": true,
+      "fetched": 319,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 319
+    },
+    {
+      "name": "Unstop",
+      "ok": true,
       "fetched": 322,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
       "scanned": 322
-    },
-    {
-      "name": "Unstop",
-      "ok": true,
-      "fetched": 320,
-      "errors": 0,
-      "error": null,
-      "state": "ok",
-      "reason": null,
-      "scanned": 320
     },
     {
       "name": "LinkedIn",
@@ -6618,12 +6765,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 409,
+      "fetched": 394,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 409
+      "scanned": 394
     },
     {
       "name": "iimjobs",
@@ -6648,18 +6795,18 @@
     {
       "name": "Shine",
       "ok": true,
-      "fetched": 120,
-      "errors": 0,
-      "error": null,
-      "state": "ok",
-      "reason": null,
-      "scanned": 120
+      "fetched": 80,
+      "errors": 2,
+      "error": "503 Server Error: Service Unavailable for url: https://www.shine.com/job-search/leadership-program-mba-jobs",
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 80
     },
     {
       "name": "Freshersworld",
       "ok": false,
       "fetched": 0,
-      "errors": 6,
+      "errors": 2,
       "error": "blocked (http 403)",
       "state": "blocked",
       "reason": "http 403",
