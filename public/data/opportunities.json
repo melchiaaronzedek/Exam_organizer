@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-26T13:35:58+05:30",
+  "discoveredAt": "2026-10-27T13:50:14+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,153 @@
   ],
   "discovered": [
     {
+      "id": "ca5c12b515155784",
+      "org": "Best Government",
+      "post": "Best Government Jobs After MBA in : Roles & Salary Guide - Jaro Education",
+      "title": "Best Government Jobs After MBA in 2027: Roles & Salary Guide - Jaro Education",
+      "track": "marketing",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hZS1nTWJ1VGRNVGFjbWVRZ2V2QUNGRzFIWHB2QXNLR3NueWRRN1pwUmQ0VWUxOXRJdWd4SkZydEd0Y3o1Yk1PLWwxWmV0dUFUWkFYSVotRFh4UTdJU21rbGowTUoxTHBTNXRvcUZpd3Nudw?oc=5",
+      "source": "News · management trainee MBA",
+      "sourceType": "news",
+      "fit": 60,
+      "fitWhy": [
+        "role: marketing",
+        "MBA eligible"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-10-27T13:50:14+05:30",
+      "curated": false
+    },
+    {
+      "id": "8e36fa946baeb7a7",
+      "org": "GIC Assistant Manager",
+      "post": "GIC Assistant Manager Soon, Online Form, Eligibility - Career Power",
+      "title": "GIC Assistant Manager Recruitment 2026 Notification Soon, Online Form, Eligibility - Career Power",
+      "track": "general",
+      "sector": "insurance",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtOTFET1h3cC1EMUtGcnRlbEpmNjBNMTl2bmRNLWlQMEI5Y1JkYXYtTVVSUlBtVEVoQ1V3enJJQndONEpPQVdKejF2c05hbkZHaXFOMHhHVW8zbUVhZjVyNDdoSEhmeUVUYlVlc01iemtkRjZraW5KdERB?oc=5",
+      "source": "News · insurance AO",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: assistant manager",
+        "insurance"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-27T13:50:14+05:30",
+      "curated": false
+    },
+    {
+      "id": "e6a13ba1902daed3",
+      "org": "NHPC Consultant",
+      "post": "NHPC Consultant – Apply Offline",
+      "title": "NHPC Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "psu",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/nhpc-consultant-recruitment-2026-apply-offline-3075928",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: consultant",
+        "psu"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-27",
+      "firstSeen": "2026-10-27T13:50:14+05:30",
+      "curated": false
+    },
+    {
+      "id": "412be646cea6a44e",
+      "org": "CSKHPKV Young Professional I",
+      "post": "CSKHPKV Young Professional I – Apply Offline",
+      "title": "CSKHPKV Young Professional I Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/cskhpkv-young-professional-i-recruitment-2026-apply-offline-3075920",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-27",
+      "firstSeen": "2026-10-27T13:50:14+05:30",
+      "curated": false
+    },
+    {
+      "id": "e98cc07c6c96dd15",
+      "org": "AIIMS Nagpur",
+      "post": "AIIMS Nagpur – 6 Technologist, Technical Officer and More",
+      "title": "AIIMS Nagpur Recruitment 2026 – Apply Online for 6 Technologist, Technical Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/aiims-nagpur-recruitment-2026-apply-online-for-6-technologist-technical-officer-and-more-posts-3075916",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-27",
+      "firstSeen": "2026-10-27T13:50:14+05:30",
+      "curated": false
+    },
+    {
+      "id": "e454ff6915407c3e",
+      "org": "ISRO DOS Accounts Officer",
+      "post": "ISRO DOS Accounts Officer – Apply Offline",
+      "title": "ISRO DOS Accounts Officer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/isro-dos-accounts-officer-recruitment-2026-apply-offline-3075910",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-27",
+      "firstSeen": "2026-10-27T13:50:14+05:30",
+      "curated": false
+    },
+    {
       "id": "a47d26826caed5b5",
       "org": "NABCONS",
       "post": "NABCONS : 2 Associate Project Consultant , Salary Up to Rs 75,000 Per Month; Apply by October 25 - Sakshi Education",
@@ -5973,7 +6120,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-25T13:19:11+05:30"
+      "lastSeen": "2026-10-27T13:50:33+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -6070,7 +6217,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-26T13:36:17+05:30"
+      "lastSeen": "2026-10-27T13:50:33+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -6644,7 +6791,7 @@
       "summary": "Marriott International is hiring for the role of Sales & Marketing Voyage Program 2027! Responsibilities of the Candidate: Cultivate customer relationships Be a champion for innovation within the organization</",
       "id": "portal-d74a753b7692",
       "firstSeen": "2026-10-15T01:12:36+05:30",
-      "lastSeen": "2026-10-26T13:36:17+05:30",
+      "lastSeen": "2026-10-27T13:50:33+05:30",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
@@ -6692,14 +6839,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-26T13:36:17+05:30",
+      "lastSeen": "2026-10-27T13:50:33+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-26T13:36:17+05:30",
+  "portalAt": "2026-10-27T13:50:33+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6714,19 +6861,19 @@
     },
     {
       "name": "Glassdoor",
-      "ok": true,
-      "fetched": 30,
-      "errors": 1,
+      "ok": false,
+      "fetched": 0,
+      "errors": 2,
       "error": "blocked (reader: no job links)",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 30
+      "state": "blocked",
+      "reason": "reader: no job links",
+      "scanned": 0
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 5,
+      "errors": 6,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -6735,22 +6882,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 319,
+      "fetched": 356,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 319
+      "scanned": 356
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 322,
+      "fetched": 337,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 322
+      "scanned": 337
     },
     {
       "name": "LinkedIn",
@@ -6765,12 +6912,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 394,
+      "fetched": 409,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 394
+      "scanned": 409
     },
     {
       "name": "iimjobs",
@@ -6786,7 +6933,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 7,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",
@@ -6795,18 +6942,18 @@
     {
       "name": "Shine",
       "ok": true,
-      "fetched": 80,
-      "errors": 2,
-      "error": "503 Server Error: Service Unavailable for url: https://www.shine.com/job-search/leadership-program-mba-jobs",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 80
+      "fetched": 120,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 120
     },
     {
       "name": "Freshersworld",
       "ok": false,
       "fetched": 0,
-      "errors": 2,
+      "errors": 6,
       "error": "blocked (http 403)",
       "state": "blocked",
       "reason": "http 403",
