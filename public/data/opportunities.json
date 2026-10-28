@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-27T13:50:14+05:30",
+  "discoveredAt": "2026-10-28T14:27:15+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,78 @@
   ],
   "discovered": [
     {
+      "id": "df18585d992a7858",
+      "org": "MoHFW Consultant",
+      "post": "MoHFW Consultant – Apply Offline",
+      "title": "MoHFW Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/mohfw-consultant-recruitment-2026-apply-offline-3076396",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-28",
+      "firstSeen": "2026-10-28T14:27:15+05:30",
+      "curated": false
+    },
+    {
+      "id": "b709951f98983046",
+      "org": "BPSC",
+      "post": "BPSC Prosecution Officer OMR Sheet - Download Link, Last Date and Objection Process",
+      "title": "BPSC Prosecution Officer OMR Sheet 2026 - Download Link, Last Date and Objection Process",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/bpsc-prosecution-officer-omr-sheet-2026-3076373",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-28",
+      "firstSeen": "2026-10-28T14:27:15+05:30",
+      "curated": false
+    },
+    {
+      "id": "1f28c8dcec565c23",
+      "org": "RGSSH",
+      "post": "RGSSH Sub Fire Officer Interview Date - Schedule, Reporting Time and Venue",
+      "title": "RGSSH Sub Fire Officer Interview Date 2026 - Schedule, Reporting Time and Venue",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/rgssh-sub-fire-officer-interview-schedule-2026-3076357",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-28",
+      "firstSeen": "2026-10-28T14:27:15+05:30",
+      "curated": false
+    },
+    {
       "id": "ca5c12b515155784",
       "org": "Best Government",
       "post": "Best Government Jobs After MBA in : Roles & Salary Guide - Jaro Education",
@@ -6217,7 +6289,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-27T13:50:33+05:30"
+      "lastSeen": "2026-10-28T14:27:20+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -6361,7 +6433,7 @@
       "summary": null,
       "id": "portal-e85a676e1b94",
       "firstSeen": "2026-10-17T12:41:41+05:30",
-      "lastSeen": "2026-10-23T13:25:02+05:30"
+      "lastSeen": "2026-10-28T14:27:20+05:30"
     },
     {
       "org": "Aditya Birla Group",
@@ -6839,14 +6911,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-27T13:50:33+05:30",
+      "lastSeen": "2026-10-28T14:27:20+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-27T13:50:33+05:30",
+  "portalAt": "2026-10-28T14:27:20+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6873,7 +6945,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 6,
+      "errors": 8,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -6882,22 +6954,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 356,
+      "fetched": 355,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 356
+      "scanned": 355
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 337,
+      "fetched": 334,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 337
+      "scanned": 334
     },
     {
       "name": "LinkedIn",
@@ -6912,12 +6984,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 409,
+      "fetched": 420,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 409
+      "scanned": 420
     },
     {
       "name": "iimjobs",
@@ -6933,7 +7005,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 8,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",
