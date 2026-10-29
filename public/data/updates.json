@@ -1,50 +1,62 @@
 {
-  "updatedAt": "2026-10-28T14:25:13+05:30",
+  "updatedAt": "2026-10-29T14:20:10+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "3ba34f493b5c6c3f",
+      "id": "0d0fd0dffced8da9",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-10-28T14:25:13+05:30",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
       "kind": "other",
       "alsoIn": 3
     },
     {
-      "id": "e924a2e7ee2e8b47",
+      "id": "358ece154482e366",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=KrhVYTIrZDCiNENYlLGE7lB9Y%2BoyloD0%2B%2BxKEEFI2L3f6WWoop1%2BMBJXDdMBKdT1RoP54wkTJCbikyuyIhmNMQ5YeMVP5OBYl4ozt9GvpJAmP65Rc243crPBia6wy%2B6am3ShuZSd6cF8KVC6urf8VQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=uYpr1ogHezj53NqUyQWjjvd3u49bHv7OMxFavM1trpTC1iQeNKVNah61ZOnRoX3pw4iEzzrTxy%2BFLpFsPVMSG2%2F%2BLNJPJxVc2cOPBtUgc50xECoLJ%2FR9gATEx6yF5G%2FsPrvP350ccXfwGWEbqx1Wfw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-28T14:25:13+05:30",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "88662d10a85bfa8c",
+      "id": "9067aad6a6e3e186",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=%2Bjjls5FKv1wZZKIhncUlVBB5S%2FTpygf2AsL9qpWZjU6FuphNMspDgSJYNZbRl11Lz03OMwZGX0IfCvW%2F%2FpFXtJkqr3At4H2kIq4fR8b0bIfM%2BKcwbuDwDHoBa28OW1MbdvcZeRyf1C6tNy7QrzEeHw%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=Pwcfo4TW5dLkeFknCobLhuI1kquiMDRWUbQGBp7doH%2F4Td%2Fn6BBd%2BmyKErlz%2FhZkqOgqUwUVABm493%2FvKgBSBn%2F5%2BTkjEwgHliTLtb73XobbBB%2Beg6qG3%2BZ1%2FYwtCq3i0Th4RtStbYtGF5Se6KJxjw%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-28T14:25:13+05:30",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "d790619b477dea53",
+      "id": "4323607ab9bed950",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=By1Ae3HScfFxs4O%2Bhxq23EMom3ydSaSDyJmxAFN8sQ%2B7pXNEPOhTp1mmx76As1O6Y3gd95crdRjLWDqex00QMd0n85KT7njOnCHefIhaMSJyxU59qJvIh4eQY%2Ferivj%2F%2Ffk%2FCnIVt1cle%2BmQdDSjKQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=6JRktig8l%2B713P9wC588Bgfjx%2FrNODACppa11ez0bsHpaez4MPL8egOVSndOHt5m%2BrUTytvh5rcXuxBFVpDXmlx9N6tFuIqi1YMUNv5CU1lSp3k7KVAhkGV9tfV3yggg11dG1qQErarAyaXP6gHwYw%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-10-28T14:25:13+05:30",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "1d6e7f15a2e3a21d",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group-1 Application Deadline Extended: Candidates Can Apply Till November 9",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSjJSMldTc2k2azFtUkY0SlV1Z3MwWEQ3NUJyZ3RGRWdZXzhfeGhQMjVTVmN0RVVwVG44VEk2cFFubDdVRUY2YTBBb0hfNVNXdWtJTng3SmZtRlRQTEhmU1hqdHctSDlyUXdfRHl1UGwxREc4T2s2V2NoMTZDWlVoenpCQVluaG82N2N2eTNPQVNXRG0yeUwxUXh4SGZ1TFA3bzB5SWlzT3dKNGZVdDFKVWoyRjFEUWxxQk5Kd1JCVmJjNzU5QWVTTzJrNThtLU1jNmNuaWpQN2Vjdw?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-29",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "Sakshi Education",
+      "kind": "notification",
+      "alsoIn": 1
     },
     {
       "id": "e7261559a4cf51ef",
@@ -107,6 +119,18 @@
       "alsoIn": 1
     },
     {
+      "id": "d522e7006a4d8b66",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Notification Out For 163 Posts, Apply Online Date Extended",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVF6OEs1SHdvNG9tdXJ2WElvMGh5ZUV2REo3Z1dRcE40QVpXWWxBTVRxLVJnM2JkVERSMGVwQTJ5am56YUxfcndJNUc4bm83Z1BtYkRfVmFvWWxIMjc2bW5xTEI0NWpUNVZSbW1oNG1UdGRKcGFjcVVTb3BKSHlUSWRRTQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-10-27",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 2
+    },
+    {
       "id": "f926974d1137fbe3",
       "examId": "appsc-group1-2026",
       "title": "APPSC Group 1 Recruitment 2026: Registration closes October 27 for 166 vacancies",
@@ -116,6 +140,18 @@
       "firstSeen": "2026-10-26T13:33:59+05:30",
       "publisher": "EdexLive",
       "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "35c8768885fda087",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Admit Card 2026 Out For 28 October, Download Link @ssc.gov.in",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15UFlsTkFSUTZId3VBQVVYRW9jSE1LZTE2MUJReElkdDVjNDhQc3V6RHBhV1JDR3VSU2dCczlqdDF3eWhzR3hlY3o2S1RmYUxoWmRMdGF4OGY0Y0JiaWpfWjJnMk56bC02?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "PW",
+      "kind": "admit-card",
       "alsoIn": 1
     },
     {
@@ -255,7 +291,7 @@
       "firstSeen": "2026-10-21T13:27:14+05:30",
       "publisher": "FreeJobAlert.Com",
       "kind": "notification",
-      "alsoIn": 8
+      "alsoIn": 9
     },
     {
       "id": "fb5eeec42598e7f1",
@@ -493,7 +529,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1217,7 +1253,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 27
+      "alsoIn": 29
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1409,6 +1445,18 @@
       "firstSeen": "2026-10-21T13:27:14+05:30",
       "publisher": "Adda247",
       "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "c67ece4c66e30e55",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Exam Date 2026 Out For 225 Vacancies, Check Exam Pattern",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZTlFLYTZ4aF9xSnF3TENCUUk4ZUp2MVloVjE2V2Z2djdObDZpM2tTNngwaXpoVkduaHFjWlNDTDgzNUM3Tl9JUWtVRm9KMTFqTHMwX3hNUzRyMzRSdUE?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-10-13",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "Adda247",
+      "kind": "exam-date",
       "alsoIn": 1
     },
     {
@@ -1986,6 +2034,18 @@
       "alsoIn": 1
     },
     {
+      "id": "6b389b9a02cc5f8c",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Exam Date 2026 Out, Prelims Scheduled for 17 November",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ua2lIUUlQMDM1RFJabXh2RkFUdWx0dWhmOWlVODFRMllQWjBtSzNXOEF6WmZuMTVzZXN0TGU3M0t4SEduNlI2VEJWV0xnbDdMRzJfWVREb2FjR0VnSThJNjZ1NHZNdWpsTkdJYXdLVk53T2cy?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "Adda247",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
       "id": "0c66271f1ef331b7",
       "examId": "upsc-epfo-apfc-2026",
       "title": "UPSC EPFO APFC Exam Date 2026 Out, Check Exam Schedule",
@@ -2222,6 +2282,18 @@
       "publishedAt": "2026-09-30",
       "firstSeen": "2026-10-15T13:12:05+05:30",
       "publisher": "Jagran Josh",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "c6df37cec174c434",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Exam Date 2026 (Announced) – Check Schedule & Updates",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBTc3IwT3FwYWx3bTRYeTZTc1R6UC1wY0lrajk4VWJNLS1yWFNVQTROX2h5M1hqUk90dXBKTC1WTTExV2R2UUI1RGM0dmhFM2MteFVCZ01xYVJMNDdSTWh0Tkk5Wm10TGxEWUdQeEV5MA?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-09-30",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "Careers360",
       "kind": "exam-date",
       "alsoIn": 1
     },
@@ -2730,6 +2802,18 @@
       "alsoIn": 1
     },
     {
+      "id": "420f258499e5c6b2",
+      "examId": "pci-aso-2026",
+      "title": "Press Council of India ASO Recruitment 2026 Notification Out, Apply Offline",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAtRkJGbl9KZjhXaEZpdUhsM0l2dEhOVGVYZ1loXzFXTkdyMXQ3Skdsa0tacGN3MVA5M2lGZTJwNlE2NkdZNmYydnlVR21Tei1VakEyV3VpNUxudTE0WVd0TFNsLWJKRVJWdmluZ213b3NUQ2MzWWVBWXNJQlVhQQ?oc=5",
+      "source": "PCI news (Google News)",
+      "publishedAt": "2026-09-22",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "71164cd8e17149d7",
       "examId": "ssc-cgl-2026",
       "title": "SSC CGL City Intimation Slip 2026 release today @ssc.gov.in: Check exam city, tier 1 date, admit card and...",
@@ -2859,18 +2943,6 @@
       "firstSeen": "2026-10-15T08:13:17+05:30",
       "publisher": "Sakshi Education",
       "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "afea2b749c0527d7",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 notification 2026 out: 163 posts, apply from October 6 to 27; 729 other vacancies notified too",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOZ3pLeUxOOHgxS1A1NjdTNXFCVW1ld3pfRzBYVl9LSWQ1aGxGZFBuamY5T0FvX3l3OHFaT2FZRGRndUFlMlpxLTFYWnZJOUg4Q3lkYXJoTlVuYkVXZzJRUFlKdW5HWnctZERKQy1zMjBmcGFpQzA1SEszS3Q4NklkN19sTnVYYmtjdll0OHNVLTVSWHkwZ2lEYzBhRWRINTJWWXh0U2FDcEpZX29vMmRBX1RNNlo2TGVXZ2ZlU2pfbmlyUW5za3ZFdGlXYWZfNkpfdnZhb0RSbXJ4a2tUMG41TTRMOTl5d3ROWTFrdGlYQld2dkdTdGlDWEdNM084UmJBWGxrQm1PQk1zb1HSAZICQVVfeXFMT2tZa2tlQmowaURhb0NmSkFPd0ZLRG5ad3VHRk5SSjYyNmNXM2o2MmxFR1BGcWJrTVBnajNaN0szcm9LSXZIM0ItUFlGaERGZFZLQWhCMjNMeDR1RmtFcHQ4YkpxMXFVNldPYzZRRUpSWGE2bTk2N2lISkRzUGxVa3V5RXZIbVF4SXJ1cTdzdnljdDFUd3R2bnZmSUFxbmVKSy1VOEFqQ2l2ZEUyVGh4V3VnTWhEQllRWHdPYUJiQVp4THF4WmViQ3NVTm1fNktXSEF6ZlR0TWNKMnBncGZTMm1uUk9ocnhySGZQQVA0MVVWTTE5TmFJLWJXckhlRTRXMWF3cVNNOUZTcGJMNkFKeDB1dw?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-15",
-      "firstSeen": "2026-10-15T04:05:56+05:30",
-      "publisher": "The Hindu",
-      "kind": "notification",
       "alsoIn": 1
     },
     {
@@ -3087,7 +3159,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
-      "alsoIn": 9
+      "alsoIn": 10
     },
     {
       "id": "ec2e0c5db580368f",
@@ -3123,6 +3195,18 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "The Times of India",
       "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
+      "id": "28f5ff1c17ed1149",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Notification 2026 Out for 10731 Group B and C Vacancy",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBIMldCWkFvUlhNUm45eF9UMVF1eWc1aG9OcVBKV2htamprVi1tX0xnenJaS0ZEd1cwWjB0SXF3cDdKdnEzVmc?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-09-12",
+      "firstSeen": "2026-10-29T14:20:10+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
       "alsoIn": 1
     },
     {
@@ -3435,18 +3519,6 @@
       "firstSeen": "2026-10-15T03:28:40+05:30",
       "publisher": "Jagran Josh",
       "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "e075fc4d98acb74f",
-      "examId": "appsc-group1-2026",
-      "title": "AP Job Calendar 2026 Out (G.O.Ms.No.81): Check APPSC Phase-Wise 10,060 Vacancies & Exam Dates",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53dUF4YkxPdEVYUVlCaEY1U1REYnlNcjd2MXQ0WmE4YlNRUnExRU53SmFudUc0eE5DWk90NHNrVHBTcHptZF9lQlp2dnh5ZU1aLWhQbmxBX2xnWDJRTnV4bUZ0a05LeEdOSVREWDdEV0xocmxZbmx6VGFR?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-08-29",
-      "firstSeen": "2026-10-15T03:59:13+05:30",
-      "publisher": "Adda247",
-      "kind": "exam-date",
       "alsoIn": 1
     }
   ]

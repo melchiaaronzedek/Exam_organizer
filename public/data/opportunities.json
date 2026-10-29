@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-28T14:27:15+05:30",
+  "discoveredAt": "2026-10-29T14:22:08+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,103 @@
   ],
   "discovered": [
     {
+      "id": "3300f84c22867b39",
+      "org": "Rajdhani",
+      "post": "Rajdhani College Delhi Administrative Officer – - FreeJobAlert.Com",
+      "title": "Rajdhani College Delhi Administrative Officer Recruitment 2026 – Apply Online - FreeJobAlert.Com",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORTNGdkM5MG1tR0ZNeWFTWFkwTUtDa2JxQzJBOHpMSjN4MWZ5azJMVlc4dE9BVWo2ZERTY3hkbVZTSHBpZFVNWERpTlVoelc1UXlYNWNyQ3FLZDB3Q21ZUHRxWTZpZnZrOWNIcmpqeFp3ZWtPc1ZiaGwtX05PeWNkYmlwSnBKRi1CRjlneUdyNENITjhrRWpGVF92eXVnSGwtaFRkVkNmS1FFQ2t4dDRlX0xSc192VUVDMFlFT0RR?oc=5",
+      "source": "News · administrative officer",
+      "sourceType": "news",
+      "fit": 40,
+      "fitWhy": [
+        "role: administrative officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-26",
+      "firstSeen": "2026-10-29T14:22:08+05:30",
+      "curated": false
+    },
+    {
+      "id": "0898d64d08b994db",
+      "org": "TGPSC",
+      "post": "TGPSC : 102 Statistical Officer ; applications open October 30 - EdexLive",
+      "title": "TGPSC Recruitment 2026: Notification out for 102 Statistical Officer posts; applications open October 30 - EdexLive",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUF8tdlk4WUp2ZWRYUTV2QUJRdl92RGZLcnBndjk0QjJDTWV1Ny1aXy1qYXh6Q2IwbXJialU1T3UzR0JZVUpwQUx4RW5wTUJmaUpJNU03TV9GZFBHcWhvVFVYSzh1dlYxeVhfQUNIeFR0QnpISjFtbXlVS1BhbHlPVkVlUm4zRVdsVjdjblpTaTlOdFUxdTNydEhtLVRoRlFUNWfSAa8BQVVfeXFMTTg3TnBTVjZyMnFrZ0drZmVxTllfanhhODI2RGRueXZ4WGozd25xS1dldjRSRmtmZjBoMUx6b2dXbnVNbk9YZUFEdVhkSWU1WkJIT1BXU3B3S3NpVzlBUjVGaFVvZ0I5NXhuLUdUTzk5NDF1NG1oR0NfVjB5NmlGZm1UT29yLUFlV3pZTUZsRHExLWV0QUpkeTgzSXlPbmwzN3N4SVJUU194YVhkUTBvdw?oc=5",
+      "source": "News · TSPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-29",
+      "firstSeen": "2026-10-29T14:22:08+05:30",
+      "curated": false
+    },
+    {
+      "id": "42e2323bc7baf727",
+      "org": "UHF",
+      "post": "UHF – Apply Offline 5 Senior Research Fellow, Young Professional",
+      "title": "UHF Recruitment 2026 – Apply Offline for 5 Senior Research Fellow, Young Professional Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/uhf-recruitment-2026-apply-offline-for-5-senior-research-fellow-young-professional-posts-3076786",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-29",
+      "firstSeen": "2026-10-29T14:22:08+05:30",
+      "curated": false
+    },
+    {
+      "id": "b779eea7e899732d",
+      "org": "JSBCCL Assistant Manager",
+      "post": "JSBCCL Assistant Manager – Apply Offline",
+      "title": "JSBCCL Assistant Manager Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/jsbccl-assistant-manager-recruitment-2026-apply-offline-3076773",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: assistant manager"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-29",
+      "firstSeen": "2026-10-29T14:22:08+05:30",
+      "curated": false
+    },
+    {
       "id": "df18585d992a7858",
       "org": "MoHFW Consultant",
       "post": "MoHFW Consultant – Apply Offline",
@@ -6192,7 +6289,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-27T13:50:33+05:30"
+      "lastSeen": "2026-10-29T14:22:11+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -6289,7 +6386,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-28T14:27:20+05:30"
+      "lastSeen": "2026-10-29T14:22:11+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -6853,7 +6950,7 @@
         "verified employer",
         "fresher programme by title"
       ],
-      "status": "open",
+      "status": "closed",
       "postedAt": null,
       "applyCloses": "2026-10-28",
       "examDate": null,
@@ -6911,14 +7008,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-28T14:27:20+05:30",
+      "lastSeen": "2026-10-29T14:22:11+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-28T14:27:20+05:30",
+  "portalAt": "2026-10-29T14:22:11+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -6954,22 +7051,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 355,
+      "fetched": 360,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 355
+      "scanned": 360
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 334,
+      "fetched": 338,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 334
+      "scanned": 338
     },
     {
       "name": "LinkedIn",
@@ -6984,12 +7081,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 420,
+      "fetched": 421,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 420
+      "scanned": 421
     },
     {
       "name": "iimjobs",
