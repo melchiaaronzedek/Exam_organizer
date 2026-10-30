@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-29T14:22:08+05:30",
+  "discoveredAt": "2026-10-30T14:27:48+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,150 @@
   ],
   "discovered": [
     {
+      "id": "f2e22db2913f1865",
+      "org": "IIIT Nagpur",
+      "post": "IIIT Nagpur – 10 Senior Officer, Student Counsellor and More",
+      "title": "IIIT Nagpur Recruitment 2026 – Apply Online for 10 Senior Officer, Student Counsellor and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/iiit-nagpur-recruitment-2026-apply-online-for-10-senior-officer-student-counsellor-and-more-posts-3077119",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-30T14:27:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "e935194d184fb76f",
+      "org": "TPGL",
+      "post": "TPGL Chief Financial Officer cum Company Secretary – Apply Offline",
+      "title": "TPGL Chief Financial Officer cum Company Secretary Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/tpgl-chief-financial-officer-cfo-cum-company-recruitment-2026-3077100",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-30T14:27:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "50ef478545d8f214",
+      "org": "ECHS Ajmer & Bhilwara",
+      "post": "ECHS Ajmer & Bhilwara – Apply Offline 5 Lab Technician, Medical Officer and More",
+      "title": "ECHS Ajmer & Bhilwara Recruitment 2026 – Apply Offline for 5 Lab Technician, Medical Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/echs-ajmer-bhilwara-recruitment-2026-apply-offline-for-5-lab-technician-medical-officer-and-more-posts-3077096",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-30T14:27:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "3f29d2f419a1b54a",
+      "org": "Prakasam DCCB Medical Officer",
+      "post": "Prakasam DCCB Medical Officer – Apply Offline",
+      "title": "Prakasam DCCB Medical Officer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/prakasam-dccb-medical-officer-recruitment-2026-apply-offline-3077092",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-30T14:27:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "999996209e96f8ce",
+      "org": "TISS Data Officer",
+      "post": "TISS Data Officer",
+      "title": "TISS Data Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/tiss-data-officer-recruitment-2026-3077077",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-30T14:27:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "46fa6edccefd7cc3",
+      "org": "ECHS",
+      "post": "ECHS – Apply Offline 3 Dental Officer, Dental Hygienist and More",
+      "title": "ECHS Recruitment 2026 – Apply Offline for 3 Dental Officer, Dental Hygienist and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/echs-recruitment-2026-dental-officer-dental-hygienist-3077068",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-30T14:27:48+05:30",
+      "curated": false
+    },
+    {
       "id": "3300f84c22867b39",
       "org": "Rajdhani",
       "post": "Rajdhani College Delhi Administrative Officer – - FreeJobAlert.Com",
@@ -6289,7 +6433,7 @@
       "summary": null,
       "id": "portal-a005dab6866d",
       "firstSeen": "2026-10-16T13:00:55+05:30",
-      "lastSeen": "2026-10-29T14:22:11+05:30"
+      "lastSeen": "2026-10-30T14:27:53+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -6386,7 +6530,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-29T14:22:11+05:30"
+      "lastSeen": "2026-10-30T14:27:53+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -7008,14 +7152,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-29T14:22:11+05:30",
+      "lastSeen": "2026-10-30T14:27:53+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-29T14:22:11+05:30",
+  "portalAt": "2026-10-30T14:27:53+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -7051,22 +7195,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 360,
+      "fetched": 353,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 360
+      "scanned": 353
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 338,
+      "fetched": 344,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 338
+      "scanned": 344
     },
     {
       "name": "LinkedIn",
@@ -7081,12 +7225,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 421,
+      "fetched": 363,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 421
+      "scanned": 363
     },
     {
       "name": "iimjobs",
