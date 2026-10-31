@@ -1,7 +1,54 @@
 {
-  "updatedAt": "2026-10-30T14:25:48+05:30",
+  "updatedAt": "2026-10-31T14:15:56+05:30",
   "baseline": false,
   "updates": [
+    {
+      "id": "0d0fd0dffced8da9",
+      "examId": "pfrda-grade-a-2026",
+      "title": "Recruitment of Grade A (Assistant...",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
+      "source": "PFRDA careers",
+      "publishedAt": null,
+      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "kind": "other",
+      "alsoIn": 3
+    },
+    {
+      "id": "958ed5f5b0a17a6c",
+      "examId": "concor-mt-2026",
+      "title": "CONCOR Exam Date 2026 Out - Download Management Trainee and Assistant Officer CBT Exam Schedule",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMjhhNjNRMHZETVYtU0JROFdmQ0gzRmpNeWJHUkVRMGdrOWpodXIzSU1sajFvTVZTb09uZ212MDdHX1BPU0lxTTVKdy1uamZlRWNYVzZONWw0dGxDSVVsdVpaSGZmb1RldmZtZkJUZzVjUTk4RDM0RjJwbkItR1gyN3pRWQ?oc=5",
+      "source": "CONCOR news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "publisher": "FreeJobAlert.Com",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "1bb13aa5e8589c12",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Recruitment 2026 - Apply Online for 232 Posts",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNemtITnJ0a2pmeHZQNlBFaEF1RDU0SFlScXozTXp3MU1xNVh4c3hwQi1hR2htcWdTNjliNHY5UmZqNm5Pd1RiOWxnZzRHeVB3Wm9SeFRBUldoTXZ6a0FnTlZNT25wLUVSQkRhRzNxa0FOSzFFeW5XSFJ6cWlDYzR6Uk82LXRMRlJD?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "publisher": "FreeJobAlert.Com",
+      "kind": "notification",
+      "alsoIn": 3
+    },
+    {
+      "id": "118898c1a703c07d",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Recruitment 2026 : Apply Online Last Date For 232 Apprentice Vacancies, Check Direct Link Here",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONFFNa1BKXzVGbWN6U09ZZk0yaGx2dEl2elFaWW83TF83RkZwZW15VVZPdU5hTXZFX3pKX1hBNTJHTE05WHJueE5KYUtCUk5jbC1ZTUp2TnE5SVNfWnJremlXRHgzTk1aNWNtZGlvX2RfTVk1VDlRcWFSajNJYWhRd0ozYVpQUmxyMmljMjZzQjBQS2kxVDJfYk1WYW9mYXctNjNaeG9SSTVheDJBZkwwUEdMM3VRUWhsOVV4Tl9hRE1wUllvV3RzdWhRWVNWRWx0RXBVMzdPNmRSWEhvcDRBbkV3VDJSbmVo0gHoAUFVX3lxTE40UU1rUEpfNUZtY3pTT1lmTTJobHZ0SXZ6UVpZbzdMXzdGRnBlbXlVVk91TmFNdkVfekpfWEE1MkdMTTlYcm54TkphS0JSTmNsLVlNSnZOcTlJU19acmt6aVdEeDNOTVo1Y21kaW9fZF9NWTVUOVFxYVJqM0lhaFF3SjNhWlBSbHIyaWMyNnNCMFBLaTFUMl9iTVZhb2Zhdy02M1p4b1JJNWF4MkFmTDBQR0wzdVFRaGw5VXhOX2FETXBSWW9XdHN1aFFZU1ZFbHRFcFUzN082ZFJYSG9wNEFuRXdUMlJuZWg?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "notification",
+      "alsoIn": 1
+    },
     {
       "id": "b531809221f0399a",
       "examId": "iocl-marketing-officer-2026",
@@ -47,17 +94,6 @@
       "alsoIn": 2
     },
     {
-      "id": "3ba34f493b5c6c3f",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-10-30T14:25:48+05:30",
-      "kind": "other",
-      "alsoIn": 3
-    },
-    {
       "id": "c3656cc07bed178c",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
@@ -89,6 +125,30 @@
       "firstSeen": "2026-10-30T14:25:48+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "30f39e29e8827fcb",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 1 Answer Key 2026 Soon at ssc.gov.in: Check Expected Release Date Here",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTVfeHkzY0JWRWJURENnQVdVQ0tZdnFyN3hiYWJZdzExbGVzaGxfOHh5SnhTaUR4V1otNGFMSThjWjRoemhjMkZmZEF5NFRTZE96MXVKaFBFb2VZNmY3a3VBTlFCb1ZheUgxc19pSUJRMGdnUDZHdmlrQ0VHMV80QkFWMlNrTnNPMjMtZzd4NThGdm4yeTN0bVRfTy02SlBsUlhjUWZ2SW1jSExVcVdZNnJxeno5TW9fRmFnOXBTeFc5YzRHS044d0RPRXBhSk9SeXFJSjh3?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "publisher": "Shiksha.com",
+      "kind": "answer-key",
+      "alsoIn": 1
+    },
+    {
+      "id": "a76bc157b9d439e8",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 1 Answer Key 2026: Release Date, Download Link",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbUpqSklyM0pLRmd1SGRNY3JBUVRtWk1Va0JmbzBZZDZ5RVc0aGFaNWU4X3NlZVY2Z0xlNTNBTlctQmtYY0hGT3o4ZDdiSlJ2NC1TWHZFNzZfazBUbkdEelpGWEg5bGNzQXZDclEtaWlPMmc5SGpwNGRqZHIyOXhEWklKbnZ6T2kzZVE?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "publisher": "PW",
+      "kind": "answer-key",
+      "alsoIn": 1
     },
     {
       "id": "1d6e7f15a2e3a21d",
@@ -172,7 +232,7 @@
       "firstSeen": "2026-10-29T14:20:10+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "7f72bf7d695892df",
@@ -235,6 +295,18 @@
       "alsoIn": 1
     },
     {
+      "id": "16f51cf82d7393ef",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Shift Timings 2026 Released, Reporting Time, Gate Closing and Exam Time Table",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96MzNYQUtyOF9DaGphV3ZjZXp6SXI4cUtuaUNqVjFKc3RJNU90eWgtY2dyTWFvdXZ3STNlVE5ONXZfeGkwZ1B3STJYdW5YcU44bHFQSFIzQTk3Q2MzX1ZZXzdJRnJ5dnZoTGtzUA?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "publisher": "Adda247",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
       "id": "5ad1f4ad86a6e4d0",
       "examId": "iocl-marketing-officer-2026",
       "title": "India Energy Week 2026",
@@ -292,18 +364,6 @@
       "publisher": "Adda247",
       "kind": "notification",
       "alsoIn": 1
-    },
-    {
-      "id": "7aa47ae0352c32d5",
-      "examId": "lic-hfl-mt-2026",
-      "title": "LIC HFL Apprentice Recruitment 2026 – Apply Online for 232 Posts",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNemtITnJ0a2pmeHZQNlBFaEF1RDU0SFlScXozTXp3MU1xNVh4c3hwQi1hR2htcWdTNjliNHY5UmZqNm5Pd1RiOWxnZzRHeVB3Wm9SeFRBUldoTXZ6a0FnTlZNT25wLUVSQkRhRzNxa0FOSzFFeW5XSFJ6cWlDYzR6Uk82LXRMRlJD?oc=5",
-      "source": "LIC HFL news (Google News)",
-      "publishedAt": "2026-10-21",
-      "firstSeen": "2026-10-21T13:27:14+05:30",
-      "publisher": "FreeJobAlert.Com",
-      "kind": "notification",
-      "alsoIn": 10
     },
     {
       "id": "fb5eeec42598e7f1",
@@ -553,7 +613,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 9
+      "alsoIn": 10
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1277,7 +1337,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 31
+      "alsoIn": 33
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1697,7 +1757,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "KollegeApply News",
       "kind": "admit-card",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "a8f378a801a319cc",
@@ -2391,7 +2451,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 9
+      "alsoIn": 10
     },
     {
       "id": "4920e65d1edc6a00",
@@ -2439,7 +2499,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 13
+      "alsoIn": 15
     },
     {
       "id": "89754b960ef511f6",
@@ -2823,7 +2883,7 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "NDTV",
       "kind": "admit-card",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "2940ac5422e03aab",
@@ -3519,42 +3579,6 @@
       "firstSeen": "2026-10-15T08:13:17+05:30",
       "publisher": "Sakshi Education",
       "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "7d5e1e803362f801",
-      "examId": "ssc-cgl-2026",
-      "title": "APSSB CGL Answer Key 2026 Out at apssb.gov.in Today, Download Response Sheet PDF",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PN1RVU0FqZzRtNEtVVUYxRVpKUVoyeXUyLTlLY19HRFZWZzlBTWRyMU9XR0lLZy1YaHJyMGFVYUF5LWlSR1pWN00tRlZKLXFtMlpFeXBmVGZQSDBXVW56UG9LNE90MGw5Ym1ZU1ZpOUZCbU13?oc=5",
-      "source": "SSC CGL Tier 2 news (Google News)",
-      "publishedAt": "2026-08-31",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
-      "publisher": "Adda247",
-      "kind": "answer-key",
-      "alsoIn": 1
-    },
-    {
-      "id": "5884ed3f03a5ce10",
-      "examId": "concor-mt-2026",
-      "title": "CONCOR Recruitment 2026 Notification OUT for 77 Management Trainee and Assistant Officer Posts, Application link Active",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSdWd5SUFCN29ObVJrSmNlMUdoQlJfMGZzQW5QaWxycUpiMWhVaFlqY09ISmRTczM0MDZnZ0dCR1p1ek1veU1ZUVZUWEd6cnBfNGJvTlRkMzhhOU5kWlZNd2laMA?oc=5",
-      "source": "CONCOR news (Google News)",
-      "publishedAt": "2026-08-31",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "003a3b80480dcbb4",
-      "examId": "concor-mt-2026",
-      "title": "CONCOR Recruitment 2026: Apply Online For Management Trainee and Assistant Officer Posts, Check Eligibility",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSWVVMFlueG9yYXp1MDZaMlZ1UkpURnlWVkp1aHp3NWlFOFBPRHRybDhOdWtKeFk5TG5sYmhLOFFOQUZsZS1aUFNsNUx2R0hicl9GVU1hSmdVVjlxMkIyLU1PV3lKT0tES1lidXRCQmRIcWl0R3pDejRRT3NTZHN5TnZ4WUpEOTQwLU1fVHd4TGxkbkVpWWtORzdqR2pHbU9NUmNOTjBIOER0b0tDdTU5MkdaWVU4LVJHVXNCVDRrMlNXNnBYX2xSdWQ3MzZnUTYyMUliMzJIc2ZaeHp4YnFSdk9pWllxNm5W0gHvAUFVX3lxTE1tZ1ZuZ04tOUtuVUdaRlFKZHg1Z2FvcndqU3F0ZzIwRDZFTEpZeFJDQUxqcF84RTdXN3JCUnhvY3Nmckw3TGNkOTV0VjkyYkt1bDk0dFVMYTM3bDJTV1loX1lwZzhYVzVtUW5SLWwtWk5xbFE3OEpxRnY3bzZLYVZ6VEFUWERFcG93Mks4SFpXX1RwMmhtZ1RPbThwc2F5ZHNMWHFBUWNJZHd2LWozaFFYVy13azNTQ29fYzl6d3NGdU5nYkVFQTRJYWNZazFrY0xfeS1qWkRrLXZpQWswVnRySGRQVWxiWDRob1M3NWsw?oc=5",
-      "source": "CONCOR news (Google News)",
-      "publishedAt": "2026-08-31",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "Jagran Josh",
-      "kind": "notification",
       "alsoIn": 1
     }
   ]
