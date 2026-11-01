@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-10-31T14:18:11+05:30",
+  "discoveredAt": "2026-11-01T15:08:44+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,152 @@
   ],
   "discovered": [
     {
+      "id": "c473d0cd7e6e9acb",
+      "org": "CONCOR",
+      "post": "CONCOR Exam Date 77 Management Trainee and Assistant Officer - Adda247",
+      "title": "CONCOR Exam Date 2026 Out for 77 Management Trainee and Assistant Officer Posts - Adda247",
+      "track": "marketing",
+      "sector": "psu",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSdWd5SUFCN29ObVJrSmNlMUdoQlJfMGZzQW5QaWxycUpiMWhVaFlqY09ISmRTczM0MDZnZ0dCR1p1ek1veU1ZUVZUWEd6cnBfNGJvTlRkMzhhOU5kWlZNd2laMA?oc=5",
+      "source": "News · management trainee MBA",
+      "sourceType": "news",
+      "fit": 75,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "psu"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:08:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "56d12d2f2e61a552",
+      "org": "Amrita",
+      "post": "Amrita Vishwa Vidyapeetham Administrative Officer – - FreeJobAlert.Com",
+      "title": "Amrita Vishwa Vidyapeetham Administrative Officer Recruitment 2026 – Apply Online - FreeJobAlert.Com",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPczdOb1FyQ3B6QlR2ZXNONFF0b3JvYWx0d01sb0otcHFOVnkyQlFXMWRuRXFCNGpVcHV0VDN3NU9uTEoxa2RhVnJ3eEsyREh2TmNsWlpJNDU3WHFvSzcxMzlPQ1NwMWNwWmNtQ1Z6THBkZjFfT2dxdTFxSTVoWnNoTzNkR3pULXVOTzdHODNtSU5ta2F6T2ZKNDZkT2VBUDd5MXMxN1RsdmJaNmhEYXlNSWl3?oc=5",
+      "source": "News · administrative officer",
+      "sourceType": "news",
+      "fit": 40,
+      "fitWhy": [
+        "role: administrative officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-29",
+      "firstSeen": "2026-11-01T15:08:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "26d34d9cdf627c22",
+      "org": "Bharathiar",
+      "post": "Bharathiar University Public Relations Officer – Apply Offline",
+      "title": "Bharathiar University Public Relations Officer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/bharathiar-university-public-relations-officer-recruitment-2026-3077647",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-01",
+      "firstSeen": "2026-11-01T15:08:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "030b516f1da81637",
+      "org": "MMMUT",
+      "post": "MMMUT – Apply Offline 2 Chief Executive Officer, Incubation Manager",
+      "title": "MMMUT Recruitment 2026 – Apply Offline for 2 Chief Executive Officer, Incubation Manager Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/mmmut-recruitment-2026-chief-executive-officer-incubation-manager-3077625",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:08:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "b824f640b1330f0b",
+      "org": "TSU Senior Officer",
+      "post": "TSU Senior Officer",
+      "title": "TSU Senior Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/tsu-senior-officer-recruitment-2026-3077621",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:08:44+05:30",
+      "curated": false
+    },
+    {
+      "id": "2f0edccacb6cf811",
+      "org": "NZP",
+      "post": "NZP – 3 Zoo Design Consultant, Animal Health and Welfare Consultant and More",
+      "title": "NZP Recruitment 2026 – Apply Online for 3 Zoo Design Consultant, Animal Health and Welfare Consultant and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/nzp-recruitment-2026-zoo-design-consultant-3077613",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:08:44+05:30",
+      "curated": false
+    },
+    {
       "id": "67f050793982c539",
       "org": "NICL",
       "post": "NICL AO Exam Date , Check Shift Timing and Schedule 321 Administrative Officer - Bankersadda",
@@ -6653,7 +6799,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-31T14:18:17+05:30"
+      "lastSeen": "2026-11-01T15:08:48+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -7275,14 +7421,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-10-31T14:18:17+05:30",
+      "lastSeen": "2026-11-01T15:08:48+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-10-31T14:18:17+05:30",
+  "portalAt": "2026-11-01T15:08:48+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -7300,9 +7446,9 @@
       "ok": false,
       "fetched": 0,
       "errors": 2,
-      "error": "blocked (reader: no job links)",
+      "error": "blocked (cloudflare: just a moment)",
       "state": "blocked",
-      "reason": "reader: no job links",
+      "reason": "cloudflare: just a momen",
       "scanned": 0
     },
     {
@@ -7318,22 +7464,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 344,
+      "fetched": 348,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 344
+      "scanned": 348
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 342,
+      "fetched": 336,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 342
+      "scanned": 336
     },
     {
       "name": "LinkedIn",
@@ -7348,12 +7494,12 @@
     {
       "name": "Internshala",
       "ok": true,
-      "fetched": 360,
+      "fetched": 363,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 360
+      "scanned": 363
     },
     {
       "name": "iimjobs",
@@ -7378,12 +7524,12 @@
     {
       "name": "Shine",
       "ok": true,
-      "fetched": 60,
-      "errors": 3,
-      "error": "404 Client Error: Not Found for url: https://www.shine.com/job-search/leadership-program-mba-jobs",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 60
+      "fetched": 120,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 120
     },
     {
       "name": "Freshersworld",

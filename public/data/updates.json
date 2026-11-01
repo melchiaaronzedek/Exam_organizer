@@ -1,17 +1,62 @@
 {
-  "updatedAt": "2026-10-31T14:15:56+05:30",
+  "updatedAt": "2026-11-01T15:06:45+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "0d0fd0dffced8da9",
+      "id": "3ba34f493b5c6c3f",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-10-31T14:15:56+05:30",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
       "kind": "other",
       "alsoIn": 3
+    },
+    {
+      "id": "ef8cf9b5e6d921ac",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2024 - List of Candidates Nominated",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=70cdESmUcHDgEPmOiNKAXIMZYb5Md4L12hAa5zIlJxthPhGxk7wOOxrmiEVSOcQaYPoANY4to5m%2FUf1zAhcdimNTDgPs1XB9j%2BiGxe45WzMlB4X86xgMIevP8YKZ7SrHkzStuBd79KcKCWR%2BCUXoqw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "kind": "result",
+      "alsoIn": 2
+    },
+    {
+      "id": "76353c89beb234b8",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2022 - Nomination List",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=zQgN%2B1oOdHVRtO7qnjy6oRSqw7Fo721omG%2BojB3N1BDjCc9MMAmeqka2thBJsOCNaXQRBAlSEymXlysVNhzyYIyJAOs9rUr7eZn7cpxr20RIDCWISQgi65gbZdq8sIaVf64vJOXevxxpPx2rOhsuGg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "8c04c5277da2285a",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2023",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=KfudrfOs1n9C%2B0TR6Sk4zdBacc5VW3aboq3iZVhFu0jP6LQ1dHlYJbssOgbC%2B8KlDdm22wKw0tOM6Yo9Ne8ZqoRvy89cvwjNc3YuD22JnBCj5p0oEU9OffYY3e2jWuxCzmAxfzjXOqM13qw1fRjbxg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "c8d83bf68b28090f",
+      "examId": "concor-mt-2026",
+      "title": "CONCOR Recruitment 2026: Vacancies for Management Trainees and Assistant Officers, CBT Exam on November 21",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTkMxNWUxNUwwc0FYSERxLWIwbG9sOVZMTF9tVnYyODR6aHJ4bzdzTWJIaGZld0l4eVVhdUJCYkE2YUZxOEdaLVJfdW9kX0Z4YkhUOGFtczcxX3FEMTlIYzhvRTBJOG5YOHA4VmpKYlowRmJVLUpxNHFyUmluOG1hekVaTUh4dlljX0s2dWMxb3Ata3pXT3FlLVhOQnFzVmNzMGdPN2pmSlVDOVRBUmpyT2tiZlBZX1l0b2FRSzBPSldwQlF6WVFNWjl2SDQ?oc=5",
+      "source": "CONCOR news (Google News)",
+      "publishedAt": "2026-11-01",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "Dainik Jagran MP CG",
+      "kind": "exam-date",
+      "alsoIn": 1
     },
     {
       "id": "958ed5f5b0a17a6c",
@@ -35,7 +80,7 @@
       "firstSeen": "2026-10-31T14:15:56+05:30",
       "publisher": "FreeJobAlert.Com",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "118898c1a703c07d",
@@ -46,6 +91,66 @@
       "publishedAt": "2026-10-31",
       "firstSeen": "2026-10-31T14:15:56+05:30",
       "publisher": "Jagran Josh",
+      "kind": "notification",
+      "alsoIn": 2
+    },
+    {
+      "id": "cd131c7f3cbf09be",
+      "examId": "concor-mt-2026",
+      "title": "CONCOR Exam Date 2026 Out for 77 Management Trainee and Assistant Officer Posts",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSdWd5SUFCN29ObVJrSmNlMUdoQlJfMGZzQW5QaWxycUpiMWhVaFlqY09ISmRTczM0MDZnZ0dCR1p1ek1veU1ZUVZUWEd6cnBfNGJvTlRkMzhhOU5kWlZNd2laMA?oc=5",
+      "source": "CONCOR news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "Adda247",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "5f7c3191429c5719",
+      "examId": "concor-mt-2026",
+      "title": "CONCOR Exam Date 2026 Out, Check CBT Schedule for 77 Vacancies",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPX1lUd1pXN19Qbk8xQmlXRnVnWnlhZVFvX0M1X042Q1FRbHpJTTFWUzVOVGJKTVd2S0JaTnliWE5NWVNHNUQ2T0xvOGY0WmNZdVptalRmUC10dEpLYUJB?oc=5",
+      "source": "CONCOR news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "PW",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "0861fdd8fa0cd1d7",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "UPSC EPFO Interview Schedule 2026 OUT: APFC Dates & DV",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2cU5OaVJpWnlzRDJ2bDdYTERKbTVEUk15QXROT2lHeUU2VUp6YmpnMHZlVzdQcWVEUmpyYndYWEFOTEo4aW1hcWtzdHNQaTJ0WFhnaHhjZ0VtbWlKVWRHNGdQWF9CSW9OUmV1WkFiNA?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "PW",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "1efd969067081252",
+      "examId": "nicl-ao-2026",
+      "title": "When Will NICL AO Admit Card 2026 Be Released?",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9heHVGR2NGUXMzdTBnVzZHUk5vNFZITmZQci1rR2phS0pYd2JLRHNVV0tFdFpTTFNZenNfNV9GNFJ2NlN4c3NieXNiNTRLSm9kM2lNanJkdERmZS1sVUx1d2VTYzNIMFV5N2tnZEF0Rk16WlNCd1RLekNR?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "PW",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
+      "id": "1065c1c74828c6fb",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Recruitment 2026 Notification Out for 232, Last To Apply 1 November",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONEhYRnNyMGdXWE9VUm9nclVESmhOMEVyYVhabUZ5dWZlQTJNWWVla3NEeDRkX3pfZmxQanNIX0MxYW9FajNqTFR3cjFKOEU4UG1WQ19vR2RlR1BoNUNzVlE5NTdWaUktNWxVVGlKODFndVZWdEo1YnNSd0VvMk1JVF9n?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-31",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "Adda247",
       "kind": "notification",
       "alsoIn": 1
     },
@@ -91,39 +196,6 @@
       "publishedAt": null,
       "firstSeen": "2026-10-30T14:25:48+05:30",
       "kind": "interview",
-      "alsoIn": 2
-    },
-    {
-      "id": "c3656cc07bed178c",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=4%2FEIUxNWIkEyHJ3VkuCmVxvh2oJe9PPBfveHsmDtKJdZi8kVR1ByJ28KlKxn%2Bq07NzlIYlv7HrkUj%2BwCp8mg4xph1mEY6fDuNYkV%2FnLtDWV8%2F%2F7OTOJaBhTfhRNkc6Dko0fihagQW8mg945ssGAyfA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-30T14:25:48+05:30",
-      "kind": "result",
-      "alsoIn": 2
-    },
-    {
-      "id": "68ca5d75f2354374",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=veTeKBEaCXEFfxUF4B5UMXXnz5DClzBAqRLlclPOjmUa%2FI3%2BLPftSQ%2BCWnY%2BK02Z0g9yuTEwKQZ55Hk%2F1Ij5XedULUuqqoi9hd7reP2yG%2FsruuGB8lkPAnt9Rp3eEeKee7Y%2BvWo%2FJ3K2Y6vC1ZTsAg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-30T14:25:48+05:30",
-      "kind": "other",
-      "alsoIn": 2
-    },
-    {
-      "id": "1acce5cff40e317d",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=XmDhMOqGSEk13Os234X9GcCHqnCob4Xk1RDye5lYsCelbkmfGTrbIlDrNCbaxv3ktWlpvGrk808HJRcLIS4gauqMxxNAg5uuaaqMfHZk9Y2O%2BZxBWlTnpeB4x4FqUuBSOssu%2FP6kW8xraAPwpo53iA%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-10-30T14:25:48+05:30",
-      "kind": "other",
       "alsoIn": 2
     },
     {
@@ -232,7 +304,7 @@
       "firstSeen": "2026-10-29T14:20:10+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "7f72bf7d695892df",
@@ -244,6 +316,18 @@
       "firstSeen": "2026-10-30T14:25:48+05:30",
       "publisher": "EdexLive",
       "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "9f163a3739ae2723",
+      "examId": "aai-je-2026",
+      "title": "AAI Exam Date 2026 Out, Check Offical Schedule for 389 Vacancies",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QRG96QmEteU5NWl9qSjRPZTV3cDg2eTNUSEYxSnFpUW1LemlRa1dxeF95TUZ0Y19PRnZ6VmVMcnA3V24xTUpTWFY0UlhKSHBXUGU4eUdfZDNkQW8?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-10-27",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "Career Power",
+      "kind": "exam-date",
       "alsoIn": 1
     },
     {
@@ -304,6 +388,18 @@
       "firstSeen": "2026-10-31T14:15:56+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "a90d7ddcb1dcf6d1",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Apprentice Recruitment 2026 Opens for 232 Vacancies, Apply by November 1",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWDFMejJhVC1pRmEweklpZDBsZTNET2xXX1JGbmV4WWE4RVlUZElOakJnRlRka1dKLUFuQ1BTOWRoU2tmQlpCTVlkTWdWUHFKaERHZW1XYXZwYURaSVFIZFJQQ21QUmVGWmFXR29tNVV1NFlqZ1VmejJVMkg5clRRWHNsSEp6WGc3U1pNdDEySDMtckdjcURVenVfWFNxV2dKalp6a2h3NUNtOHMyQU1kWE5mZUtlUQ?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-23",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "The Impressive Times",
+      "kind": "notification",
       "alsoIn": 1
     },
     {
@@ -613,7 +709,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 10
+      "alsoIn": 11
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1337,7 +1433,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 33
+      "alsoIn": 35
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1757,7 +1853,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "KollegeApply News",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "a8f378a801a319cc",
@@ -2451,7 +2547,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 10
+      "alsoIn": 11
     },
     {
       "id": "4920e65d1edc6a00",
@@ -2499,7 +2595,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 15
+      "alsoIn": 17
     },
     {
       "id": "89754b960ef511f6",
@@ -2814,6 +2910,18 @@
       "alsoIn": 1
     },
     {
+      "id": "b024af6f27932fcb",
+      "examId": "aai-je-2026",
+      "title": "AAI Exam Date 2026 OUT: Check Complete Exam Schedule for Manager & Junior Executive Posts",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR0JEY1BCWGVyb0ZwbHJfb3ROaGl6RXlSSkRhMmNVQl9sWEJYbUNTLVBlMENqYVBpd19yM0tXZlBOVXZxblMyNlNiWVZjSENXclF6T1o5VWw4OVZIbHE2Tzc5MVh5QnJzOEVqaWlYMjJlVWtNR3VHMzdWalZPQlV4ZkcxakRhcE15S0J4VUFjYV9mTFptRlJXLUc4d0Faa2VndTdrRWlCMHZDb2pZUURv0gG2AUFVX3lxTFBuZi1hMmR4UmRWZ2g0ZE5QcnA0UFc3RmNTU1BkZlRrUFFWZUEteEVZekQ1bms4STNZaVVhN2ttTGZvel9VMHdpa0lId3BadF9KbTNTYldPVFNIaTF6QndRdTk5Zlg5S3BsdF9xdXhrOHFOR3FxSzVoWlNTckhwODk0OVVIblg2dW9tUmczbjUtRGpJUXh0VmQ0QTRoRlJyTkNzRW5wTWVnaEJPblNRcDRjNWVTWC1n?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-09-23",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
       "id": "176f2b3ab3397011",
       "examId": "upsc-epfo-apfc-2026",
       "title": "UPSC EPFO APFC Interview 2026: Marks, Process, Documents & Preparation",
@@ -2883,7 +2991,7 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "NDTV",
       "kind": "admit-card",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "2940ac5422e03aab",
@@ -3426,6 +3534,18 @@
       "alsoIn": 1
     },
     {
+      "id": "a1b3cd06b0146529",
+      "examId": "aai-je-2026",
+      "title": "AAI Recruitment 2026: Application Closes Tomorrow for 389 Manager & Junior Executive Posts - Get Apply Link Here",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMkhTUndGVUVfd2JralpMdXdwWUcxR25BdGpuZFJKc2lWMjFPZzJGMXNHZnJnUnpMbUlSNzRJMnlWNTJ2M2tkcXlmSm5jVnhid25xZmxhM042b0JueVozbW5rOWJIbTV4MXp4cktyOWRIWndNZmhmcHdYUEp3eGdobm9sQkpiVndlRHZKYUxBeGd2LUhQaUFGcFFBX3cwSFBVR2VBQjlpR3lnYlh0QnlnS1h0alI3bEtEaUZzU09Ldlp6Wm0xaHAxSHpuVWYxblRkdHlRRmFkQXBMUdIB4AFBVV95cUxOUklqSDJNRnNIVm80N3hhUmVnZlhVVVNmYzBGa1JCd0xWVi1saUMtRV9EWkVCTkFlV0ZmWFlmVlZKQzBsUnBjN2RseGd6MkxiR3NtdGlBbHdQMmY1d1dfYTFxM1hJcEZLVE5salJMMXRCWndCOVhfd3VlYlVNR3YzRjZaVXhqYnZXNjlxOTN4LVlnY1RYa1M3aXpMSDhEbU5URUt4YjRxNmRqMkx1cXVDQ19iSkl2NXlvaUdYaEYzT2wxeFVLdW5NZXJySmY5eWJTYUFoRHpfUjlYWWdWUml5Nw?oc=5",
+      "source": "AAI news (Google News)",
+      "publishedAt": "2026-09-06",
+      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "1f3d463610c54ffa",
       "examId": "upsc-epfo-apfc-2026",
       "title": "APFC: Form-Filling Mistakes to Avoid | APFC Form Filling 2026 | APFC Notification 2026 |Anuj Jindal",
@@ -3555,30 +3675,6 @@
       "firstSeen": "2026-10-15T03:19:53+05:30",
       "publisher": "Adda247",
       "kind": "cut-off",
-      "alsoIn": 1
-    },
-    {
-      "id": "7d78cdddc1c00fdb",
-      "examId": "upsc-epfo-apfc-2026",
-      "title": "80 EPFO officer jobs at ₹56,100 start — apply by Sept 14",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZXVFMDZEYWNrZWNOdEJzd3dPcWRGZUdfT2xfQVR1dnlMUHBTeV80NWZJRDQyRFd2RDBmQnpJRGIwcEZQQXBnSkdPZEwtVlRtQW1XQjJzcEEzbGkzbWY2eWlpbm53d0Y4ZWdDNTRxMWw3LVcxOENTaEVqZlBnMXVqVjQ2bV9qVlRkbE1pWmxMeGdBbndrVUFXb2pEUTBZLWhuanc?oc=5",
-      "source": "UPSC EPFO news (Google News)",
-      "publishedAt": "2026-09-01",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
-      "publisher": "www.indianpaycalculator.in",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "1d39652d52eced37",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC Stenographer 2026 Exam Dates Revised: Check New Schedule",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdGlUa3R3bEZaUThZV0VXa0VEWWpRdzI4OTdoVmlVTDVDWjdjZjdQQlp5XzljbzctUENqZTh2UXk0ZXVBTEdlUVY4aUFzeDBnaEgzZldFcDJqMk9OS2h0bU5abGo1Z0ROLWRPSkNoVWh2emk1V1U2TlhTSTB6TU5OZ0dsbWhYOWVpcjRvSWEwbkZjejd5NmViS1BmRW44QXdVQmlHUnZJeEpSWHFGeGpBQjhNOTB0RHRwYk1ERDBFZw?oc=5",
-      "source": "SSC CGL Tier 2 news (Google News)",
-      "publishedAt": "2026-09-01",
-      "firstSeen": "2026-10-15T08:13:17+05:30",
-      "publisher": "Sakshi Education",
-      "kind": "exam-date",
       "alsoIn": 1
     }
   ]
