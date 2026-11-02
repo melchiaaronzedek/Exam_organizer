@@ -1,49 +1,85 @@
 {
-  "updatedAt": "2026-11-01T15:06:45+05:30",
+  "updatedAt": "2026-11-02T15:22:19+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "3ba34f493b5c6c3f",
+      "id": "0d0fd0dffced8da9",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "firstSeen": "2026-11-02T15:22:19+05:30",
       "kind": "other",
       "alsoIn": 3
     },
     {
-      "id": "ef8cf9b5e6d921ac",
+      "id": "f5ca634e9332a439",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=70cdESmUcHDgEPmOiNKAXIMZYb5Md4L12hAa5zIlJxthPhGxk7wOOxrmiEVSOcQaYPoANY4to5m%2FUf1zAhcdimNTDgPs1XB9j%2BiGxe45WzMlB4X86xgMIevP8YKZ7SrHkzStuBd79KcKCWR%2BCUXoqw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=jqBehXoWdaDWaGqDE47W5IdBOKyMK7w3TOHRMn%2FyPtVurHCf3OHsydVKYOH%2FR1PPvlPj6t7glSglJhn%2BhS9ElLI9EtdkI3VX9CuCBmg8EGxm%2BGaDoJFRv4mOSW8jMNkxG77sttS%2FZijuQxZDTS2kZA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "firstSeen": "2026-11-02T15:22:19+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "76353c89beb234b8",
+      "id": "ba359f02de440288",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=zQgN%2B1oOdHVRtO7qnjy6oRSqw7Fo721omG%2BojB3N1BDjCc9MMAmeqka2thBJsOCNaXQRBAlSEymXlysVNhzyYIyJAOs9rUr7eZn7cpxr20RIDCWISQgi65gbZdq8sIaVf64vJOXevxxpPx2rOhsuGg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=lFuQbzOhCv2wo8uHsqRY6lQYHHQLdCYFvda08ol6nwvDT%2FUcbL4mkn2Ou5zkQ0G%2F%2FNlPYXhsMkNJJCichlR%2BGBGPNOrUHqEQRVsC6ONDOnxX5ylizoxJHOdu5j74t2xSts7S7EMRtZ1m6zwM6i2I%2FQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "firstSeen": "2026-11-02T15:22:19+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "8c04c5277da2285a",
+      "id": "47c89382c95fe4e4",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=KfudrfOs1n9C%2B0TR6Sk4zdBacc5VW3aboq3iZVhFu0jP6LQ1dHlYJbssOgbC%2B8KlDdm22wKw0tOM6Yo9Ne8ZqoRvy89cvwjNc3YuD22JnBCj5p0oEU9OffYY3e2jWuxCzmAxfzjXOqM13qw1fRjbxg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=X6ZIk%2BOfAjCAXS1gp6Wi563tzVsCMfHMhduyfVi1%2F8YHCBpGQUl5greJMHCxqrdvfwpsmvpuYHQc%2Fht3xlLmnC2naPw0g%2Fh5odYL8ME4bmORBMN%2FIPp008rsMw%2FNY03MUoItYmsHnOKHSekExt7nzA%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-01T15:06:45+05:30",
+      "firstSeen": "2026-11-02T15:22:19+05:30",
       "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "cb5358371c1fdfd4",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "UPSC APFC Interview Schedule 2026 Out, Download PDF Notice",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yTHZSWVFUMElFTkVMUnR1eHBySldJSGNESy0xTllhdUdYZTVCcXRuRTVDNmZtWjIyTUxpY3RiaHpqcWNwaGFqMUlsOUNvSHJNejVPQ2tVR1ZCU3g0bDBrRjd2cl9RNW5XLXFYd1RGM3d0dw?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-11-02",
+      "firstSeen": "2026-11-02T15:22:19+05:30",
+      "publisher": "PW",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "060a9859dbc26230",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Assistant Director Recruitment 2026: Registration for 17 posts closes tonight",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUGdpWkZ6YmZhTGpXVEpwY1pHZng0WjNFWnkwWl83cHJYY19ta0tkMjJnZERBYkJ6QUNubmNDMU14UGRoRVdUREFCSlBRSVRyY1lnRUJJejlIMzYwLUEzUk1nSVZwZm0zdVVGMTlzaC05cmlSRTkwaE91ZzRDV2FUeTg2bmpGMmlDMGVzOXRDR3dGTnQ5QzRzZNIBpgFBVV95cUxQeWViR2hKSzJTNTVEMTVzc1N6WjdqOWF3czcxTW8wNXdoTDNVRXQ4TGU5MHlHdWFFSDctVzRnZDZfVDJPSHBBaXphOFNhM1VvLWNjSEZuWWY2UUVVY1lFLVhwdmRvZEpLNnFOdGRpd3dNb1JjV3dmWFhQTXdST3IzZlBRRXBnZXJleTlCNmxySDc1djM2YXE3V3JselctcTdQTU4yNkJR?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-11-02",
+      "firstSeen": "2026-11-02T15:22:19+05:30",
+      "publisher": "EdexLive",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "60a4904aa8e2a932",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC HFL Management Trainee Recruitment 2026: Apply Online, Eligibility, Important Dates & Selection Process",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVR0RKSF9lczVIVU1BNVczR3FwdC1Kc0paX3MtRXJ5VmNNdjRfN3Z3U0dYdXZ4OHdodnFJUWVlZTE3UmpQckdjamJBUTI1d0NFcVljOEtjYWszZEJCbDZnSzBuNXNDaDF2Zk9yLWZUOGF6ZmctQjQ1YzJKWW4?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-11-02",
+      "firstSeen": "2026-11-02T15:22:19+05:30",
+      "publisher": "Bankersadda",
+      "kind": "notification",
       "alsoIn": 2
     },
     {
@@ -80,7 +116,7 @@
       "firstSeen": "2026-10-31T14:15:56+05:30",
       "publisher": "FreeJobAlert.Com",
       "kind": "notification",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "118898c1a703c07d",
@@ -92,7 +128,7 @@
       "firstSeen": "2026-10-31T14:15:56+05:30",
       "publisher": "Jagran Josh",
       "kind": "notification",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "cd131c7f3cbf09be",
@@ -304,7 +340,7 @@
       "firstSeen": "2026-10-29T14:20:10+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "7f72bf7d695892df",
@@ -709,7 +745,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1433,7 +1469,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 35
+      "alsoIn": 37
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1712,18 +1748,6 @@
       "alsoIn": 1
     },
     {
-      "id": "a835fe64552a643f",
-      "examId": "lic-hfl-mt-2026",
-      "title": "LIC HFL Management Trainee Recruitment 2026: Apply Online, Eligibility & Dates",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1kYzhFYVgzVHA1Y2E5OVRSamtLQXh0RU5ydElEWGNPMl9TdVBIRzhfeUgxZ2gtckdLSFdrWUl1Z0ItLXN5MlE3TUVtS0xEaTg4SDNacWJsQXZhRnRpRFI3ODdsMmpjTDBvNnctWW5kam5WOEIwQk84?oc=5",
-      "source": "LIC HFL news (Google News)",
-      "publishedAt": "2026-10-10",
-      "firstSeen": "2026-10-23T13:22:59+05:30",
-      "publisher": "PW",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
       "id": "9699e96a5f42f996",
       "examId": "nicl-ao-2026",
       "title": "NICL AO Recruitment 2026: 321 Vacancies, Apply Online, Eligibility, Salary and Last Date",
@@ -1853,7 +1877,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "KollegeApply News",
       "kind": "admit-card",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "a8f378a801a319cc",
@@ -2547,7 +2571,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "4920e65d1edc6a00",
@@ -2595,7 +2619,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 17
+      "alsoIn": 19
     },
     {
       "id": "89754b960ef511f6",
@@ -2991,7 +3015,7 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "NDTV",
       "kind": "admit-card",
-      "alsoIn": 8
+      "alsoIn": 9
     },
     {
       "id": "2940ac5422e03aab",
@@ -3536,7 +3560,7 @@
     {
       "id": "a1b3cd06b0146529",
       "examId": "aai-je-2026",
-      "title": "AAI Recruitment 2026: Application Closes Tomorrow for 389 Manager & Junior Executive Posts - Get Apply Link Here",
+      "title": "AAI Recruitment 2026: Application Closes Tomorrow for 389 Manager & Junior Executive Posts",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMkhTUndGVUVfd2JralpMdXdwWUcxR25BdGpuZFJKc2lWMjFPZzJGMXNHZnJnUnpMbUlSNzRJMnlWNTJ2M2tkcXlmSm5jVnhid25xZmxhM042b0JueVozbW5rOWJIbTV4MXp4cktyOWRIWndNZmhmcHdYUEp3eGdobm9sQkpiVndlRHZKYUxBeGd2LUhQaUFGcFFBX3cwSFBVR2VBQjlpR3lnYlh0QnlnS1h0alI3bEtEaUZzU09Ldlp6Wm0xaHAxSHpuVWYxblRkdHlRRmFkQXBMUdIB4AFBVV95cUxOUklqSDJNRnNIVm80N3hhUmVnZlhVVVNmYzBGa1JCd0xWVi1saUMtRV9EWkVCTkFlV0ZmWFlmVlZKQzBsUnBjN2RseGd6MkxiR3NtdGlBbHdQMmY1d1dfYTFxM1hJcEZLVE5salJMMXRCWndCOVhfd3VlYlVNR3YzRjZaVXhqYnZXNjlxOTN4LVlnY1RYa1M3aXpMSDhEbU5URUt4YjRxNmRqMkx1cXVDQ19iSkl2NXlvaUdYaEYzT2wxeFVLdW5NZXJySmY5eWJTYUFoRHpfUjlYWWdWUml5Nw?oc=5",
       "source": "AAI news (Google News)",
       "publishedAt": "2026-09-06",
@@ -3651,30 +3675,6 @@
       "firstSeen": "2026-10-24T13:03:51+05:30",
       "publisher": "Jagran Josh",
       "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "e4cefa5f29b8a688",
-      "examId": "nicl-ao-2026",
-      "title": "OICL AO Cut Off 2026 Out for Prelims and Mains, Check Cut Off Marks",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YV3F6dnc5SW9JS2hUSkpkTlJ5bm5DLVdncWpQWlVVRFhPQUpKWUJSdmpHMHk0UVpBcmlZVUtVWFFXRTlhVklHVkhyREQzTWFLYXBubHh6Y2U?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-09-02",
-      "firstSeen": "2026-10-15T04:05:56+05:30",
-      "publisher": "Adda247",
-      "kind": "cut-off",
-      "alsoIn": 1
-    },
-    {
-      "id": "2f2ac8e01e418f5b",
-      "examId": "uiic-ao-2026",
-      "title": "OICL AO Cut Off 2026 Out for Prelims and Mains, Check Cut Off Marks",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YV3F6dnc5SW9JS2hUSkpkTlJ5bm5DLVdncWpQWlVVRFhPQUpKWUJSdmpHMHk0UVpBcmlZVUtVWFFXRTlhVklHVkhyREQzTWFLYXBubHh6Y2U?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2026-09-02",
-      "firstSeen": "2026-10-15T03:19:53+05:30",
-      "publisher": "Adda247",
-      "kind": "cut-off",
       "alsoIn": 1
     }
   ]

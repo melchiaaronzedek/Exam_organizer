@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-01T15:08:44+05:30",
+  "discoveredAt": "2026-11-02T15:24:19+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,55 @@
   ],
   "discovered": [
     {
+      "id": "7a535001ea257a94",
+      "org": "Ministry",
+      "post": "Ministry of Heavy Industries Consultant Grade 2",
+      "title": "Ministry of Heavy Industries Consultant Grade 2 Recruitment 2026 - Apply Online",
+      "track": "general",
+      "sector": "central",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ministry-of-heavy-industries-consultant-grade-2-recruitment-2026-apply-online-for-01-post-3048760",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: consultant",
+        "central"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-02",
+      "firstSeen": "2026-11-02T15:24:19+05:30",
+      "curated": false
+    },
+    {
+      "id": "8540da65169ea91a",
+      "org": "ICMR Young Professional II",
+      "post": "ICMR Young Professional II",
+      "title": "ICMR Young Professional II Recruitment 2026 - Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/icmr-young-professional-ii-recruitment-2026-apply-online-3060339",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-02",
+      "firstSeen": "2026-11-02T15:24:19+05:30",
+      "curated": false
+    },
+    {
       "id": "c473d0cd7e6e9acb",
       "org": "CONCOR",
       "post": "CONCOR Exam Date 77 Management Trainee and Assistant Officer - Adda247",
@@ -6799,7 +6848,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-01T15:08:48+05:30"
+      "lastSeen": "2026-11-02T15:24:24+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -7421,14 +7470,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-11-01T15:08:48+05:30",
+      "lastSeen": "2026-11-02T15:24:24+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-01T15:08:48+05:30",
+  "portalAt": "2026-11-02T15:24:24+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -7443,19 +7492,19 @@
     },
     {
       "name": "Glassdoor",
-      "ok": false,
-      "fetched": 0,
-      "errors": 2,
+      "ok": true,
+      "fetched": 30,
+      "errors": 1,
       "error": "blocked (cloudflare: just a moment)",
-      "state": "blocked",
-      "reason": "cloudflare: just a momen",
-      "scanned": 0
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 30
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 6,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -7464,22 +7513,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 348,
+      "fetched": 349,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 348
+      "scanned": 349
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 336,
+      "fetched": 328,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 336
+      "scanned": 328
     },
     {
       "name": "LinkedIn",
