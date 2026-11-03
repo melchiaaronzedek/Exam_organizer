@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-02T15:24:19+05:30",
+  "discoveredAt": "2026-11-03T15:28:46+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,151 @@
   ],
   "discovered": [
     {
+      "id": "9c0b53169fc9e2b7",
+      "org": "TMB Specialist Officer",
+      "post": "TMB Specialist Officer",
+      "title": "TMB Specialist Officer Recruitment 2026 Notification Out – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/tmb-recruitment-2026-law-officer-manager-3077988",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: specialist officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-03T15:28:46+05:30",
+      "curated": false
+    },
+    {
+      "id": "a3871ecc0a5e2810",
+      "org": "SCEA Maharashtra",
+      "post": "SCEA Maharashtra – Apply Offline 3 Accounts Officer and Cash Accountant, Accounts Officer",
+      "title": "SCEA Maharashtra Recruitment 2026 – Apply Offline for 3 Accounts Officer and Cash Accountant, Accounts Officer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/scea-maharashtra-recruitment-2026-apply-offline-for-3-accounts-officer-and-cash-accountant-accounts-officer-posts-3078096",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-03T15:28:46+05:30",
+      "curated": false
+    },
+    {
+      "id": "a61c8782b3b62816",
+      "org": "NPC",
+      "post": "NPC Training Officer – Training Business Development & Programme Management",
+      "title": "NPC Training Officer – Training Business Development & Programme Management Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/npc-training-officer-senior-professional-training-recruitment-2026-3078086",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 60,
+      "fitWhy": [
+        "role: officer",
+        "MBA eligible"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-03T15:28:46+05:30",
+      "curated": false
+    },
+    {
+      "id": "1e929919ab9d2fcf",
+      "org": "ECHS",
+      "post": "ECHS Officer-In-Charge – Apply Offline",
+      "title": "ECHS Officer-In-Charge Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/echs-officer-in-charge-recruitment-2026-3077984",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-03T15:28:46+05:30",
+      "curated": false
+    },
+    {
+      "id": "2642d5fd7988b5fa",
+      "org": "CTIL Consultant",
+      "post": "CTIL Consultant",
+      "title": "CTIL Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ctil-consultant-cost-accountant-recruitment-2026-3078079",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-03T15:28:46+05:30",
+      "curated": false
+    },
+    {
+      "id": "30f16ef8ee36b31d",
+      "org": "ZP Nagpur",
+      "post": "ZP Nagpur – 3 Medical Officer, Yoga Expert and More",
+      "title": "ZP Nagpur Recruitment 2026 – Apply Online for 3 Medical Officer, Yoga Expert and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/zp-nagpur-recruitment-2026-medical-officer-yoga-expert-3077982",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-03T15:28:46+05:30",
+      "curated": false
+    },
+    {
       "id": "7a535001ea257a94",
       "org": "Ministry",
       "post": "Ministry of Heavy Industries Consultant Grade 2",
@@ -6848,7 +6993,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-02T15:24:24+05:30"
+      "lastSeen": "2026-11-03T15:28:50+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -7470,14 +7615,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-11-02T15:24:24+05:30",
+      "lastSeen": "2026-11-03T15:28:50+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-02T15:24:24+05:30",
+  "portalAt": "2026-11-03T15:28:50+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -7495,7 +7640,7 @@
       "ok": true,
       "fetched": 30,
       "errors": 1,
-      "error": "blocked (cloudflare: just a moment)",
+      "error": "blocked (reader: no job links)",
       "state": "partial",
       "reason": "some queries failed",
       "scanned": 30
@@ -7504,7 +7649,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 6,
+      "errors": 7,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -7513,22 +7658,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 349,
+      "fetched": 358,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 349
+      "scanned": 358
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 328,
+      "fetched": 343,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 328
+      "scanned": 343
     },
     {
       "name": "LinkedIn",
@@ -7542,13 +7687,13 @@
     },
     {
       "name": "Internshala",
-      "ok": true,
-      "fetched": 363,
-      "errors": 0,
-      "error": null,
-      "state": "ok",
-      "reason": null,
-      "scanned": 363
+      "ok": false,
+      "fetched": 0,
+      "errors": 10,
+      "error": "403 Client Error: Forbidden for url: https://internshala.com/jobs/keywords-growth-associate/",
+      "state": "error",
+      "reason": "http 403",
+      "scanned": 0
     },
     {
       "name": "iimjobs",
