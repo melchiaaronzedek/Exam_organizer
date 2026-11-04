@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-03T15:26:47+05:30",
+  "updatedAt": "2026-11-04T15:15:32+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "3ba34f493b5c6c3f",
+      "id": "0d0fd0dffced8da9",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-03T15:26:47+05:30",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
       "kind": "other",
       "alsoIn": 3
     },
     {
-      "id": "6302c524b152aebf",
+      "id": "bba3cb5f7d5b4f34",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=ofmTfEmmUAZ1O0BCl9GrpfBWI%2BKQMeCKKXYkDf%2FxxVvK0CoadpPUOSNZt%2FSQ%2BZC5rr0I6ep48vAFoKOr4xeyMjsUcNECfhfegf2LbD15Zag0wB7epCn8ATEdrrUiIZx3IbKNlMDy%2Fk%2FkeEEgPPFzQQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=duGklffi2VeQ4u7fauj1%2FbMhPHLRLkHem%2BtzO1O%2BfjlSyVUKqKxweRLN3H8PTypj0vJRT%2FWLz%2FK%2FTQaPJlKFbSJs8gnRVrwRhFoK74ifkw26Nmr7XzXv%2FvnCIRvCN0MCUW%2BYv98vg%2BW6PPemlwApcg%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-03T15:26:47+05:30",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "881f2a5d3cdbe161",
+      "id": "08a448d680028992",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=PJUcYuhVG2F64ur5bqjMU1hPPvTF%2FENOcjyEhH6zhm0YyYziUk7MnC4zQ%2FVT939bWjAlZAP%2Fjzbg2xDfnBj5BPv28eN2ue%2BXNWRlz6gEyyyGw6XXqrkqkWz9XWKy5kgnGjK2CkHzU9NFDCOGoDztbg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=w9FwlZjWj3tVmUvnQsEFtyRWiEJ3kepEYMw2LaGHQgb9cEPJF2Wk38zMOyY8Y27K8qrHefTK0I2%2FfO2RhnOXAogqr9nURaHAOrqQQSv%2BySxCN6gOJlu5nUxMXlw4bKR4yWDigqzxocTaGONVXmFfAw%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-03T15:26:47+05:30",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "69ac5f589aad6276",
+      "id": "67b9930f6d69b8eb",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=QuEH6ko3xFRD4P4YNR8MeR0evmfIPX%2Fjx78FlQQUCNbGJk0ubskHv88xWCBfn40n8LBO3xFAVHC06ybcwqTTHSNynkqX0fje4Uq203afxnjkqlsv2CR9Y5p2gWqFN3vCcaOeLL%2Bb2RJlnYc8xXHnXQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://sscsr.gov.in/indexes/pdf_view?file=rThbstFdT7JnJg7C%2BffeoebIUqE8keD7agKW1JZW0tv2JndOqvqeSGYXfcvTohRR0Z%2F%2BZXdhFlHaRi5lqfVeQIRuwnILzM5W5jFPnHgtCQijK2Z%2F9RUI3wzbLo5HDScT821jcHIvr9bsdjHSyupYhg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-03T15:26:47+05:30",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
       "kind": "other",
       "alsoIn": 2
     },
@@ -92,6 +92,30 @@
       "firstSeen": "2026-11-03T15:26:47+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "e4778416d88b4fcc",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "UPSC EPFO APFC: Can Interview Save Your Low Written Score? | Final Selection Strategy | Anuj Jindal",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBqenF6YUpOMWtlWVBzUURnakd6VGlFc2x0cGZPNVVESWx0cHZaZmFtLU04cnZucGEyd1ZCcmZjNmdCZw?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
+      "publisher": "YouTube",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "f1547c977ebd5438",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Recruitment 2026: Apply by November 9 for 166 Posts",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BVm5MOXJBUjRQSDFITGNSR0VzTWc0czNMYnRqMHZpLXZJcjFmaE84enZVR0JiUy1TWWE1VHFORzVNNTBEUXhhMWVvZWNwdGFXRkNzUXJuRXotZWMxQzdlRU1GYklBU3p0a1dDYmZCYmxhalE?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
+      "publisher": "KollegeApply News",
+      "kind": "notification",
       "alsoIn": 1
     },
     {
@@ -152,12 +176,12 @@
       "firstSeen": "2026-11-03T15:26:47+05:30",
       "publisher": "Jagran Josh",
       "kind": "exam-date",
-      "alsoIn": 2
+      "alsoIn": 3
     },
     {
       "id": "8632c69031c36bde",
       "examId": "lic-hfl-mt-2026",
-      "title": "LIC HFL Apprentice Exam Date 2026 Out - Check Schedule PDF",
+      "title": "LIC HFL Apprentice Exam Date 2026 Out",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbnpHelFuYnJqY2ltMWp3RldGMVJCc3RWZVpjc25RTEVHRWhhdlV2RndKa3IxMnA4M2lxLXVGaUoxa3pLY3FpclVNMkZybFRWOENYdWlZOWxaWmlXaldRdXZsYV8yU3FJSzZlaUhyeUtkQm5LRDFLZFpqNk01X2RJZUE3SVM2UQ?oc=5",
       "source": "LIC HFL news (Google News)",
       "publishedAt": "2026-11-02",
@@ -343,6 +367,18 @@
       "alsoIn": 1
     },
     {
+      "id": "f7e1278a53fe5271",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 2 Exam Date 2026, Check Tier 2 Exam Schedule and Shift Timings",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fQWZMb3d5TlVMRWFQdE5nbFZSMEpsSGd5WVdUdVVyeUNtZU54Sm0zNjFDUUE2UzF0bVNzTWtQNG9NUmdEcEt2U25Wa19JRHp2V1VaU1NKbXQtbWdiRzF0RFFCN3hBN1pWSUpuZnBB?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-10-30",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
+      "publisher": "Adda247",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
       "id": "1d6e7f15a2e3a21d",
       "examId": "appsc-group1-2026",
       "title": "APPSC Group-1 Application Deadline Extended: Candidates Can Apply Till November 9",
@@ -424,7 +460,7 @@
       "firstSeen": "2026-10-29T14:20:10+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "7f72bf7d695892df",
@@ -829,7 +865,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1553,7 +1589,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 39
+      "alsoIn": 40
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -1616,6 +1652,18 @@
       "alsoIn": 1
     },
     {
+      "id": "eee5beec17c4f5f4",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC AEE Recruitment 2026: Notification out for 503 vacancies; applications to open on November 2",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQkJVemhOQ3BUOGVyRWxsaHFsczRqSm5pREJIQ0pvWF93dy1tSm9fVWhGdGgtYldldWJTUzFtM3NZMHU0dzI4SnJHc29hVTN5cUlIUDFfTWFtS2dtRkJ3bFFFWi1uY0ZTcjMxWlZROTdGM05UbEMtZFpIdHEwaDFJc1E2dnVqVlIwc2dhYWxvdGpTcXlHNm83Vks3UEMtd9IBqwFBVV95cUxPbW10OHBWRndydW96akYtSV9YaFhlWTVqejQ3SldXWklwN2REOVc2MjI4bmpyWDhXV2FLM3ZnOFJQWjVGTGQwM1lGNFFwMFk2aTByVDNVZDNVUXZfUldDVG9uMnNyRi11bm1WcDFyai15emNkTDh1bl9RNTgtX3R4WlBSV09aZFA4QUZMVUVKeWcyUTNETDZWSnR1cEU3cXpxXzdkT1pvSmRjYWc?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
+      "publisher": "EdexLive",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "ccd12ad46e0bde5c",
       "examId": "upsc-epfo-apfc-2026",
       "title": "UPSC Pratibha Setu Portal: Login, Registration, Complete Guide Here",
@@ -1661,7 +1709,7 @@
       "firstSeen": "2026-10-15T04:05:56+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "0ef9e00edc72b6a6",
@@ -1827,18 +1875,6 @@
       "source": "LIC HFL news (Google News)",
       "publishedAt": "2026-10-10",
       "firstSeen": "2026-10-15T03:50:32+05:30",
-      "publisher": "FreeJobAlert.Com",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "7926ce91a4313adc",
-      "examId": "cwc-am-general-2026",
-      "title": "CWC Consultant Recruitment 2026 – Apply Online",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUWF0TTFiblJmN3lvYjNPWjVOcFZsRVU3Q3pTZjJuV205UXlmbFR4ZlRvdDhOeFpuRl9OWURXeEE5Sk9PQ2VfXzhMNWt6MlQ1YWpSaEVEWm5Td040TnR2YU45a2cydVBUZWJQdS1IRVg0TmdmdzdzdUxNeWR0dkFueXpLaS1qWGNZWFVTTHNqdUlicGt0?oc=5",
-      "source": "CWC news (Google News)",
-      "publishedAt": "2026-10-10",
-      "firstSeen": "2026-11-03T15:26:47+05:30",
       "publisher": "FreeJobAlert.Com",
       "kind": "notification",
       "alsoIn": 1
@@ -2667,7 +2703,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "4920e65d1edc6a00",
@@ -2715,7 +2751,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Sakshi Education",
       "kind": "admit-card",
-      "alsoIn": 21
+      "alsoIn": 23
     },
     {
       "id": "89754b960ef511f6",
@@ -2727,7 +2763,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Careers360",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "256503e505eefb32",
@@ -3123,7 +3159,7 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "NDTV",
       "kind": "admit-card",
-      "alsoIn": 10
+      "alsoIn": 11
     },
     {
       "id": "2940ac5422e03aab",
@@ -3378,6 +3414,30 @@
       "alsoIn": 1
     },
     {
+      "id": "d03916c23003d232",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Supervisor Grade 1 Recruitment 2026 Notification Out For 31 Posts, Last Date Extended Till 12 Nov",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOejVhWW0wMzQtNFktQnI4TFpVNGdwOVBURl9jTzc1RnVuMlJMbFpNWDJSeENFVFpDd2xFbXM5SUNJNDJtT3JmczFyNVloNU5qMVpZNXNlM0JfTl9JNnJNaElGY1RoNm5rVW1GZDRKME9QYkU0dm9JWlJWRlA4MzdQcmlFNkhMMWk3OENnNw?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-09-15",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "ea3fe7cbf1c0931d",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Industrial Promotion Officer Notification 2026, Apply Online Last Date Extended till 12 November",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaGxWd2l6VEJVWkZFbDktc2FTWTYwa29xMEpMSnR6SFBGNlU2aERnYjFsRWRSSkFIOGIxQ1RQS2JZV2oyTTJrVms1d0xtZjNVTWRjbVBQd3FtZHJJR1JjY193LXJFbGpNYU8zUHY4NkxfYUJzNHpDZVVLNExRVldVaE83ZDNNcUk5a0dzZGxkWm1VeFNQcEFSMGEyVQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-09-15",
+      "firstSeen": "2026-11-04T15:15:32+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "10ee5b8d52b4bfd4",
       "examId": "upsc-epfo-apfc-2026",
       "title": "UPSC EPFO Apply Online 2026, Today is Last Date To Apply",
@@ -3495,7 +3555,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "ec2e0c5db580368f",
@@ -3686,18 +3746,6 @@
       "publishedAt": "2026-09-05",
       "firstSeen": "2026-10-16T12:58:53+05:30",
       "publisher": "YouTube",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "b2b20dd26feb8d97",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "IOCL Experienced Professionals Recruitment 2026 - Apply Online for Production Manager, Senior Production Manager & Senior Manager Posts",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWXdRRV9Qcy1wNk9hRlBXTXp2TG9TWjZjUWl5V2c2dHM1LW9oTVBQUW53U08xWTF2eDhRSXFMNUJjbGlDMDFkaXhUUUFtZWxxekxweUlTSExyWi1qZ3FiSzRzcC1waTBtZzdfY0F5akRkdHhHTFZ6aU5TbXllaDc4eEF1TVplNnVSbmh6dU9JbWZCZ2lWa1lrcngwb3JncTdKWVVQdmFsdHZwNk1WRGplalNEU1diXzN6c2paN0NhYXpNcFQySm0zbnVGVTBlVGJ5emxHelcxdlZMNVliM0lxVkF0N09mb1U2Nmc?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2026-09-04",
-      "firstSeen": "2026-10-26T13:33:59+05:30",
-      "publisher": "FreeJobAlert.Com",
       "kind": "notification",
       "alsoIn": 1
     }
