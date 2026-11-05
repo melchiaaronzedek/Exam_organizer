@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-04T15:17:33+05:30",
+  "discoveredAt": "2026-11-05T15:19:20+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,174 @@
   ],
   "discovered": [
     {
+      "id": "d614f10bbdbf33c0",
+      "org": "ICSI Assistant Young Professional",
+      "post": "ICSI Assistant Young Professional – 8",
+      "title": "ICSI Assistant Young Professional Recruitment 2026 – Apply Online for 8 Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/icsi-assistant-young-professional-recruitment-2026-3078873",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-05T15:19:20+05:30",
+      "curated": false
+    },
+    {
+      "id": "83f3271c474cbd98",
+      "org": "ICAR",
+      "post": "ICAR CMFRI Young Professional-I",
+      "title": "ICAR CMFRI Young Professional-I Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/icar-cmfri-young-professional-recruitment-2026-3078864",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-05T15:19:20+05:30",
+      "curated": false
+    },
+    {
+      "id": "a36fbd98c2439041",
+      "org": "CGPDTM",
+      "post": "CGPDTM – 5 Young Professional, Consultant and More",
+      "title": "CGPDTM Recruitment 2026 – Apply Online for 5 Young Professional, Consultant and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/cgpdtm-recruitment-2026-young-professional-consultant-3078862",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-05T15:19:20+05:30",
+      "curated": false
+    },
+    {
+      "id": "ef7b6132157e2adc",
+      "org": "RGU",
+      "post": "RGU – 2 Internal Audit Officer, Executive Engineer",
+      "title": "RGU Recruitment 2026 – Apply Online for 2 Internal Audit Officer, Executive Engineer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/rgu-recruitment-2026-internal-audit-officer-executive-engineer-3078859",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-05T15:19:20+05:30",
+      "curated": false
+    },
+    {
+      "id": "ec43657947f39dd0",
+      "org": "Sub-Divisional",
+      "post": "Sub-Divisional Officer, Dhule Revenue Servant – 24",
+      "title": "Sub-Divisional Officer, Dhule Revenue Servant Recruitment 2026 – Apply Online for 24 Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/sub-divisional-officer-dhule-revenue-servant-kotwal-recruitment-2026-3078853",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-05T15:19:20+05:30",
+      "curated": false
+    },
+    {
+      "id": "bc038a57326f2330",
+      "org": "ICAR-CIRCOT",
+      "post": "ICAR-CIRCOT – 16 Senior Research Fellow, Young Professional",
+      "title": "ICAR-CIRCOT Recruitment 2026 – Apply Online for 16 Senior Research Fellow, Young Professional Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/icar-circot-recruitment-2026-young-professional-senior-research-fellow-3078843",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-05T15:19:20+05:30",
+      "curated": false
+    },
+    {
+      "id": "d3ebc5c5f0d860ff",
+      "org": "IIT",
+      "post": "IIT Kanpur Project Executive Officer (Research and Development)",
+      "title": "IIT Kanpur Project Executive Officer (Research and Development) Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/iit-kanpur-project-executive-officer-research-recruitment-2026-3078840",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-05T15:19:20+05:30",
+      "curated": false
+    },
+    {
       "id": "a52505f332e42caf",
       "org": "CSIR-IIIM",
       "post": "CSIR-IIIM Administrative Officer – - FreeJobAlert.Com",
@@ -7040,7 +7208,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-04T15:17:38+05:30"
+      "lastSeen": "2026-11-05T15:19:25+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -7135,7 +7303,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-04T15:17:38+05:30"
+      "lastSeen": "2026-11-05T15:19:25+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -7232,7 +7400,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-04T15:17:38+05:30"
+      "lastSeen": "2026-11-05T15:19:25+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -7854,14 +8022,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-11-04T15:17:38+05:30",
+      "lastSeen": "2026-11-05T15:19:25+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-04T15:17:38+05:30",
+  "portalAt": "2026-11-05T15:19:25+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -7897,22 +8065,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 358,
+      "fetched": 361,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 358
+      "scanned": 361
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 345,
+      "fetched": 333,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 345
+      "scanned": 333
     },
     {
       "name": "LinkedIn",
@@ -7968,7 +8136,7 @@
       "name": "Freshersworld",
       "ok": false,
       "fetched": 0,
-      "errors": 4,
+      "errors": 6,
       "error": "blocked (http 403)",
       "state": "blocked",
       "reason": "http 403",
