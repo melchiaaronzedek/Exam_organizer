@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-05T15:19:20+05:30",
+  "discoveredAt": "2026-11-06T15:17:27+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,200 @@
   ],
   "discovered": [
     {
+      "id": "6a0090a2f776e912",
+      "org": "NOTICE OF",
+      "post": "NOTICE OF | The following positions at the Department of the Interior and Local Government - Central Office in Quezon City are open applicat",
+      "title": "NOTICE OF VACANCY | The following positions at the Department of the Interior and Local Government - Central Office in Quezon City are open for application: 📍Administrative Officer I (OSEC-DILGB-ADOF1-25-2005/ SG 10) 📍Ad",
+      "track": "general",
+      "sector": "central",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeHRfY3BjekdQUjF0RWNEOWdDR1VBVS1uS09NZTVrYVFaSURoV2UyZmU2ZmstY3g4Z1pLaE5TcnE4N2hVQVhKd2Roc05Bc29BRy11c2xKQXltNGIydWV6eWQtWVVDOTFUMkVMQTR5eXZ6RFNZU0VzTUJSNG9CRmZwSlF0MWZJRHRMcEZqTUZpZERQdTgxMmQ5RUhEZ0N4ZG5nYWVINmI5VklxVVRXNkVxMC1uVlU0YmxVekJXWE5XVEZrZTBBQzE1NkFfNERObk1BTFdLTXpRTTVPRDJfdkRjYg?oc=5",
+      "source": "News · administrative officer",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: administrative officer",
+        "central"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-04",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
+      "id": "539bd9171f9ef3b9",
+      "org": "APPSC Industrial Promotion Officer",
+      "post": "APPSC Industrial Promotion Officer , Last Date Extended till 12 November - Adda247",
+      "title": "APPSC Industrial Promotion Officer Notification 2026, Apply Online Last Date Extended till 12 November - Adda247",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaGxWd2l6VEJVWkZFbDktc2FTWTYwa29xMEpMSnR6SFBGNlU2aERnYjFsRWRSSkFIOGIxQ1RQS2JZV2oyTTJrVms1d0xtZjNVTWRjbVBQd3FtZHJJR1JjY193LXJFbGpNYU8zUHY4NkxfYUJzNHpDZVVLNExRVldVaE83ZDNNcUk5a0dzZGxkWm1VeFNQcEFSMGEyVQ?oc=5",
+      "source": "News · APPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
+      "id": "60172482e225bb51",
+      "org": "DVC",
+      "post": "DVC – 108 Executive Trainee",
+      "title": "DVC Recruitment 2026 – Apply Online for 108 Executive Trainee Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/dvc-recruitment-2026-executive-trainee-3079288",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: executive trainee"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
+      "id": "eea0dd198d00aa3e",
+      "org": "CCS HAU Young Professional II",
+      "post": "CCS HAU Young Professional II – Apply Offline",
+      "title": "CCS HAU Young Professional II Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ccs-hau-young-professional-recruitment-2026-3079273",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
+      "id": "228803e533a2f30f",
+      "org": "MAIDS Consultant",
+      "post": "MAIDS Consultant – Apply Offline",
+      "title": "MAIDS Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/maids-consultant-recruitment-2026-apply-offline-3079271",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
+      "id": "684862cf96fa48e5",
+      "org": "UERC Assistant Director",
+      "post": "UERC Assistant Director – Apply Offline",
+      "title": "UERC Assistant Director Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/uerc-assistant-director-recruitment-2026-apply-offline-3079269",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: assistant director"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
+      "id": "c3564ecefc8de3fa",
+      "org": "NEDFL",
+      "post": "NEDFL Assistant Manager/Deputy Manager",
+      "title": "NEDFL Assistant Manager/Deputy Manager Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/nedfl-assistant-manager-deputy-manager-recruitment-2026-apply-online-3079264",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: assistant manager"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
+      "id": "9e959a570e4ad8b3",
+      "org": "WBPSC IDO",
+      "post": "WBPSC IDO - 247 Industrial Development Officer",
+      "title": "WBPSC IDO Recruitment 2026 - Apply Online for 247 Industrial Development Officer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/wbpsc-ido-recruitment-2026-3078772",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-06T15:17:27+05:30",
+      "curated": false
+    },
+    {
       "id": "d614f10bbdbf33c0",
       "org": "ICSI Assistant Young Professional",
       "post": "ICSI Assistant Young Professional – 8",
@@ -7208,7 +7402,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-05T15:19:25+05:30"
+      "lastSeen": "2026-11-06T15:17:31+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -7303,7 +7497,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-05T15:19:25+05:30"
+      "lastSeen": "2026-11-06T15:17:31+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -7400,7 +7594,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-05T15:19:25+05:30"
+      "lastSeen": "2026-11-06T15:17:31+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -7737,7 +7931,7 @@
       "summary": "Additional Information Job Number 26129379 Job Category Management Development Programs/Interns Location 303A-304 Fulcrum B Wing Hiranandani Business Park, Sahar Road Andheri East, Mumbai Mahar 400099, India VIEW ON MAP Schedule Full Time Located Remotely? N Position Type Management Job Summary The Voyage Global",
       "id": "portal-79c17d627215",
       "firstSeen": "2026-10-15T12:02:13+05:30",
-      "lastSeen": "2026-10-15T13:14:07+05:30"
+      "lastSeen": "2026-11-06T15:17:31+05:30"
     },
     {
       "org": "Tata Capital Finance Limited",
@@ -8022,14 +8216,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-11-05T15:19:25+05:30",
+      "lastSeen": "2026-11-06T15:17:31+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-05T15:19:25+05:30",
+  "portalAt": "2026-11-06T15:17:31+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -8056,7 +8250,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 7,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -8065,22 +8259,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 361,
+      "fetched": 359,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 361
+      "scanned": 359
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 333,
+      "fetched": 323,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 333
+      "scanned": 323
     },
     {
       "name": "LinkedIn",
