@@ -1,7 +1,51 @@
 {
-  "updatedAt": "2026-11-06T15:15:28+05:30",
+  "updatedAt": "2026-11-07T14:39:36+05:30",
   "baseline": false,
   "updates": [
+    {
+      "id": "3ba34f493b5c6c3f",
+      "examId": "pfrda-grade-a-2026",
+      "title": "Recruitment of Grade A (Assistant...",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "source": "PFRDA careers",
+      "publishedAt": null,
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "kind": "other",
+      "alsoIn": 3
+    },
+    {
+      "id": "7e2205fb52e80feb",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2024 - List of Candidates Nominated",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=%2F4FXRekhcYGbjY6fcunEE3uF%2BQS4CkmMHUcjWaiIO61I5OKDKsM%2F5fSVJ27lZ3nCM3UptSXB%2BTdpBFvfPDkPFTyNwsJ34oK1wpzvyxfsIVjkGJC4iUZH%2B6t59ciKkPr%2FOV70M7sJssWuNP763PX5nA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "kind": "result",
+      "alsoIn": 2
+    },
+    {
+      "id": "a2fcbb7cefb80f6c",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2022 - Nomination List",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=Yp4z3SoqKH8DA%2F4ypOIk8uDJ0%2FCzrsnYIujkQ%2BTegRiiinLQR9XaY%2F9xCBG%2F1ztYlUiSIG17Ag8Gs4U%2B9bL%2BJ92E6Qdhi%2FVzWFnA0mY6h83DR6jkFcKrZx0JC3mD%2BSD465OGZvFVfwCxNMFTXBfVSQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "81e0eb1d4feb4900",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2023",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=jqKYDc%2Bz41je%2Fm8h7%2BrCSkZvAIYaPJuO6MZoBD4ey%2BcXAk08NEekuVkbfq6t62VQy5F1Ed76hMtn4DqSEQCD2N2u8hF8R4k5JlYFcEWER5byNefQ%2FpgL%2FBGeblKU%2B9Jg54nAhQVaLa7unpogoFu%2BAg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "kind": "other",
+      "alsoIn": 2
+    },
     {
       "id": "926b95d02f4c9297",
       "examId": "iocl-marketing-officer-2026",
@@ -47,50 +91,6 @@
       "alsoIn": 2
     },
     {
-      "id": "0d0fd0dffced8da9",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-11-06T15:15:28+05:30",
-      "kind": "other",
-      "alsoIn": 3
-    },
-    {
-      "id": "b9cbd332f1e97a81",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=1Y28Oj2AkASCRXYDZlKEjz4uaj4QwwFJz9Qbfww1JyF3XykVz8JjuN7uY%2BDtyoHSrpRRVDkkGBkIQBo%2BvarZsrpl8GVvlp89mHuUWeowNIp5xHBEhT%2BMx9yS8FBGnGZClq6DaP3l9BX9vlI%2FaneyVQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-11-06T15:15:28+05:30",
-      "kind": "result",
-      "alsoIn": 2
-    },
-    {
-      "id": "6b876005014b2548",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=SJgFVaAKzIybbK4sGjBMa7juIqaIDF%2FmxQCFL6ZTJUVFbW6LzSMLHGuyH80qD%2BWR8QhxhW04f8nvOS%2F1vADGlp9ZdFDnzQgNcjwatk4NxUfNqegOEJ1K9yeiXdM6aZ86%2FCIkXgDm12fNrIgv1Uinyg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-11-06T15:15:28+05:30",
-      "kind": "other",
-      "alsoIn": 2
-    },
-    {
-      "id": "2e1660a57622120e",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://sscsr.gov.in/indexes/pdf_view?file=%2BPaAWVdQL40jaI8F2RpR8yIDnIo44XNNqRaiUlBWT807n4KkQT7Rm8BnSrm8aL87n%2FOWw%2BBKBjpXqNIc4mca59O79OLDHoBwmqKBF3lmqbQgaVgXhu2voWPnbyybbcmXW%2FP6NOtR%2B%2BQ2B2pUSS1WDg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-11-06T15:15:28+05:30",
-      "kind": "other",
-      "alsoIn": 2
-    },
-    {
       "id": "63440845c1558ccd",
       "examId": "concor-mt-2026",
       "title": "CONCOR Admit Card 2026 Out, Check Download Link, Exam Date and Hall Ticket Details",
@@ -123,6 +123,54 @@
       "publishedAt": "2026-11-06",
       "firstSeen": "2026-11-06T15:15:28+05:30",
       "publisher": "Sakshi Education",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "4c50f9f9c7cab0c0",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL 2026 Answer Key and Response Sheet Released, Check Objection Dates",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GWUFVN1dRa2lydjBSTlh3TkpCYWlOaEY3Zm45RExqOWh3eW4xQ1BTeWQ4YU9LZWxkWS05SEM0LUFma3gyLWJKV0dYNEVwd1FUci02Y2lRRUlPN3Y0ZVE0UG1WWXM5Uko1WkE?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "publisher": "College Mentor",
+      "kind": "answer-key",
+      "alsoIn": 1
+    },
+    {
+      "id": "bd548f66b21a09a9",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Grade A Phase 2 Exam Date 2026 Out, Check Exam Schedule",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jbUNCeG5vVkY1enBZVm02Um5YN281Z19WeXAwQmNhUWItV29XVjNSeGlQMFl1dFUtTF9yQXJLdk9FdTY0SDQzT3ZWYndfTEpGNm5lSEt3REpMQVV5MzlQclExYWRkN004WlBKQVJB?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "publisher": "Adda247",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "d81e58371edbf286",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO PET Call Letter 2026 Out, Download PET Materials",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yMmEyZlJBYUdQdTloZmJvdHJmRkhtbDNLWl82Q2tmeXg0MlhyS0IwYWd5emJocE1mcEtEbjVwVkhvZENzVDhOLS11LXh2TUhELXNJSGJoTmxGSWlQSXJBSkQ3eVRyeHFT?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "publisher": "Bankersadda",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
+      "id": "8f4b7a8e635a5fee",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC AMVI Recruitment 2026 Notification Out, Apply Online for 50 Vacancies",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE84SjRNZkt3ampxUENWdndldnB4NVRDcnNQTnJqWXJ4cUVMVGNDZ2QzU3c3V2RHUFZhY1J5ZUc0Yk5ieWVHSmRSNnQ0b09YZkF2OXNnZ3FnRGtJT1NwMDdsT25DN2k1dkU5YUdV?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "publisher": "Career Power",
       "kind": "notification",
       "alsoIn": 1
     },
@@ -195,7 +243,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "Education Times",
       "kind": "answer-key",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "1167ab9a721d953e",
@@ -292,6 +340,30 @@
       "publisher": "Jagran Josh",
       "kind": "result",
       "alsoIn": 2
+    },
+    {
+      "id": "b42125579e77637a",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Vacancy 2026, Category-Wise Revised Vacancies",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB1eGc5M3NHdGJiNEFjZHQ3YXlnSGZ4WDR2WTVqa1BzQXplck9UdV9CZVFhN3VnX05maHgwUkpSY2gxUXNrU1dZS1VuZmtyWFBLdW41aEd0ZEc?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-11-04",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "publisher": "PW",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "caf648031f0fe512",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Grade A Result 2026: पीएफआरडीए ग्रेड A का परिणाम घोषित, फेज 1 मेरिट लिस्ट PDF डाउनलोड करें",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcmpmaDY1QkFiYVNIc0pNWXVoX3hWb0lpWEViNVd5bFVIaFVRaFlfMElJNldLbGhac0lhTzluZ3JnSlZUeTRqQzdwYjlSSkwyUEpBMzMzdFdCSUQ0VXUySmJYSTR6SnFiQW93R1F0OExuVkJrZ2FCWmRmc0I0WjB0S0w2VEw4bU9uTGV5QmNKY1NWQmR5UTN0d0NZdVhFVFhodjJySEZVeEdLWEFvQ01oR0ZxUmZEZ2syREgyNWVmb0N1VzZXM0VHdV9fbHNLa1hadHg4S081S3c1d9IB4AFBVV95cUxOLTZrdkxJVGRRWFFYM3RyVXFfUm8xZWEwX0lRY1VvM2l3c3NiOFp5dFpWenhWVzh5LWVPenRKUUV0SWFsU2FmdWlhTWlzVU5xSnh3cTBKZm5VeDNtWm12OWRqMjVnTHBLaWlXTHV6MUFNeWZaVTJCcGdEUXpaWU00ak13d1p5a0JIQUhwZWhtYmk0S0d0QUlGWUNBWWRsNnVvTUp2Zm4wOGNmWmxpbnhxTUcySXNLVkp6eXlCRzZLLVhjeGNEUkJWdEE5NE1PVlBPZ3FzelpvUWMzTGdiRDg3YQ?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-11-04",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "result",
+      "alsoIn": 1
     },
     {
       "id": "ab71d75dc7d8b0ee",
@@ -397,6 +469,18 @@
       "source": "APPSC news (Google News)",
       "publishedAt": "2026-11-03",
       "firstSeen": "2026-11-06T15:15:28+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 2
+    },
+    {
+      "id": "0ed0dd5b6ca2a4a4",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Forest Section Officer Notification 2026 Out For 26 FSO Posts, Apply Date Extended Till 12 Nov",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZWNhcmlPSEV1U0JtVDFQWlR6dEtWd0d6dl9MdTN3aFk3TG1YYUxDWm55WEphSlNfYzhmNFV1V3FkaEU0djd2OGZ4MjEyVXV0VVlVTVhvdG5MTTEyTWFOeW9PTzFtUGc3TEhmOTJ4TWZ1d1lubWRQR21QLU9tbWM?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
       "publisher": "Adda247",
       "kind": "notification",
       "alsoIn": 2
@@ -699,7 +783,7 @@
       "firstSeen": "2026-10-29T14:20:10+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 10
+      "alsoIn": 11
     },
     {
       "id": "7f72bf7d695892df",
@@ -735,7 +819,7 @@
       "firstSeen": "2026-10-26T13:33:59+05:30",
       "publisher": "EdexLive",
       "kind": "notification",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "35c8768885fda087",
@@ -1092,7 +1176,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "307f72dfb095c2e4",
@@ -1104,7 +1188,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 16
+      "alsoIn": 17
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1513,18 +1597,6 @@
       "alsoIn": 1
     },
     {
-      "id": "0483079b3e0cd084",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Forest Section Officer Notification 2026 Out For 26 FSO Posts, Apply Online Starts",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hZWNhcmlPSEV1U0JtVDFQWlR6dEtWd0d6dl9MdTN3aFk3TG1YYUxDWm55WEphSlNfYzhmNFV1V3FkaEU0djd2OGZ4MjEyVXV0VVlVTVhvdG5MTTEyTWFOeW9PTzFtUGc3TEhmOTJ4TWZ1d1lubWRQR21QLU9tbWM?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-10-16",
-      "firstSeen": "2026-10-19T13:32:48+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 2
-    },
-    {
       "id": "94358fd898fc6a06",
       "examId": "appsc-group1-2026",
       "title": "APPSC District Probation Officer Notification 2026 Out For 15 IPO Posts, Apply Online Starts",
@@ -1816,7 +1888,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 42
+      "alsoIn": 43
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -2605,6 +2677,18 @@
       "publishedAt": "2026-10-07",
       "firstSeen": "2026-10-30T14:25:48+05:30",
       "publisher": "Bankersadda",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
+      "id": "72366b36c4c03154",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Exam Date 2026 Out, PET Scheduled Starts From 9 Nov and Prelims on 17 November",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1Ua2lIUUlQMDM1RFJabXh2RkFUdWx0dWhmOWlVODFRMllQWjBtSzNXOEF6WmZuMTVzZXN0TGU3M0t4SEduNlI2VEJWV0xnbDdMRzJfWVREb2FjR0VnSThJNjZ1NHZNdWpsTkdJYXdLVk53T2cy?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-10-07",
+      "firstSeen": "2026-11-07T14:39:36+05:30",
+      "publisher": "Adda247",
       "kind": "exam-date",
       "alsoIn": 1
     },
@@ -3770,7 +3854,7 @@
       "firstSeen": "2026-10-15T03:50:32+05:30",
       "publisher": "Adda247",
       "kind": "exam-date",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "ec2e0c5db580368f",
@@ -3878,66 +3962,6 @@
       "firstSeen": "2026-10-15T03:28:40+05:30",
       "publisher": "YouTube",
       "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "3379940c5bfc8654",
-      "examId": "nicl-ao-2026",
-      "title": "UIIC AO Cut Off 2026, Check Category-Wise Previous Years Cut Off Marks",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15bk5fN0NlSGhuVDA4MHpRNTFmb0xNeU9nazN4WHhFZXZKaG9iM3djd0RteW5DRy1ITDZ0YzJiakFiVVpxX2FNU2htbWozemU0UFVRSHRqSTA?oc=5",
-      "source": "NICL news (Google News)",
-      "publishedAt": "2026-09-07",
-      "firstSeen": "2026-10-15T04:05:56+05:30",
-      "publisher": "Adda247",
-      "kind": "cut-off",
-      "alsoIn": 1
-    },
-    {
-      "id": "24f1a704c100466e",
-      "examId": "uiic-ao-2026",
-      "title": "UIIC AO Recruitment 2026: Apply Online, 225 Vacancies",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JY003TjZDNGRlSmNYSXFfME9abDRmc0pwejAybmVFN0xLRExmS0Z1Um5YOXdDTzdJT2VoQ0lKN3RKd3FWeENaWXc4YVBxNk9GTjhYUWJDdDNIdFlUVU5wOHc5RUM0VDJ6VzU5WVVvTQ?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2026-09-07",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "PW",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "749a25325ac5a368",
-      "examId": "uiic-ao-2026",
-      "title": "UIIC AO Cut Off 2026, Check Category-Wise Previous Years Cut Off Marks",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15bk5fN0NlSGhuVDA4MHpRNTFmb0xNeU9nazN4WHhFZXZKaG9iM3djd0RteW5DRy1ITDZ0YzJiakFiVVpxX2FNU2htbWozemU0UFVRSHRqSTA?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2026-09-07",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "Adda247",
-      "kind": "cut-off",
-      "alsoIn": 1
-    },
-    {
-      "id": "b2f814c374d11962",
-      "examId": "uiic-ao-2026",
-      "title": "UIIC AO Recruitment 2026: Registration open for 225 Scale 1 posts, apply at uiic.co.in",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNakdYOU9YaXIwOU1QXzJ1OExpSFdJUVAwX2xMRWwtRW94bEoxaEJMRDlaXzZYUEIyZjI5RTVKMS0zRUMwdWVrYmhHOXh4MlZDaXNFRjBIeGRCZDI0WlBfQkRsZHNIeF9JTlBFMEwtNHlJVVVmclBhaUI3dUFhQktlUlNHZUkwOW5QYUY4QkFHQm01bXJ5WC1oWExZN0Y1a1VhLUFBRExBS2daejd0dDg2N0RlT29leXBLV19LWmdWc0lSLXNXUzk3dXVZckxLWGVY?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2026-09-07",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "India Today",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "e328a5703dda04d7",
-      "examId": "pfrda-grade-a-2026",
-      "title": "PFRDA Recruitment 2026: 30 Officer Grade A Posts Open; Check eligibility, salary and exam dates",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZHZ3LW1ocDQwdkpKWkliWG1oc0FEVU1ENTZzWnB6cXZRWjhhb19ER2lnLWNaeDRNWVk1S2ZFZDVUYUFpZUZjZUpKTjF4YTVoZ1M1OG40UTdBSWpHR2dXTXhJdGlYWHl3LU84M0t2QXZERTBvRzZINEJHZDg4ZGI0TW9zTkVHc1dMUGY4X0FreDN1TjBmVkdPbXlaaDhPUVpfRjUwRTJYT2Z3Vnhmemg4MGdPU0ZFYWlWUW5QcF9LVVjSAc4BQVVfeXFMUFhLVXhvSHpPRU1adWZjeTFrTm9wQktvSWhJaHJzWnRmOTdNQVNxTWZzUzI3c0o0UmV2R2htNXJpeTBwUG5WQndVMl95TkRBOVhoWDk2N1Z5Sjc1WTdlUEJQSlpyZkp6bGFwdXRaZUtfUm9YdEZoSUVqR0F4MmNVYVBIN0FaMVczMUwzSmZYRzJrdHhIb2wwbnBlNkNPUTlYM0xsUFFzeUZYb1hPYmFaTWdpcjE0ak1FYUVBQ2l3NmJBWktrUXZCU3U4bER3X1E?oc=5",
-      "source": "PFRDA news (Google News)",
-      "publishedAt": "2026-09-07",
-      "firstSeen": "2026-10-15T12:00:19+05:30",
-      "publisher": "EdexLive",
-      "kind": "exam-date",
       "alsoIn": 1
     }
   ]

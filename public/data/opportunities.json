@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-06T15:17:27+05:30",
+  "discoveredAt": "2026-11-07T14:41:32+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,102 @@
   ],
   "discovered": [
     {
+      "id": "cde36ed5c5f6a8a7",
+      "org": "Chief",
+      "post": "Chief Medical Officer, Budaun – Apply Offline 30 Medical Officer, General Physician and More",
+      "title": "Chief Medical Officer, Budaun Recruitment 2026 – Apply Offline for 30 Medical Officer, General Physician and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/chief-medical-officer-budaun-recruitment-2026-medical-officer-3079582",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-07",
+      "firstSeen": "2026-11-07T14:41:32+05:30",
+      "curated": false
+    },
+    {
+      "id": "ce138315c3d1e997",
+      "org": "NHSRC",
+      "post": "NHSRC Technical Officer (Public Private Partnership)",
+      "title": "NHSRC Technical Officer (Public Private Partnership) Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/nhsrc-technical-officer-public-private-partnership-recruitment-2026-3079570",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-07",
+      "firstSeen": "2026-11-07T14:41:32+05:30",
+      "curated": false
+    },
+    {
+      "id": "0360a4b5ae3e8081",
+      "org": "District Education Officer Balod",
+      "post": "District Education Officer Balod – Apply Offline 93 Sangwari Guruji",
+      "title": "District Education Officer Balod Recruitment 2026 – Apply Offline for 93 Sangwari Guruji Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/district-education-officer-balod-recruitment-2026-sangwari-guruji-3079550",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-07",
+      "firstSeen": "2026-11-07T14:41:32+05:30",
+      "curated": false
+    },
+    {
+      "id": "15855fd52821ded0",
+      "org": "NDC Consultant",
+      "post": "NDC Consultant – Apply Offline",
+      "title": "NDC Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ndc-consultant-sme-recruitment-2026-3079538",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-07",
+      "firstSeen": "2026-11-07T14:41:32+05:30",
+      "curated": false
+    },
+    {
       "id": "6a0090a2f776e912",
       "org": "NOTICE OF",
       "post": "NOTICE OF | The following positions at the Department of the Interior and Local Government - Central Office in Quezon City are open applicat",
@@ -7402,7 +7498,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-06T15:17:31+05:30"
+      "lastSeen": "2026-11-07T14:41:36+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -7497,7 +7593,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-06T15:17:31+05:30"
+      "lastSeen": "2026-11-07T14:41:36+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -7594,7 +7690,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-06T15:17:31+05:30"
+      "lastSeen": "2026-11-07T14:41:36+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -8216,14 +8312,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-11-06T15:17:31+05:30",
+      "lastSeen": "2026-11-07T14:41:36+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-06T15:17:31+05:30",
+  "portalAt": "2026-11-07T14:41:36+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -8250,7 +8346,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 8,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -8259,22 +8355,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 359,
+      "fetched": 357,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 359
+      "scanned": 357
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 323,
+      "fetched": 319,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 323
+      "scanned": 319
     },
     {
       "name": "LinkedIn",
