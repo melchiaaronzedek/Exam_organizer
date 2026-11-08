@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-07T14:41:32+05:30",
+  "discoveredAt": "2026-11-08T14:57:05+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,79 @@
   ],
   "discovered": [
     {
+      "id": "b8e1c48e74fbfbce",
+      "org": "SIHMCT Trichy Administrative Officer",
+      "post": "SIHMCT Trichy Administrative Officer – Apply Offline - FreeJobAlert.Com",
+      "title": "SIHMCT Trichy Administrative Officer Recruitment 2026 – Apply Offline - FreeJobAlert.Com",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWUV1aW9MeFRGWTRMYXd0aGtTU0pNYXhxZ2djZi0xVU5BRDRDVkFFSVZqSmViVHdHT09KbVpsSTRDbEtJNC1EX0E1MXkzcG5WWEZZckNTRjVDemRZaWF0aHhReGNDNUlLM2E3cUN1M0Z2dTV3YlpmbFZmV2hMaDZIMUwzbVRuSWNvVWNPMnlpRnAwTDZBOWlYakdPdVU3ZGpB?oc=5",
+      "source": "News · administrative officer",
+      "sourceType": "news",
+      "fit": 40,
+      "fitWhy": [
+        "role: administrative officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-07",
+      "firstSeen": "2026-11-08T14:57:05+05:30",
+      "curated": false
+    },
+    {
+      "id": "81313b277a7c1aab",
+      "org": "TGPSC",
+      "post": "TGPSC Deputy Education Officer Exam Date , Check Exam Schedule Details - Adda247",
+      "title": "TGPSC Deputy Education Officer Exam Date 2026 Out, Check Exam Schedule Details - Adda247",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa3lOa3VOTmFkZHZFM2Vsa2YyQTVXR3V5dUpGQTlWXzViMHl2MndJR2d3X2ZQak05RnFMVnhYSUkwdkdtR3NIN3h4OUo0eUVMdUY0ZXlVNHdpNThOWXMxQ0dVaF9RWW1yZnhSS3hvVzZuSEVvM1ZGYkVQcUVsQlBlOE5sVjdsWUljTXgtaDgtTENzN0E?oc=5",
+      "source": "News · TSPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-08T14:57:05+05:30",
+      "curated": false
+    },
+    {
+      "id": "6108026cedaba130",
+      "org": "RERA Bihar Adjudicating Officer",
+      "post": "RERA Bihar Adjudicating Officer",
+      "title": "RERA Bihar Adjudicating Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/rera-bihar-adjudicating-officer-recruitment-2026-3079632",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-07",
+      "firstSeen": "2026-11-08T14:57:05+05:30",
+      "curated": false
+    },
+    {
       "id": "cde36ed5c5f6a8a7",
       "org": "Chief",
       "post": "Chief Medical Officer, Budaun – Apply Offline 30 Medical Officer, General Physician and More",
@@ -7498,7 +7571,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-07T14:41:36+05:30"
+      "lastSeen": "2026-11-08T14:57:09+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -7593,7 +7666,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-07T14:41:36+05:30"
+      "lastSeen": "2026-11-08T14:57:09+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -7690,7 +7763,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-07T14:41:36+05:30"
+      "lastSeen": "2026-11-08T14:57:09+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -8312,14 +8385,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-11-07T14:41:36+05:30",
+      "lastSeen": "2026-11-08T14:57:09+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-07T14:41:36+05:30",
+  "portalAt": "2026-11-08T14:57:09+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -8346,7 +8419,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 7,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -8355,22 +8428,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 357,
+      "fetched": 354,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 357
+      "scanned": 354
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 319,
+      "fetched": 321,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 319
+      "scanned": 321
     },
     {
       "name": "LinkedIn",
