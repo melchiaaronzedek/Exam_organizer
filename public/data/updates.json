@@ -1,17 +1,41 @@
 {
-  "updatedAt": "2026-11-08T14:55:05+05:30",
+  "updatedAt": "2026-11-09T15:42:03+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "0d0fd0dffced8da9",
+      "id": "3ba34f493b5c6c3f",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-08T14:55:05+05:30",
+      "firstSeen": "2026-11-09T15:42:03+05:30",
       "kind": "other",
       "alsoIn": 3
+    },
+    {
+      "id": "d26a30c289c13de6",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Application Form 2026 closes today for 166 Vacancies; no further extension",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQlRyWUhHNmxraElLZUNGZ0RSNlRqRlVLSEFQUHd1RGx1azRXYjg1dzE2dUFabTZuZFlkWi1QOHJGN3RPc2l2UVB5RHlVQU5DT2stamtLMDBiT05paEhrc3R4d2NkY21IVDdPVmdmZnk1QnQ3eE12SmEwUHF1OTVOVzV5dF84U2hZUks2MVN6MG95aE0zZUM3d9IBpgFBVV95cUxPQzhVU01BbVloV1V0WjJHdldTWFpNMmx6VmtvV3VoUWgxSktTajY0bUFzbFQ0a1B5MlNCa2VYUnE0UEhKS0xZaVhHaF93dW8zRFg0YldWMlBlMU5NYlNKZEM0eS1QRjVKeElnUUNOOWxCN0U0cEdBMGs4SE1MOHlBSnFfZVNOc1FaSGZFUkQ4SU92blp5MGNfa3FIUmhkMTYxdzRqYmtB?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-09T15:42:03+05:30",
+      "publisher": "EdexLive",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "0e857622afda6bbd",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Apply Last Date Today: Final Chance to Apply for 166 Posts",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUUNhckhMQUpDcjdlcnRlWTk3bnllUzcyWTFDaFJPakNVdW56MDVqeHAybWo0TERuTFZYQjY3THJBS2lmRXE2ZThERGVuZWY4ajEyTmhQS2ZtdDB0Ql9kcXpUOUlZemtHVGJnajJYSjdaWklod1ZYOUM4d1ZEMWhhNHYzcEdhVkVnUFhYay1uVTBGSVZIQXpfRWRNT3BJbGVjdko4VDFpd3c5V3JUWlVEY092ZU9pQUc0N3FKWXpIZEVsMFFz?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-09T15:42:03+05:30",
+      "publisher": "Sakshi Education",
+      "kind": "notification",
+      "alsoIn": 1
     },
     {
       "id": "328310a729568176",
@@ -243,7 +267,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "Education Times",
       "kind": "answer-key",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "1167ab9a721d953e",
@@ -783,7 +807,7 @@
       "firstSeen": "2026-10-29T14:20:10+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 12
+      "alsoIn": 13
     },
     {
       "id": "7f72bf7d695892df",
@@ -819,7 +843,7 @@
       "firstSeen": "2026-10-26T13:33:59+05:30",
       "publisher": "EdexLive",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "35c8768885fda087",
@@ -1176,7 +1200,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 9
+      "alsoIn": 10
     },
     {
       "id": "307f72dfb095c2e4",
@@ -1188,7 +1212,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 18
+      "alsoIn": 19
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -1888,7 +1912,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 44
+      "alsoIn": 45
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -3949,18 +3973,6 @@
       "publishedAt": "2026-09-10",
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "PW",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "d6e7bd809bd21d8a",
-      "examId": "uiic-ao-2026",
-      "title": "UIIC AO Recruitment 2026 🔥 225 Vacancies | Salary, Eligibility & How to Apply",
-      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBOV1lfMXdEZ3VjS2xHcFhha1FzMmwwRV9xRjE2eXhGa3lialprbkc4QTFuMUk0V09DY08xdXU3d2EzQQ?oc=5",
-      "source": "UIIC news (Google News)",
-      "publishedAt": "2026-09-09",
-      "firstSeen": "2026-10-15T03:28:40+05:30",
-      "publisher": "YouTube",
       "kind": "notification",
       "alsoIn": 1
     }

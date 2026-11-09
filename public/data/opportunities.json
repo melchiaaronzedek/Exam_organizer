@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-08T14:57:05+05:30",
+  "discoveredAt": "2026-11-09T15:44:21+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,104 @@
   ],
   "discovered": [
     {
+      "id": "f78640d9f4170fdc",
+      "org": "Bihar Vidhan Sabha",
+      "post": "Bihar Vidhan Sabha – 54 Assistant Caretaker, Assistant Section Officer",
+      "title": "Bihar Vidhan Sabha Recruitment 2026 – Apply Online for 54 Assistant Caretaker, Assistant Section Officer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/bihar-vidhan-sabha-recruitment-2026-assistant-caretaker-3079745",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-09T15:44:21+05:30",
+      "curated": false
+    },
+    {
+      "id": "f63db7f676d3f93b",
+      "org": "NHPC Medical Officer",
+      "post": "NHPC Medical Officer",
+      "title": "NHPC Medical Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "psu",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/nhpc-medical-officer-recruitment-2026-3079742",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: officer",
+        "psu"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-09T15:44:21+05:30",
+      "curated": false
+    },
+    {
+      "id": "168358484b920bb9",
+      "org": "JK Bank Probationary Officer",
+      "post": "JK Bank Probationary Officer – 323",
+      "title": "JK Bank Probationary Officer Recruitment 2026 – Apply Online for 323 Posts",
+      "track": "general",
+      "sector": "bank",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/jk-bank-probationary-officer-recruitment-2026-3079728",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: probationary officer",
+        "bank"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-09T15:44:21+05:30",
+      "curated": false
+    },
+    {
+      "id": "ec69b8f0cfe0b75b",
+      "org": "KMB Port Officer",
+      "post": "KMB Port Officer",
+      "title": "KMB Port Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/kmb-port-officer-recruitment-2026-3079736",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-09T15:44:21+05:30",
+      "curated": false
+    },
+    {
       "id": "b8e1c48e74fbfbce",
       "org": "SIHMCT Trichy Administrative Officer",
       "post": "SIHMCT Trichy Administrative Officer – Apply Offline - FreeJobAlert.Com",
@@ -7571,7 +7669,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-08T14:57:09+05:30"
+      "lastSeen": "2026-11-09T15:44:27+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -7666,7 +7764,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-08T14:57:09+05:30"
+      "lastSeen": "2026-11-09T15:44:27+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -7763,7 +7861,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-08T14:57:09+05:30"
+      "lastSeen": "2026-11-09T15:44:27+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -8385,14 +8483,14 @@
       "summary": null,
       "id": "portal-e469516d48a6",
       "firstSeen": "2026-10-15T01:00:28+05:30",
-      "lastSeen": "2026-11-08T14:57:09+05:30",
+      "lastSeen": "2026-11-09T15:44:27+05:30",
       "trustWhy": "nuvama",
       "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
       "experienceSource": "title",
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-08T14:57:09+05:30",
+  "portalAt": "2026-11-09T15:44:27+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -8407,19 +8505,19 @@
     },
     {
       "name": "Glassdoor",
-      "ok": false,
-      "fetched": 0,
-      "errors": 2,
+      "ok": true,
+      "fetched": 30,
+      "errors": 1,
       "error": "blocked (reader: no job links)",
-      "state": "blocked",
-      "reason": "reader: no job links",
-      "scanned": 0
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 30
     },
     {
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 6,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -8428,22 +8526,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 354,
+      "fetched": 353,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 354
+      "scanned": 353
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 321,
+      "fetched": 314,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 321
+      "scanned": 314
     },
     {
       "name": "LinkedIn",
