@@ -1,49 +1,133 @@
 {
-  "updatedAt": "2026-11-11T15:17:10+05:30",
+  "updatedAt": "2026-11-12T15:40:06+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "3ba34f493b5c6c3f",
+      "id": "0d0fd0dffced8da9",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_sep26/login.php?appid=38b655649e6919687f00f0527c98864b",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-11T15:17:10+05:30",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
       "kind": "other",
       "alsoIn": 3
     },
     {
-      "id": "56335bd56d4a493f",
+      "id": "9a7dddac4b8e0625",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=LMDF1PVvgK5Uo4CPR592KW3qaUc1Fxq9l%2FVQWCXr0YjEV%2BzAvxDEFyeQ2bH3z0NqdsdvmE%2BfQ0%2FQPMaNEuFSWo4ks5sCYYiyJIY%2FWviWemBhyD4utzX3mcSbFKN7q%2F6SP5Ti8Q6Ma0W%2FAZXDFWpwMw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=afWWoKzURrqrp3qwPkpl3VivE6yS1wRUJ%2B154l3fY57liVwOTPPytkzJ%2F6w5GOk2RSaY1dKOQR8ZZYu1sEpEdN%2FxASBS6z1dCex23TW99I%2FQf2%2BwRK1Ubkb6yabXqFoHzFXh%2FQ0O19i4We7OnfJGDQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-11T15:17:10+05:30",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "dfec9108c85040cc",
+      "id": "0f839f5698c8fe8b",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=v4ZpMha%2FgjYB7PEgQq4zNzvTIlspWOkjyq5JwpkrAg0%2FQ08aoE3U06o%2B1dwJ%2B7auVzECL5yZqSejswPIYP96F2xlEh0OOVcTq9GpTE%2FtCBO%2BgiIw33lgkyFZS9K7aAdoLdou6ulZFZZuJe4Wy5M3Xg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=55hvuQvw%2FReRNAIAtVpQxOEF422OuFQ8YoKT1PCgdfinVW9O0pXcJgDP5bXj%2BL4vNTAJ3vyOI3Lt6xRWNSCkjZpdRtYTAaHBQLuKr%2B9h98nshBA%2BTmxCh8qHSpvGTTGaSwINQxrc%2FHL1GL8HGSAqIQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-11T15:17:10+05:30",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "74909a6ed50d6e36",
+      "id": "a60731f2067cbd02",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=mSH%2BNfmna%2FGaLmUgp17WEENAQoh3zIgK1T%2FRuKK7frO814HZ%2BdTaECH5mC7QnN38tfC4S3wuAmsXCKht7eVnNmzFif%2FuooWWUCi9LkChXhRc3LDWMRvClBax3pk1cyHQ1M7FIR2EWSxaAqGuCIfrlw%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=S%2FChb4cYrRCKl2WNZRe6CYgK8A8MDmLYOjZ8jqQj0fg0ogrHMOmM0YXg%2FTAxw7CgtltdvXzYzfZg%2F%2F%2F157U5AJSGa8LCYEKMfqtAS2saTb%2Fi%2BP3105yqxcxgHz%2BaEZXO3f4ITu3Zcgy%2BwyBNpSifeQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-11T15:17:10+05:30",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
       "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "4a81082410c1ede3",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Result 2026 declared: 5,806 candidates shortlisted for Mains exam; check result PDF and next exam date",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQbFN1aml5cDFoR2tCZDE0WVhIVGJOZ0tUNDRsZnpROGlHV0VXUHRodlZlUEMxYXRVLUJ2dTc1WFVjMlB1S3VldzlwUVIwcmR3VHVIcTRSalBYVTRhajN6eFF1ZFJvdWlTZmNJZVUyRWUxVjdCQWt0d0RjMHdWdUI1eWhBaEg3Sm1HQWZmaWtoeVc5eG5Ua0dSQ0tvaC1lQmZPcHpCRHg2OFJXb2drLTR2ei1WYmdaRDNES184WTduanFaVUFCS2kzRzJZVTMtRDQtZjVab0lyVWZuN3ZXZVpkVnJvNjRqSmxGc3hwQnZCeHdQN0xYbno2Y2FHYndMUQ?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Education Times",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "faa0987318d8aa74",
+      "examId": "uiic-ao-2026",
+      "title": "United India Insurance Company Prelims Result 2026 Out: Here's How To Check",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbXFWQXJ3bEdBR0J4S3IyNEtyd2hEZEs4UnJrQ0UwbHMxanVQTzVvNXJIZ2RsZzRyb3k4bldwcUdraWpnMFhDUHBFNjhIZU04RVNTYW0yMTR0d0xzV0dLel9UOXU3SWRlN0ZZb3FzaHhMSV9YMzhCM29rdEl4M3RZckowSEdLbUZBRGhFS2ZaT0w5NkJEWEU3XzUzbUd5Xzd0a1dNOUo4dlpOdWl2ODRBMTctMVl6aUNiT3NyT0lQY2pNUXFNOXowYTloZ24xZEVMX1lR0gHbAUFVX3lxTE1FRGRLcm5aSWtOcXo5LVlpOUpuV2F4ODgxT1pqRlRxN3MzR3FKWEkyNXhfdURYSGhxY2t3dW9SV1BpZVY5NW4yYWl0eDRESWYtbkFsNThvUWpuRDk1Rm5QNXFCd1Zub2tKRVBwVFltY1ZXeWtld3FCc29fSndKblc5dU1jWmdPZVg3TzFoWVp5YUJxSjdhRnZyVGJuRmFOTkxHLXdkMkJaVDZFbmh6b2pycHJscFFyM3p6QkdMUjU1eWh0aVo4OHQyMWw5NVYzdkkyMV96VE8xWlNyaw?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "NDTV",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "a1a8bee761a08cdf",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Prelims Result 2026 Declared; 5,806 Candidates Shortlisted for Mains, Check Cutoff Here",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNc2V4cFN6RGltQTk1R3luMkEzbDhBX1BJWGlPS0FDdlJMb1R3QnJuZXd4NnQzNzVwZll1UVd6QXpwX1ZWeFQzX3NmTWp6ZFZ4VWdlMHpUdFp3anRBSjNsZFhRcnNpTW9mWE05UGxwOVJLdDdIczNsa3ZCTjkwdy1KNnRDQmVNdENHamxjZlJ0M2taQzVFZnhiMWhIWm5pczBmc00tRjNyTExaSTdkVHVnVVIxWElqRDI5ajZaWkZBeTNHZlR2Y1hIOER1UEVDNGdiRnZnLTJpZnU4VTQyZXpwb0xQUdIB6AFBVV95cUxOdkNOOW1STUFkZGRfbGs3b1JtU2lxTUxyQXJPSEw2YmNVMTVkWl8zNXlqdl91bjVYWlF4dk9IQVBUQzlqYlBxMVgtOGMzakJlZGFKemFOLWozMEdEMFZUMEI2d1BoVkFzSnM4MFdsSTBPeEZqd254WFJwbWpuU2MzUXBlX2Y1R0pqU0hiLXlwX0hHOVFGa1B2NWYyZTBZblJ3dHFYcnN4SGpfeEtHbFJhaUVFcFNNdksyNWVIUzRrcGEyVW51MUxOQndqNzRCeGxNTTljYkV2THBnclJoOGhuTkZBTmgwcDly?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Telegraph India",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "5b647cdb0d176379",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO prelims result 2026 announced at uiic.co.in; 5,806 candidates qualify for November 30 Mains exam",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWC0xQ214WjVfZGtzRXVQWm44emJZUWVMTjVVaENFNGhWU19KUm50d3FUUzVvZDQ2amlhVmZxWUdjRy1STjdkWTd1ZDA1b1JGa3hOcUNFS3Z4b0NPUHNzZUZybm5YU2VYTFJXVTMxX255X1hZWXdoNEFvLVh5UFNnV0VFNG9LN2pXZTZzSVN5NVhKenZ2dWhCcnhjX3FLTjI0STFTWldveEh3NFNSWTJrdlJabUpWdFU1SFZRRnIyaGhxdGtoVEc5UElGRklrbE5FbWYzd2FRM28zb3ZuVWEyT1JtLUtJeDhw?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "India Today",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "c39b530dde311c0b",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Prelims Result 2026 OUT, 5,806 Shortlisted",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00dkRUM1NkNUVMX0N1Uko4ZjByVGV2TjdyTV9HS0ROUmxNQWVFQ0Q1enlMRFMwVXRDSUJieU8wT004dGt1M2RfMmM4X3lGNm5TRmRCbW1QdFdzaS1UekotMUlPclQteFplVHRzZ2pqeElrX3dLOVh4NQ?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "PW",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "7e160226e0c3d9d0",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Grade A Mains Admit Card 2026: पीएफआरडीए ग्रेड A मेन्स एडमिट कार्ड pfrda.org.in जल्द, हॉल टिकट पीडीएफ",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZVBMQ1VDNmJNREJTc0pYZEgwUGUtY2hNRHVOaGVuaWRURktkM18xX2o4SDhMclktR1ZZTElYamJncF9DZ1MwbEg5eFdRZjJEQzJ3SGZEeERJWUR5b0lScXQyd0dRczgzZ3F0bm4xeU9LWGtvRnJYZEx5YUEyRjJyVHBhWjRBUEZpWUlkTTUyMGhPSmtwbmxtSFNHSWxROXlzYWVIM3ZFMnlwemZzRDNwaWRsanFPdG9JQkh6TlZQSHZfWm9Rbk9BVTFRVnpZMlBNWHptNE9aSFp3cmdtd3fSAeQBQVVfeXFMTzNKdmJTemstVGtIcUZqbExLZ09jSTRVazBnTVV1V0dXZ3JsakNybHcyUzZ0MzEzQWo2WmhkQjdIZ1lsbkZpREFxWVFWNWpvczhGNVRmMFpvSk5pNllMcTlQaTVHVGZBNnExaUhTX1FmcnhtZUlsa1NzV3E2MFk4allsbnlzUEV1VGNFTGhKRnpmZUhXXzlTU2VuVV9Rc2dpX2E1ZmhfNXpsWXdmM29QV3R1WHBKQjNFM1kxTEM0Q2FnRzJSMWdEV1ZaN3lFVmMtS0ZrVVU4aENaQWloQWcyd25Ya3VK?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
+      "id": "c3dc78e4b6366ac3",
+      "examId": "cwc-am-general-2026",
+      "title": "CWC Recruitment 2026 Notification Out for 327 Posts, Apply Online Ends on 15 November",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3YkRSSHVLdGlFcFFEYUo3N3VtTkhwVDRqTTFyR19OTjdjaHdMMVZxc3AyZ05QbjZ1Yk91ZUdHeU1wdG1aX2pZaHdObGxyZTJEMmhOVFdoTEZsRzI2OEE?oc=5",
+      "source": "CWC news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Bankersadda",
+      "kind": "notification",
       "alsoIn": 2
     },
     {
@@ -56,7 +140,43 @@
       "firstSeen": "2026-11-11T15:17:10+05:30",
       "publisher": "Career Power",
       "kind": "notification",
-      "alsoIn": 2
+      "alsoIn": 3
+    },
+    {
+      "id": "e59cba7045e0a07c",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Result 2026 Out @www.uiic.co.in, Download Prelims Merit List and Check Qualification Status",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ocTlYNEcxcWNGV3hjR25qR19Ra3RsbGFTcFZRT3BvOXA4eUlmdGtybG11VTFnVnBhTmlaVzgxc3Z2cmFFY3J3Zl9QMDRNNnBjOG5NaERobFpOdl9RWDNqaHBhMUE5RnV0R3RuSWc4NDVrdw?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-11",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Adda247",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "f49417f47c9725b3",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Result 2026 Released at uiic.co.in: Download Tier 1 Prelims Merit List PDF Here",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZllGa2Z5Y2R2RnUyMlFxSEM1enNMRDlqQS1EaWQ4NUxqckVIUE5MWU9HZFhFLWxWZkVkUURPUmVVMGZTcGFmMnVldHBTOERYQlpGZnRya0pHd3pJMDdfaFJQYjVYUjB0cENWSzk5ZjhxTVFpWldXSzJVX3RxOTdiUDZXRmNobzRSb0VXZWRHbVkxZmw1a1VoRUpQay12M1ZiQW5vbXlRUzNod3c3TWw4MzVGT1dEQXJZS3AyRjY4SXpWcDJ5LU9YRHZOaHRlbVRmcWFYLdIB2wFBVV95cUxOaUpIVGowcXdCQnBxOHdSblM5RDJsWTUxRG1HSGhhcXZrdmtMMFVlS25lYU91UHFKWmxpS2Nfa0ZUSG52YzA4NW13TkJzcHotcF8zbzhYcjhVZU1OUnBiTnQxcm9DUkoxdHh5QjBzd3NycUVfRmh2U3g2SHo3dG80UF90QzdXZ2Vmb1pSVkNhNS1PeVpjY0Nqbk1nalRmWlVUOUs1YVFVYU9mUUpVVy04Ty1CdTFQd2ptZTZISHkxR2RBbHktcjBHTnpIN0hDc09fQWxfNktVelRDTEE?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-11",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "05eeeff07b27ba01",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO prelims result 2026 out; 5,806 candidates qualify for November 30 Mains exam",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOM2lCV0dmOVpIRFRtWk9LaWI2SGtpWXZ6ODFfWHZ4S09LMnI2R01YUjM4c1FacEQzeEM0MW51TjJxZi1KWUhfWWhuaW51UklIVFBFVTRCclgtQTBtdkF1Qjl6THpsSkVGMl9DNHV2X1kwN0pPZnRqX2YzTVdtOTF1MjVvQVZMTmdkaDJsM0VGdHBnakVYUS1zTU41TDVzYkoxWW5tOXdzMWJSS05HRUhHX3VwTzhOVDM2MjhUT2pZOW5qSFV5RXlGNjFMZ3c2RnlG?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-11",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "India Today",
+      "kind": "result",
+      "alsoIn": 1
     },
     {
       "id": "605d2993f35fa6ca",
@@ -68,7 +188,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "Education Times",
       "kind": "admit-card",
-      "alsoIn": 4
+      "alsoIn": 8
     },
     {
       "id": "ebc9090c35be358f",
@@ -104,7 +224,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "12790e09d8a3afc7",
@@ -225,6 +345,18 @@
       "publisher": "Sakshi Education",
       "kind": "notification",
       "alsoIn": 1
+    },
+    {
+      "id": "c2de1e5af6e770b0",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 1 Notification Out For 163 Posts, Apply Last Date Today",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVF6OEs1SHdvNG9tdXJ2WElvMGh5ZUV2REo3Z1dRcE40QVpXWWxBTVRxLVJnM2JkVERSMGVwQTJ5am56YUxfcndJNUc4bm83Z1BtYkRfVmFvWWxIMjc2bW5xTEI0NWpUNVZSbW1oNG1UdGRKcGFjcVVTb3BKSHlUSWRRTQ?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-11-09",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 3
     },
     {
       "id": "926b95d02f4c9297",
@@ -966,18 +1098,6 @@
       "alsoIn": 1
     },
     {
-      "id": "d522e7006a4d8b66",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Notification Out For 163 Posts, Apply Online Date Extended",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVF6OEs1SHdvNG9tdXJ2WElvMGh5ZUV2REo3Z1dRcE40QVpXWWxBTVRxLVJnM2JkVERSMGVwQTJ5am56YUxfcndJNUc4bm83Z1BtYkRfVmFvWWxIMjc2bW5xTEI0NWpUNVZSbW1oNG1UdGRKcGFjcVVTb3BKSHlUSWRRTQ?oc=5",
-      "source": "APPSC exam news (Google News)",
-      "publishedAt": "2026-10-27",
-      "firstSeen": "2026-10-29T14:20:10+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 15
-    },
-    {
       "id": "7f72bf7d695892df",
       "examId": "appsc-group1-2026",
       "title": "APPSC Group-I registrations close TONIGHT",
@@ -1347,18 +1467,6 @@
       "alsoIn": 1
     },
     {
-      "id": "c74eddfbb580dd55",
-      "examId": "cwc-am-general-2026",
-      "title": "CWC Recruitment 2026 Notification Out for 327 Posts, Apply Online Starts on 17 October",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA3YkRSSHVLdGlFcFFEYUo3N3VtTkhwVDRqTTFyR19OTjdjaHdMMVZxc3AyZ05QbjZ1Yk91ZUdHeU1wdG1aX2pZaHdObGxyZTJEMmhOVFdoTEZsRzI2OEE?oc=5",
-      "source": "CWC news (Google News)",
-      "publishedAt": "2026-10-17",
-      "firstSeen": "2026-10-17T12:39:43+05:30",
-      "publisher": "Bankersadda",
-      "kind": "notification",
-      "alsoIn": 4
-    },
-    {
       "id": "f43fe910d5efa2a1",
       "examId": "cwc-am-general-2026",
       "title": "CWC Recruitment 2026: Notification Out For 327 Posts, Registration Begins Today At cewacor.nic.in, Check Official Notice Here",
@@ -1380,7 +1488,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "307f72dfb095c2e4",
@@ -1392,7 +1500,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "India.com",
       "kind": "notification",
-      "alsoIn": 21
+      "alsoIn": 22
     },
     {
       "id": "5043ced4cc2ffe7e",
@@ -2080,7 +2188,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 47
+      "alsoIn": 48
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -3761,6 +3869,18 @@
       "alsoIn": 1
     },
     {
+      "id": "56cd66191056e1e3",
+      "examId": "appsc-group1-2026",
+      "title": "TNPSC Group 1 Exam Date 2026 Out for 46 Vacancies, Prelims Exam on 27 Sep",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5DMWFuam44cjRxNi16NkdQOGN5SEdmZl9WeldkNHRETTZEMGtOeUFfb1pseGJSNTNGRnVfaVI1RVZXOG5KVFRZd2xjMzdxUWdPaW9qRmNhZTY?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-09-17",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Career Power",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
       "id": "ef418e2b1f50ed37",
       "examId": "appsc-group1-2026",
       "title": "APPSC Recruitment 2026: 892 Vacancies, Group 1, Dates",
@@ -4025,74 +4145,14 @@
       "alsoIn": 1
     },
     {
-      "id": "be9a35cb4e549d72",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group-1, Group-2 Notification 2026: Recruitment Schedule to Be Announced on September 15",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNEp2bUg5OWlEeUV6Q1lPT2VfdDVzTWxzQURBd2dDUEhXRmxEbG1uMFVfWnhoQmM0Y2llRXZRbzI4S2o1bDdyVTg5QmMwTzNTMDY1bGZhd1U3YXFSOXRDejIwUmhxMHpKLURtdnlUNTM4aFB2U0dlMFRQOVd0amFwZlZQSzBzMWJFMEZjNzBhNVJtNFVZR0N3NG51Qjlpelg4QVNyODktU0VyNWVsMFQwWDRzMzkyVUk1TWpPNldmM24zclVSWGhaeDFfSnlfLVkyeHVmVG8xc1lKbnViVUJ3?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-12",
-      "firstSeen": "2026-10-15T03:59:13+05:30",
-      "publisher": "Sakshi Education",
-      "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "4d41a93b96fde066",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL Exam Date 2026 Out, Check Tier 1 Exam Schedule and Shift Timings",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fQWZMb3d5TlVMRWFQdE5nbFZSMEpsSGd5WVdUdVVyeUNtZU54Sm0zNjFDUUE2UzF0bVNzTWtQNG9NUmdEcEt2U25Wa19JRHp2V1VaU1NKbXQtbWdiRzF0RFFCN3hBN1pWSUpuZnBB?oc=5",
-      "source": "SSC CGL Tier 2 news (Google News)",
-      "publishedAt": "2026-09-12",
-      "firstSeen": "2026-10-15T03:50:32+05:30",
-      "publisher": "Adda247",
-      "kind": "exam-date",
-      "alsoIn": 14
-    },
-    {
-      "id": "ec2e0c5db580368f",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL Notification 2026 Out for 12256 Group B and C Vacancy",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa0RKUzVneFpyM3hyT0lZTHRVZEc3Z1lCLWg2SFZFRThxd3dLbFM0d2ZQdm1kRXZEOWlCN2VMcFg0ZjdBZzQ0MmlUekNPeExRZDRhcXVpeHhjVWJHQ2pQQmZXdU1uZzI5V29ZQW9lREhrMDlXR2I2a1EwYkRlREFPYzRNdUFPU3VvMDVMa2NLclNRekJYemtaN3VR?oc=5",
-      "source": "SSC CGL Tier 2 news (Google News)",
-      "publishedAt": "2026-09-12",
-      "firstSeen": "2026-10-15T03:50:32+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 9
-    },
-    {
-      "id": "52301332dd2dc9dd",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL 2026 exam date out; tier 1 from September 30",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM3FyRXh1OWRnWDR5YWN1bkVLMFdCdnlLbjFZT0JXcjhWZlFKUnEwUDQwd2U5R1pQVVFBTzZTTzJEUEVQRF9XM1ppbnFYU0RtdDg1eWxsVkd0NXNWNjhGUTVPeFlUa1Q1aDV0SDd0TVp0SHZEOEJob0VHbUhKZThfYU1TcWkyWVdOd2Q5NUZwdk5pVmt5Si1DbXBVOGk1SlBVUTVhM2I2czFMZkt2V0hwS1REbGlJZXhVMEHSAb8BQVVfeXFMUFNnZHp1SVFLbXlyaHFtYVRodnBHajBUZ3JHd2FVZW9iV3hXaWFBdm1TUzI3MDZhZzRyTnF2TDNWR0VwN0RzQ1pLNHJJTUZCX29rR2ZZdXZ0dFV5ODNpMGxDazVzZUtZSmlCYzItS2xtUWFWTjZxMXN4aEV3enpOU1Z5NE9JYVF2blJyUjlLRjVQc25LdVlwdGp3YTVYQXdaT1lHVmZGVDI3SUhpVEw4NkxJYjlsbV9LeWUxbXZpNDQ?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-12",
-      "firstSeen": "2026-10-20T13:23:14+05:30",
-      "publisher": "Careers360",
-      "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "bb8bc06b6fe57e8b",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL 2026 Tier 1 exam dates announced: Check schedule, exam pattern and admit card details",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOQnNsSWxnNkVueExkdlhFNnlRaUZVRTUxeGROTjRwcU5RbkxYSzJzdnAxaDhDSWdpb2RvbnREazFPZ0VLaDYwa3FmVlVRZ256MFA5Z3gwYVRZeE4yUjd5MXhjT3AxZzhMSnpkZGdrai1teHFqMHg5bHFHRktFTTdHWW5xQ0lpdDVQMWkwaVBOTThtTEJHb3ZROFo5NTduN3VvRW9wY2dIbnhCMjF1YU80dnk1WGdmVGl1ek5maElrQVZJc0Y3eWYyT1hocW9vY0JSYmJuYjNvMUtLbmJJV0IxdzY1ZG5WYlBPVm90bllGdlpZX1lqb01USnliMUrSAYICQVVfeXFMTkZISHVUemdiYlN0dGNJcWR5b284ZXEzbkU4XzY0cEN2TGM0akNIc0s3U05Va3BOQUZUX1ItMExjLXc4bU4xSjJmbEp2ZjFuS0hieG5SVV9SVXlkY0h6VFRJM1FDZHBBNWdVOXRVNkhxa1BkakNYZVJqdGV2S1k4X1Y1aTYtYy1mSXNfWWUydEprQWUwOFU5OThjYjl6N29XN3Z1Uk5abjFiQWdHZXJhYksxUDlfa19UQVhEQkVuTTNyaVNyT3ZwemZzWjJUZHpvQ0dWcHNEQ2VXLUxWeXNOc3U4eWFTQUg0eERvd29aSXZyS3BBSWdKbTFHTFp0UUxENWxR?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-12",
-      "firstSeen": "2026-10-22T13:23:55+05:30",
-      "publisher": "The Times of India",
-      "kind": "admit-card",
-      "alsoIn": 1
-    },
-    {
-      "id": "28f5ff1c17ed1149",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL Notification 2026 Out for 10731 Group B and C Vacancy",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBIMldCWkFvUlhNUm45eF9UMVF1eWc1aG9OcVBKV2htamprVi1tX0xnenJaS0ZEd1cwWjB0SXF3cDdKdnEzVmc?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-12",
-      "firstSeen": "2026-10-29T14:20:10+05:30",
-      "publisher": "Adda247",
+      "id": "725c72c13edc1259",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "UPSC EPFO APFC 2026 Last Date Extended: Apply Online Till 14 Sept at upsconline.nic.in",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOR29QY3pFWERPMDUweVhkRENYY0tLTzRqeVp5MVV4TlB5WTNmLXJlcWh3VWNPUlVoY3VpaFRybnY2dWZrX1R5UnBMRjN2SC1hNlBXS2pqbkcyV1JoNko0SU5xel8xUHE0OWZWRjA3MDJPbWh5X21KUG5USUwybnNUOFV3TTRGaE5XOVNnZGNyanE1QXJLUlJOQ1ZuSC0zd0p6cWEyS2NXbTEwczlUYzZGbDhEbldxNmJYSmxPVVc4TDQwTEpfczBfS1FEWjRFdW9abkk5OXFuY1NVaVdL0gHjAUFVX3lxTFBEeHFpa3AwWmM2M3Y4VTFfaXVWYzRIaGJBQmpVM1BOa29IQ1BBdkdWZjUwNDNfclR2SWhnMzNWZU5JdHFnOFNSdHpxWHo5VlFCQU1sclM5TFVhZ0ZLelRLUHJZRHV1UFo2UjZKaDJiQ29SMm5TVXBscW9HUG1tNXZ3N1MzMVRwVU1xdzRMUEJJOFFVRUhTX2FTWGNGR1EybmVvYURmWjM1RXp1UEZRU3hqaFprakpXbXgxMGRVOTdQWWV3Nm9PQW5OajQybThLM0FGcDdPYUdOZmMxVFNodzlSajJZ?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-09-14",
+      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "publisher": "Jagran Josh",
       "kind": "notification",
       "alsoIn": 1
     }

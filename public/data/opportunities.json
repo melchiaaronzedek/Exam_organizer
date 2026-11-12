@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-11T15:19:07+05:30",
+  "discoveredAt": "2026-11-12T15:42:06+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,102 @@
   ],
   "discovered": [
     {
+      "id": "ca899eed40141d0c",
+      "org": "JRHMS Specialist Medical Officer",
+      "post": "JRHMS Specialist Medical Officer - 306",
+      "title": "JRHMS Specialist Medical Officer Recruitment 2026 Notification Out - Apply Online for 306 Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/jrhms-specialist-medical-officer-recruitment-2026-apply-online-for-306-posts-3070778",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:42:06+05:30",
+      "curated": false
+    },
+    {
+      "id": "0739a63108f4c8d5",
+      "org": "GBPUAT Young Professional I",
+      "post": "GBPUAT Young Professional I – Apply Offline",
+      "title": "GBPUAT Young Professional I Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/gbpuat-young-professional-i-recruitment-2026-3080537",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:42:06+05:30",
+      "curated": false
+    },
+    {
+      "id": "c4ff62c34a293f5e",
+      "org": "SCERT Project Officer",
+      "post": "SCERT Project Officer – Apply Offline",
+      "title": "SCERT Project Officer Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/scert-project-officer-recruitment-2026-3080433",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:42:06+05:30",
+      "curated": false
+    },
+    {
+      "id": "7b5f17012b826a96",
+      "org": "DGHS Consultant",
+      "post": "DGHS Consultant – Apply Offline",
+      "title": "DGHS Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/dghs-consultant-aso-recruitment-2026-3080431",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-12T15:42:06+05:30",
+      "curated": false
+    },
+    {
       "id": "0349071c237232d3",
       "org": "IIM Jammu Chief Administrative Officer",
       "post": "IIM Jammu Chief Administrative Officer – - FreeJobAlert.Com",
@@ -7863,7 +7959,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-11T15:19:11+05:30"
+      "lastSeen": "2026-11-12T15:42:10+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -7915,6 +8011,104 @@
       "lastSeen": "2026-10-30T14:27:53+05:30"
     },
     {
+      "org": "Shree Balaji Employment Services Pvt. Ltd",
+      "post": "Business Analyst - Digital Business Analyst, BRD Creation, Wireframing",
+      "title": "Business Analyst - Digital Business Analyst, BRD Creation, Wireframing",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says 0 Yrs",
+      "experienceText": "0 Yrs",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says 0 Yrs",
+      "checkedVia": null,
+      "pay": "₹7–10 LPA",
+      "payLakh": 7.0,
+      "payMinLakh": 7.0,
+      "payMaxLakh": 10.0,
+      "payStated": true,
+      "trust": "unverified",
+      "trustWhy": null,
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Ghaziabad",
+        "Noida",
+        "Gurugram",
+        "Faridabad",
+        "Delhi"
+      ],
+      "link": "https://www.shine.com/jobs/business-analyst-digital-business-analyst-brd-creation-wireframing/shree-balaji-employment-services-pvt-ltd/20059144",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 75,
+      "fitWhy": [
+        "role: business analyst",
+        "private",
+        "pay ₹7–10 LPA",
+        "employer not in the known list",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-e2c77439c5fa",
+      "firstSeen": "2026-11-12T15:42:10+05:30",
+      "lastSeen": "2026-11-12T15:42:10+05:30"
+    },
+    {
+      "org": "Shree Balaji Employment Services Pvt. Ltd",
+      "post": "Business Analyst - Wireframe, FRD, BRD",
+      "title": "Business Analyst - Wireframe, FRD, BRD",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says 0 Yrs",
+      "experienceText": "0 Yrs",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says 0 Yrs",
+      "checkedVia": null,
+      "pay": "₹7–10 LPA",
+      "payLakh": 7.0,
+      "payMinLakh": 7.0,
+      "payMaxLakh": 10.0,
+      "payStated": true,
+      "trust": "unverified",
+      "trustWhy": null,
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Gurugram"
+      ],
+      "link": "https://www.shine.com/jobs/business-analyst-wireframe-frd-brd/shree-balaji-employment-services-pvt-ltd/20060173",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 75,
+      "fitWhy": [
+        "role: business analyst",
+        "private",
+        "pay ₹7–10 LPA",
+        "employer not in the known list",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-ebe45694cd7e",
+      "firstSeen": "2026-11-12T15:42:10+05:30",
+      "lastSeen": "2026-11-12T15:42:10+05:30"
+    },
+    {
       "org": "Adidas",
       "post": "Sourcing Associate (Management Trainee Program)",
       "title": "Sourcing Associate (Management Trainee Program)",
@@ -7958,7 +8152,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-11T15:19:11+05:30"
+      "lastSeen": "2026-11-12T15:42:10+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -8055,7 +8249,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-11T15:19:11+05:30"
+      "lastSeen": "2026-11-12T15:42:10+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -8684,7 +8878,7 @@
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-11T15:19:11+05:30",
+  "portalAt": "2026-11-12T15:42:10+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -8711,7 +8905,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 7,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -8720,22 +8914,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 358,
+      "fetched": 359,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 358
+      "scanned": 359
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 328,
+      "fetched": 325,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 328
+      "scanned": 325
     },
     {
       "name": "LinkedIn",
