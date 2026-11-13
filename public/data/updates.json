@@ -1,50 +1,98 @@
 {
-  "updatedAt": "2026-11-12T15:40:06+05:30",
+  "updatedAt": "2026-11-13T15:24:20+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "0d0fd0dffced8da9",
+      "id": "47b93a3159a70187",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-scribe-declaration-form",
+      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-information-handout-for-phase-ii",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
       "kind": "other",
-      "alsoIn": 3
+      "alsoIn": 5
     },
     {
-      "id": "9a7dddac4b8e0625",
+      "id": "d4f07c2218ba8931",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=afWWoKzURrqrp3qwPkpl3VivE6yS1wRUJ%2B154l3fY57liVwOTPPytkzJ%2F6w5GOk2RSaY1dKOQR8ZZYu1sEpEdN%2FxASBS6z1dCex23TW99I%2FQf2%2BwRK1Ubkb6yabXqFoHzFXh%2FQ0O19i4We7OnfJGDQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=d18q78AvwcajqAge3lwlRsqpIWDEXLWbqibaNp6SnuZdvCwX8Y%2F3QPHxov1xUBp3gK%2F%2FGVqp65RfZ2k2lVU4hF3IjWEIOxvMCYjFSkkdpMdT9c7tG3WqiOhzltznjZwBDXmskr2bQZb3AhaSZ6ox4A%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "0f839f5698c8fe8b",
+      "id": "267a28d886ef74b9",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=55hvuQvw%2FReRNAIAtVpQxOEF422OuFQ8YoKT1PCgdfinVW9O0pXcJgDP5bXj%2BL4vNTAJ3vyOI3Lt6xRWNSCkjZpdRtYTAaHBQLuKr%2B9h98nshBA%2BTmxCh8qHSpvGTTGaSwINQxrc%2FHL1GL8HGSAqIQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=aN8nqf4RZSlT2COKd4HJKzvgkU5XIUPtXzTo%2FKfbVFyaDNx%2F88vufWS3BMB%2BrN7xPZQTKeuKRGy9Hb7jDDAbRji3jJsZOecw1FIQzGMI7z9NHWslPs0FUyf27TW%2F6acVPsnrfKa%2Bk8V76hMYEuMrZg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "a60731f2067cbd02",
+      "id": "1ba450ad78383c34",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=S%2FChb4cYrRCKl2WNZRe6CYgK8A8MDmLYOjZ8jqQj0fg0ogrHMOmM0YXg%2FTAxw7CgtltdvXzYzfZg%2F%2F%2F157U5AJSGa8LCYEKMfqtAS2saTb%2Fi%2BP3105yqxcxgHz%2BaEZXO3f4ITu3Zcgy%2BwyBNpSifeQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=YyNHn86rTzHC%2FiNFsCrVruzOD3kQZtfYhSRnKu6rbwTwFAIuEUH4PGAQOQHi9VWmuQIv%2BsNg1iSpA9Pj3TTTvV4PecGDcOZHnhSjUctkVsz8IMTf7lXiAlBNYh6ZetuDSY%2Bub2K3qpWm3AhBJJhIEA%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-12T15:40:06+05:30",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "5d06b0db6f79592a",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Prelims Result 2026 Out, Download Result PDF at uiic.co.in",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ocTlYNEcxcWNGV3hjR25qR19Ra3RsbGFTcFZRT3BvOXA4eUlmdGtybG11VTFnVnBhTmlaVzgxc3Z2cmFFY3J3Zl9QMDRNNnBjOG5NaERobFpOdl9RWDNqaHBhMUE5RnV0R3RuSWc4NDVrdw?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-13",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
+      "publisher": "Adda247",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "661462e279eb11fd",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO Result 2026 Out, Download Prelims Result PDF",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE96YnlTNkNZSlBYYmxfWnJzSFg3YTU2SEpnZGVDWi1nSWE3UU1QZmk2a0tFZ0hsSmJaa1VqTmFZYmJKR2s3MTlPN2lFZzVzMS1QV2lJZ1dOR2ZuX1pq?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-13",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
+      "publisher": "Bankersadda",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "b67584fd49084593",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Phase 2 Admit Card 2026 released at pfrda.org.in, check download steps and exam details",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNRDVfMkQtYlRISkRGY0F3VThZVVJGamZOSm1fWG5EaG1oaEdiMkVfbFVkNm1vWmR5SEY1NThrdW1xTTRicjhtb0Q2dk1TVVZGdXVBWUUzWGYycTdRUGJNSGJiUXk4MU9XeDd3ZHhBY09zMWRCd19haWVnWm1ucHVfVXN6U2VlZHc2ZVg2NU13UWFJb0JvQ3ZSTTBocVprVXI0bEVrVWM5aEVnRGV2WG4zZlVFQ2djRWhOb0twSUx2QWVkSm1EczlXeGx4cmNLWVBSOE5hSDBRZGhwU1pmN2o2RDZYSDE1elFyTU54MVVDbWV5SVdGNlhmc2lfb05sQdIBgwJBVV95cUxOdzlkRi1wNld6dWhyanlCUkgwVWY4dGJuSEhseVpxbmFHeXJFTlAyemt2UEFUVWFjWEZvb1FNY3hsQ09HRVE5UDZrRGF5dGd1VVRIVDMyOU5Ta25RTlhkYlFMV0NER0g2cXpRMHNsX1FxcE9fYlZ4ZThwT0pNN1RnQmdjeUFFOHZNOHVaNGc0dUFSVzZ6dXpXUVplMjRpQmdiSjB1M09sdXJVbHFZTUp0VElqYVdGekU2NV9jbXA4Ym10TnFxSGJiSkZvVVV0bTV6eWNKZ3NtQ0xJX0pFYkJnZ0J3a2hLYUMxeGJrNmJwM3E4ejY4UWYzS1dKOGxac2VubnNB?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-11-13",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
+      "publisher": "The Times of India",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
+      "id": "cf488c880d6c26bd",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Grade A Phase 2 Admit Card 2026 (OUT): Download Mains Call Letter at pfrda.org.in",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTWp4WjdmU3pFcENlOHVSenFKZUlFcnhqckdtUVpvZ0pqczgtUDltZFV2bkN4c1dEYzdULTFYZ0xQbXo3NmZJY2ZpZEt0b1dLMDhCVGdaWUxSVWRaMnA4cUVBZ1oyYXlsZkR1QUZYWDM5Z3pNb3Vmd2xRUnp1YjRXa2ZGVC1EZkJRR3lnaXNTTGZIdHpTQk9OWUUtaVdtdV93d0YyTTZUaTdhdXBBU1NuUTNFR0FwWGhJbGk0WGdOcC13NnhBUmczU29nNFZoTlY4bVR1N2ZDNlgzdy1RYzR0ZFVR0gHoAUFVX3lxTE44VnM2ZnNlOGZ2bm5XLWd5YTBObG1yYmpZbUMxUHlZdEJfb2U4LUVld3owNDdxX1daUDZvUWFpb1ZnZzVPQTlENnB6TU40czctMmJNQThPN1dHT2JzZ0JTYmhldFA5N2dpOER1aWVwXzR2d09NZUdERHhlVWpfcnpEb202a05CeVZ2SzJ3WGtXLXlaNmk1dEIydWs2SWFxUHlwbzZWUWE0U2JpSERFLUdkTERQOHRtUGRJZjh6ZkpaZ3ZZekNlMnMtUWQwUHJOZVZzYmpWMW8zNG9yZ2ZFdVVqbzMtallTV1c?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-11-13",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "admit-card",
+      "alsoIn": 1
     },
     {
       "id": "4a81082410c1ede3",
@@ -80,7 +128,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "Telegraph India",
       "kind": "result",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "5b647cdb0d176379",
@@ -131,6 +179,18 @@
       "alsoIn": 2
     },
     {
+      "id": "310d94345db3d0ee",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Grade A Mains Admit Card 2026 Out, Direct Link",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE56Y19nYVQtcHU1QW1LdGVQajd3SkhjTUhFOHdBNk11aE0tZTZVQWhDc29fOG1URXE3Vk1QWkxWS2lQcEZSOVduZURMNG00MFNYdUllSUxQbUoyRmMxU3dZejAwbUNxcGltbzJJUk1OTUFVZw?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-11-12",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
+      "publisher": "PW",
+      "kind": "admit-card",
+      "alsoIn": 1
+    },
+    {
       "id": "972724983e6b1694",
       "examId": "cwc-am-general-2026",
       "title": "CWC Recruitment 2026 (327 Assistant Manager and Junior Executive Posts), Last Date To Apply 15 Nov",
@@ -140,7 +200,7 @@
       "firstSeen": "2026-11-11T15:17:10+05:30",
       "publisher": "Career Power",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "e59cba7045e0a07c",
@@ -176,7 +236,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "India Today",
       "kind": "result",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "605d2993f35fa6ca",
@@ -188,7 +248,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "Education Times",
       "kind": "admit-card",
-      "alsoIn": 8
+      "alsoIn": 11
     },
     {
       "id": "ebc9090c35be358f",
@@ -212,7 +272,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "The Times of India",
       "kind": "admit-card",
-      "alsoIn": 1
+      "alsoIn": 2
     },
     {
       "id": "96f20bbc4ecbba95",
@@ -224,7 +284,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 4
+      "alsoIn": 5
     },
     {
       "id": "12790e09d8a3afc7",
@@ -356,7 +416,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "Adda247",
       "kind": "notification",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "926b95d02f4c9297",
@@ -507,7 +567,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "The Times of India",
       "kind": "answer-key",
-      "alsoIn": 8
+      "alsoIn": 9
     },
     {
       "id": "937f4a42e9d47e46",
@@ -2188,7 +2248,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 48
+      "alsoIn": 49
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -2440,6 +2500,18 @@
       "firstSeen": "2026-10-25T13:16:56+05:30",
       "publisher": "Adda247",
       "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "0ef32965c291199a",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Grade A Phase II Exam Date 2026 Out, Check Mains Exam Schedule",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FYTRDQUJrQ1lVUy16V0hGNF9OV1d5ZW9LNE5ZTmI3bVVLOXM4Z1Myd3pxV21ZNHRUWlpzTC1lM1ZWSlF6TkpqTXV6eS1HQ2dyVGMzNkVrRGljTzYtaXRhWTlzZVN2VDVNcDVwRg?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-10-12",
+      "firstSeen": "2026-11-13T15:24:20+05:30",
+      "publisher": "Bankersadda",
+      "kind": "exam-date",
       "alsoIn": 1
     },
     {

@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-12T15:42:06+05:30",
+  "discoveredAt": "2026-11-13T15:26:17+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,32 @@
   ],
   "discovered": [
     {
+      "id": "46b54eeefd54019e",
+      "org": "Exim Bank",
+      "post": "Exim Bank 120 Management Trainee & Manager - Career Power",
+      "title": "Exim Bank Recruitment 2026 Notification Out For 120 Management Trainee & Manager Posts - Career Power",
+      "track": "marketing",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mMzg1ZXhTWWNTaVlkNTZPdnZqaktUaVlYTTBBLU41UGRpcEdBclFTbEg0MVdiX0duS0ptVmh2cmUwMWQxQ2lMWUtPZ2R2MEtHdzREeW5iTGhMVDM3d3VFeFc2Q0xuMHhnVkE?oc=5",
+      "source": "News · management trainee MBA",
+      "sourceType": "news",
+      "fit": 75,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-13",
+      "firstSeen": "2026-11-13T15:26:17+05:30",
+      "curated": false
+    },
+    {
       "id": "ca899eed40141d0c",
       "org": "JRHMS Specialist Medical Officer",
       "post": "JRHMS Specialist Medical Officer - 306",
@@ -7914,6 +7940,55 @@
   "discoverBaseline": false,
   "portal": [
     {
+      "org": "2070 Health",
+      "post": "Marketing Associate",
+      "title": "Marketing Associate",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says entry level",
+      "experienceText": "entry level",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says entry level",
+      "checkedVia": "page",
+      "pay": "₹12–24 LPA",
+      "payLakh": 12.0,
+      "payMinLakh": 12.0,
+      "payMaxLakh": 24.0,
+      "payStated": true,
+      "trust": "unverified",
+      "trustWhy": null,
+      "website": null,
+      "checked": true,
+      "locations": [
+        "Delhi",
+        "India"
+      ],
+      "link": "https://in.linkedin.com/jobs/view/marketing-associate-at-2070-health-4489909326",
+      "source": "LinkedIn",
+      "sourceType": "portal",
+      "fit": 75,
+      "fitWhy": [
+        "role: marketing",
+        "private",
+        "pay ₹12–24 LPA",
+        "employer not in the known list",
+        "fresher OK",
+        "listing opened and checked"
+      ],
+      "status": "open",
+      "postedAt": "2026-11-11",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": "*Please note this role is not for 2070 Health* About BeatO BeatO is a digital health company in India focused on diabetes care and GLP-1 weight loss. It combines smart devices (glucometers, CGM, BP monitors, smart scales), doctor-led care programs, diet coaching, and a curated range of health foods, supplements, and",
+      "id": "portal-61eabdf9c2e9",
+      "firstSeen": "2026-11-13T15:26:20+05:30",
+      "lastSeen": "2026-11-13T15:26:20+05:30"
+    },
+    {
       "org": "SKILLVENTORY",
       "post": "Business Analyst",
       "title": "Business Analyst",
@@ -7959,7 +8034,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-12T15:42:10+05:30"
+      "lastSeen": "2026-11-13T15:26:20+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -8059,7 +8134,7 @@
       "summary": null,
       "id": "portal-e2c77439c5fa",
       "firstSeen": "2026-11-12T15:42:10+05:30",
-      "lastSeen": "2026-11-12T15:42:10+05:30"
+      "lastSeen": "2026-11-13T15:26:20+05:30"
     },
     {
       "org": "Shree Balaji Employment Services Pvt. Ltd",
@@ -8106,7 +8181,7 @@
       "summary": null,
       "id": "portal-ebe45694cd7e",
       "firstSeen": "2026-11-12T15:42:10+05:30",
-      "lastSeen": "2026-11-12T15:42:10+05:30"
+      "lastSeen": "2026-11-13T15:26:20+05:30"
     },
     {
       "org": "Adidas",
@@ -8152,7 +8227,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-12T15:42:10+05:30"
+      "lastSeen": "2026-11-13T15:26:20+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -8249,7 +8324,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-12T15:42:10+05:30"
+      "lastSeen": "2026-11-13T15:26:20+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -8878,7 +8953,7 @@
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-12T15:42:10+05:30",
+  "portalAt": "2026-11-13T15:26:20+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -8914,22 +8989,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 359,
+      "fetched": 357,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 359
+      "scanned": 357
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 325,
+      "fetched": 334,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 325
+      "scanned": 334
     },
     {
       "name": "LinkedIn",
