@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-13T15:26:17+05:30",
+  "discoveredAt": "2026-11-14T14:50:48+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4036,6 +4036,104 @@
   ],
   "discovered": [
     {
+      "id": "152caa65c1342e40",
+      "org": "APPSC",
+      "post": "APPSC Revises Group 2 age limit, clarifies exam languages Forest - EdexLive",
+      "title": "APPSC Revises Group 2 age limit, clarifies exam languages for Forest Recruitment 2026 - EdexLive",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMlgtOXVoRmNxUDVjUk1JU2JkXzk2NnlRc0FZWHk2RkVhNUFZUm9saWF5SWw3NHdFaXoxWlVkY3Vlb0FRTTNCWHBCQnFQN3VqRF9ud2tzaGZIVW84Nkw2WVJwQUdIa1AyM2lPekIxMGpKLTluSUFoZnhySTBReVozYkJKc1VDYXNXRTUyV1RwNzYzeGtNUGV1R2RR0gGnAUFVX3lxTE5HX3BwdG5zaWdUOGo2T3c3YmtnaHFWa0ZWdEE1MUJVeF9Ec3N2U3Iwb2R0bERTZkFfbWduSDJXQ0tucWVEN1dRclQ0cG1JeURBMTFFZmZRLXkydGh0SXRhMWFiNGpZb1QtZ21sV1NfdUhpT0pTSWI3RzNSRF9aWUhmYUhPQm1oNE1hNjY0S2wwVHFBMUtQQjFWZVBqZU15QzFGaWtiR29v?oc=5",
+      "source": "News · APPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: group 2",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-13",
+      "firstSeen": "2026-11-14T14:50:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "3f0610b793c518b1",
+      "org": "ADA Consultant",
+      "post": "ADA Consultant",
+      "title": "ADA Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/ada-recruitment-2026-consultant-3081222",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-14",
+      "firstSeen": "2026-11-14T14:50:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "86c8c4d9862bc5b2",
+      "org": "NHB Agribusiness Consultant",
+      "post": "NHB Agribusiness Consultant",
+      "title": "NHB Agribusiness Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/nhb-agribusiness-consultant-recruitment-2026-3081171",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: consultant",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-14",
+      "firstSeen": "2026-11-14T14:50:48+05:30",
+      "curated": false
+    },
+    {
+      "id": "5350c47b35c3bae5",
+      "org": "DLRL DRDO Consultant",
+      "post": "DLRL DRDO Consultant – Apply Offline",
+      "title": "DLRL DRDO Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/dlrl-drdo-consultant-recruitment-2026-3081204",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-14",
+      "firstSeen": "2026-11-14T14:50:48+05:30",
+      "curated": false
+    },
+    {
       "id": "46b54eeefd54019e",
       "org": "Exim Bank",
       "post": "Exim Bank 120 Management Trainee & Manager - Career Power",
@@ -8034,7 +8132,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-13T15:26:20+05:30"
+      "lastSeen": "2026-11-14T14:50:51+05:30"
     },
     {
       "org": "Acura Solutions.",
@@ -8134,7 +8232,7 @@
       "summary": null,
       "id": "portal-e2c77439c5fa",
       "firstSeen": "2026-11-12T15:42:10+05:30",
-      "lastSeen": "2026-11-13T15:26:20+05:30"
+      "lastSeen": "2026-11-14T14:50:51+05:30"
     },
     {
       "org": "Shree Balaji Employment Services Pvt. Ltd",
@@ -8184,6 +8282,55 @@
       "lastSeen": "2026-11-13T15:26:20+05:30"
     },
     {
+      "org": "parle global technologies pvt. ltd.",
+      "post": "Management Trainee Human Resources",
+      "title": "Management Trainee Human Resources",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says 0-1 years",
+      "experienceText": "0-1 years",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says 0-1 years",
+      "checkedVia": null,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "parle",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Sanand",
+        "India"
+      ],
+      "link": "https://www.foundit.in/job/management-trainee-human-resources-parle-global-technologies-pvt-ltd-sanand-india-69803425",
+      "source": "Foundit",
+      "sourceType": "portal",
+      "fit": 70,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": "2026-11-13",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-048892f30251",
+      "firstSeen": "2026-11-14T14:50:51+05:30",
+      "lastSeen": "2026-11-14T14:50:51+05:30"
+    },
+    {
       "org": "Adidas",
       "post": "Sourcing Associate (Management Trainee Program)",
       "title": "Sourcing Associate (Management Trainee Program)",
@@ -8227,7 +8374,7 @@
       "summary": "Adidas is hiring for the role of Sourcing Associate (Management Trainee Program)! Responsibilities of the Candidate: To learn and actively participate to the basic roles and responsibilities associated with the key Sourcing Operation and Functions, tasks and responsibilities: Product Creation (including Costing,",
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-13T15:26:20+05:30"
+      "lastSeen": "2026-11-14T14:50:51+05:30"
     },
     {
       "org": "Maruti Suzuki",
@@ -8324,7 +8471,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-13T15:26:20+05:30"
+      "lastSeen": "2026-11-14T14:50:51+05:30"
     },
     {
       "org": "Nuvama Group",
@@ -8953,7 +9100,7 @@
       "checkedVia": null
     }
   ],
-  "portalAt": "2026-11-13T15:26:20+05:30",
+  "portalAt": "2026-11-14T14:50:51+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -8989,22 +9136,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 357,
+      "fetched": 351,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 357
+      "scanned": 351
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 334,
+      "fetched": 337,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 334
+      "scanned": 337
     },
     {
       "name": "LinkedIn",
@@ -9040,7 +9187,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 3,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",
