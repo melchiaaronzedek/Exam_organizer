@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-17T16:34:04+05:30",
+  "discoveredAt": "2026-11-18T16:09:59+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4035,6 +4035,78 @@
     }
   ],
   "discovered": [
+    {
+      "id": "1820c10173d6e38a",
+      "org": "KEA",
+      "post": "KEA – 38 Sericulture Inspector, Marketing Overseer",
+      "title": "KEA Recruitment 2026 – Apply Online for 38 Sericulture Inspector, Marketing Overseer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/kea-recruitment-2026-sericulture-inspector-marketing-overseer-3082196",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: marketing"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-18",
+      "firstSeen": "2026-11-18T16:09:59+05:30",
+      "curated": false
+    },
+    {
+      "id": "094b926c1c1f1a48",
+      "org": "KEA Industrial Expansion Officer",
+      "post": "KEA Industrial Expansion Officer – 35",
+      "title": "KEA Industrial Expansion Officer Recruitment 2026 – Apply Online for 35 Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/kea-industrial-expansion-officer-recruitment-2026-3082194",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-18",
+      "firstSeen": "2026-11-18T16:09:59+05:30",
+      "curated": false
+    },
+    {
+      "id": "a5e4205553688b23",
+      "org": "SAI Medical Officer",
+      "post": "SAI Medical Officer – Apply Offline",
+      "title": "SAI Medical Officer Recruitment 2027 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/sai-medical-officer-recruitment-2027-3082137",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-18",
+      "firstSeen": "2026-11-18T16:09:59+05:30",
+      "curated": false
+    },
     {
       "id": "bea80f06575315a8",
       "org": "Embassy of India Marketing Executive",
@@ -8740,7 +8812,7 @@
       "summary": null,
       "id": "portal-2cf89e0571ea",
       "firstSeen": "2026-11-16T15:37:54+05:30",
-      "lastSeen": "2026-11-17T16:34:08+05:30"
+      "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
       "org": "SKILLVENTORY",
@@ -8788,7 +8860,7 @@
       "summary": null,
       "id": "portal-8d0b9a30e30a",
       "firstSeen": "2026-11-04T15:17:38+05:30",
-      "lastSeen": "2026-11-17T16:34:08+05:30"
+      "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
       "org": "Shree Balaji Employment Services Pvt. Ltd",
@@ -8839,7 +8911,7 @@
       "summary": null,
       "id": "portal-e2c77439c5fa",
       "firstSeen": "2026-11-12T15:42:10+05:30",
-      "lastSeen": "2026-11-17T16:34:08+05:30"
+      "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
       "org": "Shree Balaji Employment Services Pvt. Ltd",
@@ -8889,6 +8961,104 @@
       "lastSeen": "2026-11-17T16:34:08+05:30"
     },
     {
+      "org": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
+      "post": "Business Analyst Fresher",
+      "title": "Business Analyst Fresher",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says entry level",
+      "experienceText": "entry level",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says entry level",
+      "checkedVia": "page",
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "reserve bank",
+      "website": null,
+      "checked": true,
+      "locations": [
+        "Navi Mumbai",
+        "Maharashtra",
+        "India"
+      ],
+      "link": "https://in.linkedin.com/jobs/view/business-analyst-fresher-at-rebit-reserve-bank-information-technology-pvt-ltd-4491820399",
+      "source": "LinkedIn",
+      "sourceType": "portal",
+      "fit": 50,
+      "fitWhy": [
+        "role: business analyst",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher OK",
+        "listing opened and checked"
+      ],
+      "status": "open",
+      "postedAt": "2026-11-18",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": "Greetings! Exp: 0 to 2 yrs Location: Navi Mumbai Notice period: Immediate Qualifications: For freshers (B.E/B.Tech + full time MBA), 6 months to 2 yrs (B.E/B.Tech) Job summary: We are looking for a motivated and details oriented Business Analyst to join our team. The candidate will closely work with business",
+      "id": "portal-781856a17902",
+      "firstSeen": "2026-11-18T16:10:03+05:30",
+      "lastSeen": "2026-11-18T16:10:03+05:30"
+    },
+    {
+      "org": "Muthoot Finance",
+      "post": "Management Trainee (Hisar)",
+      "title": "Management Trainee (Hisar)",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says 0 to 4 Yrs",
+      "experienceText": "0 to 4 Yrs",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
+      "checkedVia": null,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "muthoot",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Hisar"
+      ],
+      "link": "https://www.shine.com/jobs/management-trainee-hisar/muthoot-finance/20089592",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 70,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-03de661452ed",
+      "firstSeen": "2026-11-18T16:10:03+05:30",
+      "lastSeen": "2026-11-18T16:10:03+05:30"
+    },
+    {
       "org": "dentsu",
       "post": "Graduate Trainee- ORM",
       "title": "Graduate Trainee- ORM",
@@ -8934,7 +9104,7 @@
       "summary": "Job Description Summary We are looking for a proactive Graduate Trainee – Online Reputation Management (ORM) to monitor and manage brand conversations across social media and digital platforms. This role is ideal for fresh graduates passionate about digital media, customer engagement, and brand reputation, offering",
       "id": "portal-e8337acd1772",
       "firstSeen": "2026-11-17T16:34:08+05:30",
-      "lastSeen": "2026-11-17T16:34:08+05:30"
+      "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
       "org": "beforest lifestyle solutions",
@@ -8984,7 +9154,7 @@
       "summary": null,
       "id": "portal-7e29a8f427a8",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-16T15:37:54+05:30"
+      "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
       "org": "Wipro Limited",
@@ -9033,7 +9203,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: Hands on experience with asset servicing, processing principal activities like Drawdown, Paydown, Interest In Geneva Reconcile cash and positions across all funds on daily basis using DUCO platform Reviewing upcoming activities",
       "id": "portal-00427cf59f1a",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-17T16:34:08+05:30"
+      "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
       "org": "parle global technologies pvt. ltd.",
@@ -9082,7 +9252,7 @@
       "summary": null,
       "id": "portal-048892f30251",
       "firstSeen": "2026-11-14T14:50:51+05:30",
-      "lastSeen": "2026-11-16T15:37:54+05:30"
+      "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
       "org": "Adidas",
@@ -9228,7 +9398,7 @@
       "lastSeen": "2026-11-15T15:20:32+05:30"
     }
   ],
-  "portalAt": "2026-11-17T16:34:08+05:30",
+  "portalAt": "2026-11-18T16:10:03+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -9255,7 +9425,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 6,
+      "errors": 5,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -9263,33 +9433,33 @@
     },
     {
       "name": "Foundit",
-      "ok": false,
-      "fetched": 0,
-      "errors": 10,
-      "error": "403 Client Error: Forbidden for url: https://www.foundit.in/middleware/jobsearch?sort=1&limit=40&query=growth%20associat",
-      "state": "error",
-      "reason": "http 403",
-      "scanned": 0
-    },
-    {
-      "name": "Unstop",
       "ok": true,
-      "fetched": 355,
+      "fetched": 353,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 355
+      "scanned": 353
+    },
+    {
+      "name": "Unstop",
+      "ok": true,
+      "fetched": 351,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 351
     },
     {
       "name": "LinkedIn",
       "ok": true,
-      "fetched": 80,
-      "errors": 2,
-      "error": "429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keyw",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 80
+      "fetched": 100,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 100
     },
     {
       "name": "Internshala",
@@ -9315,7 +9485,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 2,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",
@@ -9324,18 +9494,18 @@
     {
       "name": "Shine",
       "ok": true,
-      "fetched": 60,
-      "errors": 3,
-      "error": "500 Server Error: Internal Server Error for url: https://www.shine.com/job-search/leadership-program-mba-jobs",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 60
+      "fetched": 120,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 120
     },
     {
       "name": "Freshersworld",
       "ok": false,
       "fetched": 0,
-      "errors": 5,
+      "errors": 6,
       "error": "blocked (http 403)",
       "state": "blocked",
       "reason": "http 403",

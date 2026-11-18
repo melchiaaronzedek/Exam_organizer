@@ -1,17 +1,62 @@
 {
-  "updatedAt": "2026-11-17T16:32:06+05:30",
+  "updatedAt": "2026-11-18T16:08:00+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "47b93a3159a70187",
+      "id": "0c049c5288a83106",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-information-handout-for-phase-ii",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_nov26/login.php?appid=4e5b9d7c7360448fd110dbb610d4b684",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-17T16:32:06+05:30",
+      "firstSeen": "2026-11-18T16:08:00+05:30",
       "kind": "other",
       "alsoIn": 5
+    },
+    {
+      "id": "bbf110cc0abeeff7",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2024 - List of Candidates Nominated",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=LXtZkftI0V34dZ0X4H6R78i1fTukUUVf70yhQQ32chBY7BfqGxQKtHGTq72czUGC8CYKJiLC%2FhFT2V4ekLhRV8vaplD9pxiem2bexnTS9MBL%2BbEK8jhX9BQ%2FkfhUh3qLkcXy1bXLKBC5O%2FtkNxmXUw%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-18T16:08:00+05:30",
+      "kind": "result",
+      "alsoIn": 2
+    },
+    {
+      "id": "61cc2a2905a4a292",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2022 - Nomination List",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=ZEtciEgY5tSK7rtL6PI21sQv0f1j14fUYzdGmwzOAGE0vkq5aiEX%2B0BiuLancxGUaoifQ0PMi8nD0%2Bu%2BcRC4p8yX9VHsGP6OGMq9rHhs%2BsPnioUt37d8vKJy%2BZrPi5qC8In2KpO4mEcWarH0STOfTA%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-18T16:08:00+05:30",
+      "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "8566343364996ce3",
+      "examId": "ssc-cgl-2026",
+      "title": "CGL Examination 2023",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=qw4dyK4BQQfXV5xBk9CGKGvZ0IBpMwG%2BfPeJi%2FP32n1pHLobw10Lcs41wKPXjwnrvd9dCz8MveiEX55j95V5XYglj0WG%2Fh7blwklYJJ8W4%2B34%2BTnjTRJjSnXbnmluAnUGFWGiuDUdNghJWZ3IW1uHg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "source": "SSC Southern Region",
+      "publishedAt": null,
+      "firstSeen": "2026-11-18T16:08:00+05:30",
+      "kind": "other",
+      "alsoIn": 2
+    },
+    {
+      "id": "a3df5048ce821365",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Thanedar Final Result 2026 Out at appsc.gov.in, Download Final Merit List PDF",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVVpjbW8yT0dfUkVTTF9pLU9DNzFuN2tiQXcyY1JDNXV3bldYMW96N1hDcWRjMzNidXFOWmVJMWh1b0h0aDc4Qnh6d1lPYmcyeXhPZmE5RGw4bWhjZ2JVa2pzSmwxd2dHZkw3SVZic0x6RG9pME5jVFFtaVd1aXRVUUJFNVg?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-11-18",
+      "firstSeen": "2026-11-18T16:08:00+05:30",
+      "publisher": "Adda247",
+      "kind": "result",
+      "alsoIn": 1
     },
     {
       "id": "4a6088cf5b3a968e",
@@ -34,39 +79,6 @@
       "firstSeen": "2026-11-17T16:32:06+05:30",
       "kind": "other",
       "alsoIn": 1
-    },
-    {
-      "id": "08e3826afca21915",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=%2BjB14uIe9GSyIWZfJ0NMzu0vLcAM26RLqtPtXSTz6N0WR629zz%2Bb1OPWx4%2FRwZL%2FNNFq5NrvmlLszCULJBGgbA5r5MpibxfM6PPmC9Fgbhi9Glzbzz%2FHyGCzOxrcq4n1NbTgPX9h6ZCKPBuqcqGXHg%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-11-17T16:32:06+05:30",
-      "kind": "result",
-      "alsoIn": 2
-    },
-    {
-      "id": "df0a40ebd4ee107a",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=7k7nPyRa4kxiyvaaUll8wigqW1wuDBz5NgwbWcDdLJ6mAofT2rTnriNVZ1fARQHRpXSfD6iSudUzc7cg5IaMTcSEt%2Bg4uzkux4aJwpfZBd4xndJ6b8b4t5mcD%2FhcRthLsWTTOUA9veqxPEJ1EXS9Hg%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-11-17T16:32:06+05:30",
-      "kind": "other",
-      "alsoIn": 2
-    },
-    {
-      "id": "256a46acede7a3fd",
-      "examId": "ssc-cgl-2026",
-      "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=h5GB0rhKEC%2FNxtmq9O61cWY2rrAWSeW7A%2Fty%2BZtXjDCp%2BiX4Vj5TNgWXDzxQhbj4rEWlNhH4L48rSrw2N2NaJZHsRFfkycvLYdqjmsef6ZbSZb9Sq58H0hG2ZhW0MpELIbadC2yroza5d416w9QUOg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
-      "source": "SSC Southern Region",
-      "publishedAt": null,
-      "firstSeen": "2026-11-17T16:32:06+05:30",
-      "kind": "other",
-      "alsoIn": 2
     },
     {
       "id": "dd32f8002994a7f6",
@@ -242,7 +254,7 @@
       "firstSeen": "2026-11-16T15:35:46+05:30",
       "publisher": "Adda247",
       "kind": "cut-off",
-      "alsoIn": 3
+      "alsoIn": 4
     },
     {
       "id": "79d3780612ffde62",
@@ -290,7 +302,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "Telegraph India",
       "kind": "result",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "5b647cdb0d176379",
@@ -410,7 +422,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "India Today",
       "kind": "result",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "adda70bc9162a4c8",
@@ -425,6 +437,18 @@
       "alsoIn": 1
     },
     {
+      "id": "59d356310a57cedd",
+      "examId": "uiic-ao-2026",
+      "title": "UIIC AO prelims result 2026 declared at uiic.co.in; 5,806 candidates shortlisted for November 30 Mains ex",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNdUtDSGU3SXJFSHM3b01vOTZHa09vRWtUUFpZN0xKQ1lhM3gxS0NZemVndkliZ3RVRElDTkF2SEVQaG5YSHh5MFoxbl90cU9DZ2dTd25nTE5GeHVkR2ZhN3J0ZTB5azZDdVlwRjQ5STROYmZPRlJPLUVnV0Y0dlhva3EtVE90dHJpZ3F4Y1AxLW5Lc0hXZGUwWVlGdjZJeHhhQ0tndVVQQ0gybjl6SWNsNmcwd2NNUVJvNnZud0xMMjhvWWdmZFBVT2NzeHgxRi02aW9tcFBxZ2EzSzNJMmZpMHp4UTdFUERJNzRfa05Wb3YweFZpLTVOX1dFc2Q2RGpaUUZ3OHFhR19Kdl9xR21SS3lGMTBnWVh2MFFVWmtsZW8yaTYzX0FTYU9hbld1MGxEX0hPZXhnM3dvdVY2T3NCMFhtaU1BQdIBywJBVV95cUxNNm9WMEJnOUx4X0p5elRFRUdCNEJzTkhZcWRsSTM5RkxRSWtKZ0JlUVRMWkdJbFV0a202RU44N0dJVVZyMVNGWjJrNUlWa1lBQS1fUW16d0g5TXJ3bWpIbEtRQmFZNXpiX3pOZTl5cGJWNUx6aTVja1RXSkdzOE8zRlVFdDBSYUk4b25tQ0JGdWFfZlY0N015RnV3V0lVY0h1M2ZGRWI0NzE5Nl9JblVoU0t4bWFKVXY5dnV3NGVsaVlxYlZ1V0dFQ29VVG9TSndRMVFVVE5vbWxGRFowa21IcG4zc3JOVG5VQzZIc2R4c1Q4bmpTaGd0WDgzb2JUbVZ3TGsyUlpyYk5OZnItWVl0T2RDb0JkWWp2OHNkNjF6TmFjLWZVV1lPamhrNDQzUkgtdUlPb0hkM3ZPY3ZnNW44VFY0dTNzbk1FbkdR?oc=5",
+      "source": "UIIC news (Google News)",
+      "publishedAt": "2026-11-11",
+      "firstSeen": "2026-11-18T16:08:00+05:30",
+      "publisher": "The Times of India",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
       "id": "605d2993f35fa6ca",
       "examId": "nicl-ao-2026",
       "title": "NICL AO Admit Card 2026 Out at nationalinsurance.nic.co.in, candidates can download administrative officer admit card using registration details",
@@ -434,7 +458,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "Education Times",
       "kind": "admit-card",
-      "alsoIn": 27
+      "alsoIn": 31
     },
     {
       "id": "ebc9090c35be358f",
@@ -847,6 +871,18 @@
       "source": "SSC CGL Tier 2 news (Google News)",
       "publishedAt": "2026-11-05",
       "firstSeen": "2026-11-15T15:18:27+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "answer-key",
+      "alsoIn": 2
+    },
+    {
+      "id": "f36e2628e88e958e",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 1 2026 Answer Key Challenge: What Proof Should Candidates Keep Before Raising an Objection?",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPZDZ2dnZ6eG9GWXNNVzR2WnJGSVlYajVQWjR0NTVYd0g3aEU2MHdnQlRBVkpTYkl6UWdya0Q3NU9Cby1TSUdldWpma1FEYW9HTzJXZmxUdThEYTZzSU9HOEN1ZUZyM214MGo0UkQxaWNDbVlUNWRud2dFWG9VbGdRbmh5UVhMQVBEXzU3Wml3ZFpneGJVWTNPbmZESjVBdGF2RzVadlV5S3BfanZ4Y3pkNVlnUDB6ekRfc3BRTDF3eTlsOGthb0pzSXd6UjlnT1RLbk9jdTEzMWEzZ3hmSXRsWHdzbVBBZ9IB7AFBVV95cUxOMGN6WUZHVERjN2Q5RWY3eFF5MzcwQ1BLdVNtWDdRVnQyMWZYd3p2MFZvNVJKdk9LR1RGZ1RFMW1JczFCUE1IWm13Uy0xcUhIQW9PbFlERjNSdzBKaF9qakZzNVd1OWFKSHhxakdzdFVveDBBTnljcm1URlBKVTAwNTFMTl9RWnc4ak0wX2txZW53MTc1cTVoY2xrSlVySmpFaEZBSmJsS0lRMVZFZmEzdE5JVV9LcmZBcGlZN053ZGxwaWtNMmRNTC1IakI5TEtnN1pwTVg0YTJiaDlCT25HTEFlSk5NbEc2eTBlSg?oc=5",
+      "source": "SSC CGL Tier 2 news (Google News)",
+      "publishedAt": "2026-11-05",
+      "firstSeen": "2026-11-18T16:08:00+05:30",
       "publisher": "Jagran Josh",
       "kind": "answer-key",
       "alsoIn": 1
@@ -1772,7 +1808,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 15
+      "alsoIn": 16
     },
     {
       "id": "307f72dfb095c2e4",
@@ -2036,7 +2072,7 @@
       "firstSeen": "2026-11-06T15:15:28+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "a12c8c03d6e37cfd",
@@ -2144,7 +2180,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 53
+      "alsoIn": 54
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -3282,7 +3318,7 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Shiksha",
       "kind": "exam-date",
-      "alsoIn": 14
+      "alsoIn": 15
     },
     {
       "id": "4920e65d1edc6a00",
@@ -3786,30 +3822,6 @@
       "firstSeen": "2026-10-15T03:59:13+05:30",
       "publisher": "Sakshi Education",
       "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "5decc251210e3e29",
-      "examId": "appsc-group1-2026",
-      "title": "AP Police Constable Notification 2026 Out For 1027 Posts, Apply Online, Eligibility",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84NkppVHliTEtBVVNReXVsWGdmZXNTXzl3NnJQQXkxT0VNYXB4Y0FZRExnN1pDZlF2UTY3SjZVc21ySE16b0xOMkxlUmMzd1NTU0JPTFdaMk1LbFlCbFd3ZFFQdHJidnJqMlUwMkVidHduV0U?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-18",
-      "firstSeen": "2026-10-15T03:59:13+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "0413f904057024ec",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL 2026 Slot Booking पर बड़ा UPDATE, Admit Card कब आएगा?",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40ZzMtTlZ6dWtlMHdNYXIzbUdwNTFwSXhyZ3JCdDY0LVp5WnJ4ODkzLWhIWkNweU1mbEVNeFBZazE1WEktUjJfd0ZubkNNZ2NqV0lNQlJzTWJsTndVNEV1SHg2WExYSm9EZU5qaWVocnFLV1RLRkZhd1VPT1I3Zw?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-18",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "PW",
-      "kind": "admit-card",
       "alsoIn": 1
     }
   ]
