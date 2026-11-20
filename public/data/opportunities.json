@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-19T16:13:45+05:30",
+  "discoveredAt": "2026-11-20T15:54:33+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4035,6 +4035,176 @@
     }
   ],
   "discovered": [
+    {
+      "id": "3c42e1616ffb80c8",
+      "org": "APPSC",
+      "post": "APPSC invites applications Assistant Director in Forensic Science Service - The Hindu",
+      "title": "APPSC invites applications for Assistant Director post in Forensic Science Service - The Hindu",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdlNsYVBZOFpZNGJRZmtYOGwzdGxab2NQYW56aHVBaFFBQUtMY1NKLVl6MTEwM3RTX2Q1ekpjSXBoaW9veG5NZndmTTNxV0p5b3Y5c0ZXV2UyU1JXRURkWE10eFBuN1JjNUtWOTJZQlRwZ0JhYXlsY3B3WHV5X1pYOTZHNnFMRWdUMHNPcnB1dElLV0Jlc0x1MUJHeUZ4cHNERDNEQWZ0WnRQTnIzN3FIWVVUU2lQZmNBQVRHZXdPRVp3U0RuVnZvXzN3dWwyV2RRZWRwaDZDdUNuVFd6MWpYMTFWaTEwaWZxcXIzZNIB8wFBVV95cUxNdWJlOE9WWUpidmRwbnptbkJ5bm1hcGVIVDgtUDJZMUR4Z2lCSWZZZ0FIQkJfVWVQUGZRcGZFczRabUU5anFUSmQxT2gxOExETURGRXdBcDczdEYxMjR1aXl1UXNDNVcxckM5eFJuQnY5cmZPRnRlMDR4dVhvaTNWOGlEZWhoLWlsSlVVd1BXMkhrNFJFMkdaY3Y4XzVKUS1YWUdUcDZieE9Mc2RPTlZPU3liRXdQZ0RjZXQ3ME1CQ3pnRUZnWUdFX3JtX0RpbkMzVC1ZdS1qeTMzTHhQTVBlTEtKZFNPcjNMcnN5YmNzZTAtemc?oc=5",
+      "source": "News · APPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: assistant director",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-20",
+      "firstSeen": "2026-11-20T15:54:33+05:30",
+      "curated": false
+    },
+    {
+      "id": "b07c9a223dc86fbd",
+      "org": "APPSC Forensic Science",
+      "post": "APPSC Forensic Science : Applications open 8 Assistant Director ; check eligibility, salary - EdexLive",
+      "title": "APPSC Forensic Science Recruitment 2026: Applications open for 8 Assistant Director posts; check eligibility, salary - EdexLive",
+      "track": "state",
+      "sector": "state",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTXVDdDNmckJmTWlidnA4RDNoS2MwZF9reFlLNmxTZ0ZVZWR2cXhPSFctWHc4TmdIN1hlZzlFYUgwTzZUNmNWUFN1SU5LMTRQQWxhUy1vSVpyMzd6RWVFNm95VkR2SkVxRUxGcTIybndYZVNhOV9iaFhadUlreHNqZmdtMThhVHc2LWM4ZkU3Q1AydVFZcEEyVU1IWnFDV1RaSWZsNTNsWnlqSUFZeFZGQlZtVkVhb29fT3dYWVNpbGRVYXFBTHp2SnFDc2FkRUtLN01RbFA0c2hvZU4z0gHqAUFVX3lxTE5ZQTRtbHAzWG9NOVdiT3p2THpPR1Z3VTVEakpfYVJsTmlIVGwwNXR5UVlDLWhpTmowdWNLVlluaWpNc2hWUFJJeEZWMkdMaHZ3ZWhBUk95WlBMdEp2SF9zR2tCcVk2LUI3bG1kSjF0dVN4cjNMbmFxMFpjWTV0T0xnM3pwMGEyOWt3Mm81ZDBFbGxXbHV1Q1hqU3BmWEY4OGNvUUMwZlMxM3dlWElqTDVOa1gyckZNX0gzUmkzTU5PMmJYdjVsTjR3N25XLXFPSnpVRzA3eDBTSGkyNWhDY3ZVaE1CbWh5MzM4QQ?oc=5",
+      "source": "News · APPSC",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: assistant director",
+        "state"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-20",
+      "firstSeen": "2026-11-20T15:54:33+05:30",
+      "curated": false
+    },
+    {
+      "id": "dc7a2597a34693ef",
+      "org": "SIC",
+      "post": "SIC – Apply Offline 3 Section Officer, Assistant Section Officer",
+      "title": "SIC Recruitment 2026 – Apply Offline for 3 Section Officer, Assistant Section Officer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/sic-recruitment-2026-section-officer-assistant-section-officer-3083050",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-20",
+      "firstSeen": "2026-11-20T15:54:33+05:30",
+      "curated": false
+    },
+    {
+      "id": "1579cf22c035dec5",
+      "org": "AFT",
+      "post": "AFT – Apply Offline 10 Tribunal Master/Stenographer, Accounts Officer and More",
+      "title": "AFT Recruitment 2026 – Apply Offline for 10 Tribunal Master/Stenographer, Accounts Officer and More Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/aft-recruitment-2026-tribunal-master-stenographer-3083046",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-20",
+      "firstSeen": "2026-11-20T15:54:33+05:30",
+      "curated": false
+    },
+    {
+      "id": "224d10736a113129",
+      "org": "BRLPS Young Professional",
+      "post": "BRLPS Young Professional – 66",
+      "title": "BRLPS Young Professional Recruitment 2026 – Apply Online for 66 Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/brlps-young-professional-recruitment-2026-3083044",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-20",
+      "firstSeen": "2026-11-20T15:54:33+05:30",
+      "curated": false
+    },
+    {
+      "id": "1d315ef98cfe2f68",
+      "org": "GeM",
+      "post": "GeM Senior Assistant Director - States & Union Territories",
+      "title": "GeM Senior Assistant Director - States & Union Territories Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/gem-senior-assistant-director-states-union-recruitment-2026-3083032",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: assistant director"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-20",
+      "firstSeen": "2026-11-20T15:54:33+05:30",
+      "curated": false
+    },
+    {
+      "id": "7c4280c7415404be",
+      "org": "IIM Shillong Young Professional",
+      "post": "IIM Shillong Young Professional",
+      "title": "IIM Shillong Young Professional Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/iim-shillong-young-professional-recruitment-2026-3082995",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: young professional"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-20",
+      "firstSeen": "2026-11-20T15:54:33+05:30",
+      "curated": false
+    },
     {
       "id": "eaa9281f466b8a47",
       "org": "CCRUM Administrative Officer",
@@ -8983,7 +9153,7 @@
       "summary": null,
       "id": "portal-e2c77439c5fa",
       "firstSeen": "2026-11-12T15:42:10+05:30",
-      "lastSeen": "2026-11-19T16:13:50+05:30"
+      "lastSeen": "2026-11-20T15:54:37+05:30"
     },
     {
       "org": "Shree Balaji Employment Services Pvt. Ltd",
@@ -9030,7 +9200,55 @@
       "summary": null,
       "id": "portal-ebe45694cd7e",
       "firstSeen": "2026-11-12T15:42:10+05:30",
-      "lastSeen": "2026-11-19T16:13:50+05:30"
+      "lastSeen": "2026-11-20T15:54:37+05:30"
+    },
+    {
+      "org": "Kotak Securities",
+      "post": "Management Trainee-Digital Banking-Net & Mobile Banking HO Team",
+      "title": "Management Trainee-Digital Banking-Net & Mobile Banking HO Team",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher programme by its title — years of experience not stated in the listing",
+      "experienceText": "not stated",
+      "experienceMinYears": 0.0,
+      "experienceSource": "title",
+      "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
+      "checkedVia": null,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "kotak",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "India"
+      ],
+      "link": "https://www.foundit.in/job/management-trainee-digital-banking-net-mobile-banking-ho-team-kotak-securities-india-69106189",
+      "source": "Foundit",
+      "sourceType": "portal",
+      "fit": 60,
+      "fitWhy": [
+        "role: management trainee",
+        "MBA eligible",
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher programme by title"
+      ],
+      "status": "open",
+      "postedAt": "2026-10-19",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-ff31c8e8a5e7",
+      "firstSeen": "2026-11-20T15:54:37+05:30",
+      "lastSeen": "2026-11-20T15:54:37+05:30"
     },
     {
       "org": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
@@ -9080,7 +9298,7 @@
       "summary": "Greetings! Exp: 0 to 2 yrs Location: Navi Mumbai Notice period: Immediate Qualifications: For freshers (B.E/B.Tech + full time MBA), 6 months to 2 yrs (B.E/B.Tech) Job summary: We are looking for a motivated and details oriented Business Analyst to join our team. The candidate will closely work with business",
       "id": "portal-781856a17902",
       "firstSeen": "2026-11-18T16:10:03+05:30",
-      "lastSeen": "2026-11-18T16:10:03+05:30"
+      "lastSeen": "2026-11-20T15:54:37+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -9128,7 +9346,7 @@
       "summary": null,
       "id": "portal-03de661452ed",
       "firstSeen": "2026-11-18T16:10:03+05:30",
-      "lastSeen": "2026-11-19T16:13:50+05:30"
+      "lastSeen": "2026-11-20T15:54:37+05:30"
     },
     {
       "org": "dentsu",
@@ -9226,7 +9444,7 @@
       "summary": null,
       "id": "portal-7e29a8f427a8",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-19T16:13:50+05:30"
+      "lastSeen": "2026-11-20T15:54:37+05:30"
     },
     {
       "org": "Wipro Limited",
@@ -9275,7 +9493,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: Hands on experience with asset servicing, processing principal activities like Drawdown, Paydown, Interest In Geneva Reconcile cash and positions across all funds on daily basis using DUCO platform Reviewing upcoming activities",
       "id": "portal-00427cf59f1a",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-19T16:13:50+05:30"
+      "lastSeen": "2026-11-20T15:54:37+05:30"
     },
     {
       "org": "parle global technologies pvt. ltd.",
@@ -9371,106 +9589,9 @@
       "id": "portal-4d11cb69b40d",
       "firstSeen": "2026-11-04T15:17:38+05:30",
       "lastSeen": "2026-11-15T15:20:32+05:30"
-    },
-    {
-      "org": "Maruti Suzuki",
-      "post": "Management Trainee 2027-28",
-      "title": "Management Trainee 2027-28",
-      "sector": "private",
-      "track": "private",
-      "eligibility": "Fresher programme by its title — years of experience not stated in the listing",
-      "experienceText": "not stated",
-      "experienceMinYears": 0.0,
-      "experienceSource": "title",
-      "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
-      "checkedVia": null,
-      "pay": null,
-      "payLakh": null,
-      "payMinLakh": null,
-      "payMaxLakh": null,
-      "payStated": false,
-      "trust": "verified",
-      "trustWhy": "maruti",
-      "website": null,
-      "checked": false,
-      "locations": [
-        "Gurugram",
-        "Gurugram"
-      ],
-      "link": "https://www.foundit.in/job/management-trainee-2027-28-maruti-suzuki-gurugram-gurgaon-gurugram-69505235",
-      "source": "Foundit",
-      "sourceType": "portal",
-      "fit": 60,
-      "fitWhy": [
-        "role: management trainee",
-        "MBA eligible",
-        "private",
-        "pay not listed",
-        "verified employer",
-        "fresher programme by title"
-      ],
-      "status": "open",
-      "postedAt": "2026-10-19",
-      "applyCloses": null,
-      "examDate": null,
-      "examDateType": "tba",
-      "curated": false,
-      "kind": "portal",
-      "summary": null,
-      "id": "portal-3eee7cc87c4e",
-      "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-10-21T13:29:10+05:30"
-    },
-    {
-      "org": "Kotak Securities",
-      "post": "Management Trainee-Digital Banking-Net & Mobile Banking HO Team",
-      "title": "Management Trainee-Digital Banking-Net & Mobile Banking HO Team",
-      "sector": "private",
-      "track": "private",
-      "eligibility": "Fresher programme by its title — years of experience not stated in the listing",
-      "experienceText": "not stated",
-      "experienceMinYears": 0.0,
-      "experienceSource": "title",
-      "experienceNote": "Fresher programme by its title — years of experience not stated in the listing",
-      "checkedVia": null,
-      "pay": null,
-      "payLakh": null,
-      "payMinLakh": null,
-      "payMaxLakh": null,
-      "payStated": false,
-      "trust": "verified",
-      "trustWhy": "kotak",
-      "website": null,
-      "checked": false,
-      "locations": [
-        "India"
-      ],
-      "link": "https://www.foundit.in/job/management-trainee-digital-banking-net-mobile-banking-ho-team-kotak-securities-india-69106189",
-      "source": "Foundit",
-      "sourceType": "portal",
-      "fit": 60,
-      "fitWhy": [
-        "role: management trainee",
-        "MBA eligible",
-        "private",
-        "pay not listed",
-        "verified employer",
-        "fresher programme by title"
-      ],
-      "status": "open",
-      "postedAt": "2026-09-29",
-      "applyCloses": null,
-      "examDate": null,
-      "examDateType": "tba",
-      "curated": false,
-      "kind": "portal",
-      "summary": null,
-      "id": "portal-ff31c8e8a5e7",
-      "firstSeen": "2026-10-20T13:25:17+05:30",
-      "lastSeen": "2026-11-15T15:20:32+05:30"
     }
   ],
-  "portalAt": "2026-11-19T16:13:50+05:30",
+  "portalAt": "2026-11-20T15:54:37+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -9485,13 +9606,13 @@
     },
     {
       "name": "Glassdoor",
-      "ok": false,
-      "fetched": 0,
-      "errors": 2,
+      "ok": true,
+      "fetched": 30,
+      "errors": 1,
       "error": "blocked (cloudflare: just a moment)",
-      "state": "blocked",
-      "reason": "cloudflare: just a momen",
-      "scanned": 0
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 30
     },
     {
       "name": "Naukri",
@@ -9506,22 +9627,22 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 354,
+      "fetched": 351,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 354
+      "scanned": 351
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 352,
+      "fetched": 358,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 352
+      "scanned": 358
     },
     {
       "name": "LinkedIn",
@@ -9557,7 +9678,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 6,
+      "errors": 5,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",

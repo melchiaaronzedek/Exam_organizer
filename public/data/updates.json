@@ -1,48 +1,59 @@
 {
-  "updatedAt": "2026-11-19T16:11:44+05:30",
+  "updatedAt": "2026-11-20T15:52:38+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "47b93a3159a70187",
+      "id": "0c049c5288a83106",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-information-handout-for-phase-ii",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_nov26/login.php?appid=4e5b9d7c7360448fd110dbb610d4b684",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-19T16:11:44+05:30",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
       "kind": "other",
       "alsoIn": 5
     },
     {
-      "id": "5438093e85be9192",
+      "id": "f38a1eebbf873d85",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "Schedule for Recruitment Tests and Interviews",
+      "url": "https://upsc.gov.in/recruitment-tests/schedule-for-recruitment-tests-and-interviews/",
+      "source": "UPSC what's new",
+      "publishedAt": null,
+      "firstSeen": "2026-11-20T15:52:38+05:30",
+      "kind": "interview",
+      "alsoIn": 1
+    },
+    {
+      "id": "71c45008dc31d706",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=JTlwD%2F%2B8r3qN6TXWT1LV6eZVBdSQzpqmWlZaYiKrJZ3csOULUYRUyqtFAXaLrgO16asycgtIALouLCL0uxPC2hf%2B9bVIf2YKWGgJ0jUdF5IFdtmmLlAVUAD65nlzEBKAWdEPfWajM%2BSQebSbrKqjEQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=%2FYOEoUkOUCW0su8Fg1hqwGjhAzILkRU2kzg0gj3j4gBdLORylcD8pZ%2BcvFlD1cQLW22RG9g1QdZQmir3aevyXQNM8F3L%2BBYKvSkay%2F6E%2FkAkL3HbOwFVziflZAlueVrJaJ3ynj7CY9xiO92bZKpN9Q%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-19T16:11:44+05:30",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "e2409e91cf70b2f8",
+      "id": "f64c8e99f12f8582",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=r%2Fr%2BkCKvlpZfHKwq7gGIe4Fg%2BYWtCw8znCgdlPNALuGPHxeQrcZvzVBkzilCWGpVtiG8A0a1dL1orVNAyIzdZ2AFwpLkOSnKs83Vms2Pua38XH4dURa3xMaF2VKK9ACq9yqDYpgKk2Vnh6DACewj2A%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=Q6bwnrfBr%2FvAQsx%2FpCzJ%2FJIEMM%2FAkTyqLaMqNr3KgxH7%2F3Ki3MfdT7p8PQPzLr4iWKl0PIhqEOhgueopwIO%2FR46lmeW%2FXMHr%2FM%2Fwo6R37Vso3LsOpiixdULVZlU7t%2BDGmi9eznkU%2Fi0G5LNr0JLk%2FQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-19T16:11:44+05:30",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "ec28241b1cf82864",
+      "id": "32ff9116527e7b68",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=dRneibxmRjmxvoMHeHoVuhDqonQlTV39VP5s2spB1rZctRXn3nxDbWZrVqd41wU6uYPQQyw%2Fp%2FKxFfD4xMtrLTjY1GrneihtKw5N22C91UVAncgBAvFpX4J%2FUzZBYu7AJequ1JTdJybskjQpszX1Xg%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=%2BCcJfBr9G9JXR9LArXawIOuXAruW9oEhmKsQaBtUzajQn6XGVSCpt2R88CchsG83qCthtPRGFeXtL654fpXwwxBtJ7wkZfwJkU9vzJWnihhqr2obM9L5jZkyBX4tIbNXAR8IpV2lOKsYuIvXz3c0NA%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-19T16:11:44+05:30",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
       "kind": "other",
       "alsoIn": 2
     },
@@ -91,6 +102,18 @@
       "alsoIn": 1
     },
     {
+      "id": "5718f6a341430270",
+      "examId": "ssc-cgl-2026",
+      "title": "SSC CGL Tier 1 Result 2026 Soon, Check Steps to Download",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50ZC1mdnduMG1SUGlQRTVzYTNJaEQyWlBlWjhCNFhqekVEYXExdjQ5a21wdzlhWnZZbnE3UkZhLVRmR2hGWVNucERTTkdia01tT1VQSjV0TTd3V01nQTRwNzVzMWtLYVE?oc=5",
+      "source": "SSC news (Google News)",
+      "publishedAt": "2026-11-19",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
+      "publisher": "PW",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
       "id": "a3df5048ce821365",
       "examId": "appsc-group1-2026",
       "title": "APPSC Thanedar Final Result 2026 Out at appsc.gov.in, Download Final Merit List PDF",
@@ -112,6 +135,18 @@
       "firstSeen": "2026-11-19T16:11:44+05:30",
       "publisher": "PW",
       "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "f715cc3779e566a5",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Apply Online 2026 Starts for 720 Vacacies, Online Application Link",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9weFFacHA0M05taWphQWJNaEhpY0xGSzAxZEU1ZDRrRERBVk1vVXRfaEotRWJ4dXVjRk1uR3BUVDJlcE5LSnkyQWxxXzgtZDVYV1ptc21LdTNrb2JoaEh0ZGNTZW9qMU03aEpkSDVnQzQ?oc=5",
+      "source": "APPSC exam news (Google News)",
+      "publishedAt": "2026-11-18",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
+      "publisher": "Career Power",
+      "kind": "notification",
       "alsoIn": 1
     },
     {
@@ -146,6 +181,18 @@
       "firstSeen": "2026-11-19T16:11:44+05:30",
       "publisher": "PW",
       "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "181944b1ede98454",
+      "examId": "nicl-ao-2026",
+      "title": "NICL AO Prelims Expected Cut Off 2026, Check Sectional Cut Off and Qualifying Marks",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tM0JIeXdhY2tlX1JyTUFYanNyWWZjZkNER3pHVVV3dGI1ckhEUzN2UENSZW1NR3RuZ0pQeEJLUHQzUHZHU2hpQlhxaUlRV3RmUEdCUkpiVjZyeVRXUGs5T0MwdVhiTGM?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-11-17",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
+      "publisher": "Adda247",
+      "kind": "cut-off",
       "alsoIn": 1
     },
     {
@@ -265,6 +312,18 @@
       "alsoIn": 1
     },
     {
+      "id": "4a0cca4bcb7677a5",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "UPSC EPFO APFC Exam Date 2026: Recruitment Test on December 20",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42WDl1Q01uZkQycm5YbjRaUlh1czhLbmJkTDBfVUR5Zmw3NVlPeTVzbXFOZ3Jib05kcWNnWEpyMUxBS29Ednc0ODkxaHB1cnQtNFgtUVU1V2ExOHBMbVdJQVZQWVM?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-11-14",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
+      "publisher": "PW",
+      "kind": "exam-date",
+      "alsoIn": 1
+    },
+    {
       "id": "5d06b0db6f79592a",
       "examId": "uiic-ao-2026",
       "title": "UIIC AO Prelims Result 2026 Out, Download Result PDF at uiic.co.in",
@@ -334,7 +393,7 @@
       "firstSeen": "2026-11-16T15:35:46+05:30",
       "publisher": "Adda247",
       "kind": "cut-off",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "79d3780612ffde62",
@@ -466,7 +525,7 @@
       "firstSeen": "2026-11-11T15:17:10+05:30",
       "publisher": "Career Power",
       "kind": "notification",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "e59cba7045e0a07c",
@@ -502,7 +561,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "India Today",
       "kind": "result",
-      "alsoIn": 8
+      "alsoIn": 9
     },
     {
       "id": "adda70bc9162a4c8",
@@ -538,7 +597,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "Education Times",
       "kind": "admit-card",
-      "alsoIn": 35
+      "alsoIn": 39
     },
     {
       "id": "ebc9090c35be358f",
@@ -881,7 +940,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "The Times of India",
       "kind": "answer-key",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "937f4a42e9d47e46",
@@ -929,7 +988,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "Education Times",
       "kind": "answer-key",
-      "alsoIn": 10
+      "alsoIn": 11
     },
     {
       "id": "1167ab9a721d953e",
@@ -1240,6 +1299,18 @@
       "publishedAt": "2026-11-03",
       "firstSeen": "2026-11-16T15:35:46+05:30",
       "publisher": "Adda247",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "98eb893a11a458ff",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group-II Services Recruitment 2026 (Notification 37/2026) – 720 Posts – Apply Online",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwVnhGWWxUVUlidkVXT2VzS3FOREJvTG5od3I5ekNKbkpDZXA5aHVnV0RWeGpDdlhleXVDVUFNN21fWkczNVg4Vi1XZzZNNy1rcmlVMzBCTm5IdlJDTEdkVkNXU3U?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-11-03",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
+      "publisher": "www.rojgarpulse.in",
       "kind": "notification",
       "alsoIn": 1
     },
@@ -1888,7 +1959,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 17
+      "alsoIn": 18
     },
     {
       "id": "307f72dfb095c2e4",
@@ -2152,7 +2223,7 @@
       "firstSeen": "2026-11-06T15:15:28+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "a12c8c03d6e37cfd",
@@ -2695,6 +2766,18 @@
       "alsoIn": 1
     },
     {
+      "id": "0ef8b9250650cda8",
+      "examId": "pfrda-grade-a-2026",
+      "title": "PFRDA Admit Card 2026 (OUT): Download Grade A Phase 1 Hall Ticket PDF at pfrda.org.in",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdE40RDFHY0dzMHAzTGRBenUtNm8yc0lwQk9qMkItTkNLRkt3TlJyWjlxSjRSLXRwY1RtbTA1MTkxYnV5c2gzLWFkTkVqNi1FRlgxLVN1VUVtSUJoRjNhajVydFp0TjBUdW8zcHpwUV9Yams0RmhRbTVXdTQ0Vm9vd2VPVjhxZEkxaU5vdWpWLXRRYU5HR2FpR2dBb21taHlDNzZoQTFHdHJuMVpUSjBpckdNMlVTSkU4Y1NDbFFR?oc=5",
+      "source": "PFRDA news (Google News)",
+      "publishedAt": "2026-10-09",
+      "firstSeen": "2026-11-20T15:52:38+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "admit-card",
+      "alsoIn": 2
+    },
+    {
       "id": "03d8a245c14a9b55",
       "examId": "nicl-ao-2026",
       "title": "NICL AO Recruitment 2026: Registration begins for 321 posts at nationalinsurance.nic.co.in",
@@ -2906,18 +2989,6 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Adda247",
       "kind": "result",
-      "alsoIn": 1
-    },
-    {
-      "id": "89cb0e14afae6950",
-      "examId": "pfrda-grade-a-2026",
-      "title": "PFRDA Admit Card 2026 (OUT): Download Grade A Phase 1 Hall Ticket PDF at pfrda.org.in",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdE40RDFHY0dzMHAzTGRBenUtNm8yc0lwQk9qMkItTkNLRkt3TlJyWjlxSjRSLXRwY1RtbTA1MTkxYnV5c2gzLWFkTkVqNi1FRlgxLVN1VUVtSUJoRjNhajVydFp0TjBUdW8zcHpwUV9Yams0RmhRbTVXdTQ0Vm9vd2VPVjhxZEkxaU5vdWpWLXRRYU5HR2FpR2dBb21taHlDNzZoQTFHdHJuMVpUSjBpckdNMlVTSkU4Y1NDbFFR0gHEAUFVX3lxTE1SWklhSTFQWUYxbERyb3IycEFGLWdYNHRmd1NEU0RyY3NzSDdMNnEzay1TTkxhVU8yN090YURSOHh6VVVxNDlnRmZGblhFNXh5WWdLNUJGWEphSVRneWxMcXNpSDJwXzBLdUhKX2wyVUViWHFKRHdEaElkSWtNeU5OdWI4d1Nldi1JdlNtZ0F1eFIzQ2k0SGh4QV83TWIxUHFrYW9hVDBPalJkQTR5Z1IwSlo3UVlNbTJVRW13SVF1aHdsSE0?oc=5",
-      "source": "PFRDA news (Google News)",
-      "publishedAt": "2026-10-07",
-      "firstSeen": "2026-10-15T12:00:19+05:30",
-      "publisher": "Jagran Josh",
-      "kind": "admit-card",
       "alsoIn": 1
     },
     {
@@ -3890,18 +3961,6 @@
       "firstSeen": "2026-10-15T03:42:48+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "admit-card",
-      "alsoIn": 1
-    },
-    {
-      "id": "37f0addd419e71b9",
-      "examId": "appsc-group1-2026",
-      "title": "APPSC Group 1 Update: Application Dates Announced for 163 Vacancies with Degree Eligibility",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNUmUtbmdTN0pINGswODZvVmRZRjZGSFYxZHE3VFBIRHdoWWptaTZSYlRGM2I3aFk2ZHl6eUg3bmdpeDdZb0pOczlmWTZ2enRjaEV0Ry10b2RteE94Tjd0aEduaHBjNzFFbWtWcDZTcXdDSEVFWGZnUE5nSFI4X24xRFlQbHcxOG45R2s1N0QyNTl4RVhrZnRkclRzY3dITmRzaE1KY1NiVFJWVy1hVUZTbkRpbU1rb1VNckI4WEJVb0F0U0szdE5GVUhrLXVBWTV0UWUySnFFMzJmQUNoSDl0Mlpldy1kNzlwOF9DTEVtRjg?oc=5",
-      "source": "APPSC news (Google News)",
-      "publishedAt": "2026-09-20",
-      "firstSeen": "2026-10-15T03:59:13+05:30",
-      "publisher": "Sakshi Education",
-      "kind": "notification",
       "alsoIn": 1
     }
   ]
