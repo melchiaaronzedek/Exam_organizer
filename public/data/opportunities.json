@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-21T15:39:09+05:30",
+  "discoveredAt": "2026-11-22T15:42:12+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4035,6 +4035,103 @@
     }
   ],
   "discovered": [
+    {
+      "id": "fba39f5b8b925ec9",
+      "org": "SIDBI",
+      "post": "SIDBI Grade A, B; Applications Begin, Check Eligibility - Telegraph India",
+      "title": "SIDBI Recruitment 2026 Notification Out for Grade A, B; Applications Begin, Check Eligibility - Telegraph India",
+      "track": "general",
+      "sector": "regulator",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVXYwVnI1UUhFWDFrTTZuR3VHT3VFdzFQOVR3c1VaYTEyNHhOTUViZ0Vsb1ZISFFjT1F3SDFKMEVQVTdrb1dZQWh1VF8zVENlenRNdW56am82VG1FQllOaEh2NjdCTjJGM3R2RlVSRElCQ2FOeFF1eHZZVGpMVDFiTVhxVWw0RUpLS1NEOHNJdjROb2NaRkFmbGNfcG1EYjBibVVkYTh2UUJIZTdQNUd1OF94aktJeHpEaFR5Q3A2OGh3U1JUWHdTQjRNaFF0NzRMOEJrcmE4b1R2ZldCUUk4Q9IB5gFBVV95cUxPRWVVWjhUTzVnVVlhaG80cGxUbW9wM2gwa2Q3VkNBXzJHLWFVNXhWV3hSb3pleXJWSGNqVTFzNGJSS0JjSWNSdVB6UFFENXV0RW50LTN3dUlxQnRJN0RBanZLWDZ3Qklyb2wwZTJ0WFBDMkZQSm1hY1BZM2k1X0FqVTZYLXdwaDYzeG4ycVdUU1Q4bWkyVjZscHFUeWw0X0JJNmtWTWZ3NlN2dWlqT1M5YjAxc2twZzR3Q21MT25vMnBpdzR1VWtiRG5BMFFCTFIzYmcweF9DbHB2VTRIVHlqeXExS2xGUQ?oc=5",
+      "source": "News · grade A regulator",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: grade a",
+        "regulator"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-21",
+      "firstSeen": "2026-11-22T15:42:12+05:30",
+      "curated": false
+    },
+    {
+      "id": "ffad4cc04fd0c1ce",
+      "org": "IIPA Senior Consultant",
+      "post": "IIPA Senior Consultant",
+      "title": "IIPA Senior Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/iipa-senior-consultant-recruitment-2026-3083617",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-21",
+      "firstSeen": "2026-11-22T15:42:12+05:30",
+      "curated": false
+    },
+    {
+      "id": "919109fe8c71fb8e",
+      "org": "BHAVINI",
+      "post": "BHAVINI – Apply Offline 12 Advisor / Consultant and Engineer",
+      "title": "BHAVINI Recruitment 2026 – Apply Offline for 12 Advisor / Consultant and Engineer Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/bhavini-recruitment-2026-advisor-consultant-and-engineer-3083591",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-21",
+      "firstSeen": "2026-11-22T15:42:12+05:30",
+      "curated": false
+    },
+    {
+      "id": "e2ce297f24e7ea8c",
+      "org": "MOIL SAP Functional Consultant",
+      "post": "MOIL SAP Functional Consultant – Apply Offline",
+      "title": "MOIL SAP Functional Consultant Recruitment 2026 – Apply Offline",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/moil-recruitment-2026-sap-functional-consultant-3083575",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-21",
+      "firstSeen": "2026-11-22T15:42:12+05:30",
+      "curated": false
+    },
     {
       "id": "93e0d98c7b04f729",
       "org": "APS Barrackpore Administrative Officer",
@@ -9300,7 +9397,7 @@
       "summary": null,
       "id": "portal-e2c77439c5fa",
       "firstSeen": "2026-11-12T15:42:10+05:30",
-      "lastSeen": "2026-11-21T15:39:14+05:30"
+      "lastSeen": "2026-11-22T15:42:16+05:30"
     },
     {
       "org": "Shree Balaji Employment Services Pvt. Ltd",
@@ -9397,7 +9494,7 @@
       "summary": "About The Programme The Management Associate program is a structured development program designed to cultivate future leaders within DBS. This role provides the opportunity to gain broad exposure, contributing to key initiatives and projects while developing essential business skills. Successful candidates demonstrate",
       "id": "portal-1e436ccbbabd",
       "firstSeen": "2026-11-21T15:39:14+05:30",
-      "lastSeen": "2026-11-21T15:39:14+05:30"
+      "lastSeen": "2026-11-22T15:42:16+05:30"
     },
     {
       "org": "Kotak Securities",
@@ -9445,7 +9542,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-11-20T15:54:37+05:30",
-      "lastSeen": "2026-11-21T15:39:14+05:30"
+      "lastSeen": "2026-11-22T15:42:16+05:30"
     },
     {
       "org": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
@@ -9495,7 +9592,7 @@
       "summary": "Greetings! Exp: 0 to 2 yrs Location: Navi Mumbai Notice period: Immediate Qualifications: For freshers (B.E/B.Tech + full time MBA), 6 months to 2 yrs (B.E/B.Tech) Job summary: We are looking for a motivated and details oriented Business Analyst to join our team. The candidate will closely work with business",
       "id": "portal-781856a17902",
       "firstSeen": "2026-11-18T16:10:03+05:30",
-      "lastSeen": "2026-11-21T15:39:14+05:30"
+      "lastSeen": "2026-11-22T15:42:16+05:30"
     },
     {
       "org": "Muthoot Finance",
@@ -9543,7 +9640,7 @@
       "summary": null,
       "id": "portal-03de661452ed",
       "firstSeen": "2026-11-18T16:10:03+05:30",
-      "lastSeen": "2026-11-21T15:39:14+05:30"
+      "lastSeen": "2026-11-22T15:42:16+05:30"
     },
     {
       "org": "dentsu",
@@ -9641,7 +9738,7 @@
       "summary": null,
       "id": "portal-7e29a8f427a8",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-21T15:39:14+05:30"
+      "lastSeen": "2026-11-22T15:42:16+05:30"
     },
     {
       "org": "Wipro Limited",
@@ -9690,7 +9787,7 @@
       "summary": "Wipro is hiring for the role of Management Trainee! Responsibilities of the Candidate: Hands on experience with asset servicing, processing principal activities like Drawdown, Paydown, Interest In Geneva Reconcile cash and positions across all funds on daily basis using DUCO platform Reviewing upcoming activities",
       "id": "portal-00427cf59f1a",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-21T15:39:14+05:30"
+      "lastSeen": "2026-11-22T15:42:16+05:30"
     },
     {
       "org": "parle global technologies pvt. ltd.",
@@ -9788,7 +9885,7 @@
       "lastSeen": "2026-11-15T15:20:32+05:30"
     }
   ],
-  "portalAt": "2026-11-21T15:39:14+05:30",
+  "portalAt": "2026-11-22T15:42:16+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -9815,7 +9912,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 8,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -9824,32 +9921,32 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 345,
+      "fetched": 348,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 345
+      "scanned": 348
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 355,
+      "fetched": 354,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 355
+      "scanned": 354
     },
     {
       "name": "LinkedIn",
       "ok": true,
-      "fetched": 70,
-      "errors": 3,
-      "error": "429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keyw",
-      "state": "partial",
-      "reason": "some queries failed",
-      "scanned": 70
+      "fetched": 100,
+      "errors": 0,
+      "error": null,
+      "state": "ok",
+      "reason": null,
+      "scanned": 100
     },
     {
       "name": "Internshala",
@@ -9875,7 +9972,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 3,
+      "errors": 4,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",
