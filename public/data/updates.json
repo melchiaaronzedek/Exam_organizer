@@ -1,50 +1,74 @@
 {
-  "updatedAt": "2026-11-23T16:37:45+05:30",
+  "updatedAt": "2026-11-24T18:22:19+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "47b93a3159a70187",
-      "examId": "pfrda-grade-a-2026",
-      "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-information-handout-for-phase-ii",
-      "source": "PFRDA careers",
-      "publishedAt": null,
-      "firstSeen": "2026-11-23T16:37:45+05:30",
-      "kind": "other",
-      "alsoIn": 5
-    },
-    {
-      "id": "6f41bef6ed646215",
+      "id": "8aee25eebab33ad0",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=XLA%2B5SYZeknJz%2Fv8BaXtA1LKQWW92Q42Szu5czmEmq9pFuonlRvPYgwQr1DbHblDqFuU1SQA%2BiOYMwrm1J3tt7rnit72l%2FiObXR5gPPHk4MbUaZRa8IOzttQI4kMNG7bkluugp%2B8b8Rd2fWPi3yicA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=3%2FOtDVDlC1NLz1h7XUUqWtAoE8qqvKy8lgTivl3rspTAcAP%2B8DizPlplF3imebvxbMFK4Ha5sthdyvAjy%2BdOi0fzUiV8J28LJ07S8hmL0Z7L7VTqoqvxw2oWJrh3XzCEjW6qbbqirSsoBxK5O0Y8bQ%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-23T16:37:45+05:30",
+      "firstSeen": "2026-11-24T18:22:19+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "f4ffdd0d25eeee58",
+      "id": "a54edf48b00562b6",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=z4UB5D5XJOpvlWIptuWg%2FObZMaO1XR6wwVE4vWTdEhbccGhrmeYkTgSbLk7m4p7mj73p0URPBAwY%2BL3uERgD3Y7kdpJsfjqryCXhyJz8tweMtLr50GfOPZ677r59c0jI6p70wdOyf859Zve%2BKy0jAQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=q0FFtMziJYdX%2FAQfxrcYTrT5pw8zx%2Fu138SDWMNf%2BJvQkw94Pr8az8%2FtX9AU1okY26UroeP4ITun7FB2Q05%2FqIb%2FKExZfbTPUBK8M5Gk4fSb4fPeNgdRacxE6zkPiwzWYm9RDm8r31bobx%2FMDv0%2BrQ%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-23T16:37:45+05:30",
+      "firstSeen": "2026-11-24T18:22:19+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "70002139e51389eb",
+      "id": "2a24c4438079d966",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=iue9c2x5lODtbP84dRJDO1WX%2B8xdgZP9nl4nbuM5ZLkzsFYDpDspE84IfdULQ7TkzQIC3mcRs2Wzuceq9oxZ3%2BkaOqcJ7THEFfcrxJvQkZLNBd69VVQgbRwu5xqntjIK7Aw4iv0wcjESu2%2BnJypeSw%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=Gt06HYTbamtEa07CtuCqF4Z7e%2BhEw27w1YMZBnv10kkMl3U4oHxLgBvy7C9jP3pNvQsIvd45XXZOuRZP18lPV6idkLMc1Y7hPG7dE0ctGXPJFPYvlwN30YN7bQS7GsVzSjRksqj3VrHO5p8zGqb85Q%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-23T16:37:45+05:30",
+      "firstSeen": "2026-11-24T18:22:19+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "0c049c5288a83106",
+      "examId": "pfrda-grade-a-2026",
+      "title": "Recruitment of Grade A (Assistant...",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_nov26/login.php?appid=4e5b9d7c7360448fd110dbb610d4b684",
+      "source": "PFRDA home",
+      "publishedAt": null,
+      "firstSeen": "2026-11-24T18:22:19+05:30",
+      "kind": "other",
+      "alsoIn": 5
+    },
+    {
+      "id": "786781cdfde6fe0b",
+      "examId": "nicl-ao-2026",
+      "title": "NICL Assistant Prelims Score Card 2026 Out, Direct Link To Check Marks",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtVU1HM2RncDV4a3RjLVN2WWJvTDhNa2NaQ0ZYekZDMmxzRWVCQl9JQ2t2MVFoQ0xpNms5SHE3WGdpRURqMXhjTWQ5Z0dzU2cwTnZKTjlRRjYxRWVzdTBJUEJSanJMYUM3eGd3?oc=5",
+      "source": "NICL news (Google News)",
+      "publishedAt": "2026-11-23",
+      "firstSeen": "2026-11-24T18:22:19+05:30",
+      "publisher": "Bankersadda",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "dffca053441f5156",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC ADO Result 2026 Out at appsc.gov.in: Download Group A and B Technical Merit List PDF Link Here",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQX0JsVExIY2JfU19iT2lYWFliZU9ISmhFSkpfeGUxVmxPQlVWaW1kYlIzTldYY3VRZHdzNlliWFhsYTVOYjJqRU5IbGdnTUdEZEw3TXdHWjBGY1dMYVZMeW1ZWTVTMEVWRkZEUnJ2WG85VmIyenZaZHE2YWNDVjZiUjJYVWx3VzdaS0N3M0FmMjhPdTZ1NXBFUmg0R002Z2xCUEJsWmVTNTF5X21oYnJEMVhERXc4aEtjZjZiWVE0OHVLN1JCMHNLMmdTT3R2ZF9ZMV9Ya0VLOTFoUjNxQk440gHmAUFVX3lxTE5IdkVLWmJ2dlJLR3lTRHVRS1pRVnFLaE9icVBZWVFLM2ZHRFVqQTV6V3RwNlA5VDY4OFhuV2doTzBYX0RvZExaSHliRnlXa2k5Vll1SVJjcktkQXVobkJKUFpZMVFYQTZaai1rMV9FWjM0amhHdnpIOXI0M21FRUU4SkFNX1BqeUxaV21weWl5TVM4THZFSXp0YmhEQTRXSzkzaHlWVXVwZGZUaHNpd1hBZG5DOENnbnd5ZFp4LXVLSmpuZmNsQlZJRHB3Z0lNZ0dGbmp5YlVtS0puLUgtZzU1ZnUyWlR3?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-11-23",
+      "firstSeen": "2026-11-24T18:22:19+05:30",
+      "publisher": "Jagran Josh",
+      "kind": "result",
+      "alsoIn": 1
     },
     {
       "id": "1d041ee9e67178ba",
@@ -513,7 +537,7 @@
       "firstSeen": "2026-11-16T15:35:46+05:30",
       "publisher": "Adda247",
       "kind": "cut-off",
-      "alsoIn": 9
+      "alsoIn": 10
     },
     {
       "id": "79d3780612ffde62",
@@ -657,7 +681,7 @@
       "firstSeen": "2026-11-11T15:17:10+05:30",
       "publisher": "Career Power",
       "kind": "notification",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "e59cba7045e0a07c",
@@ -693,7 +717,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "India Today",
       "kind": "result",
-      "alsoIn": 12
+      "alsoIn": 13
     },
     {
       "id": "adda70bc9162a4c8",
@@ -729,7 +753,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "Education Times",
       "kind": "admit-card",
-      "alsoIn": 51
+      "alsoIn": 55
     },
     {
       "id": "ebc9090c35be358f",
@@ -1072,7 +1096,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "The Times of India",
       "kind": "answer-key",
-      "alsoIn": 19
+      "alsoIn": 20
     },
     {
       "id": "937f4a42e9d47e46",
@@ -1120,7 +1144,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "Education Times",
       "kind": "answer-key",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "1167ab9a721d953e",
@@ -1492,7 +1516,7 @@
       "firstSeen": "2026-11-03T15:26:47+05:30",
       "publisher": "Jagran Josh",
       "kind": "exam-date",
-      "alsoIn": 8
+      "alsoIn": 10
     },
     {
       "id": "8632c69031c36bde",
@@ -1564,7 +1588,7 @@
       "firstSeen": "2026-10-31T14:15:56+05:30",
       "publisher": "Jagran Josh",
       "kind": "notification",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "cd131c7f3cbf09be",
@@ -1756,7 +1780,7 @@
       "firstSeen": "2026-10-26T13:33:59+05:30",
       "publisher": "EdexLive",
       "kind": "notification",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "35c8768885fda087",
@@ -1939,6 +1963,18 @@
       "alsoIn": 1
     },
     {
+      "id": "1d008f07808c6f11",
+      "examId": "lic-hfl-mt-2026",
+      "title": "LIC Housing Finance Limited Apprentice Recruitment 2026: Apply Online For 232 Vacancies",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMjdUUWgwdE9wMHRkVmhvSEZ5MWtKUk9Lc19wZnR3dDhuNHA3SDBjZzJ3QUFPUkhCaHNoaHhsRUZMY1gyT2VheG0wWWIzVmxDbWkzWVNCVnNabnZOVzJCVkk1bGJlS1FSNVp2UlB0MDNWbzN4cmZDbkhnbWw1NVVlZXNwZVJmcWo0N0lWMVpPb2UzOWQ2MVlyNFJrSHJ3eFZ4cm9FOTlrTU53UmFDRFRVekRoenJOQ25GYUpJMS02U2hoaXRl0gHMAUFVX3lxTE9QQndSS1dfYS1pYlZhTGMyNVZfNU5jSU1rVm83XzNXUjBhZ1dQZzYtWXpWS251YVhMSnZHU0F1c0l6ZTdJdXE5OTdpcFFlMlF0TFNTTHpWcEtpSWhHbGJCSHZOZHltZjR0SG5xNVJrRXBQUEh3ZzZLaG1IbjFtVWhnZ2FMaGIwMHh5b1ZtY2JoQVpzMGJBcVFybXFoUnk4N013TUk4dEFOZ29FN2FUdWRlRzc1enByY1lySzlVNVphcTgxbng1SjRPOVNaQg?oc=5",
+      "source": "LIC HFL news (Google News)",
+      "publishedAt": "2026-10-21",
+      "firstSeen": "2026-11-24T18:22:19+05:30",
+      "publisher": "NDTV",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
       "id": "0f1102ee07eedafc",
       "examId": "aai-je-2026",
       "title": "AAI Admit Card 2026 Out, Download Manager & Junior Executive Hall Ticket",
@@ -2011,6 +2047,18 @@
       "alsoIn": 1
     },
     {
+      "id": "d1930e2d7f535c70",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Executive Result 2026 Out, Download Scorecard & Branch-wise Cutoff Here",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iNHQ0YVhUM205LXRUdVdLY24zdkNwSVZYaklGbEVxNEJ5dTlOY1N2VlJHRHZJVWpnYVhiMW9TdV9YUF80TldLOGVibDNIRlJwT2ZEVGQ4anpvV1kwbkczVWRxazJXV1N2Y3JqZDlGaEtpa0pUTG80?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-10-19",
+      "firstSeen": "2026-11-24T18:22:19+05:30",
+      "publisher": "Adda247",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
       "id": "8cab3a949918f002",
       "examId": "uiic-ao-2026",
       "title": "UIIC AO Admit Card 2026 released at uiic.co.in, direct download link",
@@ -2080,7 +2128,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 21
+      "alsoIn": 22
     },
     {
       "id": "307f72dfb095c2e4",
@@ -2344,7 +2392,7 @@
       "firstSeen": "2026-11-06T15:15:28+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "a12c8c03d6e37cfd",
@@ -2452,7 +2500,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 56
+      "alsoIn": 57
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -2896,7 +2944,7 @@
       "firstSeen": "2026-11-20T15:52:38+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "03d8a245c14a9b55",
@@ -3806,66 +3854,6 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "Utkarsh Classes",
       "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "f7eb237328a447de",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL Vacancy 2026: 10,731 Tentative Posts Announced, Check Post-Wise and Category-Wise Details",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQME12X3VmX05fNnpFdm5TYUxhb1N1UUVTOXlnMDV0UDdONjROX3NySkEyYkNiVEFSX0dCald0QUlhcWttRTFBWHVwNVR1WllVbnJkcGhnaE1kWnlxMW55RFJIc2w3SWJfUEIwYmVLTXd6UWRPM2h2WURkUUxCSFVWbkNKeTZfeVBadW4ycExJQ1dyNjJsY0tLOVNLR0ZGQXBWOTFHdVFSSUJldTg?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-24",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "Adda247",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "d7c4bd1d6807301c",
-      "examId": "ssc-cgl-2026",
-      "title": "How to download SSC CGL 2026 City Intimation Tier 1, Check Steps to Download",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUUFLYVotLWJvSVpQWWhaYU83T1FZWVZDbWdjTGx4RHhOcENZQi1UQXdqbV92ckk3akZSeUFVVUo5ZUgxNFRWWmxaQkhYdHY5RzVjY09IalplYXRJZHJreXpNWDMxSGltZEFlWThpUWdNUFNyWDlRb2hDVkg3YUt2TklSNHhTUTNN?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-24",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "PW",
-      "kind": "admit-card",
-      "alsoIn": 2
-    },
-    {
-      "id": "9f013d684efaa562",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "Bank of Baroda Recruitment 2026: Registration date for 1100 Wealth Executive and Credit Analyst posts extended",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPSkNqbjZLYW9mLXVyNjJETkFJSE5EYm5CMGMwR1RvbEw3Ty1EZ0xVUTdNMFhOekY3ZnNzbGFpQ2JNVEVpR1hNRktacjhQV2FiOGpQZkZlTkNmTFB2MGh6cWcxRmVFVnRFZlN0SjkxZ1h1bTlKazRRNVU1TmZ5VTVJT3RlV2Z4bFdKaDNGQ3FRSVd2a25scFZsUWJ1b0h1OTFVeklsY09yNDRYM1pqcVMwblJ1TzF3LWlLUlVOWFcySm1fTDgxbUxqU0RsZnRCXzA1aU1WS2FVdjVzYjEtTEtWVVlBZGFISlVTRXBlN04xT2pUcnNGdVpheTE4bHVmbm9Rd0dxc0VNemwwMzB6em03dW40QWtYQdIBmwJBVV95cUxNc1M1SmdyN0Vna2t4ekRVYVA2X1gwUDRoR0thcHFiaFBDcjJLU2NkTk9xNzFNdGllZ3Jubl9Nc3A4THNhOU9YaS0wZmJTdEkycHB2LXBWUTZqTHpXZWpwQnVnN0lzYzVCd2xRbkJPVS1yUFIwVWpBN3lSUWNkcGNoRmNkem4tSUpYSXBPTG5Xb0JRaERRY0ZGaEtFYUlka3ZndmREclZvRExMNnMtVVgtU25FRFFSZTZjdTA2blVxRTRuZkgtc0RYUXZ4WmtidFBYTlZjdHR5QVNoT3djT0FPemhxSk5vd1FhM3JOLUNZOENxVDRWUEpNQ1hBUWl5T0tRWTB0MDVFS2Q1VW1kMVBLbElJcExNdHQxbWtR?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2026-09-24",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "Hindustan Times",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "85b11e8aa1febce9",
-      "examId": "pfrda-grade-a-2026",
-      "title": "PFRDA Grade A Selection Process 2026 Phase 1 Phase 2 Interview",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5tM3JPUmoyVEpKeEdzSm9JblR1MVMwUEpSOEtMQ0VLcksyQ25LdUJIVlZvWmhpeF9PcjdIb2FFYmRVbDNpNHpCa3ExRHF4dktGejJxWGhjNXdnUF9iSXVIR3BoeTVRRFd1TjIwRVZyTXhqSW1DVVFYU0hVWQ?oc=5",
-      "source": "PFRDA news (Google News)",
-      "publishedAt": "2026-09-24",
-      "firstSeen": "2026-10-15T12:00:19+05:30",
-      "publisher": "KollegeApply News",
-      "kind": "interview",
-      "alsoIn": 1
-    },
-    {
-      "id": "d1930e2d7f535c70",
-      "examId": "iocl-marketing-officer-2026",
-      "title": "IOCL Executive Result 2026 Out, Download Scorecard & Branch-wise Cutoff Here",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9iNHQ0YVhUM205LXRUdVdLY24zdkNwSVZYaklGbEVxNEJ5dTlOY1N2VlJHRHZJVWpnYVhiMW9TdV9YUF80TldLOGVibDNIRlJwT2ZEVGQ4anpvV1kwbkczVWRxazJXV1N2Y3JqZDlGaEtpa0pUTG80?oc=5",
-      "source": "IOCL news (Google News)",
-      "publishedAt": "2026-09-24",
-      "firstSeen": "2026-10-18T12:54:04+05:30",
-      "publisher": "Adda247",
-      "kind": "result",
       "alsoIn": 1
     }
   ]
