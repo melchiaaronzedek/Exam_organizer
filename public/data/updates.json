@@ -1,50 +1,73 @@
 {
-  "updatedAt": "2026-11-25T17:08:41+05:30",
+  "updatedAt": "2026-11-26T16:54:23+05:30",
   "baseline": false,
   "updates": [
     {
-      "id": "47b93a3159a70187",
+      "id": "0c049c5288a83106",
       "examId": "pfrda-grade-a-2026",
       "title": "Recruitment of Grade A (Assistant...",
-      "url": "https://www.pfrda.org.in/en/web/pfrda/w/recruitment-of-grade-a-assistant-manager-2026-information-handout-for-phase-ii",
+      "url": "http://ibpsreg.ibps.in/pfrdajul26/oecla_nov26/login.php?appid=4e5b9d7c7360448fd110dbb610d4b684",
       "source": "PFRDA careers",
       "publishedAt": null,
-      "firstSeen": "2026-11-25T17:08:41+05:30",
+      "firstSeen": "2026-11-26T16:54:23+05:30",
       "kind": "other",
       "alsoIn": 5
     },
     {
-      "id": "a5a247b2ce26d670",
+      "id": "9facb974bfac2960",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2024 - List of Candidates Nominated",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=2ZiTpsztpPfbsEn%2FhvTwzrQRxQeEdpwT5eUb%2FJI0NHH1C0LjP5VDyGCd5GmGk%2FYK0LkUW1laLywglk46YthC0H3ezzNVWEip7oNCUrc4XXscA6DyTTAfqG4kCMDsr5aue%2FHpTphLe8czcwhs8oSBnA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=sj5EOA%2B2zDsqKQaAMkEciyEPE25786zIMEvwI6kIPUQ87o%2BAjH7LmuTpn4frQkJWmCkdV0Wsmq7l2VAGEeRTkoOL9UI4QmwbYDNSfr%2BG6Gsj%2BTYCwe7iuOLd5d9d%2FfHgrIennjBEac6PVtITBdefOA%3D%3D&token=35bc647152cb931012054ae26fa165fe1ed00d986151c7d1a7a546dec10c682a",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-25T17:08:41+05:30",
+      "firstSeen": "2026-11-26T16:54:23+05:30",
       "kind": "result",
       "alsoIn": 2
     },
     {
-      "id": "addf19ab2e11aa1f",
+      "id": "a6c2d2c8a570c979",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2022 - Nomination List",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=NwgLilEmw9lb2ZfABqxHK6CxdjIT2eW78mHcW%2BZc9QokLgcgvtC24XE958ZGB4O2JMqMf5Ksr0Faeov1agn2aLz3K4cex970PCMLgTrFsqwtj6XHIHX4PaDRALpkveBxOIk9NOMjsdKmojCvrbW%2B1Q%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=9JoJEWn81Tx10IIDF9Vc2KgYGRhtRx5dEaXc9GWF0ph0CZHVNsIpF3K8PrkSgXBmNUDZMHpP2KGp5vscRCSVAjO1woXsRqOlOmX2lTW3yXa44zpUQ5Yv4fuh%2B%2B5qpxQMaL7JWJ8tAwqSZjK5mNSmdA%3D%3D&token=500f7b90299bc72e67b93f13d1ea365a4f5244bb6bace2451d0661b802527756",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-25T17:08:41+05:30",
+      "firstSeen": "2026-11-26T16:54:23+05:30",
       "kind": "other",
       "alsoIn": 2
     },
     {
-      "id": "637422555cebb18e",
+      "id": "6a6020eb73093247",
       "examId": "ssc-cgl-2026",
       "title": "CGL Examination 2023",
-      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=FTqyAIbwziAbFKIDrad4y6QhOXkqNrSd2HKO8hy3myYlWSMRXHIVT4pPsO7IsluBCT%2BnUsZhX6qyA%2FkJq5rDLReVp%2B7NXFCAErLT8DOxn1Gg%2FLUYYJiraptsMKhfuO2NuoX3bhP0n%2F4rA089myHqPQ%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
+      "url": "https://www.sscsr.gov.in/indexes/pdf_view?file=z7NiDO83qUjoVP3DW1wB%2BWoAbtIuLQKElA0EWq7eeHovgP16Y126qW50fnBobM5ytmGuV9WI59Dk%2F3tVMElbgEI%2FU09j7%2FU0gUgRHByKk9iniL3YguEsIvk26RhcIvADu2hn0IhX4UhhxTsu9Y9Q2Q%3D%3D&token=bd06dccc1421b0d3de6dd2f87b49851b57e51864e2a000f453fc3bee9b46f7d8",
       "source": "SSC Southern Region",
       "publishedAt": null,
-      "firstSeen": "2026-11-25T17:08:41+05:30",
+      "firstSeen": "2026-11-26T16:54:23+05:30",
       "kind": "other",
       "alsoIn": 2
+    },
+    {
+      "id": "5ad1f4ad86a6e4d0",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "India Energy Week 2026",
+      "url": "https://iocl.com/pages/iew",
+      "source": "IOCL careers",
+      "publishedAt": null,
+      "firstSeen": "2026-11-26T16:54:23+05:30",
+      "kind": "other",
+      "alsoIn": 1
+    },
+    {
+      "id": "0a9e5ce48a35d88c",
+      "examId": "upsc-epfo-apfc-2026",
+      "title": "UPSC EPFO Admit Card 2026, APFC Exam Date & Download Link",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Dd29nT3hTVXI5Y3BFQmVOcTFRX3R5dHhkR3ZMWC1nQ1VHeThyWG94dm41RzBlZmJYS3k4ZnBqeG91c0JSZ004Z1VXQ0FSSFRhTE9GRWpWZG9Tc3hnUktZT2Z2MGNLdm8?oc=5",
+      "source": "UPSC EPFO news (Google News)",
+      "publishedAt": "2026-11-26",
+      "firstSeen": "2026-11-26T16:54:23+05:30",
+      "publisher": "PW",
+      "kind": "admit-card",
+      "alsoIn": 1
     },
     {
       "id": "45743507e064c64c",
@@ -67,6 +90,18 @@
       "publishedAt": "2026-11-24",
       "firstSeen": "2026-11-25T17:08:41+05:30",
       "publisher": "YouTube",
+      "kind": "result",
+      "alsoIn": 1
+    },
+    {
+      "id": "aaec56ba7fa44a7f",
+      "examId": "iocl-marketing-officer-2026",
+      "title": "IOCL Executive Final Result 2026 Out at iocl.com, Check Selection Status",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQ2praXdwY3NIQnFWbjdFVVNyQVFGTy1UZmswOHc4MmMzeTVRUzZvYU5IbjliTUlGakUxWkFmX0hsVjlOU084eVl1dEtmekd2bnZtZWFscHlCUUhhZGZxT21Ecm5nS3V1Z0xXMDNpVzk2UkhvSEMxdU1TdEo1Q3VUejIwdTQ?oc=5",
+      "source": "IOCL news (Google News)",
+      "publishedAt": "2026-11-24",
+      "firstSeen": "2026-11-26T16:54:23+05:30",
+      "publisher": "FreeJobAlert.Com",
       "kind": "result",
       "alsoIn": 1
     },
@@ -585,7 +620,7 @@
       "firstSeen": "2026-11-16T15:35:46+05:30",
       "publisher": "Adda247",
       "kind": "cut-off",
-      "alsoIn": 11
+      "alsoIn": 12
     },
     {
       "id": "79d3780612ffde62",
@@ -729,7 +764,7 @@
       "firstSeen": "2026-11-11T15:17:10+05:30",
       "publisher": "Career Power",
       "kind": "notification",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "e59cba7045e0a07c",
@@ -765,7 +800,7 @@
       "firstSeen": "2026-11-12T15:40:06+05:30",
       "publisher": "India Today",
       "kind": "result",
-      "alsoIn": 14
+      "alsoIn": 15
     },
     {
       "id": "adda70bc9162a4c8",
@@ -801,7 +836,7 @@
       "firstSeen": "2026-11-10T15:47:33+05:30",
       "publisher": "Education Times",
       "kind": "admit-card",
-      "alsoIn": 59
+      "alsoIn": 63
     },
     {
       "id": "ebc9090c35be358f",
@@ -1144,7 +1179,7 @@
       "firstSeen": "2026-11-05T15:17:19+05:30",
       "publisher": "The Times of India",
       "kind": "answer-key",
-      "alsoIn": 22
+      "alsoIn": 23
     },
     {
       "id": "937f4a42e9d47e46",
@@ -1564,7 +1599,7 @@
       "firstSeen": "2026-11-03T15:26:47+05:30",
       "publisher": "Jagran Josh",
       "kind": "exam-date",
-      "alsoIn": 10
+      "alsoIn": 12
     },
     {
       "id": "8632c69031c36bde",
@@ -1636,7 +1671,7 @@
       "firstSeen": "2026-10-31T14:15:56+05:30",
       "publisher": "Jagran Josh",
       "kind": "notification",
-      "alsoIn": 6
+      "alsoIn": 7
     },
     {
       "id": "cd131c7f3cbf09be",
@@ -1828,7 +1863,7 @@
       "firstSeen": "2026-10-26T13:33:59+05:30",
       "publisher": "EdexLive",
       "kind": "notification",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "35c8768885fda087",
@@ -2176,7 +2211,7 @@
       "firstSeen": "2026-10-18T12:54:04+05:30",
       "publisher": "Moneycontrol.com",
       "kind": "notification",
-      "alsoIn": 23
+      "alsoIn": 24
     },
     {
       "id": "307f72dfb095c2e4",
@@ -2440,7 +2475,7 @@
       "firstSeen": "2026-11-06T15:15:28+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 13
+      "alsoIn": 14
     },
     {
       "id": "a12c8c03d6e37cfd",
@@ -2548,7 +2583,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "India Today",
       "kind": "admit-card",
-      "alsoIn": 58
+      "alsoIn": 59
     },
     {
       "id": "ad5c82470d7b07a0",
@@ -2619,6 +2654,18 @@
       "publishedAt": "2026-10-14",
       "firstSeen": "2026-11-04T15:15:32+05:30",
       "publisher": "EdexLive",
+      "kind": "notification",
+      "alsoIn": 1
+    },
+    {
+      "id": "7f153b727995d0f8",
+      "examId": "appsc-group1-2026",
+      "title": "APPSC Group 2 Notification 2026 Out at psc.ap.gov.in: Apply Online from 10 November; Check Eligibility Here",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQM3hRdE9ONGFoT2JHM2RhVktkanhFUEpHRUZ6SllPVm4yTjdHYms1Szl5aC00TUg1N1VYbXZSY3RKWnFCU2d3T2l2Rkc1TFlSRjRObmtYYWZqb1R4Z09EY013VWI2ZE05ekt2UGNaWmNncklmSWt0TWhUU3plcW9USGkxMEhpcWxkUFZsdUUxOGNJeUZXdFdxbDBMNXAzUW1HeWQ5RjNRckt0SGNCRzFZREFxSXhBTjlUeTRoWVQ3a0dreDhXR0Z5MWFkck1LVWhMY0NCNnhaR1LSAd8BQVVfeXFMUGxucm44bFZScEVJeG41cDI4OThybk5NeFFLRFAtRGNpREd5dkVzNllLTEFUakVWaW84QUd6dnppQmVIbkFXbVQ2Um1LdGFyckR5dHFQY1hwclR5MndfMVJmRFBJVzJENjR1OGZEei1ZdUc0RXN1RF9LUmg0emNyN01vNEtjZnFtN2M3SVY5Ry1vMmhkZWotUTFKc1lkVHVibVMzanpMczFwSjAzQ1l2dlRwblZ0Z3lvc3UwSG90NkdjSTVlSF9qQ1I4MXl1YWR0Si1jOUhoX3JZZWhiMUlvVQ?oc=5",
+      "source": "APPSC news (Google News)",
+      "publishedAt": "2026-10-14",
+      "firstSeen": "2026-11-26T16:54:23+05:30",
+      "publisher": "Jagran Josh",
       "kind": "notification",
       "alsoIn": 1
     },
@@ -2968,7 +3015,7 @@
       "firstSeen": "2026-10-15T12:00:19+05:30",
       "publisher": "KollegeApply News",
       "kind": "admit-card",
-      "alsoIn": 5
+      "alsoIn": 6
     },
     {
       "id": "a8f378a801a319cc",
@@ -2992,7 +3039,7 @@
       "firstSeen": "2026-11-20T15:52:38+05:30",
       "publisher": "Jagran Josh",
       "kind": "admit-card",
-      "alsoIn": 7
+      "alsoIn": 8
     },
     {
       "id": "03d8a245c14a9b55",
@@ -3794,42 +3841,6 @@
       "firstSeen": "2026-10-22T13:23:55+05:30",
       "publisher": "Adda247",
       "kind": "admit-card",
-      "alsoIn": 1
-    },
-    {
-      "id": "8290e8a0a06d8a11",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL Tier 1 Exam 2026 Rescheduled for Churachandpur, Manipur Candidates",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fSHdiVHN4YllOa001ZllTTGU3cHB0TjF3TTFyTDFOVWdDTnl3V2RSakdDd0s0WG9nZHVxQzBBOFFSSlpjSWtURTQ1T3hpMTRibXFsdEtGejBtd3FseXR6dC1Obmp5clM0NEppVEZoN0pTZw?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-26",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "Adda247",
-      "kind": "exam-date",
-      "alsoIn": 1
-    },
-    {
-      "id": "3784916d4b5f2e47",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC reduces CGL 2026 vacancies to 10,731 across ministries",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeEFTYjgyWjJDNWh6dGRBSXNpRTNxY3FyVEpjVzFJUk1wNklSYUxaU0JYaFYyUHhUM1d2ZjdpckZaVkdWOTBNNVdTWVpqSE5aQlItejJFQUhUUVY2cTJtM19pd3BTVEtFWVhfTm9uNWNEYzNOSTNLUXgxS2ZySWw0NUEzOHZVRVNVNGc0dXM1VlNEV3VuRWxxTEltN0JVMUtjckhqc3NrR25wN1hoLUdvbEU5a0ptWHd5S2ZpMEVMQVlOQjhad0pGc3VLcDc0MnPSAdQBQVVfeXFMT1lpQWNRTnVyZXJYdXBEUjVZa1pQX3hxNDdhUW9qbWFVZzVTd0Yxa3pOSHJYMGpvSEZnOGNQY09kcng5OWdDSTJPV2JYX2lRQ09qX3JJSmg5d1o3WUxfbnRLbFhncGdqVGFMQTk0LXZlLWJhbDBBOFpORFUzOGJaUllyM1dQa0pYZzFMY29pNjY0TjZCcFpTTjhkZGpkZl95bmVYX0MxSjM3d29KYkZ0R19UMktrZ1NlZndaZjNLMkg0Nk1wUTlqZjhpbG41VUpmSE1nWlg?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-26",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "The Times of India",
-      "kind": "notification",
-      "alsoIn": 1
-    },
-    {
-      "id": "0046a39767afb0bd",
-      "examId": "ssc-cgl-2026",
-      "title": "SSC CGL Vacancy 2026 घटकर 10,731 हुई, पोस्ट और कैटेगरी वाइज देखें पूरी डिटेल",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jZHMwYl9QWXVMVjJRVlUxdm56VW5UX3NDZW5GbW1aQ0Q0X0VLTnFaS0ppMi1iVXJadGwwS1pHRTZ6bEtsM2J6UmVkeUNDeHhHZVY3TDdZa09rUF92WjhkQV91ekR6Vml6OU1YczBlcWNfdkhMTnFR?oc=5",
-      "source": "SSC news (Google News)",
-      "publishedAt": "2026-09-26",
-      "firstSeen": "2026-10-15T03:42:48+05:30",
-      "publisher": "PW",
-      "kind": "notification",
       "alsoIn": 1
     }
   ]
