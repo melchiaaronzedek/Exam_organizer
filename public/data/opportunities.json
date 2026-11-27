@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-26T16:56:20+05:30",
+  "discoveredAt": "2026-11-27T16:51:16+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4035,6 +4035,103 @@
     }
   ],
   "discovered": [
+    {
+      "id": "44832ef4c617be18",
+      "org": "CHTI Administrative Officer",
+      "post": "CHTI Administrative Officer – Apply Offline - FreeJobAlert.Com",
+      "title": "CHTI Administrative Officer Recruitment 2026 – Apply Offline - FreeJobAlert.Com",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU3c0QmtoNG5BdV9KcmJzcUlTUEUzNXFoY1VxODhjbThsWF9XVm5WVWRTQ05KREp5cDJ2dUg2ZHRKMUx6UnFpWDcwcDYxaFczQUZLM1hiVnRjaTd2V3dfY0pzanpkNkFaMFRkZldhRVd4UG83LUsxQnlsSHRZRm9yTWhHaEZRc3QtZ3VlSUEwcXdqUVQ3cW5lNllvM0MtV0hjdnNvLS1mNA?oc=5",
+      "source": "News · administrative officer",
+      "sourceType": "news",
+      "fit": 40,
+      "fitWhy": [
+        "role: administrative officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-26",
+      "firstSeen": "2026-11-27T16:51:16+05:30",
+      "curated": false
+    },
+    {
+      "id": "280e93a3f06a7e2c",
+      "org": "DVC Executive Trainee",
+      "post": "DVC Executive Trainee – 108 - FreeJobAlert.Com",
+      "title": "DVC Executive Trainee Recruitment 2026 – Apply Online for 108 Posts - FreeJobAlert.Com",
+      "track": "marketing",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUG1iTFhjdlNMQ2g2aW9XRjVPME1kMUlXeXh0TmVSYTBmbHJ0djMyWFJOVUp3ZUlKZ0FjU0NlSklhVVFKejJlOVZGTzc1ci1LZUo1bHJ6Yl9NMy1Wa3ZXajVKTTdLV3FQb1lWNTdJU285ZHI3cDZRY2FNcE1iNlh0MnBmZFd3ZjlmbVpkMA?oc=5",
+      "source": "News · executive trainee MBA PSU",
+      "sourceType": "news",
+      "fit": 40,
+      "fitWhy": [
+        "role: marketing"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-06",
+      "firstSeen": "2026-11-27T16:51:16+05:30",
+      "curated": false
+    },
+    {
+      "id": "a9224187563c5b5c",
+      "org": "BHEL",
+      "post": "BHEL – 11 Part Time Medical Consultant, GDMO and More",
+      "title": "BHEL Recruitment 2026 – Apply Online for 11 Part Time Medical Consultant, GDMO and More Posts",
+      "track": "general",
+      "sector": "psu",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/bhel-recruitment-2026-part-time-medical-consultant-gdmo-3085328",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 55,
+      "fitWhy": [
+        "role: consultant",
+        "psu"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-27",
+      "firstSeen": "2026-11-27T16:51:16+05:30",
+      "curated": false
+    },
+    {
+      "id": "363b2329bd23b01f",
+      "org": "S-VYASA",
+      "post": "S-VYASA – 2 Section Officer, Senior Assistant",
+      "title": "S-VYASA Recruitment 2026 – Apply Online for 2 Section Officer, Senior Assistant Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/s-vyasa-recruitment-2026-section-officer-senior-assistant-3084990",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-27",
+      "firstSeen": "2026-11-27T16:51:16+05:30",
+      "curated": false
+    },
     {
       "id": "cb5735cdc519f9fc",
       "org": "IIM",
@@ -10249,7 +10346,7 @@
       "summary": null,
       "id": "portal-084617f13573",
       "firstSeen": "2026-11-26T16:56:39+05:30",
-      "lastSeen": "2026-11-26T16:56:39+05:30"
+      "lastSeen": "2026-11-27T16:51:36+05:30"
     },
     {
       "org": "The Muthoot Group",
@@ -10301,7 +10398,7 @@
       "summary": "This job is provided by apna.co Key responsibilitiesDrive gold loan business acquisition and achieve assigned business targets. Support customer sourcing, lead generation, field activities, and business development. Manage customer relationships and ensure quality customer service. Drive collection follow-ups, overdue",
       "id": "portal-4be3f151b5cd",
       "firstSeen": "2026-11-26T16:56:39+05:30",
-      "lastSeen": "2026-11-26T16:56:39+05:30"
+      "lastSeen": "2026-11-27T16:51:36+05:30"
     },
     {
       "org": "Marriott International",
@@ -10449,7 +10546,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-11-20T15:54:37+05:30",
-      "lastSeen": "2026-11-26T16:56:39+05:30"
+      "lastSeen": "2026-11-27T16:51:36+05:30"
     },
     {
       "org": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
@@ -10645,7 +10742,7 @@
       "summary": null,
       "id": "portal-7e29a8f427a8",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-26T16:56:39+05:30"
+      "lastSeen": "2026-11-27T16:51:36+05:30"
     },
     {
       "org": "Wipro Limited",
@@ -10792,7 +10889,7 @@
       "lastSeen": "2026-11-15T15:20:32+05:30"
     }
   ],
-  "portalAt": "2026-11-26T16:56:39+05:30",
+  "portalAt": "2026-11-27T16:51:36+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -10807,13 +10904,13 @@
     },
     {
       "name": "Glassdoor",
-      "ok": false,
-      "fetched": 0,
-      "errors": 2,
-      "error": "blocked (reader: no job links)",
-      "state": "blocked",
-      "reason": "reader: no job links",
-      "scanned": 0
+      "ok": true,
+      "fetched": 30,
+      "errors": 1,
+      "error": "blocked (cloudflare: just a moment)",
+      "state": "partial",
+      "reason": "some queries failed",
+      "scanned": 30
     },
     {
       "name": "Naukri",
@@ -10828,32 +10925,32 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 335,
+      "fetched": 321,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 335
+      "scanned": 321
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 354,
+      "fetched": 360,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 354
+      "scanned": 360
     },
     {
       "name": "LinkedIn",
       "ok": true,
-      "fetched": 60,
-      "errors": 4,
+      "fetched": 90,
+      "errors": 1,
       "error": "429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keyw",
       "state": "partial",
       "reason": "some queries failed",
-      "scanned": 60
+      "scanned": 90
     },
     {
       "name": "Internshala",
@@ -10879,7 +10976,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 6,
+      "errors": 8,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",
