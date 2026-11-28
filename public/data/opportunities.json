@@ -1,6 +1,6 @@
 {
   "curatedAt": "2026-10-14",
-  "discoveredAt": "2026-11-27T16:51:16+05:30",
+  "discoveredAt": "2026-11-28T16:19:40+05:30",
   "curated": [
     {
       "id": "cur-5cc3693d3d",
@@ -4035,6 +4035,151 @@
     }
   ],
   "discovered": [
+    {
+      "id": "cd5a7a43dc6faaa9",
+      "org": "Shubhi",
+      "post": "Shubhi Sharma Ganesh appointed Chief Marketing Officer at IndusInd Securities - MediaBrief",
+      "title": "Shubhi Sharma Ganesh appointed Chief Marketing Officer at IndusInd Securities - MediaBrief",
+      "track": "marketing",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeHlsOTg1dDkteG1MYkRsc09jVllMXzVWMmVLZmtMNW9BcDB6QVVXSkpid3drTlNWNkZ2WHZRU3ZUNVVpYlViTjQyWWZGZFZfUWFZNGJaVTFsX2p6YTM0X19oREs3R2tLVHlzQ0FfSFpFNjc3blJud2o0a2N6QWJfNkJ2LVkxbmo1bXpQQ25paW94YlJ6LXBUV09pZU5tdEo5WXc0?oc=5",
+      "source": "News · marketing officer PSU",
+      "sourceType": "news",
+      "fit": 40,
+      "fitWhy": [
+        "role: marketing officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-28",
+      "firstSeen": "2026-11-28T16:19:40+05:30",
+      "curated": false
+    },
+    {
+      "id": "1981d803716f7d2f",
+      "org": "IBPS",
+      "post": "IBPS Exam Date Server Administrator, Assistant and Programming Assistant - Adda247",
+      "title": "IBPS Exam Date 2026 for Server Administrator, Assistant and Programming Assistant Posts - Adda247",
+      "track": "marketing",
+      "sector": "bank",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZeHRqV3o3dmZ6N3g5ZEhicGNqQVNmMWVTT2I3Vm95bDY5M3FHTGNwZWdBVjRGemJpbjIxYlNzS1k4WmhGNDlrbmxpSEtUQ0s1cFhoUGpQcnIxcl9GQWZCei1VRzVNQ0N5?oc=5",
+      "source": "News · marketing officer PSU",
+      "sourceType": "news",
+      "fit": 55,
+      "fitWhy": [
+        "role: marketing",
+        "bank"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-25",
+      "firstSeen": "2026-11-28T16:19:40+05:30",
+      "curated": false
+    },
+    {
+      "id": "272435676590dd71",
+      "org": "TISS",
+      "post": "TISS – 3 Research Officer, Research Interns",
+      "title": "TISS Recruitment 2026 – Apply Online for 3 Research Officer, Research Interns Posts",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/tiss-recruitment-2026-research-interns-research-officer-3085501",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-28",
+      "firstSeen": "2026-11-28T16:19:40+05:30",
+      "curated": false
+    },
+    {
+      "id": "3a606e4e25891b0c",
+      "org": "IICA",
+      "post": "IICA Consultant- Assistant Librarian",
+      "title": "IICA Consultant- Assistant Librarian Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/iica-consultant-assistant-librarian-recruitment-2026-3085507",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-28",
+      "firstSeen": "2026-11-28T16:19:40+05:30",
+      "curated": false
+    },
+    {
+      "id": "e4f6508ae55661fc",
+      "org": "ASAP",
+      "post": "ASAP Kerala Assistant Engineering Consultant",
+      "title": "ASAP Kerala Assistant Engineering Consultant Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/asap-kerala-assistant-engineering-consultant-recruitment-2026-3085515",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: consultant"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-28",
+      "firstSeen": "2026-11-28T16:19:40+05:30",
+      "curated": false
+    },
+    {
+      "id": "f8df504da7d03c80",
+      "org": "CMAML Chief Operating Officer",
+      "post": "CMAML Chief Operating Officer",
+      "title": "CMAML Chief Operating Officer Recruitment 2026 – Apply Online",
+      "track": "general",
+      "sector": "",
+      "eligibility": "",
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "locations": [],
+      "link": "https://www.freejobalert.com/articles/cmaml-chief-operating-officer-coo-recruitment-2026-3085517",
+      "source": "FreeJobAlert feed",
+      "sourceType": "aggregator",
+      "fit": 40,
+      "fitWhy": [
+        "role: officer"
+      ],
+      "status": "open",
+      "publishedAt": "2026-11-28",
+      "firstSeen": "2026-11-28T16:19:40+05:30",
+      "curated": false
+    },
     {
       "id": "44832ef4c617be18",
       "org": "CHTI Administrative Officer",
@@ -10202,6 +10347,55 @@
       "lastSeen": "2026-11-18T16:10:03+05:30"
     },
     {
+      "org": "Staunch Jobs",
+      "post": "Working Capital Analyst",
+      "title": "Working Capital Analyst",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says 0 Yrs",
+      "experienceText": "0 Yrs",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says 0 Yrs",
+      "checkedVia": null,
+      "pay": "₹7–12 LPA",
+      "payLakh": 7.0,
+      "payMinLakh": 7.0,
+      "payMaxLakh": 12.0,
+      "payStated": true,
+      "trust": "unverified",
+      "trustWhy": null,
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Pondicherry",
+        "Chennai",
+        "Vijayawada"
+      ],
+      "link": "https://www.shine.com/jobs/working-capital-analyst/staunch-jobs/20162280",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 45,
+      "fitWhy": [
+        "private",
+        "South / all-India",
+        "pay ₹7–12 LPA",
+        "employer not in the known list",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-86508bc8f443",
+      "firstSeen": "2026-11-28T16:19:59+05:30",
+      "lastSeen": "2026-11-28T16:19:59+05:30"
+    },
+    {
       "org": "Shree Balaji Employment Services Pvt. Ltd",
       "post": "Business Analyst - Digital Business Analyst, BRD Creation, Wireframing",
       "title": "Business Analyst - Digital Business Analyst, BRD Creation, Wireframing",
@@ -10300,6 +10494,52 @@
       "lastSeen": "2026-11-23T16:39:57+05:30"
     },
     {
+      "org": "Aditya Birla Group",
+      "post": "Sales Trainee - Collections - Retail Telecollections - Chandigarh",
+      "title": "Sales Trainee - Collections - Retail Telecollections - Chandigarh",
+      "sector": "private",
+      "track": "private",
+      "eligibility": "Fresher OK — the listing says 0 to 4 Yrs",
+      "experienceText": "0 to 4 Yrs",
+      "experienceMinYears": 0.0,
+      "experienceSource": "listing",
+      "experienceNote": "Fresher OK — the listing says 0 to 4 Yrs",
+      "checkedVia": null,
+      "pay": null,
+      "payLakh": null,
+      "payMinLakh": null,
+      "payMaxLakh": null,
+      "payStated": false,
+      "trust": "verified",
+      "trustWhy": "aditya birla",
+      "website": null,
+      "checked": false,
+      "locations": [
+        "Chandigarh"
+      ],
+      "link": "https://www.shine.com/jobs/sales-trainee-collections-retail-telecollections-chandigarh/aditya-birla-group/20155504",
+      "source": "Shine",
+      "sourceType": "portal",
+      "fit": 10,
+      "fitWhy": [
+        "private",
+        "pay not listed",
+        "verified employer",
+        "fresher OK"
+      ],
+      "status": "open",
+      "postedAt": null,
+      "applyCloses": null,
+      "examDate": null,
+      "examDateType": "tba",
+      "curated": false,
+      "kind": "portal",
+      "summary": null,
+      "id": "portal-ae94c68590cf",
+      "firstSeen": "2026-11-28T16:19:59+05:30",
+      "lastSeen": "2026-11-28T16:19:59+05:30"
+    },
+    {
       "org": "DP World",
       "post": "Management Trainee - People Generalist - Global Service Centre",
       "title": "Management Trainee - People Generalist - Global Service Centre",
@@ -10346,7 +10586,7 @@
       "summary": null,
       "id": "portal-084617f13573",
       "firstSeen": "2026-11-26T16:56:39+05:30",
-      "lastSeen": "2026-11-27T16:51:36+05:30"
+      "lastSeen": "2026-11-28T16:19:59+05:30"
     },
     {
       "org": "The Muthoot Group",
@@ -10398,7 +10638,7 @@
       "summary": "This job is provided by apna.co Key responsibilitiesDrive gold loan business acquisition and achieve assigned business targets. Support customer sourcing, lead generation, field activities, and business development. Manage customer relationships and ensure quality customer service. Drive collection follow-ups, overdue",
       "id": "portal-4be3f151b5cd",
       "firstSeen": "2026-11-26T16:56:39+05:30",
-      "lastSeen": "2026-11-27T16:51:36+05:30"
+      "lastSeen": "2026-11-28T16:19:59+05:30"
     },
     {
       "org": "Marriott International",
@@ -10546,7 +10786,7 @@
       "summary": null,
       "id": "portal-ff31c8e8a5e7",
       "firstSeen": "2026-11-20T15:54:37+05:30",
-      "lastSeen": "2026-11-27T16:51:36+05:30"
+      "lastSeen": "2026-11-28T16:19:59+05:30"
     },
     {
       "org": "ReBIT | Reserve Bank Information Technology Pvt. Ltd.",
@@ -10742,7 +10982,7 @@
       "summary": null,
       "id": "portal-7e29a8f427a8",
       "firstSeen": "2026-11-15T15:20:32+05:30",
-      "lastSeen": "2026-11-27T16:51:36+05:30"
+      "lastSeen": "2026-11-28T16:19:59+05:30"
     },
     {
       "org": "Wipro Limited",
@@ -10889,7 +11129,7 @@
       "lastSeen": "2026-11-15T15:20:32+05:30"
     }
   ],
-  "portalAt": "2026-11-27T16:51:36+05:30",
+  "portalAt": "2026-11-28T16:19:59+05:30",
   "portalBaseline": false,
   "portalStatus": [
     {
@@ -10907,7 +11147,7 @@
       "ok": true,
       "fetched": 30,
       "errors": 1,
-      "error": "blocked (cloudflare: just a moment)",
+      "error": "blocked (reader: no job links)",
       "state": "partial",
       "reason": "some queries failed",
       "scanned": 30
@@ -10916,7 +11156,7 @@
       "name": "Naukri",
       "ok": false,
       "fetched": 0,
-      "errors": 7,
+      "errors": 5,
       "error": "blocked (recaptcha) — 406 Client Error: Not Acceptable for url: https://www.naukri",
       "state": "blocked",
       "reason": "recaptcha",
@@ -10925,32 +11165,32 @@
     {
       "name": "Foundit",
       "ok": true,
-      "fetched": 321,
+      "fetched": 313,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 321
+      "scanned": 313
     },
     {
       "name": "Unstop",
       "ok": true,
-      "fetched": 360,
+      "fetched": 356,
       "errors": 0,
       "error": null,
       "state": "ok",
       "reason": null,
-      "scanned": 360
+      "scanned": 356
     },
     {
       "name": "LinkedIn",
       "ok": true,
-      "fetched": 90,
-      "errors": 1,
+      "fetched": 80,
+      "errors": 2,
       "error": "429 Client Error: Too Many Requests for url: https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keyw",
       "state": "partial",
       "reason": "some queries failed",
-      "scanned": 90
+      "scanned": 80
     },
     {
       "name": "Internshala",
@@ -10976,7 +11216,7 @@
       "name": "TimesJobs",
       "ok": false,
       "fetched": 0,
-      "errors": 8,
+      "errors": 7,
       "error": "blocked (listing loads client-side)",
       "state": "blocked",
       "reason": "listing loads client-sid",
